@@ -9,6 +9,17 @@
   }
 }
 
+@if $enable-grid-classes {
+  .containerTop {
+    @include make-container();
+    @include make-container-max-widths();
+    position: relative;
+    padding: 25px;
+    width: 90%;
+    background-color: rgba(215, 241, 254, 0.65);
+  }
+}
+
 // Fluid container
 //
 // Utilizes the mixin meant for fixed width containers, but with 100% width for
@@ -31,6 +42,11 @@
 
   // Remove the negative margin from default .row, then the horizontal padding
   // from all immediate children columns (to prevent runaway style inheritance).
+  .row2 {
+    @include make-row();
+    background-color: rgba(215, 241, 254, 0.5);
+    }
+  
   .no-gutters {
     margin-right: 0;
     margin-left: 0;

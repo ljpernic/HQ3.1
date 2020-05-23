@@ -1,17 +1,32 @@
 [
   {
-    "title": "Free Consultation",
+    "title": "Issue 3 (December 2020)",
     "description": "New clients recieve an obligation free consultation.",
-    "image": "/features/noun_branding_1885335.svg"
+    "image": "/features/Cover01.png"
   },
   {
-    "title": "Certified Accountants",
+    "title": "Issue 2 (September 2020)",
     "description": "All members of our team are certified accountants.",
-    "image": "/features/noun_The Process_1885341.svg"
+    "image": "/features/Cover02.png"
   },
   {
-    "title": "Tax Compliance",
+    "title": "Issue 1 (June 2020)",
     "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/features/noun_3d modeling_1885342.svg"
+    "image": "/features/Cover03.png"
+  },
+  {
+    "title": "Issue 4 (December 2020)",
+    "description": "clients recieve an obligation free consultation.",
+    "image": "/features/Cover04.png"
+  },
+  {
+    "title": "Issue 5 (September 2020)",
+    "description": "members of our team are certified accountants.",
+    "image": "/features/Cover05.png"
+  },
+  {
+    "title": "Issue 6 (June 2020)",
+    "description": "stay up to date on the latest changes to the tax code.",
+    "image": "/features/Cover06.png"
   }
 ]

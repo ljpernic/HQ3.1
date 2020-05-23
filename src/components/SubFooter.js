@@ -9,20 +9,21 @@ const SubFooter = props => (
           <div className="sub-footer">
             <ul>
               <li>
-                <strong>Phone: </strong>
-                {props.data.site.siteMetadata.contact.phone}
+                <strong>About: </strong>
+                  <a href={"/about"}>
+                    Our Mission
+                  </a>
               </li>
               <li>
-                <strong>Email: </strong>
-{' '}
-                <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
-                  {props.data.site.siteMetadata.contact.email}
-                </a>
+                <strong>Support: </strong>
+                  <a href={"/support"}>
+                    Good Fiction
+                  </a>            
               </li>
             </ul>
             <ul>
               <li>
-                <a href="https://www.zerostatic.io">www.zerostatic.io</a>
+                <a href="https://www.HavenQuarterly.com">www.HavenQuarterly.com</a>
               </li>
             </ul>
           </div>

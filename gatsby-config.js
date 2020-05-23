@@ -10,20 +10,28 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'Services',
-        link: '/services',
+        name: 'Full Issues',
+        link: '/fullissues',
       },
       {
-        name: 'Team',
-        link: '/team',
+        name: 'Fiction',
+        link: '/fiction',
       },
       {
-        name: 'Testimonials',
-        link: '/testimonials',
+        name: 'Non-fiction',
+        link: '/non-fiction',
       },
       {
-        name: 'Contact',
-        link: '/contact',
+        name: 'Letters from the Future',
+        link: '/future',
+      },
+      {
+        name: 'Art and Covers',
+        link: '/artandcovers',
+      },
+      {
+        name: 'Contributors',
+        link: '/contributors',
       },
     ],
   },
