@@ -14,9 +14,9 @@
     @include make-container();
     @include make-container-max-widths();
     position: relative;
-    padding: 25px;
+    padding: 25px 50px;
     width: 90%;
-    background-color: rgba(215, 241, 254, 0.65);
+
   }
 }
 

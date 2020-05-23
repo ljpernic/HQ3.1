@@ -20,6 +20,7 @@
   h1 {
     color: $primary;
     text-align: center;
+    margin: auto;
     font-size: 2.4rem;
     line-height: 1.2;
     font-family: $font-family-heading;
@@ -37,19 +38,19 @@
     }
   }
   p {
-    width: 90%;
+    width: 100%;
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
     @include media-breakpoint-up(sm) {
-      width: 90%;
+      width: 100%;
     }
     @include media-breakpoint-up(md) {
-      width: 90%;
+      width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      width: 90%;
+      width: 100%;
     }
   }
 }
@@ -76,18 +77,25 @@
   outline: 3px solid black;
 }
 .grid-container {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+
   display: grid;
 //  background-color: #2196F3;
-  padding: 5px;
+  width: 100%;
 }
 .grid-container > div {
-//  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(215, 241, 254, 0.7);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
   text-align: center;
-  padding: 0px 0px;
   font-size: 30px;
 }
 .wide {
   grid-column: 1 / span 1;
+  box-sizing: content-box;
 }
 .thin {
   grid-column: 2 / span 2;

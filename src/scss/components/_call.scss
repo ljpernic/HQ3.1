@@ -3,20 +3,20 @@
   overflow: hidden;
   left: 40px;                                                           /*This is temporary while we figure out while this box's padding is weird*/
   background-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   width: 90%;
   color: $secondary;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   @include media-breakpoint-up(sm) {
     align-items: center;
     flex-direction: row;
-    width: 90%;
+    width: 175%;
   }
   @include media-breakpoint-up(md) {
-    width: 90%;
+    width: 175%;
   }
   @include media-breakpoint-up(lg) {
     width: 90%;
