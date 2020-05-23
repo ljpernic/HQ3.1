@@ -29,7 +29,7 @@
     }
   }
   .call-box-bottom {
-    flex: 0 0 auto;
+    flex: auto;
     padding: 25px 25px 25px 25px;
     @include media-breakpoint-up(sm) {
       padding: 25px;
