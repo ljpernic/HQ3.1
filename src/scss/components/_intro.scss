@@ -19,9 +19,54 @@
   }
   h1 {
     color: $primary;
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      font-size: 1.5rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+      width: 90%;
+    }
+  }
+  h2 {
+    color: $secondary;
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.6;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      font-size: .8rem;
+      padding: 10px 0px 0px 0px;
+      text-align: center;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
+  h3 {
+    color: $primary;
     text-align: center;
     margin: auto;
-    font-size: 2.4rem;
+    padding: 0px 00px 0px 0px;
+    font-size: 3rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
@@ -149,6 +194,7 @@
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
+      font-size: 1.5rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -169,6 +215,9 @@
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
+      font-size: .8rem;
+      padding: 10px 0px 0px 0px;
+      text-align: center;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -211,28 +260,29 @@ hr {
   margin: auto; 
   margin-top: 1%; 
   margin-bottom: 2.5%; 
-  border: 1px dashed $primary;
-  opacity: 25%; 
+  border: 1px dotted $primary;
+  opacity: 50%; 
 }
 
-.post-title { 
-  grid-area: title; 
-}
+
+
 .post-author { grid-area: author; }
-.post-issue { 
-  grid-area: issue; 
-  text-align: right;
-}
-.post-excerpt { 
-  grid-area: excerpt;
-  text-align: justify; 
-}
 .post-cover {
   grid-area: cover;
   text-align: center;
   padding: 0px;
 }
-
+.post-excerpt { 
+  grid-area: excerpt;
+  text-align: justify; 
+}
+.post-issue { 
+  grid-area: issue; 
+  text-align: right;
+}
+.post-title { 
+  grid-area: title; 
+}
 .post-grid-container {
   display: grid;
   grid-template-columns: 200px auto auto auto;
@@ -250,10 +300,14 @@ hr {
 //  background-color: rgba(215, 241, 254, 0.7);
 }
 
+
+.thin {
+  grid-column: 2 / span 2;
+  @include media-breakpoint-up(sm) {
+    width: 90%;
+  }
+}
 .wide {
   grid-column: 1 / span 1;
   box-sizing: content-box;
-}
-.thin {
-  grid-column: 2 / span 2;
 }

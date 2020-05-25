@@ -13,10 +13,10 @@
   @include media-breakpoint-up(sm) {
     align-items: center;
     flex-direction: row;
-    width: 175%;
+    width: 90%;
   }
   @include media-breakpoint-up(md) {
-    width: 175%;
+    width: 90%;
   }
   @include media-breakpoint-up(lg) {
     width: 90%;

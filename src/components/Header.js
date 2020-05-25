@@ -5,6 +5,7 @@ import Hamburger from './Hamburger';
 import logo from '../images/logo.svg';                        /*Have to change to an SVG of Haven Quarterly */
 import logoMobile from '../images/logo-mobile.svg';
 import MenuMobile from './MenuMobile';
+import Image from "gatsby-image";
 
 class Header extends React.Component {
   constructor(props) {

@@ -26,11 +26,15 @@ const Home = (props) => {
             <div className="wide">   
               <div className="containerTop">
                 <Link to="/">
-                  <h1>Featured Story</h1>
+                  <h3>Featured Story</h3>
                 </Link>
+                <hr />
+                <Link to="/">
+                  <h1>Eating Cheese for Fun and Profit</h1>
+                </Link>
+                <h2>By  <Link to="/"> Cheesy Susan the Cheesinator</Link> in  <Link to="/"> Issue One, Summer 2020</Link></h2>
                 <p>
-                  Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-                  is a beautiful and artfully designed starting theme.
+                  All hail the prophet of cheese, the lord our Gouda, may he reign a thousand years... 
                 </p>
                 <p>
                   Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
@@ -41,7 +45,7 @@ const Home = (props) => {
             </div>
             <div className="thin">
               <Link to={`/`}>  
-                <img class="top-image" src={require("./CurrentCover.png")} alt="Current Cover" />
+                <img class="top-image" src={require("./CurrentCover.png")} alt="Current Cover" />               {/*How to use Gatsby-image here?*/}
               </Link>
             </div>
           </div> 
@@ -67,7 +71,7 @@ const Home = (props) => {
                       <Image className="inlineimage"
                         fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
                       />
-                      <h1>
+                      <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
@@ -86,10 +90,14 @@ const Home = (props) => {
       </div>
     </div>
 
+    <div className="postbody">
       <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-center">
+        <div className="row2 justify-content-start">
           <div className="col-12">
-            <h2 className="title-3 text-dark mb-4">Most Recent Issues</h2>
+          <Link to="/">
+                <h3>Latest Stories</h3>
+            </Link>
+            <hr />
           </div>
           {json.map(edge => (
             <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
@@ -108,6 +116,7 @@ const Home = (props) => {
           ))}
         </div>
       </div>
+    </div>
     </Layout>
   );
 };
