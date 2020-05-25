@@ -76,12 +76,12 @@ const Home = (props) => {
                   </div>
                 )
               })}
+              <div className="col-12 text-center pb-3">
+                <Link className="button button-primary" to="/services">
+                  View All Stories
+                </Link>
+              </div>
             </div>
-          <div className="col-12 text-center">
-            <Link className="button button-primary mt-2" to="/services">
-              View All Stories
-            </Link>
-          </div>
         </div>
       </div>
     </div>

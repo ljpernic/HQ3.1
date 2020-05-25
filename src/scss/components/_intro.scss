@@ -204,6 +204,7 @@
 }
 
 .striped-border { 
+  position: relative;
   border: 1px dashed $primary;
   opacity: 25%; 
   width: 50%; 
