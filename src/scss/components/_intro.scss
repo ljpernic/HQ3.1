@@ -63,7 +63,7 @@
   width: 80px;
   height: 80px;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .top-image {
@@ -77,8 +77,10 @@
   outline: 3px solid black;
 }
 .inlineimage {
-  display: flex
-  text-align= center;
+  float: left;
+  margin: 10px 35px;
+  width: 200px;
+  text-align: center;
   border: 2px solid black;
 }
 
@@ -126,7 +128,7 @@
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
-    padding: 10px 60px 0px 0px;
+    padding: 10px 60px 10px 60px;
 
     @include media-breakpoint-up(sm) {
       width: 100%;
@@ -231,7 +233,7 @@
 
 .post-grid-container {
   display: grid;
-  grid-template-columns: 250px auto auto auto;
+  grid-template-columns: 200px auto auto auto;
   grid-template-areas:
     'cover title title title title title'
     'cover author author author author author'

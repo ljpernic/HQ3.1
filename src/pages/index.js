@@ -55,7 +55,7 @@ const Home = (props) => {
             <Link to="/">
                 <h3>Latest Stories</h3>
             </Link>
-            <hr className="striped-border"></hr>
+            <hr className="striped-border" />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
@@ -63,24 +63,16 @@ const Home = (props) => {
               .filter(post => post.node.frontmatter.title.length > 0)
               .map(({ node: post }) => {
                 return (
-                  <div className="post-grid-container" key={post.id}>
-                    <div className="post-cover">
+                  <div className="container" key={post.id}>
                       <Image className="inlineimage"
                         fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
                       />
-                    </div>  
-                    <div className="post-title">
                       <h1>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                    </div>
-                    <div className="post-author">
                       <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
-                    </div>
-                    <div className="post-excerpt">
                       <p>{post.excerpt}</p>
-                      <hr className="striped-border"></hr>
-                    </div>
+                      <hr className="striped-border" />
                   </div>
                 )
               })}
@@ -137,7 +129,7 @@ export const query = graphql`
             date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {
-                fixed(width: 250, height: 150) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                fixed(width: 200, height: 150) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed
                 }
               }
