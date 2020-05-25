@@ -76,6 +76,13 @@
   border: 6px solid white;
   outline: 3px solid black;
 }
+.inlineimage {
+  display: flex
+  text-align= center;
+  border: 2px solid black;
+}
+
+
 .grid-container {
   box-sizing: content-box;
   margin: 0px;
@@ -93,6 +100,151 @@
   text-align: center;
   font-size: 30px;
 }
+
+.postbody {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: center;
+  padding-top:0px;
+  padding-bottom: 0px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 00px;
+    padding-bottom: 0px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.6;
+    color: $secondary;
+    padding: 10px 60px 0px 0px;
+
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+    }
+  }
+  h1 {
+    color: $primary;
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+      width: 90%;
+    }
+  }
+  h2 {
+    color: $secondary;
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.6;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
+  h3 {
+    color: $primary;
+    text-align: center;
+    margin: auto;
+    padding: 30px 20px 0px 20px;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+      width: 90%;
+    }
+  }
+}
+
+.striped-border { 
+  border: 1px dashed $primary;
+  opacity: 25%; 
+  width: 50%; 
+  margin: auto; 
+  margin-top: 1%; 
+  margin-bottom: 2.5%; 
+}
+
+.post-title { 
+  grid-area: title; 
+}
+.post-author { grid-area: author; }
+.post-issue { 
+  grid-area: issue; 
+  text-align: right;
+}
+.post-excerpt { 
+  grid-area: excerpt;
+  text-align: justify; 
+}
+.post-cover {
+  grid-area: cover;
+  text-align: center;
+  padding: 0px;
+}
+
+.post-grid-container {
+  display: grid;
+  grid-template-columns: 250px auto auto auto;
+  grid-template-areas:
+    'cover title title title title title'
+    'cover author author author author author'
+    'excerpt excerpt excerpt excerpt excerpt excerpt';
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+//  background-color: #2196F3;
+  padding-left: 60px;
+}
+
+.post-grid-container > div {
+//  background-color: rgba(215, 241, 254, 0.7);
+}
+
 .wide {
   grid-column: 1 / span 1;
   box-sizing: content-box;

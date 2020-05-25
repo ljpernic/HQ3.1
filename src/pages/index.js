@@ -1,12 +1,15 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
+import Image from "gatsby-image";
 import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Call from '../components/Call';
+import styled from "styled-components";
+
 
 const Home = (props) => {
-  const markdown = props.data.allMarkdownRemark.edges;
+  const { edges: posts } = props.data.allMarkdownRemark;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
@@ -45,33 +48,54 @@ const Home = (props) => {
         </div>
       </div>
 
+    <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <h2 className="title-3 text-dark mb-3">Latest Stories</h2>
+            <Link to="/">
+                <h3>Latest Stories</h3>
+            </Link>
+            <hr className="striped-border"></hr>
           </div>
-          {markdown.map(edge => (
-            <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
-              <div className="card service service-teaser">
-                <div className="card-content">
-                  <h2>
-                    <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
-                  </h2>
-                  <p>{edge.node.excerpt}</p>
-                </div>
-              </div>
+                                                                                      {/*this is where the blog stuff should go for stories getting posted*/}
+          <div className="container">
+            {posts
+              .filter(post => post.node.frontmatter.title.length > 0)
+              .map(({ node: post }) => {
+                return (
+                  <div className="post-grid-container" key={post.id}>
+                    <div className="post-cover">
+                      <Image className="inlineimage"
+                        fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
+                      />
+                    </div>  
+                    <div className="post-title">
+                      <h1>
+                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                      </h1>
+                    </div>
+                    <div className="post-author">
+                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                    </div>
+                    <div className="post-excerpt">
+                      <p>{post.excerpt}</p>
+                      <hr className="striped-border"></hr>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
-          ))}
           <div className="col-12 text-center">
             <Link className="button button-primary mt-2" to="/services">
-              View All Services
+              View All Stories
             </Link>
           </div>
         </div>
       </div>
+    </div>
 
       <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row justify-content-center">
+        <div className="row2 justify-content-center">
           <div className="col-12">
             <h2 className="title-3 text-dark mb-4">Most Recent Issues</h2>
           </div>
@@ -99,7 +123,7 @@ const Home = (props) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/services/" } }
+      filter: { fileAbsolutePath: { regex: "/(newposts)/.*.md$/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -108,9 +132,18 @@ export const query = graphql`
           frontmatter {
             path
             title
+            author
+            issue
             date(formatString: "DD MMMM YYYY")
+            cover {
+              childImageSharp {
+                fixed(width: 250, height: 150) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }            
           }
-          excerpt
+          excerpt(pruneLength: 500)
         }
       }
     }
@@ -124,6 +157,7 @@ export const query = graphql`
         }
       }
     }
+    
   }
 `;
 

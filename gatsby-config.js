@@ -42,11 +42,19 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name: 'posts',
       },
     },
     {
@@ -61,6 +69,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: 'images',
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [], 
       },
     },
     {

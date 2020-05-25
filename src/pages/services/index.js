@@ -10,7 +10,7 @@ const Services = (props) => {
       <SEO title="Services" />
       <div className="intro">
         <div className="container">
-          <div className="row">
+          <div className="row2">
             <div className="col-12">
               <h1>Latest Stories</h1>
             </div>
@@ -19,7 +19,7 @@ const Services = (props) => {
       </div>
 
       <div className="container pb-6">
-        <div className="row">
+        <div className="row2">
           {services.map(edge => (
             <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
               <div className="card service service-teaser">
