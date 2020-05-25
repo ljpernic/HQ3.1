@@ -55,7 +55,7 @@ const Home = (props) => {
             <Link to="/">
                 <h3>Latest Stories</h3>
             </Link>
-            <hr className="striped-border" />
+            <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
@@ -72,7 +72,7 @@ const Home = (props) => {
                       </h1>
                       <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
-                      <hr className="striped-border" />
+                      <hr />
                   </div>
                 )
               })}
