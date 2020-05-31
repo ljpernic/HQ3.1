@@ -21,7 +21,7 @@ const Home = (props) => {                                                     //
         />
       </Helmet>
 
-
+                                                                                          {/*FEATURED*/}
       <div className="intro pb-1">
         <div className="container">
           <div className="row2 justify-content-start">
@@ -92,6 +92,7 @@ const Home = (props) => {                                                     //
                                                                                       {/*FICTION*/}
           <div className="container">
             {posts
+              .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "fiction")                    /*This should only pull from md files with category "fiction", excluding posts marked featured*/
               .map(({ node: post }) => {
                 return (
