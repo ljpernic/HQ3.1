@@ -1,19 +1,20 @@
 ---
-title: "Driving Driving Driving and then More Driving until We're in Lake Michigan: the early years"
-author: Susan Susanovya
-issue: Issue One, Summer 2020
-featured: true
-description: In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather.
+title: Living with Your Evil Clone 
+author: Barronovitch Aaronovitch
+issue: Issue Two, Fall 2020
+featured: false
+description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
 category: fiction
 cover: cover.jpg
-date: "2019-09-26T00:00:00.000Z"
-path: "/Driving-Driving-Driving"
+date: "2020-05-12T00:00:00.000Z"
+path: "/living-with-your-evil-clone"
 ---
 
-In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather.
+Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?
 
 ![image](./cover.jpg)
-Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
+
+Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://google.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://google.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 
 <!--```javascript
 "materials": [

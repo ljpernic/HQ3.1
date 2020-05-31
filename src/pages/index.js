@@ -41,11 +41,7 @@ const Home = (props) => {                                                     //
                         <h1 pb>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
-                        <h2>By 
-                          <Link to="/"> {post.frontmatter.author}</Link> 
-                          in 
-                          <Link to="/"> {post.frontmatter.issue}</Link>
-                        </h2>
+                        <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                         <p>{post.excerpt}</p>
                         <hr />
                       </div>
@@ -88,7 +84,7 @@ const Home = (props) => {                                                     //
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
-            <Link to="/">
+            <Link to="/fiction">
                 <h4>Latest Fiction</h4>
             </Link>
             <hr />
@@ -96,7 +92,7 @@ const Home = (props) => {                                                     //
                                                                                       {/*FICTION*/}
           <div className="container">
             {posts
-              .filter(post => !post.node.frontmatter.featured)                    /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+              .filter(post => post.node.frontmatter.category === "fiction")                    /*This should only pull from md files with category "fiction", excluding posts marked featured*/
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -106,7 +102,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -144,7 +140,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -165,8 +161,8 @@ const Home = (props) => {                                                     //
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
-            <Link to="/non-fiction">
-                <h4>Latest Non-Fiction</h4>
+            <Link to="/future">
+                <h4>Letters from the Future</h4>
             </Link>
             <hr />
           </div>
@@ -191,7 +187,7 @@ const Home = (props) => {                                                     //
               })}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/non-fiction">
-                View All Non-Fiction
+                View All Letters
               </Link>
             </div>
           </div>
@@ -231,7 +227,7 @@ const Home = (props) => {                                                     //
               })}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/non-fiction">
-                View All Non-Fiction
+                View All Issues
               </Link>
             </div>
           </div>
@@ -288,12 +284,13 @@ export const query = graphql`
             author
             issue
             date(formatString: "DD MMMM YYYY")
+            category
             cover {
               childImageSharp {
                 fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
-                fluid(maxWidth: 450) {                                        #This changed the post picture sizes on the front page (originally 75)
+                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -31,7 +31,7 @@ const Future = (props) => {                                                  //t
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             {posts
-              .filter(post => post.node.frontmatter.category === "letter")
+              .filter(post => post.node.frontmatter.category === "future")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
