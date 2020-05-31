@@ -88,7 +88,7 @@ const Future = (props) => {                                                  //t
 export const query = graphql`
   query FutureQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /future page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /future page to look at md files in the /allposts folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

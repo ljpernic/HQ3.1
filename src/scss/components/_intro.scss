@@ -14,50 +14,49 @@
     padding-bottom: 50px;
   }
   @include media-breakpoint-up(lg) {
-    padding-top: 50px;
+    padding-top: 50px;                                          //padding-top for the whole top section from the header with the links
     padding-bottom: 50px;
   }
-  h1 {
+  h1 {                                                          //title of each post (really just the title)
     color: $primary;
     text-align: left;
     margin: auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       width: 90%;
     }
   }
-  h2 {
+  h2 {                                                           //byline of each post (has author and issue)
     color: $secondary;
     text-align: left;
     margin: auto;
-    font-size: 2rem;
-    line-height: 1.6;
+    font-size: 1.4rem;
+    line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
-      font-size: .8rem;
+      font-size: .7rem;
       padding: 10px 0px 0px 0px;
-      text-align: center;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       width: 90%;
     }
   }
@@ -82,19 +81,47 @@
       width: 90%;
     }
   }
+  h4 {
+    color: $primary;
+    text-align: center;
+    margin: auto;
+    padding: 0px 00px 0px 0px;
+    font-size: .8rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
   p {
     width: 100%;
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
+    padding: 10px 25px 10px 35px;
     @include media-breakpoint-up(sm) {
+      font-size: .6rem;
+      text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+      text-align: justify;
       width: 100%;
     }
   }
@@ -103,24 +130,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.cover-image {
-  flex: 0 0 auto;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  margin-bottom: 0px;
-  text-align: center;
-}
-.top-image {
-  flex: 0 0 auto;
-  width: auto;
-  height: 460px;
-  display: flex;
-  margin-bottom: 0px;
-  text-align: center;
-  border: 6px solid white;
-  outline: 3px solid black;
-}
+
 .inlineimage {
   float: left;
   margin: 10px 35px;
@@ -129,6 +139,13 @@
   border: 2px solid black;
 }
 
+.topimage {                                                                 //This is for the cover at the top
+  float: left;
+  margin: 10px 35px 10px 0px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+}
 
 .grid-container {
   box-sizing: content-box;
@@ -140,7 +157,7 @@
   width: 100%;
 }
 .grid-container > div {
-//  background-color: rgba(215, 241, 254, 0.7);
+//  background-color: rgba(215, 241, 254, 0.7);                             //this is the test background
   box-sizing: border-box;
   width: auto;
   height: auto;
@@ -175,59 +192,65 @@
     color: $secondary;
     padding: 10px 60px 10px 60px;
     @include media-breakpoint-up(sm) {
+      font-size: .6rem;
+      text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+      text-align: justify;
       width: 100%;
     }
   }
-  h1 {
+  h1 {                                                          //title of each post (really just the title)
     color: $primary;
     text-align: left;
     margin: auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       width: 90%;
     }
   }
-  h2 {
+  h2 {                                                           //byline of each post (has author and issue)
     color: $secondary;
     text-align: left;
     margin: auto;
-    font-size: 2rem;
-    line-height: 1.6;
+    font-size: 1.4rem;
+    line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
     @include media-breakpoint-up(sm) {
-      font-size: .8rem;
+      font-size: .7rem;
       padding: 10px 0px 0px 0px;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       width: 90%;
     }
   }
-  h3 {
+  h3 {                                                            //section heads (e.g., latest stories etc)
     color: $primary;
     text-align: center;
     margin: auto;
@@ -248,6 +271,27 @@
       width: 90%;
     }
   }
+  h4 {
+    color: $primary;
+    text-align: center;
+    margin: auto;
+    padding: 0px 00px 0px 0px;
+    font-size: .8rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(sm) {
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
 }
 
 hr { 
@@ -259,60 +303,7 @@ hr {
   margin-top: 1%; 
   margin-bottom: 2.5%; 
   border: 1px dotted $primary;
-  opacity: 50%; 
 }
-
-
-
-.post-author { 
-  grid-area: author; 
-}
-.post-cover {
-  grid-area: cover;
-  text-align: center;
-  padding: 0px;
-}
-.post-excerpt { 
-  grid-area: excerpt;
-  text-align: justify; 
-}
-.post-issue { 
-  grid-area: issue; 
-  text-align: right;
-}
-.post-title { 
-  grid-area: title; 
-}
-.post-grid-container {
-  display: grid;
-  grid-template-columns: 200px auto auto auto;
-  grid-template-areas:
-    'cover title title title title title'
-    'cover author author author author author'
-    'excerpt excerpt excerpt excerpt excerpt excerpt';
-  grid-column-gap: 0px;
-  grid-row-gap: 10px;
-//  background-color: #2196F3;
-  padding-left: 60px;
-}
-
-.post-grid-container2 {
-  display: grid;
-  grid-template-columns: 200px auto auto auto;
-  grid-template-areas:
-    'title title title title title cover'
-    'author author author author author cover'
-    'excerpt excerpt excerpt excerpt excerpt excerpt';
-  grid-column-gap: 0px;
-  grid-row-gap: 10px;
-//  background-color: #2196F3;
-  padding-left: 60px;
-}
-
-.post-grid-container > div {
-  background-color: rgba(215, 241, 254, 0.7);
-}
-
 
 .thin {
   grid-column: 2 / span 2;

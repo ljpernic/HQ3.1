@@ -5,9 +5,9 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
-const Newposts = (props) => {
+const Allposts = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
-  const newposts = props.data.allMarkdownRemark.edges;
+  const allposts = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-services">
@@ -86,9 +86,9 @@ const Newposts = (props) => {
 };
 
 export const query = graphql`
-  query NewpostsQuery {
+  query AllpostsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /fiction page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /fiction page to look at md files in the /allposts folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -129,4 +129,4 @@ export const query = graphql`
   }
 `;
 
-export default Newposts;
+export default Allposts;

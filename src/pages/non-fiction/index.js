@@ -88,7 +88,7 @@ const Nonfiction = (props) => {                                                 
 export const query = graphql`
   query NonfictionQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /non-fiction page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /non-fiction page to look at md files in the /allposts folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

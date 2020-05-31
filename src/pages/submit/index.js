@@ -6,7 +6,7 @@ import Call from '../../components/Call';
 const Submit = props => (
   <Layout bodyClass="page-submit">
     <SEO title="Submit" />
-    <div className="intro intro-small">
+    <div className="intro pb-1">
       <div className="container">
         <div className="row">
           <div className="col-12">

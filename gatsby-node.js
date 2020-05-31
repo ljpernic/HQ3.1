@@ -8,8 +8,8 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            newposts: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/newposts/" } }
+            allposts: allMarkdownRemark(
+              filter: { fileAbsolutePath: { regex: "/allposts/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -28,8 +28,8 @@ exports.createPages = ({ graphql, actions }) => {
           }
         `,
       ).then((result) => {
-        result.data.newposts.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/newposts.js');
+        result.data.allposts.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/allposts.js');
           createPage({
             path: node.frontmatter.path,
             component,

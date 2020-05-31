@@ -88,7 +88,7 @@ const Fullissues = (props) => {                                                 
 export const query = graphql`
   query FullissuesQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /fullissues page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /fullissues page to look at md files in the /allposts folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

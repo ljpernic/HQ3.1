@@ -60,7 +60,7 @@ const Support = (props) => {
 export const query = graphql`
   query SupportQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

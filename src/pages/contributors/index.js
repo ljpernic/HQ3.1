@@ -88,7 +88,7 @@ const Contributors = (props) => {                                               
 export const query = graphql`
   query ContributorsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /contributors page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /contributors page to look at md files in the /allposts folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
