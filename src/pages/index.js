@@ -60,7 +60,7 @@ const Home = (props) => {                                                     //
                       
                       <Link to="/latest">
                         <Image className="topimage"
-                          fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
+                          fixed={post.frontmatter.cover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                         />
                       </Link>
 
@@ -93,15 +93,15 @@ const Home = (props) => {                                                     //
             </Link>
             <hr />
           </div>
-                                                                                      {/*this is where the blog stuff should go for stories getting posted*/}
+                                                                                      {/*FICTION*/}
           <div className="container">
             {posts
-              .filter(post => !post.node.frontmatter.featured)                        /*This has a !, so it looks at only md files with NOT featured: true*/
+              .filter(post => !post.node.frontmatter.featured)                    /*This should only pull from md files with category "fiction", excluding posts marked featured*/
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}      /*Where the image in the post on the front page is called*/
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}          /*This should pull image from md files with category "fiction"*/
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -121,6 +121,125 @@ const Home = (props) => {                                                     //
         </div>
       </div>
     </div>
+
+    <div className="postbody">
+      <div className="container pt-8 pt-md-4">
+        <div className="row2 justify-content-start pt-2">
+          <div className="col-12">
+            <Link to="/non-fiction">
+                <h4>Latest Non-Fiction</h4>
+            </Link>
+            <hr />
+          </div>
+                                                                                        {/*NON-FICTION SECTION*/}
+          <div className="container">
+            {posts
+              .filter(post => post.node.frontmatter.category === "non-fiction")         /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
+              .map(({ node: post }) => {
+                return (
+                  <div className="container" key={post.id}>
+                      <Image className="inlineimage"
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*This should pull image from md files with category "non-fiction"*/
+                      />
+                      <h1 pb>
+                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                      </h1>
+                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <p>{post.excerpt}</p>
+                      <hr />
+                  </div>
+                )
+              })}
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/non-fiction">
+                View All Non-Fiction
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div className="postbody">
+      <div className="container pt-8 pt-md-4">
+        <div className="row2 justify-content-start pt-2">
+          <div className="col-12">
+            <Link to="/non-fiction">
+                <h4>Latest Non-Fiction</h4>
+            </Link>
+            <hr />
+          </div>
+                                                                                      {/*LETTERS FROM THE FUTURE SECTION*/}
+          <div className="container">
+            {posts
+              .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "future", excluding posts marked featured*/
+              .map(({ node: post }) => {
+                return (
+                  <div className="container" key={post.id}>
+                      <Image className="inlineimage"
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/
+                      />
+                      <h1 pb>
+                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                      </h1>
+                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <p>{post.excerpt}</p>
+                      <hr />
+                  </div>
+                )
+              })}
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/non-fiction">
+                View All Non-Fiction
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="postbody">
+      <div className="container pt-8 pt-md-4">
+        <div className="row2 justify-content-start pt-2">
+          <div className="col-12">
+            <Link to="/fullissues">
+                <h4>Full Issues</h4>
+            </Link>
+            <hr />
+          </div>
+                                                                                      {/*FULL ISSUES SECTION*/}
+          <div className="container">
+            {posts
+              .filter(post => post.node.frontmatter.category === "fullissues")          /*This should only pull from md files with category "future", excluding posts marked featured*/
+              .map(({ node: post }) => {
+                return (
+                  <div className="container" key={post.id}>
+                      <Image className="feature-cover"
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/
+                      />
+                      <h1 pb>
+                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                      </h1>
+                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <p>{post.excerpt}</p>
+                      <hr />
+                  </div>
+                )
+              })}
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/non-fiction">
+                View All Non-Fiction
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <div className="postbody">
       <div className="container pt-5 pb-5 pt-md-7 pb-md-7">

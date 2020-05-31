@@ -1,6 +1,7 @@
 .page-home {
   background-image: url('../images/milky_way_small_flipped.jpg');
   background-repeat: repeat;
+  background-attachment: fixed;
   background-size: 115%;
   background-position: 49px -40px;
   @include media-breakpoint-up(sm) {
