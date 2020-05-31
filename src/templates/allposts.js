@@ -1,22 +1,23 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from 'react';  
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 
 const Allposts = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
+  const { author } = data.markdownRemark.frontmatter;
+  const { issue } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
   return (
-    <Layout bodyClass="page-service">
+    <Layout bodyClass="page-service">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={title} />
-      <div className="strip strip-white strip-diagonal">
-        <div className="container pt-4 pt-md-10">
-          <div className="row justify-content-start">
-            <div className="col-12 col-md-8">
-              <div className="service service-single">
-                <h1 className="title">{title}</h1>
-                <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-              </div>
+      <div className="postbody">
+        <div className="container pt-8 pt-md-4">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+              <h1>{title}</h1>
+              <h2>By  <Link to="/"> {author}</Link> in  <Link to="/"> {issue}</Link></h2>
+              <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
             </div>
           </div>
         </div>
@@ -30,6 +31,8 @@ export const query = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        author
+        issue
         path
       }
       html

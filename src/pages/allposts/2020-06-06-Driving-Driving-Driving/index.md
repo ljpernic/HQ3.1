@@ -5,6 +5,7 @@ issue: Issue One, Summer 2020
 featured: true
 description: In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather.
 category: fiction
+currentcover: CurrentCover.png
 cover: cover.jpg
 date: "2020-06-06T00:00:00.000Z"
 path: "/Driving-Driving-Driving"

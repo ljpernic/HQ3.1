@@ -93,7 +93,7 @@ export const query = graphql`
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 750)
           frontmatter {
             category
             featured

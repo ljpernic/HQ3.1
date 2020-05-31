@@ -8,7 +8,7 @@ import Call from '../components/Call';
 import styled from "styled-components";
 
 
-const Home = (props) => {                                                     //This only does the front page, including featured story, latest stories, and latest issues
+const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const { edges: posts } = props.data.allMarkdownRemark;
   const json = props.data.allFeaturesJson.edges;
   return (
@@ -56,7 +56,7 @@ const Home = (props) => {                                                     //
                       
                       <Link to="/latest">
                         <Image className="topimage"
-                          fixed={post.frontmatter.cover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                          fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                         />
                       </Link>
 
@@ -286,6 +286,16 @@ export const query = graphql`
             issue
             date(formatString: "DD MMMM YYYY")
             category
+            currentcover {
+              childImageSharp {
+                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFixed 
+                }
+                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             cover {
               childImageSharp {
                 fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
