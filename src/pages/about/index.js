@@ -5,9 +5,9 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
-const Newposts = (props) => {
+const About = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
-  const newposts = props.data.allMarkdownRemark.edges;
+  const about = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-services">
@@ -24,14 +24,14 @@ const Newposts = (props) => {
         <div className="row2 justify-content-start">
           <div className="col-12">
             <Link to="/">
-                <h3>All Posts</h3>
+                <h3>About Us</h3>
             </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             {posts
-              .filter(post => post.node.frontmatter.title.length > 0)
+              .filter(post => post.node.frontmatter.category === "about")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -80,13 +80,12 @@ const Newposts = (props) => {
         </div>
       </div>
     </div>
-
     </Layout>
   );
 };
 
 export const query = graphql`
-  query NewpostsQuery {
+  query AboutQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /fiction page to look at md files in the /newpost folder
       sort: { fields: [frontmatter___date], order: DESC }
@@ -129,4 +128,4 @@ export const query = graphql`
   }
 `;
 
-export default Newposts;
+export default About;

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Haven Quarterly',
     description: 'a magazine of science fiction and fantasy',
-    contact: {
+    submit: {
       phone: 'XXX XXX XXX',
       email: 'havenquarterly@gmail.com',
     },

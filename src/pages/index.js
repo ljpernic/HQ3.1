@@ -8,7 +8,7 @@ import Call from '../components/Call';
 import styled from "styled-components";
 
 
-const Home = (props) => {
+const Home = (props) => {                                                     //This only does the front page, including featured story, latest stories, and latest issues
   const { edges: posts } = props.data.allMarkdownRemark;
   const json = props.data.allFeaturesJson.edges;
   return (
@@ -20,35 +20,62 @@ const Home = (props) => {
           content="A Magazine of Science Fiction and Fantasy"
         />
       </Helmet>
+
+
       <div className="intro pb-1">
         <div className="container">
-          <div className="grid-container">
-            <div className="wide">   
-              <div className="containerTop">
-                <Link to="/">
-                  <h3>Featured Story</h3>
-                </Link>
-                <hr />
-                <Link to="/">
-                  <h1>Eating Cheese for Fun and Profit</h1>
-                </Link>
-                <h2>By  <Link to="/"> Cheesy Susan the Cheesinator</Link> in  <Link to="/"> Issue One, Summer 2020</Link></h2>
-                <p>
-                  All hail the prophet of cheese, the lord our Gouda, may he reign a thousand years... 
-                </p>
-                <p>
-                  Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-                  is a beautiful and artfully designed starting theme.
-                </p>
+          <div className="row2 justify-content-start">
+            <div className="grid-container pt-2">
+              <div className="wide">
+                <div className="col-12">
+                  <Link to="/">
+                      <h3>Featured Story</h3>
+                  </Link>
+                  <hr />
+                </div>
+                {posts
+                  .filter(post => post.node.frontmatter.featured)                       /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <div className="container" key={post.id}>
+                        <h1 pb>
+                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                        </h1>
+                        <h2>By 
+                          <Link to="/"> {post.frontmatter.author}</Link> 
+                          in 
+                          <Link to="/"> {post.frontmatter.issue}</Link>
+                        </h2>
+                        <p>{post.excerpt}</p>
+                        <hr />
+                      </div>
+                      )
+                    })}
+              </div>      
+              <div className="thin">
+              {posts
+                  .filter(post => post.node.frontmatter.featured)                     /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <Image className="inlineimage"
+                        fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
+                      />
+                      )
+                    })}
+                <div className="col-12 text-center pb-3">
+                  <Link className="button button-primary" to="/about">
+                    About
+                  </Link>
+                  <Link className="button button-primary" to="/support">
+                    Support
+                  </Link>
+                  <Link className="button button-primary" to="/submit">
+                    Submit
+                  </Link>
+                </div>
               </div>
-              <Call button />
             </div>
-            <div className="thin">
-              <Link to={`/`}>  
-                <img class="top-image" src={require("./CurrentCover.png")} alt="Current Cover" />               {/*How to use Gatsby-image here?*/}
-              </Link>
-            </div>
-          </div> 
+          </div>
         </div>
       </div>
 
@@ -64,12 +91,12 @@ const Home = (props) => {
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             {posts
-              .filter(post => post.node.frontmatter.title.length > 0)
+              .filter(post => !post.node.frontmatter.featured)                        /*This has a !, so it looks at only md files with NOT featured: true*/
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fixed={post.frontmatter.cover.childImageSharp.fixed}      /*Where the image in the post on the front page is called*/
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}      /*Where the image in the post on the front page is called*/
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -80,12 +107,12 @@ const Home = (props) => {
                   </div>
                 )
               })}
-              <div className="col-12 text-center pb-3">
-                <Link className="button button-primary" to="/services">
-                  View All Stories
-                </Link>
-              </div>
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/fiction">
+                View All Stories
+              </Link>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -95,7 +122,7 @@ const Home = (props) => {
         <div className="row2 justify-content-start">
           <div className="col-12">
           <Link to="/">
-                <h3>Latest Stories</h3>
+                <h3>Latest Issues</h3>
             </Link>
             <hr />
           </div>
@@ -124,13 +151,14 @@ const Home = (props) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(newposts)/.*.md$/" } }
+      filter: { fileAbsolutePath: { regex: "/(newposts)/.*.md$/" } }                  #This tells this file to pull from the md files generated by newposts?
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           id
           frontmatter {
+            featured
             path
             title
             author
@@ -138,13 +166,16 @@ export const query = graphql`
             date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {
-                fixed(width: 200, height: 150) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed
+                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFixed 
+                }
+                fluid(maxWidth: 450) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFluid
                 }
               }
             }            
           }
-          excerpt(pruneLength: 500)
+          excerpt(pruneLength: 900)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }

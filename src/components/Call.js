@@ -19,7 +19,7 @@ const Call = props => (
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a href="/contact" className="button">
+        <a href="/submit" className="button">
           Submit
         </a>
       </div>
@@ -35,7 +35,7 @@ export default props => (
           siteMetadata {
             title
             description
-            contact {
+            submit {
               email
               phone
             }

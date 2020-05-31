@@ -140,7 +140,7 @@
   width: 100%;
 }
 .grid-container > div {
-  background-color: rgba(215, 241, 254, 0.7);
+//  background-color: rgba(215, 241, 254, 0.7);
   box-sizing: border-box;
   width: auto;
   height: auto;
@@ -174,7 +174,6 @@
     line-height: 1.6;
     color: $secondary;
     padding: 10px 60px 10px 60px;
-
     @include media-breakpoint-up(sm) {
       width: 100%;
     }
@@ -265,7 +264,9 @@ hr {
 
 
 
-.post-author { grid-area: author; }
+.post-author { 
+  grid-area: author; 
+}
 .post-cover {
   grid-area: cover;
   text-align: center;
@@ -295,8 +296,21 @@ hr {
   padding-left: 60px;
 }
 
+.post-grid-container2 {
+  display: grid;
+  grid-template-columns: 200px auto auto auto;
+  grid-template-areas:
+    'title title title title title cover'
+    'author author author author author cover'
+    'excerpt excerpt excerpt excerpt excerpt excerpt';
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+//  background-color: #2196F3;
+  padding-left: 60px;
+}
+
 .post-grid-container > div {
-//  background-color: rgba(215, 241, 254, 0.7);
+  background-color: rgba(215, 241, 254, 0.7);
 }
 
 

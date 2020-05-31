@@ -2,6 +2,7 @@
 title: "Driving Driving Driving and then More Driving until We're in Lake Michigan: the early years"
 author: Susan Susanovya
 issue: Issue One, Summer 2020
+featured: true
 description: In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather.
 category: fiction
 cover: cover.jpg

@@ -15,7 +15,7 @@ const Footer = props => (
               </li>
               <li>
                 {' '}
-                <Link to="/contact">Contact</Link>
+                <Link to="/submit">Submit</Link>
               </li>
               <li className="copyright">
                 ©

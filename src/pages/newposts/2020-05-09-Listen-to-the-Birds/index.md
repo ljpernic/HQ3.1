@@ -1,6 +1,7 @@
 ---
 title: Listen to the Birds, Their Words Gird Our Nerds
 author: Famke Bucket Head
+featured: false
 issue: Issue One, Summer 2020
 description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
 cover: cover.jpg

@@ -5,33 +5,34 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
-const Newposts = (props) => {
+
+const Support = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
-  const newposts = props.data.allMarkdownRemark.edges;
+  const support = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-services">
-      <SEO title="Fiction" />
+      <SEO title="Support" />
       <Helmet>
         <meta
           name="description"
-          content="all fiction of Haven Quarterly"
+          content="Support page of Haven Quarterly"
         />
       </Helmet>
 
-    <div className="postbody">
+      <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
             <Link to="/">
-                <h3>All Posts</h3>
+                <h3>How to Support Us</h3>
             </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             {posts
-              .filter(post => post.node.frontmatter.title.length > 0)
+              .filter(post => post.node.frontmatter.category === "support")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -52,43 +53,14 @@ const Newposts = (props) => {
         </div>
       </div>
     </div>
-
-    <div className="postbody">
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-          <Link to="/">
-                <h3>Latest Issues</h3>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-
     </Layout>
   );
 };
 
 export const query = graphql`
-  query NewpostsQuery {
+  query SupportQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /fiction page to look at md files in the /newpost folder
+      filter: { fileAbsolutePath: { regex: "/newposts/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -129,4 +101,4 @@ export const query = graphql`
   }
 `;
 
-export default Newposts;
+export default Support;

@@ -5,9 +5,10 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
-const Newposts = (props) => {
+
+const Fiction = (props) => {                                                  //this one is somehow creating the /fiction page independent of gatsby-node
   const { edges: posts } = props.data.allMarkdownRemark;
-  const newposts = props.data.allMarkdownRemark.edges;
+  const fiction = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-services">
@@ -24,14 +25,14 @@ const Newposts = (props) => {
         <div className="row2 justify-content-start">
           <div className="col-12">
             <Link to="/">
-                <h3>All Posts</h3>
+                <h3>Latest Stories</h3>
             </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             {posts
-              .filter(post => post.node.frontmatter.title.length > 0)
+              .filter(post => post.node.frontmatter.category === "fiction")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -86,7 +87,7 @@ const Newposts = (props) => {
 };
 
 export const query = graphql`
-  query NewpostsQuery {
+  query FictionQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/newposts/" } }             #This tells the /fiction page to look at md files in the /newpost folder
       sort: { fields: [frontmatter___date], order: DESC }
@@ -129,4 +130,4 @@ export const query = graphql`
   }
 `;
 
-export default Newposts;
+export default Fiction;
