@@ -29,7 +29,7 @@ const Home = (props) => {                                                     //
               <div className="wide">
                 <div className="col-12">
                   <Link to="/featured">
-                      <h4 className="withborders">Featured Story</h4>
+                      <h4>Featured Story</h4>
                   </Link>
                   <hr />
                 </div>
