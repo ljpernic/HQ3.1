@@ -91,8 +91,8 @@
     font-family: $font-family-heading;
     width: 90%;
     background-image: url('../images/border01.png');
-    background-repeat: repeat;
-    opacity:100%;
+    background-repeat: no-repeat;
+    background-position:center;
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
@@ -104,6 +104,16 @@
       font-size: 1.6rem;
       width: 90%;
     }
+  }
+  hr { 
+    clear:both;
+    display:block;
+    height: 1px;
+    width: 80%;               
+    margin: auto; 
+    margin-top: 1%; 
+    margin-bottom: 2.5%; 
+    border: 1px dotted $primary;
   }
   p {
     width: 100%;
