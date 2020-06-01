@@ -85,11 +85,14 @@
     color: $primary;
     text-align: center;
     margin: auto;
-    padding: 0px 00px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-size: .8rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
+    background-image: url('../images/border01.png');
+    background-repeat: repeat;
+    opacity:100%;
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
@@ -279,6 +282,9 @@
     font-size: .8rem;
     line-height: 1.2;
     font-family: $font-family-heading;
+    background-image: url('../images/border01.png');
+    background-repeat: no-repeat;
+    background-position:center;
     width: 90%;
     @include media-breakpoint-up(sm) {
       width: 90%;

@@ -24,7 +24,7 @@ const Fullissues = (props) => {                                                 
         <div className="row2 justify-content-start">
           <div className="col-12">
             <Link to="/">
-                <h3>Latest Stories</h3>
+                <h3>Full Issues</h3>
             </Link>
             <hr />
           </div>
