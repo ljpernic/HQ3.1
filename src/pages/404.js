@@ -1,12 +1,26 @@
 import React from 'react';
+import { graphql, withPrefix, Link } from 'gatsby';
+import Image from "gatsby-image";
+import Helmet from 'react-helmet';
+import SEO from '../components/SEO';
 import Layout from '../layouts/index';
+import Call from '../components/Call';
+import styled from "styled-components";
 
 class NotFoundPage extends React.Component {
   render() {
     return (
-      <Layout>
-        <h1>Not Found</h1>
-        <p>You just hit a page that doesn&#39;t exist...</p>
+      <Layout bodyClass="page-home">
+        <div className="postbody">
+          <div className="container pt-8 pt-md-4">
+            <div className="row2 justify-content-start pt-2">
+              <div className="col-12">
+                <p className="text-center">The page you're looking for doesn't seem to exist.</p>
+                <p className="text-center">Funny how that happens.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Layout>
     );
   }
