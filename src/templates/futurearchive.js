@@ -1,36 +1,42 @@
-import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import SEO from '../../components/SEO';
-import Layout from '../../layouts/index';
+import React from 'react';  
+import { graphql, Link, withPrefix } from 'gatsby';
+import SEO from '../components/SEO';
+import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
+import Image from 'gatsby-image';
 
-const Future = (props) => {                                                  //this one is somehow creating the /fiction page independent of gatsby-node
-  const { edges: posts } = props.data.allMarkdownRemark;
-  const future = props.data.allMarkdownRemark.edges;
-  const json = props.data.allFeaturesJson.edges;
-  return (
-    <Layout bodyClass="page-services">
+export default class Futurearchive extends React.Component {
+  render() {
+    const posts = this.props.data.allMarkdownRemark.edges
+    const json = this.props.data.allFeaturesJson.edges;
+
+    const { FUTcurrentPage, FUTnumPages } = this.props.pageContext
+    const isFirst = FUTcurrentPage === 1
+    const isLast = FUTcurrentPage === FUTnumPages
+    const prevPage = FUTcurrentPage - 1 === 1 ? "/" : `/future/${FUTcurrentPage - 1}`
+    const nextPage = `/future/${FUTcurrentPage + 1}`
+
+    return (
+      <Layout bodyClass="page-services">
       <SEO title="Letters from the Future" />
       <Helmet>
         <meta
           name="description"
-          content="Letters Submitted to Haven Quarterly from the Future"
+          content="all future of Haven Quarterly"
         />
       </Helmet>
 
-      <div className="postbody">
+    <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <Link to="/">
                 <h3>Letters from the Future</h3>
-            </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            {posts
+
+          {posts
               .filter(post => post.node.frontmatter.category === "future")
               .map(({ node: post }) => {
                 return (
@@ -47,7 +53,37 @@ const Future = (props) => {                                                  //t
                   </div>
                 )
               })}
-
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm">
+                    <p className="text-left">
+                      {!isFirst && (
+                        <Link to={prevPage} rel="prev">
+                          ← Previous Page
+                        </Link>
+                      )}
+                    </p>
+                  </div>            
+                  <div className="col-sm">
+                    <p className="text-center">
+                      {Array.from({ length: FUTnumPages }, (_, i) => (
+                        <Link key={`pagination-number${i + 1}`} to={`/future/${i === 0 ? "" : i + 1}`}>
+                          &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
+                        </Link>
+                      ))}
+                    </p>
+                  </div>
+                  <div className="col-sm">
+                    <p className="text-right">
+                      {!isLast && (
+                        <Link to={nextPage} rel="next">
+                          Next Page →
+                        </Link>
+                      )}
+                    </p>
+                  </div>
+                </div>         
+              </div>
             </div>
         </div>
       </div>
@@ -82,18 +118,21 @@ const Future = (props) => {                                                  //t
     </div>
 
     </Layout>
-  );
-};
+    )
+  }
+}
 
-export const query = graphql`
-  query FutureQuery {
+export const futurearchiveQuery = graphql`
+  query futurearchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /future page to look at md files in the /allposts folder
+      filter: { frontmatter: {category:{eq:"future"} } }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
-          excerpt(pruneLength: 750)
+          excerpt(pruneLength: 750)    
           frontmatter {
             category
             featured
@@ -113,6 +152,7 @@ export const query = graphql`
               }
             }
           }
+          html
         }
       }
     }
@@ -127,6 +167,4 @@ export const query = graphql`
       }
     }
   }
-`;
-
-export default Future;
+`

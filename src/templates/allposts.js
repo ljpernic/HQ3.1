@@ -31,9 +31,9 @@ export const query = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        path
         author
         issue
-        path
       }
       html
     }

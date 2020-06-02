@@ -1,37 +1,44 @@
-import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import SEO from '../../components/SEO';
-import Layout from '../../layouts/index';
+import React from 'react';  
+import { graphql, Link, withPrefix } from 'gatsby';
+import SEO from '../components/SEO';
+import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
+import Image from 'gatsby-image';
 
-const Nonfiction = (props) => {                                                  //this one is somehow creating the /fiction page independent of gatsby-node
-  const { edges: posts } = props.data.allMarkdownRemark;
-  const nonfiction = props.data.allMarkdownRemark.edges;
-  const json = props.data.allFeaturesJson.edges;
-  return (
-    <Layout bodyClass="page-services">
-      <SEO title="Non-Fiction" />
+export default class Fictionarchive extends React.Component {
+  render() {
+    const posts = this.props.data.allMarkdownRemark.edges
+    const json = this.props.data.allFeaturesJson.edges;
+    
+    const { FICcurrentPage, FICnumPages } = this.props.pageContext
+    const isFirst = FICcurrentPage === 1
+    const isLast = FICcurrentPage === FICnumPages
+    const prevPage = FICcurrentPage - 1 === 1 ? "/" : `/fiction/${FICcurrentPage - 1}`
+    const nextPage = `/fiction/${FICcurrentPage + 1}`
+    
+    
+    return (
+      <Layout bodyClass="page-services">
+      <SEO title="Fiction" />
       <Helmet>
         <meta
           name="description"
-          content="all non-fiction of Haven Quarterly"
+          content="all fiction of Haven Quarterly"
         />
       </Helmet>
 
-      <div className="postbody">
+    <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <Link to="/">
-                <h3>Latest Non-Fiction</h3>
-            </Link>
+                <h3>Latest Fiction</h3>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            {posts
-              .filter(post => post.node.frontmatter.category === "non-fiction")
+
+          {posts
+              .filter(post => post.node.frontmatter.category === "fiction")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -47,8 +54,38 @@ const Nonfiction = (props) => {                                                 
                   </div>
                 )
               })}
-
-            </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm">
+                    <p className="text-left">
+                      {!isFirst && (
+                        <Link to={prevPage} rel="prev">
+                          ← Previous Page
+                        </Link>
+                      )}
+                    </p>
+                  </div>            
+                  <div className="col-sm">
+                    <p className="text-center">
+                      {Array.from({ length: FICnumPages }, (_, i) => (
+                        <Link key={`pagination-number${i + 1}`} to={`/fiction/${i === 0 ? "" : i + 1}`}>
+                          &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
+                        </Link>
+                      ))}
+                    </p>
+                  </div>
+                  <div className="col-sm">
+                    <p className="text-right">
+                      {!isLast && (
+                        <Link to={nextPage} rel="next">
+                          Next Page →
+                        </Link>
+                      )}
+                    </p>
+                  </div>
+                </div>         
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -81,19 +118,23 @@ const Nonfiction = (props) => {                                                 
       </div>
     </div>
 
-    </Layout>
-  );
-};
 
-export const query = graphql`
-  query NonfictionQuery {
+    </Layout>
+    )
+  }
+}
+
+export const fictionarchiveQuery = graphql`
+  query fictionarchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /non-fiction page to look at md files in the /allposts folder
+      filter: { frontmatter: {category:{eq:"fiction"} } }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
-          excerpt(pruneLength: 750)
+          excerpt(pruneLength: 750)    
           frontmatter {
             category
             featured
@@ -113,6 +154,7 @@ export const query = graphql`
               }
             }
           }
+          html
         }
       }
     }
@@ -127,6 +169,4 @@ export const query = graphql`
       }
     }
   }
-`;
-
-export default Nonfiction;
+`
