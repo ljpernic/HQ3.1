@@ -192,7 +192,7 @@ const Home = (props) => {                                                     //
                 )
               })}
             <div className="col-12 text-center pb-3">
-              <Link className="button button-primary" to="/non-fiction">
+              <Link className="button button-primary" to="/future">
                 View All Letters
               </Link>
             </div>
@@ -364,7 +364,7 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 750)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }
@@ -415,7 +415,7 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 750)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }
@@ -466,7 +466,7 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 750)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }
@@ -518,7 +518,7 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 750)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }
