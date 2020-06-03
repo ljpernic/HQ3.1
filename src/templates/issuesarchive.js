@@ -1,42 +1,49 @@
-import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import SEO from '../../components/SEO';
-import Layout from '../../layouts/index';
+import React from 'react';  
+import { graphql, Link, withPrefix } from 'gatsby';
+import SEO from '../components/SEO';
+import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
+import Image from 'gatsby-image';
 
-const Fullissues = (props) => {                                                  //this one is somehow creating the /fullissues page independent of gatsby-node
-  const { edges: posts } = props.data.allMarkdownRemark;
-  const fullissues = props.data.allMarkdownRemark.edges;
-  const json = props.data.allFeaturesJson.edges;
-  return (
-    <Layout bodyClass="page-services">
+export default class Issuesarchive extends React.Component {
+  render() {
+    const posts = this.props.data.allMarkdownRemark.edges
+    const json = this.props.data.allFeaturesJson.edges;
+    
+    const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
+    const isFirst = FULLcurrentPage === 1
+    const isLast = FULLcurrentPage === FULLnumPages
+    const prevPage = FULLcurrentPage - 1 === 1 ? "/" : `/fullissues/${FULLcurrentPage - 1}`
+    const nextPage = `/fullissues/${FULLcurrentPage + 1}`
+    
+    
+    return (
+      <Layout bodyClass="page-services">
       <SEO title="Full Issues" />
       <Helmet>
         <meta
           name="description"
-          content="Full Issues of Haven Quarterly"
+          content="Every issue of Haven Quarterly"
         />
       </Helmet>
 
-      <div className="postbody">
+    <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <Link to="/">
                 <h3>Full Issues</h3>
-            </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            {posts
+
+          {posts
               .filter(post => post.node.frontmatter.category === "issue")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
+                        fluid={post.frontmatter.currentcover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -47,8 +54,38 @@ const Fullissues = (props) => {                                                 
                   </div>
                 )
               })}
-
-            </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm">
+                    <p className="text-left">
+                      {!isFirst && (
+                        <Link to={prevPage} rel="prev">
+                          ← Previous Page
+                        </Link>
+                      )}
+                    </p>
+                  </div>            
+                  <div className="col-sm">
+                    <p className="text-center">
+                      {Array.from({ length: FULLnumPages }, (_, i) => (
+                        <Link key={`pagination-number${i + 1}`} to={`/fullissues/${i === 0 ? "" : i + 1}`}>
+                          &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
+                        </Link>
+                      ))}
+                    </p>
+                  </div>
+                  <div className="col-sm">
+                    <p className="text-right">
+                      {!isLast && (
+                        <Link to={nextPage} rel="next">
+                          Next Page →
+                        </Link>
+                      )}
+                    </p>
+                  </div>
+                </div>         
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -81,19 +118,23 @@ const Fullissues = (props) => {                                                 
       </div>
     </div>
 
-    </Layout>
-  );
-};
 
-export const query = graphql`
-  query FullissuesQuery {
+    </Layout>
+    )
+  }
+}
+
+export const fullissuesarchiveQuery = graphql`
+  query issuesarchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /fullissues page to look at md files in the /allposts folder
+      filter: { frontmatter: {category:{eq:"issue"} } }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 750)    
           frontmatter {
             category
             featured
@@ -112,7 +153,18 @@ export const query = graphql`
                 }
               }
             }
+            currentcover {
+              childImageSharp {
+                fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFixed 
+                }
+                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
+          html
         }
       }
     }
@@ -127,6 +179,4 @@ export const query = graphql`
       }
     }
   }
-`;
-
-export default Fullissues;
+`

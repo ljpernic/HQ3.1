@@ -84,6 +84,25 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
+            issuesarchive: allMarkdownRemark(
+              filter: { fileAbsolutePath: { regex: "/allposts/" } }
+              sort: { fields: [frontmatter___date], order: DESC }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    category
+                    featured
+                    path
+                    title
+                    date(formatString: "DD MMMM YYYY")
+                  }
+                  excerpt
+                }
+              }
+            }
+
           }
         `,
       ).then((result) => {
@@ -139,6 +158,21 @@ exports.createPages = ({ graphql, actions }) => {
               skip: i * FUTpostsPerPage,
               FUTnumPages,
               FUTcurrentPage: i + 1,
+            },
+          });
+        });
+        const FULLposts = result.data.issuesarchive.edges
+        const FULLpostsPerPage = 10
+        const FULLnumPages = Math.ceil(FULLposts.length / FULLpostsPerPage)
+        Array.from({ length: FULLnumPages }).forEach((_, i) => {
+          createPage({
+            path: i === 0 ? `/fullissues` : `/fullissues/${i + 1}`,
+            component: path.resolve('src/templates/issuesarchive.js'),
+            context: {
+              limit: FULLpostsPerPage,
+              skip: i * FULLpostsPerPage,
+              FULLnumPages,
+              FULLcurrentPage: i + 1,
             },
           });
         });
