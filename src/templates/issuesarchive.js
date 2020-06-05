@@ -18,7 +18,7 @@ export default class Issuesarchive extends React.Component {
     
     
     return (
-      <Layout bodyClass="page-services">
+      <Layout bodyClass="page-home">
       <SEO title="Full Issues" />
       <Helmet>
         <meta
@@ -28,7 +28,7 @@ export default class Issuesarchive extends React.Component {
       </Helmet>
 
     <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+      <div className="container pt-md-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Full Issues</h3>

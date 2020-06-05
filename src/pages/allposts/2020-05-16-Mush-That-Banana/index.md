@@ -6,6 +6,7 @@ featured: false
 description: Just keep mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing 
 category: fiction
 cover: cover.jpg
+currentcover: CurrentCover.jpg
 date: "2020-05-16T00:00:00.000Z"
 path: "/mush-that-banana"
 ---

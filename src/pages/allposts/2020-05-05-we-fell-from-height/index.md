@@ -6,6 +6,7 @@ featured: false
 description: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy. 
 category: fiction
 cover: cover.jpg
+currentcover: CurrentCover.jpg
 date: "2019-04-18T00:00:00.000Z"
 path: "/we-fell-from-height"
 ---

@@ -6,6 +6,7 @@ featured: false
 description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
 category: non-fiction
 cover: cover.jpg
+currentcover: CurrentCover.jpg
 date: "2020-05-11T00:00:00.000Z"
 path: "/quadratic-equations"
 ---

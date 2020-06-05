@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-  align-items: center;
+
   padding-top:50px;
   padding-bottom: 50px;
   @include media-breakpoint-up(sm) {
@@ -19,7 +19,7 @@
   }
   h1 {                                                          //title of each post (really just the title)
     color: $primary;
-    text-align: left;
+    text-align: center;
     margin: auto;
     font-size: 2.5rem;
     line-height: 1.2;
@@ -40,7 +40,7 @@
   }
   h2 {                                                           //byline of each post (has author and issue)
     color: $secondary;
-    text-align: left;
+    text-align: center;
     margin: auto;
     font-size: 1.4rem;
     line-height: 2;
@@ -153,6 +153,13 @@
 }
 
 .topimage {                                                                 //This is for the cover at the top
+  float: left;
+  margin: 10px 35px 10px 0px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+}
+.innertopimage {                                                                 //This is for the cover at the top
   float: left;
   margin: 10px 35px 10px 0px;
   width: 200px;

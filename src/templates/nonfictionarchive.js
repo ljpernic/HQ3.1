@@ -17,7 +17,7 @@ export default class Nonfictionarchive extends React.Component {
     const nextPage = `/non-fiction/${NONFICcurrentPage + 1}`
 
     return (
-      <Layout bodyClass="page-services">
+      <Layout bodyClass="page-home">
       <SEO title="Non-Fiction" />
       <Helmet>
         <meta
@@ -27,7 +27,7 @@ export default class Nonfictionarchive extends React.Component {
       </Helmet>
 
     <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+      <div className="container pt-md-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Latest Non-Fiction</h3>

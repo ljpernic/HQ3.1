@@ -20,7 +20,7 @@ const Home = (props) => {                                                     //
       <SEO title="Home" />
       <Helmet>
         <meta
-          name="description"
+          name="Haven Quarterly"
           content="A Magazine of Science Fiction and Fantasy"
         />
       </Helmet>

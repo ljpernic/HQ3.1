@@ -6,6 +6,7 @@ featured: false
 description: Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye Goodbye and Goodbye 
 category: fiction
 cover: cover.jpg
+currentcover: CurrentCover.jpg
 date: "2019-02-28T00:00:00.000Z"
 path: "/goodbye-goodbye-goodbye"
 ---

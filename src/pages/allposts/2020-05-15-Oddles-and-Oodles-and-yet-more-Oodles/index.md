@@ -6,6 +6,7 @@ featured: false
 description: Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles  
 category: fiction
 cover: cover.jpg
+currentcover: CurrentCover.jpg
 date: "2020-05-15T00:00:00.000Z"
 path: "/oodles-oodles-oodles"
 ---
