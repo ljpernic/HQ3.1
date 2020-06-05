@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
-import Image from 'gatsby-Image';
+import Image from 'gatsby-image';
 
 const Allposts = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
