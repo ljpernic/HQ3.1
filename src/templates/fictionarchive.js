@@ -15,8 +15,7 @@ export default class Fictionarchive extends React.Component {
     const isLast = FICcurrentPage === FICnumPages
     const prevPage = FICcurrentPage - 1 === 1 ? "/" : `/fiction/${FICcurrentPage - 1}`
     const nextPage = `/fiction/${FICcurrentPage + 1}`
-    
-    
+       
     return (
       <Layout bodyClass="page-home">
       <SEO title="Fiction" />
@@ -48,7 +47,7 @@ export default class Fictionarchive extends React.Component {
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -140,7 +139,21 @@ export const fictionarchiveQuery = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             cover {

@@ -1,6 +1,6 @@
 ---
 title: Haven Quarterly Issue Two
-author: 
+author: Editor
 featured: false
 issue: Issue Two, Fall 2020
 description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.

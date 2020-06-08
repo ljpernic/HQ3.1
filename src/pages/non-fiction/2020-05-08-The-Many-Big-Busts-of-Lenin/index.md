@@ -1,21 +1,45 @@
 ---
-title: Thanks, Now Go Away
-author: Bob Smith
+title: The Many Big Busts of Lenin
+author: Fanniford Kaplaniford
+issue: Issue One, Summer 2020
 featured: false
-issue: Issue four, Spring 2021
-description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
-category: non-fiction
+description: In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.
+category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
-date: "2020-06-02T00:00:00.000Z"
-path: "/thanks-now-go-away"
+date: "2019-07-25T00:00:00.000Z"
+path: "/The-Many-Big-Busts-of-Lenin"
 ---
 
-Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
+In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.
 
 ![image](./cover.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
+
+```javascript
+"materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 2
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+```
 
 Maecenas felis enim, scelerisque gravida pellentesque eget, finibus id felis. Proin luctus tellus vel lorem pulvinar lobortis sit amet id nisl. Donec sodales dapibus turpis, non fermentum massa aliquet id. Duis eu mollis turpis. Praesent massa magna, ornare non blandit bibendum, lobortis eu leo. Praesent auctor dignissim neque, eget iaculis neque efficitur sed. Cras efficitur convallis tellus, a feugiat nunc. Integer venenatis varius dapibus. Sed odio justo, ornare feugiat turpis ultricies, elementum imperdiet nisl.
 

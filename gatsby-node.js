@@ -8,27 +8,9 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            allposts: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/allposts/" } }
-              sort: { fields: [frontmatter___date], order: DESC }
-            ) {
-              edges {
-                node {
-                  id
-                  frontmatter {
-                    category
-                    featured
-                    path
-                    title
-                    date(formatString: "DD MMMM YYYY")
-                  }
-                  excerpt
-                }
-              }
-            }
-
+            
             fictionarchive: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/allposts/" } }
+              filter: { fileAbsolutePath: { regex: "/fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -47,7 +29,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             nonfictionarchive: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/allposts/" } }
+              filter: { fileAbsolutePath: { regex: "/non-fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -66,7 +48,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             futurearchive: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/allposts/" } }
+              filter: { fileAbsolutePath: { regex: "/letters/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -103,19 +85,28 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
+            authorarchive: allMarkdownRemark(
+              filter: { fileAbsolutePath: { regex: "/" } }
+              sort: { fields: [frontmatter___date], order: DESC }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    category
+                    featured
+                    path
+                    title
+                    date(formatString: "DD MMMM YYYY")
+                  }
+                  excerpt
+                }
+              }
+            }
+
           }
         `,
       ).then((result) => {
-        result.data.allposts.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/allposts.js');
-          createPage({
-            path: node.frontmatter.path,
-            component,
-            context: {
-              id: node.id,
-            },
-          });
-        });        
         const FICposts = result.data.fictionarchive.edges
         const FICpostsPerPage = 10
         const FICnumPages = Math.ceil(FICposts.length / FICpostsPerPage)
@@ -128,6 +119,46 @@ exports.createPages = ({ graphql, actions }) => {
               skip: i * FICpostsPerPage,
               FICnumPages,
               FICcurrentPage: i + 1,
+            },
+          });
+        });
+        result.data.fictionarchive.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/allposts.js');
+          createPage({
+            path: node.frontmatter.path,
+            component,
+            context: {
+              id: node.id,
+            },
+          });
+        });
+        result.data.futurearchive.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/allposts.js');
+          createPage({
+            path: node.frontmatter.path,
+            component,
+            context: {
+              id: node.id,
+            },
+          });
+        });
+        result.data.issuesarchive.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/allposts.js');
+          createPage({
+            path: node.frontmatter.path,
+            component,
+            context: {
+              id: node.id,
+            },
+          });
+        });
+        result.data.issuesarchive.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/allposts.js');
+          createPage({
+            path: node.frontmatter.path,
+            component,
+            context: {
+              id: node.id,
             },
           });
         });
@@ -173,6 +204,21 @@ exports.createPages = ({ graphql, actions }) => {
               skip: i * FULLpostsPerPage,
               FULLnumPages,
               FULLcurrentPage: i + 1,
+            },
+          });
+        });
+        const AUTposts = result.data.authorarchive.edges
+        const AUTpostsPerPage = 10
+        const AUTnumPages = Math.ceil(AUTposts.length / AUTpostsPerPage)
+        Array.from({ length: AUTnumPages }).forEach((_, i) => {
+          createPage({
+            path: i === 0 ? `/contributors` : `/contributors/${i + 1}`,
+            component: path.resolve('src/templates/authorarchive.js'),
+            context: {
+              limit: AUTpostsPerPage,
+              skip: i * AUTpostsPerPage,
+              AUTnumPages,
+              AUTcurrentPage: i + 1,
             },
           });
         });

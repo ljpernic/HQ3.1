@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
 
-const Allposts = ({ data }) => {
+const Eachauthor = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
   const { issue } = data.markdownRemark.frontmatter;
@@ -95,4 +95,4 @@ export const query = graphql`
   }
 `;
 
-export default Allposts;
+export default Eachauthor;

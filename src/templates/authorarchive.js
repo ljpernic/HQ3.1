@@ -5,24 +5,25 @@ import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 
-export default class Nonfictionarchive extends React.Component {
+export default class Authorarchive extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const json = this.props.data.allFeaturesJson.edges;
-
-    const { NONFICcurrentPage, NONFICnumPages } = this.props.pageContext
-    const isFirst = NONFICcurrentPage === 1
-    const isLast = NONFICcurrentPage === NONFICnumPages
-    const prevPage = NONFICcurrentPage - 1 === 1 ? "/" : `/non-fiction/${NONFICcurrentPage - 1}`
-    const nextPage = `/non-fiction/${NONFICcurrentPage + 1}`
-
+    
+    const { AUTcurrentPage, AUTnumPages } = this.props.pageContext
+    const isFirst = AUTcurrentPage === 1
+    const isLast = AUTcurrentPage === AUTnumPages
+    const prevPage = AUTcurrentPage - 1 === 1 ? "/" : `/contributors/${AUTcurrentPage - 1}`
+    const nextPage = `/contributors/${AUTcurrentPage + 1}`
+    
+    
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Non-Fiction" />
+      <SEO title="Contributors" />
       <Helmet>
         <meta
           name="description"
-          content="all non-fiction of Haven Quarterly"
+          content="all contributors to Haven Quarterly"
         />
       </Helmet>
 
@@ -30,26 +31,23 @@ export default class Nonfictionarchive extends React.Component {
       <div className="container pt-md-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
-                <h3>Latest Non-Fiction</h3>
+                <h3>Contributors</h3>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
 
           {posts
-              .filter(post => post.node.frontmatter.category === "non-fiction")
+              .filter(post => post.node.frontmatter.author) 
               .map(({ node: post }) => {
                 return (
-                  <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
-                      />
-                      <h1 pb>
-                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                      </h1>
-                      <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
-                      <p>{post.excerpt}</p>
-                      <hr />
+                  <div className="col" key={post.id}>
+                    <Image className="authorimage"
+                      fluid={post.frontmatter.author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
+                    />
+                    <h1 pb><Link to="/"> {post.frontmatter.author.id}</Link></h1>
+                    <p>{post.frontmatter.author.bio}</p>
+                    <hr />
                   </div>
                 )
               })}
@@ -66,8 +64,8 @@ export default class Nonfictionarchive extends React.Component {
                   </div>            
                   <div className="col-sm">
                     <p className="text-center">
-                      {Array.from({ length: NONFICnumPages }, (_, i) => (
-                        <Link key={`pagination-number${i + 1}`} to={`/non-fiction/${i === 0 ? "" : i + 1}`}>
+                      {Array.from({ length: AUTnumPages }, (_, i) => (
+                        <Link key={`pagination-number${i + 1}`} to={`/contributors/${i === 0 ? "" : i + 1}`}>
                           &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
                         </Link>
                       ))}
@@ -84,7 +82,7 @@ export default class Nonfictionarchive extends React.Component {
                   </div>
                 </div>         
               </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -117,15 +115,16 @@ export default class Nonfictionarchive extends React.Component {
       </div>
     </div>
 
+
     </Layout>
     )
   }
 }
 
-export const nonfictionarchiveQuery = graphql`
-  query nonfictionarchiveQuery($skip: Int!, $limit: Int!) {
+export const archivearchiveQuery = graphql`
+  query archivearchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { frontmatter: {category:{eq:"non-fiction"} } }
+      filter: { fileAbsolutePath: { regex: "/" } }   
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -142,12 +141,14 @@ export const nonfictionarchiveQuery = graphql`
               id
               bio
               twitter
+              first
+              second
               picture {
                 childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -160,7 +161,7 @@ export const nonfictionarchiveQuery = graphql`
                 fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
-                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                fluid(maxWidth: 200) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFluid
                 }
               }

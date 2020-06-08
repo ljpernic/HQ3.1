@@ -11,7 +11,7 @@ import styled from "styled-components";
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const json = props.data.allFeaturesJson.edges;
   const frontfiction = props.data.frontfiction.edges;
-  const frontnonfiction = props.data.frontnonfiction.edges;
+  const frontnonfic = props.data.frontnonfic.edges;
   const future = props.data.future.edges;
   const featuredfiction = props.data.featuredfiction.edges;
   const fullissues = props.data.fullissues.edges;
@@ -45,7 +45,7 @@ const Home = (props) => {                                                     //
                         <h1 pb>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
-                        <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                        <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                         <p>{post.excerpt}</p>
                         <hr />
                       </div>
@@ -108,7 +108,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -133,20 +133,22 @@ const Home = (props) => {                                                     //
             </Link>
             <hr />
           </div>
-                                                                                        {/*NON-FICTION SECTION*/}
+                                                                                      {/*NON-FICTION*/}
           <div className="container">
-            {frontnonfiction
-              .filter(post => post.node.frontmatter.category === "non-fiction")         /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
+            
+            {frontnonfic
+              .filter(post => !post.node.frontmatter.featured)
+              .filter(post => post.node.frontmatter.category === "non-fiction")          /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*This should pull image from md files with category "non-fiction"*/
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}          /*This should pull image from md files with category "non-fiction"*/
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -154,7 +156,7 @@ const Home = (props) => {                                                     //
               })}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/non-fiction">
-                View All Non-Fiction
+                View All Stories
               </Link>
             </div>
           </div>
@@ -185,7 +187,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -225,7 +227,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -277,7 +279,7 @@ const Home = (props) => {                                                     //
 export const query = graphql`
   query {
     featuredfiction: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(allposts)/.*.md$/" }, frontmatter: {featured:{eq:true} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
+      filter: { fileAbsolutePath: { regex: "/.*.md$/" }, frontmatter: {featured:{eq:true} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       totalCount
@@ -288,7 +290,21 @@ export const query = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             category
@@ -328,7 +344,7 @@ export const query = graphql`
       }
     }
     frontfiction: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(allposts)/.*.md$/" }, frontmatter: {category:{eq:"fiction"} } }, limit: 7                  #This tells this file to pull from the md files generated by allposts?
+      filter: { fileAbsolutePath: { regex: "/(fiction)/.*.md$/" }, frontmatter: {category:{eq:"fiction"} } }, limit: 7                  #This tells this file to pull from the md files generated by allposts?
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       totalCount
@@ -339,7 +355,21 @@ export const query = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             category
@@ -378,8 +408,8 @@ export const query = graphql`
         }
       }
     }
-    frontnonfiction: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(allposts)/.*.md$/" }, frontmatter: {category:{eq:"non-fiction"} } }, limit: 2                  #This tells this file to pull from the md files generated by allposts?
+    frontnonfic: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(non-fiction)/.*.md$/" }, frontmatter: {category:{eq:"non-fiction"} } }, limit: 2                  #This tells this file to pull from the md files generated by allposts?
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       totalCount
@@ -390,7 +420,21 @@ export const query = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             category
@@ -430,7 +474,7 @@ export const query = graphql`
       }
     }
     future: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(allposts)/.*.md$/" }, frontmatter: {category:{eq:"future"} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
+      filter: { fileAbsolutePath: { regex: "/(letters)/.*.md$/" }, frontmatter: {category:{eq:"future"} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       totalCount
@@ -441,7 +485,21 @@ export const query = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             category
@@ -493,7 +551,21 @@ export const query = graphql`
             featured
             path
             title
-            author
+            author {
+              id
+              bio
+              twitter
+              picture {
+                childImageSharp {
+                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             issue
             date(formatString: "DD MMMM YYYY")
             category
