@@ -47,7 +47,7 @@ export default class Futurearchive extends React.Component {
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -140,6 +140,7 @@ export const futurearchiveQuery = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {

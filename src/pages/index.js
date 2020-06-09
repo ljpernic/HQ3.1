@@ -45,7 +45,7 @@ const Home = (props) => {                                                     //
                         <h1 pb>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
-                        <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                        <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                         <p>{post.excerpt}</p>
                         <hr />
                       </div>
@@ -108,7 +108,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -148,7 +148,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -187,7 +187,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -217,17 +217,16 @@ const Home = (props) => {                                                     //
                                                                                       {/*FULL ISSUES SECTION*/}
           <div className="container">
             {fullissues
-              .filter(post => post.node.frontmatter.category === "issue")          /*This should only pull from md files with category "future", excluding posts marked featured*/
+              .filter(post => post.node.frontmatter.category === "issue")          /*This should only pull from md files with category "issue", excluding posts marked featured*/
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.currentcover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/
+                        fluid={post.frontmatter.currentcover.childImageSharp.fluid}        /*This should pull image from md files with category "issue"*/
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -292,6 +291,7 @@ export const query = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {
@@ -357,6 +357,7 @@ export const query = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {
@@ -422,6 +423,7 @@ export const query = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {
@@ -487,6 +489,7 @@ export const query = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {
@@ -553,6 +556,7 @@ export const query = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {

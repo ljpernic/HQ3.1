@@ -1,4 +1,5 @@
 - id: Editor
+  idpath: "/Editor"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -10,6 +11,7 @@
   third: 
 
 - id: Alan Alansonovitch
+  idpath: "/alan-alansonovitch"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -22,6 +24,7 @@
 
 
 - id: Cheesy Fries Dan
+  idpath: "/cheesy-fries-dan"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -31,6 +34,7 @@
   first: My Uncle Called Action Because He is a Director
 
 - id: Good Bie
+  idpath: "/good-bie"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -40,6 +44,7 @@
   picture: ../images/profile/profile3.jpg
 
 - id: Karl Marxerel
+  idpath: "/karl-marxerel"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -48,6 +53,7 @@
   picture: ../images/profile/profile4.jpg
 
 - id: Sunset McGee
+  idpath: "/sunset-mcgee"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -56,6 +62,7 @@
   picture: ../images/profile/profile5.jpg
 
 - id: Glenda the Glad
+  idpath: "/glenda-the-glad"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -65,6 +72,7 @@
   picture: ../images/profile/profile6.jpg
 
 - id: Scurvy Joe
+  idpath: "/scurvy-joe"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -73,6 +81,7 @@
   picture: ../images/profile/profile7.jpg
 
 - id: Fanniford Kaplaniford
+  idpath: "/fanniford-kaplaniford"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -81,6 +90,7 @@
   picture: ../images/profile/profile8.jpg
 
 - id: Famke Bucket Head
+  idpath: "/famke-bucket-head"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -89,6 +99,7 @@
   picture: ../images/profile/profile9.jpg
 
 - id: Barronovitch Aaronovitch
+  idpath: "/barronovitch-aaronovitch"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -98,6 +109,7 @@
   picture: ../images/profile/profile10.jpg
 
 - id: Salmon Smith
+  idpath: "/salmon-smith"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -106,6 +118,7 @@
   picture: ../images/profile/profile11.jpg
 
 - id: Your Own Shameful Thoughts
+  idpath: "/your-own-shameful-thoughts"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -114,6 +127,7 @@
   picture: ../images/profile/profile12.jpg
 
 - id: Freddie the Banana Musher
+  idpath: "/freddie-the-banana-musher" 
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -122,6 +136,7 @@
   picture: ../images/profile/profile13.jpg
 
 - id: Orange Rock
+  idpath: "/orange-rock"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -131,6 +146,7 @@
   picture: ../images/profile/profile14.jpg
 
 - id: Prep H.
+  idpath: "/prep-h"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -139,6 +155,7 @@
   picture: ../images/profile/profile15.jpg
 
 - id: Apples Allen
+  idpath: "/apples-allen"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -147,6 +164,7 @@
   picture: ../images/profile/profile16.jpg
 
 - id: Roller Coaster Bill
+  idpath: "/roller-coaster-bill"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -156,6 +174,7 @@
   picture: ../images/profile/profile1.jpg
 
 - id: Sergei McSelfsurgury
+  idpath: "/segei-mcselfsurgury"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -164,6 +183,7 @@
   picture: ../images/profile/profile2.jpg
 
 - id: Halty Haffenpfaff
+  idpath: "/halty-haffenpfaff"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -172,6 +192,7 @@
   picture: ../images/profile/profile3.jpg
 
 - id: Halitosis Henry
+  idpath: "/halitosis-henry"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -180,6 +201,7 @@
   picture: ../images/profile/profile4.jpg
 
 - id: The Robot Kid
+  idpath: "/the-robot-kid"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -188,15 +210,8 @@
   twitter: 'wgao19'
   picture: ../images/profile/profile5.jpg
 
-- id: Fanniford Kaplaniford
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile6.jpg
-
 - id: T. McGibbons
+  idpath: "/t-mcgibbons"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -205,6 +220,7 @@
   picture: ../images/profile/profile7.jpg
 
 - id: Roundhead Rick
+  idpath: "/roundhead-rick"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -213,6 +229,7 @@
   picture: ../images/profile/profile8.jpg
 
 - id: Greg Notamonster
+  idpath: "/greg-notamonster"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -222,6 +239,7 @@
   picture: ../images/profile/profile9.jpg
 
 - id: Sonja the Just
+  idpath: "/sonja-the-just"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -230,6 +248,7 @@
   picture: ../images/profile/profile10.jpg
 
 - id: Michelle Seller-Nomiconricon
+  idpath: "michelle-seller-nomiconricon"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -238,6 +257,7 @@
   picture: ../images/profile/profile11.jpg
 
 - id: Raptor Alan
+  idpath: "/raptor-alan"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
   urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
@@ -246,6 +266,7 @@
   picture: ../images/profile/profile12.jpg
 
 - id: Bill Billerson
+  idpath: "/bill-billerson"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -255,6 +276,7 @@
   picture: ../images/profile/profile13.jpg
 
 - id: Tina Tina Bobina
+  idpath: "/tina-tina-bobina"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -263,6 +285,7 @@
   picture: ../images/profile/profile14.jpg
 
 - id: Susan Susanovya
+  idpath: "/susan-susanovya"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
@@ -271,6 +294,7 @@
   picture: ../images/profile/profile15.jpg
 
 - id: Hell Oh
+  idpath: "/hell-oh"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 

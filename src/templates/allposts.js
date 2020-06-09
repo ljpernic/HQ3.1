@@ -23,17 +23,17 @@ const Allposts = ({ data }) => {
               <h4>{category}</h4>
               <hr />
                 <h1>{title}</h1>
-                <h2>By  <Link to="/"> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
+                <h2>By  <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
                 <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
               </div>
               <div className="thin">
-              <Link to="/">
-                        <Image className="topimage"
-                          fixed={currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                        />
-                      </Link>
+                <Link to="/">
+                  <Image className="topimage"
+                    fixed={currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                  />
+                </Link>
                       
-                      <div className="col-12 text-center pb-3">
+                <div className="col-12 text-center pb-3">
                   <Link className="button button-primary" to="/about">
                     About
                   </Link>
@@ -44,8 +44,6 @@ const Allposts = ({ data }) => {
                     Submit
                   </Link>
                   </div>
-
-
 
               </div>
             </div>
@@ -64,6 +62,7 @@ export const query = graphql`
         path
         author {
           id
+          idpath
           bio
           twitter
           picture {

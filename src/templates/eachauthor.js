@@ -3,35 +3,39 @@ import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
+import Helmet from 'react-helmet';
 
-const Eachauthor = ({ data }) => {
-  const { title } = data.markdownRemark.frontmatter;
-  const { author } = data.markdownRemark.frontmatter;
-  const { issue } = data.markdownRemark.frontmatter;
-  const { currentcover } = data.markdownRemark.frontmatter;
-  const { category } = data.markdownRemark.frontmatter;
-  const { html } = data.markdownRemark;
+const Eachauthor = props => {
+  const { pageContext } = props;
+  const { idname, bio, twitter, picture } = pageContext;
+  const { title } = props.data.markdownRemark.frontmatter;
+  const { author } = props.data.markdownRemark.frontmatter;
+  const { issue } = props.data.markdownRemark.frontmatter;
+  const { currentcover } = props.data.markdownRemark.frontmatter;
+  const { category } = props.data.markdownRemark.frontmatter;
+  const { html } = props.data.markdownRemark;
+
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
-      <SEO title={title} />
-      
+      <SEO title="Fiction" />
+      <Helmet>
+        <meta
+          name="description"
+          content="all fiction of Haven Quarterly"
+        />
+      </Helmet>
+
       <div className="intro pb-1">
         <div className="container">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
               <div className="wide">
-              <h4>{category}</h4>
+              <h4>{idname}</h4>
               <hr />
-                <h1>{title}</h1>
-                <h2>By  <Link to="/"> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
-                <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+                <h2>{bio}</h2>
+                <h2>{twitter}</h2>
               </div>
               <div className="thin">
-              <Link to="/">
-                        <Image className="topimage"
-                          fixed={currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                        />
-                      </Link>
                       
                       <div className="col-12 text-center pb-3">
                   <Link className="button button-primary" to="/about">
@@ -52,13 +56,15 @@ const Eachauthor = ({ data }) => {
           </div>
         </div>
       </div>
+
+
     </Layout>
   );
 };
 
 export const query = graphql`
-  query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query {
+    markdownRemark {
       frontmatter {
         title
         path

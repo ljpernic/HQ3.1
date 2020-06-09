@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
+import kebabCase from "lodash/kebabCase";
 
 export default class Authorarchive extends React.Component {
   render() {
@@ -45,7 +46,7 @@ export default class Authorarchive extends React.Component {
                     <Image className="authorimage"
                       fluid={post.frontmatter.author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
                     />
-                    <h1 pb><Link to="/"> {post.frontmatter.author.id}</Link></h1>
+                    <h1 pb><Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link></h1>
                     <p>{post.frontmatter.author.bio}</p>
                     <hr />
                   </div>
@@ -139,6 +140,7 @@ export const archivearchiveQuery = graphql`
             title
             author {
               id
+              idpath
               bio
               twitter
               first
