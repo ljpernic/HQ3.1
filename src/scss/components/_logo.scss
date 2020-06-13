@@ -3,18 +3,18 @@
   width: 50px;
   @include media-breakpoint-up(sm) {
     display: inline-block;
-    width: 450px;
+    width: 250px;
   @include media-breakpoint-up(md) {
     display: inline-block;
-    width: 600px;
+    width: 250px;
   @include media-breakpoint-up(lg) {
     display: inline-block;
-    width: 850px;
+    width: 1000px;
   }}}
   img {
     width: 100%;
     height: auto;
-    margin-left: 130px;                                   //CANNOT FIGURE OUT HOW TO CENTER THE LOGO OTHERWISE
+                                   //CANNOT FIGURE OUT HOW TO CENTER THE LOGO OTHERWISE
   }
   a {
     display: block;

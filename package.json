@@ -10,6 +10,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "emotion": "^10.0.27",
     "gatsby": "^2.22.9",
     "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-background-image": "^1.1.1",
@@ -29,8 +30,10 @@
     "js-yaml": "^3.14.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-custom-share": "^0.4.8",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
+    "react-icons": "^3.10.0",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {

@@ -8,13 +8,7 @@ import Helmet from 'react-helmet';
 const Eachauthor = props => {
   const { pageContext } = props;
   const { idname, bio, twitter, picture } = pageContext;
-  const { title } = props.data.markdownRemark.frontmatter;
-  const { author } = props.data.markdownRemark.frontmatter;
-  const { issue } = props.data.markdownRemark.frontmatter;
-  const { currentcover } = props.data.markdownRemark.frontmatter;
-  const { category } = props.data.markdownRemark.frontmatter;
-  const { html } = props.data.markdownRemark;
-
+  
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title="Fiction" />
@@ -25,18 +19,20 @@ const Eachauthor = props => {
         />
       </Helmet>
 
-      <div className="intro pb-1">
-        <div className="container">
+      <div className="authorbody">
+        <div className="container pt-md-5">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
               <div className="wide">
-              <h4>{idname}</h4>
+              <h4>Author</h4>
               <hr />
+              {picture}
+              <h3>{idname}</h3>
                 <h2>{bio}</h2>
                 <h2>{twitter}</h2>
               </div>
               <div className="thin">
-                      
+                                                                              {/*Where the image should go for the current cover*/}
                       <div className="col-12 text-center pb-3">
                   <Link className="button button-primary" to="/about">
                     About
@@ -74,10 +70,10 @@ export const query = graphql`
           twitter
           picture {
             childImageSharp {
-              fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFluid
               }
             }

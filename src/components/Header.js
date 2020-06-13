@@ -24,7 +24,6 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <div className="container">
           <div className="logo">
             <Link to="/">
               <img alt="Haven Quarterly logo" src={logo} />
@@ -39,7 +38,7 @@ class Header extends React.Component {
           <Menu />
           <Hamburger toggleMenu={this.toggleMenu} />
         </div>
-      </div>
+
     );
   }
 }

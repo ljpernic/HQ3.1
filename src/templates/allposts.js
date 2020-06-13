@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
+import CustomReactShare from "../components/CustomShareBlock";
 
 const Allposts = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
@@ -10,21 +11,42 @@ const Allposts = ({ data }) => {
   const { issue } = data.markdownRemark.frontmatter;
   const { currentcover } = data.markdownRemark.frontmatter;
   const { category } = data.markdownRemark.frontmatter;
+  const { excerpt } = data.markdownRemark.frontmatter;
+  const { path } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
+  const url = `http://havenquarterly.com${path}`;
+
+
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={title} />
       
       <div className="intro pb-1">
-        <div className="container">
+        <div className="container pb-md-4">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
               <div className="wide">
-              <h4>{category}</h4>
-              <hr />
+                <div className="col-12">
+                  <h4>{category}</h4>
+                  <hr />
+                </div>
                 <h1>{title}</h1>
-                <h2>By  <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
+                <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
                 <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+                <div className="share">
+                  <h6>Share:</h6>
+                  <CustomReactShare title={title} excerpt={excerpt} url={url} />
+                  <hr />
+                </div>
+                <div className="col">
+                    <Image className="authorimage"
+                      fluid={author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
+                    />
+                    <h1 pb><Link to={author.idpath}> {author.id}</Link></h1>
+                    <p>{author.bio}</p>
+                    <p>{author.first}</p>
+                    <hr />
+                  </div>
               </div>
               <div className="thin">
                 <Link to="/">
@@ -44,7 +66,6 @@ const Allposts = ({ data }) => {
                     Submit
                   </Link>
                   </div>
-
               </div>
             </div>
           </div>
@@ -64,6 +85,7 @@ export const query = graphql`
           id
           idpath
           bio
+          first
           twitter
           picture {
             childImageSharp {

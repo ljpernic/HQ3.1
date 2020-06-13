@@ -1,7 +1,7 @@
 .main-menu {
   height: inherit;
   display: none;
-  margin-left: 130px;                                   //CANNOT FIGURE OUT HOW TO CENTER THE MENU OTHERWISE
+                                   //CANNOT FIGURE OUT HOW TO CENTER THE MENU OTHERWISE
   @include media-breakpoint-up(md) {
     display: block;
   }

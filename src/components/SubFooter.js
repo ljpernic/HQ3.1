@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import { Link, graphql, StaticQuery } from 'gatsby';
 
 const SubFooter = props => (
   <div className="sub-footer-strip">
@@ -8,18 +8,23 @@ const SubFooter = props => (
         <div className="col-12">
           <div className="sub-footer">
             <ul>
-              <li>
-                <strong>About: </strong>
-                  <a href={"/about"}>
-                    Our Mission
-                  </a>
+              <li className="liLeft">
+                <Link to="/about">
+                <strong>About </strong>
+                </Link>
               </li>
-              <li>
-                <strong>Support: </strong>
-                  <a href={"/support"}>
-                    Good Fiction
-                  </a>            
+              <li className="liLeft">
+                <Link to={"/support"}>
+                  <strong>Support </strong>
+                </Link>            
               </li>
+              <li className="liLeft">
+                <Link to={"/submit"}>
+                <strong>Submit </strong>
+              </Link>            
+
+              </li>
+
             </ul>
             <ul>
               <li>

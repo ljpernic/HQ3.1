@@ -1,5 +1,13 @@
 import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
+import Layout from '../layouts/index';
+
+import { FaTwitter } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
+import { FaReddit } from 'react-icons/fa';
+
+import { IconContext } from "react-icons";
 
 const Footer = props => (
   <div className="footer-strip">
@@ -7,16 +15,35 @@ const Footer = props => (
       <div className="row">
         <div className="col-12">
           <div className="footer">
+
+            <Link to="/">
             <h3 className="footer-title">{props.data.site.siteMetadata.title}</h3>
+            </Link>
+            
+            <div className="social-media">
+            <a href="https://twitter.com/HavenQuarterly">
+              <IconContext.Provider value={{ className:"social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                  <div>
+                    <FaTwitter />
+                  </div>
+                </IconContext.Provider>
+              </a>
+              <a href="https://facebook.com/HavenQuarterly">  
+                <IconContext.Provider value={{className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                  <div>
+                    <FaFacebook />
+                  </div>
+                </IconContext.Provider>
+              </a>
+              <a href="https://HavenQuarterly.com/newsletter">  
+                <IconContext.Provider value={{className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                  <div>
+                    <FaEnvelope />
+                  </div>
+                </IconContext.Provider>
+              </a>
+              </div>
             <ul className="footer-menu">
-              <li>
-                {' '}
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                {' '}
-                <Link to="/submit">Submit</Link>
-              </li>
               <li className="copyright">
                 ©
 {' '}

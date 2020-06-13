@@ -5,8 +5,7 @@ import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Call from '../components/Call';
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const json = props.data.allFeaturesJson.edges;
@@ -15,6 +14,8 @@ const Home = (props) => {                                                     //
   const future = props.data.future.edges;
   const featuredfiction = props.data.featuredfiction.edges;
   const fullissues = props.data.fullissues.edges;
+  
+  
   return (
     <Layout bodyClass="page-home">
       <SEO title="Home" />
@@ -241,7 +242,6 @@ const Home = (props) => {                                                     //
         </div>
       </div>
     </div>
-
 
 {/*
     <div className="postbody">
