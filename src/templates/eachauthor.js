@@ -7,7 +7,7 @@ import Helmet from 'react-helmet';
 
 const Eachauthor = props => {
   const { pageContext } = props;
-  const { idname, bio, twitter, picture } = pageContext;
+  const { idname, bio, twitter, picture, stories } = pageContext;
   
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
@@ -30,6 +30,9 @@ const Eachauthor = props => {
               <h3>{idname}</h3>
                 <h2>{bio}</h2>
                 <h2>{twitter}</h2>
+                <p>{stories.map((data, index) => {
+          return <li key={`content_item_${index}`}>{data.item}</li>
+        })}</p>
               </div>
               <div className="thin">
                                                                               {/*Where the image should go for the current cover*/}

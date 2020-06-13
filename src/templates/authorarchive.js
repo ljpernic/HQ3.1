@@ -143,8 +143,6 @@ export const archivearchiveQuery = graphql`
               idpath
               bio
               twitter
-              first
-              second
               picture {
                 childImageSharp {
                   fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)

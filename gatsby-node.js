@@ -120,6 +120,7 @@ exports.createPages = ({ graphql, actions }) => {
               bio: element.bio,
               twitter: element.twitter,
               picture: element.picture,
+              stories: element.stories,
             },
           })
         })

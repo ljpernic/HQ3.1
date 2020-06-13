@@ -6,9 +6,9 @@
   taverns) with a hatchet."
   twitter: 'nonexistencecuriouscat'
   picture: ../images/profile/profile1.jpg
-  first: Malingering Fingers and the Singers with Stingers 
-  second: Quadratic Equations for Fun and Profit 
-  third: 
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Alan Alansonovitch
   idpath: "/alan-alansonovitch"
@@ -18,9 +18,9 @@
   taverns) with a hatchet."
   twitter: 'nonexistencecuriouscat'
   picture: ../images/profile/profile1.jpg
-  first: Malingering Fingers and the Singers with Stingers 
-  second: Quadratic Equations for Fun and Profit 
-  third: 
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 
 - id: Cheesy Fries Dan
@@ -31,7 +31,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
   picture: ../images/profile/profile2.jpg
-  first: My Uncle Called Action Because He is a Director
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Good Bie
   idpath: "/good-bie"
@@ -42,6 +44,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile3.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Karl Marxerel
   idpath: "/karl-marxerel"
@@ -51,6 +56,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile4.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Sunset McGee
   idpath: "/sunset-mcgee"
@@ -60,6 +68,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'nonexistencecuriouscat'
   picture: ../images/profile/profile5.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Glenda the Glad
   idpath: "/glenda-the-glad"
@@ -70,6 +81,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile6.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Scurvy Joe
   idpath: "/scurvy-joe"
@@ -79,6 +93,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile7.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Fanniford Kaplaniford
   idpath: "/fanniford-kaplaniford"
@@ -88,6 +105,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile8.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Famke Bucket Head
   idpath: "/famke-bucket-head"
@@ -97,6 +117,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'nonexistencecuriouscat'
   picture: ../images/profile/profile9.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Barronovitch Aaronovitch
   idpath: "/barronovitch-aaronovitch"
@@ -107,6 +130,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile10.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Salmon Smith
   idpath: "/salmon-smith"
@@ -116,6 +142,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile11.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Your Own Shameful Thoughts
   idpath: "/your-own-shameful-thoughts"
@@ -125,6 +154,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile12.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Freddie the Banana Musher
   idpath: "/freddie-the-banana-musher" 
@@ -134,6 +166,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'nonexistencecuriouscat'
   picture: ../images/profile/profile13.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Orange Rock
   idpath: "/orange-rock"
@@ -144,6 +179,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile14.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Prep H.
   idpath: "/prep-h"
@@ -153,6 +191,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile15.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Apples Allen
   idpath: "/apples-allen"
@@ -162,6 +203,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
   picture: ../images/profile/profile16.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Roller Coaster Bill
   idpath: "/roller-coaster-bill"
@@ -172,6 +216,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile1.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Sergei McSelfsurgury
   idpath: "/segei-mcselfsurgury"
@@ -181,6 +228,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile2.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Halty Haffenpfaff
   idpath: "/halty-haffenpfaff"
@@ -190,6 +240,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile3.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Halitosis Henry
   idpath: "/halitosis-henry"
@@ -199,6 +252,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
   picture: ../images/profile/profile4.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: The Robot Kid
   idpath: "/the-robot-kid"
@@ -209,6 +265,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile5.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: T. McGibbons
   idpath: "/t-mcgibbons"
@@ -218,6 +277,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile7.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Roundhead Rick
   idpath: "/roundhead-rick"
@@ -227,6 +289,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
   picture: ../images/profile/profile8.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Greg Notamonster
   idpath: "/greg-notamonster"
@@ -237,6 +302,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile9.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Sonja the Just
   idpath: "/sonja-the-just"
@@ -246,6 +314,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile10.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Michelle Seller-Nomiconricon
   idpath: "michelle-seller-nomiconricon"
@@ -255,6 +326,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile11.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Raptor Alan
   idpath: "/raptor-alan"
@@ -264,7 +338,9 @@
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
   picture: ../images/profile/profile12.jpg
-  first: Driving Driving Driving
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Bill Billerson
   idpath: "/bill-billerson"
@@ -275,6 +351,9 @@
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
   picture: ../images/profile/profile13.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Tina Tina Bobina
   idpath: "/tina-tina-bobina"
@@ -284,6 +363,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile14.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Susan Susanovya
   idpath: "/susan-susanovya"
@@ -293,6 +375,9 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile15.jpg
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit 
 
 - id: Hell Oh
   idpath: "/hell-oh"
@@ -302,5 +387,6 @@
   taverns) with a hatchet."
   twitter: 'wgao19'
   picture: ../images/profile/profile16.jpg
-
-  
+  stories:
+  - item: Malingering Fingers and the Singers with Stingers 
+  - item: Quadratic Equations for Fun and Profit

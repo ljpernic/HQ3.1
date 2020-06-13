@@ -5,6 +5,9 @@ import Layout from '../layouts/index';
 import Image from 'gatsby-image';
 import CustomReactShare from "../components/CustomShareBlock";
 
+import { FaTwitter } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
 const Allposts = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
@@ -15,6 +18,7 @@ const Allposts = ({ data }) => {
   const { path } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
   const url = `http://havenquarterly.com${path}`;
+  const twitter = `http://twitter.com/${author.twitter}`;
 
 
   return (
@@ -27,27 +31,44 @@ const Allposts = ({ data }) => {
             <div className="grid-container pt-2">
               <div className="wide">
                 <div className="col-12">
+
                   <h4>{category}</h4>
                   <hr />
-                </div>
-                <h1>{title}</h1>
-                <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
-                <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-                <div className="share">
-                  <h6>Share:</h6>
-                  <CustomReactShare title={title} excerpt={excerpt} url={url} />
+
+                  <h1>{title}</h1>
+                  <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
+                  <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+
+                  <div className="share">
+                    <h6>Share:</h6>
+                    <CustomReactShare title={title} excerpt={excerpt} url={url} />
+                  </div>
+
                   <hr />
-                </div>
-                <div className="col">
-                    <Image className="authorimage"
+                  <div className="authorimagebottom">
+                    <Image className=""
                       fluid={author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
                     />
-                    <h1 pb><Link to={author.idpath}> {author.id}</Link></h1>
-                    <p>{author.bio}</p>
-                    <p>{author.first}</p>
-                    <hr />
+
+
+                      <a href={twitter}>
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                          <FaTwitter />
+                        </IconContext.Provider>
+                      </a>
                   </div>
+
+                    <h1 className="biotitle"><Link to={author.idpath}> {author.id}</Link></h1>
+                    <p>{author.bio}</p>
+                    <p>{author.stories.map((data, index) => {
+                      return <li key={`content_item_${index}`}>{data.item}</li>
+                      })}
+                    </p> 
+                    <hr />
+
+                </div>
               </div>
+
               <div className="thin">
                 <Link to="/">
                   <Image className="topimage"
@@ -85,8 +106,10 @@ export const query = graphql`
           id
           idpath
           bio
-          first
           twitter
+          stories {
+            item
+          }
           picture {
             childImageSharp {
               fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)

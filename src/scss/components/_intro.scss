@@ -37,6 +37,7 @@
       font-size: 2.5rem;
       width: 90%;
     }
+
   }
   h2 {                                                           //byline of each post (has author and issue)
     color: $secondary;
@@ -153,11 +154,20 @@
 }
 
 .authorimage {
+  display: grid;
   float: left;
   margin: 10px 35px 5px 60px;
   width: 175px;
   text-align: center;
   border: 2px solid black;
+}
+
+.authorimagebottom {
+  display: grid;
+  float: left;
+  margin: 10px 35px 5px 60px;
+  width: 175px;
+  text-align: center;
 }
 
 .topimage {                                                                 //This is for the cover at the top
@@ -200,6 +210,10 @@
   align-items: center;
   justify-content: center;
 
+}
+
+.biotitle {
+  text-align: left !important;
 }
 
 .postbody {
