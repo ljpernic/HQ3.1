@@ -4,7 +4,6 @@ import Image from "gatsby-image";
 import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
-import Call from '../components/Call';
 import styled from 'styled-components';
 
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues

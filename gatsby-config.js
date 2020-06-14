@@ -10,8 +10,8 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'Full Issues',
-        link: '/fullissues',
+        name: 'About',
+        link: '/about',
       },
       {
         name: 'Fiction',
@@ -26,12 +26,20 @@ module.exports = {
         link: '/future',
       },
       {
-        name: 'Art and Covers',
-        link: '/artandcovers',
+        name: 'Full Issues',
+        link: '/fullissues',
       },
       {
         name: 'Contributors',
         link: '/contributors',
+      },
+      {
+        name: 'Support',
+        link: '/support',
+      },
+      {
+        name: 'Submit',
+        link: '/submit',
       },
     ],
   },

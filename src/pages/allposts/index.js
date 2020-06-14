@@ -10,7 +10,7 @@ const Allposts = (props) => {
   const allposts = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
-    <Layout bodyClass="page-services">
+    <Layout bodyClass="page-home">
       <SEO title="Fiction" />
       <Helmet>
         <meta

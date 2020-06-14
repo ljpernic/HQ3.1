@@ -11,7 +11,7 @@ const Support = (props) => {
   const support = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
-    <Layout bodyClass="page-services">
+    <Layout bodyClass="page-home">
       <SEO title="Support" />
       <Helmet>
         <meta
