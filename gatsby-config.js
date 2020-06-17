@@ -10,10 +10,6 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'About',
-        link: '/about',
-      },
-      {
         name: 'Fiction',
         link: '/fiction',
       },
@@ -32,6 +28,10 @@ module.exports = {
       {
         name: 'Contributors',
         link: '/contributors',
+      },
+      {
+        name: 'About',
+        link: '/about',
       },
       {
         name: 'Support',
@@ -106,5 +106,6 @@ module.exports = {
   mapping: {
     // 3. map author to author.yaml
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
+    "MarkdownRemark.frontmatter.issue": `IssueYaml`,
   },
 };

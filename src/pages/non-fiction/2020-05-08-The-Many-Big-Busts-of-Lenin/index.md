@@ -1,14 +1,14 @@
 ---
 title: The Many Big Busts of Lenin
 author: Fanniford Kaplaniford
-issue: Issue One, Summer 2020
-featured: false
+issue: Issue One Summer 2020
 description: In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2019-07-25T00:00:00.000Z"
 path: "/The-Many-Big-Busts-of-Lenin"
+featured: false
 ---
 
 In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.

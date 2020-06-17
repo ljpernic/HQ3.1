@@ -4,47 +4,61 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
 import Helmet from 'react-helmet';
+import CustomReactShare from "../components/CustomShareBlock";
 
 const Eachauthor = props => {
   const { pageContext } = props;
-  const { idname, bio, twitter, picture, stories } = pageContext;
-  
+  const { idpath, issueidname, text, artist, artistbio, artistimage, currentcover } = pageContext;
+  const url = `http://havenquarterly.com${idpath}`;
+  const twitter = `http://twitter.com/havenquarterly`;
+
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
-      <SEO title="Fiction" />
-      <Helmet>
-        <meta
-          name="description"
-          content="all fiction of Haven Quarterly"
-        />
-      </Helmet>
-
-      <div className="authorbody">
-        <div className="container pt-md-5">
+      <SEO title={issueidname} />
+      
+      <div className="intro pb-1">
+        <div className="container pb-md-4">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
               <div className="wide">
-              <h4>Author</h4>
-              <hr />
-                {picture}
+                <div className="col-12">
 
-              <h3>{idname}</h3>
-                <h2>{bio}</h2>
-                <h2>{twitter}</h2>
-                <p>{stories.map((data, index) => {
-          return <li key={`content_item_${index}`}>{data.item}</li>
-        })}</p>
+
+                  <hr />
+                  <p>{issueidname}</p>
+                  <p>{text}</p>
+                  <hr />
+                  <Image className="inlineimage"
+                              fluid={artistimage}          /*This should pull image from md files with category "fiction"*/
+                            />
+
+
+                  <h3>{artist}</h3>
+                  <p>{artistbio}</p>
+
+<hr />
+                  
+                  <div className="share">
+                    <h6>Share:</h6>
+                  </div>
+
+                  <hr />
+
+                </div>
               </div>
-              <div className="thin">
-                                                                              {/*Where the image should go for the current cover*/}
 
+              <div className="thin">
+                <Link to="/">
+                  <Image className="topimage"
+                    fixed={currentcover}      /*This pulls the image from the md file with featured: true (current cover)*/
+                  />
+                </Link>
+                      
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
     </Layout>
   );
 };

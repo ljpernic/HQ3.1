@@ -1,16 +1,14 @@
 ---
-title: "Driving Driving Driving and then More Driving until We're in Lake Michigan: the early years"
+title: "Driving into Lake Michigan: the early years"
 author: Susan Susanovya
-issue: Issue One, Summer 2020
-featured: true
-description: "In the long winter we fish for fish and ice our ice until the fish ice and 
-
-the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather."
+issue: Issue One Summer 2020
+description: "In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather."
 category: fiction
 currentcover: CurrentCover.jpg
 cover: cover.jpg
 date: "2020-06-06T00:00:00.000Z"
 path: "/Driving-Driving-Driving"
+featured: true
 ---
 In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather.
 

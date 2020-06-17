@@ -1,14 +1,14 @@
 ---
 title: Mush that Banana 
 author: Freddie the Banana Musher
-issue: Issue Two, Fall 2020
-featured: false
+issue: Issue Two Fall 2020
 description: Just keep mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing 
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-16T00:00:00.000Z"
 path: "/mush-that-banana"
+featured: false
 ---
 
 Just keep mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing

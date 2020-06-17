@@ -60,7 +60,7 @@ const Support = (props) => {
 export const query = graphql`
   query SupportQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/allposts/" } }
+      filter: { fileAbsolutePath: { regex: "/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -86,7 +86,33 @@ export const query = graphql`
                 }
               }
             }
-            issue
+            issue {
+              id
+              idpath
+              currentcover {
+                childImageSharp {
+                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              text
+              artist
+              artistimage {
+                childImageSharp {
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              artistbio 
+            }
             date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {

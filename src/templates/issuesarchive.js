@@ -153,7 +153,33 @@ export const fullissuesarchiveQuery = graphql`
                 }
               }
             }
-            issue
+            issue {
+              id
+              idpath
+              currentcover {
+                childImageSharp {
+                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              text
+              artist
+              artistimage {
+                childImageSharp {
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              artistbio 
+            }
             date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {

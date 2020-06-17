@@ -2,13 +2,13 @@
 title: Where Did I Put My Spleen
 author: Sergei McSelfsurgury
 issue: Issue Three, Winter 2020
-featured: false
 description: We swam through aging pots of gold, we listened to what we were told, we bought some things though later sold, we scraped our walls all free of mold, we aged and aged till we were old, we did things meek and did things bold, we caught the flu and caught a cold, we rarely gave and rarely stole, they buried us in fresh dug holes.
 category: non-fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-21T00:00:00.000Z"
 path: "/where-did-I-put-my-spleen"
+featured: false
 ---
 
 We swam through aging pots of gold, we listened to what we were told, we bought some things though later sold, we scraped our walls all free of mold, we aged and aged till we were old, we did things meek and did things bold, we caught the flu and caught a cold, we rarely gave and rarely stole, they buried us in fresh dug holes.

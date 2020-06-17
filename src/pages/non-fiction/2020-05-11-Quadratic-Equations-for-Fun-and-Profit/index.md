@@ -1,14 +1,14 @@
 ---
 title: Quadratic Equations for Fun and Profit 
 author: Alan Alansonovitch
-issue: Issue Two, Fall 2020
-featured: false
+issue: Issue Two Fall 2020
 description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-11T00:00:00.000Z"
 path: "/quadratic-equations"
+featured: false
 ---
 
 Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?

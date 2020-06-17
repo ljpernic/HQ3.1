@@ -1,7 +1,6 @@
 ---
 title: Where We'll be Sleeping Tonight
 author: Michelle Seller-Nomiconricon
-featured: false
 issue: Issue Four, Spring 2021
 description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
 category: fiction
@@ -9,6 +8,7 @@ cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-06-01T00:00:00.000Z"
 path: "/where-we'll-be-sleeping-tonight"
+featured: false
 ---
 
 Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.

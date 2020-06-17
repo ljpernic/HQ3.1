@@ -7,12 +7,12 @@ const yaml = require("js-yaml")
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const ymlDoc = yaml.safeLoad(fs.readFileSync("./src/data/author.yaml", "utf-8"))
+  const ymlIssueDoc = yaml.safeLoad(fs.readFileSync("./src/data/issue.yaml", "utf-8"))
   return new Promise((resolve, reject) => {
     resolve(
       graphql(
         `
           query {
-            
             fictionarchive: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
@@ -71,7 +71,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             issuesarchive: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/allposts/" } }
+              filter: { fileAbsolutePath: { regex: "/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -114,7 +114,7 @@ exports.createPages = ({ graphql, actions }) => {
         ymlDoc.forEach(element => {
           createPage({
             path: element.idpath,
-            component: require.resolve("./src/templates/eachauthor.js"),
+            component: require.resolve("./src/templates/eachauthor.js"),                                    /*creates INDIVIDUAL AUTHOR PAGES*/
             context: {
               idname: element.id,
               bio: element.bio,
@@ -122,10 +122,24 @@ exports.createPages = ({ graphql, actions }) => {
               picture: element.picture,
               stories: element.stories,
             },
-          })
-        })
+          });
+        });
+        ymlIssueDoc.forEach(element => {
+          createPage({
+            path: element.idpath,
+            component: require.resolve("./src/templates/eachissue.js"),                                    /*creates INDIVIDUAL ISSUE PAGES*/
+            context: {
+              issueidname: element.id,
+              text: element.text,
+              currentcover: element.currentcover,
+              artist: element.artist,
+              artistbio: element.artistbio,
+              artistimage: element.artistimage,
+            },
+          });
+        });
         result.data.fictionarchive.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/allposts.js');                      /*creates INIDIVUAL FICTION PAGES*/
+          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL FICTION PAGES*/
           createPage({
             path: node.frontmatter.path,
             component,
@@ -135,7 +149,7 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.nonfictionarchive.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/allposts.js');                      /*creates INIDIVUAL NON-FICTION PAGES*/
+          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL NON-FICTION PAGES*/
         createPage({
           path: node.frontmatter.path,
           component,
@@ -145,7 +159,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
       });
         result.data.futurearchive.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/allposts.js');                      /*creates INIDIVUAL LETTER PAGES*/
+          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL LETTER PAGES*/
           createPage({
             path: node.frontmatter.path,
             component,
@@ -155,7 +169,7 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.issuesarchive.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/allposts.js');                      /*creates INIDIVUAL ISSUE PAGES; change template to change every issue page*/
+          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL ISSUE PAGES; change template to change every issue page*/
           createPage({
             path: node.frontmatter.path,
             component,

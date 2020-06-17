@@ -1,14 +1,14 @@
 ---
 title: The Defense Minister Will See You Now
 author: Scurvy Joe
-issue: Issue One, Summer 2020
-featured: false
+issue: Issue One Summer 2020
 description: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. 
 category: fiction
 cover: stats.jpg
 currentcover: CurrentCover.jpg
 date: "2019-06-17T00:00:00.001Z"
 path: "/The-Defense-Minister-Will-See-You-Now"
+featured: false
 ---
 
 I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. 

@@ -2,13 +2,13 @@
 title: Is It Possible to Stop Already
 author: Halty Haffenpfaff
 issue: Issue Three, Winter 2020
-featured: false
 description: We swam through aging pots of gold, we listened to what we were told, we bought some things though later sold, we scraped our walls all free of mold, we aged and aged till we were old, we did things meek and did things bold, we caught the flu and caught a cold, we rarely gave and rarely stole, they buried us in fresh dug holes.
 category: future
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-22T00:00:00.000Z"
 path: "/is-it-possible-to-stop-already"
+featured: false
 ---
 
 We swam through aging pots of gold, we listened to what we were told, we bought some things though later sold, we scraped our walls all free of mold, we aged and aged till we were old, we did things meek and did things bold, we caught the flu and caught a cold, we rarely gave and rarely stole, they buried us in fresh dug holes.

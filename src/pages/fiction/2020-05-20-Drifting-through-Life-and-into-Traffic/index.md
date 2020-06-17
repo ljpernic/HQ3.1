@@ -2,13 +2,13 @@
 title: Drifting through Life and into Traffic
 author: Roller Coaster Bill
 issue: Issue Three, Winter 2020
-featured: false
 description: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy. 
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-20T00:00:00.000Z"
 path: "/drifting-through-life"
+featured: false
 ---
 
 Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy.

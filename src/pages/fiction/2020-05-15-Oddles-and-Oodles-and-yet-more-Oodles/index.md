@@ -1,14 +1,14 @@
 ---
 title: Oodles and Oodles and yet more Oodles 
 author: Hell Oh
-issue: Issue Two, Fall 2020
-featured: false
+issue: Issue Two Fall 2020
 description: Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles  
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-05-15T00:00:00.000Z"
 path: "/oodles-oodles-oodles"
+featured: false
 ---
 
 Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles

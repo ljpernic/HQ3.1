@@ -87,7 +87,7 @@ const About = (props) => {
 export const query = graphql`
   query AboutQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/allposts/" } }             #This tells the /fiction page to look at md files in the /allposts folder
+      filter: { fileAbsolutePath: { regex: "/" } }             #This tells the /about page to look at md files in the src folder
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -113,7 +113,33 @@ export const query = graphql`
                 }
               }
             }
-            issue
+            issue {
+              id
+              idpath
+              currentcover {
+                childImageSharp {
+                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              text
+              artist
+              artistimage {
+                childImageSharp {
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              artistbio 
+            }
             date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {

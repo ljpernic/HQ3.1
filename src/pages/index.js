@@ -4,17 +4,11 @@ import Image from "gatsby-image";
 import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
-import styled from 'styled-components';
 
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const json = props.data.allFeaturesJson.edges;
-  const frontfiction = props.data.frontfiction.edges;
-  const frontnonfic = props.data.frontnonfic.edges;
-  const future = props.data.future.edges;
-  const featuredfiction = props.data.featuredfiction.edges;
-  const fullissues = props.data.fullissues.edges;
-  
-  
+  const posts = props.data.allMarkdownRemark.edges;
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="Home" />
@@ -37,24 +31,23 @@ const Home = (props) => {                                                     //
                   </Link>
                   <hr />
                 </div>
-                {featuredfiction
-                  .filter(post => post.node.frontmatter.featured)                       /*This looks at only the md file with featured: true*/
+                {posts
+                  .filter(post => post.node.frontmatter.featured === true)                       /*This looks at only the md file with featured: true*/
                   .map(({ node: post }) => {
                     return (
                       <div className="container" key={post.id}>
                         <h1 pb>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
-                        <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                        <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                         <p>{post.excerpt}</p>
-                        <hr />
                       </div>
                       )
                     })}
               </div>      
               <div className="thin">
-              {featuredfiction
-                  .filter(post => post.node.frontmatter.featured)                     /*This looks at only the md file with featured: true*/
+              {posts
+                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
                   .map(({ node: post }) => {
                     return (
                       
@@ -66,19 +59,29 @@ const Home = (props) => {                                                     //
 
                       )
                     })}
-                <div className="col-12 text-center pb-3">
-                  <Link className="button button-primary" to="/about">
-                    About
-                  </Link>
-                  <Link className="button button-primary" to="/support">
-                    Support
-                  </Link>
-                  <Link className="button button-primary" to="/submit">
-                    Submit
-                  </Link>
-                </div>
               </div>
             </div>
+            <hr />
+
+            <div className="col-12">
+              {posts
+              .filter(post => !post.node.frontmatter.featured)
+              .filter(post => post.node.frontmatter.issue === "Issue One Summer 2020")          /*THIS SHOULD FILTER ONLY MD FILES WITH issue: Issue One Summer 2020"*/
+              .slice(0, 6)
+              .map(({ node: post }) => {
+                return (
+                  <div className="postbody" key={post.id}>
+
+                      <h2 pb>
+                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> ({post.frontmatter.category})
+                      </h2>
+                  </div>
+                )
+              })}
+            </div>
+
+            <hr />
+
           </div>
         </div>
       </div>
@@ -96,9 +99,10 @@ const Home = (props) => {                                                     //
                                                                                       {/*FICTION*/}
           <div className="container">
             
-            {frontfiction
+            {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+              .slice(0, 6)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -108,7 +112,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to={post.frontmatter.issue}> {post.frontmatter.issue}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -136,9 +140,10 @@ const Home = (props) => {                                                     //
                                                                                       {/*NON-FICTION*/}
           <div className="container">
             
-            {frontnonfic
+            {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "non-fiction")          /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
+              .slice(0,2)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -148,7 +153,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> cheese</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -176,8 +181,10 @@ const Home = (props) => {                                                     //
           </div>
                                                                                       {/*LETTERS FROM THE FUTURE SECTION*/}
           <div className="container">
-            {future
+            {posts
+              .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "future", excluding posts marked featured*/
+              .slice(0,1)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -187,7 +194,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
+                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> cheese</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -216,8 +223,9 @@ const Home = (props) => {                                                     //
           </div>
                                                                                       {/*FULL ISSUES SECTION*/}
           <div className="container">
-            {fullissues
-              .filter(post => post.node.frontmatter.category === "issue")          /*This should only pull from md files with category "issue", excluding posts marked featured*/
+            {posts
+              .filter(post => !post.node.frontmatter.featured)
+              .slice(0,3)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -241,43 +249,66 @@ const Home = (props) => {                                                     //
         </div>
       </div>
     </div>
-
-{/*
-    <div className="postbody">
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12 pt-2">
-          <Link to="/">
-                <h4>Latest Issues</h4>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>*/}
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    featuredfiction: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/.*.md$/" }, frontmatter: {featured:{eq:true} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
+    allAuthorYaml {
+      nodes {
+        bio
+        id
+        idpath
+        picture {
+          childImageSharp {
+            fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              ...GatsbyImageSharpFixed 
+            }
+            fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories {
+          item
+        }
+        twitter
+      }
+    }
+    allIssueYaml {
+      edges {
+        node {
+          artist
+          artistbio
+          id
+          idpath
+          text
+          artistimage {
+            childImageSharp {
+              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          currentcover {
+            childImageSharp {
+              fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 300, maxHeight: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/.*.md$/" }}                  #This tells this file to pull from the md files generated by allposts?
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       totalCount
@@ -295,16 +326,42 @@ export const query = graphql`
               twitter
               picture {
                 childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFluid
                   }
                 }
               }
             }
-            issue
+            issue {
+              id
+              idpath
+              currentcover {
+                childImageSharp {
+                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              text
+              artist
+              artistimage {
+                childImageSharp {
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              artistbio 
+            }
             date(formatString: "DD MMMM YYYY")
             category
             currentcover {
@@ -328,272 +385,7 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 750)                                           #Can we add a seperate excerpt length for featured story?
-        }
-      }
-    }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-        }
-      }
-    }
-    frontfiction: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(fiction)/.*.md$/" }, frontmatter: {category:{eq:"fiction"} } }, limit: 7                  #This tells this file to pull from the md files generated by allposts?
-      sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            featured
-            path
-            title
-            author {
-              id
-              idpath
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            issue
-            date(formatString: "DD MMMM YYYY")
-            category
-            currentcover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            cover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }            
-          }
-          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
-        }
-      }
-    }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-        }
-      }
-    }
-    frontnonfic: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(non-fiction)/.*.md$/" }, frontmatter: {category:{eq:"non-fiction"} } }, limit: 2                  #This tells this file to pull from the md files generated by allposts?
-      sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            featured
-            path
-            title
-            author {
-              id
-              idpath
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            issue
-            date(formatString: "DD MMMM YYYY")
-            category
-            currentcover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            cover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }            
-          }
-          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
-        }
-      }
-    }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-        }
-      }
-    }
-    future: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(letters)/.*.md$/" }, frontmatter: {category:{eq:"future"} } }, limit: 1                  #This tells this file to pull from the md files generated by allposts?
-      sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            featured
-            path
-            title
-            author {
-              id
-              idpath
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            issue
-            date(formatString: "DD MMMM YYYY")
-            category
-            currentcover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            cover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }            
-          }
-          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
-        }
-      }
-    }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-        }
-      }
-    }
-
-    fullissues: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(allposts)/.*.md$/" }, frontmatter: {category:{eq:"issue"} } }, limit: 3                  #This tells this file to pull from the md files generated by allposts?
-      sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            featured
-            path
-            title
-            author {
-              id
-              idpath
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            issue
-            date(formatString: "DD MMMM YYYY")
-            category
-            currentcover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            cover {
-              childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }            
-          }
-          excerpt(pruneLength: 500)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(pruneLength: 650)                                           #Can we add a seperate excerpt length for featured story?
         }
       }
     }

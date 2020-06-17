@@ -8,7 +8,7 @@ import CustomReactShare from "../components/CustomShareBlock";
 import { FaTwitter } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
-const Allposts = ({ data }) => {
+const Eachpost = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
   const { issue } = data.markdownRemark.frontmatter;
@@ -36,7 +36,7 @@ const Allposts = ({ data }) => {
                   <hr />
 
                   <h1>{title}</h1>
-                  <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to="/"> {issue}</Link></h2>
+                  <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to={issue.idpath}> {issue.id}</Link></h2>
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
                   <div className="share">
@@ -72,7 +72,7 @@ const Allposts = ({ data }) => {
               <div className="thin">
                 <Link to="/">
                   <Image className="topimage"
-                    fixed={currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    fixed={currentcover.childImageSharp.fixed}
                   />
                 </Link>
                       
@@ -121,7 +121,33 @@ export const query = graphql`
             }
           }
         }
-        issue
+        issue {
+          id
+          idpath
+          currentcover {
+            childImageSharp {
+              fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          text
+          artist
+          artistimage {
+            childImageSharp {
+              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          artistbio 
+        }
         category
         currentcover {
           childImageSharp {
@@ -139,4 +165,4 @@ export const query = graphql`
   }
 `;
 
-export default Allposts;
+export default Eachpost;

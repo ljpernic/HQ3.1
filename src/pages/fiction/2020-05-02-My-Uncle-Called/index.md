@@ -1,14 +1,14 @@
 ---
 title: My Uncle Called Action Because He is a Director
 author: Cheesy Fries Dan
-issue: Issue One, Summer 2020
-featured: false
+issue: Issue One Summer 2020
 description: Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E?
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2019-01-31T00:00:00.000Z"
 path: "/My-Uncle-Called"
+featured: false
 ---
 
 Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E?
