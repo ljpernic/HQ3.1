@@ -19,8 +19,7 @@ const Home = (props) => {                                                     //
         />
       </Helmet>
 
-                                                                                          {/*FEATURED*/}
-      <div className="intro pb-1">
+      <div className="intro pb-1">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
             <div className="grid-container pt-2">
@@ -61,26 +60,61 @@ const Home = (props) => {                                                     //
                     })}
               </div>
             </div>
-            <hr />
 
-            <div className="col-12">
-              {posts
-              .filter(post => !post.node.frontmatter.featured)
-              .filter(post => post.node.frontmatter.issue === "Issue One Summer 2020")          /*THIS SHOULD FILTER ONLY MD FILES WITH issue: Issue One Summer 2020"*/
-              .slice(0, 6)
-              .map(({ node: post }) => {
-                return (
-                  <div className="postbody" key={post.id}>
-
-                      <h2 pb>
-                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> ({post.frontmatter.category})
-                      </h2>
+            <div className="frontissue">
+              <div className="col-12">
+              <hr className="mt-2"/>
+                <div className="frontissue-left">
+                <h5>Fiction:</h5>
+                  {posts
+                    .filter(post => !post.node.frontmatter.featured)
+                    .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+                    .slice(0, 4)
+                    .map(({ node: post }) => {
+                      return (
+                        <p >
+                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
+                        </p>
+                      )
+                  })}
+                </div>
+                <div className="frontissue-right">
+                  <h5>Non-Fiction:</h5>
+                    {posts
+                      .filter(post => !post.node.frontmatter.featured)
+                      .filter(post => post.node.frontmatter.category === "non-fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+                      .slice(0, 2)
+                      .map(({ node: post }) => {
+                      return (
+                        <p>
+                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
+                        </p>
+                      )
+                    })}
+                    <br />
+                  <h5>Letter from the Future:</h5>
+                    {posts
+                      .filter(post => !post.node.frontmatter.featured)
+                      .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+                      .slice(0, 1)
+                      .map(({ node: post }) => {
+                      return (
+                        <p>
+                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
+                        </p>
+                      )
+                    })}
                   </div>
-                )
-              })}
+                </div>
+              </div>
+              <div className="frontissue col-12">
+                <hr />
+              </div>
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/">
+                View Issue
+              </Link>
             </div>
-
-            <hr />
 
           </div>
         </div>
@@ -112,7 +146,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to={post.frontmatter.issue}> {post.frontmatter.issue}</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -120,7 +154,7 @@ const Home = (props) => {                                                     //
               })}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/fiction">
-                View All Stories
+                View All Fiction
               </Link>
             </div>
           </div>
@@ -153,7 +187,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> cheese</Link></h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -161,7 +195,7 @@ const Home = (props) => {                                                     //
               })}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/non-fiction">
-                View All Stories
+                View All Non-Fiction
               </Link>
             </div>
           </div>
@@ -194,7 +228,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in  <Link to="/"> cheese</Link></h2>
+                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -233,9 +267,9 @@ const Home = (props) => {                                                     //
                         fluid={post.frontmatter.currentcover.childImageSharp.fluid}        /*This should pull image from md files with category "issue"*/
                       />
                       <h1 pb>
-                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                        {/*<Link to={post.frontmatter.issue.idpath}>{post.frontmatter.issue.id}</Link>*/}
                       </h1>
-                      <p>{post.excerpt}</p>
+                      {/*<p>{post.frontmatter.issue.text}</p>*/}
                       <hr />
                   </div>
                 )
@@ -314,6 +348,7 @@ export const query = graphql`
       totalCount
       edges {
         node {
+          html
           id
           frontmatter {
             featured
@@ -385,7 +420,9 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(pruneLength: 650)                                           #Can we add a seperate excerpt length for featured story?
+          excerpt(
+            pruneLength: 650
+            )
         }
       }
     }

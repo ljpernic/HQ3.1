@@ -36,7 +36,7 @@ const Eachpost = ({ data }) => {
                   <hr />
 
                   <h1>{title}</h1>
-                  <h2>By <Link to={author.idpath}> {author.id}</Link> in  <Link to={issue.idpath}> {issue.id}</Link></h2>
+                  <h2>By <Link to={author.idpath}> {author.id}</Link> in (issue name){/*<Link to={issue.idpath}> {issue.id}</Link>*/}</h2>
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
                   <div className="share">

@@ -24,20 +24,37 @@ const Support = (props) => {
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <Link to="/">
                 <h3>How to Support Us</h3>
-            </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            {posts
+            <p>
+              Subscribe...
+            </p>
+            <p>
+              Patreon...
+            </p>
+            <p>
+              KoFi
+            </p>
+            <p>
+              Advertising?
+            </p>
+            <p>
+              Kickstarters...
+            </p>
+            <p>
+              Award nominations...
+            </p>
+
+{/*            {posts
               .filter(post => post.node.frontmatter.category === "support")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}            
                       />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -47,7 +64,7 @@ const Support = (props) => {
                       <hr />
                   </div>
                 )
-              })}
+              })}*/}
 
             </div>
         </div>

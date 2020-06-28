@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
 import Image from "gatsby-image";
+import Helmet from 'react-helmet';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
-import Helmet from 'react-helmet';
 
 const About = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
@@ -11,42 +11,56 @@ const About = (props) => {
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Fiction" />
+      <SEO title="About" />
       <Helmet>
         <meta
           name="description"
-          content="all fiction of Haven Quarterly"
+          content="About page of Haven Quarterly"
         />
       </Helmet>
 
-    <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+      <div className="postbody">
+      <div className="container pt-md-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
-            <Link to="/">
                 <h3>About Us</h3>
-            </Link>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            {posts
+            <p>
+              This is where we have information about our website...
+            </p>
+            <p>
+              We also have to collate staff. It can just live here!
+            </p>
+{/*            <p>
+              Awards
+            </p>*/}
+            <p>
+              Advertising?
+            </p>
+            <p>
+              Contact
+            </p>
+            <p>
+              Privacy Policy
+            </p>
+            <p>
+              Anti-harassment policy
+            </p>
+            <p>
+              About this website
+            </p>
+{/*}            {posts
               .filter(post => post.node.frontmatter.category === "about")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
-                      />
-                      <h1 pb>
-                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                      </h1>
-                      <h2>By  <Link to="/"> {post.frontmatter.author.id}</Link> in  <Link to="/"> {post.frontmatter.issue}</Link></h2>
-                      <p>{post.excerpt}</p>
                       <hr />
                   </div>
                 )
-              })}
+              })}*/}
 
             </div>
         </div>
