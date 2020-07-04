@@ -146,7 +146,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -187,7 +187,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -228,7 +228,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>By  <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in (issue name){/*<Link to={post.frontmatter.issue.id}> {post.frontmatter.issue.idpath}</Link>*/}</h2>
+                      <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                       <p>{post.excerpt}</p>
                       <hr />
                   </div>
@@ -269,7 +269,7 @@ const Home = (props) => {                                                     //
                       <h1 pb>
                         {/*<Link to={post.frontmatter.issue.idpath}>{post.frontmatter.issue.id}</Link>*/}
                       </h1>
-                      {/*<p>{post.frontmatter.issue.text}</p>*/}
+                      <p>{post.frontmatter.issue.text}</p>
                       <hr />
                   </div>
                 )

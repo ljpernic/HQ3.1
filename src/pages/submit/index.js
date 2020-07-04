@@ -33,6 +33,7 @@ const Submit = (props) => {
             </p>
             <p>
               Guidelines for Fiction
+              --Scooby Doo endings...
             </p>
             <p>
               Guidelines for Non-Fiction

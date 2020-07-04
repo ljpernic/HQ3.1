@@ -1,7 +1,7 @@
 ---   
 title: Malingering Fingers and the Singers with Stingers 
 author: Alan Alansonovitch
-issue: Issue One Summer 2020
+issue: Issue One, Summer 2020
 description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
 category: fiction
 cover: cover.jpg

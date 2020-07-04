@@ -1,7 +1,7 @@
 ---
 title: Hammersharks are our friends
 author: Karl Marxerel
-issue: Issue One Summer 2020
+issue: Issue One, Summer 2020
 description: Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite! 
 category: non-fiction
 cover: cover.jpg

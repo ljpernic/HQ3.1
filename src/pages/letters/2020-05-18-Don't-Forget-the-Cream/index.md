@@ -1,7 +1,7 @@
 ---
 title: Don't Forget the Cream
 author: Prep H.
-issue: Issue Two Fall 2020
+issue: Issue Two, Fall 2020
 description: Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite! 
 category: future
 cover: cover.jpg
