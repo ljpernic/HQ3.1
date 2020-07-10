@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-984b55e97e3af94b9f98f6a50f12f714.svg">
+   sodipodi:docname="logo.svg">
   <metadata
      id="metadata16">
     <rdf:RDF>
@@ -39,9 +39,9 @@
      inkscape:window-height="1017"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="5.3732237"
-     inkscape:cx="250.62714"
-     inkscape:cy="1.940813"
+     inkscape:zoom="2.1199047"
+     inkscape:cx="145.60378"
+     inkscape:cy="54.539988"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -55,28 +55,29 @@
      id="defs8" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="4.8024216"
-     y="10.56959"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="4.5955253"
+     y="12.892817"
      id="text3344"
-     sodipodi:linespacing="125%"><tspan
+     sodipodi:linespacing="125%"
+     transform="scale(1.0219001,0.97856919)"><tspan
        sodipodi:role="line"
        id="tspan3346"
-       x="4.8024216"
-       y="10.56959" /></text>
+       x="4.5955253"
+       y="12.892817" /></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:54.99552155px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="-1.5460104"
-     y="34.352062"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-2.0975106"
+     y="34.199745"
      id="text3348"
      sodipodi:linespacing="125%"
-     transform="scale(0.80882918,1.236355)"><tspan
+     transform="scale(0.81791154,1.2226261)"><tspan
        sodipodi:role="line"
        id="tspan3350"
-       x="-1.5460104"
-       y="34.352062"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.80942535px;font-family:'Good Times';-inkscape-font-specification:'Good Times';fill:#000000;fill-opacity:0.67507887">haven<tspan
-   style="fill:#1c3ed3;fill-opacity:1"
+       x="-2.0975106"
+       y="34.199745"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887">haven<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
    id="tspan4152">quarterly</tspan></tspan></text>
 </svg>
