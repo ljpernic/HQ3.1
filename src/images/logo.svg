@@ -39,9 +39,9 @@
      inkscape:window-height="1017"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="2.1199047"
-     inkscape:cx="145.60378"
-     inkscape:cy="54.539988"
+     inkscape:zoom="2.3656078"
+     inkscape:cx="163.13955"
+     inkscape:cy="23.897572"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -65,19 +65,86 @@
        id="tspan3346"
        x="4.5955253"
        y="12.892817" /></text>
-  <text
-     xml:space="preserve"
+  <g
+     transform="scale(0.81791154,1.2226261)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="-2.0975106"
-     y="34.199745"
-     id="text3348"
-     sodipodi:linespacing="125%"
-     transform="scale(0.81791154,1.2226261)"><tspan
-       sodipodi:role="line"
-       id="tspan3350"
-       x="-2.0975106"
-       y="34.199745"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887">haven<tspan
+     id="text3348">
+    <path
+       d="m 0.25953378,34.199745 0,0 z m 21.88684022,0.11224 0,-11.822635 -13.6933051,0 0,-4.227714 13.6933051,0 0,-11.2614345 4.751502,0 0,27.3117835 -4.751502,0 z m -21.88684022,0 0,-27.3117835 4.75150212,0 0,27.3117835 -4.75150212,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887"
+       id="path4162" />
+    <path
+       d="m 29.774616,34.199745 0,0 z m 30.192616,0 -4.078061,-6.846652 -12.87021,0 2.244804,-3.853581 8.343189,0 -6.060972,-10.176445 -12.346422,20.876678 -5.424944,0 15.638802,-26.039728 q 0.411548,-0.7108547 0.972749,-1.1224021 0.561201,-0.4115474 1.346882,-0.4115474 0.785682,0 1.309469,0.4115474 0.561201,0.4115474 0.972749,1.1224021 l 15.676216,26.039728 -5.724251,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887"
+       id="path4164" />
+    <path
+       d="m 57.980812,34.199745 0,0 z m 0,-27.1995435 5.799077,0 12.346423,20.9515055 12.30901,-20.9515055 5.462356,0 L 78.221463,33.03993 q -0.411548,0.710854 -0.972749,1.122402 -0.561201,0.411547 -1.309469,0.411547 -0.785681,0 -1.346882,-0.411547 -0.561201,-0.411548 -0.972749,-1.122402 L 57.980812,7.0002015 Z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887"
+       id="path4166" />
+    <path
+       d="m 96.789037,34.199745 0,0 z m 0,0 0,-27.1995435 24.281293,0 0,4.7515025 -19.5672,0 0,17.696539 19.60462,0 0,4.751502 -24.318713,0 z m 8.193533,-11.822635 0,-4.003234 15.0776,0 0,4.003234 -15.0776,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887"
+       id="path4168" />
+    <path
+       d="m 125.10221,34.199745 0,0 z m 4.52702,-19.90393 0,19.90393 -4.52702,0 0,-24.6928455 q 0,-1.3094691 0.63603,-2.0577372 0.67344,-0.7856814 1.79584,-0.7856814 0.52379,0 1.01016,0.2244804 0.48638,0.2244804 1.01017,0.7482681 l 19.19307,19.0434216 0,-19.9039299 4.52702,0 0,24.9173259 q 0,1.346883 -0.67344,2.095151 -0.63603,0.748268 -1.6836,0.748268 -1.15982,0 -2.16998,-1.010162 L 129.62923,14.295815 Z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887"
+       id="path4170" />
+    <path
+       d="m 157.09243,34.199745 0,0 z m 28.17229,0 -1.87067,-1.608776 q -1.42171,0.748268 -3.0679,1.197229 -1.60877,0.411547 -3.40462,0.411547 l -6.62217,0 q -2.84342,0 -5.27529,-1.047575 -2.39446,-1.084989 -4.1903,-2.918245 -1.75843,-1.870671 -2.76859,-4.414782 -0.97275,-2.544111 -0.97275,-5.49977 0,-2.993072 0.97275,-5.462357 1.01016,-2.469285 2.76859,-4.190301 1.79584,-1.75843 4.1903,-2.693765 2.43187,-0.9727485 5.27529,-0.9727485 l 6.62217,0 q 2.95566,0 5.38753,0.9727485 2.46929,0.9727485 4.22772,2.731178 1.75843,1.75843 2.73117,4.227715 0.97275,2.431871 0.97275,5.38753 0,2.993072 -1.01016,5.537183 -0.97275,2.506698 -2.76859,4.377369 l 5.12564,3.96582 -6.32287,0 z m -13.84296,-11.224021 6.28545,0 5.05081,4.265128 q 1.27206,-1.197229 1.98291,-2.918245 0.74827,-1.721017 0.74827,-3.778754 0,-1.908083 -0.63603,-3.51686 -0.63602,-1.646189 -1.79584,-2.806005 -1.1224,-1.159815 -2.69377,-1.795843 -1.57136,-0.673441 -3.44203,-0.673441 l -6.62217,0 q -1.83326,0 -3.40462,0.673441 -1.53395,0.636028 -2.65635,1.795843 -1.1224,1.159816 -1.75843,2.768592 -0.63603,1.608776 -0.63603,3.554273 0,1.908084 0.63603,3.554273 0.63603,1.64619 1.75843,2.843419 1.1224,1.159816 2.65635,1.833257 1.57136,0.673441 3.40462,0.673441 l 6.62217,0 q 1.15982,0 2.35705,-0.299307 l -7.85682,-6.173212 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4172" />
+    <path
+       d="m 193.71079,34.199745 0,0 z m 24.73026,-27.1995435 4.63927,0 0,15.1898415 q 0,3.142726 -0.8231,5.49977 -0.82309,2.319631 -2.58152,3.853581 -1.75843,1.533949 -4.56444,2.282217 -2.76859,0.748268 -6.73441,0.748268 -3.92841,0 -6.73441,-0.748268 -2.7686,-0.748268 -4.52703,-2.282217 -1.75843,-1.53395 -2.58152,-3.853581 -0.8231,-2.357044 -0.8231,-5.49977 l 0,-15.1898415 4.90116,0 0,15.1898415 q 0,2.057737 0.48637,3.51686 0.52379,1.459122 1.64619,2.394458 1.15982,0.935335 3.0679,1.384295 1.90809,0.411548 4.71409,0.411548 2.80601,0 4.71409,-0.411548 1.90808,-0.44896 3.03049,-1.384295 1.15981,-0.935336 1.64619,-2.394458 0.52378,-1.459123 0.52378,-3.51686 l 0,-15.1898415 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4174" />
+    <path
+       d="m 223.19898,34.199745 0,0 z m 30.19262,0 -4.07806,-6.846652 -12.87021,0 2.2448,-3.853581 8.34319,0 -6.06097,-10.176445 -12.34642,20.876678 -5.42495,0 15.6388,-26.039728 q 0.41155,-0.7108547 0.97275,-1.1224021 0.5612,-0.4115474 1.34689,-0.4115474 0.78568,0 1.30946,0.4115474 0.56121,0.4115474 0.97275,1.1224021 l 15.67622,26.039728 -5.72425,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4176" />
+    <path
+       d="m 262.00721,34.199745 0,0 z m 25.25405,0 -6.88406,-7.557507 -10.17645,0 0,-4.190301 11.33626,0 q 2.58153,0 3.89099,-1.384296 1.30947,-1.421709 1.30947,-4.078061 0,-2.656352 -1.38429,-3.928407 -1.34688,-1.309469 -3.81617,-1.309469 l -14.81571,0 0,22.448041 -4.71409,0 0,-27.1995435 19.5298,0 q 2.31963,0 4.15289,0.7108547 1.83325,0.6734412 3.10531,1.9829103 1.27206,1.2720555 1.9455,3.1053125 0.67344,1.833257 0.67344,4.115474 0,3.40462 -1.49654,5.724251 -1.45912,2.282217 -4.11547,3.292379 l 8.19353,8.268362 -6.73441,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4178" />
+    <path
+       d="m 294.30432,34.199745 0,0 z m 10.3261,0 0,-22.448041 -10.3261,0 0,-4.7515025 25.4037,0 0,4.7515025 -10.3261,0 0,22.448041 -4.7515,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4180" />
+    <path
+       d="m 322.87706,34.199745 0,0 z m 0,0 0,-27.1995435 24.2813,0 0,4.7515025 -19.56721,0 0,17.696539 19.60462,0 0,4.751502 -24.31871,0 z m 8.19353,-11.822635 0,-4.003234 15.0776,0 0,4.003234 -15.0776,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4182" />
+    <path
+       d="m 351.30247,34.199745 0,0 z m 25.25405,0 -6.88407,-7.557507 -10.17644,0 0,-4.190301 11.33626,0 q 2.58152,0 3.89099,-1.384296 1.30947,-1.421709 1.30947,-4.078061 0,-2.656352 -1.38429,-3.928407 -1.34689,-1.309469 -3.81617,-1.309469 l -14.81571,0 0,22.448041 -4.71409,0 0,-27.1995435 19.5298,0 q 2.31963,0 4.15289,0.7108547 1.83325,0.6734412 3.10531,1.9829103 1.27205,1.2720555 1.9455,3.1053125 0.67344,1.833257 0.67344,4.115474 0,3.40462 -1.49654,5.724251 -1.45912,2.282217 -4.11547,3.292379 l 8.19353,8.268362 -6.73441,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4184" />
+    <path
+       d="m 385.79295,34.199745 0,0 z m 0,0 0,-27.1995435 4.7515,0 0,22.4480415 18.29516,0 0,4.751502 -23.04666,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4186" />
+    <path
+       d="m 404.67503,34.199745 0,0 z m 14.44157,0 0,-10.326099 -14.44157,-16.8734445 6.39769,0 10.58799,12.5334895 10.62541,-12.5334895 6.06097,0 -14.47899,16.8734445 0,10.326099 -4.7515,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
+       id="path4188" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-2.0859151"
+       y="34.200417"
+       id="text3348-1"
+       sodipodi:linespacing="125%"
+       transform="scale(0.81791154,1.2226261)"><tspan
+         sodipodi:role="line"
+         id="tspan3350-2"
+         x="-2.0859151"
+         y="34.200417"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.67507887">haven<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.41340256px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1c3ed3;fill-opacity:1"
-   id="tspan4152">quarterly</tspan></tspan></text>
+   id="tspan4152-1">quarterly</tspan></tspan></text>
+  </g>
 </svg>
