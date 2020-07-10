@@ -4,10 +4,12 @@ import Image from "gatsby-image";
 import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
+import paragraphs from "lines-to-paragraphs";
 
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const json = props.data.allFeaturesJson.edges;
   const posts = props.data.allMarkdownRemark.edges;
+  const issueNodes = props.data.allIssueYaml.edges;
 
   return (
     <Layout bodyClass="page-home">
@@ -25,9 +27,7 @@ const Home = (props) => {                                                     //
             <div className="grid-container pt-2">
               <div className="wide">
                 <div className="col-12">
-                  <Link to="/featured">
-                      <h4>Featured Story</h4>
-                  </Link>
+                      <h4>Featured This Week</h4>
                   <hr />
                 </div>
                 {posts
@@ -67,9 +67,7 @@ const Home = (props) => {                                                     //
                 <div className="frontissue-left">
                 <h5>Fiction:</h5>
                   {posts
-                    .filter(post => !post.node.frontmatter.featured)
-                    .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
-                    .slice(0, 4)
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "fiction" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
                     .map(({ node: post }) => {
                       return (
                         <p >
@@ -81,9 +79,7 @@ const Home = (props) => {                                                     //
                 <div className="frontissue-right">
                   <h5>Non-Fiction:</h5>
                     {posts
-                      .filter(post => !post.node.frontmatter.featured)
-                      .filter(post => post.node.frontmatter.category === "non-fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
-                      .slice(0, 2)
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "non-fiction" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
                       .map(({ node: post }) => {
                       return (
                         <p>
@@ -94,9 +90,7 @@ const Home = (props) => {                                                     //
                     <br />
                   <h5>Letter from the Future:</h5>
                     {posts
-                      .filter(post => !post.node.frontmatter.featured)
-                      .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
-                      .slice(0, 1)
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "future" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
                       .map(({ node: post }) => {
                       return (
                         <p>
@@ -110,8 +104,15 @@ const Home = (props) => {                                                     //
               <div className="frontissue col-12">
                 <hr />
               </div>
+{/*<div className="container">
+<div className="row justify-content-start">
+<div className="col-12">
+<p>test</p>
+</div>
+</div>
+</div>*/}
             <div className="col-12 text-center pb-3">
-              <Link className="button button-primary" to="/">
+              <Link className="button button-primary" to="/issue-four">
                 View Issue
               </Link>
             </div>
@@ -257,23 +258,16 @@ const Home = (props) => {                                                     //
           </div>
                                                                                       {/*FULL ISSUES SECTION*/}
           <div className="container">
-            {posts
-              .filter(post => !post.node.frontmatter.featured)
-              .slice(0,3)
-              .map(({ node: post }) => {
-                return (
-                  <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.currentcover.childImageSharp.fluid}        /*This should pull image from md files with category "issue"*/
-                      />
-                      <h1 pb>
-                        {/*<Link to={post.frontmatter.issue.idpath}>{post.frontmatter.issue.id}</Link>*/}
-                      </h1>
-                      <p>{post.frontmatter.issue.text}</p>
-                      <hr />
-                  </div>
-                )
-              })}
+              {issueNodes.map(({ node: issue }, index) => (
+                <div>                    
+                  <Image className="topimage"
+                    fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                  />
+                  <h1 pb><Link to={issue.idpath}>{issue.id}</Link></h1>
+                  <p dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
+                  <hr />
+                </div>
+              ))}
             <div className="col-12 text-center pb-3">
               <Link className="button button-primary" to="/fullissues">
                 View All Issues
@@ -330,7 +324,7 @@ export const query = graphql`
           }
           currentcover {
             childImageSharp {
-              fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 250) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 300, maxHeight: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

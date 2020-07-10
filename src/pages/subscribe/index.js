@@ -6,22 +6,22 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
 
-const Support = (props) => {
+const Subscribe = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
-  const support = props.data.allMarkdownRemark.edges;
+  const subscribe = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Support" />
+      <SEO title="Subscribe" />
       <Helmet>
         <meta
           name="description"
-          content="Support page of Haven Quarterly"
+          content="Subscribe page of Haven Quarterly"
         />
       </Helmet>
 
       <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+        <div className="container pt-5 pb-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>How to Support Us</h3>
@@ -49,7 +49,7 @@ const Support = (props) => {
             </p>
 
 {/*            {posts
-              .filter(post => post.node.frontmatter.category === "support")
+              .filter(post => post.node.frontmatter.category === "subscribe")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -75,7 +75,7 @@ const Support = (props) => {
 };
 
 export const query = graphql`
-  query SupportQuery {
+  query SubscribeQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/" } }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -158,4 +158,4 @@ export const query = graphql`
   }
 `;
 
-export default Support;
+export default Subscribe;

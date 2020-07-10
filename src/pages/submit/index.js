@@ -20,7 +20,7 @@ const Submit = (props) => {
       </Helmet>
 
       <div className="postbody">
-      <div className="container pt-md-5">
+        <div className="container pt-5 pb-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Submit</h3>
@@ -29,7 +29,8 @@ const Submit = (props) => {
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             <p>
-              Open or closed... Follow us to find out when exactly we'll be open again...
+              We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media and sign up for our newsletter
+              if you want to know just when. (Or do what we do with other magazines and obsessively check the submission page! It's all gravy!)
             </p>
             <p>
               Guidelines for Fiction

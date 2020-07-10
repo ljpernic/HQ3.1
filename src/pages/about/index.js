@@ -20,80 +20,53 @@ const About = (props) => {
       </Helmet>
 
       <div className="postbody">
-      <div className="container pt-md-5">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-                <h3>About Us</h3>
-            <hr />
-          </div>
-                                                                                      {/*this is where the blog stuff should go for stories getting posted*/}
-          <div className="container">
-            <p>
-              This is where we have information about our website...
-            </p>
-            <p>
-              We also have to collate staff. It can just live here!
-            </p>
-{/*            <p>
-              Awards
-            </p>*/}
-            <p>
-              Advertising?
-            </p>
-            <p>
-              Contact
-            </p>
-            <p>
-              Privacy Policy
-            </p>
-            <p>
-              Anti-harassment policy
-            </p>
-            <p>
-              About this website
-            </p>
-{/*}            {posts
-              .filter(post => post.node.frontmatter.category === "about")
-              .map(({ node: post }) => {
-                return (
-                  <div className="container" key={post.id}>
-                      <hr />
-                  </div>
-                )
-              })}*/}
+        <div className="container pt-5 pb-5">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+                  <h3>About Us</h3>
+              <hr />
+            </div>
+                                                                                        {/*this is where the blog stuff should go for stories getting posted*/}
+            <div className="container">
+              <p>
+                This is where we have information about our website...
+              </p>
+              <p>
+                We also have to collate staff. It can just live here!
+              </p>
+  {/*            <p>
+                Awards
+              </p>*/}
+              <p>
+                Advertising?
+              </p>
+              <p>
+                Contact
+              </p>
+              <p>
+                Privacy Policy
+              </p>
+              <p>
+                Anti-harassment policy
+              </p>
+              <p>
+                About this website
+              </p>
+  {/*}            {posts
+                .filter(post => post.node.frontmatter.category === "about")
+                .map(({ node: post }) => {
+                  return (
+                    <div className="container" key={post.id}>
+                        <hr />
+                    </div>
+                  )
+                })}*/}
 
             </div>
         </div>
       </div>
     </div>
 
-    <div className="postbody">
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-          <Link to="/">
-                <h3>Latest Issues</h3>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
     </Layout>
   );
 };

@@ -27,7 +27,7 @@ export default class Futurearchive extends React.Component {
       </Helmet>
 
     <div className="postbody">
-      <div className="container pt-md-5">
+      <div className="container pt-5 pb-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Letters from the Future</h3>
@@ -85,34 +85,6 @@ export default class Futurearchive extends React.Component {
                 </div>         
               </div>
             </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="postbody">
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-          <Link to="/">
-                <h3>Latest Issues</h3>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </div>

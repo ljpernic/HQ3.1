@@ -4,12 +4,14 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
+import paragraphs from "lines-to-paragraphs";
 
 export default class Issuesarchive extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const json = this.props.data.allFeaturesJson.edges;
-    
+    const issueNodes = this.props.data.allIssueYaml.edges;
+
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
     const isFirst = FULLcurrentPage === 1
     const isLast = FULLcurrentPage === FULLnumPages
@@ -27,7 +29,7 @@ export default class Issuesarchive extends React.Component {
       </Helmet>
 
     <div className="postbody">
-      <div className="container pt-md-5">
+      <div className="container pt-5 pb-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Full Issues</h3>
@@ -36,22 +38,16 @@ export default class Issuesarchive extends React.Component {
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
 
-          {posts
-              .filter(post => post.node.frontmatter.category === "issue")
-              .map(({ node: post }) => {
-                return (
-                  <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.currentcover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
-                      />
-                      <h1 pb>
-                        <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                      </h1>
-                      <p>{post.excerpt}</p>
-                      <hr />
-                  </div>
-                )
-              })}
+          {issueNodes.map(({ node: issue }, index) => (
+                <div>                    
+                  <Image className="topimage"
+                    fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                  />
+                  <h1 pb><Link to={issue.idpath}>{issue.id}</Link></h1>
+                  <p dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
+                  <hr />
+                </div>
+              ))}
               <div className="container">
                 <div className="row">
                   <div className="col-sm">
@@ -88,66 +84,90 @@ export default class Issuesarchive extends React.Component {
       </div>
     </div>
 
-    <div className="postbody">
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-          <Link to="/">
-                <h3>Latest Issues</h3>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-
-
     </Layout>
     )
   }
 }
 
-export const fullissuesarchiveQuery = graphql`
-  query issuesarchiveQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      filter: { frontmatter: {category:{eq:"issue"} } }
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
+
+export const fullissuesarchiveQuery  = graphql`
+  query {
+    allAuthorYaml {
+      nodes {
+        bio
+        id
+        idpath
+        picture {
+          childImageSharp {
+            fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              ...GatsbyImageSharpFixed 
+            }
+            fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories {
+          item
+        }
+        twitter
+      }
+    }
+    allIssueYaml {
       edges {
         node {
-          excerpt(pruneLength: 750)    
+          artist
+          artistbio
+          id
+          idpath
+          text
+          artistimage {
+            childImageSharp {
+              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          currentcover {
+            childImageSharp {
+              fixed(width: 250) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 300, maxHeight: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/.*.md$/" }}                  #This tells this file to pull from the md files generated by allposts?
+      sort: { fields: [frontmatter___date], order: DESC }
+      ) {
+      totalCount
+      edges {
+        node {
+          html
+          id
           frontmatter {
-            category
             featured
             path
             title
             author {
               id
+              idpath
               bio
               twitter
               picture {
                 childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -181,28 +201,31 @@ export const fullissuesarchiveQuery = graphql`
               artistbio 
             }
             date(formatString: "DD MMMM YYYY")
-            cover {
-              childImageSharp {
-                fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            category
             currentcover {
               childImageSharp {
-                fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
-                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
+                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFluid
                 }
               }
             }
+            cover {
+              childImageSharp {
+                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFixed 
+                }
+                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }            
           }
-          html
+          excerpt(
+            pruneLength: 650
+            )
         }
       }
     }

@@ -14,8 +14,8 @@ const SubFooter = props => (
                 </Link>
               </li>
               <li className="liLeft">
-                <Link to={"/support"}>
-                  <strong>Support </strong>
+                <Link to={"/subscribe"}>
+                  <strong>Subscribe </strong>
                 </Link>            
               </li>
               <li className="liLeft">

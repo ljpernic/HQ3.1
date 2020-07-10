@@ -80,8 +80,8 @@ const Eachpost = ({ data }) => {
                   <Link className="button button-primary" to="/about">
                     About
                   </Link>
-                  <Link className="button button-primary" to="/support">
-                    Support
+                  <Link className="button button-primary" to="/subscribe">
+                    Subscribe
                   </Link>
                   <Link className="button button-primary" to="/submit">
                     Submit

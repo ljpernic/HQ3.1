@@ -34,8 +34,8 @@ module.exports = {
         link: '/about',
       },
       {
-        name: 'Support',
-        link: '/support',
+        name: 'Subscribe',
+        link: '/subscribe',
       },
       {
         name: 'Submit',
