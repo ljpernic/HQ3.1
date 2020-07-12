@@ -33,16 +33,23 @@ const About = (props) => {
                 <i>Haven Quarterly</i> is an online science fiction and fantasy magazine featuring stories for the 21st century. We love stories with a
                 sense of adventure, stories that teach us, that touch us, that make us want more. Our focus is on the climate crisis and themes of 
                 displacement, very (very) broadly defined. We publish four issues yearly, with a DRY issue on the vernal equinox and a WET issue on the autumnal 
-                equinox issue.                 
+                equinox.                 
               </p>
               <p>
-                Read for free on-line, with staggered release dates for each story... Or subscribe and get each issue 
+                You can read our stories online for free, though for each issue, stories are released over the course of the month. You can also subscribe and 
+                get all of the stories on the issue release date. Either way, our stories are meant to be shared, discussed, fretted over, celebrated, and 
+                (eventually) recycled into kitty litter and insulation.
               </p>
               <p>
-                Launched on the 15th anniversary of Hurricane Katrina... The editor is a writer and editor from New Orleans but now in New England... 
+                Launched on the 15th anniversary of <Link to="https://en.wikipedia.org/wiki/Hurricane_Katrina">Hurricane Katrina</Link>, <i>Haven Quarterly</i> 
+                publishes speculative fiction, non-fiction articles, and letters mailed to us from the future. Its editor is <Link to="www.leonperniciaro.com">
+                Leon Perniciaro</Link>, a writer and editor from New Orleans but now living in New England. Displaced by the storm, he spent the Katrina months 
+                sleeping on someone's sofa and working at a grocery in suburban Ohio. He worries about <Link to="">the Great Filter</Link>, 
+                <Link to="https://en.wikipedia.org/wiki/Tipping_points_in_the_climate_system">climate tipping points</Link>, and the future of New Orleans.   
               </p>
               <p>
-                The crisis facing us... The inevitable, the pitfalls, but we can save ourselves.
+                The crisis facing our planet is immediate and all-encompassing, and it will affect people of color and people living in poverty. The popular metaphor 
+                is going over a cliff, but we prefer the tempest, the torrent, the flood. The waters are rising, but we can save ourselves.
               </p>
               <p>
                 It's not too late.
