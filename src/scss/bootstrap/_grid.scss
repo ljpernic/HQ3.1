@@ -44,7 +44,7 @@
   // from all immediate children columns (to prevent runaway style inheritance).
   .row2 {
     @include make-row();
-    background-color: rgba(215, 241, 254, 0.7);
+    background-color: rgba(215, 241, 254, 0.8);
     }
   
   .no-gutters {

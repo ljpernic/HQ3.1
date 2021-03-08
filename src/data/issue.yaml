@@ -14,7 +14,7 @@
 
 - id: Issue Two, Fall 2020
   idpath: "/issue-two"
-  currentcover: "../images/issue-one-cover.jpg"
+  currentcover: "../images/issue-two-cover.jpg"
   text: "This is the second issue of Haven Quarterly, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
         as each week a new story becomes available!"
   artist: Billy Everyteen
@@ -24,7 +24,7 @@
 
 - id: Issue Three, Winter 2020
   idpath: "/issue-three"
-  currentcover: "../images/issue-one-cover.jpg"
+  currentcover: "../images/issue-three-cover.jpg"
   text: "This is the third issue of Haven Quarterly, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
         as each week a new story becomes available!"
   artist: Billy Everyteen
@@ -34,7 +34,7 @@
 
 - id: Issue Four, Spring 2021
   idpath: "/issue-four"
-  currentcover: "../images/issue-one-cover.jpg"
+  currentcover: "../images/issue-four-cover.jpg"
   text: "This is the fourth issue of Haven Quarterly, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
         as each week a new story becomes available!"
   artist: Billy Everyteen

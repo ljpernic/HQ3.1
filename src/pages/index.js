@@ -27,7 +27,7 @@ const Home = (props) => {                                                     //
             <div className="grid-container pt-2">
               <div className="wide">
                 <div className="col-12">
-                      <h4>Featured This Week</h4>
+                      <h4>Current Issue</h4>
                   <hr />
                 </div>
                 {posts

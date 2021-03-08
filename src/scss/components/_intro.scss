@@ -3,25 +3,25 @@
   justify-content: flex-end;
   align-content: flex-end;
 
-  padding-top:50px;
+  padding-top:00px;
   padding-bottom: 50px;
   @include media-breakpoint-up(sm) {
     padding-top: 50px;
     padding-bottom: 50px;
   }
   @include media-breakpoint-up(md) {
-    padding-top: 50px;
+    padding-top: 00px;
     padding-bottom: 50px;
   }
   @include media-breakpoint-up(lg) {
-    padding-top: 50px;                                          //padding-top for the whole top section from the header with the links
+    padding-top: 00px;                                          //padding-top for the whole top section from the header with the links
     padding-bottom: 50px;
   }
   h1 {                                                          //title of each post (really just the title)
     color: $primary;
     text-align: center;
     margin: auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
@@ -30,11 +30,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
 
@@ -91,9 +91,9 @@
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
-    background-image: url('../images/border01.png');
-    background-repeat: no-repeat;
-    background-position:center;
+//    background-image: url('../images/border01.png');
+//    background-repeat: no-repeat;
+//    background-position:center;
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
@@ -282,7 +282,7 @@
     color: $primary;
     text-align: left;
     margin: auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
@@ -291,11 +291,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
   }
@@ -350,9 +350,9 @@
     font-size: .8rem;
     line-height: 1.2;
     font-family: $font-family-heading;
-    background-image: url('../images/border01.png');
-    background-repeat: no-repeat;
-    background-position:center;
+//    background-image: url('../images/border01.png');
+//    background-repeat: no-repeat;
+//    background-position:center;
     width: 90%;
     @include media-breakpoint-up(sm) {
       width: 90%;
@@ -486,7 +486,7 @@
     color: $primary;
     text-align: left;
     margin: auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
@@ -495,11 +495,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 90%;
     }
   }

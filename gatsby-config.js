@@ -10,6 +10,10 @@ module.exports = {
     },
     menuLinks: [
       {
+        name: 'About',
+        link: '/about',
+      },
+      {
         name: 'Fiction',
         link: '/fiction',
       },
@@ -17,12 +21,12 @@ module.exports = {
         name: 'Non-fiction',
         link: '/non-fiction',
       },
+//      {
+//        name: 'Letters from the Future',
+//        link: '/future',
+//      },
       {
-        name: 'Letters from the Future',
-        link: '/future',
-      },
-      {
-        name: 'Full Issues',
+        name: 'Issues',
         link: '/fullissues',
       },
       {
@@ -30,11 +34,7 @@ module.exports = {
         link: '/contributors',
       },
       {
-        name: 'About',
-        link: '/about',
-      },
-      {
-        name: 'Subscribe',
+        name: 'Support',
         link: '/subscribe',
       },
       {

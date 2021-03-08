@@ -32,24 +32,87 @@ const Submit = (props) => {
               We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media and sign up for our newsletter
               if you want to know just when. (Or do what we do with other magazines and obsessively check the submission page! It's all gravy!)
             </p>
+            <h1>
+              Guidelines for Fiction:
+            </h1>
             <p>
-              Guidelines for Fiction
-              --Scooby Doo endings...
+              We are seeking stories in the English language up to 4,500 words that have not been published before (including on your own website). We welcome stories from
+              writers from around the world, and we're particularly interested in publishing stories from people displaced by and threatened by the climate emergency 
+              (although this is not a requisite; we recognize that the former category is relatively specific and the latter is relatively broad). We pay 8¢ per word 
+              for fiction. Please query for reprints.
             </p>
             <p>
-              Guidelines for Non-Fiction
+              We like stories that are subtle in their telling but stick with us long after we've finished. We're more likely to buy stories that balance a sense
+              of wonder with a bold plot. Meditative stories that all take place in a single room, for example, aren't likely to capture our imagination. We're especially 
+              interested in stories that reflect the reality of the climate crisis and themes of displacement, but again, with subtlety. This topic is broader than you 
+              might think. 
             </p>
             <p>
-              Guidelines for Letters from the Future
+               Basically, we want it all: characters, premise, dialogue, tone, plot, a strong opening and ending. The second half of the story might be amazing, but if 
+               the opening doesn't dig its hooks into us and drag us screaming forward, it's unlikely we'll ever get to the good stuff. Same thing with the ending: 
+               there's nothing more disappointing in a story than a strong opening, a great premise, and then a scooby doo ending. 
             </p>
             <p>
-              Guidelines for Reprints
+              Simultaneous submissions are fine, but please no multiple submissions. Also, please wait at least a week before you submit again after hearing from us about 
+              a story. This is honestly more for the writer's benefit: it gives us a chance to clense our palate a little (if there was something we felt didn't work for 
+              us in your last story, you don't want us to carry that feeling over to the next one!). As writers ourselves, we do our best to handle each story we receive 
+              with the care and attention it deserves. Every submission is an act of bravery, we know that putting yourself out there as a writer to be judged can be tough. 
+              Just know that any story we receive, unless they contain threats of violence (explicit or implicit), will be kept in confidence.
             </p>
             <p>
-              Guidelines for Art
+                When in doubt, don't self reject! Submit submit submit! 
             </p>
+            <h1>
+              Guidelines for Non-Fiction:
+            </h1>
+            <p>
+              We like articles on politics and pop culture, articles steeped in science and otherwise verging on the academic, and articles with funny or interesting takes we 
+              might not have expected. Being a quarterly publication, it's hard to be completely up-to-date with current events, but we do try. We pay ?¢ per word for 
+              non-fictionm and again, please nothing over 4,500 words.
+            </p>
+            <h1>
+            Guidelines for Letters from the Future:
+            </h1>
+            <p>
+              We're not quite sure how, but once a quarter we receive a letter in the mail from the 22nd century.  
+            </p>
+            <h1>Guidelines for Translations:
+            </h1>
+            <p>
+              ...
+            </p>
+            <h1>
+              Guidelines for Art:
+            </h1>
+            <p>
+              We like...
+            </p>
+            <h1>
+              Guidelines For How Not to be a Terrible Person:
+            </h1>
             <p>
               Guidelines for how not to be a terrible person
+            </p>
+            <h1>
+              Rejectomancy:
+            </h1>
+            <p>
+              We think feedback is important, and while we can't give specific notes on every story we get, we try to structure our rejection letters so you have 
+              some idea what we were thinking when we declined a story. 
+            </p>
+            <p>
+              The first tier should say something like, "We felt that the *blank* was off in the first few pages." ...
+            </p>
+            <p>
+              The second tier should be something like, "We liked this story overall, but..." and then give something more specific (usually the place where the 
+              story fell apart for us).
+            </p>
+            <p>
+              The third tier doesn't have a specific format because it's more tailored, and it's generally a request for edits on the way to an acceptance (!!).
+            </p>
+            <p>
+              (There's a secret fourth tier reserved for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. Luckily these 
+              are rare.)
             </p>
 
 {/*}            {posts
