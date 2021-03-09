@@ -39,7 +39,7 @@ const Home = (props) => {                                                     //
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
                         <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                        <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
+                        <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       </div>
                       )
                     })}
@@ -148,7 +148,7 @@ const Home = (props) => {                                                     //
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
+                      <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -189,7 +189,7 @@ const Home = (props) => {                                                     //
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
+                      <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -230,7 +230,7 @@ const Home = (props) => {                                                     //
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
+                      <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -264,7 +264,7 @@ const Home = (props) => {                                                     //
                     fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                   />
                   <h1 pb><Link to={issue.idpath}>{issue.id}</Link></h1>
-                  <p dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
+                  <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
                   <hr />
                 </div>
               ))}
