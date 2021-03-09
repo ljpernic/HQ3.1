@@ -28,7 +28,7 @@ export default class Fictionarchive extends React.Component {
       </Helmet>
 
     <div className="postbody">
-      <div className="container pt-5 pb-5">
+      <div className="container pb-5">
         <div className="row2 justify-content-start">
           <div className="col-12">
                 <h3>Latest Fiction</h3>
