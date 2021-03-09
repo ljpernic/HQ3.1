@@ -1,8 +1,8 @@
-# Haven Quarterly Mockup
+# Haven Spec Mockup
 
 react is the devil
 
-[Live Demo](https://haven-quarterly.netlify.com/)
+[Live Demo](https://havenspec.netlify.com/)
 
 ## Original Theme (Gatsby Serif) features
 

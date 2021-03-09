@@ -24,7 +24,7 @@ export default class Issuesarchive extends React.Component {
       <Helmet>
         <meta
           name="description"
-          content="Every issue of Haven Quarterly"
+          content="Every issue of Haven Spec"
         />
       </Helmet>
 

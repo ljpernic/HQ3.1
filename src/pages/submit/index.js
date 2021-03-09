@@ -15,7 +15,7 @@ const Submit = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Submit page of Haven Quarterly"
+          content="Submit page of Haven Spec"
         />
       </Helmet>
 
@@ -67,7 +67,7 @@ const Submit = (props) => {
             </h1>
             <p>
               We like articles on politics and pop culture, articles steeped in science and otherwise verging on the academic, and articles with funny or interesting takes we 
-              might not have expected. Being a quarterly publication, it's hard to be completely up-to-date with current events, but we do try. We pay ?¢ per word for 
+              might not have expected. We pay ?¢ per word for 
               non-fictionm and again, please nothing over 4,500 words.
             </p>
             <h1>

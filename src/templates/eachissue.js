@@ -9,8 +9,8 @@ import CustomReactShare from "../components/CustomShareBlock";
 const Eachauthor = props => {
   const { pageContext } = props;
   const { idpath, issueidname, text, artist, artistbio, artistimage, currentcover } = pageContext;
-  const url = `http://havenquarterly.com${idpath}`;
-  const twitter = `http://twitter.com/havenquarterly`;
+  const url = `http://havenspec.com${idpath}`;
+  const twitter = `http://twitter.com/havenspec`;
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}

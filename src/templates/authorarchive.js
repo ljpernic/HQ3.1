@@ -16,7 +16,7 @@ export default ({
     <Helmet>
       <meta
         name="description"
-        content="all contributors to Haven Quarterly"
+        content="all contributors to Haven Spec"
       />
     </Helmet>
     <div className="postbody">

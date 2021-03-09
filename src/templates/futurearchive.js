@@ -22,7 +22,7 @@ export default class Futurearchive extends React.Component {
       <Helmet>
         <meta
           name="description"
-          content="all future of Haven Quarterly"
+          content="all future of Haven Spec"
         />
       </Helmet>
 

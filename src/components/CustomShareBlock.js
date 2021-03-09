@@ -43,7 +43,7 @@ CustomReactShare.PropTypes = {
 };
 
 CustomReactShare.defaultProps = {
-  url: "https://havenquarterly.com/",
+  url: "https://havenspec.com/",
   title: "title not found",
   excerpt: ""
 };

@@ -22,7 +22,7 @@ export default class Nonfictionarchive extends React.Component {
       <Helmet>
         <meta
           name="description"
-          content="all non-fiction of Haven Quarterly"
+          content="all non-fiction of Haven Spec"
         />
       </Helmet>
 

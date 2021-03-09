@@ -17,7 +17,7 @@ const Eachpost = ({ data }) => {
   const { excerpt } = data.markdownRemark.frontmatter;
   const { path } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
-  const url = `http://havenquarterly.com${path}`;
+  const url = `http://havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
 
 

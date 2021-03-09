@@ -16,7 +16,7 @@ const Subscribe = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Subscribe page of Haven Quarterly"
+          content="Subscribe page of Haven Spec"
         />
       </Helmet>
 

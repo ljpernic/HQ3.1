@@ -21,21 +21,21 @@ const Footer = props => (
             </Link>
             
             <div className="social-media">
-            <a href="https://twitter.com/HavenQuarterly">
+            <a href="https://twitter.com/HavenSpec">
               <IconContext.Provider value={{ className:"social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
                   <div>
                     <FaTwitter />
                   </div>
                 </IconContext.Provider>
               </a>
-              <a href="https://facebook.com/HavenQuarterly">  
+              <a href="https://facebook.com/HavenSpec">  
                 <IconContext.Provider value={{className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
                   <div>
                     <FaFacebook />
                   </div>
                 </IconContext.Provider>
               </a>
-              <a href="https://HavenQuarterly.com/newsletter">  
+              <a href="https://HavenSpec.com/newsletter">  
                 <IconContext.Provider value={{className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
                   <div>
                     <FaEnvelope />

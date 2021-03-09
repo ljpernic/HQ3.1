@@ -15,7 +15,7 @@ const About = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="About page of Haven Quarterly"
+          content="About page of Haven Spec"
         />
       </Helmet>
 
@@ -28,9 +28,9 @@ const About = (props) => {
             </div>
                                                                                         {/*this is where the blog stuff should go for stories getting posted*/}
             <div className="container">
-              <h1>Haven Quarterly:</h1>
+              <h1>Haven Spec:</h1>
               <p>
-                <i>Haven Quarterly</i> is an online science fiction and fantasy magazine featuring stories for the 21st century. We love stories with a
+                <i>Haven Spec</i> is an online science fiction and fantasy magazine featuring stories for the 21st century. We love stories with a
                 sense of adventure, stories that teach us, that touch us, that make us want more. Our focus is on the climate crisis and themes of 
                 displacement, very (very) broadly defined. We publish four issues yearly, with a DRY issue on the vernal equinox and a WET issue on the autumnal 
                 equinox.                 
@@ -41,7 +41,7 @@ const About = (props) => {
                 (eventually) recycled into kitty litter and insulation.
               </p>
               <p>
-                Launched on the 15th anniversary of <Link to="https://en.wikipedia.org/wiki/Hurricane_Katrina">Hurricane Katrina</Link>, <i>Haven Quarterly</i> 
+                Launched on the 15th anniversary of <Link to="https://en.wikipedia.org/wiki/Hurricane_Katrina">Hurricane Katrina</Link>, <i>Haven Spec</i> 
                 publishes speculative fiction, non-fiction articles, and letters mailed to us from the future. Its editor is <Link to="www.leonperniciaro.com">
                 Leon Perniciaro</Link>, a writer and editor from New Orleans but now living in New England. Displaced by the storm, he spent the Katrina months 
                 sleeping on someone's sofa and working at a grocery in suburban Ohio. He worries about <Link to="">the Great Filter</Link>, 
@@ -87,7 +87,7 @@ const About = (props) => {
               <p>
                 For art, article, letter and fiction submissions, see those pages for more details. For advertising, contact us at the address above.
                 If there's an issue with an issue (ha) or any other purchase, see the subscribe page for more information. For everything else, you can
-                contact us at havenquarterly@gmail.com. 
+                contact us at havenspec@gmail.com. 
               </p>
               <p>
                 Use this power only for good.
@@ -120,7 +120,7 @@ const About = (props) => {
                 will remain anonymous.
               </p>
               <p>
-                This applies both to staff and all participants across all spaces curated by Haven Quarterly (including social media).
+                This applies both to staff and all participants across all spaces curated by Haven Spec (including social media).
               </p>
               <p>
               This page isn't meant to be an exhaustive list of dos and don'ts. We kindly ask that you use your brain. It's still harassment if you're 

@@ -23,7 +23,7 @@ export default class Fictionarchive extends React.Component {
       <Helmet>
         <meta
           name="description"
-          content="all fiction of Haven Quarterly"
+          content="all fiction of Haven Spec"
         />
       </Helmet>
 

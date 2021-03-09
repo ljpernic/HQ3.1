@@ -2,11 +2,11 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Haven Quarterly',
+    title: 'Haven Speculative',
     description: 'a magazine of science fiction and fantasy',
     submit: {
       phone: 'XXX XXX XXX',
-      email: 'havenquarterly@gmail.com',
+      email: 'havenspec@gmail.com',
     },
     menuLinks: [
       {

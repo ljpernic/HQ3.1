@@ -16,7 +16,7 @@ const Home = (props) => {                                                     //
       <SEO title="Home" />
       <Helmet>
         <meta
-          name="Haven Quarterly"
+          name="Haven Speculative"
           content="A Magazine of Science Fiction and Fantasy"
         />
       </Helmet>
@@ -39,7 +39,7 @@ const Home = (props) => {                                                     //
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
                         <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                        <p>{post.excerpt}</p>
+                        <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       </div>
                       )
                     })}
@@ -137,7 +137,7 @@ const Home = (props) => {                                                     //
             {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
-              .slice(0, 6)
+              .slice(0, 2)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -148,7 +148,7 @@ const Home = (props) => {                                                     //
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p>{post.excerpt}</p>
+                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -178,7 +178,7 @@ const Home = (props) => {                                                     //
             {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "non-fiction")          /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
-              .slice(0,2)
+              .slice(0,1)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -189,7 +189,7 @@ const Home = (props) => {                                                     //
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p>{post.excerpt}</p>
+                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -204,7 +204,7 @@ const Home = (props) => {                                                     //
       </div>
     </div>
 
-
+{/*
     <div className="postbody">
       <div className="container pt-8 pt-md-4">
         <div className="row2 justify-content-start pt-2">
@@ -215,22 +215,22 @@ const Home = (props) => {                                                     //
             <hr />
           </div>
                                                                                       {/*LETTERS FROM THE FUTURE SECTION*/}
-          <div className="container">
+{/*}          <div className="container">
             {posts
               .filter(post => !post.node.frontmatter.featured)
-              .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "future", excluding posts marked featured*/
-              .slice(0,1)
+              .filter(post => post.node.frontmatter.category === "future")          /*This should only pull from md files with category "future", excluding posts marked featured*/}
+{/*              .slice(0,1)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/
-                      />
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/}
+{/*}                      />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
-                      <p>{post.excerpt}</p>
+                      <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
                       <hr />
                   </div>
                 )
@@ -243,7 +243,7 @@ const Home = (props) => {                                                     //
           </div>
         </div>
       </div>
-    </div>
+    </div>*/}
 
 
 
@@ -348,6 +348,7 @@ export const query = graphql`
             featured
             path
             title
+            description
             author {
               id
               idpath
@@ -414,9 +415,6 @@ export const query = graphql`
               }
             }            
           }
-          excerpt(
-            pruneLength: 650
-            )
         }
       }
     }
