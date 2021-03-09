@@ -20,11 +20,11 @@ const Eachauthor = props => {
       </Helmet>
 
       <div className="authorbody">
-        <div className="container pt-md-5">
+        <div className="container md-5">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
               <div className="wide">
-              <h4>Author</h4>
+              <h4>AUTHOR</h4>
               <hr />
                 {picture}
 
@@ -75,7 +75,7 @@ export const query = graphql`
           idpath
           currentcover {
             childImageSharp {
-              fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -100,7 +100,7 @@ export const query = graphql`
         category
         currentcover {
           childImageSharp {
-            fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+            fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
               ...GatsbyImageSharpFixed 
             }
             fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

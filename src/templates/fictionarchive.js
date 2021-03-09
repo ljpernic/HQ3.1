@@ -131,7 +131,7 @@ export const fictionarchiveQuery = graphql`
               idpath
               currentcover {
                 childImageSharp {
-                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
                   fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

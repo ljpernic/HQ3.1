@@ -43,7 +43,7 @@
     color: $secondary;
     text-align: center;
     margin: auto;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
@@ -53,11 +53,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -98,11 +98,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -133,7 +133,7 @@
     width: 80%;               
     margin: auto; 
     margin-top: 1%; 
-    margin-bottom: 2.5%; 
+    margin-bottom: 1%; 
     border: 1px dotted $primary;
   }
   p {
@@ -142,24 +142,30 @@
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
-    padding: 10px 25px 10px 35px;
+    padding: 10px 25px 0px 35px;
     @include media-breakpoint-up(sm) {
-      font-size: .6rem;
+      font-size: .8rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
   }
+  .opacity { 
+    opacity: 0.6;
+  }
 }
+
+
+
 .intro-small {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -192,10 +198,10 @@
 
 .topimage {                                                                 //This is for the cover at the top
   float: left;
-  margin: 10px 35px 10px 0px;
-  width: 200px;
+  margin: 10px 35px 0px 0px;
+  width: 100px;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid $secondary;
 }
 .innertopimage {                                                                 //This is for the cover at the top
   float: left;
@@ -263,17 +269,17 @@
     color: $secondary;
     padding: 10px 60px 10px 60px;
     @include media-breakpoint-up(sm) {
-      font-size: .6rem;
+      font-size: .8rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
@@ -303,7 +309,7 @@
     color: $secondary;
     text-align: left;
     margin: auto;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
@@ -313,11 +319,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -358,11 +364,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -393,17 +399,18 @@
     font-weight: bold;
     line-height: 1.6;
     padding: 0px 25px 0px 35px;
+    text-align: center;
     margin-bottom: 0rem;
     @include media-breakpoint-up(sm) {
-      text-align: left;
+      text-align: center;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
-      text-align: left;
+      text-align: center;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      text-align: left;
+      text-align: center;
       width: 100%;
     }
   }
@@ -414,7 +421,7 @@
     width: 50%;               
     margin: auto; 
     margin-top: 1%; 
-    margin-bottom: 2.5%; 
+    margin-bottom: 1%; 
     border: 1px dotted $primary;
   }
   p {
@@ -424,17 +431,18 @@
     line-height: 1.6;
     margin-bottom: 0rem;
     color: $secondary;
-    padding: 5px 25px 5px 35px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
     @include media-breakpoint-up(sm) {
-      font-size: .6rem;
+      font-size: .9rem;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       width: 100%;
     }
   }
@@ -467,17 +475,17 @@
     color: $secondary;
     padding: 10px 60px 10px 60px;
     @include media-breakpoint-up(sm) {
-      font-size: .6rem;
+      font-size: .8rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
@@ -507,7 +515,7 @@
     color: $secondary;
     text-align: left;
     margin: auto;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
@@ -517,11 +525,11 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -554,19 +562,19 @@
     font-size: .8rem;
     line-height: 1.2;
     font-family: $font-family-heading;
-    background-image: url('../images/border01.png');
-    background-repeat: no-repeat;
-    background-position:center;
+//    background-image: url('../images/border01.png');
+//    background-repeat: no-repeat;
+//    background-position:center;
     width: 90%;
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       width: 90%;
     }
   }
@@ -579,30 +587,42 @@ hr {
   width: 50%;               
   margin: auto; 
   margin-top: 1%; 
-  margin-bottom: 2.5%; 
+  margin-bottom: 1%; 
   border: 1px dotted $primary;
 }
 
 .thin {
   grid-column: 2 / span 2;
+  padding: 20px 20px 20px 0px;
   @include media-breakpoint-up(sm) {
+    width: 90%;
+  }
+  @include media-breakpoint-up(md) {
+    width: 90%;
+  }
+  @include media-breakpoint-up(lg) {
     width: 90%;
   }
 }
 .wide {
   grid-column: 1 / span 1;
+  padding: 20px;
   box-sizing: content-box;
 }
 
 .frontissue-left {
   width: 50%;
   float: left;
-//  background: #ccc;
+  padding-left: 35px;
+  padding-right: 17.5px;
+  //  background: #ccc;
   height: 100%;
 }
 .frontissue-right {
   width: 50%;
   float: right;
-//  background: #aaa;
+  padding-left: 17.5px;
+  padding-right: 35px;
+  //  background: #aaa;
   height: 100%;
 }

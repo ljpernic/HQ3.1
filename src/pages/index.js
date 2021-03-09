@@ -21,13 +21,13 @@ const Home = (props) => {                                                     //
         />
       </Helmet>
 
-      <div className="intro pb-1">                                                                {/*FEATURED*/}
+      <div className="intro pb-0">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container pt-2">
+            <div className="grid-container pt-1">
               <div className="wide">
                 <div className="col-12">
-                      <h4>Current Issue</h4>
+                      <h4 className="pb-1">CURRENT ISSUE</h4>
                   <hr />
                 </div>
                 {posts
@@ -35,27 +35,37 @@ const Home = (props) => {                                                     //
                   .map(({ node: post }) => {
                     return (
                       <div className="container" key={post.id}>
-                        <h1 pb>
+                        <h1 className="pt-1">
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
                         <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                         <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
-                      </div>
-                      )
-                    })}
-              </div>      
+                          <div className="col-12 text-center">
+                            <Link className="button button-primary" to={post.frontmatter.path}>
+                              More
+                            </Link>
+                          </div>
+                      </div>      
+                    )
+                  })}
+                </div>      
               <div className="thin">
               {posts
                   .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
                   .map(({ node: post }) => {
                     return (
-                      
-                      <Link to="/latest">
-                        <Image className="topimage"
-                          fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                        />
-                      </Link>
-
+                      <div>
+                        <Link to="/latest">
+                          <Image className="topimage"
+                            fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                          />
+                        </Link>
+                        <div className="text-center pr-4">
+                            <Link className="button button-primary" to={post.frontmatter.path}>
+                              BUY THIS ISSUE
+                            </Link>
+                          </div>
+</div>
                       )
                     })}
               </div>
@@ -63,14 +73,14 @@ const Home = (props) => {                                                     //
 
             <div className="frontissue">
               <div className="col-12">
-              <hr className="mt-2"/>
+              <hr className="mt-2 mb-2"/>
                 <div className="frontissue-left">
                 <h5>Fiction:</h5>
                   {posts
                     .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "fiction" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
                     .map(({ node: post }) => {
                       return (
-                        <p >
+                        <p>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
                         </p>
                       )
@@ -102,7 +112,6 @@ const Home = (props) => {                                                     //
                 </div>
               </div>
               <div className="frontissue col-12">
-                <hr />
               </div>
 {/*<div className="container">
 <div className="row justify-content-start">
@@ -111,7 +120,7 @@ const Home = (props) => {                                                     //
 </div>
 </div>
 </div>*/}
-            <div className="col-12 text-center pb-3">
+            <div className="col-12 text-center pb-4 pt-2">
               <Link className="button button-primary" to="/issue-four">
                 View Issue
               </Link>
@@ -122,18 +131,20 @@ const Home = (props) => {                                                     //
       </div>
 
 
-    <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+    <div className="intro">
+      <div className="container pt-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/fiction">
-                <h4>Latest Fiction</h4>
+              <h4 className="pt-1 pb-1">LATEST FICTION</h4>
             </Link>
             <hr />
           </div>
                                                                                       {/*FICTION*/}
           <div className="container">
-            
+
+          <img src=""/>                                                               {/*ADD ADVERTISEMENT HERE*/}
+
             {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
@@ -141,9 +152,6 @@ const Home = (props) => {                                                     //
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}          /*This should pull image from md files with category "fiction"*/
-                      />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
@@ -163,12 +171,12 @@ const Home = (props) => {                                                     //
       </div>
     </div>
 
-    <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+    <div className="intro">
+      <div className="container">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/non-fiction">
-                <h4>Latest Non-Fiction</h4>
+                <h4 className="pt-1 pb-1">LATEST NON-FICTION</h4>
             </Link>
             <hr />
           </div>
@@ -182,9 +190,9 @@ const Home = (props) => {                                                     //
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}          /*This should pull image from md files with category "non-fiction"*/
-                      />
+{/*                      <Image className="inlineimage"
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}          */}{/*This should pull image from md files with category "non-fiction"
+                      />*/}
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
@@ -205,12 +213,12 @@ const Home = (props) => {                                                     //
     </div>
 
 {/*
-    <div className="postbody">
-      <div className="container pt-8 pt-md-4">
+    <div className="into">
+      <div className="container pt-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/future">
-                <h4>Letters from the Future</h4>
+                <h4 className="pt-1 pb-1">LETTERS FROM THE FUTURE</h4>
             </Link>
             <hr />
           </div>
@@ -245,14 +253,12 @@ const Home = (props) => {                                                     //
       </div>
     </div>*/}
 
-
-
     <div className="postbody">
-      <div className="container pt-8 pb-4 pt-md-4">
+      <div className="container pb-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/fullissues">
-                <h4>Full Issues</h4>
+                <h4 className="pt-1 pb-1">RECENT ISSUES</h4>
             </Link>
             <hr />
           </div>
@@ -370,7 +376,7 @@ export const query = graphql`
               idpath
               currentcover {
                 childImageSharp {
-                  fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
                   fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -396,7 +402,7 @@ export const query = graphql`
             category
             currentcover {
               childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
                 fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -406,7 +412,7 @@ export const query = graphql`
             }
             cover {
               childImageSharp {
-                fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+                fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
                 fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

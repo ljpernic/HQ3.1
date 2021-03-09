@@ -2,7 +2,7 @@
 title: Let's Eat Our Young
 author: Tina Tina Bobina
 issue: Issue Four, Spring 2021
-description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
+description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <p>Once I sat on a hat and it became quite flat. I wondered what was up with that, and I asked my pet rat, but just said [...]</p>
 category: fiction
 cover: cover.jpg
 currentcover: CurrentCover.jpg

@@ -3,9 +3,9 @@
   display: inline-block;
   height: 40px;
   line-height: 40px;
-  padding: 0 14px;
+  padding: 0 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.8), 0 1px 3px rgba(0, 0, 0, 0.08);
-  background: $primary;
+  background: $secondary;
   border-radius: 8px;
   font-size: 15px;
   font-weight: 600;
@@ -17,7 +17,7 @@
   transition: all 0.15s ease;
   &:hover {
     color: #fff;
-    background-color: lighten($primary, 10%);
+    background-color: lighten($secondary, 10%);
     transform: translateY(-1px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;

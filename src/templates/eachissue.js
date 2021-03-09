@@ -16,7 +16,7 @@ const Eachauthor = props => {
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={issueidname} />
       
-      <div className="intro pb-1">
+      <div className="intro pb-0">
         <div className="container pb-md-4">
           <div className="row2 pt-0 pb-3 justify-content-start">
             <div className="grid-container pt-2">
@@ -89,7 +89,7 @@ export const query = graphql`
           idpath
           currentcover {
             childImageSharp {
-              fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -114,7 +114,7 @@ export const query = graphql`
         category
         currentcover {
           childImageSharp {
-            fixed(width: 403) {                                           #This changed the post picture sizes on the front page (originally 75)
+            fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
               ...GatsbyImageSharpFixed 
             }
             fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
