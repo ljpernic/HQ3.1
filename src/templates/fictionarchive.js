@@ -39,7 +39,7 @@ export default class Fictionarchive extends React.Component {
           <div className="container">
 
           {posts
-              .filter(post => post.node.frontmatter.category === "fiction")
+              .filter(post => post.node.frontmatter.category === "FICTION")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -98,7 +98,7 @@ export default class Fictionarchive extends React.Component {
 export const fictionarchiveQuery = graphql`
   query fictionarchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { frontmatter: {category:{eq:"fiction"} } }
+      filter: { frontmatter: {category:{eq:"FICTION"} } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

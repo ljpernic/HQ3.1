@@ -38,7 +38,7 @@ export default class Futurearchive extends React.Component {
           <div className="container">
 
           {posts
-              .filter(post => post.node.frontmatter.category === "future")
+              .filter(post => post.node.frontmatter.category === "FUTURE")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -98,7 +98,7 @@ export default class Futurearchive extends React.Component {
 export const futurearchiveQuery = graphql`
   query futurearchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { frontmatter: {category:{eq:"future"} } }
+      filter: { frontmatter: {category:{eq:"FUTURE"} } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

@@ -3,7 +3,7 @@ title: Thanks, Now Go Away
 author: Raptor Alan
 issue: Issue Four, Spring 2021
 description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
-category: non-fiction
+category: NON-FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2020-06-02T00:00:00.000Z"

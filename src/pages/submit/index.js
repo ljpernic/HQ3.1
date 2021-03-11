@@ -32,11 +32,11 @@ const Submit = (props) => {
               Guidelines for Fiction:
             </h1>
             <p>
-              We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media and sign up for our newsletter
+              We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media 
               if you want to know just when. (Or do what we do with other magazines and obsessively check the submission page! It's all gravy!)
             </p>
             <p>
-              We are seeking stories in the English language up to 4,500 words that have not been published before (including on your own website). We welcome stories from
+              We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome stories from
               writers from around the world, and we're particularly interested in publishing stories from people displaced by and threatened by the climate emergency 
               (although this is not a requisite; we recognize that the former category is relatively specific and the latter is relatively broad). We pay 1¢ per word 
               for fiction. Please query for reprints.
@@ -45,7 +45,7 @@ const Submit = (props) => {
               We like stories that are subtle in their telling but stick with us long after we've finished. We're more likely to buy stories that balance a sense
               of wonder with a bold plot. Meditative stories that all take place in a single room, for example, aren't likely to capture our imagination. We're especially 
               interested in stories that reflect the reality of the climate crisis and themes of displacement, but again, with subtlety. This topic is broader than you 
-              might think. 
+              might think.
             </p>
             <p>
                Basically, we want it all: characters, premise, dialogue, tone, plot, a strong opening and ending. The second half of the story might be amazing, but if 
@@ -130,7 +130,7 @@ const Submit = (props) => {
       </div>
     </div>
 
-    <div className="postbody">
+   {/*} <div className="postbody">
       <div className="container pb-5 pt-md-7 pb-md-7">
         <div className="row2 justify-content-start">
           <div className="col-12">
@@ -156,7 +156,7 @@ const Submit = (props) => {
           ))}
         </div>
       </div>
-    </div>
+    </div>*/}
     </Layout>
   );
 };

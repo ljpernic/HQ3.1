@@ -37,7 +37,7 @@ export default class Nonfictionarchive extends React.Component {
           <div className="container">
 
           {posts
-              .filter(post => post.node.frontmatter.category === "non-fiction")
+              .filter(post => post.node.frontmatter.category === "NON-FICTION")
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
@@ -96,7 +96,7 @@ export default class Nonfictionarchive extends React.Component {
 export const nonfictionarchiveQuery = graphql`
   query nonfictionarchiveQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { frontmatter: {category:{eq:"non-fiction"} } }
+      filter: { frontmatter: {category:{eq:"NON-FICTION"} } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
