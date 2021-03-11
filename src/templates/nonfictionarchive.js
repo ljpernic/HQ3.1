@@ -26,13 +26,13 @@ export default class Nonfictionarchive extends React.Component {
         />
       </Helmet>
 
-    <div className="postbody">
-      <div className="container pb-5">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-                <h3>Latest Non-Fiction</h3>
-            <hr />
-          </div>
+      <div className="postbody pb-4">
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+              <h4 className="pt-3 pb-1">NON-FICTION</h4>
+              <hr />
+            </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
 

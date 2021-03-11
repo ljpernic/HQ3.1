@@ -19,26 +19,26 @@ const Submit = (props) => {
         />
       </Helmet>
 
-      <div className="postbody">
-        <div className="container pb-5">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-                <h3>Submit</h3>
+      <div className="postbody pb-4">
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+                  <h4 className="pt-3 pb-1">SUBMIT</h4>
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
-            <p>
-              We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media and sign up for our newsletter
-              if you want to know just when. (Or do what we do with other magazines and obsessively check the submission page! It's all gravy!)
-            </p>
             <h1>
               Guidelines for Fiction:
             </h1>
             <p>
+              We are currently <strong>closed</strong> to submissions, but we hope to open soon! Follow us on social media and sign up for our newsletter
+              if you want to know just when. (Or do what we do with other magazines and obsessively check the submission page! It's all gravy!)
+            </p>
+            <p>
               We are seeking stories in the English language up to 4,500 words that have not been published before (including on your own website). We welcome stories from
               writers from around the world, and we're particularly interested in publishing stories from people displaced by and threatened by the climate emergency 
-              (although this is not a requisite; we recognize that the former category is relatively specific and the latter is relatively broad). We pay 8¢ per word 
+              (although this is not a requisite; we recognize that the former category is relatively specific and the latter is relatively broad). We pay 1¢ per word 
               for fiction. Please query for reprints.
             </p>
             <p>

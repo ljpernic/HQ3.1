@@ -27,7 +27,7 @@ const Home = (props) => {                                                     //
             <div className="grid-container pt-1">
               <div className="wide">
                 <div className="col-12">
-                      <h4 className="pb-1">CURRENT ISSUE</h4>
+                  <h4 className="pb-1">CURRENT ISSUE</h4>
                   <hr />
                 </div>
                 {posts
@@ -60,12 +60,12 @@ const Home = (props) => {                                                     //
                             fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                           />
                         </Link>
-                        <div className="text-center pr-4">
-                            <Link className="button button-primary" to={post.frontmatter.path}>
+                        <div className="text-center">
+                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
                               BUY THIS ISSUE
                             </Link>
                           </div>
-</div>
+                        </div>
                       )
                     })}
               </div>
@@ -111,8 +111,6 @@ const Home = (props) => {                                                     //
                   </div>
                 </div>
               </div>
-              <div className="frontissue col-12">
-              </div>
 {/*<div className="container">
 <div className="row justify-content-start">
 <div className="col-12">
@@ -131,21 +129,35 @@ const Home = (props) => {                                                     //
       </div>
 
 
-    <div className="intro">
-      <div className="container pt-4">
-        <div className="row2 justify-content-start pt-2">
-          <div className="col-12">
-            <Link to="/fiction">
-              <h4 className="pt-1 pb-1">LATEST FICTION</h4>
-            </Link>
-            <hr />
-          </div>
-                                                                                      {/*FICTION*/}
-          <div className="container">
 
-          <img src=""/>                                                               {/*ADD ADVERTISEMENT HERE*/}
 
-            {posts
+
+
+      <div className="intro pt-4 pb-0">                                                                {/*FICTION*/}
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="grid-container pt-1">
+            <div className="thin2">
+              {posts
+                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <div>
+                        <Link to="/latest">
+                          <Image className="advert"
+                            fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                          />
+                        </Link>
+                        </div>
+                      )
+                    })}
+              </div>
+              <div className="wide2">
+                <div className="col-12">
+                  <h4 className="pb-1">LATEST FICTION</h4>
+                  <hr />
+                </div>
+                {posts
               .filter(post => !post.node.frontmatter.featured)
               .filter(post => post.node.frontmatter.category === "fiction")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
               .slice(0, 2)
@@ -157,21 +169,24 @@ const Home = (props) => {                                                     //
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                       <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
-                      <hr />
                   </div>
                 )
               })}
-            <div className="col-12 text-center pb-3">
-              <Link className="button button-primary" to="/fiction">
+                </div>
+            </div>
+            <div className="col-12 text-center pb-4 pt-2">
+            <Link className="button button-primary" to="/fiction">
                 View All Fiction
               </Link>
             </div>
           </div>
         </div>
       </div>
-    </div>
+   
 
-    <div className="intro">
+
+
+    <div className="intro pt-4">
       <div className="container">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">

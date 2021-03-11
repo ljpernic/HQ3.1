@@ -20,11 +20,12 @@ const Subscribe = (props) => {
         />
       </Helmet>
 
-      <div className="postbody">
-        <div className="container pb-5">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-                <h3>How to Support Us</h3>
+      <div className="postbody pb-4">
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+                  <h4 className="pt-3 pb-1">SUBSCRIBE AND SUPPORT</h4>
+
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}

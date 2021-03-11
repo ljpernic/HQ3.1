@@ -19,18 +19,18 @@ const About = (props) => {
         />
       </Helmet>
 
-      <div className="postbody">
-        <div className="container pb-5">
+      <div className="postbody pb-4">
+        <div className="container">
           <div className="row2 justify-content-start">
             <div className="col-12">
-                  <h3>About Us</h3>
+                  <h4 className="pt-3 pb-1">ABOUT US</h4>
               <hr />
             </div>
                                                                                         {/*this is where the blog stuff should go for stories getting posted*/}
-            <div className="container">
+            <div className="container pb-2">
               <h1>Haven Spec:</h1>
               <p>
-                <i>Haven Spec</i> is an online science fiction and fantasy magazine featuring stories for the 21st century. We love stories with a
+                <i>Haven Spec</i> is an online speculative fiction magazine featuring fiction for the 21st century. We love stories with a 
                 sense of adventure, stories that teach us, that touch us, that make us want more. Our focus is on the climate crisis and themes of 
                 displacement, very (very) broadly defined. We publish four issues yearly, with a DRY issue on the vernal equinox and a WET issue on the autumnal 
                 equinox.                 
@@ -54,12 +54,12 @@ const About = (props) => {
               <p>
                 It's not too late.
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
               <h1>Staff:</h1>
               <p>
                 We are actively looking for collaborators! 
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
   {/*            <p>
                 Awards
               </p>
@@ -80,7 +80,7 @@ const About = (props) => {
               <p>
                 To advertise, contact us here...
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
               <h1>
                 Contact:
               </h1>
@@ -92,7 +92,7 @@ const About = (props) => {
               <p>
                 Use this power only for good.
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
               <h1>
                 Privacy Policy:
               </h1>
@@ -104,7 +104,7 @@ const About = (props) => {
                 South America, the planets of this or any other solar system, in this universe and all parallel universes that have existed from the Big Bang 
                 until the end of time. We hope that clears things up.
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
               <h1>
                 Anti-Harassment Policy:
               </h1>
@@ -132,7 +132,7 @@ const About = (props) => {
                 <a href="https://blog.americansforthearts.org/about-americans-for-the-arts/organizational-policies"> Americans for the Arts</a>. 
                 We aren't affiliated in any way.
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
               <h1>
                 About This Site:
               </h1>
@@ -167,7 +167,7 @@ const About = (props) => {
                 Out of or in connection with the software or the use or other dealings in the
                 Software.</center>
               </p>
-              <hr />
+              <hr className="mb-2 mt-2" />
   {/*}            {posts
                 .filter(post => post.node.frontmatter.category === "about")
                 .map(({ node: post }) => {

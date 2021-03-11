@@ -16,6 +16,7 @@ const Eachauthor = props => {
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={issueidname} />
       
+      
       <div className="intro pb-0">
         <div className="container pb-md-4">
           <div className="row2 pt-0 pb-3 justify-content-start">

@@ -26,11 +26,12 @@ export default class Futurearchive extends React.Component {
         />
       </Helmet>
 
-    <div className="postbody">
-      <div className="container pb-5">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-                <h3>Letters from the Future</h3>
+      <div className="postbody pb-4">
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="col-12">
+                  <h4 className="pt-3 pb-1">LETTERS FROM THE FUTURE</h4>
+
             <hr />
           </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
