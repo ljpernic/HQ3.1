@@ -19,11 +19,13 @@ const About = (props) => {
         />
       </Helmet>
 
-      <div className="postbody pb-4">
+      <div className="intro pb-0">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="col-12">
-                  <h4 className="pt-3 pb-1">ABOUT US</h4>
+            <div className="grid-container pt-1">
+              <div className="wide">
+                <div className="col-12">
+                  <h4 className="pb-1">ABOUT US</h4>
               <hr />
             </div>
                                                                                         {/*this is where the blog stuff should go for stories getting posted*/}
@@ -180,7 +182,29 @@ const About = (props) => {
 
             </div>
         </div>
+                      <div className="thin">
+              {posts
+                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <div>
+                        <Link to="/latest">
+{/*                          <Image className="topimage"
+                            fixed={post.frontmatter.currentcover.childImageSharp.fixed}      
+                          />*/}
+                        </Link>
+                        <div className="text-center">
+                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
+                              BUY THIS ISSUE
+                            </Link>
+                          </div>
+                        </div>
+                      )
+                    })}
+              </div>
+            </div>
       </div>
+    </div>
     </div>
 
     </Layout>

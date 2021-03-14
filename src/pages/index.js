@@ -197,9 +197,6 @@ const Home = (props) => {                                                     //
         </div>
       </div>
    
-
-
-
       <div className="intro pt-4 pb-4">                                                                {/*NON-FICTION*/}
         <div className="container">
           <div className="row2 justify-content-start">

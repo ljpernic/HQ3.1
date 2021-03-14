@@ -6,10 +6,13 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 
 
+
 const Subscribe = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
   const subscribe = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
+  const data = props.data;
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="Subscribe" />
@@ -20,18 +23,21 @@ const Subscribe = (props) => {
         />
       </Helmet>
 
-      <div className="postbody pb-4">
+      <div className="intro pb-0">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="col-12">
-                  <h4 className="pt-3 pb-1">SUBSCRIBE AND SUPPORT</h4>
+            <div className="grid-container pt-1">
+              <div className="wide">
+                <div className="col-12">
+                  <h4 className="pb-1">SUBSCRIBE AND SUPPORT</h4>
 
-            <hr />
-          </div>
+                  <hr />
+                </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             <p>
-              Subscribe...
+              Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... 
+              Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... Subscribe... 
             </p>
             <p>
               Patreon...
@@ -69,6 +75,29 @@ const Subscribe = (props) => {
 
             </div>
         </div>
+        <div className="thin">
+              {posts
+                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <div>
+                        <Link to="/latest">
+                           <Image className="topimage"
+                           fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                         />
+
+                        </Link>
+                        <div className="text-center">
+                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
+                              BUY THIS ISSUE
+                            </Link>
+                          </div>
+                        </div>
+                      )
+                    })}
+              </div>
+              </div>
+              </div>
       </div>
     </div>
     </Layout>
@@ -77,6 +106,17 @@ const Subscribe = (props) => {
 
 export const query = graphql`
   query SubscribeQuery {
+    image: file(relativePath: {eq: "CurrentCover.png"}) {
+      id
+      childImageSharp {
+        fixed(width:300) {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/" } }
       sort: { fields: [frontmatter___date], order: DESC }

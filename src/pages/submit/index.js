@@ -9,6 +9,10 @@ const Submit = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
   const submit = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
+  const data = props.data;
+  
+  console.log(data)
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="Submit" />
@@ -19,13 +23,15 @@ const Submit = (props) => {
         />
       </Helmet>
 
-      <div className="postbody pb-4">
+      <div className="intro pb-0">
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="col-12">
-                  <h4 className="pt-3 pb-1">SUBMIT</h4>
-            <hr />
-          </div>
+            <div className="grid-container pt-1">
+              <div className="wide">
+                <div className="col-12">
+                  <h4 className="pb-1">SUBMIT</h4>
+                  <hr />
+                </div>
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
             <h1>
@@ -126,10 +132,31 @@ const Submit = (props) => {
               })}*/}
 
             </div>
+          </div>
+          <div className="thin">
+              {posts
+                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
+                  .map(({ node: post }) => {
+                    return (
+                      <div>
+                         <Link to="/latest">
+                           <Image className="topimage"
+                            fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                          />
+                        </Link>
+                        <div className="text-center">
+                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
+                              BUY THIS ISSUE
+                            </Link>
+                          </div>
+                        </div>
+                      )
+                    })}
+              </div>
         </div>
       </div>
     </div>
-
+</div>
    {/*} <div className="postbody">
       <div className="container pb-5 pt-md-7 pb-md-7">
         <div className="row2 justify-content-start">
@@ -163,6 +190,17 @@ const Submit = (props) => {
 
 export const query = graphql`
   query SubmitQuery {
+    image: file(relativePath: {eq: "CurrentCover.png"}) {
+      id
+      childImageSharp {
+        fixed(width:300) {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/" } }             #This tells the /submit page to look at md files in the src folder
       sort: { fields: [frontmatter___date], order: DESC }
