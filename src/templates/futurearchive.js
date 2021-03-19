@@ -42,9 +42,6 @@ export default class Futurearchive extends React.Component {
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
-                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
-                      />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
@@ -118,10 +115,10 @@ export const futurearchiveQuery = graphql`
               twitter
               picture {
                 childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  fluid(maxWidth: 200, maxHeight: 200) {                                        #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -132,7 +129,7 @@ export const futurearchiveQuery = graphql`
               idpath
               currentcover {
                 childImageSharp {
-                  fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
                   fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

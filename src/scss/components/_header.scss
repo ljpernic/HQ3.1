@@ -18,5 +18,16 @@
     }
   }
 
+.social-media2 {
+  display: inline-block;
+  flex-direction: column; 
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+    @include media-breakpoint-up(sm) {
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
 }
 

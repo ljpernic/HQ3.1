@@ -2,7 +2,8 @@
 title: We Let the Tall Ones Ride
 author: Bill Billerson
 issue: Issue Four, Spring 2021
-description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.<p>Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi.</p><p>Maecenas felis enim, scelerisque gravida pellentesque eget, finibus id felis.</p><p>Nam lacus tortor, laoreet sed ante non, tempor mollis velit? [...]</p>
+description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.<p>Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi.</p><p>Maecenas felis enim, scelerisque gravida pellentesque eget, finibus id felis.</p><p>Maecenas felis enim, scelerisque gravida pellentesque eget, finibus id felis. Maecenas felis enim, scelerisque gravida pellentesque eget, finibus id felis.</p><p>Nam lacus tortor, laoreet sed ante non, tempor mollis velit? <a href="https://www.havenquarterly.com/we-let-the-tall-ones-ride/">[<i>>>continue>></i>]</a></p>
+shortdescription: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <a href="https://www.havenquarterly.com/we-let-the-tall-ones-ride/">[<i>>>continue>></i>]</a>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

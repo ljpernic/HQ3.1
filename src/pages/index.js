@@ -15,6 +15,7 @@ const Home = (props) => {                                                     //
   const json = props.data.allFeaturesJson.edges;
   const posts = props.data.allMarkdownRemark.edges;
   const issueNodes = props.data.allIssueYaml.edges;
+  const data = props.data;
 
   return (
     <Layout bodyClass="page-home">
@@ -54,27 +55,22 @@ const Home = (props) => {                                                     //
                     )
                   })}
                 </div>      
-              <div className="thin">
-              {posts
-                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
-                  .map(({ node: post }) => {
-                    return (
-                      <div>
-                        <Link to="/latest">
-                          <Image className="topimage"
-                            fixed={post.frontmatter.currentcover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                          />
-                        </Link>
-                        <div className="text-center">
-                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
-                              BUY THIS ISSUE
-                            </Link>
-                          </div>
-                        </div>
-                      )
-                    })}
-              </div>
+                <div className="thin">
+          <div>
+            <Link to="">
+              <Image className="topimage"
+                fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+              />
+            </Link>
+            <div className="text-center">
+              <Link className="buybutton button-primary" to="">
+                BUY THIS ISSUE
+              </Link>
             </div>
+          </div>
+        </div>
+      </div>
+
 
             <div className="frontissue">
               <div className="col-12">
@@ -324,6 +320,17 @@ const Home = (props) => {                                                     //
 
 export const query = graphql`
   query {
+    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:300) {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allAuthorYaml {
       nodes {
         bio
@@ -411,7 +418,7 @@ export const query = graphql`
               idpath
               currentcover {
                 childImageSharp {
-                  fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
                   fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -447,7 +454,7 @@ export const query = graphql`
             }
             cover {
               childImageSharp {
-                fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+                fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                   ...GatsbyImageSharpFixed 
                 }
                 fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

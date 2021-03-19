@@ -2,7 +2,8 @@
 title: Nothing Sounds Good. Let's Eat Air
 author: Halitosis Henry
 issue: Issue Three, Winter 2020
-description: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. 
+description: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p><a href="https://www.havenquarterly.com/nothing-sounds-good-let's-eat-air/">[<i>>>continue>></i>]</a></p>
+shortdescription: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. <a href="https://www.havenquarterly.com/nothing-sounds-good-let's-eat-air/">[<i>>>continue>></i>]</a>
 category: FICTION
 cover: stats.jpg
 currentcover: CurrentCover.jpg

@@ -3,6 +3,7 @@ title: How Do We Add Ingredients
 author: Orange Rock
 issue: Issue Two, Fall 2020
 description: Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite! 
+shortdescription: Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite! 
 category: NON-FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

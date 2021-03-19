@@ -2,7 +2,8 @@
 title: Listen to the Birds, Their Words Gird Our Nerds
 author: Famke Bucket Head
 issue: Issue One, Summer 2020
-description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
+description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <p>Once I sat on a hat and it became quite flat. I wondered what was up with that, and I asked my pet rat, but just said Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat <a href="https://www.havenquarterly.com/Let's-eat-our-young/">[<i>>>continue>></i>]</a></p>
+shortdescription: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <p>Once I sat on a hat and <a href="https://www.havenquarterly.com/Let's-eat-our-young/">[<i>>>continue>></i>]</a>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

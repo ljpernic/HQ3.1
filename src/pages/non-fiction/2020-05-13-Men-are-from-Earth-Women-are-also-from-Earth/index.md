@@ -3,6 +3,7 @@ title: Men are from Earth, Women are also from Earth
 author: Salmon Smith
 issue: Issue Two, Fall 2020
 description: Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E?
+shortdescription: Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E?
 category: NON-FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

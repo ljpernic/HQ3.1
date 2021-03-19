@@ -2,7 +2,8 @@
 title: Living with Your Evil Clone 
 author: Barronovitch Aaronovitch
 issue: Issue Two, Fall 2020
-description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
+description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <a href="https://www.havenquarterly.com/living-with-your-evil-clone/">
+shortdescription: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <a href="https://www.havenquarterly.com/living-with-your-evil-clone/">
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

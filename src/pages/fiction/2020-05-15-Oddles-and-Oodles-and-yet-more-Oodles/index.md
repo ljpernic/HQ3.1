@@ -2,7 +2,8 @@
 title: Oodles and Oodles and yet more Oodles 
 author: Hell Oh
 issue: Issue Two, Fall 2020
-description: Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles  
+description: Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and <a href="https://www.havenquarterly.com/oodles-oodles-oodles/">  
+shortdescription: Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and Oodles and <a href="https://www.havenquarterly.com/oodles-oodles-oodles/">
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

@@ -134,28 +134,22 @@ const Submit = (props) => {
             </div>
           </div>
           <div className="thin">
-              {posts
-                  .filter(post => post.node.frontmatter.featured === true)                     /*This looks at only the md file with featured: true*/
-                  .map(({ node: post }) => {
-                    return (
-                      <div>
-                         <Link to="/latest">
-                           <Image className="topimage"
-                            fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                          />
-                        </Link>
-                        <div className="text-center">
-                            <Link className="buybutton button-primary" to={post.frontmatter.path}>
-                              BUY THIS ISSUE
-                            </Link>
-                          </div>
-                        </div>
-                      )
-                    })}
-              </div>
+          <div>
+            <Link to="">
+              <Image className="topimage"
+                fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+              />
+            </Link>
+            <div className="text-center">
+              <Link className="buybutton button-primary" to="">
+                BUY THIS ISSUE
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 </div>
    {/*} <div className="postbody">
       <div className="container pb-5 pt-md-7 pb-md-7">
@@ -190,7 +184,7 @@ const Submit = (props) => {
 
 export const query = graphql`
   query SubmitQuery {
-    image: file(relativePath: {eq: "CurrentCover.png"}) {
+    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
         fixed(width:300) {
@@ -219,10 +213,10 @@ export const query = graphql`
               twitter
               picture {
                 childImageSharp {
-                  fixed(width: 400) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
-                  fluid(maxWidth: 400, maxHeight: 400) {                                        #This changed the post picture sizes on the front page (originally 75)
+                  fluid(maxWidth: 200, maxHeight: 200) {                                        #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -233,7 +227,7 @@ export const query = graphql`
               idpath
               currentcover {
                 childImageSharp {
-                  fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+                  fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 
                   }
                   fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

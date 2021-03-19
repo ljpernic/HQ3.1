@@ -2,7 +2,8 @@
 title: Mush that Banana 
 author: Freddie the Banana Musher
 issue: Issue Two, Fall 2020
-description: Just keep mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing 
+description: Just keep mushing and mushing and mushing <p>and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and</p><p> mushing and mushing and mushing and mushing and mushing and mushing</p><p> and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and</p><p> mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing</p><p> and mushing and mushing and mushing and mushing and mushing <a href="https://www.havenquarterly.com/mush-that-banana/">[<i>>>continue>></i>]</a></p>
+shortdescription: Just keep mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing and mushing <p>and mushing and mushing and mushing and mushing and mushing <a href="https://www.havenquarterly.com/mush-that-banana/">[<i>>>continue>></i>]</a></p>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

@@ -2,7 +2,8 @@
 title: I Didn't Know You Didn't Have a Mom
 author: Famke Bucket Head
 issue: Issue Four, Spring 2021
-description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.
+description: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <p>Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek.</p> <p>Living in a house by the sea, <a href="https://www.havenquarterly.com/I-didn't-know-you-didn't-have-a-mom/">[<i>>>continue>></i>]</a></p>
+shortdescription: Living in a house by the sea, I see the birds and sneeze for words, my towels wet, my sand all full of glass and spit, and we kick the crows that caw in rows, the gulls who squeek, who are never meek. <a href="https://www.havenquarterly.com/I-didn't-know-you-didn't-have-a-mom/">[<i>>>continue>></i>]</a>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg

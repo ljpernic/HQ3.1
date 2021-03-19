@@ -69,23 +69,16 @@ const Eachpost = ({ data }) => {
               </div>
 
               <div className="thin">
-                <Link to="/">
+                <Link to="">
                   <Image className="topimage"
-                    fixed={currentcover.childImageSharp.fixed}
+                    fixed={data.image.childImageSharp.fixed}
                   />
                 </Link>
-                      
-                <div className="col-12 text-center pb-3">
-                  <Link className="button button-primary" to="/about">
-                    About
+                <div className="text-center">
+                  <Link className="buybutton button-primary" to="">
+                    BUY THIS ISSUE
                   </Link>
-                  <Link className="button button-primary" to="/subscribe">
-                    Subscribe
-                  </Link>
-                  <Link className="button button-primary" to="/submit">
-                    Submit
-                  </Link>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -97,6 +90,17 @@ const Eachpost = ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
+    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:300) {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
@@ -111,10 +115,10 @@ export const query = graphql`
           }
           picture {
             childImageSharp {
-              fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 300, maxHeight: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 200, maxHeight: 200) {                                        #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFluid
               }
             }
@@ -125,7 +129,7 @@ export const query = graphql`
           idpath
           currentcover {
             childImageSharp {
-              fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -150,7 +154,7 @@ export const query = graphql`
         category
         currentcover {
           childImageSharp {
-            fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+            fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
               ...GatsbyImageSharpFixed 
             }
             fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)

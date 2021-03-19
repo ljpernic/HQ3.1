@@ -6,56 +6,71 @@ import Image from 'gatsby-image';
 import Helmet from 'react-helmet';
 import CustomReactShare from "../components/CustomShareBlock";
 
-const Eachauthor = props => {
+import { FaTwitter } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
+const Eachissue = props => {
   const { pageContext } = props;
   const { idpath, issueidname, text, artist, artistbio, artistimage, currentcover } = pageContext;
-  const url = `http://havenspec.com${idpath}`;
+  const url = `http://havenspec.com/${idpath}`;
   const twitter = `http://twitter.com/havenspec`;
+  
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={issueidname} />
       
-      
-      <div className="intro pb-0">
-        <div className="container pb-md-4">
-          <div className="row2 pt-0 pb-3 justify-content-start">
-            <div className="grid-container pt-2">
+
+      <div className="intro pb-0">                                                                {/*FICTION*/}
+        <div className="container">
+          <div className="row2 justify-content-start">
+            <div className="grid-container pt-1">
               <div className="wide">
                 <div className="col-12">
 
-
+                  <h4 className="pb-1">{issueidname}</h4>
                   <hr />
-                  <p>{issueidname}</p>
+
                   <p>{text}</p>
                   <hr />
-                  <Image className="inlineimage"
-                              fluid={artistimage}          /*This should pull image from md files with category "fiction"*/
-                            />
 
+                  <div className="authorimagebottom">
+                    <Image className=""
+                      fluid={artistimage}            /*Author Image called here*/
+                    />
+                      <a href={twitter}>
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                          <FaTwitter />
+                        </IconContext.Provider>
+                      </a>
+                  </div>
 
-                  <h3>{artist}</h3>
-                  <p>{artistbio}</p>
-
-<hr />
-                  
+                    <h1 className="biotitle"><Link to=""> {artist}</Link></h1>
+                    <p>{artistbio}</p>
+                    <hr />
+                 
                   <div className="share">
                     <h6>Share:</h6>
+                    <CustomReactShare title={issueidname} excerpt={text} url={idpath} />
                   </div>
 
                   <hr />
-
-                </div>
               </div>
 
+
+              </div>
               <div className="thin">
                 <Link to="/">
                   <Image className="topimage"
-                    fixed={currentcover}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    fixed={currentcover}
                   />
                 </Link>
-                      
-              </div>
+                <div className="text-center">
+                  <Link className="buybutton button-primary" to="">
+                    BUY THIS ISSUE
+                  </Link>
+                </div>
+                     </div> 
             </div>
           </div>
         </div>
@@ -90,7 +105,7 @@ export const query = graphql`
           idpath
           currentcover {
             childImageSharp {
-              fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -102,7 +117,7 @@ export const query = graphql`
           artist
           artistimage {
             childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 150) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -115,7 +130,7 @@ export const query = graphql`
         category
         currentcover {
           childImageSharp {
-            fixed(width: 350) {                                           #This changed the post picture sizes on the front page (originally 75)
+            fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
               ...GatsbyImageSharpFixed 
             }
             fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
@@ -129,4 +144,4 @@ export const query = graphql`
   }
 `;
 
-export default Eachauthor;
+export default Eachissue;

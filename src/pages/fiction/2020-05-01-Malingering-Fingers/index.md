@@ -2,7 +2,8 @@
 title: Malingering Fingers and the Singers with Stingers 
 author: Alan Alansonovitch
 issue: Issue One, Summer 2020
-description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? 
+description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <a href="https://www.havenquarterly.com/malingering-fingers/">
+shortdescription: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <a href="https://www.havenquarterly.com/malingering-fingers/">
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg
