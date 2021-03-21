@@ -6,10 +6,10 @@
   display: grid;
   justify-items: center;
   //box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  .container {
-    display: block;
-    justify-content: space-between;
-  }
+//  .container {
+//    display: block;
+//    justify-content: space-between;
+//  }
   .header-social {
     height: inherit;
     display: none;
@@ -18,12 +18,13 @@
     }
   }
 
-.social-media2 {
+.social-media-header {
   display: inline-block;
   flex-direction: column; 
   justify-content: space-between;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
     @include media-breakpoint-up(sm) {
       justify-content: space-between;
       flex-direction: row;

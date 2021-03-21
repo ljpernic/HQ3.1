@@ -42,13 +42,13 @@ export default class Authorarchive extends React.Component {
                                                                                       {/*this is where the blog stuff should go for stories getting posted*/}
           <div className="container">
 
-          {people.map(({ node: author }, index) => (
+          {posts.map(({ node: post, author }, index) => (
                 <div>                    
                   <Image className="authorimage"
-                    fluid={author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
+                    fluid={post.frontmatter.author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
                   />
-                  <h1 pb><Link to={author.idpath}>{author.id}</Link></h1>
-                  <p dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
+                  <h1 pb><Link to={post.frontmatter.author.idpath}>{post.frontmatter.author.id}</Link></h1>
+                  <p dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.author.bio) }} />
                   <hr />
                 </div>
               ))}

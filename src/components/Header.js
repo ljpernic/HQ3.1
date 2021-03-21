@@ -31,10 +31,10 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <div className="container">
           <div className="row">
             <div className="grid-container pt-1">
-              <div className="wide">
+
+<div className="wide2">
                 <div className="col-12">
                   <div className="logo">
                     <Link to="/">
@@ -42,33 +42,34 @@ class Header extends React.Component {
                     </Link>
                   </div>
                 </div>
-              </div>
-              <div className="pt-2 thin">
-                <div className="social-media2">
+</div>
+
+<div className="thin">
+                <div className="social-media-header">
                   <a href="https://twitter.com/HavenSpec">
-                    <IconContext.Provider value={{ className:"social-media2", color: "#414156", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{ className:"social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
                     <div>
                       <FaTwitter />
                     </div>
                     </IconContext.Provider>
                   </a>
                   <a href="https://facebook.com/HavenSpec">  
-                    <IconContext.Provider value={{className: "social-media2", color: "#414156", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
                     <div>
                       <FaFacebook />
                     </div>
                     </IconContext.Provider>
                   </a>
                   <a href="https://HavenSpec.com/newsletter">  
-                    <IconContext.Provider value={{className: "social-media2", color: "#414156", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
                     <div>
                       <FaEnvelope />
                     </div>
                     </IconContext.Provider>
                   </a>
                 </div>
-              </div>
-            </div>
+</div>
+
           </div>
         </div>
         <div className="logo-mobile">
