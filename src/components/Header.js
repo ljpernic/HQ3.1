@@ -34,7 +34,7 @@ class Header extends React.Component {
           <div className="row">
             <div className="grid-container pt-1">
 
-<div className="wide2">
+<div className="wide">
                 <div className="col-12">
                   <div className="logo">
                     <Link to="/">
