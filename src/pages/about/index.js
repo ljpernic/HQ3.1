@@ -5,6 +5,9 @@ import Helmet from 'react-helmet';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 
+import { FaTwitter } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
 const About = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
   const about = props.data.allMarkdownRemark.edges;
@@ -31,76 +34,80 @@ const About = (props) => {
               <hr />
             </div>
                                                                                         {/*this is where the blog stuff should go for stories getting posted*/}
-            <div className="container pb-2">
-              <h1>Haven Spec:</h1>
+            <div className="container pt-1">
+              <h1 className="pb-1">Haven Spec</h1>
               <p>
-                <i>Haven Spec</i> is an online speculative fiction magazine featuring fiction for the 21st century. We love stories with a 
-                sense of adventure, stories that teach us, that touch us, that make us want more. Our focus is on the climate crisis and themes of 
-                displacement, very (very) broadly defined. We publish four issues yearly, with a DRY issue on the vernal equinox and a WET issue on the autumnal 
-                equinox.                 
+                <i>Haven Spec</i> is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a 
+                sense of adventure, stories that teach us, that touch us, that make us want more. We publish six issues every year, two of which (the DRY Issue and the 
+                WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined). 
               </p>
               <p>
-                You can read our stories online for free, though for each issue, stories are released over the course of the month. You can also subscribe and 
-                get all of the stories on the issue release date. Either way, our stories are meant to be shared, discussed, fretted over, celebrated, and 
-                (eventually) recycled into kitty litter and insulation.
+                Each week, we release a little more content from the previous issue to read online for free, but you can also subscribe and get it all on the day the 
+                issue comes out. Either way, our stories are meant to be shared, discussed, fretted over, celebrated, and (eventually) recycled into kitty litter and insulation 
+                (at least if we ever publish in paper form).
               </p>
               <p>
-                Launched on the 15th anniversary of <Link to="https://en.wikipedia.org/wiki/Hurricane_Katrina">Hurricane Katrina</Link>, <i>Haven Spec</i> 
-                publishes speculative fiction, non-fiction articles, and letters mailed to us from the future. Its editor is <Link to="www.leonperniciaro.com">
-                Leon Perniciaro</Link>, a writer and editor from New Orleans but now living in New England. Displaced by the storm, he spent the Katrina months 
-                sleeping on someone's sofa and working at a grocery in suburban Ohio. He worries about <Link to="">the Great Filter</Link>, 
-                <Link to="https://en.wikipedia.org/wiki/Tipping_points_in_the_climate_system">climate tipping points</Link>, and the future of New Orleans.   
+                Each issue of <i>Haven Spec</i> contains speculative fiction, non-fiction, and letters mailed to us from the future. The postage is killer.   
               </p>
               <p>
-                The crisis facing our planet is immediate and all-encompassing, and it will affect people of color and people living in poverty. The popular metaphor 
-                is going over a cliff, but we prefer the tempest, the torrent, the flood. The waters are rising, but we can save ourselves.
+                The crisis facing our planet is immediate and all-encompassing, and it will affect people of color, people living in poverty, and the working classes most of
+                all. The popular metaphor is going over a cliff, but we prefer the tempest, the torrent, the flood. The waters are rising, but we can save ourselves.
               </p>
-              <p>
+              <p className="pb-1">
                 It's not too late.
               </p>
               <hr className="mb-2 mt-2" />
-              <h1>Staff:</h1>
-              <p>
-                We are actively looking for collaborators! 
-              </p>
+              <h1 className="pt-1 pb-1">About the Editor</h1>
+              <div className="authorimagebottom">
+              <Image
+                  fixed={data.leon.childImageSharp.fixed}
+                    />
+                      <a href="https://twitter.com/leonperniciaro">
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                          <FaTwitter />
+                        </IconContext.Provider>
+                      </a>
+                  </div>
+                    <p className="pb-1">Leon Perniciaro (he/him) is a writer, editor, and translator originally from New Orleans, but now living in New England. He worries about the climate 
+                      crisis and the Great Filter. He also produces audio fiction, and he seldom wears hats. Follow him on Twitter @LeonPerniciaro.</p>
+
               <hr className="mb-2 mt-2" />
   {/*            <p>
                 Awards
               </p>
               <hr />*/}
-              <h1>
-                Advertising:
+              <h1 className="pt-1 pb-1">
+                Advertising
               </h1>
               <p>
                 Interested in advertising with us? Here are our rates!
               </p>
               <p>
-                Sidebar prices (wherever the issue is) middle position...<br />
-                Sidebar prices (wherever the issue is) lower position...
+                At this moment, all ads are $30 per month, starting from the first of a given month and going until that months ends.
               </p>
               <p>
-                Advertising inside the issue...
+                Each ad appears on every page of the website. The square ads change positions with each pageview. Do note, however, that all advertisements are subject to approval.
               </p>
-              <p>
-                To advertise, contact us here...
+              <p className="pb-1">
+                To advertise, contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.) Please also be prepared to send us a
+                suitable image of 250 x 250 pixels (for square ads) or 424 x 60 pixels (for the banner ad), along with a single link to whatever's being advertised. 
               </p>
               <hr className="mb-2 mt-2" />
-              <h1>
-                Contact:
+              <h1 className="pt-1 pb-1">
+                Contact
               </h1>
               <p>
                 For art, article, letter and fiction submissions, see those pages for more details. For advertising, contact us at the address above.
-                If there's an issue with an issue (ha) or any other purchase, see the subscribe page for more information. For everything else, you can
-                contact us at havenspec@gmail.com. 
+                For everything else, you can contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.)
               </p>
-              <p>
+              <p className="pb-1">
                 Use this power only for good.
               </p>
               <hr className="mb-2 mt-2" />
-              <h1>
-                Privacy Policy:
+              <h1 className="pt-1 pb-1">
+                Privacy Policy
               </h1>
-              <p>
+              <p className="pb-1">
                 We don't collect any information (or if we do, we have no idea how to access it). We'll probably install google analytics at some point
                 to give us an idea of how many people are visiting the site, and all of the purchasing aspects (for example, when you subscribe), should be 
                 handled off-site by whatever service we use, so that simplifies things nicely. We promise not to sell any data that we collect incidentally (or 
@@ -109,8 +116,8 @@ const About = (props) => {
                 until the end of time. We hope that clears things up.
               </p>
               <hr className="mb-2 mt-2" />
-              <h1>
-                Anti-Harassment Policy:
+              <h1 className="pt-1 pb-1">
+                Anti-Harassment Policy
               </h1>
               <p>
                 We take harassment seriously. Any behavior that makes another person feel unsafe, harms another person, or causes another person distress is
@@ -131,18 +138,18 @@ const About = (props) => {
               "Just joking." it's still harassment if it's subtext and innuendo. It's still harassment whether scribbled in a notebook or written in the sky. 
               If you're not sure what counts, there are many resources online, but err in all cases on the side of caution.
               </p>
-              <p>
+              <p className="pb-1">
                 This anti-harassment policy was largely cribbed from that of the non-profit group 
                 <a href="https://blog.americansforthearts.org/about-americans-for-the-arts/organizational-policies"> Americans for the Arts</a>. 
                 We aren't affiliated in any way.
               </p>
               <hr className="mb-2 mt-2" />
-              <h1>
-                About This Site:
+              <h1 className="pt-1 pb-1">
+                About This Site
               </h1>
               <p>
-                This site was developed from the gatsby starter ..., which was created by .... It was built using gatsby.Js. See below for legalese. The font 
-                was developed by... And downloaded from... . The background was taken from pixabay.
+                This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using gatsby.js 
+                and is used here under the MIT license. The background was taken from pixabay.
               </p>
               <p>
                 <center>The website design is used here under the MIT license (MIT)</center>
@@ -163,7 +170,7 @@ const About = (props) => {
                 Copies or substantial portions of the software.</center>
               </p>
               <p>
-              <center>The software is provided "As is", without warranty of any kind, express or
+              <center className="pb-1">The software is provided "As is", without warranty of any kind, express or
                 Implied, including but not limited to the warranties of merchantability,
                 Fitness for a particular purpose and noninfringement. In no event shall the
                 Authors or copyright holders be liable for any claim, damages or other
@@ -209,6 +216,13 @@ const About = (props) => {
 
 export const query = graphql`
   query AboutQuery {
+    leon: file(relativePath: { eq: "profile1.jpg" }) {
+      childImageSharp {
+        fixed(width: 150, height: 150) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     image: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
