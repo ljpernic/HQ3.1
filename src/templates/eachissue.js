@@ -1,9 +1,8 @@
-import React from 'react';  
+import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
-import Helmet from 'react-helmet';
 import CustomReactShare from "../components/CustomShareBlock";
 
 import { FaTwitter } from 'react-icons/fa';
@@ -14,12 +13,12 @@ const Eachissue = props => {
   const { idpath, issueidname, text, artist, artistbio, artistimage, currentcover } = pageContext;
   const url = `http://havenspec.com/${idpath}`;
   const twitter = `http://twitter.com/havenspec`;
-  
+
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={issueidname} />
-      
+
 
       <div className="intro pb-0">                                                                {/*FICTION*/}
         <div className="container">
@@ -48,7 +47,7 @@ const Eachissue = props => {
                     <h1 className="biotitle"><Link to=""> {artist}</Link></h1>
                     <p>{artistbio}</p>
                     <hr />
-                 
+
                   <div className="share">
                     <h6>Share:</h6>
                     <CustomReactShare title={issueidname} excerpt={text} url={idpath} />
@@ -70,7 +69,7 @@ const Eachissue = props => {
                     BUY THIS ISSUE
                   </Link>
                 </div>
-                     </div> 
+                     </div>
             </div>
           </div>
         </div>

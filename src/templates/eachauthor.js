@@ -1,4 +1,4 @@
-import React from 'react';  
+import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
@@ -12,7 +12,6 @@ const Eachauthor = props => {
   const { pageContext } = props;
   const data = props.data;
   const { idname, bio, twitter, picture, stories } = pageContext;
-  
   const twitterLink = `http://twitter.com/${twitter}`;
 
   return (
@@ -63,8 +62,8 @@ const Eachauthor = props => {
 };
 
 export const query = graphql`
-  query {
-    markdownRemark {
+  query($idname: String!) {
+    markdownRemark(frontmatter: {author: {id: {eq: $idname}}}) {
       frontmatter {
         title
         path
