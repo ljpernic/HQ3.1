@@ -2,13 +2,19 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
-import Image from 'gatsby-image';
+import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
+
+import { IconContext } from "react-icons";
+import { FaTwitter } from 'react-icons/fa';
 
 const Eachauthor = props => {
   const { pageContext } = props;
+  const data = props.data;
   const { idname, bio, twitter, picture, stories } = pageContext;
   
+  const twitterLink = `http://twitter.com/${twitter}`;
+
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title="Fiction" />
@@ -26,11 +32,18 @@ const Eachauthor = props => {
               <div className="wide">
               <h4>AUTHOR</h4>
               <hr />
-                {picture}
-
-              <h3>{idname}</h3>
+                <div className="authorimagebottom">
+                  <Img
+                    fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
+                  />
+                        <a href={twitterLink}>
+                          <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                            <FaTwitter />
+                          </IconContext.Provider>
+                        </a>
+                  </div>
+                <h3>{idname}</h3>
                 <h2>{bio}</h2>
-                <h2>{twitter}</h2>
                 <p>{stories.map((data, index) => {
           return <li key={`content_item_${index}`}>{data.item}</li>
         })}</p>
@@ -61,7 +74,7 @@ export const query = graphql`
           twitter
           picture {
             childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(height: 200, width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)

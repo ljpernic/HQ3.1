@@ -78,7 +78,7 @@ const Home = (props) => {                                                     //
                 <div className="frontissue-left">
                 <h5>Fiction:</h5>
                   {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                     .map(({ node: post }) => {
                       return (
                         <p>
@@ -90,7 +90,7 @@ const Home = (props) => {                                                     //
                 <div className="frontissue-right">
                   <h5>Non-Fiction:</h5>
                     {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                       .map(({ node: post }) => {
                       return (
                         <p>
@@ -101,7 +101,7 @@ const Home = (props) => {                                                     //
                     <br />
                   <h5>Letter from the Future:</h5>
                     {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FUTURE" && post.node.frontmatter.issue.id === "Issue Four, Spring 2021")
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FUTURE" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                       .map(({ node: post }) => {
                       return (
                         <p>

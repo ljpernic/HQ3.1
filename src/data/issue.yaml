@@ -7,37 +7,7 @@
 
       I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
       Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-  artist: Demmy Demmerson
-  artistimage: "../images/profile/profile1.jpg"
+  artist: Raptor Alan
+  artistimage: "../images/profile/Raptor_Alan.jpg"
   artistbio: Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
             stacked on top of each other. See more of her artwork at , or follow her on .
-
-- id: Issue Two, Fall 2020
-  idpath: "/issue-two"
-  currentcover: "../images/covers/issue-two-cover.jpg"
-  text: "This is the second issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-        as each week a new story becomes available!"
-  artist: Billy Everyteen
-  artistimage: "../images/profile/profile1.jpg"
-  artistbio: "Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-              stacked on top of each other. See more of her artwork at , or follow her on ." 
-
-- id: Issue Three, Winter 2020
-  idpath: "/issue-three"
-  currentcover: "../images/covers/issue-three-cover.jpg"
-  text: "This is the third issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-        as each week a new story becomes available!"
-  artist: Billy Everyteen
-  artistimage: "../images/profile/profile1.jpg"
-  artistbio: "Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-              stacked on top of each other. See more of her artwork at , or follow her on ." 
-
-- id: Issue Four, Spring 2021
-  idpath: "/issue-four"
-  currentcover: "../images/covers/issue-four-cover.jpg"
-  text: "This is the fourth issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-        as each week a new story becomes available!"
-  artist: Billy Everyteen
-  artistimage: "../images/profile/profile1.jpg"
-  artistbio: "Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-              stacked on top of each other. See more of her artwork at , or follow her on ." 

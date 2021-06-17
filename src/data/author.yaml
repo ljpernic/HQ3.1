@@ -1,15 +1,14 @@
-- id: Alan Alansonovitch
-  idpath: "/alan-alansonovitch"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'nonexistencecuriouscat'
-  picture: ../images/profile/profile1.jpg
+- id: Raptor Alan
+  idpath: "/raptor-alan"
+  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
+  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
+  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
+  ordination to promote temperance by destroying bars.[4]"
+  twitter: 'wgao19'
+  picture: ../images/profile/Raptor_Alan.jpg
   stories:
-  - item: Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
+  - item: Raptor Alan Story One 
+  - item: Raptor Alan Story Two
 
 - id: Cheesy Fries Dan
   idpath: "/cheesy-fries-dan"
@@ -18,23 +17,22 @@
   'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
   ordination to promote temperance by destroying bars.[4]"
   twitter: 'wgao19'
-  picture: ../images/profile/profile2.jpg
+  picture: ../images/profile/Cheesy_Fries_Dan.jpg
   stories:
-  - item: Fingers and the Singers with Stingers 
-  - item: Equations for Fun and Profit 
+  - item: Cheesy Fries Dan Story One
+  - item: Cheesy Fries Dan Story Two 
 
-- id: Good Bie
-  idpath: "/good-bie"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
+- id: Halty Haffenpfaff
+  idpath: "/halty-haffenpfaff"
+  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
+  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
+  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
+  taverns) with a hatchet."
   twitter: 'wgao19'
-  picture: ../images/profile/profile3.jpg
+  picture: ../images/profile/Halty_Haffenpfaff.jpg
   stories:
-  - item: Malingering and the Singers with Stingers 
-  - item: Quadratic for Fun and Profit 
+  - item: Halty Haffenpfaff Story One 
+  - item: Halty Haffenpfaff Story Two 
 
 - id: Karl Marxerel
   idpath: "/karl-marxerel"
@@ -43,22 +41,22 @@
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
   taverns) with a hatchet."
   twitter: 'wgao19'
-  picture: ../images/profile/profile4.jpg
+  picture: ../images/profile/Karl_Marxerel.jpg
   stories:
-  - item: Malingering Fingers the Singers with Stingers 
-  - item: Quadratic Equations Fun and Profit 
+  - item: Karl Marxerel Story One 
+  - item: Karl Marxerel Story Two 
 
-- id: Sunset McGee
-  idpath: "/sunset-mcgee"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'nonexistencecuriouscat'
-  picture: ../images/profile/profile5.jpg
+- id: Sally McSelfsurgury
+  idpath: "/sally-mcselfsurgury"
+  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
+  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
+  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
+  taverns) with a hatchet."
+  twitter: 'wgao19'
+  picture: ../images/profile/Sally_McSelfsurgury.jpg
   stories:
-  - item: Malingering Fingers and Singers with Stingers 
-  - item: Quadratic Equations for and Profit 
+  - item: Sally McSelfsurgury Story One
+  - item: Sally McSelfsurgury Story Two 
 
 - id: Glenda the Glad
   idpath: "/glenda-the-glad"
@@ -68,10 +66,10 @@
   Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
-  picture: ../images/profile/profile6.jpg
+  picture: ../images/profile/Glenda_the_Glad.jpg
   stories:
-  - item: Malingering Fingers and the with Stingers 
-  - item: Quadratic Equations for Fun Profit 
+  - item: Glenda the Glad Story One 
+  - item: Glenda the Glad Story Two 
 
 - id: Scurvy Joe
   idpath: "/scurvy-joe"
@@ -80,10 +78,10 @@
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
   taverns) with a hatchet."
   twitter: 'wgao19'
-  picture: ../images/profile/profile7.jpg
+  picture: ../images/profile/Scurvy_Joe.jpg
   stories:
-  - item: Malingering Fingers and the Singers Stingers 
-  - item: Quadratic Equations for Fun and 
+  - item: Scurvy Joe Story One
+  - item: Scurvy Joe Story Two 
 
 - id: Fanniford Kaplaniford
   idpath: "/fanniford-kaplaniford"
@@ -92,157 +90,10 @@
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
   taverns) with a hatchet."
   twitter: 'wgao19'
-  picture: ../images/profile/profile8.jpg
+  picture: ../images/profile/Fanniford_Kaplaniford.jpg
   stories:
-  - item: Malingering Fingers and the Singers with 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Famke Bucket Head
-  idpath: "/famke-bucket-head"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'nonexistencecuriouscat'
-  picture: ../images/profile/profile9.jpg
-  stories:
-  - item: and the Singers with Stingers 
-  - item: for Fun and Profit 
-
-- id: Barronovitch Aaronovitch
-  idpath: "/barronovitch-aaronovitch"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile10.jpg
-  stories:
-  - item: Malingering the Singers with Stingers 
-  - item: Quadratic Fun and Profit 
-
-- id: Salmon Smith
-  idpath: "/salmon-smith"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile11.jpg
-  stories:
-  - item: Malingering Fingers Singers with Stingers 
-  - item: Quadratic Equations and Profit 
-
-- id: Your Own Shameful Thoughts
-  idpath: "/your-own-shameful-thoughts"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile12.jpg
-  stories:
-  - item: Malingering Fingers and with Stingers 
-  - item: Quadratic Equations for Profit 
-
-- id: Freddie the Banana Musher
-  idpath: "/freddie-the-banana-musher" 
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'nonexistencecuriouscat'
-  picture: ../images/profile/profile13.jpg
-  stories:
-  - item: Malingering Fingers and the Stingers 
-  - item: Quadratic Equations for Fun 
-
-- id: Orange Rock
-  idpath: "/orange-rock"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile14.jpg
-  stories:
-  - item: Malingering Fingers
-  - item: for Fun and Profit 
-
-- id: Prep H.
-  idpath: "/prep-h"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile15.jpg
-  stories:
-  - item: Malingering Fingers with Stingers 
-  - item: Quadratic Fun and Profit 
-
-- id: Apples Allen
-  idpath: "/apples-allen"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile16.jpg
-  stories:
-  - item: Malingering Fingers and the 
-  - item: Quadratic Equations for Fun
-
-- id: Roller Coaster Bill
-  idpath: "/roller-coaster-bill"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile1.jpg
-  stories:
-  - item:  Fingers and the Singers with Stingers 
-  - item: Quadratic for Fun and Profit 
-
-- id: Sergei McSelfsurgury
-  idpath: "/segei-mcselfsurgury"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile2.jpg
-  stories:
-  - item: Malingering and the Singers with Stingers 
-  - item: Equations for Fun and Profit 
-
-- id: Halty Haffenpfaff
-  idpath: "/halty-haffenpfaff"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile3.jpg
-  stories:
-  - item: Another Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Halitosis Henry
-  idpath: "/halitosis-henry"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile4.jpg
-  stories:
-  - item: Cheese Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
+  - item: Fanniford Kaplaniford Story One
+  - item: Fanniford Kaplaniford Story Two 
 
 - id: The Robot Kid
   idpath: "/the-robot-kid"
@@ -252,34 +103,22 @@
   Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
-  picture: ../images/profile/profile5.jpg
+  picture: ../images/profile/The_Robot_Kid.jpg
   stories:
-  - item: Owls Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
+  - item: The Robot Kid Story One
+  - item: The Robot Kid Story Two 
 
-- id: T. McGibbons
-  idpath: "/t-mcgibbons"
+- id: Susan Susanovya
+  idpath: "/susan-susanovya"
   bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
   was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
   the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
   taverns) with a hatchet."
   twitter: 'wgao19'
-  picture: ../images/profile/profile7.jpg
+  picture: ../images/profile/Susan_Susanovya.jpg
   stories:
-  - item: Gardens Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Roundhead Rick
-  idpath: "/roundhead-rick"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile8.jpg
-  stories:
-  - item: Salads Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
+  - item: Susan Susanovya Story One 
+  - item: Susan Susanovya Story Two
 
 - id: Greg Notamonster
   idpath: "/greg-notamonster"
@@ -289,92 +128,7 @@
   Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
   Carrie officially registered 'Carry' as a trademark.[6]"
   twitter: 'wgao19'
-  picture: ../images/profile/profile9.jpg
+  picture: ../images/profile/Greg_Notamonster.jpg
   stories:
-  - item: Suits Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Sonja the Just
-  idpath: "/sonja-the-just"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile10.jpg
-  stories:
-  - item: Trees Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Michelle Seller-Nomiconricon
-  idpath: "michelle-seller-nomiconricon"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile11.jpg
-  stories:
-  - item: Chex Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Raptor Alan
-  idpath: "/raptor-alan"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile12.jpg
-  stories:
-  - item: Computers Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Bill Billerson
-  idpath: "/bill-billerson"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/profile13.jpg
-  stories:
-  - item: Remote Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Tina Tina Bobina
-  idpath: "/tina-tina-bobina"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile14.jpg
-  stories:
-  - item: Drive Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Susan Susanovya
-  idpath: "/susan-susanovya"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile15.jpg
-  stories:
-  - item: Paper Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit 
-
-- id: Hell Oh
-  idpath: "/hell-oh"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/profile16.jpg
-  stories:
-  - item: Desk Malingering Fingers and the Singers with Stingers 
-  - item: Quadratic Equations for Fun and Profit
+  - item: Greg Notamonster Story One 
+  - item: Greg Notamonster Story Two 

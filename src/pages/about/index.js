@@ -216,7 +216,7 @@ const About = (props) => {
 
 export const query = graphql`
   query AboutQuery {
-    leon: file(relativePath: { eq: "profile1.jpg" }) {
+    leon: file(relativePath: { eq: "profile/Leon_Perniciaro.jpg" }) {
       childImageSharp {
         fixed(width: 150, height: 150) {
           ...GatsbyImageSharpFixed
