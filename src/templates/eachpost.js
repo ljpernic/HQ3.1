@@ -12,7 +12,6 @@ const Eachpost = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
   const { issue } = data.markdownRemark.frontmatter;
-  const { currentcover } = data.markdownRemark.frontmatter;
   const { category } = data.markdownRemark.frontmatter;
   const { excerpt } = data.markdownRemark.frontmatter;
   const { path } = data.markdownRemark.frontmatter;
@@ -33,11 +32,17 @@ const Eachpost = ({ data }) => {
               <div className="wide">
                 <div className="col-12">
 
-                  <h4 className="pb-1">{category}</h4>
+                  <h4 className="pb-1">
+                    {category}
+                  </h4>
                   <hr />
 
-                  <h1 className="pt-1">{title}</h1>
-                  <h2>By <Link to={author.idpath}> {author.id}</Link> in <Link to={issue.idpath}> {issue.id}</Link></h2>
+                  <h1 className="pt-1">
+                    {title}
+                  </h1>
+                  <h2>
+                    By <Link to={author.idpath}> {author.id}</Link> in <Link to={issue.idpath}> {issue.id}</Link>
+                  </h2>
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
                   <div className="share">

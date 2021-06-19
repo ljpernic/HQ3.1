@@ -4,12 +4,11 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
+import CustomReactShare from "../components/CustomShareBlock";
 import paragraphs from "lines-to-paragraphs";
 
 export default class Issuesarchive extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
-    const json = this.props.data.allFeaturesJson.edges;
     const issueNodes = this.props.data.allIssueYaml.edges;
 
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
@@ -28,25 +27,42 @@ export default class Issuesarchive extends React.Component {
         />
       </Helmet>
 
-      <div className="postbody pb-4">
+      <div className="intro pb-0">
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="col-12">
-              <h4 className="pt-3 pb-1">ISSUE ARCHIVE</h4>
-            <hr />
-          </div>
-                                                                                      {/*this is where the blog stuff should go for stories getting posted*/}
-          <div className="container">
+            <div className="grid-container pt-1">
 
-          {issueNodes.map(({ node: issue }, index) => (
-                <div>                    
-                  <Image className="topimage"
-                    fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
-                  />
-                  <h1 pb><Link to={issue.idpath}>{issue.id}</Link></h1>
-                  <p dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
-                  <hr />
-                </div>
+              {issueNodes.map(({ node: issue }, index) => (
+
+                <div>
+                  <div className="wide">
+                    <div className="col-12">
+                      <h4 className="pt-3 pb-1">
+                        ISSUE ARCHIVE
+                      </h4>
+                      <hr />
+                    <h1 className="pt-1">
+                      <Link to={issue.idpath}>
+                        {issue.id}
+                      </Link>
+                    </h1>
+                    <p dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
+                    <div className="share">
+                      <h6>
+                        Share:
+                      </h6>
+                      <CustomReactShare title={issue.id} excerpt={issue.text} url={issue.idpath} />
+                    </div>
+                    <hr />
+                  </div>
+                  </div>
+                    <Image className="topimage"
+                      fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                    />
+
+
+                    <hr />
+                  </div>
               ))}
               <div className="container">
                 <div className="row">

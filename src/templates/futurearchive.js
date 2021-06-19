@@ -26,7 +26,7 @@ export default class Futurearchive extends React.Component {
         />
       </Helmet>
 
-      <div className="postbody pb-4">
+      <div className="intro pb-0">
         <div className="container">
           <div className="row2 justify-content-start">
             <div className="col-12">

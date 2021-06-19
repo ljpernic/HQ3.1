@@ -10,7 +10,7 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <Layout bodyClass="page-home">
-        <div className="postbody">
+        <div className="intro pt-4">
           <div className="container pt-8 pt-md-4">
             <div className="row2 justify-content-start pt-2">
               <div className="col-12">

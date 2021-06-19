@@ -11,9 +11,8 @@ export default class Authorarchive extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges;
     const json = this.props.data.allFeaturesJson.edges;
     const data = this.props.data;
-    const people = this.props.data.allAuthorYaml.edges;
+    const peopleNodes = this.props.data.allAuthorYaml.edges;
     
-
     const { AUTcurrentPage, AUTnumPages } = this.props.pageContext
     const isFirst = AUTcurrentPage === 1
     const isLast = AUTcurrentPage === AUTnumPages
@@ -43,7 +42,7 @@ export default class Authorarchive extends React.Component {
           <div className="container">
 
           {posts.map(({ node: post, author }, index) => (
-                <div>                    
+                <div>
                   <Image className="authorimage"
                     fluid={post.frontmatter.author.picture.childImageSharp.fluid}            /*Where the image in the post on the front page is called*/
                   />

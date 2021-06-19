@@ -155,7 +155,7 @@ const Submit = (props) => {
     </div>
   </div>
 </div>
-   {/*} <div className="postbody">
+   {/*} <div className="intro pt-4">
       <div className="container pb-5 pt-md-7 pb-md-7">
         <div className="row2 justify-content-start">
           <div className="col-12">

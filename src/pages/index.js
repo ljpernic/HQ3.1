@@ -284,7 +284,7 @@ const Home = (props) => {                                                     //
       </div>
     </div>*/}
 
-    {/*<div className="postbody pt-4">
+    {/*<div className="intro pt-4">
       <div className="container pb-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
