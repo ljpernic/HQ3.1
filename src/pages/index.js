@@ -5,16 +5,9 @@ import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import paragraphs from "lines-to-paragraphs";
-import Advert01 from "../images/advertisement01.jpg";
-import Advert02 from "../images/advertisement02.jpg";
-import Advert03 from "../images/advertisement03.jpg";
-import LAdvert01 from "../images/advertisementlong01.jpg";
-
 
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
-  const json = props.data.allFeaturesJson.edges;
   const posts = props.data.allMarkdownRemark.edges;
-  const issueNodes = props.data.allIssueYaml.edges;
   const data = props.data;
 
   return (
@@ -27,58 +20,95 @@ const Home = (props) => {                                                     //
         />
       </Helmet>
 
-      <div className="intro pb-0">                                                                {/*FEATURED*/}
+      <div className="intro">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container pt-1">
-              <div className="wide">
+            <div className="grid-container">
+            <div className="thinLeft">
+                  <div>
+                    <Link to="">
+                      <Image className="topImageLeft"
+                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                    <div className="text-center">
+                      <Link className="buybutton button-primary" to="">
+                        BUY THIS ISSUE
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="justify-content-center">
+
+                  <Link to="">
+                      <Image className="advert mb-2 mt-6"
+                        fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                  <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                  </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                </div>
+              <div className="wideRight">
                 <div className="col-12">
-                  <h4 className="pb-1">CURRENT ISSUE</h4>
+                  <h4>
+                    CURRENT ISSUE
+                  </h4>
                   <hr />
                 </div>
                 {posts
                   .filter(post => post.node.frontmatter.featured === true)                       /*This looks at only the md file with featured: true*/
                   .map(({ node: post }) => {
                     return (
+                      <div>
                       <div className="container" key={post.id}>
                         <h1 className="pt-1">
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>
                         <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                         <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
-{/*                                  <div className="col-12 text-center">
-                            <Link className="button button-primary" to={post.frontmatter.path}>
-                              More
-                            </Link>
-                    </div> */}
-                      </div>      
-                    )
-                  })}
-                </div>      
-                <div className="thin">
-          <div>
-            <Link to="">
-              <Image className="topimage"
-                fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-              />
-            </Link>
-            <div className="text-center">
-              <Link className="buybutton button-primary" to="">
-                BUY THIS ISSUE
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+                      </div>
+                      <div className="col-12 text-center pb-4">
+                        <Link className="button button-primary" to={post.frontmatter.path}>
+                          Read
+                        </Link>
+                      </div>
+                    </div>
+                  )
+                })}
 
 
             <div className="frontissue">
               <div className="col-12">
-              <hr className="mt-2 mb-2"/>
-                <div className="frontissue-left">
-                <h5>Fiction:</h5>
+              <hr />
+              <h3>
+                CONTENT
+              </h3>
+                <h4>
+                  Fiction:
+                </h4>
                   {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
+                    .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                     .map(({ node: post }) => {
                       return (
                         <p>
@@ -86,9 +116,21 @@ const Home = (props) => {                                                     //
                         </p>
                       )
                   })}
-                </div>
-                <div className="frontissue-right">
-                  <h5>Non-Fiction:</h5>
+                  <h4>
+                    Poetry:
+                  </h4>
+                    {posts
+                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
+                      .map(({ node: post }) => {
+                      return (
+                        <p>
+                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
+                        </p>
+                      )
+                    })}
+                  <h4>
+                    Non-Fiction:
+                  </h4>
                     {posts
                     .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                       .map(({ node: post }) => {
@@ -99,47 +141,32 @@ const Home = (props) => {                                                     //
                       )
                     })}
                     <br />
-                  <h5>Letter from the Future:</h5>
-                    {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "FUTURE" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
-                      .map(({ node: post }) => {
-                      return (
-                        <p>
-                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
-                        </p>
-                      )
-                    })}
-                    <br />
-                    <div className="pl-4 pb-2">
-                <img src={LAdvert01} 
-                style={{ border: "2px solid rebeccapurple", borderRadius: 5, height: 60 }}
-                />
-                    </div>
+                  <div className="pb-2">
+                    <Link to="">
+                      <Image className="advertLong"
+                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
-{/*<div className="container">
-<div className="row justify-content-start">
-<div className="col-12">
-<p>test</p>
-</div>
-</div>
-</div>*/}
-            <div className="col-12 text-center pb-4 pt-2">
-              <Link className="button button-primary" to="/issue-four">
+            <div className="col-12 text-center pb-3">
+              <Link className="button button-primary" to="/issue-one">
                 View Issue
               </Link>
             </div>
-
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div className="intro pt-4 pb-0">                                                                {/*FICTION*/}
+{/*
+      <div className="intro pt-4 pb-0">
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container pt-1">
-              <div className="thin2">
+            <div className="grid-container">
+              <div className="thinLeft">
                 <div>
                   <img src={Advert01} 
                     style={{ margin: 20, border: "2px solid rebeccapurple", borderRadius: 5, height: 250 }}
@@ -156,14 +183,14 @@ const Home = (props) => {                                                     //
                   />
                 </div>
               </div>
-              <div className="wide2">
+              <div className="wideRight">
                 <div className="col-12">
-                  <h4 className="pb-1">LATEST FICTION</h4>
+                  <h4>LATEST FICTION</h4>
                   <hr />
                 </div>
                 {posts
               .filter(post => !post.node.frontmatter.featured)
-              .filter(post => post.node.frontmatter.category === "FICTION")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+              .filter(post => post.node.frontmatter.category === "FICTION")
               .slice(0, 2)
               .map(({ node: post }) => {
                 return (
@@ -173,11 +200,7 @@ const Home = (props) => {                                                     //
                       </h1>
                       <h2>By <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link> in <Link to={post.frontmatter.issue.idpath}> {post.frontmatter.issue.id}</Link></h2>
                       <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
-{/*                       <div className="col-12 text-center pb-4">
-                            <Link className="button button-primary" to={post.frontmatter.path}>
-                              More
-                            </Link>
-                          </div>*/}
+
                   </div>
                   
                 )
@@ -193,25 +216,25 @@ const Home = (props) => {                                                     //
         </div>
       </div>
    
-      <div className="intro pt-4 pb-4">                                                                {/*NON-FICTION*/}
+      <div className="intro pt-4 pb-4">
         <div className="container">
           <div className="row2 justify-content-start">
             <div className="grid-container pt-1">
               <div className="wide">
                 <div className="col-12">
-                  <h4 className="pb-1">NON-FICTION</h4>
+                  <h4>LATEST NON-FICTION</h4>
                   <hr />
                 </div>
                 {posts
               .filter(post => !post.node.frontmatter.featured)
-              .filter(post => post.node.frontmatter.category === "NON-FICTION")          /*This should only pull from md files with category "non-fiction", excluding posts marked featured*/
+              .filter(post => post.node.frontmatter.category === "NON-FICTION")
               .slice(0,1)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
-{/*                      <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}          */}{/*This should pull image from md files with category "non-fiction"
-                      />*/}
+                      <Image className="inlineimage"
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}
+                      />
                       <h1 className="pt-1">
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
@@ -239,32 +262,26 @@ const Home = (props) => {                                                     //
       </div>
 
 
-
-
-
-
-{/*
     <div className="into">
       <div className="container pt-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/future">
-                <h4 className="pt-1 pb-1">LETTERS FROM THE FUTURE</h4>
+                <h4>LETTERS FROM THE FUTURE</h4>
             </Link>
             <hr />
           </div>
-                                                                                      {/*LETTERS FROM THE FUTURE SECTION*/}
-{/*}          <div className="container">
+          <div className="container">
             {posts
               .filter(post => !post.node.frontmatter.featured)
-              .filter(post => post.node.frontmatter.category === "FUTURE")          /*This should only pull from md files with category "future", excluding posts marked featured*/}
-{/*              .slice(0,1)
+              .filter(post => post.node.frontmatter.category === "FUTURE")
+              .slice(0,1)
               .map(({ node: post }) => {
                 return (
                   <div className="container" key={post.id}>
                       <Image className="inlineimage"
-                        fluid={post.frontmatter.cover.childImageSharp.fluid}        /*This should pull image from md files with category "future"*/}
-{/*}                      />
+                        fluid={post.frontmatter.cover.childImageSharp.fluid}
+                      />
                       <h1 pb>
                         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
@@ -282,23 +299,23 @@ const Home = (props) => {                                                     //
           </div>
         </div>
       </div>
-    </div>*/}
+    </div>
 
-    {/*<div className="intro pt-4">
+    <div className="intro pt-4">
       <div className="container pb-4">
         <div className="row2 justify-content-start pt-2">
           <div className="col-12">
             <Link to="/fullissues">
-                <h4 className="pt-1 pb-1">RECENT ISSUES</h4>
+                <h4">RECENT ISSUES</h4>
             </Link>
             <hr />
           </div>
-                                                                                      FULL ISSUES SECTION
+
           <div className="container">
               {issueNodes.map(({ node: issue }, index) => (
                 <div>                    
                   <Image className="topimage"
-                    fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called
+                    fixed={issue.currentcover.childImageSharp.fixed}
                   />
                    <h1 className="pt-1"><Link to={issue.idpath}>{issue.id}</Link></h1>
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
@@ -313,73 +330,52 @@ const Home = (props) => {                                                     //
           </div>
         </div>
       </div>
-    </div>*/}
+    </div>
+*/}
+
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
+    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
-        fixed(width:300) {
+        fixed(width:280) {
           ...GatsbyImageSharpFixed
         }
-        fluid {
-          ...GatsbyImageSharpFluid
+      }
+    }
+    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-    allAuthorYaml {
-      nodes {
-        bio
-        id
-        idpath
-        picture {
-          childImageSharp {
-            fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFixed 
-            }
-            fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFluid
-            }
-          }
+    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
         }
-        stories {
-          item
-        }
-        twitter
       }
     }
-    allIssueYaml {
-      edges {
-        node {
-          artist
-          artistbio
-          id
-          idpath
-          text
-          artistimage {
-            childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          currentcover {
-            childImageSharp {
-              fixed(width: 250) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 300, maxHeight: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(height:60) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
@@ -400,79 +396,13 @@ export const query = graphql`
             author {
               id
               idpath
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
             }
             issue {
               id
               idpath
-              currentcover {
-                childImageSharp {
-                  fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              text
-              artist
-              artistimage {
-                childImageSharp {
-                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              artistbio 
             }
-            date(formatString: "DD MMMM YYYY")
             category
-            currentcover {
-              childImageSharp {
-                fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            cover {
-              childImageSharp {
-                fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }            
           }
-        }
-      }
-    }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
         }
       }
     }

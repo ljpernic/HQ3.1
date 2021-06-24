@@ -1,18 +1,13 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import Helmet from 'react-helmet';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
+import Helmet from 'react-helmet';
+import Image from "gatsby-image";
 
 const Submit = (props) => {
-  const { edges: posts } = props.data.allMarkdownRemark;
-  const submit = props.data.allMarkdownRemark.edges;
-  const json = props.data.allFeaturesJson.edges;
   const data = props.data;
   
-  console.log(data)
-
   return (
     <Layout bodyClass="page-home">
       <SEO title="Submit" />
@@ -23,17 +18,71 @@ const Submit = (props) => {
         />
       </Helmet>
 
-      <div className="intro pb-0">
+      <div className="intro">
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container pt-1">
-              <div className="wide">
-                <div className="col-12">
-                  <h4 className="pb-1">SUBMIT</h4>
-                  <hr />
+            <div className="grid-container">
+              <div className="thinLeft">
+                <div>
+                    <Link to="">
+                      <Image className="topImageLeft"
+                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                    <div className="text-center">
+                      <Link className="buybutton button-primary" to="">
+                        BUY THIS ISSUE
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="justify-content-center">
+
+                  <Link to="">
+                      <Image className="advert mb-2 mt-6"
+                        fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
                 </div>
-                                                                                      {/*this is where the blog stuff should go for stories getting posted*/}
-          <div className="container pt-1 pb-1">
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                  <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                  </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                </div>
+
+              <div className="wideRight">
+                <div className="col-12">
+                  <h4>
+                    SUBMIT
+                  </h4>
+                  <hr />
+                  </div>
+                  <div className="pt-2">
+                    <Link to="">
+                      <Image className="advertLong"
+                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                  </div>                
+
             <h1 className="pb-1">
               Guidelines for Fiction
             </h1>
@@ -100,7 +149,7 @@ const Submit = (props) => {
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
-              Rejectomancy:
+              Rejectomancy
             </h1>
             <p>
               We think feedback is important, and while we can't give specific notes on every story we get, we try to structure our rejection letters so you have 
@@ -123,7 +172,7 @@ const Submit = (props) => {
               (There's a secret fourth tier reserved for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. But these 
               are rare.)
             </p>
-            <hr />
+            <hr className="mb-2" />
 
 {/*}            {posts
               .filter(post => post.node.frontmatter.category === "submit")
@@ -135,22 +184,7 @@ const Submit = (props) => {
                 )
               })}*/}
 
-            </div>
           </div>
-          <div className="thin">
-          <div>
-            <Link to="">
-              <Image className="topimage"
-                fixed={data.image.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-              />
-            </Link>
-            <div className="text-center">
-              <Link className="buybutton button-primary" to="">
-                BUY THIS ISSUE
-              </Link>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -188,93 +222,43 @@ const Submit = (props) => {
 
 export const query = graphql`
   query SubmitQuery {
-    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
+    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
-        fixed(width:300) {
+        fixed(width:280) {
           ...GatsbyImageSharpFixed
         }
-        fluid {
-          ...GatsbyImageSharpFluid
+      }
+    }
+    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/" } }             #This tells the /submit page to look at md files in the src folder
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          excerpt
-          frontmatter {
-            category
-            featured
-            path
-            title
-            author {
-              id
-              bio
-              twitter
-              picture {
-                childImageSharp {
-                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 200, maxHeight: 200) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            issue {
-              id
-              idpath
-              currentcover {
-                childImageSharp {
-                  fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              text
-              artist
-              artistimage {
-                childImageSharp {
-                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              artistbio 
-            }
-            date(formatString: "DD MMMM YYYY")
-            cover {
-              childImageSharp {
-                fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
+    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-    allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
+    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(height:60) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

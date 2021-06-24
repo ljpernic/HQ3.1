@@ -3,19 +3,19 @@
   justify-content: flex-end;
   align-content: flex-end;
 
-  padding-top:00px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   @include media-breakpoint-up(sm) {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   @include media-breakpoint-up(md) {
-    padding-top: 00px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   @include media-breakpoint-up(lg) {
-    padding-top: 00px;                                          //padding-top for the whole top section from the header with the links
-    padding-bottom: 50px;
+    padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
+    padding-bottom: 0px;
   }
   h1 {                                                          //title of each post (really just the title)
     color: $secondary;
@@ -49,7 +49,6 @@
     width: 90%;
     @include media-breakpoint-up(sm) {
       font-size: .7rem;
-      padding: 10px 0px 0px 0px;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -65,7 +64,7 @@
     color: $primary;
     text-align: center;
     margin: auto;
-    padding: 0px 00px 0px 0px;
+    padding-top: 30px;
     font-size: 3rem;
     line-height: 1.2;
     font-family: $font-family-heading;
@@ -84,9 +83,9 @@
   }
   h4 {
     color: $secondary;
+    padding-top: 30px;
     text-align: center;
     margin: auto;
-    padding: 0px 0px 0px 0px;
     font-size: .8rem;
     line-height: 1.2;
     font-weight: bold;
@@ -103,7 +102,7 @@
       width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       width: 90%;
     }
   }
@@ -127,13 +126,19 @@
       width: 100%;
     }
   }
+  h6 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    line-height: 1.2;
+    padding-left: 40px;
+  }
   hr { 
     clear:both;
     display:block;
     height: 1px;
     width: 80%;               
     margin: auto; 
-    margin-top: 1%; 
+    margin-top: 3%; 
     margin-bottom: 1%; 
     border: 1px dotted $primary;
   }
@@ -143,7 +148,7 @@
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
-    padding: 10px 35px 0px 35px;
+    padding: 10px 45px 0px 45px;
     @include media-breakpoint-up(sm) {
       font-size: .8rem;
       text-align: justify;
@@ -165,14 +170,10 @@
   }
 }
 
-
-
 .intro-small {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-
 
 .inlineimage {
   float: left;
@@ -199,18 +200,42 @@
   text-align: center;
 }
 
+.editorImageAbout {
+  display: grid;
+  float: right;
+  margin: 10px 60px 5px 35px;
+//  width: 175px;
+  text-align: center;
+  border: 2px solid black;
+}
+
 .topimage {                                                                 //This is for the cover at the top
   float: left;
-  margin: 30px 55px 0px 0px;
+  margin: 30px 0px 0px 0px;
   width: 100px;
   text-align: center;
   border: 2px solid $secondary;
   box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
 }
 
-.advert {                                                                 //This is for the fiction advert
+.topImageLeft {                                                                 //This is for the cover at the top
   float: left;
-  margin: 10px 10px 10px 10px;
+  margin: 30px 0px 0px 40px;
+  width: 100px;
+  text-align: center;
+  border: 2px solid $secondary;
+  box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
+}
+
+.advert {
+  float: left;
+  margin: 30px 0px 0px 40px;
+  width: 100px;
+  text-align: center;
+  border: 2px solid $secondary;
+}
+
+.advertLong {
   width: 100px;
   text-align: center;
   border: 2px solid $secondary;
@@ -326,6 +351,10 @@
       width: 100%;
     }
   }
+}
+
+.noPadding {
+  padding: 0px !important;
 }
 
 .authorbody {
@@ -485,9 +514,9 @@ hr {
   }
 }
 
-.thin2 {
+.thinLeft {
   grid-column: 1 / span 1;
-  padding: 20px 0px 20px 55px;
+  padding: 0px;
   box-sizing: content-box;
 }
 
@@ -503,13 +532,12 @@ hr {
 
 .wide {
   grid-column: 1 / span 1;
-  padding: 20px;
+  padding-top: 30px;
   box-sizing: content-box;
 }
 
-.wide2 {
+.wideRight {
   grid-column: 2 / span 2;
-  padding: 20px 20px 20px 0px;
   @include media-breakpoint-up(sm) {
     width: 90%;
   }
@@ -541,16 +569,18 @@ hr {
 .frontissue-left {
   width: 50%;
   float: left;
-  padding-left: 35px;
-  padding-right: 17.5px;
+  padding-top: 20px;
+  padding-left: 45px;
+  padding-right: 22.5px;
   //  background: #ccc;
   height: 100%;
 }
 .frontissue-right {
   width: 50%;
   float: right;
-  padding-left: 17.5px;
-  padding-right: 35px;
+  padding-top: 20px;
+  padding-right: 45px;
+  padding-left: 22.5px;
   //  background: #aaa;
   height: 100%;
 }

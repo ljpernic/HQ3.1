@@ -13,7 +13,7 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            fictionarchive: allMarkdownRemark(
+            archiveFiction: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -32,7 +32,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
-            nonfictionarchive: allMarkdownRemark(
+            archiveNonFiction: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/non-fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -51,7 +51,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
-            futurearchive: allMarkdownRemark(
+            archiveFuture: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/letters/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -70,7 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
-            issuesarchive: allMarkdownRemark(
+            archiveIssues: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -89,7 +89,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
 
-            authorarchive: allMarkdownRemark(
+            archiveAuthor: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -135,10 +135,11 @@ exports.createPages = ({ graphql, actions }) => {
               artist: element.artist,
               artistbio: element.artistbio,
               artistimage: element.artistimage,
+              artistTwitter: element.artistTwitter,
             },
           });
         });
-        result.data.fictionarchive.edges.forEach(({ node }) => {
+        result.data.archiveFiction.edges.forEach(({ node }) => {
           const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL FICTION PAGES*/
           createPage({
             path: node.frontmatter.path,
@@ -148,7 +149,7 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        result.data.nonfictionarchive.edges.forEach(({ node }) => {
+        result.data.archiveNonFiction.edges.forEach(({ node }) => {
           const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL NON-FICTION PAGES*/
         createPage({
           path: node.frontmatter.path,
@@ -158,7 +159,7 @@ exports.createPages = ({ graphql, actions }) => {
           },
         });
       });
-        result.data.futurearchive.edges.forEach(({ node }) => {
+        result.data.archiveFuture.edges.forEach(({ node }) => {
           const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL LETTER PAGES*/
           createPage({
             path: node.frontmatter.path,
@@ -168,7 +169,7 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        result.data.issuesarchive.edges.forEach(({ node }) => {
+        result.data.archiveIssues.edges.forEach(({ node }) => {
           const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL ISSUE PAGES; change template to change every issue page*/
           createPage({
             path: node.frontmatter.path,
@@ -178,13 +179,13 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const FICposts = result.data.fictionarchive.edges                                   /*creates FICTION LIST PAGES*/
+        const FICposts = result.data.archiveFiction.edges                                   /*creates FICTION LIST PAGES*/
         const FICpostsPerPage = 10
         const FICnumPages = Math.ceil(FICposts.length / FICpostsPerPage)
         Array.from({ length: FICnumPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/fiction` : `/fiction/${i + 1}`,
-            component: path.resolve('src/templates/fictionarchive.js'),
+            component: path.resolve('src/templates/archiveFiction.js'),
             context: {
               limit: FICpostsPerPage,
               skip: i * FICpostsPerPage,
@@ -193,13 +194,13 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const NONFICposts = result.data.nonfictionarchive.edges                             /*creates NON-FICTION LIST PAGES*/
+        const NONFICposts = result.data.archiveNonFiction.edges                             /*creates NON-FICTION LIST PAGES*/
         const NONFICpostsPerPage = 10
         const NONFICnumPages = Math.ceil(NONFICposts.length / NONFICpostsPerPage)
         Array.from({ length: NONFICnumPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/non-fiction` : `/non-fiction/${i + 1}`,
-            component: path.resolve('src/templates/nonfictionarchive.js'),
+            component: path.resolve('src/templates/archiveNonFiction.js'),
             context: {
               limit: NONFICpostsPerPage,
               skip: i * NONFICpostsPerPage,
@@ -208,13 +209,13 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const FUTposts = result.data.futurearchive.edges                                   /*creates LETTERS FROM THE FUTURE LIST PAGES*/
+        const FUTposts = result.data.archiveFuture.edges                                   /*creates LETTERS FROM THE FUTURE LIST PAGES*/
         const FUTpostsPerPage = 10
         const FUTnumPages = Math.ceil(FUTposts.length / FUTpostsPerPage)
         Array.from({ length: FUTnumPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/future` : `/future/${i + 1}`,
-            component: path.resolve('src/templates/futurearchive.js'),
+            component: path.resolve('src/templates/archiveFuture.js'),
             context: {
               limit: FUTpostsPerPage,
               skip: i * FUTpostsPerPage,
@@ -223,13 +224,13 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const FULLposts = result.data.issuesarchive.edges                                   /*creates ISSUES LIST PAGES*/
+        const FULLposts = result.data.archiveIssues.edges                                   /*creates ISSUES LIST PAGES*/
         const FULLpostsPerPage = 10
         const FULLnumPages = Math.ceil(FULLposts.length / FULLpostsPerPage)
         Array.from({ length: FULLnumPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/fullissues` : `/fullissues/${i + 1}`,
-            component: path.resolve('src/templates/issuesarchive.js'),
+            component: path.resolve('src/templates/archiveIssues.js'),
             context: {
               limit: FULLpostsPerPage,
               skip: i * FULLpostsPerPage,
@@ -238,13 +239,13 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const AUTposts = result.data.authorarchive.edges
+        const AUTposts = result.data.archiveAuthor.edges
         const AUTpostsPerPage = 10
         const AUTnumPages = Math.ceil(AUTposts.length / AUTpostsPerPage)
         Array.from({ length: AUTnumPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/contributors` : `/contributors/${i + 1}`,
-            component: path.resolve('src/templates/authorarchive.js'),
+            component: path.resolve('src/templates/archiveAuthor.js'),
             context: {
               limit: AUTpostsPerPage,
               skip: i * AUTpostsPerPage,

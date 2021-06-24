@@ -5,10 +5,9 @@ import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 
-export default class Futurearchive extends React.Component {
+export default class archiveFuture extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
-    const json = this.props.data.allFeaturesJson.edges;
+    const posts = this.props.data.allMarkdownRemark.edges;
 
     const { FUTcurrentPage, FUTnumPages } = this.props.pageContext
     const isFirst = FUTcurrentPage === 1
@@ -92,8 +91,8 @@ export default class Futurearchive extends React.Component {
   }
 }
 
-export const futurearchiveQuery = graphql`
-  query futurearchiveQuery($skip: Int!, $limit: Int!) {
+export const archiveFutureQuery = graphql`
+  query archiveFutureQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter: { frontmatter: {category:{eq:"FUTURE"} } }
       sort: { fields: [frontmatter___date], order: DESC }

@@ -25,11 +25,58 @@ const Eachpost = ({ data }) => {
       <SEO title={title} />
       
 
-      <div className="intro pb-0">
+      <div className="intro">
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container pt-1">
-              <div className="wide">
+            <div className="grid-container">
+            <div className="thinLeft">
+                  <div>
+                    <Link to="">
+                      <Image className="topImageLeft"
+                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                    <div className="text-center">
+                      <Link className="buybutton button-primary" to="">
+                        BUY THIS ISSUE
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="justify-content-center">
+
+                  <Link to="">
+                      <Image className="advert mb-2 mt-6"
+                        fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                    </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                <div>
+                  <Link to="">
+                      <Image className="advert mb-2"
+                        fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      />
+                  </Link>
+                </div>
+                <h6>
+                  ADVERT
+                </h6>
+                </div>
+
+
+              <div className="wideRight">
                 <div className="col-12">
 
                   <h4 className="pb-1">
@@ -72,19 +119,6 @@ const Eachpost = ({ data }) => {
 
                 </div>
               </div>
-
-              <div className="thin">
-                <Link to="">
-                  <Image className="topimage"
-                    fixed={data.image.childImageSharp.fixed}
-                  />
-                </Link>
-                <div className="text-center">
-                  <Link className="buybutton button-primary" to="">
-                    BUY THIS ISSUE
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -95,21 +129,49 @@ const Eachpost = ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
-    image: file(relativePath: {eq: "CurrentCover.jpg"}) {
+    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
-        fixed(width:300) {
+        fixed(width:280) {
           ...GatsbyImageSharpFixed
         }
-        fluid {
-          ...GatsbyImageSharpFluid
+      }
+    }
+    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:280) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(height:60) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        path
         author {
           id
           idpath
@@ -132,41 +194,8 @@ export const query = graphql`
         issue {
           id
           idpath
-          currentcover {
-            childImageSharp {
-              fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          text
-          artist
-          artistimage {
-            childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          artistbio 
         }
         category
-        currentcover {
-          childImageSharp {
-            fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFixed 
-            }
-            fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
       html
     }

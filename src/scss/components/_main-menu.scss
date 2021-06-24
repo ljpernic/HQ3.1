@@ -1,5 +1,6 @@
 .main-menu {
   height: inherit;
+  width: inherit;
   display: none;
                                    //CANNOT FIGURE OUT HOW TO CENTER THE MENU OTHERWISE
   @include media-breakpoint-up(md) {

@@ -4,7 +4,7 @@ import { graphql, StaticQuery, Link } from 'gatsby';
 const Menu = (props) => {
   const { menuLinks } = props.data.site.siteMetadata;
   return (
-    <div id="main-menu" className="main-menu">
+    <div id="main-menu" className="main-menu menuPlacement">
       <ul>
         {menuLinks.map(link => (
           <li key={link.name}>
