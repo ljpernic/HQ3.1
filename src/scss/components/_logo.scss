@@ -3,10 +3,10 @@
   width: 50px;
   @include media-breakpoint-up(sm) {
     display: inline-block;
-    width: 250px;
+    width: 500px;
   @include media-breakpoint-up(md) {
     display: inline-block;
-    width: 500px;
+    width: 600px;
   @include media-breakpoint-up(lg) {
     display: flex;
     width: 750px;
@@ -27,7 +27,7 @@
   display: block;
   width: 0px;
   @include media-breakpoint-up(sm) {
-    display: none;
+    display: inline-block;
   }
   img {
     width: 100%;

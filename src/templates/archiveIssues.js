@@ -95,7 +95,7 @@ export default class archiveIssues extends React.Component {
                 </div>
 
                 {issueNodes.map(({ node: issue }, index) => (
-                      <div>
+                      <div key={issue.id}>
                         <Image className="editorImageAbout"
                             fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                           />

@@ -1,3 +1,12 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
 .intro {
   display: flex;
   justify-content: flex-end;
@@ -253,9 +262,24 @@
   box-sizing: content-box;
   margin: 0px;
   padding: 0px;
-  display: grid;
+
 //  background-color: #2196F3;
 //  width: 100%;
+@include media-breakpoint-up(sm) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+@include media-breakpoint-up(md) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+@include media-breakpoint-up(lg) {
+  padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
+  padding-bottom: 0px;
+  display: grid;
+}
 }
 .grid-container > div {
 //  background-color: rgba(215, 241, 254, 0.7);                             //this is the test background
@@ -518,6 +542,16 @@ hr {
   grid-column: 1 / span 1;
   padding: 0px;
   box-sizing: content-box;
+  display: inline-block;
+  @include media-breakpoint-up(sm) {
+    width: 90%;
+  }
+  @include media-breakpoint-up(md) {
+    width: 90%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 90%;
+  }
 }
 
 

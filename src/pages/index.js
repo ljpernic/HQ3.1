@@ -18,13 +18,14 @@ const Home = (props) => {                                                     //
           name="Haven Speculative"
           content="A Magazine of Science Fiction and Fantasy"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Helmet>
 
       <div className="intro">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2 justify-content-start">
-            <div className="grid-container">
-            <div className="thinLeft">
+            <div id="parent" className="grid-container">
+              <div id="b" className="thinLeft">
                   <div>
                     <Link to="">
                       <Image className="topImageLeft"
@@ -68,8 +69,8 @@ const Home = (props) => {                                                     //
                 <h6>
                   ADVERT
                 </h6>
-                </div>
-              <div className="wideRight">
+              </div>
+              <div id="a" className="wideRight">
                 <div className="col-12">
                   <h4>
                     CURRENT ISSUE
@@ -80,7 +81,7 @@ const Home = (props) => {                                                     //
                   .filter(post => post.node.frontmatter.featured === true)                       /*This looks at only the md file with featured: true*/
                   .map(({ node: post }) => {
                     return (
-                      <div>
+                      <div key={post.frontmatter.title}>
                       <div className="container" key={post.id}>
                         <h1 className="pt-1">
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -111,7 +112,7 @@ const Home = (props) => {                                                     //
                     .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                     .map(({ node: post }) => {
                       return (
-                        <p>
+                        <p key={post.frontmatter.title}>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
                         </p>
                       )
@@ -123,7 +124,7 @@ const Home = (props) => {                                                     //
                     .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                       .map(({ node: post }) => {
                       return (
-                        <p>
+                        <p key={post.frontmatter.title}>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
                         </p>
                       )
@@ -135,7 +136,7 @@ const Home = (props) => {                                                     //
                     .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
                       .map(({ node: post }) => {
                       return (
-                        <p>
+                        <p key={post.frontmatter.title}>
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
                         </p>
                       )
