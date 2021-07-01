@@ -98,16 +98,16 @@ const Submit = (props) => {
             <p>
               We like stories that are subtle in their telling and stick with us long after we've finished. We're more likely to buy stories that balance a sense 
               of wonder with a bold plot and emotional depth. Meditative stories that all take place in a single room, for example, are less likely to capture our 
-              imagination. This topic is broader than you might think.
+              imagination.
             </p>
             <p>
-               Basically, we want it all: character, premise, dialogue, tone, plot, a strong opening and ending. The second half of the story might be amazing, but if 
-               the opening doesn't dig its hooks into us, we'll probably never get to the good stuff. Same thing with endings: 
-               there's nothing more disappointing in a story than a strong opening, a great premise, and then something out of scooby doo.
+               Basically, we want it all: character, concept, dialogue, tone, plot, a strong opening and ending. The second half of the story might be amazing, but if 
+               there's no hook, we'll  never get to the good stuff. Same thing with endings. There's nothing more disappointing in a story than a strong hook, a great concept, 
+               and then something out of Scooby Doo.
             </p>
             <p>
               Simultaneous submissions are fine, but please no multiple submissions. Also, please wait at least a week before you submit again after hearing from us about 
-              a story. This is honestly more for the writer's benefit: it gives us a chance to clense our palate (if there was something we felt didn't work for 
+              a story. This is honestly more for the writer's benefit. it gives us a chance to clense our palate (if there was something we felt didn't work for 
               us in your last story, you don't want us to carry that feeling over to the next one!). As writers ourselves, we do our best to handle each story we receive 
               with the care and attention it deserves. Every submission is an act of bravery, and we know that putting yourself out there as a writer to be judged can be tough. 
               Just know that any story we receive, unless they contain threats of violence (explicit or implicit), will be kept in confidence.
@@ -120,7 +120,7 @@ const Submit = (props) => {
               Guidelines for Non-Fiction
             </h1>
             <p className="pb-1">
-              We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and articles with funny or interesting takes we 
+              We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and pieces with funny or interesting takes we 
               might not have expected. We pay 1¢ per word for non-fiction, but please nothing over 4,500 words (though we favor shorter over longer).
             </p>
             <hr />
@@ -129,8 +129,8 @@ const Submit = (props) => {
             </h1>
             <p className="pb-1">
               We're not quite sure how, but once every other month we receive a letter in the mail from the future. It's the damnedest thing. These letters are usually about 
-              something specific to the early 21st century that's been extrapolated into the future (100 years or more), and they're always funny. 
-              They're never over 1000 words, and we pay 1¢ per word for them. 
+              something specific to the early 21st century that's been extrapolated into the future (100 years or more). They're sometimes funny, sometimes subtle, sometimes serious, 
+              but they're never over 1000 words. We pay 1¢ per word for them. 
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
