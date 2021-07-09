@@ -5,12 +5,10 @@ import Hamburger from './Hamburger';
 import logo from '../images/logo.svg';                        /*Have to change to an SVG of Haven Quarterly */
 import logoMobile from '../images/logo-mobile.svg';
 import MenuMobile from './MenuMobile';
-import Image from "gatsby-image";
 
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
-import { FaReddit } from 'react-icons/fa';
 
 import { IconContext } from "react-icons";
 

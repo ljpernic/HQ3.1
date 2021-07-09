@@ -1,8 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: ['airbnb'],
-  plugins: [],
+  plugins: [
+    '@emotion'
+  ],
   rules: {
+    '@emotion/jsx-import' : 'error',
+    '@emotion/pkg-renaming': 'error',
     'react/prefer-stateless-function': 'off',
     'react/jsx-filename-extension': 'off',
     'no-use-before-define': 'off',
@@ -15,5 +19,9 @@ module.exports = {
     'react/jsx-max-props-per-line': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/jsx-wrap-multilines': 'off',
+    "@emotion/jsx-import": "error",
+    "@emotion/no-vanilla": "error",
+    "@emotion/import-from-emotion": "error",
+    "@emotion/styled-import": "error"
   },
 }

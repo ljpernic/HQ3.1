@@ -6,8 +6,8 @@ const yaml = require("js-yaml")
 // Create pages from markdown files
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
-  const ymlDoc = yaml.safeLoad(fs.readFileSync("./src/data/author.yaml", "utf-8"))
-  const ymlIssueDoc = yaml.safeLoad(fs.readFileSync("./src/data/issue.yaml", "utf-8"))
+  const ymlDoc = yaml.load(fs.readFileSync("./src/data/author.yaml", "utf-8"))
+  const ymlIssueDoc = yaml.load(fs.readFileSync("./src/data/issue.yaml", "utf-8"))
   return new Promise((resolve, reject) => {
     resolve(
       graphql(

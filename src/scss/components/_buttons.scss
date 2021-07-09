@@ -65,7 +65,7 @@
   }
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 85%;
   border: none;
   border-top: double !important;
   outline: none;
@@ -73,14 +73,12 @@
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS) and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: lighten($primary, 10%);
+  background-color: lighten($secondary, 10%);
   color: white;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .collapsibleContent {
-  padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: lighten($secondary, 75%);
 }

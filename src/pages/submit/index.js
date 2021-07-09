@@ -4,14 +4,30 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
+import { Formik, Form, Field, useFormik } from 'formik';
+import * as Yup from 'yup';
 
 const Submit = (props) => {
   const data = props.data;
   
+  const formik = useFormik({
+    initialValues: {
+      Name: '',
+      Email: '',
+      Title: '',
+      WordCount: '',
+      Type: '',
+    },
+    onSubmit: values => {
+      alert(JSON.stringify(values, null, 2));
+    },
+  });
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="Submit" />
       <Helmet>
+        <script src={withPrefix('collapsible_script.js')} type="text/javascript" />
         <meta
           name="description"
           content="Submit page of Haven Spec"
@@ -166,7 +182,7 @@ const Submit = (props) => {
             </p>
             <p>
               The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites on the way to an acceptance (!!). At 
-              this level, we usually go through a few rounds of edits before a decision is made to accept or reject. These stories tend to get accepted, but not always.
+              this level, we usually go through a few rounds of edits before a decision is made to accept or reject. These stories often get accepted, but not always.
             </p>
             <p className="pb-1">
               (There's a secret fourth tier reserved for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. But these 
@@ -174,17 +190,28 @@ const Submit = (props) => {
             </p>
             <hr className="mb-2" />
 
-{/*}            {posts
-              .filter(post => post.node.frontmatter.category === "submit")
-              .map(({ node: post }) => {
-                return (
-                  <div className="container" key={post.id}>
-                      <hr />
-                  </div>
-                )
-              })}*/}
-
-          </div>
+            <button type="button" className="collapsible">Fiction Submission</button>
+              <div className="collapsibleContent pt-2">
+                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
+                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+              </div>
+              <button type="button" className="collapsible">Poetry Submission</button>
+              <div className="collapsibleContent pt-2">
+                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/2"></iframe>
+                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+              </div>
+              <button type="button" className="collapsible">Non-Fiction Submission</button>
+              <div className="collapsibleContent pt-2">
+                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/3"></iframe>
+                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+              </div>
+              <button type="button" className="collapsible">Art Submission</button>
+              <div className="collapsibleContent pt-2">
+                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/4"></iframe>
+                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+              </div>
+            <hr className="mb-2" />
+         </div>
       </div>
     </div>
   </div>

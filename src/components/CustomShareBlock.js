@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "gatsby-image";
 import styled from "styled-components";
-import { css } from "emotion";
 
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -13,13 +12,6 @@ import { ShareButtonOutline, ShareBlockStandard } from "react-custom-share";
 const CustomReactShare = props => {
   const { url, title, excerpt } = props;
 
-  const customStyles = css`
-    border-radius: 50% 0 50% 0;
-    margin: 0 10px;
-    flex-basis: 60px;
-    height: 60px;
-    flex-grow: 0;
-  `;
 
   const shareBlockProps = {
     url: url,
@@ -30,7 +22,6 @@ const CustomReactShare = props => {
     ],
     text: title,
     longtext: excerpt,
-    buttonCustomClassName: customStyles
   };
 
   return <ShareBlockStandard {...shareBlockProps} />;
