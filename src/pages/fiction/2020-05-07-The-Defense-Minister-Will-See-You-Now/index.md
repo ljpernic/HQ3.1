@@ -1,7 +1,7 @@
 ---
 title: The Defense Minister Will See You Now
 author: Scurvy Joe
-issue: Issue One, Summer 2020
+issue: Issue Two, Fall 2020
 description: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p><a href="https://www.havenquarterly.com/The-Defense-Minister-Will-See-You-Now/">[<i>>>continue>></i>]</a></p>
 shortdescription: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. <a href="https://www.havenquarterly.com/The-Defense-Minister-Will-See-You-Now/">[<i>>>continue>></i>]</a>
 category: FICTION

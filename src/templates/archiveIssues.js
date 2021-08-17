@@ -88,25 +88,24 @@ export default class archiveIssues extends React.Component {
                   <div className="pt-2">
                     <Link to="">
                       <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>                
                 </div>
 
                 {issueNodes.map(({ node: issue }, index) => (
-                      <div key={issue.id}>
-                        <Image className="editorImageAbout"
-                            fixed={issue.currentcover.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                      <div key={issue.id} className="pt-1 pb-2">
+                        <Image className="editorImageAbout mb-5"
+                            fixed={issue.currentcover.childImageSharp.fixed}
                           />
                         <h1 className="pt-1 pb-1">
                           <Link to={issue.idpath}>
                             {issue.id}
                           </Link>
                         </h1>
-
-                        <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.text) }} />
-                          <hr />
+                        <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.teaserText) }} />
+                          <hr className="mt-5"/>
                       </div>
                 ))}
 
@@ -203,6 +202,7 @@ export const archiveIssuesQuery  = graphql`
           id
           idpath
           text
+          teaserText
           currentcover {
             childImageSharp {
               fixed(width: 150) {                                           #This changed the post picture sizes on the front page (originally 75)

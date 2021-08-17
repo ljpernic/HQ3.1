@@ -84,6 +84,8 @@ const Submit = (props) => {
                 </h6>
                 </div>
 
+
+
               <div className="wideRight">
                 <div className="col-12">
                   <h4>
@@ -99,17 +101,17 @@ const Submit = (props) => {
                     </Link>
                   </div>                
 
-            <h1 className="pb-1">
+            <h1 className="pt-1 pb-1">
               Guidelines for Fiction
             </h1>
             <p>
-              We are currently <big>closed</big> to submissions, but we hope to open soon! Follow us on social media for updates and new content. 
+              We are currently <big>closed</big> to fiction submissions, but we hope to open soon! Follow us on social media for updates and new content. 
             </p>
             <p>
               We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome writers from 
               around the world, and for our two issues focused on the climate crisis, we're particularly interested in publishing stories from people displaced 
               by or threatened by the climate emergency (although this isn't a hard and fast rule). For the other four issues, we're open to a wide variety of stories across the 
-              SFF and weird spectrum. We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. Please query for reprints. 
+              SFF and weird spectra. We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. Please query for reprints. 
             </p>
             <p>
               We like stories that are subtle in their telling and stick with us long after we've finished. We're more likely to buy stories that balance a sense 
@@ -117,21 +119,46 @@ const Submit = (props) => {
               imagination.
             </p>
             <p>
-               Basically, we want it all: character, concept, dialogue, tone, plot, a strong opening and ending. The second half of the story might be amazing, but if 
-               there's no hook, we'll  never get to the good stuff. Same thing with endings. There's nothing more disappointing in a story than a strong hook, a great concept, 
-               and then something out of Scooby Doo.
+               Basically, we want it all: character, concept, dialogue, tone, plot, a strong opening and ending, and everything else!
             </p>
             <p>
               Simultaneous submissions are fine, but please no multiple submissions. Also, please wait at least a week before you submit again after hearing from us about 
-              a story. This is honestly more for the writer's benefit. it gives us a chance to clense our palate (if there was something we felt didn't work for 
-              us in your last story, you don't want us to carry that feeling over to the next one!). As writers ourselves, we do our best to handle each story we receive 
-              with the care and attention it deserves. Every submission is an act of bravery, and we know that putting yourself out there as a writer to be judged can be tough. 
-              Just know that any story we receive, unless they contain threats of violence (explicit or implicit), will be kept in confidence.
+              a story. 
+            </p>
+            <p>  
+              As writers ourselves, we do our best to handle each story we receive with the care and attention it deserves. Every submission is an act of bravery, and we 
+              know that putting yourself out there as a writer to be judged can be tough. Just know that any story we receive, unless they contain threats of violence 
+              (explicit or implicit), will be kept in confidence.
             </p>
             <p className="pb-1">
                 When in doubt, don't self reject! Submit submit submit! 
             </p>
             <hr />
+
+            <h1 className="pt-1 pb-1">
+              Guidelines for Poetry
+            </h1>
+            <p>
+              We are currently <big>closed</big> to poetry submissions, but follow us on social media for updates and new content! 
+            </p>
+            <p>
+              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world.  
+              For our two issues focused on the climate crisis, we're particularly interested in publishing poems from people displaced 
+              by or threatened by the climate emergency (although this isn't a hard and fast rule). For the other four issues, we're open to a wide variety of poems across the 
+              SFF and weird spectra. We pay $10 per poem, and we try to respond to all submissions within seven weeks. Please query for reprints.
+            </p>
+            <p>
+              We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or free verse. Most important to us is
+              vivid imagery, clever lyricism, and a strong emotional core.
+            </p>
+            <p>
+              You may submit up to five stories at a time, but please separate them into individual submissions. 
+            </p>
+            <p className="pb-1">
+                When in doubt, don't self reject! Submit submit submit! 
+            </p>
+            <hr />
+
             <h1 className="pt-1 pb-1">
               Guidelines for Non-Fiction
             </h1>
@@ -146,7 +173,7 @@ const Submit = (props) => {
             <p className="pb-1">
               We're not quite sure how, but once every other month we receive a letter in the mail from the future. It's the damnedest thing. These letters are usually about 
               something specific to the early 21st century that's been extrapolated into the future (100 years or more). They're sometimes funny, sometimes subtle, sometimes serious, 
-              but they're never over 1000 words. We pay 1¢ per word for them. 
+              but they're never over 1000 words. We pay 1¢ per word for them.
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
@@ -161,7 +188,8 @@ const Submit = (props) => {
               Guidelines for Art
             </h1>
             <p className="pb-1">
-              For each issue, we pay $35 for our cover art. If you think your work would look great on the cover of a science fiction and fantasy magazine, send us your portfolio!
+              For each issue, we pay $35 for our cover art. If you think your work would look great on the cover of a science fiction and fantasy magazine, send us your best work 
+              and be sure to include a link to your portfolio in the cover letter!
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
@@ -172,21 +200,20 @@ const Submit = (props) => {
               some idea what we were thinking when we declined a story.
             </p>
             <p>
-              The first tier will usually have something like, "We felt that *X* was off in the first few pages..." This generally means that we didn't read past the beginning,
-              and this is almost always because the pacing was off for us. Other possibilities are characterizations that felt off to us or maybe a SFF trope that we've seen too
-              often. 
+              The first tier will usually be something like, "We felt that *X* was off in the first few pages..." This generally means that we didn't read past the beginning, and the 
+              problem for us is almost always pacing, characterization, or over-used tropes at this point.
             </p>
             <p>
-              The second tier will usually have something like, "We liked this story overall, but..." and then offer something more specific. Getting this rejection means we 
-              made it most of the way through the story (or all the way to the end), but it didn't quite come together for us. This is often because the ending, though not exclusively.
+              The second tier will usually be something like, "We liked this story overall, but..." and then offer something more specific. Getting this rejection means we 
+              made it most of the way through the story (or all the way to the end!), but it didn't quite come together for us. This is often because the ending falls flat for us, 
+              or the piece feels like it needs a bit too much work.
             </p>
             <p>
               The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites on the way to an acceptance (!!). At 
               this level, we usually go through a few rounds of edits before a decision is made to accept or reject. These stories often get accepted, but not always.
             </p>
             <p className="pb-1">
-              (There's a secret fourth tier reserved for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. But these 
-              are rare.)
+              (There are a variety of other tiers for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. Luckily these are rare.)
             </p>
             <hr className="mb-2" />
 

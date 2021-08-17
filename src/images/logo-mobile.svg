@@ -12,7 +12,7 @@
    viewBox="0 0 359 50"
    version="1.1"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="logo-mobile.svg">
   <metadata
      id="metadata16">
@@ -45,7 +45,8 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:document-rotation="0" />
   <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
   <title
      id="title4">logo</title>
@@ -55,15 +56,15 @@
      id="defs8" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Good Times';-inkscape-font-specification:'Good Times';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Good Times';-inkscape-font-specification:'Good Times';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="4.8024216"
      y="10.56959"
-     id="text3344"
-     sodipodi:linespacing="125%"><tspan
+     id="text3344"><tspan
        sodipodi:role="line"
        id="tspan3346"
        x="4.8024216"
-       y="10.56959" /></text>
+       y="10.56959"
+       style="font-size:40px;line-height:1.25"> </tspan></text>
   <g
      transform="scale(0.80882918,1.236355)"
      style="font-style:normal;font-weight:normal;font-size:54.99552155px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -132,17 +133,16 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:54.99552155px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:0.67507887;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:0.675079;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-1.5888885"
        y="34.366245"
        id="text3348-0"
-       sodipodi:linespacing="125%"
        transform="scale(0.80882918,1.236355)"><tspan
          sodipodi:role="line"
          id="tspan3350-5"
          x="-1.5888885"
          y="34.366245"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.80942535px;font-family:'Good Times';-inkscape-font-specification:'Good Times';fill:#000000;fill-opacity:0.67507887">haven<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.8094px;line-height:1.25;font-family:'Good Times';-inkscape-font-specification:'Good Times';fill:#000000;fill-opacity:0.675079">haven<tspan
    style="fill:#1c3ed3;fill-opacity:1"
    id="tspan4152-6">quarterly</tspan></tspan></text>
   </g>

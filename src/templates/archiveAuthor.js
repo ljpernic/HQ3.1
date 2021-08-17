@@ -13,7 +13,14 @@ export default class archiveAuthor extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const data = this.props.data;
-    
+
+    const uniqueArray = posts.filter((post, index) => {
+      const _thing = JSON.stringify(post);
+      return index === posts.findIndex(obj => {
+        return JSON.stringify(obj) === _thing;
+      });
+    });
+
     const { AUTcurrentPage, AUTnumPages } = this.props.pageContext
     const isFirst = AUTcurrentPage === 1
     const isLast = AUTcurrentPage === AUTnumPages
@@ -38,7 +45,7 @@ export default class archiveAuthor extends React.Component {
                   <div>
                     <Link to="">
                       <Image className="topImageLeft"
-                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.currentCover.childImageSharp.fixed}
                       />
                     </Link>
                     <div className="text-center">
@@ -51,7 +58,7 @@ export default class archiveAuthor extends React.Component {
 
                   <Link to="">
                       <Image className="advert mb-2 mt-6"
-                        fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advert01.childImageSharp.fixed}
                       />
                     </Link>
                 </div>
@@ -61,7 +68,7 @@ export default class archiveAuthor extends React.Component {
                 <div>
                 <Link to="">
                       <Image className="advert mb-2"
-                        fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advert02.childImageSharp.fixed}
                       />
                     </Link>
                 </div>
@@ -71,7 +78,7 @@ export default class archiveAuthor extends React.Component {
                 <div>
                   <Link to="">
                       <Image className="advert mb-2"
-                        fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advert03.childImageSharp.fixed}
                       />
                   </Link>
                 </div>
@@ -89,16 +96,16 @@ export default class archiveAuthor extends React.Component {
                   <div className="pt-2">
                     <Link to="">
                       <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>
                 </div>
 
-              {posts.map(({ node: post, author }, index) => (
+              {uniqueArray.map(({ node: post }) => (
                 
-                <div>
-                  <div className="editorImageAbout">
+                <div className="pt-1 pb-2">
+                  <div className="editorImageAbout mb-5">
                     <Image
                       fixed={post.frontmatter.author.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                     />
@@ -108,18 +115,15 @@ export default class archiveAuthor extends React.Component {
                     <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
                       <FaTwitter />
                     </IconContext.Provider>
-
-</a>
+                </a>
                 </div>
-
                   <h1 className="pt-1 pb-1">
                     <Link to={post.frontmatter.author.idpath}>
                       {post.frontmatter.author.id}
                     </Link>
                   </h1>
-
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.author.bio) }} />
-                  <hr />
+                  <hr className="mt-5" />
                 </div>
               ))}
 

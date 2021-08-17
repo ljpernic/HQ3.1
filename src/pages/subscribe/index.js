@@ -82,48 +82,45 @@ const Subscribe = (props) => {
                     </Link>
                   </div>                
 
-            <h1 className="pb-1">
+            <h1 className="pb-1 pt-1">
               Subscribe
             </h1>
             <p>
-              Simultaneous submissions are fine, but please no multiple submissions. Also, please wait at least a week before you submit again after hearing from us about 
-              a story. This is honestly more for the writer's benefit: it gives us a chance to clense our palate (if there was something we felt didn't work for 
-              us in your last story, you don't want us to carry that feeling over to the next one!). As writers ourselves, we do our best to handle each story we receive 
-              with the care and attention it deserves. Every submission is an act of bravery, and we know that putting yourself out there as a writer to be judged can be tough. 
-              Just know that any story we receive, unless they contain threats of violence (explicit or implicit), will be kept in confidence.
+              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or <Link to=""> Patreon</Link>! It's 
+              basically magic! You can also get cool merch and our eternal thanks! Remember—a mastodon never forgets!
             </p>
-            <p className="pb-1">
-                When in doubt, don't self reject! Submit submit submit! 
-            </p>
-            <hr />
-            <h1 className="pt-1 pb-1">
-              Patreon
-            </h1>
-            <p className="pb-1">
-              We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and articles with funny or interesting takes we 
-              might not have expected. We pay 1¢ per word for non-fiction, but please nothing over 4,500 words (though we favor shorter over longer).
-            </p>
-            <hr />
-            <h1 className="pt-1 pb-1">
-            KoFi
-            </h1>
-            <p className="pb-1">
-              We're not quite sure how, but once every other month we receive a letter in the mail from the future. It's the damnedest thing. These letters are usually about 
-              something specific to the early 21st century that's been extrapolated into the future (100 years or more), and they're always funny. 
-              They're never over 1000 words, and we pay 1¢ per word for them. 
+            <p className="pb-1">  
+              Check out <Link to="https://ko-fi.com/havenspec/tiers">our membership page on Ko-Fi </Link> or <Link to="">find us on Patreon </Link>to subscribe!
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
             Kickstarter
             </h1>
             <p className="pb-1">
-              There's so much great fiction in languages we can't read, and we'd like to change that. So if you have a translation of a story that has never appeared in English, 
-              we welcome it as a submission. We pay 1¢ per word for translations. Please see the fiction guidelines for what kinds of stories we might be interested in.
+              Keep an eye on this space for information about any Kickstarters we might do.
             </p>
+            <p>
+              The future belongs to all of us. 
+            </p>
+            <hr />
+
+            <h1 className="pt-1 pb-1">
+              Advertise
+            </h1>
+            <p className="">
+              At this moment, all ads are $30 per month, starting from the first of a given month and going until that month ends.
+            </p>
+            <p>
+              Each ad appears on every page of the website. The square ads change positions with each pageview. Do note, however, that all advertisements are subject to approval.
+            </p>
+            <p>
+              To advertise, contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.) Please also be prepared to send us a
+              suitable image of 250 x 250 pixels (for square ads) or 424 x 60 pixels (for the banner ad), along with a single link to whatever's being advertised. 
+            </p>
+
             <hr className="mb-2" />
 
-        </div>
-
+          </div>
       </div>
     </div>
   </div>
