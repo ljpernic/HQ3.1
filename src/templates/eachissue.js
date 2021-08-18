@@ -104,9 +104,7 @@ const Eachissue = props => {
                     </div>
 
                     <h1 className="biotitle pb-1 pt-1">
-                      Cover Artist: <Link to="">
-                        {artist}
-                      </Link>
+                      Cover Artist: {artist}
                     </h1>
                     <div className="pt-1 pb-1">
 {                  <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(artistbio) }} />}
@@ -172,7 +170,7 @@ const Eachissue = props => {
                     <h1>Share</h1>
                     <CustomReactShare title={issueidname} excerpt={text} url={idpath} />
                   </div>
-                  <hr />
+                  <hr className="mb-2"/>
                   
               </div>
             </div>
@@ -275,16 +273,6 @@ query($issueidname: String!) {
         issue {
           id
           idpath
-          currentcover {
-            childImageSharp {
-              fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           text
           artist
           artistimage {
@@ -300,16 +288,6 @@ query($issueidname: String!) {
           artistbio 
         }
         category
-        currentcover {
-          childImageSharp {
-            fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFixed 
-            }
-            fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
       html
     }

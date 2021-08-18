@@ -18,11 +18,15 @@ module.exports = {
         link: '/fiction',
       },
       {
+        name: 'Poetry',
+        link: '/poetry',
+      },
+      {
         name: 'Non-fiction',
         link: '/non-fiction',
       },
 //      {
-//        name: 'Letters from the Future',
+//        name: 'Letters',
 //        link: '/future',
 //      },
       {

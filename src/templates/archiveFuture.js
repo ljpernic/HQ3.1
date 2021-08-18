@@ -151,16 +151,6 @@ export const archiveFutureQuery = graphql`
               artistbio 
             }
             date(formatString: "DD MMMM YYYY")
-            cover {
-              childImageSharp {
-                fixed(width: 322) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 450) {                              #COMMENT: This changed the post picture sizes on the front page (originally 75)
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           html
         }

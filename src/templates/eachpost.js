@@ -93,7 +93,7 @@ const Eachpost = ({ data }) => {
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
                   <div className="share">
-                    <h6>Share:</h6>
+                    <h1>Share</h1>
                     <CustomReactShare title={title} excerpt={excerpt} url={url} />
                   </div>
 
@@ -115,7 +115,7 @@ const Eachpost = ({ data }) => {
                       return <li key={`content_item_${index}`}>{data.item}</li>
                       })}
                     </p> 
-                    <hr />
+                    <hr className="mb-2" />
 
                 </div>
               </div>

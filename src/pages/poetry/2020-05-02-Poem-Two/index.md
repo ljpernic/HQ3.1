@@ -1,5 +1,5 @@
 ---
-title: My Uncle Called Action Because He is a Director
+title: This is the Title of Poem Two, Issue Two
 author: Cheesy Fries Dan
 issue: Issue Two, Fall 2020
 description: Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E? Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E? <p>Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E? <a href="https://www.havenquarterly.com/My-Uncle-Called/">[<i>>>continue>></i>]</a></p>
@@ -13,8 +13,6 @@ featured: false
 ---
 
 Let's cut but not ourselves. I'll keep that in mind but what do I do if my mind is empty of everything but a fluffy cloud made of asbestos? Do I hide behind a cactus, pointy and twisty and green? Or do I hide behind a crooked C or D or B or E?
-
-![image](./cover.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 

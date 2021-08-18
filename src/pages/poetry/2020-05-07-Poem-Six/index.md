@@ -1,5 +1,5 @@
 ---
-title: The Defense Minister Will See You Now
+title: This is the Title of Poem Three, Issue One
 author: Scurvy Joe
 issue: Issue One, Summer 2020
 description: I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed. <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p>I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. The right to keep and bear the apocalypse shall not be infringed.</p> <p><a href="https://www.havenquarterly.com/The-Defense-Minister-Will-See-You-Now/">[<i>>>continue>></i>]</a></p>
@@ -15,8 +15,6 @@ featured: false
 I never should have given Steve the launch codes. I knew he'd somehow find his way to harm. He stopped to buy some things at Home Depot. And built a fucking launchpad at his farm. 
 
 The right to keep and bear the apocalypse shall not be infringed.
-
-![Image](./stats.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 

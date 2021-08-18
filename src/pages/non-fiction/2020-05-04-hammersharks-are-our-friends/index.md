@@ -1,5 +1,5 @@
 ---
-title: Hammersharks are our friends
+title: This is the Title of Non-Fiction One, Issue One
 author: Karl Marxerel
 issue: Issue One, Summer 2020
 description: Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite! 
@@ -13,8 +13,6 @@ featured: false
 ---
 
 Who could look at a hammershark and harbor hatred in their hearts? Great Whites are mostly gray, and the tyranny of their cultural hegemony is now at an end. Rise up my wide-eyed brothers and join the other sharks, the sickle fish, vanguard of the sea! Hammersharks and Sickle Fish of the world unite!
-
-![image](./cover.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 

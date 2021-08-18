@@ -1,5 +1,5 @@
 ---
-title: "Driving into Lake Michigan: the early years"
+title: This is the Title of Fiction Five, Issue One
 author: Susan Susanovya
 issue: Issue One, Summer 2020
 description: In the long winter we fish for fish and ice our ice until the fish ice and the ice fish merge in glorious matrimony under a pale orange sky on the slopes of Mons Pavonis with 200 lbs of C4 explosives and a wig we inherited from our grandfather. <p>Let's gargle fish and sing to alligators and chicken haters and all the wisest windows, open and shut  open and shut open and shut open and shut open and shut open and shut open and shut open and shut open and shut open and shut.</p>

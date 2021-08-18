@@ -31,7 +31,24 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
-
+            archivePoetry: allMarkdownRemark(
+              filter: { fileAbsolutePath: { regex: "/poetry/" } }
+              sort: { fields: [frontmatter___date], order: DESC }
+            ) {
+              edges {
+                node {
+                  id
+                  frontmatter {
+                    category
+                    featured
+                    path
+                    title
+                    date(formatString: "DD MMMM YYYY")
+                  }
+                  excerpt
+                }
+              }
+            }
             archiveNonFiction: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/non-fiction/" } }
               sort: { fields: [frontmatter___date], order: DESC }
@@ -140,7 +157,17 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.archiveFiction.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL FICTION PAGES*/
+          const component = path.resolve('src/templates/eachpost.js');
+          createPage({
+            path: node.frontmatter.path,
+            component,
+            context: {
+              id: node.id,
+            },
+          });
+        });
+        result.data.archivePoetry.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/eachpost.js');
           createPage({
             path: node.frontmatter.path,
             component,
@@ -150,7 +177,7 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.archiveNonFiction.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/eachpost.js');                      /*creates INIDIVUAL NON-FICTION PAGES*/
+          const component = path.resolve('src/templates/eachpost.js');
         createPage({
           path: node.frontmatter.path,
           component,
@@ -179,7 +206,7 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        const FICposts = result.data.archiveFiction.edges                                   /*creates FICTION LIST PAGES*/
+        const FICposts = result.data.archiveFiction.edges                                   /*creates NON-FICTION LIST PAGES*/
         const FICpostsPerPage = 10
         const FICnumPages = Math.ceil(FICposts.length / FICpostsPerPage)
         Array.from({ length: FICnumPages }).forEach((_, i) => {
@@ -191,6 +218,21 @@ exports.createPages = ({ graphql, actions }) => {
               skip: i * FICpostsPerPage,
               FICnumPages,
               FICcurrentPage: i + 1,
+            },
+          });
+        });
+        const POEposts = result.data.archivePoetry.edges                                   /*creates POETRY LIST PAGES*/
+        const POEpostsPerPage = 10
+        const POEnumPages = Math.ceil(POEposts.length / POEpostsPerPage)
+        Array.from({ length: POEnumPages }).forEach((_, i) => {
+          createPage({
+            path: i === 0 ? `/poetry` : `/poetry/${i + 1}`,
+            component: path.resolve('src/templates/archivePoetry.js'),
+            context: {
+              limit: POEpostsPerPage,
+              skip: i * POEpostsPerPage,
+              POEnumPages,
+              POEcurrentPage: i + 1,
             },
           });
         });

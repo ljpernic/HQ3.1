@@ -172,16 +172,6 @@ export const query = graphql`
         issue {
           id
           idpath
-          currentcover {
-            childImageSharp {
-              fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           text
           artist
           artistimage {
@@ -197,16 +187,6 @@ export const query = graphql`
           artistbio 
         }
         category
-        currentcover {
-          childImageSharp {
-            fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFixed 
-            }
-            fluid(maxWidth: 300) {                                        #This changed the post picture sizes on the front page (originally 75)
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
       html
     }

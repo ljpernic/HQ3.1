@@ -1,5 +1,5 @@
 ---
-title: We Fell From Height
+title: This is the Title of Fiction Two, Issue One
 author: Sally McSelfsurgury
 issue: Issue One, Summer 2020
 description: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy. <p>Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do <a href="https://www.havenquarterly.com/we-fell-from-height/">[<i>>>continue>></i>]</a></p>
@@ -13,8 +13,6 @@ featured: false
 ---
 
 Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy.
-
-![image](./cover.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://google.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://google.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 

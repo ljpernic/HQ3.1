@@ -1,5 +1,5 @@
 ---
-title: The Many Big Busts of Lenin
+title: This is the Title of Non-Fiction One, Issue Two
 author: Fanniford Kaplaniford
 issue: Issue Two, Fall 2020
 description: In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.
@@ -13,8 +13,6 @@ featured: false
 ---
 
 In Berlin there lies a lying liar, a man that Franny Kaplan shot with fire, and not for any hapless hire, but on purpose, like Sean Bean. The Queen is mean and the dean is lean, but none have statues in a park outside Berlin. That honor is held by Mel the Mailman, who fell from jail sand to limp through fail ham.
-
-![image](./cover.jpg)
 
 Suspendisse consectetur nisl eu lectus rhoncus feugiat ac a mi. Aenean ipsum arcu, dictum non lobortis non, egestas ut nisi. Pellentesque ac egestas lacus. [LINK](https://attackingpixels.com) Praesent bibendum elit nec consequat fringilla. Donec malesuada leo eget dui hendrerit condimentum. Mauris ultrices dolor at leo lacinia, sed pellentesque dolor iaculis. Quisque elementum hendrerit finibus. Etiam tempus ornare nisl, vel semper massa accumsan sit amet. Duis feugiat, dolor non aliquam suscipit, elit tellus lobortis magna, et mollis orci diam quis nibh. Praesent commodo molestie augue, nec viverra mauris sodales ut. Curabitur tristique volutpat [LINK](https://attackingpixels.com) enim nec dictum. Ut sollicitudin gravida justo, sed interdum quam dictum non. Maecenas pretium lorem vitae quam tristique facilisis.
 
