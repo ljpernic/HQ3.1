@@ -11,7 +11,7 @@ import { FaTwitter } from 'react-icons/fa';
 
 export default class archiveAuthor extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges;
+    const posts = this.props.data.allAuthorYaml.edges;
     const data = this.props.data;
 
     const uniqueArray = posts.filter((post, index) => {
@@ -107,22 +107,22 @@ export default class archiveAuthor extends React.Component {
                 <div className="pt-1 pb-2">
                   <div className="editorImageAbout mb-5">
                     <Image
-                      fixed={post.frontmatter.author.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                      fixed={post.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                     />
 
 
-                  <a href={`https://www.twitter.com/${post.frontmatter.author.twitter}`}>
+                  <a href={`https://www.twitter.com/${post.twitter}`}>
                     <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
                       <FaTwitter />
                     </IconContext.Provider>
                 </a>
                 </div>
                   <h1 className="pt-1 pb-1">
-                    <Link to={post.frontmatter.author.idpath}>
-                      {post.frontmatter.author.id}
+                    <Link to={post.idpath}>
+                      {post.id}
                     </Link>
                   </h1>
-                  <span dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.author.bio) }} />
+                  <span dangerouslySetInnerHTML={{ __html: paragraphs(post.bio) }} />
                   <hr className="mt-5" />
                 </div>
               ))}
@@ -210,30 +210,22 @@ export const archiveAuthorQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(
-      limit: $limit
-      skip: $skip
-    ) {
+    allAuthorYaml(limit: $limit, skip: $skip) {
       totalCount
       edges {
         node {
-          html
-          frontmatter {
-            author {
-              id
+          id
               idpath
               bio
               twitter
               picture {
-                childImageSharp {
-                  fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+                  childImageSharp {
+                    fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                      ...GatsbyImageSharpFixed 
+                    }
+                    fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                   ...GatsbyImageSharpFluid
+               }
             }
           }
         }

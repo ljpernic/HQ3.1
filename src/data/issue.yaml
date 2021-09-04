@@ -1,35 +1,4 @@
-- id: Issue One, Summer 2020
-  idpath: "/issue-one"
-  currentcover: "../images/covers/issue-one-cover.jpg"
-  teaserText: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-      as each week a new story becomes available!
-
-
-      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-  text: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-      as each week a new story becomes available!
-
-
-      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-
-
-      This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-      as each week a new story becomes available!
-
-
-      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-  artist: Raptor Alan
-  artistTwitter: raptoralantwitter
-  artistimage: "../images/profile/Raptor_Alan.jpg"
-  artistbio: Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-            stacked on top of each other. See more of her artwork at , or follow her on .
-
-
-            Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-            stacked on top of each other. See more of her artwork at , or follow her on .
+####################################################################___ISSUE TWO___####################################################################
 - id: Issue Two, Fall 2020
   idpath: "/issue-two"
   currentcover: "../images/covers/issue-two-cover.jpg"
@@ -67,4 +36,40 @@
 
             
             Steve Smith is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
+            stacked on top of each other. See more of her artwork at , or follow her on .
+
+
+
+####################################################################___ISSUE ONE___####################################################################
+- id: Issue One, Summer 2020
+  idpath: "/issue-one"
+  currentcover: "../images/covers/issue-one-cover.jpg"
+  teaserText: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
+      as each week a new story becomes available!
+
+
+      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
+      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
+  text: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
+      as each week a new story becomes available!
+
+
+      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
+      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
+
+
+      This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
+      as each week a new story becomes available!
+
+
+      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
+      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
+  artist: Raptor Alan
+  artistTwitter: raptoralantwitter
+  artistimage: "../images/profile/Raptor_Alan.jpg"
+  artistbio: Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
+            stacked on top of each other. See more of her artwork at , or follow her on .
+
+
+            Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
             stacked on top of each other. See more of her artwork at , or follow her on .

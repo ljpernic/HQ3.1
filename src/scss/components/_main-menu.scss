@@ -3,7 +3,16 @@
   width: inherit;
   display: none;
                                    //CANNOT FIGURE OUT HOW TO CENTER THE MENU OTHERWISE
+  @include media-breakpoint-up(xs) {
+    display: none;
+  }
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
   @include media-breakpoint-up(md) {
+    display: none;
+  }
+  @include media-breakpoint-up(lg) {
     display: flex;
   }
   > ul {

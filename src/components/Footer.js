@@ -16,8 +16,8 @@ const Footer = props => (
         <div className="col-12">
           <div className="footer">
 
-            <Link to="/">
-            <h3 className="footer-title">{props.data.site.siteMetadata.title}</h3>
+            <Link className="footer-title" to="/">
+            <h3>{props.data.site.siteMetadata.title}</h3>
             </Link>
             
             <div className="social-media">

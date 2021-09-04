@@ -11,9 +11,12 @@
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-
   padding-top: 0px;
   padding-bottom: 0px;
+  @include media-breakpoint-up(xs) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   @include media-breakpoint-up(sm) {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -34,8 +37,12 @@
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.5rem;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -56,8 +63,12 @@
     line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: .7rem;
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -78,7 +89,12 @@
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 3rem;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
+      font-size: 3rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -95,7 +111,7 @@
     padding-top: 30px;
     text-align: center;
     margin: auto;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.2;
     font-weight: bold;
     font-family: $font-family-heading;
@@ -103,7 +119,12 @@
 //    background-image: url('../images/border01.png');
 //    background-repeat: no-repeat;
 //    background-position:center;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
       width: 90%;
     }
     @include media-breakpoint-up(md) {
@@ -122,6 +143,10 @@
     font-weight: bold;
     line-height: 1.6;
     padding: 10px 25px 10px 35px;
+    @include media-breakpoint-up(xs) {
+      text-align: justify;
+      width: 100%;
+    }
     @include media-breakpoint-up(sm) {
       text-align: justify;
       width: 100%;
@@ -139,7 +164,19 @@
     color: $secondary;
     font-family: $font-family-heading;
     line-height: 1.2;
-    padding-left: 40px;
+    margin-left: 40px;
+    @include media-breakpoint-up(xs) {
+      margin: 0px 5px 0px 5px;
+    }
+    @include media-breakpoint-up(sm) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(md) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin: 0px 0px 0px 40px;
+    }
   }
   hr { 
     clear:both;
@@ -158,8 +195,13 @@
     line-height: 1.6;
     color: $secondary;
     padding: 10px 45px 0px 45px;
+    @include media-breakpoint-up(xs) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: .8rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
@@ -234,26 +276,69 @@
 }
 
 .topImageLeft {                                                                 //This is for the cover at the top
-  float: left;
-  margin: 30px 0px 0px 40px;
-  width: 100px;
-  text-align: center;
-  border: 2px solid $secondary;
-  box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
-}
+  @include media-breakpoint-up(xs) {
+    //    float: left;
+        margin: 30px 5px 0px 5px;
+        width: 100px;
+    //    text-align: center;
+        border: 2px solid $secondary;
+        box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
+      }
+  @include media-breakpoint-up(sm) {
+    //    float: left;
+        margin: 30px 30px 0px 30px;
+        width: 100px;
+    //    text-align: center;
+        border: 2px solid $secondary;
+        box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
+      }
+  @include media-breakpoint-up(md) {
+//    float: left;
+    margin: 30px 30px 0px 30px;
+    width: 100px;
+//    text-align: center;
+    border: 2px solid $secondary;
+    box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
+  }
+  @include media-breakpoint-up(lg) {
+    float: left;
+    margin: 30px 0px 0px 40px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid $secondary;
+    box-shadow: 0 4px 48px rgba(50, 50, 93, 0.9), 0 1px 30px rgba(0, 0, 0, 0.32);
+  }
+
+  }
 
 .advert {
-  float: left;
+//  float: left;
   margin: 30px 0px 0px 40px;
   width: 100px;
   text-align: center;
   border: 2px solid $secondary;
+  @include media-breakpoint-up(xs) {
+        margin: 30px 5px 0px 5px;
+      }
+  @include media-breakpoint-up(sm) {
+        margin: 30px 30px 0px 30px;
+      }
+  @include media-breakpoint-up(md) {
+    margin: 30px 30px 0px 30px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin: 30px 0px 0px 40px;
+  }
 }
 
 .advertLong {
-  width: 100px;
+  width: 100%;
   text-align: center;
   border: 2px solid $secondary;
+  @include media-breakpoint-up(xs) {
+    display: inline-block;
+    width: 90%!important;
+  }
 }
 
 .innertopimage {                                                                 //This is for the cover at the top
@@ -268,18 +353,21 @@
   box-sizing: content-box;
   margin: 0px;
   padding: 0px;
-
 //  background-color: #2196F3;
 //  width: 100%;
+@include media-breakpoint-up(xs) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 @include media-breakpoint-up(sm) {
   padding-top: 0px;
   padding-bottom: 0px;
-  display: inline-block;
 }
 @include media-breakpoint-up(md) {
   padding-top: 0px;
   padding-bottom: 0px;
-  display: inline-block;
+  display: block;
+  grid-template-columns: auto;
 }
 @include media-breakpoint-up(lg) {
   padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
@@ -315,14 +403,18 @@
   align-content: flex-end;
   font-family: $font-family-heading;
   padding-top:0px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  @include media-breakpoint-up(xs) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   @include media-breakpoint-up(sm) {
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   @include media-breakpoint-up(md) {
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   @include media-breakpoint-up(lg) {
     padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
@@ -336,6 +428,10 @@
     padding: 0px 25px 0px 35px;
     text-align: center;
     margin-bottom: 0rem;
+    @include media-breakpoint-up(xs) {
+      text-align: center;
+      width: 100%;
+    }
     @include media-breakpoint-up(sm) {
       text-align: center;
       width: 100%;
@@ -368,8 +464,12 @@
     color: $secondary;
     padding: 5px 0px 5px 0px;
     text-align: center;
+    @include media-breakpoint-up(xs) {
+      font-size: 1rem;
+      width: 100%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: .9rem;
+      font-size: 1rem;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
@@ -394,6 +494,10 @@
   align-items: center;
   padding-top:0px;
   padding-bottom: 0px;
+  @include media-breakpoint-up(xs) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   @include media-breakpoint-up(sm) {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -413,8 +517,13 @@
     line-height: 1.6;
     color: $secondary;
     padding: 10px 60px 10px 60px;
+    @include media-breakpoint-up(xs) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: .8rem;
+      font-size: 1rem;
       text-align: justify;
       width: 100%;
     }
@@ -437,6 +546,10 @@
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.3rem;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
       font-size: 1.3rem;
       width: 90%;
@@ -458,8 +571,13 @@
     line-height: 2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      padding: 10px 0px 0px 0px;
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
-      font-size: .7rem;
+      font-size: 1.2rem;
       padding: 10px 0px 0px 0px;
       width: 90%;
     }
@@ -481,6 +599,9 @@
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
@@ -498,13 +619,16 @@
     text-align: center;
     margin: auto;
     padding: 0px 00px 0px 0px;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.2;
     font-family: $font-family-heading;
 //    background-image: url('../images/border01.png');
 //    background-repeat: no-repeat;
 //    background-position:center;
     width: 90%;
+    @include media-breakpoint-up(xs) {
+      width: 90%;
+    }
     @include media-breakpoint-up(sm) {
       width: 90%;
     }
@@ -533,6 +657,9 @@ hr {
 .thin {
   grid-column: 2 / span 2;
   padding: 0px;
+  @include media-breakpoint-up(xs) {
+    width: 90%;
+  }
   @include media-breakpoint-up(sm) {
     width: 90%;
   }
@@ -545,18 +672,20 @@ hr {
 }
 
 .thinLeft {
-  grid-column: 1 / span 1;
-  padding: 0px;
   box-sizing: content-box;
-  display: inline-block;
+  grid-column: 1 / span 1;
+  @include media-breakpoint-up(xs) {
+    width: 100%;
+  }
   @include media-breakpoint-up(sm) {
-    width: 90%;
+    width: 100%;
+    grid-column: 1 / span 3;
   }
   @include media-breakpoint-up(md) {
-    width: 90%;
+    grid-column: 1 / span 3;
   }
   @include media-breakpoint-up(lg) {
-    width: 90%;
+    grid-column: 1 / span 1;
   }
 }
 
@@ -578,6 +707,9 @@ hr {
 
 .wideRight {
   grid-column: 2 / span 2;
+  @include media-breakpoint-up(xs) {
+    width: 90%;
+  }
   @include media-breakpoint-up(sm) {
     width: 90%;
   }
@@ -593,6 +725,9 @@ hr {
   float: left;
   width: 50%;
   padding: 10px 10px;
+  @include media-breakpoint-up(xs) {
+    width: 90%;
+  }
   @include media-breakpoint-up(sm) {
     width: 90%;
   }

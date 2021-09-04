@@ -145,14 +145,14 @@ const Submit = (props) => {
               We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world.  
               For our two issues focused on the climate crisis, we're particularly interested in publishing poems from people displaced 
               by or threatened by the climate emergency (although this isn't a hard and fast rule). For the other four issues, we're open to a wide variety of poems across the 
-              SFF and weird spectra. We pay $10 per poem, and we try to respond to all submissions within seven weeks. Please query for reprints.
+              SFF and weird spectra. We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within seven weeks. Please query for reprints.
             </p>
             <p>
               We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or free verse. Most important to us is
               vivid imagery, clever lyricism, and a strong emotional core.
             </p>
             <p>
-              You may submit up to five stories at a time, but please separate them into individual submissions. 
+              You may submit up to five poems at a time, but please separate them into individual submissions. 
             </p>
             <p className="pb-1">
                 When in doubt, don't self reject! Submit submit submit! 
