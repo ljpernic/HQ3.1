@@ -132,3 +132,16 @@
   stories:
   - item: Greg Notamonster Story One 
   - item: Greg Notamonster Story Two 
+
+- id: Greg Actually a Monster
+  idpath: "/greg-notamonster-2"
+  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
+  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
+  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
+  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
+  Carrie officially registered 'Carry' as a trademark.[6]"
+  twitter: 'wgao19'
+  picture: ../images/profile/Greg_Notamonster.jpg
+  stories:
+  - item: Greg Notamonster Story One 
+  - item: Greg Notamonster Story Two 

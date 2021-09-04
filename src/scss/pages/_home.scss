@@ -4,6 +4,10 @@
   background-attachment: fixed;
   background-size: 115%;
   background-position: 49px -40px;
+  @include media-breakpoint-up(xs) {
+    background-size: 100%;
+    background-position: 100% -30px;
+  }
   @include media-breakpoint-up(sm) {
     background-size: 100%;
     background-position: 100% -40px;

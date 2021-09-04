@@ -2,11 +2,29 @@
 display: flex;
 flex-direction: row; 
 justify-content: space-between;
-margin-left: 15px;
-margin-right: 15px;
+  @include media-breakpoint-up(xs) {
+    display: none;
+  }
   @include media-breakpoint-up(sm) {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  @include media-breakpoint-up(md) {
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
@@ -14,28 +32,57 @@ margin-right: 15px;
   background: $secondary;
   padding-top: 20px;
   padding-bottom: 20px;
+  @include media-breakpoint-up(md) {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
 }
+
 .footer {
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: flex-start;
+  @include media-breakpoint-up(xs) {
+    justify-content: center;
+    grid-template-columns: auto auto;
+  }
   @include media-breakpoint-up(sm) {
     justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+    grid-template-columns: auto auto;
   }
+  @include media-breakpoint-up(md) {
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .footer-title {
     color: #ffffff;
-    font-size: 1.3rem;
-    font-family: $font-family-heading;
     margin-bottom: 10px;
     flex: 0;
+    @include media-breakpoint-up(xs) {
+      display: none;
+    }
     @include media-breakpoint-up(sm) {
-      margin: 0;
+      display: none;
+    }
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+    @include media-breakpoint-up(lg) {
+      display: flex;
     }
   }
+
+  .footer-title > h3 {
+    font-size: 1.3rem;
+    font-family: $font-family-heading;
+  } 
   
   ul {
     list-style: none;
