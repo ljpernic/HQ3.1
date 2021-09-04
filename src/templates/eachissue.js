@@ -29,55 +29,55 @@ const Eachissue = props => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="intro">                                                                {/*FEATURED*/}
         <div className="container">
-          <div className="row2 justify-content-start">
+          <div className="row2">
             <div className="grid-container">
-
-            <div className="thinLeft">
-              <div>
-                    <Link to="">
-                      <Image className="topImageLeft"
-                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                    <div className="text-center">
-                      <Link className="buybutton button-primary" to="">
-                        BUY THIS ISSUE
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="justify-content-center">
-
-                  <Link to="">
-                      <Image className="advert mb-2 mt-6"
-                        fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                </div>
-                <h6>
-                  ADVERT
-                </h6>
-                <div>
-                <Link to="">
-                      <Image className="advert mb-2"
-                        fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                </div>
-                <h6>
-                  ADVERT
-                </h6>
+              <div className="thinLeft one">
                 <div>
                   <Link to="">
-                      <Image className="advert mb-2"
-                        fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
+                    <Image className="topImageLeft"
+                      fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    />
                   </Link>
                 </div>
-                <h6>
-                  ADVERT
-                </h6>
+                <div>
+                  <Link className="buybutton button-primary" to="">
+                    BUY CURRENT ISSUE
+                  </Link>
+                </div>
+
+                <div>
+                  <Link to="">
+                    <Image className="advert mb-2 mt-6"
+                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    />
+                  </Link>
+                  <h6>
+                    ADVERT
+                  </h6>
+                </div>
+                <div>
+                  <Link to="">
+                    <Image className="advert mb-2"
+                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    />
+                  </Link>
+                  <h6>
+                    ADVERT
+                  </h6>
+                </div>
+
+                <div>
+                  <Link to="">
+                    <Image className="advert mb-2"
+                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                    />
+                  </Link>
+                  <h6>
+                    ADVERT
+                  </h6>
+                </div>
                 </div>
 
               <div className="wideRight">

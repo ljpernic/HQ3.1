@@ -40,14 +40,16 @@
       justify-content: space-between;
       margin-left: 40px;
       margin-right: 40px;
+      margin-bottom: 10px;
     }
     @include media-breakpoint-up(lg) {
       display: inline-block;
       flex-direction: column; 
       justify-content: space-between;
-      padding-top: 0px;
-      margin-left: 5px;
+      margin-top: 15px;
+      margin-left: 15px;
       margin-right: 5px;
+      margin-bottom: 0px;
     }
   }
 }

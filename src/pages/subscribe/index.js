@@ -18,12 +18,12 @@ const Subscribe = (props) => {
         />
       </Helmet>
 
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
-          <div className="row2 justify-content-start">
+          <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft">
-              <div>
+              <div className="thinLeft one">
+                <div>
                     <Link to="">
                       <Image className="topImageLeft"
                         fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
@@ -31,7 +31,7 @@ const Subscribe = (props) => {
                     </Link>
                     <div className="text-center">
                       <Link className="buybutton button-primary" to="">
-                        BUY THIS ISSUE
+                        BUY CURRENT ISSUE
                       </Link>
                     </div>
                   </div>
