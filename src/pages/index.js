@@ -25,19 +25,19 @@ const Home = (props) => {                                                     //
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft">
+              <div className="thinLeft one">
                 <div>
                   <Link to="">
                     <Image className="topImageLeft"
                       fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
-                  </div>
-                  <div>
-                    <Link className="buybutton button-primary" to="">
-                      BUY THIS ISSUE
-                    </Link>
-                  </div>
+                </div>
+                <div>
+                  <Link className="buybutton button-primary" to="">
+                    BUY THIS ISSUE
+                  </Link>
+                </div>
 
                 <div>
                   <Link to="">
@@ -70,8 +70,8 @@ const Home = (props) => {                                                     //
                     ADVERT
                   </h6>
                 </div>
-
                 </div>
+
                 <div className="wideRight">
                   <div className="col-12">
                     <h4>

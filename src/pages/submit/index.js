@@ -36,9 +36,9 @@ const Submit = (props) => {
 
       <div className="intro">
         <div className="container">
-          <div className="row2 justify-content-start">
+          <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft">
+              <div className="thinLeft one">
                 <div>
                     <Link to="">
                       <Image className="topImageLeft"
@@ -47,7 +47,7 @@ const Submit = (props) => {
                     </Link>
                     <div className="text-center">
                       <Link className="buybutton button-primary" to="">
-                        BUY THIS ISSUE
+                        BUY CURRENT ISSUE
                       </Link>
                     </div>
                   </div>

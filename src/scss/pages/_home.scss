@@ -5,19 +5,19 @@
   background-size: 115%;
   background-position: 49px -40px;
   @include media-breakpoint-up(xs) {
-    background-size: 100%;
-    background-position: 100% -30px;
+    background-size:auto;
+    background-position: 100% -10px;
   }
   @include media-breakpoint-up(sm) {
     background-size: 100%;
-    background-position: 100% -40px;
+    background-position: 100% 0px;
   }
   @include media-breakpoint-up(md) {
-    background-size: 100%;
-    background-position: 100% -50px;
+    background-size: cover;
+    background-position: 100% 0px;
   }
   @include media-breakpoint-up(lg) {
     background-size: 100%;
-    background-position: 100% -70px;
+    background-position: 100% 0px;
   }
 }

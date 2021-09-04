@@ -30,7 +30,7 @@ class Header extends React.Component {
     return (
       <div className="header">
           <div className="row">
-            <div className="grid-container">
+            <div className="grid-container-logo">
 
               <div className="wide">
                 <div className="col-12">

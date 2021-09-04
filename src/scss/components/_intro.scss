@@ -332,12 +332,24 @@
 }
 
 .advertLong {
-  width: 100%;
+//  width: 100%;
   text-align: center;
   border: 2px solid $secondary;
   @include media-breakpoint-up(xs) {
     display: inline-block;
     width: 90%!important;
+  }
+  @include media-breakpoint-up(sm) {
+    display: inline-block;
+    width: 85%!important;
+  }
+  @include media-breakpoint-up(md) {
+    display: inline-block;
+    width: 65%!important;
+  }
+  @include media-breakpoint-up(lg) {
+    display: inline-block;
+    width: 75%!important;
   }
 }
 
@@ -358,21 +370,35 @@
 @include media-breakpoint-up(xs) {
   padding-top: 0px;
   padding-bottom: 0px;
+  display: flex; 
+  flex-flow: column;
+  .two { order: 1; }
+  .one { order: 2; }
 }
 @include media-breakpoint-up(sm) {
   padding-top: 0px;
   padding-bottom: 0px;
+  display: flex; 
+  flex-flow: column;
+  .two { order: 1; }
+  .one { order: 2; }
 }
 @include media-breakpoint-up(md) {
   padding-top: 0px;
   padding-bottom: 0px;
-  display: block;
-  grid-template-columns: auto;
+  display: flex; 
+  flex-flow: column;
+//  grid-template-columns: auto;
+  .two { order: 1; }
+  .one { order: 2; }
 }
 @include media-breakpoint-up(lg) {
   padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
   padding-bottom: 0px;
-  display: grid;
+  display: flex; 
+  flex-flow:row-reverse;
+//  .two { order: 1; }
+//  .one { order: 2; }
 }
 }
 .grid-container > div {
@@ -383,6 +409,49 @@
   text-align: center;
   font-size: 30px;
 }
+
+
+.grid-container-logo {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+//  background-color: #2196F3;
+//  width: 100%;
+@include media-breakpoint-up(xs) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@include media-breakpoint-up(sm) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@include media-breakpoint-up(md) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-flow: column;
+//  grid-template-columns: auto;
+  .two { order: 1; }
+  .one { order: 2; }
+}
+@include media-breakpoint-up(lg) {
+  padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
+  padding-bottom: 0px;
+  display: flex; 
+  flex-flow:row;
+//  .two { order: 1; }
+//  .one { order: 2; }
+}
+}
+.grid-container-logo > div {
+//  background-color: rgba(215, 241, 254, 0.7);                             //this is the test background
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
 
 .share {
   margin-top: 50px;
