@@ -12,7 +12,7 @@ export default class archiveFuture extends React.Component {
     const { FUTcurrentPage, FUTnumPages } = this.props.pageContext
     const isFirst = FUTcurrentPage === 1
     const isLast = FUTcurrentPage === FUTnumPages
-    const prevPage = FUTcurrentPage - 1 === 1 ? "/" : `/future/${FUTcurrentPage - 1}`
+    const prevPage = FUTcurrentPage - 1 === 1 ? "/future/" : `/future/${FUTcurrentPage - 1}`
     const nextPage = `/future/${FUTcurrentPage + 1}`
 
     return (

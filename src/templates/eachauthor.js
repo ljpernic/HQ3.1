@@ -1,5 +1,5 @@
 import React from 'react';  
-import { graphql, Link } from 'gatsby';
+import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
@@ -8,21 +8,45 @@ import Helmet from 'react-helmet';
 import { IconContext } from "react-icons";
 import { FaTwitter } from 'react-icons/fa';
 
+function shuffle(array) {
+  var currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 const Eachauthor = props => {
   const { pageContext } = props;
   const data = props.data;
-  const { idname, bio, twitter, picture, stories } = pageContext;
-
+  const { idname, bio, twitter, picture, stories, poems } = pageContext;
+  
   const twitterLink = `http://twitter.com/${twitter}`;
-
+  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  
+  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
+  var shuffledArray = shuffle(imgArray);
+  
   return (
     <Layout bodyClass="page-home">
       <SEO title="Fiction" />
       <Helmet>
+        <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta
-          name="Haven Spec Author"
-          content="Another awesome author published by Haven Spec!"
+          name={idname}
+          content="Author published by Haven Spec!"
         />
+        
       </Helmet>
 
       <div className="intro">                                                                {/*FEATURED*/}
@@ -38,7 +62,7 @@ const Eachauthor = props => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to="">
+                  <Link className="buybutton button-primary" to={currentIssue}>
                     BUY CURRENT ISSUE
                   </Link>
                 </div>
@@ -46,7 +70,7 @@ const Eachauthor = props => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2 mt-6"
-                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -56,7 +80,7 @@ const Eachauthor = props => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -67,7 +91,7 @@ const Eachauthor = props => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -84,7 +108,7 @@ const Eachauthor = props => {
                   <hr />
                 </div>
 
-                  <div className="editorImageAbout">
+                  <div className="editorImageAbout mt-3">
                     <Image
                       fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
                     />
@@ -95,13 +119,32 @@ const Eachauthor = props => {
                           </a>
                     </div>
                     
-                  <h1 className="pt-1 pb-1">{idname}</h1>
-                  <p>{bio}</p>
-                  <p>{stories.map((data, index) => {
-            return <li key={`content_item_${index}`}>{data.item}</li>
-          })}</p>
+                  <h1 className="pt-1 pb-1">
+                    {idname}
+                  </h1>
+                  <p className="pb-2">
+                    {bio}
+                  </p>
+                  <h5 className="hideable">
+                    Fiction by {idname}
+                  </h5>
+                  <p className="hideable pb-2">
+                    {stories
+                      .map((data, index) => {
+                      return <Link key={`content_storytitle_${index}`} to={data.storylink}><li key={`content_storytitle_${index}`}>{data.storytitle}</li></Link>
+                    })}
+                  </p>
+                  <h5 className="hideable pb-0">
+                    Poetry by {idname}
+                  </h5>
+                  <p className="hideable">
+                    {poems.map((data, index) => {
+                      return <Link key={`content_poemtitle_${index}`} to={data.poemlink}><li key={`content_poemtitle_${index}`}>{data.poemtitle}</li></Link>
+                    })}
+                  </p>
+                  <hr className="mb-2 mt-5"/>
                 </div>
-                </div>
+              </div>
               </div>
             </div>
           </div>

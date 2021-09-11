@@ -82,6 +82,7 @@ exports.createPages = ({ graphql, actions }) => {
               twitter: element.twitter,
               picture: element.picture,
               stories: element.stories,
+              poems: element.poems,
             },
           });
         });

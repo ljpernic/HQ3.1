@@ -7,17 +7,39 @@ import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import CustomReactShare from "../components/CustomShareBlock";
 
+function shuffle(array) {
+  var currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 export default class archiveIssues extends React.Component {
   render() {
     const issueNodes = this.props.data.allIssueYaml.edges;
     const data = this.props.data;
-
+    const currentIssue = `https://ko-fi.com/havenspec/shop`;
+    
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
     const isFirst = FULLcurrentPage === 1
     const isLast = FULLcurrentPage === FULLnumPages
-    const prevPage = FULLcurrentPage - 1 === 1 ? "/" : `/fullissues/${FULLcurrentPage - 1}`
+    const prevPage = FULLcurrentPage - 1 === 1 ? "/fullissues/" : `/fullissues/${FULLcurrentPage - 1}`
     const nextPage = `/fullissues/${FULLcurrentPage + 1}`
         
+    var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
+    var shuffledArray = shuffle(imgArray);
+    
     return (
       <Layout bodyClass="page-home">
       <SEO title="Full Issues" />
@@ -42,7 +64,7 @@ export default class archiveIssues extends React.Component {
                   </Link>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to="">
+                  <Link className="buybutton button-primary" to={currentIssue}>
                     BUY CURRENT ISSUE
                   </Link>
                 </div>
@@ -50,7 +72,7 @@ export default class archiveIssues extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2 mt-6"
-                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -60,7 +82,7 @@ export default class archiveIssues extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -71,7 +93,7 @@ export default class archiveIssues extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -97,7 +119,7 @@ export default class archiveIssues extends React.Component {
 
                 {issueNodes.map(({ node: issue }, index) => (
                       <div key={issue.id} className="pt-1 pb-2">
-                        <Image className="editorImageAbout mb-5"
+                        <Image className="editorImageAbout mb-2"
                             fixed={issue.currentcover.childImageSharp.fixed}
                           />
                         <h1 className="pt-1 pb-1">
@@ -109,11 +131,6 @@ export default class archiveIssues extends React.Component {
                           <hr className="mt-5"/>
                       </div>
                 ))}
-
-              </div>
-
-            </div>
-          </div>  
               <div className="container">
                 <div className="row">
                   <div className="col-sm">
@@ -147,8 +164,9 @@ export default class archiveIssues extends React.Component {
               </div>
             </div>
           </div>
-
-
+        </div>  
+      </div>
+    </div>
     </Layout>
     )
   }

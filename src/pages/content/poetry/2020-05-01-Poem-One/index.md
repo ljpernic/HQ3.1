@@ -2,13 +2,13 @@
 title: This is the Title of Poem One, Issue Two 
 author: Raptor Alan
 issue: Issue Two, Fall 2020
-description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <a href="https://www.havenquarterly.com/malingering-fingers/">
+description: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <p>Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking?</p> <a href="https://www.havenquarterly.com/raptor-alan-poem-one">
 shortdescription: Driving through the countryside, I saw the people run and hide, the cows all had their cud to chew, the birds were seldom, far and few. And then the ninjas came. And then the ninjas came. Oh god the ninjas, what was I thinking? <a href="https://www.havenquarterly.com/malingering-fingers/">
 category: POETRY
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2019-01-30T00:00:00.000Z"
-path: "/poem-one"
+path: "/raptor-alan-poem-one"
 featured: false
 ---
 

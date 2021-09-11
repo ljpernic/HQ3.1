@@ -2,13 +2,13 @@
 title: This is the Title of Fiction Two, Issue Two
 author: Halty Haffenpfaff
 issue: Issue Two, Fall 2020
-description: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy. <p>Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do <a href="https://www.havenquarterly.com/goodbye-goodbye-goodbye/">[<i>>>continue>></i>]</a></p>
-shortdescription: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad <a href="https://www.havenquarterly.com/goodbye-goodbye-goodbye/">[<i>>>continue>></i>]</a>
+description: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad people shooting bad people is not a foreign policy. <p>Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do <a href="https://www.havenquarterly.com/goodbye-goodbye-goodbye/">[<i>...</i>]</a></p>
+shortdescription: Matchmaker Matchmaker make me some coffee please. I've got a headache and the only cure is smashing the patriarchy. I like big ideas and I cannot lie. The tanks are in the street, the cameras trained like soldiers. What does James Bond do when he isn't protecting imperialism. Bad <a href="https://www.havenquarterly.com/goodbye-goodbye-goodbye/">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg
 date: "2019-02-28T00:00:00.000Z"
-path: "/goodbye-goodbye-goodbye"
+path: "/this-is-the-title-of-fiction-two-issue-two"
 featured: false
 ---
 

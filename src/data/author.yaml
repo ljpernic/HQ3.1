@@ -7,8 +7,11 @@
   twitter: 'RaptorAlanTwitter'
   picture: ../images/profile/Raptor_Alan.jpg
   stories:
-  - item: Raptor Alan Story One 
-  - item: Raptor Alan Story Two
+  - storytitle: This is the Title of Fiction One, Issue One
+    storylink: "/this-is-the-title-of-fiction-one-issue-one"
+  poems:
+  - poemtitle: Raptor Alan Poem One
+    poemlink: "/raptor-alan-poem-one"
 
 - id: Cheesy Fries Dan
   idpath: "/cheesy-fries-dan"
@@ -19,44 +22,11 @@
   twitter: 'CheesyFriesDanTwitter'
   picture: ../images/profile/Cheesy_Fries_Dan.jpg
   stories:
-  - item: Cheesy Fries Dan Story One
-  - item: Cheesy Fries Dan Story Two 
-
-- id: Halty Haffenpfaff
-  idpath: "/halty-haffenpfaff"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'HaltyHaffenpfaffTwitter'
-  picture: ../images/profile/Halty_Haffenpfaff.jpg
-  stories:
-  - item: Halty Haffenpfaff Story One 
-  - item: Halty Haffenpfaff Story Two 
-
-- id: Karl Marxerel
-  idpath: "/karl-marxerel"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'KarlMarxerelTwitter'
-  picture: ../images/profile/Karl_Marxerel.jpg
-  stories:
-  - item: Karl Marxerel Story One 
-  - item: Karl Marxerel Story Two 
-
-- id: Sally McSelfsurgury
-  idpath: "/sally-mcselfsurgury"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'SallyMcSelfsurguryTwitter'
-  picture: ../images/profile/Sally_McSelfsurgury.jpg
-  stories:
-  - item: Sally McSelfsurgury Story One
-  - item: Sally McSelfsurgury Story Two 
+  - storytitle: This is the Title of Fiction One, Issue Two
+    storylink: "/this-is-the-title-of-fiction-one-issue-two"
+  poems:
+  - poemtitle: Cheesy Fries Dan Story Two
+    poemlink: ""
 
 - id: Glenda the Glad
   idpath: "/glenda-the-glad"
@@ -68,8 +38,26 @@
   twitter: 'GlendatheGladTwitter'
   picture: ../images/profile/Glenda_the_Glad.jpg
   stories:
-  - item: Glenda the Glad Story One 
-  - item: Glenda the Glad Story Two 
+  - storytitle: Glenda the Glad Story One
+    storylink: ""
+  poems:
+  - poemtitle: Glenda the Glad Story Two
+    poemlink: ""
+
+- id: Halty Haffenpfaff
+  idpath: "/halty-haffenpfaff"
+  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
+  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
+  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
+  taverns) with a hatchet."
+  twitter: 'HaltyHaffenpfaffTwitter'
+  picture: ../images/profile/Halty_Haffenpfaff.jpg
+  stories:
+  - storytitle: This is the Title of Fiction Two, Issue Two
+    storylink: "/this-is-the-title-of-fiction-two-issue-two"
+  poems:
+  - poemtitle: Halty Haffenpfaff Story Two
+    poemlink: ""
 
 - id: Scurvy Joe
   idpath: "/scurvy-joe"
@@ -80,8 +68,11 @@
   twitter: 'ScurvyJoeTwitter'
   picture: ../images/profile/Scurvy_Joe.jpg
   stories:
-  - item: Scurvy Joe Story One
-  - item: Scurvy Joe Story Two 
+  - storytitle: Scurvy Joe Story One
+    storylink: ""
+  poems:
+  - poemtitle: Scurvy Joe Story Two
+    poemlink: ""
 
 - id: Fanniford Kaplaniford
   idpath: "/fanniford-kaplaniford"
@@ -92,8 +83,11 @@
   twitter: 'wgao19'
   picture: ../images/profile/Fanniford_Kaplaniford.jpg
   stories:
-  - item: Fanniford Kaplaniford Story One
-  - item: Fanniford Kaplaniford Story Two 
+  - storytitle: Fanniford Kaplaniford Story One
+    storylink: ""
+  poems:
+  - poemtitle: Fanniford Kaplaniford Story Two
+    poemlink: ""
 
 - id: The Robot Kid
   idpath: "/the-robot-kid"
@@ -105,8 +99,41 @@
   twitter: 'wgao19'
   picture: ../images/profile/The_Robot_Kid.jpg
   stories:
-  - item: The Robot Kid Story One
-  - item: The Robot Kid Story Two 
+  - storytitle: The Robot Kid Story One
+    storylink: ""
+  poems:
+  - poemtitle: The Robot Kid Story Two 
+    poemlink: ""
+
+- id: Karl Marxerel
+  idpath: "/karl-marxerel"
+  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
+  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
+  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
+  taverns) with a hatchet."
+  twitter: 'KarlMarxerelTwitter'
+  picture: ../images/profile/Karl_Marxerel.jpg
+  stories:
+  - storytitle: Karl Marxerel Story One
+    storylink: ""
+  poems:
+  - poemtitle: Karl Marxerel Story Two
+    poemlink: ""
+
+- id: Sally McSelfsurgury
+  idpath: "/sally-mcselfsurgury"
+  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
+  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
+  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
+  taverns) with a hatchet."
+  twitter: 'SallyMcSelfsurguryTwitter'
+  picture: ../images/profile/Sally_McSelfsurgury.jpg
+  stories:
+  - storytitle: This is the Title of Fiction Two, Issue One
+    storylink: "/this-is-the-title-of-fiction-two-issue-One"
+  poems:
+  - poemtitle: Sally McSelfsurgury Story Two
+    poemlink: ""
 
 - id: Susan Susanovya
   idpath: "/susan-susanovya"
@@ -117,8 +144,11 @@
   twitter: 'wgao19'
   picture: ../images/profile/Susan_Susanovya.jpg
   stories:
-  - item: Susan Susanovya Story One 
-  - item: Susan Susanovya Story Two
+  - storytitle: Susan Susanovya Story One
+    storylink: ""
+  poems:
+  - poemtitle: Susan Susanovya Story Two
+    poemlink: ""
 
 - id: Greg Notamonster
   idpath: "/greg-notamonster"
@@ -130,11 +160,14 @@
   twitter: 'wgao19'
   picture: ../images/profile/Greg_Notamonster.jpg
   stories:
-  - item: Greg Notamonster Story One 
-  - item: Greg Notamonster Story Two 
+  - storytitle: Greg Notamonster Story One
+    storylink: ""
+  poems:
+  - poemtitle: Greg Notamonster Story Two
+    poemlink: ""
 
 - id: Greg Actually a Monster
-  idpath: "/greg-notamonster-2"
+  idpath: "/greg-actually-a-monster"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
   records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
   the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
@@ -143,5 +176,8 @@
   twitter: 'wgao19'
   picture: ../images/profile/Greg_Notamonster.jpg
   stories:
-  - item: Greg Notamonster Story One 
-  - item: Greg Notamonster Story Two 
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Greg Notamonster Story Two
+    poemlink: ""

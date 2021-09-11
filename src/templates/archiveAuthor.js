@@ -9,11 +9,30 @@ import Image from 'gatsby-image';
 import { IconContext } from "react-icons";
 import { FaTwitter } from 'react-icons/fa';
 
+function shuffle(array) {
+  var currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 export default class archiveAuthor extends React.Component {
   render() {
     const posts = this.props.data.allAuthorYaml.edges;
     const data = this.props.data;
-
+    const currentIssue = `https://ko-fi.com/havenspec/shop`;
+    
     const uniqueArray = posts.filter((post, index) => {
       const _thing = JSON.stringify(post);
       return index === posts.findIndex(obj => {
@@ -24,9 +43,12 @@ export default class archiveAuthor extends React.Component {
     const { AUTcurrentPage, AUTnumPages } = this.props.pageContext
     const isFirst = AUTcurrentPage === 1
     const isLast = AUTcurrentPage === AUTnumPages
-    const prevPage = AUTcurrentPage - 1 === 1 ? "/" : `/contributors/${AUTcurrentPage - 1}`
+    const prevPage = AUTcurrentPage - 1 === 1 ? "/contributors/" : `/contributors/${AUTcurrentPage - 1}`
     const nextPage = `/contributors/${AUTcurrentPage + 1}`
 
+    var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
+    var shuffledArray = shuffle(imgArray);
+    
     return (
       <Layout bodyClass="page-home">
       <SEO title="Contributors" />
@@ -50,7 +72,7 @@ export default class archiveAuthor extends React.Component {
                   </Link>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to="">
+                  <Link className="buybutton button-primary" to={currentIssue}>
                     BUY CURRENT ISSUE
                   </Link>
                 </div>
@@ -58,7 +80,7 @@ export default class archiveAuthor extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2 mt-6"
-                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -68,7 +90,7 @@ export default class archiveAuthor extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -79,7 +101,7 @@ export default class archiveAuthor extends React.Component {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>

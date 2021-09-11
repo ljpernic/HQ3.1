@@ -8,6 +8,24 @@ import CustomReactShare from "../components/CustomShareBlock";
 import { FaTwitter } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
+function shuffle(array) {
+  var currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 const Eachpost = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
@@ -18,7 +36,10 @@ const Eachpost = ({ data }) => {
   const { html } = data.markdownRemark;
   const url = `http://havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
+  const currentIssue = `https://ko-fi.com/havenspec/shop`;
 
+  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
+  var shuffledArray = shuffle(imgArray);
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
@@ -38,7 +59,7 @@ const Eachpost = ({ data }) => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to="">
+                  <Link className="buybutton button-primary" to={currentIssue}>
                     BUY CURRENT ISSUE
                   </Link>
                 </div>
@@ -46,7 +67,7 @@ const Eachpost = ({ data }) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2 mt-6"
-                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -56,7 +77,7 @@ const Eachpost = ({ data }) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -67,7 +88,7 @@ const Eachpost = ({ data }) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -179,7 +200,7 @@ export const query = graphql`
           bio
           twitter
           stories {
-            item
+            storytitle
           }
           picture {
             childImageSharp {

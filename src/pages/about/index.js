@@ -8,11 +8,34 @@ import Layout from '../../layouts/index';
 import { FaTwitter } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
+function shuffle(array) {
+  var currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 const About = (props) => {
   const data = props.data;
 
   const leonTwitter = `http://twitter.com/leonperniciaro`;
-  const volunteerTwitter = `http://twitter.com/volunteerathavenspec`;
+  const ashTwitter = `http://twitter.com/ashaquestion`;
+
+  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  
+  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
+  var shuffledArray = shuffle(imgArray);
 
   return (
     <Layout bodyClass="page-home">
@@ -38,7 +61,7 @@ const About = (props) => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to="">
+                  <Link className="buybutton button-primary" to={currentIssue}>
                     BUY CURRENT ISSUE
                   </Link>
                 </div>
@@ -46,7 +69,7 @@ const About = (props) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2 mt-6"
-                      fixed={data.advert01.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -56,7 +79,7 @@ const About = (props) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert02.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -67,7 +90,7 @@ const About = (props) => {
                 <div>
                   <Link to="">
                     <Image className="advert mb-2"
-                      fixed={data.advert03.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
                   </Link>
                   <h6>
@@ -112,7 +135,7 @@ const About = (props) => {
                   <h1 className="pt-1 pb-1">
                     About the Editor
                   </h1>
-                  <div className="editorImageAbout mb-5">
+                  <div className="editorImageAbout mb-2">
                     <Image fixed={data.leon.childImageSharp.fixed}/>
                     <a href={leonTwitter}>
                       <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
@@ -126,7 +149,30 @@ const About = (props) => {
                     a writers' room comedy podcast about literature and children's books.
                   </p>
                   <p className="pb-1"> Originally from New Orleans, he now lives in New England, and he's terrified of both 
-                    the climate crisis and the Great Filter. Follow him on Twitter <Link to="https://www.twitter.com/leonperniciaro">@LeonPerniciaro</Link>.
+                    the climate crisis and the Great Filter.
+                  </p>
+                </div>
+
+                <div>
+                  <h1 className="pt-3 pb-1">
+                    About the Associate Editor
+                  </h1>
+                  <div className="editorImageAbout mb-2">
+                    <Image fixed={data.ash.childImageSharp.fixed}/>
+                    <a href={ashTwitter}>
+                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                        <FaTwitter />
+                      </IconContext.Provider>
+                    </a>
+                  </div>
+
+                  <p>
+                  Ash Okada (she/they) is a speculative fiction writer and capital-N Nerd who is endlessly fascinated by story, languages, history, the human brain, and 
+                  dinosaurs. Ash has worked an eclectic set of jobs over the years, from lit agency intern to video captioner and from executive assistant to bridge caddy 
+                  (though not necessarily in that order), and lives in Brooklyn, NY.</p> 
+                  
+                  <p className="pb-1">When the weather's lousy, you can usually find Ash curled up with a massive cup of tea 
+                  and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.
                   </p>
                 </div>
                 <hr />
@@ -135,14 +181,6 @@ const About = (props) => {
                   <h1 className="pt-1 pb-1">
                     Volunteer
                   </h1>
-                  <div className="editorImageAbout mb-1">
-                    <Image fixed={data.volunteer.childImageSharp.fixed}/>
-                    <a href={volunteerTwitter}>
-                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </a>
-                  </div>
                   <p>
                     Interested in being a slush reader for Haven Spec? Are you passionate about speculative fiction and poetry? Volunteer today! There's no better way to improve 
                     your own writing than reading other people's!
@@ -227,55 +265,12 @@ const About = (props) => {
                     We aren't affiliated in any way.
                   </p>
                 </div>
-                <hr />
-
-                <div>
-                  <h1 className="pt-1 pb-1">
-                    About This Site
-                  </h1>
-                  <p>
-                    This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 
-                    gatsby.js and is used here under the MIT license. The background was taken from pixabay.
-                  </p>
-                  <p>
-                    <center>
-                      The website design is used here under the MIT license (MIT)
-                    </center>
-                  </p>
-                  <p>
-                    <center>
-                      Copyright (c) 2015 gatsbyjs
-                    </center>
-                  </p>
-                  <p>
-                    <center>
-                      Permission is hereby granted, free of charge, to any person obtaining a copy
-                      of this software and associated documentation files (the "Software"), to deal
-                      in the software without restriction, including without limitation the rights
-                      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                      copies of the software, and to permit persons to whom the software is
-                      furnished to do so, subject to the following conditions:
-                    </center>
-                  </p>
-                <p>
-                  <center>
-                    The above copyright notice and this permission notice shall be included in all
-                    copies or substantial portions of the software.
-                  </center>
-                </p>
-              <p className="pb-1">
-                <center>
-                  The software is provided "As is", without warranty of any kind, express or
-                  implied, including but not limited to the warranties of merchantability,
-                  fitness for a particular purpose and noninfringement. In no event shall the
-                  authors or copyright holders be liable for any claim, damages or other
-                  liability, whether in an action of contract, tort or otherwise, arising from,
-                  out of or in connection with the software or the use or other dealings in the
-                  software.
-                </center>
-              </p>
-            </div>
             <hr className="mb-2" />
+          <div>
+            <p className="mb-4">
+              Interested to know how this website was put together? Want to get a (free!) copy of your own? <Link to="/about-this-site">Click here!</Link>
+            </p>
+          </div>
           </div>
         </div>
       </div>
@@ -328,14 +323,14 @@ export const query = graphql`
         }
       }
     }
-    leon: file(relativePath: { eq: "profile/Leon_Perniciaro.jpg" }) {
+    leon: file(relativePath: { eq: "profile/Leon_Perniciaro.png" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    volunteer: file(relativePath: { eq: "profile/Volunteer.jpg" }) {
+    ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed

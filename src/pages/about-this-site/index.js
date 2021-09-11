@@ -23,20 +23,20 @@ function shuffle(array) {
   return array;
 }
 
-const Subscribe = (props) => {
+const aboutThisSite = (props) => {
   const data = props.data;
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
   
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);
-  
+
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Subscribe" />
+      <SEO title="The Technical side of Haven Spec" />
       <Helmet>
         <meta
           name="description"
-          content="Subscribe page of Haven Spec"
+          content=""
         />
       </Helmet>
 
@@ -89,10 +89,11 @@ const Subscribe = (props) => {
                   ADVERT
                 </h6>
                 </div>
+
                 <div className="wideRight">
                 <div className="col-12">
                   <h4>
-                    SUBSCRIBE AND SUPPORT
+                    About This Site
                   </h4>
                   <hr />
                 </div>
@@ -104,41 +105,55 @@ const Subscribe = (props) => {
                     </Link>
                   </div>                
 
-            <h1 className="pb-1 pt-1">
-              Subscribe
-            </h1>
-            <p>
-              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or <Link to=""> Patreon</Link>! It's 
-              basically magic! You can also get cool merch and our eternal thanks! Remember—a mastodon never forgets!
-            </p>
-            <p className="pb-1">  
-              Check out <Link to="https://ko-fi.com/havenspec/tiers">our membership page on Ko-Fi </Link> or <Link to="">find us on Patreon </Link>to subscribe!
-            </p>
-            <hr />
-            <h1 className="pt-1 pb-1">
-            Kickstarter
-            </h1>
-            <p className="pb-1">
-              Keep an eye on this space for information about any Kickstarters we might do.
-            </p>
-            <p>
-              The future belongs to all of us. 
-            </p>
-            <hr />
+                  <p>
+                    This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 
+                    gatsby.js and is used here under the MIT license. The background was taken from pixabay.
+                  </p>
 
-            <h1 className="pt-1 pb-1">
-              Advertise
-            </h1>
-            <p className="">
-              At this moment, all ads are $30 per month, starting from the first of a given month and going until that month ends.
-            </p>
-            <p>
-              Each ad appears on every page of the website. The square ads change positions with each pageview. Do note, however, that all advertisements are subject to approval.
-            </p>
-            <p>
-              To advertise, contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.) Please also be prepared to send us a
-              suitable image of 250 x 250 pixels (for square ads) or 424 x 60 pixels (for the banner ad), along with a single link to whatever's being advertised. 
-            </p>
+                  <p>
+                    A generic copy of this website (which was programmed with Gatsbyjs, a web framework based on ReactJS for building static websites) will soon be 
+                    available on GitHub!  
+                  </p>
+
+                  <hr className="mb-2"/>
+
+                  <p>
+                    <center>
+                      The website design is used here under the MIT license (MIT)
+                    </center>
+                  </p>
+                  <p>
+                    <center>
+                      Copyright (c) 2015 gatsbyjs
+                    </center>
+                  </p>
+                  <p>
+                    <center>
+                      Permission is hereby granted, free of charge, to any person obtaining a copy
+                      of this software and associated documentation files (the "Software"), to deal
+                      in the software without restriction, including without limitation the rights
+                      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                      copies of the software, and to permit persons to whom the software is
+                      furnished to do so, subject to the following conditions:
+                    </center>
+                  </p>
+                <p>
+                  <center>
+                    The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the software.
+                  </center>
+                </p>
+              <p className="pb-1">
+                <center>
+                  The software is provided "As is", without warranty of any kind, express or
+                  implied, including but not limited to the warranties of merchantability,
+                  fitness for a particular purpose and noninfringement. In no event shall the
+                  authors or copyright holders be liable for any claim, damages or other
+                  liability, whether in an action of contract, tort or otherwise, arising from,
+                  out of or in connection with the software or the use or other dealings in the
+                  software.
+                </center>
+              </p>
 
             <hr className="mb-2" />
 
@@ -152,7 +167,7 @@ const Subscribe = (props) => {
 };
 
 export const query = graphql`
-  query SubscribeQuery {
+  query aboutThisSiteQuery {
     currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
@@ -196,4 +211,4 @@ export const query = graphql`
   }
 `;
 
-export default Subscribe;
+export default aboutThisSite;

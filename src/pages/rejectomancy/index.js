@@ -23,7 +23,7 @@ function shuffle(array) {
   return array;
 }
 
-const Subscribe = (props) => {
+const Rejectomancy = (props) => {
   const data = props.data;
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
   
@@ -32,11 +32,11 @@ const Subscribe = (props) => {
   
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Subscribe" />
+      <SEO title="Rejectomancy" />
       <Helmet>
         <meta
           name="description"
-          content="Subscribe page of Haven Spec"
+          content="Haven Spec Rejectomancy"
         />
       </Helmet>
 
@@ -92,7 +92,7 @@ const Subscribe = (props) => {
                 <div className="wideRight">
                 <div className="col-12">
                   <h4>
-                    SUBSCRIBE AND SUPPORT
+                    REJECTOMANCY
                   </h4>
                   <hr />
                 </div>
@@ -104,42 +104,29 @@ const Subscribe = (props) => {
                     </Link>
                   </div>                
 
-            <h1 className="pb-1 pt-1">
-              Subscribe
+            <h1 className="pt-1 pb-1">
+              Rejectomancy
             </h1>
             <p>
-              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or <Link to=""> Patreon</Link>! It's 
-              basically magic! You can also get cool merch and our eternal thanks! Remember—a mastodon never forgets!
+              We think feedback is important, and while we can't give specific notes on every story we get, we try to structure our rejection letters so you have 
+              some idea what we were thinking when we declined a story.
             </p>
-            <p className="pb-1">  
-              Check out <Link to="https://ko-fi.com/havenspec/tiers">our membership page on Ko-Fi </Link> or <Link to="">find us on Patreon </Link>to subscribe!
+            <p>
+              The first tier will usually be something like, "We felt that *X* was off in the first few pages..." This generally means that we didn't read past the beginning, and the 
+              problem for us is almost always pacing, characterization, or over-used tropes at this point.
             </p>
-            <hr />
-            <h1 className="pt-1 pb-1">
-            Kickstarter
-            </h1>
+            <p>
+              The second tier will usually be something like, "We liked this story overall, but..." and then offer something more specific. Getting this rejection means we 
+              made it most of the way through the story (or all the way to the end!), but it didn't quite come together for us. This is often because the ending falls flat for us, 
+              or the piece feels like it needs a bit too much work.
+            </p>
+            <p>
+              The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites on the way to an acceptance (!!). At 
+              this level, we usually go through a few rounds of edits before a decision is made to accept or reject. These stories often get accepted, but not always.
+            </p>
             <p className="pb-1">
-              Keep an eye on this space for information about any Kickstarters we might do.
+              (There are a variety of other tiers for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. Luckily these are rare.)
             </p>
-            <p>
-              The future belongs to all of us. 
-            </p>
-            <hr />
-
-            <h1 className="pt-1 pb-1">
-              Advertise
-            </h1>
-            <p className="">
-              At this moment, all ads are $30 per month, starting from the first of a given month and going until that month ends.
-            </p>
-            <p>
-              Each ad appears on every page of the website. The square ads change positions with each pageview. Do note, however, that all advertisements are subject to approval.
-            </p>
-            <p>
-              To advertise, contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.) Please also be prepared to send us a
-              suitable image of 250 x 250 pixels (for square ads) or 424 x 60 pixels (for the banner ad), along with a single link to whatever's being advertised. 
-            </p>
-
             <hr className="mb-2" />
 
           </div>
@@ -152,7 +139,7 @@ const Subscribe = (props) => {
 };
 
 export const query = graphql`
-  query SubscribeQuery {
+  query RejectomancyQuery {
     currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
@@ -196,4 +183,4 @@ export const query = graphql`
   }
 `;
 
-export default Subscribe;
+export default Rejectomancy;

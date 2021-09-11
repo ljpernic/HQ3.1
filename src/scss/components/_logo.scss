@@ -3,7 +3,7 @@
   width: 150px;
   @include media-breakpoint-up(xs) {
     display: inline-block;
-    width: 325px;
+    width: 300px;
     margin-top:15px;
   }
   @include media-breakpoint-up(sm) {

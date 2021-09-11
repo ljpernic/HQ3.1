@@ -144,11 +144,11 @@
     line-height: 1.6;
     padding: 10px 25px 10px 35px;
     @include media-breakpoint-up(xs) {
-      text-align: justify;
+      text-align: center;
       width: 100%;
     }
     @include media-breakpoint-up(sm) {
-      text-align: justify;
+      text-align: center;
       width: 100%;
     }
     @include media-breakpoint-up(md) {
@@ -261,9 +261,42 @@
   display: grid;
   float: right;
   margin: 10px 60px 5px 35px;
-//  width: 175px;
   text-align: center;
   border: 2px solid black;
+//  width: 175px;
+  @include media-breakpoint-up(xs)
+  {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    align-items: center;
+    margin: 10px 50px 5px 50px;
+    border: none;
+  }
+  @include media-breakpoint-up(sm)
+  {
+    display: grid;
+    float: right;
+    margin: 10px 60px 5px 35px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  @include media-breakpoint-up(md)
+  {
+    display: grid;
+    float: right;
+    margin: 10px 60px 5px 35px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  @include media-breakpoint-up(lg)
+  {
+    display: grid;
+    float: right;
+    margin: 10px 60px 5px 35px;
+    text-align: center;
+    border: 2px solid black;
+  }
 }
 
 .topimage {                                                                 //This is for the cover at the top
@@ -458,12 +491,12 @@
   text-shadow: 2px 2px gray;
   color: white;
   display: block;
-  align-items: center;
+//  align-items: center;
   justify-content: center;
 }
 
 .biotitle {
-  text-align: left !important;
+//  text-align: left !important;
 }
 
 .frontissue {
