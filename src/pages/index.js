@@ -134,7 +134,7 @@ const Home = (props) => {                                                     //
                         Fiction:
                       </h4>
                         {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
+                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
                           .map(({ node: post }) => {
                             return (
                               <p key={post.frontmatter.title}>
@@ -146,7 +146,7 @@ const Home = (props) => {                                                     //
                           Poetry:
                         </h4>
                           {posts
-                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
+                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
                             .map(({ node: post }) => {
                             return (
                               <p key={post.frontmatter.title}>
@@ -158,7 +158,7 @@ const Home = (props) => {                                                     //
                           Non-Fiction:
                         </h4>
                           {posts
-                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, Summer 2020")
+                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
                             .map(({ node: post }) => {
                             return (
                               <p key={post.frontmatter.title}>
@@ -170,7 +170,7 @@ const Home = (props) => {                                                     //
                       </div>
                     </div>
                     <div className="col-12 text-center pb-8">
-                      <Link className="button button-primary" to="/issue-one">
+                      <Link className="button button-primary" to="/issue-zero">
                         View Issue
                       </Link>
                 </div>

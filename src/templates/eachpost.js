@@ -101,7 +101,7 @@ const Eachpost = ({ data }) => {
               <div className="wideRight">
                 <div className="col-12">
 
-                  <h4 className="pb-1">
+                  <h4>
                     {category}
                   </h4>
                   <hr />
