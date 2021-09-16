@@ -222,11 +222,12 @@ const Submit = (props) => {
               WET ISSUE
             </h5>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              Each September, we publish our WET Issue! Here we focus on stories of water—monsoons and the rising tides, hurricanes and the disappearing coast—we'll center 
+              stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, even vaguely! </p>
             
-            <p className="pb-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="pb-1">
+              To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
+              affected by the crisis at hand. Submissions by climate refugees are very welcome. 
             </p>
 
             <Image className="editorImageAbout mb-5"
@@ -236,11 +237,14 @@ const Submit = (props) => {
               DRY ISSUE
             </h5>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              Each March, we publish our DRY Issue! Here we're looking for content that focuses on the dry aspects of climate change—desertification and falling reservoirs, 
+              rising temperatures and endless droughts—we'll center stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, 
+              even vaguely! 
+            </p>
             
-            <p className="pb-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="pb-1">
+              To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
+              affected by the crisis at hand. Submissions by climate refugees are very welcome.
             </p>
 
             <hr className="mb-2" />

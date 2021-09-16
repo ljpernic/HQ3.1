@@ -23,7 +23,7 @@ function shuffle(array) {
   return array;
 }
 
-const aboutThisSite = (props) => {
+const Organization = (props) => {
   const data = props.data;
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
   
@@ -93,7 +93,7 @@ const aboutThisSite = (props) => {
                 <div className="wideRight">
                 <div className="col-12">
                   <h4>
-                    About This Site
+                    Our Organization
                   </h4>
                   <hr />
                 </div>
@@ -106,59 +106,37 @@ const aboutThisSite = (props) => {
                   </div>                
 
                   <p>
-                    This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 
-                    gatsby.js and is used here under the MIT license. The background was taken from pixabay.
+                    Haven Spec is run cooperatively! That means we make our major decisions democratically and that we share what profits we earn according to an agreed 
+                    upon set of rules!
                   </p>
 
                   <p>
-                    A generic copy of this website (which was programmed with Gatsbyjs, a web framework based on ReactJS for building static websites) will soon be 
-                    available on GitHub! 
+                    Currently, we've agreed that, through 2022, every penny we get, whether through sales, subscriptions, or Kickstarter, will go towards increasing author pay, 
+                    up to SFWA-standard rates. After we reach SFWA rates, we've agreed that any money earned in excess will be put towards recouping expenses related to art and 
+                    web hosting. After those expenses, we've agreed that any profits remaining will be split each issue at a share ratio of 1/2/4 for associate editors, 
+                    assistant editors, and editors, respectively.
                   </p>
 
                   <p>
-                    A copy of the backend system we use will also soon be available for anyone who wants it! This is a good option for any magazine who can't afford the 
-                    expensive systems already in place. If you're an open source programmer and interested in contributing to the project, feel free to get in touch!  
+                    For example, if an issue has two associate editors and one editor, that would be 6 total number of shares for that issue (one for each associate editor and 
+                    four for the editor). If there were then $60 in profit after author pay increases and expenses, that would be split between the three editors at $10/$10/$40. 
                   </p>
 
-                  <hr className="mb-2"/>
+                  <p>
+                    Long-term shares of Haven Spec are also earned at a 1/2/4 ratio for associate editors, assistant editors, and editors, respectively. If Haven Spec were ever 
+                    sold at a profit, each previous and current editor would be due a portion of the profits equal to the total number of shares they've earned through the issues 
+                    they've worked on divided by the total number of shares earned by everyone across the life of the magazine.
+                  </p>
 
                   <p>
-                    <center>
-                      The website design is used here under the MIT license (MIT)
-                    </center>
+                    For example, after six issues (one year), if each issue had two associate editors and one editor, that means six shares per issue, and 36 shares total. 
+                    Each associate editor after six issues would have six shares, and the editor would have 24. A third associate editor added for the first issue of the 
+                    next year, then, would increase the number of shares per issue to seven (1/1/1/4), the individual totals to 7/7/1/28, and the shares overall to 43.
                   </p>
+
                   <p>
-                    <center>
-                      Copyright (c) 2015 gatsbyjs
-                    </center>
+                    The editors have also agreed to meet at least once a month, though the rules that govern profit and pay can only be changed in the first meeting of the year. 
                   </p>
-                  <p>
-                    <center>
-                      Permission is hereby granted, free of charge, to any person obtaining a copy
-                      of this software and associated documentation files (the "Software"), to deal
-                      in the software without restriction, including without limitation the rights
-                      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                      copies of the software, and to permit persons to whom the software is
-                      furnished to do so, subject to the following conditions:
-                    </center>
-                  </p>
-                <p>
-                  <center>
-                    The above copyright notice and this permission notice shall be included in all
-                    copies or substantial portions of the software.
-                  </center>
-                </p>
-              <p className="pb-1">
-                <center>
-                  The software is provided "As is", without warranty of any kind, express or
-                  implied, including but not limited to the warranties of merchantability,
-                  fitness for a particular purpose and noninfringement. In no event shall the
-                  authors or copyright holders be liable for any claim, damages or other
-                  liability, whether in an action of contract, tort or otherwise, arising from,
-                  out of or in connection with the software or the use or other dealings in the
-                  software.
-                </center>
-              </p>
 
             <hr className="mb-2" />
 
@@ -172,7 +150,7 @@ const aboutThisSite = (props) => {
 };
 
 export const query = graphql`
-  query aboutThisSiteQuery {
+  query OrganizationQuery {
     currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
       id
       childImageSharp {
@@ -216,4 +194,4 @@ export const query = graphql`
   }
 `;
 
-export default aboutThisSite;
+export default Organization;

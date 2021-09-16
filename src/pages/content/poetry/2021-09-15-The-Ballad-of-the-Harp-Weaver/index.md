@@ -31,7 +31,7 @@ And she began to cry.
 That was in the early fall.
 When came the late fall,
 "Son," she said, "the sight of you
-Makes your mother's blood crawl,--
+Makes your mother's blood crawl,—
 
 "Little skinny shoulder-blades
 Sticking through your clothes!
@@ -151,7 +151,7 @@ She sang as she worked,
 And the harp-strings spoke;
 Her voice never faltered,
 And the thread never broke.
-And when I awoke,--
+And when I awoke,—
 
 There sat my mother
 With the harp against her shoulder,

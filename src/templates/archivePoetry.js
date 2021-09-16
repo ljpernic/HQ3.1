@@ -119,7 +119,7 @@ export default class archivePoetry extends React.Component {
                   .filter(post => post.node.frontmatter.category === "POETRY")
                   .map(({ node: post }) => {
                     return (
-                      <div className="pb-1 container" key={post.id}>
+                      <div className="pb-1" key={post.id}>
                         <h1 className="pt-1">
                           <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                         </h1>

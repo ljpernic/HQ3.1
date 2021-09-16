@@ -34,6 +34,7 @@ const Subscribe = (props) => {
     <Layout bodyClass="page-home">
       <SEO title="Subscribe" />
       <Helmet>
+      <script async src="https://c6.patreon.com/becomePatronButton.bundle.js" />
         <meta
           name="description"
           content="Subscribe page of Haven Spec"
@@ -108,21 +109,27 @@ const Subscribe = (props) => {
               Subscribe
             </h1>
             <p>
-              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or <Link to=""> Patreon</Link>! It's 
-              basically magic! You can also get cool merch and our eternal thanks! Remember—a mastodon never forgets!
+              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or 
+              <Link to="https://www.patreon.com/HavenSpecMagazine"> Patreon</Link>! It's basically magic! Remember, a mastodon never forgets—to subscribe!
             </p>
-            <p className="pb-1">  
-              Check out <Link to="https://ko-fi.com/havenspec/tiers">our membership page on Ko-Fi </Link> or <Link to="">find us on Patreon </Link>to subscribe!
+            <p>
+              You can also sign up for workshop-style feedback from our editors on any work of prose or poetry you choose (once per month and up to 6K words), and there's even an 
+              option to meet one-on-one with our editor over zoom for an hour-long deep-dive critique session!
             </p>
+            <p className="pb-1">
+              Every penny that we get through Ko-Fi and Patreon will go towards increasing author pay! If you'd like to know more about our budget breakdown and organizational  
+              set up, <Link to="/organization">Click here!</Link> Help us pay our authors and artists the rates they deserve! 
+            </p>
+            <a href="https://www.patreon.com/bePatron?u=61506985" data-patreon-widget-type="become-patron-button">
+              Become a Patron!
+            </a>
+
             <hr />
             <h1 className="pt-1 pb-1">
             Kickstarter
             </h1>
             <p className="pb-1">
-              Keep an eye on this space for information about any Kickstarters we might do.
-            </p>
-            <p>
-              The future belongs to all of us. 
+              Keep an eye on this space for information about any Kickstarters we might do! The future belongs to all of us!
             </p>
             <hr />
 
@@ -133,7 +140,7 @@ const Subscribe = (props) => {
               At this moment, all ads are $30 per month, starting from the first of a given month and going until that month ends.
             </p>
             <p>
-              Each ad appears on every page of the website. The square ads change positions with each pageview. Do note, however, that all advertisements are subject to approval.
+              Each ad appears on every page of the website, and the square ads change position with each pageview. Do note, however, that all advertisements are subject to approval.
             </p>
             <p>
               To advertise, contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.) Please also be prepared to send us a

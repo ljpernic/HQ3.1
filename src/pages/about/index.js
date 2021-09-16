@@ -267,8 +267,12 @@ const About = (props) => {
                 </div>
             <hr className="mb-2" />
           <div>
+            <p>
+              Interested to know how this website was put together? Want to get a (free!) copy of the website and our backend systems of your 
+              own? <Link to="/about-this-site">Click here!</Link>
+            </p>
             <p className="mb-4">
-              Interested to know how this website was put together? Want to get a (free!) copy of your own? <Link to="/about-this-site">Click here!</Link>
+              Haven Spec is run cooperatively! Interested to know what that means? <Link to="/organization">Click here!</Link>
             </p>
           </div>
           </div>

@@ -38,7 +38,7 @@ module.exports = {
         link: '/contributors',
       },
       {
-        name: 'Support',
+        name: 'Subscribe',
         link: '/subscribe',
       },
       {

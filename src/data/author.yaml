@@ -148,6 +148,21 @@
   - poemtitle:
     poemlink:
 
+- id: Mary Shelley
+  idpath: "/mary-shelley"
+  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
+  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
+  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
+  ordination to promote temperance by destroying bars.[4]"
+  twitter: ''
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: Introduction to the 1831 Edition of Frankenstein
+    storylink: "/introduction-to-the-1831-edition-of-frankenstein"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Ella Wheeler Wilcox
   idpath: "/the-signboard"
   bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
@@ -178,158 +193,6 @@
   - poemtitle: "The Stolen Child"
     poemlink: "/the-stolen-child"
 
-- id: Raptor Alan
-  idpath: "/raptor-alan"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'RaptorAlanTwitter'
-  picture: ../images/profile/Raptor_Alan.jpg
-  stories:
-  - storytitle: This is the Title of Fiction One, Issue One
-    storylink: "/this-is-the-title-of-fiction-one-issue-one"
-  poems:
-  - poemtitle: Raptor Alan Poem One
-    poemlink: "/raptor-alan-poem-one"
-
-- id: Cheesy Fries Dan
-  idpath: "/cheesy-fries-dan"
-  bio: "Nation was also concerned about tight clothing for women. In fact, she refused to wear a corset and 
-  urged women not to wear them because of their harmful effects on vital organs.[2] She described herself as 
-  'a bulldog running along at the feet of Jesus, barking at what He doesn't like',[3] and claimed a divine 
-  ordination to promote temperance by destroying bars.[4]"
-  twitter: 'CheesyFriesDanTwitter'
-  picture: ../images/profile/Cheesy_Fries_Dan.jpg
-  stories:
-  - storytitle: This is the Title of Fiction One, Issue Two
-    storylink: "/this-is-the-title-of-fiction-one-issue-two"
-  poems:
-  - poemtitle: Cheesy Fries Dan Story Two
-    poemlink: ""
-
-- id: Glenda the Glad
-  idpath: "/glenda-the-glad"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'GlendatheGladTwitter'
-  picture: ../images/profile/Glenda_the_Glad.jpg
-  stories:
-  - storytitle: Glenda the Glad Story One
-    storylink: ""
-  poems:
-  - poemtitle: Glenda the Glad Story Two
-    poemlink: ""
-
-- id: Halty Haffenpfaff
-  idpath: "/halty-haffenpfaff"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'HaltyHaffenpfaffTwitter'
-  picture: ../images/profile/Halty_Haffenpfaff.jpg
-  stories:
-  - storytitle: This is the Title of Fiction Two, Issue Two
-    storylink: "/this-is-the-title-of-fiction-two-issue-two"
-  poems:
-  - poemtitle: Halty Haffenpfaff Story Two
-    poemlink: ""
-
-- id: Scurvy Joe
-  idpath: "/scurvy-joe"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'ScurvyJoeTwitter'
-  picture: ../images/profile/Scurvy_Joe.jpg
-  stories:
-  - storytitle: Scurvy Joe Story One
-    storylink: ""
-  poems:
-  - poemtitle: Scurvy Joe Story Two
-    poemlink: ""
-
-- id: Fanniford Kaplaniford
-  idpath: "/fanniford-kaplaniford"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/Fanniford_Kaplaniford.jpg
-  stories:
-  - storytitle: Fanniford Kaplaniford Story One
-    storylink: ""
-  poems:
-  - poemtitle: Fanniford Kaplaniford Story Two
-    poemlink: ""
-
-- id: The Robot Kid
-  idpath: "/the-robot-kid"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/The_Robot_Kid.jpg
-  stories:
-  - storytitle: The Robot Kid Story One
-    storylink: ""
-  poems:
-  - poemtitle: The Robot Kid Story Two 
-    poemlink: ""
-
-- id: Karl Marxerel
-  idpath: "/karl-marxerel"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'KarlMarxerelTwitter'
-  picture: ../images/profile/Karl_Marxerel.jpg
-  stories:
-  - storytitle: Karl Marxerel Story One
-    storylink: ""
-  poems:
-  - poemtitle: Karl Marxerel Story Two
-    poemlink: ""
-
-- id: Sally McSelfsurgury
-  idpath: "/sally-mcselfsurgury"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'SallyMcSelfsurguryTwitter'
-  picture: ../images/profile/Sally_McSelfsurgury.jpg
-  stories:
-  - storytitle: This is the Title of Fiction Two, Issue One
-    storylink: "/this-is-the-title-of-fiction-two-issue-One"
-  poems:
-  - poemtitle: Sally McSelfsurgury Story Two
-    poemlink: ""
-
-- id: Susan Susanovya
-  idpath: "/susan-susanovya"
-  bio: "Carrie Amelia Nation (forename sometimes spelled Carry;[1] November 25, 1846 – June 9, 1911) 
-  was an American woman who was a radical member of the temperance movement, which opposed alcohol before 
-  the advent of Prohibition. She is remembered for attacking alcohol-serving establishments (most often 
-  taverns) with a hatchet."
-  twitter: 'wgao19'
-  picture: ../images/profile/Susan_Susanovya.jpg
-  stories:
-  - storytitle: Susan Susanovya Story One
-    storylink: ""
-  poems:
-  - poemtitle: Susan Susanovya Story Two
-    poemlink: ""
-
 - id: Generic Name
   idpath: "/generic-name"
   bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
@@ -345,19 +208,3 @@
   poems:
   - poemtitle:
     poemlink:
-
-- id: Greg Actually a Monster
-  idpath: "/greg-actually-a-monster"
-  bio: "The spelling of her first name varies; both 'Carrie' and 'Carry' are considered correct. Official 
-  records say 'Carrie', which Nation used for most of her life; the name 'Carry' was used by her father in 
-  the family Bible. Upon beginning her campaign against liquor in the early 20th century, she adopted the name 
-  Carry A. Nation, saying it meant 'Carry A Nation for Prohibition'.[5] After gaining her notoriety, 
-  Carrie officially registered 'Carry' as a trademark.[6]"
-  twitter: 'wgao19'
-  picture: ../images/profile/Greg_Notamonster.jpg
-  stories:
-  - storytitle:
-    storylink:
-  poems:
-  - poemtitle: Greg Notamonster Story Two
-    poemlink: ""
