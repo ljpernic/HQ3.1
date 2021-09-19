@@ -32,7 +32,7 @@ const Organization = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="The Technical side of Haven Spec" />
+      <SEO title="Haven Spec Magazine's organization and budget breakdown" />
       <Helmet>
         <meta
           name="description"
