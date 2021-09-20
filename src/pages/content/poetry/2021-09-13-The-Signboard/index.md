@@ -68,4 +68,4 @@ The sin and the shame and the sorrow,
 
 END
 
-*This poem was published in* The Kingdom of Love *and first published in 1909. It is currently in the public domain.*
+*This poem was published in* The Kingdom of Love *in 1909. It is currently in the public domain.*

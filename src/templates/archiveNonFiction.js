@@ -55,20 +55,20 @@ export default class archiveNonFiction extends React.Component {
             <div className="grid-container">
               <div className="thinLeft one">
                 <div>
-                  <Link to="">
+                  <a href={currentIssue}>
                     <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={data.currentCover.childImageSharp.fixed}
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to={currentIssue}>
-                    BUY CURRENT ISSUE
-                  </Link>
+                      <a className="buybutton button-primary" href={currentIssue}>
+                        BUY CURRENT ISSUE
+                      </a>
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2 mt-6"
                       fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -78,7 +78,7 @@ export default class archiveNonFiction extends React.Component {
                   </h6>
                 </div>
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -89,7 +89,7 @@ export default class archiveNonFiction extends React.Component {
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -108,7 +108,7 @@ export default class archiveNonFiction extends React.Component {
                   </h4>
                   <hr />
                   <div className="pt-2">
-                    <Link to="">
+                  <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />

@@ -1,9 +1,10 @@
 import React from 'react';  
 import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../components/SEO';
+import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
-import Image from 'gatsby-image';
 import Helmet from 'react-helmet';
+import Image from 'gatsby-image';
 
 import { IconContext } from "react-icons";
 import { FaTwitter } from 'react-icons/fa';
@@ -55,20 +56,20 @@ const Eachauthor = props => {
             <div className="grid-container">
               <div className="thinLeft one">
                 <div>
-                  <Link to="">
+                  <a href={currentIssue}>
                     <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={data.currentCover.childImageSharp.fixed}
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to={currentIssue}>
-                    BUY CURRENT ISSUE
-                  </Link>
+                      <a className="buybutton button-primary" href={currentIssue}>
+                        BUY CURRENT ISSUE
+                      </a>
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2 mt-6"
                       fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -78,7 +79,7 @@ const Eachauthor = props => {
                   </h6>
                 </div>
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -89,7 +90,7 @@ const Eachauthor = props => {
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -122,9 +123,7 @@ const Eachauthor = props => {
                   <h1 className="pt-1 pb-1">
                     {idname}
                   </h1>
-                  <p className="pb-2">
-                    {bio}
-                  </p>
+                  <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
                   <h5 className="hideable">
                     Fiction by {idname}
                   </h5>
@@ -143,7 +142,15 @@ const Eachauthor = props => {
                     })}
                   </p>
                   <hr className="mb-2 mt-5"/>
+                
+                  <Link to="/subscribe">
+                      <Image className="advertLong"
+                        fixed={data.advertLong.childImageSharp.fixed}
+                      />
+                    </Link>
+                    
                 </div>
+                
               </div>
               </div>
             </div>

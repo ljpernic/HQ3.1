@@ -46,20 +46,20 @@ const Rejectomancy = (props) => {
             <div className="grid-container">
               <div className="thinLeft one">
                 <div>
-                    <Link to="">
-                      <Image className="topImageLeft"
-                        fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
+                  <a href={currentIssue}>
+                    <Image className="topImageLeft"
+                      fixed={data.currentCover.childImageSharp.fixed}
+                    />
+                  </a>
                     <div className="text-center">
-                      <Link className="buybutton button-primary" to={currentIssue}>
+                      <a className="buybutton button-primary" href={currentIssue}>
                         BUY CURRENT ISSUE
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="justify-content-center">
 
-                  <Link to="">
+                  <Link to="/subscribe">
                       <Image className="advert mb-2 mt-6"
                         fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />
@@ -69,7 +69,7 @@ const Rejectomancy = (props) => {
                   ADVERT
                 </h6>
                 <div>
-                <Link to="">
+                <Link to="/subscribe">
                       <Image className="advert mb-2"
                         fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />
@@ -79,7 +79,7 @@ const Rejectomancy = (props) => {
                   ADVERT
                 </h6>
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                       <Image className="advert mb-2"
                         fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />
@@ -97,7 +97,7 @@ const Rejectomancy = (props) => {
                   <hr />
                 </div>
                 <div className="pt-2">
-                    <Link to="">
+                <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />

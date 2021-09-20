@@ -1,12 +1,13 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
+import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
 import CustomReactShare from "../components/CustomShareBlock";
 
-import { FaTwitter } from 'react-icons/fa';
 import { IconContext } from "react-icons";
+import { FaTwitter } from 'react-icons/fa';
 
 function shuffle(array) {
   var currentIndex = array.length,  randomIndex;
@@ -52,20 +53,20 @@ const Eachpost = ({ data }) => {
             <div className="grid-container">
               <div className="thinLeft one">
                 <div>
-                  <Link to="">
+                  <a href={currentIssue}>
                     <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={data.currentCover.childImageSharp.fixed}
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link className="buybutton button-primary" to={currentIssue}>
-                    BUY CURRENT ISSUE
-                  </Link>
+                      <a className="buybutton button-primary" href={currentIssue}>
+                        BUY CURRENT ISSUE
+                      </a>
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2 mt-6"
                       fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -75,7 +76,7 @@ const Eachpost = ({ data }) => {
                   </h6>
                 </div>
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -86,7 +87,7 @@ const Eachpost = ({ data }) => {
                 </div>
 
                 <div>
-                  <Link to="">
+                <Link to="/subscribe">
                     <Image className="advert mb-2"
                       fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
                     />
@@ -119,7 +120,17 @@ const Eachpost = ({ data }) => {
                     <CustomReactShare title={title} excerpt={excerpt} url={url} />
                   </div>
 
+                  <Link to="/subscribe">
+                      <Image className="advertLong"
+                        fixed={data.advertLong.childImageSharp.fixed}
+                      />
+                    </Link>
+
+
                   <hr />
+
+
+                  
                   <div className="authorimagebottom">
                     <Image className=""
                       fluid={author.picture.childImageSharp.fluid}            /*Author Image called here*/
@@ -132,12 +143,26 @@ const Eachpost = ({ data }) => {
                   </div>
 
                     <h1 className="biotitle"><Link to={author.idpath}> {author.id}</Link></h1>
-                    <p>{author.bio}</p>
-                    <p>{author.stories.map((data, index) => {
-                      return <li key={`content_item_${index}`}>{data.item}</li>
-                      })}
-                    </p> 
-                    <hr className="mb-2" />
+                    <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
+                    <h5 className="hideable">
+                    Fiction by {author.id}
+                  </h5>
+                  <p className="hideable pb-2">
+                    {author.stories
+                      .map((data, index) => {
+                      return <Link key={`content_storytitle_${index}`} to={data.storylink}><li key={`content_storytitle_${index}`}>{data.storytitle}</li></Link>
+                    })}
+                  </p>
+                  <h5 className="hideable pb-0">
+                    Poetry by {author.id}
+                  </h5>
+                  <p className="hideable">
+                    {author.poems
+                      .map((data, index) => {
+                      return <Link key={`content_poemtitle_${index}`} to={data.poemlink}><li key={`content_poemtitle_${index}`}>{data.poemtitle}</li></Link>
+                    })}
+                  </p>
+                  <hr className="mb-2 mt-5"/>
 
                 </div>
               </div>
@@ -201,6 +226,9 @@ export const query = graphql`
           twitter
           stories {
             storytitle
+          }
+          poems {
+            poemtitle
           }
           picture {
             childImageSharp {
