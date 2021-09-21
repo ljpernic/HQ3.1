@@ -18,21 +18,21 @@ Steena was strictly background stuff and that is where she mostly spent her free
 
 She drifted from port to port. Being an expert operator on the big calculators she found jobs wherever she cared to stay for a time. And she came to be something like the master-minded machines she tended—smooth, gray, without much personality of her own.
 
-But it was Steena who told Bub Nelson about the Jovan moon-rites—and her warning saved Bub’s life six months later. It was Steena who identified the piece of stone Keene Clark was passing around a table one night, rightly calling it unworked Slitite. That started a rush which made ten fortunes overnight for men who were down to their last jets. And, last of all, she cracked the case of the Empress of Mars.
+But it was Steena who told Bub Nelson about the Jovan moon-rites—and her warning saved Bub’s life six months later. It was Steena who identified the piece of stone Keene Clark was passing around a table one night, rightly calling it unworked Slitite. That started a rush which made ten fortunes overnight for men who were down to their last jets. And, last of all, she cracked the case of the *Empress of Mars*.
 
 All the boys who had profited by her queer store of knowledge and her photographic memory tried at one time or another to balance the scales. But she wouldn’t take so much as a cup of Canal water at their expense, let alone the credits they tried to push on her. Bub Nelson was the only one who got around her refusal. It was he who brought her Bat.
 
 About a year after the Jovan affair he walked into the Free Fall one night and dumped Bat down on her table. Bat looked at Steena and growled. She looked calmly back at him and nodded once. From then on they traveled together—the thin gray woman and the big gray tom-cat. Bat learned to know the inside of more stellar bars than even most spacers visit in their lifetimes. He developed a liking for Vernal juice, drank it neat and quick, right out of a glass. And he was always at home on any table where Steena elected to drop him.
 
-This is really the story of Steena, Bat, Cliff Moran and the Empress of Mars, a story which is already a legend of the spaceways. And it’s a damn good story too. I ought to know, having framed the first version of it myself.
+This is really the story of Steena, Bat, Cliff Moran and the *Empress of Mars*, a story which is already a legend of the spaceways. And it’s a damn good story too. I ought to know, having framed the first version of it myself.
 
 For I was there, right in the Rigel Royal, when it all began on the night that Cliff Moran blew in, looking lower than an antman’s belly and twice as nasty. He’d had a spell of luck foul enough to twist a man into a slug-snake and we all knew that there was an attachment out for his ship. Cliff had fought his way up from the back courts of Venaport. Lose his ship and he’d slip back there—to rot. He was at the snarling stage that night when he picked out a table for himself and set out to drink away his troubles.
 
 However, just as the first bottle arrived, so did a visitor. Steena came out of her corner, Bat curled around her shoulders stole-wise, his favorite mode of travel. She crossed over and dropped down without invitation at Cliff’s side. That shook him out of his sulks. Because Steena never chose company when she could be alone. If one of the man-stones on Ganymede had come stumping in, it wouldn’t have made more of us look out of the corners of our eyes.
 
-She stretched out one long-fingered hand and set aside the bottle he had ordered and said only one thing, “It’s about time for the Empress of Mars to appear again.”
+She stretched out one long-fingered hand and set aside the bottle he had ordered and said only one thing, “It’s about time for the *Empress* of Mars to appear again.”
 
-Cliff scowled and bit his lip. He was tough, tough as jet lining—you have to be granite inside and out to struggle up from Venaport to a ship command. But we could guess what was running through his mind at that moment. The Empress of Mars was just about the biggest prize a spacer could aim for. But in the fifty years she had been following her queer derelict orbit through space many men had tried to bring her in—and none had succeeded.
+Cliff scowled and bit his lip. He was tough, tough as jet lining—you have to be granite inside and out to struggle up from Venaport to a ship command. But we could guess what was running through his mind at that moment. The *Empress* of Mars was just about the biggest prize a spacer could aim for. But in the fifty years she had been following her queer derelict orbit through space many men had tried to bring her in—and none had succeeded.
 
 A pleasure-ship carrying untold wealth, she had been mysteriously abandoned in space by passengers and crew, none of whom had ever been seen or heard of again. At intervals thereafter she had been sighted, even boarded. Those who ventured into her either vanished or returned swiftly without any believable explanation of what they had seen—wanting only to get away from her as quickly as possible. But the man who could bring her in—or even strip her clean in space—that man would win the jackpot.
 
@@ -84,7 +84,7 @@ With a last throat-splitting screech of rage and hate, Bat twisted to safety bet
 
 “What…?” began Cliff again.
 
-Steena made a warning motion with her left hand. “Wait!”
+Steena made a warning motion with her left hand. “*Wait!*”
 
 She was still tense, still watching Bat. The cat dashed madly around the cabin twice, running crazily with white-ringed eyes and flecks of foam on his muzzle. Then he stopped abruptly in the doorway, stopped and looked back over his shoulder for a long silent moment. He sniffed delicately.
 
@@ -102,15 +102,15 @@ Her voice quavered and she raised her chin with a new air Cliff had never seen b
 
 “It was curious at first, I think, and it knew we couldn’t see it—which is why it waited to attack. But when Bat’s actions gave it away it moved. So I waited to see that flicker against the spaceall and then I let him have it. It’s really very simple….”
 
-Cliff laughed a bit shakily. “But what was this gray thing? I don’t get it.”
+Cliff laughed a bit shakily. “But what *was* this gray thing? I don’t get it.”
 
-“I think it was what made the Empress a derelict. Something out of space, maybe, or from another world somewhere.” She waved her hands. “It’s invisible because it’s a color beyond our range of sight. It must have stayed in here all these years. And it kills—it must—when its curiosity is satisfied.” Swiftly she described the scene in the cabin and the strange behavior of the gem pile which had betrayed the creature to her.
+“I think it was what made the *Empress* a derelict. Something out of space, maybe, or from another world somewhere.” She waved her hands. “It’s invisible because it’s a color beyond our range of sight. It must have stayed in here all these years. And it kills—it must—when its curiosity is satisfied.” Swiftly she described the scene in the cabin and the strange behavior of the gem pile which had betrayed the creature to her.
 
 Cliff did not return his blaster to its holder. “Any more of them on board, d’you think?” He didn’t look pleased at the prospect.
 
 Steena turned to Bat. He was paying particular attention to the space between two front toes in the process of a complete bath. “I don’t think so. But Bat will tell us if there are. He can see them clearly, I believe.”
 
-But there weren’t any more and two weeks later Cliff, Steena and Bat brought the Empress into the Lunar quarantine station. And that is the end of Steena’s story because, as we have been told, happy marriages need no chronicles. And Steena had found someone who knew of her gray world and did not find it too hard to share with her—someone besides Bat. It turned out to be a real love match.
+But there weren’t any more and two weeks later Cliff, Steena and Bat brought the *Empress* into the Lunar quarantine station. And that is the end of Steena’s story because, as we have been told, happy marriages need no chronicles. And Steena had found someone who knew of her gray world and did not find it too hard to share with her—someone besides Bat. It turned out to be a real love match.
 
 The last time I saw her she was wrapped in a flame-red cloak from the looms of Rigel and wore a fortune in Jovan rubies blazing on her wrists. Cliff was flipping a three-figure credit bill to a waiter. And Bat had a row of Vernal juice glasses set up before him. Just a little family party out on the town.
 

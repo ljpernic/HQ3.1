@@ -15,7 +15,7 @@ featured: true
 
 Hampered as she was by the child in her arms, the woman was running less fleetly now. A wave of exultation swept over Guldran, drowning out the uneasy feeling of guilt at disobeying orders.
 
-The instructions were mandatory and concise: "No capture must be attempted individually. In the event of sighting any form of human life, the ship MUST be notified immediately. All small craft must be back at the landing space not later than one hour before take-off. Anyone not so reporting will be presumed lost."
+The instructions were mandatory and concise: "*No* capture must be attempted individually. In the event of sighting any form of human life, the ship MUST be notified immediately. All small craft must be back at the landing space not later than one hour before take-off. Anyone not so reporting will be presumed lost."
 
 Guldran thought uneasily of the great seas of snow and ice sweeping inexorably toward each other since the Earth had reversed on its axis in the great catastrophe a millennium ago. Now, summer and winter alike brought paralyzing gales and blizzards, heralded by the sleety snow in which the woman's skin-clad feet had left the tracks which led to discovery.
 
@@ -23,7 +23,7 @@ His trained anthropologist's mind speculated avidly over the little they had got
 
 But what a stroke of fortune that there should be left a male and female of the race to carry the seed of Terra to another planet. And what a triumph if he, Guldran, should be the one to return at the eleventh hour with the prize. No need of calling for help. This was no armed war-party, but the most defenseless being in the Universe—a mother burdened with a child.
 
-Guldran put on another burst of speed. His previous shouts had served only to spur the woman to greater efforts. Surely there was some magic word that had survived even the centuries of illiteracy. Something equivalent to the "bread and salt" of all illiterate peoples. Cupping his hands to his mouth, he shouted, "Food! food!"
+Guldran put on another burst of speed. His previous shouts had served only to spur the woman to greater efforts. Surely there was *some* magic word that had survived even the centuries of illiteracy. Something equivalent to the "bread and salt" of all illiterate peoples. Cupping his hands to his mouth, he shouted, "Food! food!"
 
 Ahead of him the woman turned her head, leaped lightly in mid-stride, and went on; slowing a little but still running doggedly.
 

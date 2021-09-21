@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import Helmet from 'react-helmet';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
+import Helmet from 'react-helmet';
+import Image from "gatsby-image";
 
 import { FaTwitter } from 'react-icons/fa';
 import { IconContext } from "react-icons";
@@ -190,10 +190,9 @@ const About = (props) => {
                     be able to submit to the magazine while you're a member of staff, but it's a great opportunity to learn the ropes in spec fiction publishing.
                   </p> 
                   <p className="pb-1">
-                    To apply, email us with "VOLUNTEER" in the subject line, along with your relevant interests and background (if any), and we'll go from there!                  
+                    To apply, fill out the contact form below with your relevant interests and background (if any), and we'll go from there!                  
                   </p>
                 </div>
-                <hr />
 
     {/*                   <button type="button" className="collapsible">Awards</button>                               HIDDEN BUTTON FOR AWARDS 
                             <div className="collapsibleContent pt-2 pb-1">
@@ -206,19 +205,6 @@ const About = (props) => {
                             </div>
     */}
 
-                <div>
-                  <h1 className="pt-1 pb-1">
-                    Contact
-                  </h1>
-                  <p>
-                    For art, fiction, letter, non-fiction, and poetry submissions, see the <a href="http://localhost:8000/submit">submission page</a> for more 
-                    details. For advertising, see the entry under the <a href="http://localhost:8000/subscribe">subscribe and support page</a>.
-                    For everything else, you can contact us at (our domain name)@gmail.com. (The domain name is the thing between "www." and ".com" of the homepage.)
-                  </p>
-                  <p className="pb-1">
-                    Use this power only for good.
-                  </p>
-                </div>
                 <hr />
                 <div>
                   <h1 className="pt-1 pb-1">
@@ -266,6 +252,24 @@ const About = (props) => {
                   </p>
                 </div>
             <hr className="mb-2" />
+          
+            <button type="button" className="collapsible">Contact</button>
+              <div className="collapsibleContent pt-2">
+                
+                  <p>
+                    To submit art, fiction, non-fiction, and poetry, visit the <Link to="/submit">submission page</Link>. For advertising, go to <Link to="/subscribe">subscribe 
+                    and support page</Link>. For everything else, fill out this form!
+                  </p>
+                  <p className="pb-1">
+                    Use this power only for good.
+                  </p>
+                
+                <iframe className="iframeContact" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/6"></iframe>
+                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+              </div>
+              
+              <hr className="mb-2" />
+
           <div>
             <p>
               Interested to know how this website was put together? Want to get a (free!) copy of the website and our backend systems of your 

@@ -20,10 +20,10 @@ The drowsy water rats;
 There we've hid our faery vats,  
 Full of berries,  
 And of reddest stolen cherries.  
-Come away, O human child!  
-To the waters and the wild  
-With a faery, hand in hand,  
-For the world's more full of weeping than you can understand.  
+*Come away, O human child!*  
+*To the waters and the wild*  
+*With a faery, hand in hand,*  
+*For the world's more full of weeping than you can understand.*  
 
 Where the wave of moonlight glosses  
 The dim gray sands with light,  
@@ -31,15 +31,15 @@ Far off by furthest Rosses
 We foot it all the night,  
 Weaving olden dances,  
 Mingling hands and mingling glances  
-221Till the moon has taken flight;  
+Till the moon has taken flight;  
 To and fro we leap  
 And chase the frothy bubbles,  
 While the world is full of troubles  
 And is anxious in its sleep.  
-Come away, O human child!  
-To the waters and the wild  
-With a faery, hand in hand,  
-For the world's more full of weeping than you can understand.  
+*Come away, O human child!*  
+*To the waters and the wild*  
+*With a faery, hand in hand,*  
+*For the world's more full of weeping than you can understand.*  
 
 Where the wandering water gushes  
 From the hills above Glen-Car,  
@@ -51,10 +51,10 @@ Give them unquiet dreams;
 Leaning softly out  
 From ferns that drop their tears  
 Over the young streams,  
-Come away, O human child!  
-To the waters and the wild  
-With a faery, hand in hand,  
-222For the world's more full of weeping than you can understand.  
+*Come away, O human child!*  
+*To the waters and the wild*  
+*With a faery, hand in hand,*  
+*For the world's more full of weeping than you can understand.*  
 
 Away with us he's going,  
 The solemn-eyed:  
@@ -64,10 +64,10 @@ Or the kettle on the hob
 Sing peace into his breast,  
 Or see the brown mice bob  
 Round and round the oatmeal-chest.  
-For he comes, the human child,  
-To the waters and the wild  
-With a faery, hand in hand,  
-From a world more full of weeping than he can understand.  
+*For he comes, the human child,*  
+*To the waters and the wild*  
+*With a faery, hand in hand,*  
+*From a world more full of weeping than he can understand.*  
 
 END
 

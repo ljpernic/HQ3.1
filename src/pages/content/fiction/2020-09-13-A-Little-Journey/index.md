@@ -21,18 +21,18 @@ None of these people had ever shaken Mrs. Bellowes' faith, even when she saw the
 
 And then, two weeks ago, she had seen Mr. Thirkell's advertisement in New York City:
 
-COME TO MARS!
+**COME TO MARS!**
 
-Stay at the Thirkell Restorium for one week. And then,
-on into space on the greatest adventure life can offer!
+**Stay at the Thirkell Restorium for one week. And then,**
+**on into space on the greatest adventure life can offer!**
 
-Send for Free Pamphlet: "Nearer My God To Thee."
+**Send for Free Pamphlet: "Nearer My God To Thee."**
 
-Excursion rates. Round trip slightly lower.
+**Excursion rates. Round trip slightly lower.**
 
-"Round trip," Mrs. Bellowes had thought. "But who would come back after seeing Him?"
+"Round trip," Mrs. Bellowes had thought. "But who would come back after seeing *Him*?"
 
-And so she had bought a ticket and flown off to Mars and spent seven mild days at Mr. Thirkell's Restorium, the building with the sign on it which flashed: THIRKELL'S ROCKET TO HEAVEN! She had spent the week bathing in limpid waters and erasing the care from her tiny bones, and now she was fidgeting, ready to be loaded into Mr. Thirkell's own special private rocket, like a bullet, to be fired on out into space beyond Jupiter and Saturn and Pluto. And thus—who could deny it?—you would be getting nearer and nearer to the Lord. How wonderful! Couldn't you just feel Him drawing near? Couldn't you just sense His breath, His scrutiny, His Presence?
+And so she had bought a ticket and flown off to Mars and spent seven mild days at Mr. Thirkell's Restorium, the building with the sign on it which flashed: THIRKELL'S ROCKET TO HEAVEN! She had spent the week bathing in limpid waters and erasing the care from her tiny bones, and now she was fidgeting, ready to be loaded into Mr. Thirkell's own special private rocket, like a bullet, to be fired on out into space beyond Jupiter and Saturn and Pluto. And thus—who could deny it?—you would be getting nearer and nearer to the Lord. How wonderful! Couldn't you just *feel* Him drawing near? Couldn't you just sense His breath, His scrutiny, His Presence?
 
 "Here I am," said Mrs. Bellowes, "an ancient rickety elevator, ready to go up the shaft. God need only press the button."
 
@@ -44,7 +44,7 @@ She opened the front door and let it slam, somewhat irritably.
 
 She was amazed at the other women in the auditorium. It was like wandering in a carnival mirror-maze, coming again and again upon yourself—the same floury face, the same chicken hands, and jingling bracelets. One after another of the images of herself floated before her. She put out her hand, but it wasn't a mirror; it was another lady shaking her fingers and saying:
 
-"We're waiting for Mr. Thirkell. Sh!"
+"We're waiting for Mr. Thirkell. *Sh*!"
 
 "Ah," whispered everyone.
 
@@ -54,7 +54,7 @@ Mr. Thirkell appeared, fantastically serene, his Egyptian eyes upon everyone. Bu
 
 Mrs. Bellowes, with a secret part of her mind which she constantly had to grip tightly, expected to hear a cheap Chinese gong sound when Mr. Thirkell entered. His large liquid dark eyes were so improbable that one of the old ladies had facetiously claimed she saw a mosquito cloud hovering over them as they did around summer rain-barrels. And Mrs. Bellowes sometimes caught the scent of the theatrical mothball and the smell of calliope steam on his sharply pressed suit.
 
-But with the same savage rationalization that had greeted all other disappointments in her rickety life, she bit at the suspicion and whispered, "This time it's real. This time it'll work. Haven't we got a rocket?"
+But with the same savage rationalization that had greeted all other disappointments in her rickety life, she bit at the suspicion and whispered, "This time it's *real*. This time it'll work. Haven't we got a *rocket*?"
 
 Mr. Thirkell bowed. He smiled a sudden Comedy Mask smile. The old ladies looked in at his epiglottis and sensed chaos there.
 
@@ -78,7 +78,7 @@ In the next instant, Mr. Thirkell might have cried, or been tempted to cry, "Lad
 
 "Yes. You can stay here at the Restorium for seven more days, can't you? A little delay won't matter, will it, in the end? You've waited a lifetime. Only a few more days."
 
-At twenty dollars a day, thought Mrs. Bellowes, coldly.
+*At twenty dollars a day*, thought Mrs. Bellowes, coldly.
 
 "What's the trouble?" a woman cried.
 
@@ -100,7 +100,7 @@ Mr. Thirkell looked into the old ladies' eyes, a missionary among albino canniba
 
 "Well, now," he said.
 
-"Yes, now!" cried Mrs. Bellowes.
+"Yes, *now*!" cried Mrs. Bellowes.
 
 "I'm afraid—" he began.
 
@@ -128,7 +128,7 @@ The rocket was something like a battered copper pot. There were a thousand bulge
 
 Everyone wailed a little sighing wail.
 
-"Is that the rocket ship Glory Be to the Highest?" cried Mrs. Bellowes, appalled.
+"Is that the rocket ship *Glory Be to the Highest*?" cried Mrs. Bellowes, appalled.
 
 Mr. Thirkell nodded and looked at his feet.
 
@@ -138,7 +138,7 @@ Mr. Thirkell nodded and looked at his feet.
 
 "It's nothing but junk!"
 
-Junk, whispered everyone, getting hysterical.
+*Junk*, whispered everyone, getting hysterical.
 
 "Don't let him get away!"
 
@@ -150,7 +150,7 @@ Everybody walked around in circles like blind mice. There was a confusion and a 
 
 She reached out and touched the rusted hulk of the rocket.
 
-"This is our rocket. We paid for our trip. And we're going to take our trip!"
+"This is *our* rocket. We paid for our trip. And we're going to *take* our trip!"
 
 Everyone rustled and stood on tiptoes and opened an astonished mouth.
 
@@ -190,21 +190,21 @@ The ship disintegrated into a million parts, and the old ladies, all one hundred
 
 As for Mr. Thirkell, for some reason of trajectory, perhaps, he had been blown out the other side of the ship. Mrs. Bellowes saw him falling separate and away from them, screaming, screaming.
 
-There goes Mr. Thirkell, thought Mrs. Bellowes.
+*There goes Mr. Thirkell*, thought Mrs. Bellowes.
 
 And she knew where he was going. He was going to be burned and roasted and broiled good, but very good.
 
 Mr. Thirkell was falling down into the Sun.
 
-And here we are, thought Mrs. Bellowes. Here we are, going on out, and out, and out.
+*And here we are*, thought Mrs. Bellowes. *Here we are, going on out, and out, and out.*
 
 There was hardly a sense of motion at all, but she knew that she was traveling at fifty thousand miles an hour and would continue to travel at that speed for an eternity, until....
 
 She saw the other women swinging all about her in their own trajectories, a few minutes of oxygen left to each of them in their helmets, and each was looking up to where they were going.
 
-Of course, thought Mrs. Bellowes. Out into space. Out and out, and the darkness like a great church, and the stars like candles, and in spite of everything, Mr. Thirkell, the rocket, and the dishonesty, we are going toward the Lord.
+*Of course*, thought Mrs. Bellowes. *Out into space. Out and out, and the darkness like a great church, and the stars like candles, and in spite of everything, Mr. Thirkell, the rocket, and the dishonesty, we are going toward the Lord.*
 
-And there, yes, there, as she fell on and on, coming toward her, she could almost discern the outline now, coming toward her was His mighty golden hand, reaching down to hold her and comfort her like a frightened sparrow....
+And there, yes, *there*, as she fell on and on, coming toward her, she could almost discern the outline now, coming toward her was His mighty golden hand, reaching down to hold her and comfort her like a frightened sparrow....
 
 "I'm Mrs. Amelia Bellowes," she said quietly, in her best company voice. "I'm from the planet Earth."
 

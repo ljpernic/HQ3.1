@@ -137,7 +137,8 @@ const Eachauthor = props => {
                     Poetry by {idname}
                   </h5>
                   <p className="hideable">
-                    {poems.map((data, index) => {
+                    {poems
+                      .map((data, index) => {
                       return <Link key={`content_poemtitle_${index}`} to={data.poemlink}><li key={`content_poemtitle_${index}`}>{data.poemtitle}</li></Link>
                     })}
                   </p>

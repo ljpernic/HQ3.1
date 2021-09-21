@@ -3,7 +3,7 @@ title: The Frozen Ocean
 author: Viola Meynell
 issue: Issue Zero, September 2021
 description: The sea would flow no longer, <br />It wearied after change, <br />It called its tides and breakers in, <br />From where they might range. <a href="https://www.havenspec.com/the-frozen-ocean/">[<i>...</i>]</a>
-shortdescription: The sea would flow no longer, <br />It wearied after change, <br />It called its tides and breakers in, <br />From where they might range. <a href="https://www.havenspec.com/the-frozen-ocean/">[<i>...</i>]</a><br /> =================================================================== +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+shortdescription: The sea would flow no longer, <br />It wearied after change, <br />It called its tides and breakers in, <br />From where they might range. <a href="https://www.havenspec.com/the-frozen-ocean/">[<i>...</i>]</a><br />
 category: POETRY
 cover: cover.jpg
 currentcover: CurrentCover.jpg

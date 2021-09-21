@@ -2,8 +2,8 @@
 title: The Snowball Effect
 author: Katherine MacLean
 issue: Issue Zero, September 2021
-description: Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it. <p>He bit off each word with great restraint. "Sociology is the study of social institutions, Mr. Halloway."</p> <p>I tried to make him understand my position. "Look, it's the big-money men who are supposed to be contributing to the support of this college. To them, sociology sounds like socialism—nothing can sound worse than that—and an institution is where they put Aunt Maggy when she began collecting Wheaties in a stamp album. We can't appeal to them that way. Come on now." I smiled condescendingly, knowing it would irritate him. "What are you doing that's worth anything?"</p> <a href="https://www.havenquarterly.com/the-snowball-effect">
-shortdescription: Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it. <a href="https://www.havenquarterly.com/malingering-fingers/">
+description: "&quot;All right,&quot; I said, &quot;what <i>is</i> sociology good for?&quot; <p>Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it. </p><p>He bit off each word with great restraint. &quot;Sociology is the study of social institutions, Mr. Halloway.&quot;</p> <p>I tried to make him understand my position. &quot;Look, it's the big-money men who are supposed to be contributing to the support of this college. To them, sociology sounds like socialism—nothing can sound worse than that—and an institution is where they put Aunt Maggy when she began collecting Wheaties in a stamp album. We can't appeal to them that way. Come on now.&quot; I smiled condescendingly, knowing it would irritate him. &quot;What are you doing that's worth anything?&quot;</p>"
+shortdescription: "&quot;All right,&quot; I said, &quot;what <i>is</i> sociology good for?&quot; <p>Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it.</p>"
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg
@@ -11,6 +11,8 @@ date: "2021-09-13T00:01:00.000Z"
 path: "/the-snowball-effect"
 featured: false
 ---
+
+"All right," I said, "what *is* sociology good for?"
 
 Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it.
 
@@ -127,7 +129,7 @@ I nudged Caswell and murmured, "Did you fix it so that a shover has a better cha
 
 "I think there's a way they could find for it," Caswell whispered back, and went to work on his equation again. "Yes, several ways to bias the elections."
 
-"Good. Point them out tactfully to the one you select. Not as if she'd use such methods, but just as an example of the reason why only she can be trusted with initiating the change. Just mention all the personal advantages an unscrupulous person could have."
+"Good. Point them out tactfully to the one you select. Not as if she'd use such methods, but just as an example of the reason why only *she* can be trusted with initiating the change. Just mention all the personal advantages an unscrupulous person could have."
 
 He nodded, keeping a straight and sober face as if we were exchanging admiring remarks about the techniques of clothes repairing, instead of conspiring.
 
@@ -181,7 +183,7 @@ Somehow I hadn't expected anything like that.
 
 "Thank you," I said and hung up, and after a moment noticed I was holding a box of red gummed stars in my hand. I closed it and put it down on top of the graph of membership in the sewing circle. No more members....
 
-Poor Caswell. The bet between us was ironclad. He wouldn't let me back down on it even if I wanted to. He'd probably quit before I put through the first slow move to fire him. His professional pride would be shattered, sunk without a trace. I remembered what he said about shooting himself. It had seemed funny to both of us at the time, but.... What a mess that would make for the university.
+Poor Caswell. The bet between us was ironclad. He wouldn't let me back down on it even if I wanted to. He'd probably quit before I put through the first slow move to fire him. His professional pride would be shattered, sunk without a trace. I remembered what he said about shooting himself. It had seemed funny to both of us at the time, but.... What a mess *that* would make for the university.
 
 I had to talk to Mrs. Searles. Perhaps there was some outside reason why the club had disbanded. Perhaps it had not just died.
 
@@ -217,7 +219,7 @@ I looked up. The speaker, with a clear, determined voice and conscious, forceful
 
 She paused and then leaned forward intensely, striking her clenched hand on the speaker's stand with each word for emphasis.
 
-"All we need is more members. Now get out there and recruit!"
+"*All we need is more members. Now get out there and recruit!*"
 
 I finally recognized Mrs. Searles, as an answering sudden blast of sound half deafened me. The crowd was chanting at the top of its lungs: "Recruit! Recruit!"
 
@@ -239,13 +241,13 @@ By the fifth month, the League had added a mutual baby-sitting service and had i
 
 Some real estate agents evidently had been drawn into the whirlpool early, along with their ideas. The slum improvement plans began to blossom and take on a tinge of real estate planning later in the month.
 
-The first day of the sixth month, a big two page spread appeared in the local paper of a mass meeting which had approved a full-fledged scheme for slum clearance of Watashaw's shack-town section, plus plans for rehousing, civic building, and rezoning. And good prospects for attracting some new industries to the town, industries which had already been contacted and seemed interested by the privileges offered.
+The first day of the sixth month, a big two page spread appeared in the local paper of a mass meeting which had approved a full-fledged scheme for slum clearance of Watashaw's shack-town section, plus plans for rehousing, civic building, and rezoning. *And* good prospects for attracting some new industries to the town, industries which had already been contacted and seemed interested by the privileges offered.
 
-And with all this, an arrangement for securing and distributing to the club members alone most of the profit that would come to the town in the form of a rise in the price of building sites and a boom in the building industry. The profit distributing arrangement was the same one that had been built into the organization plan for the distribution of the small profits of membership fees and honorary promotions. It was becoming an openly profitable business. Membership was rising more rapidly now.
+And with all this, an arrangement for securing and distributing to the club members *alone* most of the profit that would come to the town in the form of a rise in the price of building sites and a boom in the building industry. The profit distributing arrangement was the same one that had been built into the organization plan for the distribution of the small profits of membership fees and honorary promotions. It was becoming an openly profitable business. Membership was rising more rapidly now.
 
 By the second week of the sixth month, news appeared in the local paper that the club had filed an application to incorporate itself as the Watashaw Mutual Trade and Civic Development Corporation, and all the local real estate promoters had finished joining en masse. The Mutual Trade part sounded to me as if the Chamber of Commerce was on the point of being pulled in with them, ideas, ambitions and all.
 
-I chuckled while reading the next page of the paper, on which a local politician was reported as having addressed the club with a long flowery oration on their enterprise, charity, and civic spirit. He had been made an honorary member. If he allowed himself to be made a full member with its contractual obligations and its lures, if the politicians went into this, too....
+I chuckled while reading the next page of the paper, on which a local politician was reported as having addressed the club with a long flowery oration on their enterprise, charity, and civic spirit. He had been made an honorary member. If he allowed himself to be made a *full* member with its contractual obligations and its lures, if the politicians went into this, too....
 
 I laughed, filing the newspaper with the other documents on the Watashaw test. These proofs would fascinate any businessman with the sense to see where his bread was buttered. A businessman is constantly dealing with organizations, including his own, and finding them either inert, cantankerous, or both. Caswell's formula could be a handle to grasp them with. Gratitude alone would bring money into the university in carload lots.
 
@@ -253,7 +255,7 @@ The end of the sixth month came. The test was over and the end reports were spec
 
 After reading the last newspaper reports, I called him up.
 
-"Perfect, Wilt, perfect! I can use this Watashaw thing to get you so many fellowships and scholarships and grants for your department that you'll think it's snowing money!"
+"*Perfect*, Wilt, perfect! I can use this Watashaw thing to get you so many fellowships and scholarships and grants for your department that you'll think it's snowing money!"
 
 He answered somewhat disinterestedly, "I've been busy working with students on their research papers and marking tests—not following the Watashaw business at all, I'm afraid. You say the demonstration went well and you're satisfied?"
 
@@ -261,7 +263,7 @@ He was definitely putting on a chill. We were friends now, but obviously he was 
 
 "I'm satisfied," I acknowledged. "I was wrong. The formulas work beautifully. Come over and see my file of documents on it if you want a boost for your ego. Now let's see the formula for stopping it."
 
-He sounded cheerful again. "I didn't complicate that organization with negatives. I wanted it to grow. It falls apart naturally when it stops growing for more than two months. It's like the great stock boom before an economic crash. Everyone in it is prosperous as long as the prices just keep going up and new buyers come into the market, but they all knew what would happen if it stopped growing. You remember, we built in as one of the incentives that the members know they are going to lose if membership stops growing. Why, if I tried to stop it now, they'd cut my throat."
+He sounded cheerful again. "I didn't complicate that organization with negatives. I wanted it to *grow*. It falls apart naturally when it stops growing for more than two months. It's like the great stock boom before an economic crash. Everyone in it is prosperous as long as the prices just keep going up and new buyers come into the market, but they all knew what would happen if it stopped growing. You remember, we built in as one of the incentives that the members know they are going to lose if membership stops growing. Why, if I tried to stop it now, they'd cut my throat."
 
 I remembered the drive and frenzy of the crowd in the one early meeting I had seen. They probably would.
 

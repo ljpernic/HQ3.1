@@ -4,7 +4,7 @@
     451</em> and <em>The Martian Chronicles</em>, he never went to college or learned to drive, but he sure knew how to put a sentence together. In 2012, the landing site of the 
     Mars rover Curiosity was named Bradbury Landing in his honor.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Ray_Bradbury.jpg
   stories:
   - storytitle: A Little Journey
     storylink: "/a-little-journey"
@@ -70,7 +70,7 @@
   bio: Viola Meynell (15 October 1885 – 27 October 1956) was a successful novelist and poet of the early 20th century, best known today as an early champion of writers 
     like Herman Melville and D.H. Lawrence. She was also vital to the operation of <em>Nonesuch Press</em>, a private press started in the basement of a Soho bookshop. 
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Viola_Meynell.jpg
   stories:
   - storytitle:
     storylink:
@@ -84,7 +84,7 @@
     worked to subvert the gender norms of her time and whose life has since served as a prime example of social resistance for other writers and acitivists following 
     in her footsteps. Essentially a rockstar, she traveled the country reading to eager audiences and authored some of the most well-known poetry of the 20th century.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Edna_St_Vincent_Millay.jpg
   stories:
   - storytitle:
     storylink:
@@ -112,7 +112,7 @@
     The only fiction that he ever published was called <em>The Last Man</em> (1940), in which weapons of mass destruction wipe out every living person except 
     those few in steel chambers at the bottom of the sea.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Alfred_Noyes.jpg
   stories:
   - storytitle:
     storylink:
@@ -120,26 +120,13 @@
   - poemtitle: "The Loom of Years"
     poemlink: "/the-loom-of-years"
 
-- id: H. Beam Piper
-  idpath: "/h-beam-piper"
-  bio: H. Beam Piper (March 23, 1904 – November 6, 1964) was a Hugo Award-nominated author of short fiction and novels. A laborer and watchman by trade, he didn't 
-    start publishing short fiction until well into his 30s. Today he is best known for <em>Little Fuzzy</em> and his Terro-Human Future History series.
-  twitter: ''
-  picture: ../images/profile/generic_one.jpg
-  stories:
-  - storytitle: Omnilingual
-    storylink: "/omnilingual"
-  poems:
-  - poemtitle:
-    poemlink:
-
 - id: Mary Shelley
   idpath: "/mary-shelley"
   bio: Mary Shelley (30 August 1797 – 1 February 1851) was a novelist best known as the author of <em>Frankenstein; or, The Modern Prometheus</em> (1818), a 
     foundational text of science fiction, the immeasurable impact of which has echoed through the centuries. Raised as a radical and anarchist, she wrote across an 
     enormous number of genres on a wide variety of topics and is now recognized for her contributions to feminist thought and social reform, in addition to her literary pursuits.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Mary_Shelley.jpg
   stories:
   - storytitle: Introduction to the 1831 Edition of Frankenstein
     storylink: "/introduction-to-the-1831-edition-of-frankenstein"
@@ -153,7 +140,7 @@
     line, "Laugh, and the world laughs with you; weep, and you weep alone." She's also sometimes cited in lists of authors of bad poetry, but we think she'd agree that that's 
     only by the haters.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/Ella_Wheeler_Wilcox.jpg
   stories:
   - storytitle:
     storylink:
@@ -167,7 +154,7 @@
     A senator in the Irish Free State and winner of the Nobel Prize for Literature, he wrote "The Second Coming," "Easter 1916," and "Sailing to Byzantium," all of which 
     are considered masterpieces in the English language.
   twitter: ''
-  picture: ../images/profile/generic_one.jpg
+  picture: ../images/profile/William_Butler_Yeats.jpg
   stories:
   - storytitle:
     storylink:

@@ -215,7 +215,7 @@ const Submit = (props) => {
               Themes
             </h1>
 
-            <Image className="editorImageAbout mb-5"
+            <Image className="editorImageAbout mb-2"
               fixed={data.wetCover.childImageSharp.fixed}
             />
             <h5 className="pt-1 pb-1">
@@ -230,8 +230,8 @@ const Submit = (props) => {
               affected by the crisis at hand. Submissions by climate refugees are very welcome. 
             </p>
 
-            <Image className="editorImageAbout mb-5"
-              fixed={data.wetCover.childImageSharp.fixed}
+            <Image className="editorImageAbout mb-2"
+              fixed={data.dryCover.childImageSharp.fixed}
             />
             <h5 className="pt-1 pb-1">
               DRY ISSUE
@@ -354,6 +354,14 @@ export const query = graphql`
       }
     }
     wetCover: file(relativePath: {eq: "wet_cover.jpg"}) {
+      id
+      childImageSharp {
+        fixed(width:150) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    dryCover: file(relativePath: {eq: "dry_cover.jpg"}) {
       id
       childImageSharp {
         fixed(width:150) {

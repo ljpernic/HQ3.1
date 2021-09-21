@@ -50,10 +50,11 @@ export default class archiveFiction extends React.Component {
         />
       </Helmet>
 
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
+              
               <div className="thinLeft one">
                 <div>
                   <a href={currentIssue}>
@@ -71,7 +72,7 @@ export default class archiveFiction extends React.Component {
                 <div>
                 <Link to="/subscribe">
                     <Image className="advert mb-2 mt-6"
-                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}
                     />
                   </Link>
                   <h6>
@@ -81,7 +82,7 @@ export default class archiveFiction extends React.Component {
                 <div>
                 <Link to="/subscribe">
                     <Image className="advert mb-2"
-                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}
                     />
                   </Link>
                   <h6>
@@ -92,7 +93,7 @@ export default class archiveFiction extends React.Component {
                 <div>
                 <Link to="/subscribe">
                     <Image className="advert mb-2"
-                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}
                     />
                   </Link>
                   <h6>
@@ -109,15 +110,15 @@ export default class archiveFiction extends React.Component {
                   </h4>
                   <hr />
                   <div className="pt-2">
-                  <Link to="/subscribe">
+                    <Link to="/subscribe">
                       <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>
                 </div>
                 {posts
-                  .filter(post => post.node.frontmatter.category === "FICTION")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+                  .filter(post => post.node.frontmatter.category === "FICTION")
                   .map(({ node: post }) => {
                     return (
                       <div className="pb-1 container" key={post.id}>
@@ -134,7 +135,6 @@ export default class archiveFiction extends React.Component {
                   })}
               <div className="container">
                 <div className="row">
-
                   <div className="col-sm">                                                                    {/*Previous page link*/}
                     <p className="text-left">
                       {!isFirst && (

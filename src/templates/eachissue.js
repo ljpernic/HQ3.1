@@ -125,7 +125,7 @@ const Eachissue = props => {
                           </a>
                     </div>
 
-                    <h1 className="biotitle pb-1 pt-1">
+                    <h1 className="pb-1 pt-1">
                       Cover Artist: {artist}
                     </h1>
                     <div className="pt-1 pb-1">

@@ -131,9 +131,9 @@ const Eachpost = ({ data }) => {
 
 
                   
-                  <div className="authorimagebottom">
-                    <Image className=""
-                      fluid={author.picture.childImageSharp.fluid}            /*Author Image called here*/
+                  <div className="editorImageAbout mt-3">
+                    <Image
+                      fixed={author.picture.childImageSharp.fixed}            /*Author Image called here*/
                     />
                       <a href={twitter}>
                         <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
@@ -142,9 +142,13 @@ const Eachpost = ({ data }) => {
                       </a>
                   </div>
 
-                    <h1 className="biotitle"><Link to={author.idpath}> {author.id}</Link></h1>
+                    <h1 className="pt-1 pb-1">
+                      <Link to={author.idpath}> 
+                        {author.id}
+                      </Link>
+                    </h1>
                     <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
-                    <h5 className="hideable">
+                  <h5 className="hideable">
                     Fiction by {author.id}
                   </h5>
                   <p className="hideable pb-2">

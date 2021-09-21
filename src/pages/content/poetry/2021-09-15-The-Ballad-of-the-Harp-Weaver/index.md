@@ -3,7 +3,7 @@ title: The Ballad of the Harp-Weaver
 author: Edna St. Vincent Millay
 issue: Issue Zero, September 2021
 description: \"Son,\" said my mother, <br />When I was knee-high, <br />\"You've need of clothes to cover you, <br />And not a rag have I. <br /> <a href="https://www.havenquarterly.com/the-ballad-of-the-harp-weaver">
-shortdescription: _"Son," said my mother, <br />When I was knee-high, <br />"You've need of clothes to cover you, <br />And not a rag have I. <br /> <a href="https://www.havenquarterly.com/the-ballad-of-the-harp-weaver">
+shortdescription: "&quot;Son,&quot; said my mother, <br />When I was knee-high, <br />&quot;You've need of clothes to cover you, <br />And not a rag have I. <br /> <br /> ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====  <br />"
 category: POETRY
 cover: cover.jpg
 currentcover: CurrentCover.jpg

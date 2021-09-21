@@ -128,7 +128,7 @@ export default class archiveAuthor extends React.Component {
               {uniqueArray.map(({ node: post }) => (
                 
                 <div className="pt-1 pb-2">
-                  <div className="editorImageAbout mb-5">
+                  <div className="editorImageAbout">
                     <Image
                       fixed={post.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                     />

@@ -2,8 +2,8 @@
 title: Where the Phph Pebbles Go
 author: Miriam Allen deFord
 issue: Issue Zero, September 2021
-description: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic Ways of Improving Your Phph Game, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <p>It sounds like a simple game, but it has complicated restrictions and rules, and a good phph player can command any amount of heavy service from the spectators. Since a lot of the Ground Dwellers are also phph addicts (they could never become players, of course, being far too small and light to handle the phph pebbles), this means that a real champion never has to do any kind of work again, being fed, clothed, housed and entertained by his admirers, and can devote all his time to the game. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go/">[<i>...</i>]</a></p>
-shortdescription: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic Ways of Improving Your Phph Game, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go">[<i>...</i>]</a>
+description: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic <i>Ways of Improving Your Phph Game</i>, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <p>It sounds like a simple game, but it has complicated restrictions and rules, and a good phph player can command any amount of heavy service from the spectators. Since a lot of the Ground Dwellers are also phph addicts (they could never become players, of course, being far too small and light to handle the phph pebbles), this means that a real champion never has to do any kind of work again, being fed, clothed, housed and entertained by his admirers, and can devote all his time to the game. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go/">[<i>...</i>]</a></p>
+shortdescription: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic <i>Ways of Improving Your Phph Game</i>, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
 currentcover: CurrentCover.jpg
@@ -12,11 +12,11 @@ path: "/where-the-phph-pebbles-go"
 featured: false
 ---
 
-Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic Ways of Improving Your Phph Game, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went.
+Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic *Ways of Improving Your Phph Game*, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went.
 
 It sounds like a simple game, but it has complicated restrictions and rules, and a good phph player can command any amount of heavy service from the spectators. Since a lot of the Ground Dwellers are also phph addicts (they could never become players, of course, being far too small and light to handle the phph pebbles), this means that a real champion never has to do any kind of work again, being fed, clothed, housed and entertained by his admirers, and can devote all his time to the game.
 
-Gral and Hodnuth, having alternated as champions for many a long ganath, had it pretty easy. But neither of them was given to lying back on his laurels and growing soft. This meant that when a match was announced, Ground Dwellers as well as we Real People came by the hanthoids from zygils around to watch through viewing-tubes—and whichever of the two won piled up a lot of bilibs of voluntary service. (Voluntary service, as most economists admit, is true wealth, since the pledge is incumbent on the offerer's heirs until it is fully satisfied, and can likewise be willed by the recipient to his heirs).
+Gral and Hodnuth, having alternated as champions for many a long ganath, had it pretty easy. But neither of them was given to lying back on his laurels and growing soft. This meant that when a match was announced, Ground Dwellers as well as we Real People came by the hanthoids from zygils around to watch through viewing-tubes—and whichever of the two won piled up a lot of bilibs of voluntary service. (Voluntary service, as most economists admit, is true wealth, since the pledge is incumbent on the offerer's heirs until it is fully satisfied, and can likewise be willed by the recipient to *his* heirs).
 
 Naturally, no phph player is absolutely perfect; if he were, there would be no contest and nobody would bother to attend a game. Pebbles fall short, they go awry, and sometimes they are thrown so hard that they escape altogether from our light gravity and fly into outer space. At the end of the game period the referee (usually a superannuated former champion) tots up the score and announces how many times each player missed the target and by which of these errors he missed it. By a rather confusing arithmetical computation he then determines which of them won, and the winner collects his pledges—and the fans collect the side bets they have been making all through the game.
 
@@ -88,7 +88,7 @@ I raised my hand to ask a question, and Myrwan nodded.
 
 "The astronomers among Us have become more and more concerned. We have finally been led to the reluctant belief that Our former theories have been wrong—that this actually is not the only inhabited planet.
 
-"Now, I need not tell you how disastrous it would be for us if that were true. If there are intelligent beings on other planets, if they are trying to communicate with us, then the next step would be that they would try to visit us."
+"Now, I need not tell you how disastrous it would be for us if that were true. If there *are* intelligent beings on other planets, if they are trying to communicate with us, then the next step would be that they would try to visit us."
 
 Marnag raised his hand.
 
@@ -142,7 +142,7 @@ Gral looked stricken. He fell flat on his face, groveling before the Thinkers.
 
 "Every phph pebble henceforth will be doctored. To use any unauthorized pebble will become a felony. What has happened in the past we can't change, but there may still be time to save ourselves. From this time forth there are going to be more 'meteors' shot off our atmosphere than ever before—and every one of them is going to tell a completely false story about conditions in their place of origin.
 
-"Of course We may be entirely wrong. These new waves may be due to purely physical causes. Other planets may all be as devoid of intelligent life as We have always assumed. But if there is the faintest possibility—and I feel there is—that we are in danger, it would be fatal not to take such measures as we can to avert it."
+"Of course, we *may* be entirely wrong. These new waves may be due to purely physical causes. Other planets may all be as devoid of intelligent life as We have always assumed. But if there is the faintest possibility—and I feel there is—that we are in danger, it would be fatal not to take such measures as we can to avert it."
 
 "What's in the pebbles now that could tell anything about us?" Gral asked. "And if something is, how could you alter it?"
 
@@ -160,9 +160,9 @@ Myrwan smiled.
 
 "I'll tell you what they'd Think. They'd decide that somewhere out in space there is a rich, undiscovered planet full of valuable knowledge and, even better, valuable artifacts. Probably a world with a culture much more advanced than their own. And they'd try hard to trace the direction from which those meteorites came, and to calculate the distance. Then suppose they had some means of transportation in space.
 
-"That may well be what these new radio waves mean. They may be attempts at communication—if we were foolish enough to respond to them. We don't dare to take any chances.
+"*That* may well be what these new radio waves mean. They may be attempts at communication—if we were foolish enough to respond to them. We don't dare to take any chances.
 
-"So from now on there are going to be swarms and swarms of those meteoroids—and every one of them is going to be a real artifact on its own—a manufactured one, made according to Our specifications, carrying an unmistakable message. A false one!
+"So from now on there are going to be swarms and swarms of those meteoroids—and every one of them is going to be a real artifact on its own—a *manufactured* one, made according to Our specifications, carrying an unmistakable message. A false one!
 
 "They will be cunningly constructed from forms of matter injurious to any conceivable variety of life. We'll cover them all. And they'll be barren of even the most primitive bacteria. They will carry in themselves a silent warning: 'Approach the planet from which these come at peril of your instant death ... not matter what kind of being you are!' That should save us forever."
 
@@ -192,7 +192,7 @@ We sometimes say that though the Thinkers are of course overwhelmingly our super
 
 "But who will make the artificial pebbles if the Ground Dwellers aren't to know about them?" asked Marnag. "What about our slogan—'Thought from the Thinkers, government and administration from the Real People, technical skill and heavy labor from the Ground Dwellers'?"
 
-"We shall handle that. When you go home, tell Earnig I want to see him at once. Brief him first. He and his Bureau will see that the job is done, and the Ground Dwellers needn't be told just what they are making. They'll be delighted to hear that We are planning a new kind of phph pebble to increase the interest of the game—they love it whenever one is batted clear away."
+"*We* shall handle that. When you go home, tell Earnig I want to see him at once. Brief him first. He and his Bureau will see that the job is done, and the Ground Dwellers needn't be told just what they are making. They'll be delighted to hear that We are planning a new kind of phph pebble to increase the interest of the game—they love it whenever one is batted clear away."
 
 Well, all this was last ganath. The new pebbles are in use. So far nothing has happened—unless you count the fact that, according to Myrwan, those peculiar radio waves have ceased. Let us hope that if his whole theory is correct—and Thinkers don't talk about their Thoughts till they're pretty sure of them—those alien beings have given up, decided either that they were mistaken and there is no intelligence here able to communicate, or that they themselves haven't the ability to interpret our answers.
 
