@@ -1,8 +1,8 @@
 - id: Ray Bradbury
   idpath: "/ray-bradbury"
-  bio: Ray Bradbury (August 22, 1920 – June 5, 2012) was one of the most famous science fiction and fantasy authors of the 20th century. Best known for <em> Fahrenheit 
-    451</em> and <em>The Martian Chronicles</em>, he never went to college or learned to drive, but he sure knew how to put a sentence together. In 2012, the landing site of the 
-    Mars rover Curiosity was named Bradbury Landing in his honor.
+  bio: Ray Bradbury (August 22, 1920 – June 5, 2012) was a prolific science fiction and fantasy author best known for writing the seminal <em> Fahrenheit 
+    451</em> and <em>The Martian Chronicles</em>, among many other works. He never went to college or learned to drive, and in 2012, the landing site of the Mars rover 
+    Curiosity was named Bradbury Landing in his honor.
   twitter: ''
   picture: ../images/profile/Ray_Bradbury.jpg
   stories:
@@ -55,7 +55,7 @@
 - id: Katherine MacLean
   idpath: "/katherine-macLean"
   bio: Katherine MacLean (January 22, 1925 – September 1, 2019) was a Nebula award-winning science fiction author best known for her novella <em>The Missing 
-    Man</em>, first published in <em>Analog</em> in 1971. She is one of only 14 authors honored as an Author Emeritus by Science Fiction and Fantasy Writers of America.
+    Man</em>, first published in <em>Analog</em> in 1971. She is one of only 14 people honored as an Author Emeritus by the Science Fiction and Fantasy Writers of America.
   twitter: ''
   picture: ../images/profile/Katherine_MacLean.jpg
   stories:
@@ -68,7 +68,7 @@
 - id: Viola Meynell
   idpath: "/viola-meynell"
   bio: Viola Meynell (15 October 1885 – 27 October 1956) was a successful novelist and poet of the early 20th century, best known today as an early champion of writers 
-    like Herman Melville and D.H. Lawrence. She was also vital to the operation of <em>Nonesuch Press</em>, a private press started in the basement of a Soho bookshop. 
+    like Herman Melville and D. H. Lawrence. She was also vital to the operation of <em>Nonesuch Press</em>, a private press started in the basement of a Soho bookshop. 
   twitter: ''
   picture: ../images/profile/Viola_Meynell.jpg
   stories:
@@ -108,7 +108,7 @@
 
 - id: Alfred Noyes
   idpath: "/alfred-noyes"
-  bio: Alfred Noyes (16 September 1880 – 25 June 1958) was a short fiction author and playwright most well known for the romantic ballad poem "The Highwayman." 
+  bio: Alfred Noyes (16 September 1880 – 25 June 1958) was a poet, short fiction author, and playwright most well known for the romantic ballad poem "The Highwayman." 
     The only fiction that he ever published was called <em>The Last Man</em> (1940), in which weapons of mass destruction wipe out every living person except 
     those few in steel chambers at the bottom of the sea.
   twitter: ''
@@ -123,7 +123,7 @@
 - id: Mary Shelley
   idpath: "/mary-shelley"
   bio: Mary Shelley (30 August 1797 – 1 February 1851) was a novelist best known as the author of <em>Frankenstein; or, The Modern Prometheus</em> (1818), a 
-    foundational text of science fiction, the immeasurable impact of which has echoed through the centuries. Raised as a radical and anarchist, she wrote across an 
+    foundational text of science fiction, the immeasurable impact of which has been felt through the centuries. Raised as a radical and anarchist, she wrote across an 
     enormous number of genres on a wide variety of topics and is now recognized for her contributions to feminist thought and social reform, in addition to her literary pursuits.
   twitter: ''
   picture: ../images/profile/Mary_Shelley.jpg

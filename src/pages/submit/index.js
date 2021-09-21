@@ -52,7 +52,6 @@ const Submit = (props) => {
     <Layout bodyClass="page-home">
       <SEO title="Submit" />
       <Helmet>
-        <script src={withPrefix('collapsible_script.js')} type="text/javascript" />
         <script src="https://www.cognitoforms.com/f/iframe.js" />
         <meta
           name="description"
@@ -131,12 +130,12 @@ const Submit = (props) => {
               Guidelines for Fiction
             </h1>
             <p>
-              We are currently <big>closed</big> to fiction submissions, but we hope to open soon! Follow us on social media for updates and new content. 
+              We are currently <big>open</big> to fiction submissions{/*, but we hope to open soon*/}! Follow us on social media for updates and new content. 
             </p>
             <p>
               We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome writers from 
               around the world, and for our two issues focused on the climate crisis, we're particularly interested in publishing stories from people displaced 
-              by or threatened by the climate emergency (see our themes below!). For our other four issues, we're open to a wide variety of stories across the 
+              by or threatened by the climate emergency (see our themes below). For our other four issues, we're open to a wide variety of stories across the 
               SFF and weird spectra. We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. Please query for reprints. 
             </p>
             <p>
@@ -161,14 +160,13 @@ const Submit = (props) => {
               Guidelines for Poetry
             </h1>
             <p>
-              We are currently <big>closed</big> to poetry submissions, but follow us on social media for updates and new content! 
+              We are currently <big>open</big> to poetry submissions, but follow us on social media for updates and new content! 
             </p>
             <p>
-              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world.  
-              For our two issues focused on the climate crisis, we're particularly interested in publishing poems from people displaced 
-              by or threatened by the climate emergency (although this isn't a hard and fast rule). For our other four issues, we're open to a wide variety of poems across the 
-              SFF and weird spectra. We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within seven weeks. 
-              Please query for reprints.
+              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. For our two issues focused on 
+              the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For 
+              our other four issues, we're open to a wide variety of poems across the SFF and weird spectra. We pay $5 for poems under one page (standard formatting) and $10 
+              for longer poems, and we try to respond to all submissions within seven weeks. Please query for reprints.
             </p>
             <p>
               We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or free verse. Most important to us is
@@ -251,22 +249,10 @@ const Submit = (props) => {
 
             <hr className="mb-2" />
 
-            <button type="button" className="collapsible">Fiction Submission</button>
-              <div className="collapsibleContent pt-2">
-                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
-              </div>
-              <button type="button" className="collapsible">Poetry Submission</button>
-              <div className="collapsibleContent pt-2">
-                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/2"></iframe>
-              </div>
-              <button type="button" className="collapsible">Non-Fiction Submission</button>
-              <div className="collapsibleContent pt-2">
-                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/3"></iframe>
-              </div>
-              <button type="button" className="collapsible">Art Submission</button>
-              <div className="collapsibleContent pt-2">
-                <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/4"></iframe>
-              </div>
+            <Link to="/forms">
+            <button type="button" className="collapsible">Go to Submission Forms</button>
+            </Link>
+            
             <hr className="mb-2" />
 
             <p className="mb-4">

@@ -69,7 +69,7 @@ const About = (props) => {
                 <div>
                 <Link to="/subscribe">
                     <Image className="advert mb-2 mt-6"
-                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[0]}
                     />
                   </Link>
                   <h6>
@@ -79,7 +79,7 @@ const About = (props) => {
                 <div>
                 <Link to="/subscribe">
                     <Image className="advert mb-2"
-                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[1]}
                     />
                   </Link>
                   <h6>
@@ -90,7 +90,7 @@ const About = (props) => {
                 <div>
                   <Link to="/subscribe">
                     <Image className="advert mb-2"
-                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={shuffledArray[2]}
                     />
                   </Link>
                   <h6>
@@ -125,7 +125,7 @@ const About = (props) => {
                 <div>
                   <Link to="/subscribe">
                     <Image className="advertLong"
-                      fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                      fixed={data.advertLong.childImageSharp.fixed}
                     />
                   </Link>
                 </div>
@@ -193,18 +193,6 @@ const About = (props) => {
                     To apply, fill out the contact form below with your relevant interests and background (if any), and we'll go from there!                  
                   </p>
                 </div>
-
-    {/*                   <button type="button" className="collapsible">Awards</button>                               HIDDEN BUTTON FOR AWARDS 
-                            <div className="collapsibleContent pt-2 pb-1">
-                              <p>
-                                A space reserved for rewards.
-                              </p>
-                              <p>
-                                Now let's win some.
-                              </p>
-                            </div>
-    */}
-
                 <hr />
                 <div>
                   <h1 className="pt-1 pb-1">
@@ -253,11 +241,12 @@ const About = (props) => {
                 </div>
             <hr className="mb-2" />
           
-            <button type="button" className="collapsible">Contact</button>
-              <div className="collapsibleContent pt-2">
-                
+              <div>
+              <h1 className="pt-1 pb-1">
+                    Contact Us
+                  </h1>
                   <p>
-                    To submit art, fiction, non-fiction, and poetry, visit the <Link to="/submit">submission page</Link>. For advertising, go to <Link to="/subscribe">subscribe 
+                    To submit art, fiction, non-fiction, and poetry, visit the <Link to="/submit">submission page</Link>. For advertising, go to the <Link to="/subscribe">subscribe 
                     and support page</Link>. For everything else, fill out this form!
                   </p>
                   <p className="pb-1">
@@ -265,7 +254,6 @@ const About = (props) => {
                   </p>
                 
                 <iframe className="iframeContact" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/6"></iframe>
-                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
               </div>
               
               <hr className="mb-2" />

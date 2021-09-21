@@ -119,7 +119,7 @@ const Rejectomancy = (props) => {
             <p>
               The second tier will usually be something like, "We liked this story overall, but..." and then offer something more specific. Getting this rejection means we 
               made it most of the way through the story (or all the way to the end!), but it didn't quite come together for us. This is often because the ending falls flat for us, 
-              or the piece feels like it needs a bit too much work.
+              or the piece feels like it needs too much revising overall.
             </p>
             <p>
               The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites. If rewrites are requested, 
