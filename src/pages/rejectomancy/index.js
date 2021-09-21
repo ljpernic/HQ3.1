@@ -89,6 +89,7 @@ const Rejectomancy = (props) => {
                   ADVERT
                 </h6>
                 </div>
+
                 <div className="wideRight">
                 <div className="col-12">
                   <h4>
@@ -121,8 +122,8 @@ const Rejectomancy = (props) => {
               or the piece feels like it needs a bit too much work.
             </p>
             <p>
-              The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites on the way to an acceptance (!!). At 
-              this level, we usually go through a few rounds of edits before a decision is made to accept or reject. These stories often get accepted, but not always.
+              The third tier doesn't have a specific format because it's tailored to the story, and it usually contains a request for rewrites. If rewrites are requested, 
+              we usually go through a few rounds of edits before a final decision is made to accept or reject.
             </p>
             <p className="pb-1">
               (There are a variety of other tiers for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. Luckily these are rare.)

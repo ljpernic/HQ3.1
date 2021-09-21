@@ -4,6 +4,7 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
+
 import { Formik, Form, Field, useFormik } from 'formik';
 import * as Yup from 'yup';
 
@@ -52,6 +53,7 @@ const Submit = (props) => {
       <SEO title="Submit" />
       <Helmet>
         <script src={withPrefix('collapsible_script.js')} type="text/javascript" />
+        <script src="https://www.cognitoforms.com/f/iframe.js" />
         <meta
           name="description"
           content="Submit page of Haven Spec"
@@ -252,22 +254,18 @@ const Submit = (props) => {
             <button type="button" className="collapsible">Fiction Submission</button>
               <div className="collapsibleContent pt-2">
                 <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
-                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
               </div>
               <button type="button" className="collapsible">Poetry Submission</button>
               <div className="collapsibleContent pt-2">
                 <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/2"></iframe>
-                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
               </div>
               <button type="button" className="collapsible">Non-Fiction Submission</button>
               <div className="collapsibleContent pt-2">
                 <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/3"></iframe>
-                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
               </div>
               <button type="button" className="collapsible">Art Submission</button>
               <div className="collapsibleContent pt-2">
                 <iframe className="iframe" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/4"></iframe>
-                <script src="https://www.cognitoforms.com/f/iframe.js"></script>
               </div>
             <hr className="mb-2" />
 
