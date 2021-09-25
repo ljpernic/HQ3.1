@@ -130,13 +130,18 @@ const Submit = (props) => {
               Guidelines for Fiction
             </h1>
             <p>
-              We are currently <big>open</big> to fiction submissions{/*, but we hope to open soon*/}! Follow us on social media for updates and new content. 
+              Haven Spec is currently <big>open</big> to fiction submissions{/*, but we hope to open soon*/}! 
             </p>
             <p>
               We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome writers from 
               around the world, and for our two issues focused on the climate crisis, we're particularly interested in publishing stories from people displaced 
               by or threatened by the climate emergency (see our themes below). For our other four issues, we're open to a wide variety of stories across the 
-              SFF and weird spectra. We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. Please query for reprints. 
+              SFF and weird spectra.
+            </p>
+            <p>
+              We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. We will also accept a limited number of previously published 
+              stories, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
+              be either .rtf, .doc, or .docx. 
             </p>
             <p>
               We like stories that are subtle in their telling and stick with us long after we've finished. We're more likely to buy stories that balance a sense 
@@ -165,8 +170,13 @@ const Submit = (props) => {
             <p>
               We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. For our two issues focused on 
               the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For 
-              our other four issues, we're open to a wide variety of poems across the SFF and weird spectra. We pay $5 for poems under one page (standard formatting) and $10 
-              for longer poems, and we try to respond to all submissions within seven weeks. Please query for reprints.
+              our other four issues, we're open to a wide variety of poems across the SFF and weird spectra. 
+            </p>
+            <p>
+              We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within seven weeks. We will also 
+              accept a limited number of previously published poems, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript 
+              format (we prefer Courier New) and 
+              be either .rtf, .doc, or .docx.
             </p>
             <p>
               We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or free verse. Most important to us is
