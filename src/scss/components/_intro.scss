@@ -229,31 +229,31 @@
 }
 
 .iframeFiction {
-  height: 825px;
+  min-height: 930px;
   width: 80%;
   border: none;
 }
 
 .iframePoetry {
-  height: 740px;
+  min-height: 845px;
   width: 80%;
   border: none;
 }
 
 .iframeNonFiction {
-  height: 825px;
+  min-height: 830px;
   width: 80%;
   border: none;
 }
 
 .iframeArt {
-  height: 740px;
+  min-height: 780px;
   width: 80%;
   border: none;
 }
 
 .iframeContact {
-  height: 525px;
+  min-height: 620px;
   width: 80%;
   border: none;
 }
