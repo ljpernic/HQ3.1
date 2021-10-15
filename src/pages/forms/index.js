@@ -93,7 +93,7 @@ const Forms = (props) => {
                 <div className="wideRight">
                 <div className="col-12">
                   <h4>
-                    Submission Forms
+                    Submission Form
                   </h4>
                   <hr />
                 </div>
@@ -106,7 +106,7 @@ const Forms = (props) => {
                     </Link>
                   </div>
 
-                    <p>Below, you will find forms for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
+                    <p>Below is the submission form for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
                       so, please read our submission guidelines on <Link to="/submit">the submission page.</Link> 
                     </p>
 
@@ -114,17 +114,6 @@ const Forms = (props) => {
                       <iframe className="iframeFiction" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
                     </div>
                     <hr className="mb-2" />
-                    <div className="pt-2">
-                      <iframe className="iframePoetry" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/2"></iframe>
-                    </div>
-                    <hr className="mb-2" />
-                    <div className="pt-2">
-                      <iframe className="iframeNonFiction" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/3"></iframe>
-                    </div>
-                    <hr className="mb-2" />
-                    <div className="pt-2">
-                      <iframe className="iframeArt" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/4"></iframe>
-                    </div>
           </div>
       </div>
     </div>
