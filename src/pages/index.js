@@ -143,18 +143,13 @@ const Home = (props) => {                                                     //
                           .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue One, November 2021")
                           .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
 
-                        <h4>
+{/*                         <h4>
                           Non-Fiction:
                         </h4>
-                          {posts
-                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, November 2021")
-                            .map(({ node: post }) => {
-                            return (
-                              <p key={post.frontmatter.title}>
-                                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
-                              </p>
-                            )
-                          })}
+                        {posts
+                          .filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, November 2021")
+                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+*/}
                           <br />
                       </div>
                     </div>
