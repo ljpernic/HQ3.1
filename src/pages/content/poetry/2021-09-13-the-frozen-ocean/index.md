@@ -6,10 +6,11 @@ description: The sea would flow no longer, <br />It wearied after change, <br />
 shortdescription: The sea would flow no longer, <br />It wearied after change, <br />It called its tides and breakers in, <br />From where they might range. <a href="https://www.havenspec.com/the-frozen-ocean/">[<i>...</i>]</a><br />
 category: POETRY
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:05:01.000Z"
 path: "/the-frozen-ocean"
 featured: false
+available: true
 ---
 
 The sea would flow no longer,  

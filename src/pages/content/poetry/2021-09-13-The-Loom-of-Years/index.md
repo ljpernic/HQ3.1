@@ -6,11 +6,11 @@ description: In the light of the silent stars that shine on the struggling sea, 
 shortdescription: In the light of the silent stars that shine on the struggling sea, <br />In the weary cry of the wind and the whisper of flower and tree, <br />Under the breath of laughter, deep in the tide of tears, <br />I hear the Loom of the Weaver that weaves the Web of Years. <a href="https://www.havenquarterly.com/the-loom-of-years/">[<i>...</i>]</a>
 category: POETRY
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:03:01.000Z"
 path: "/the-loom-of-years"
 featured: false
-
+available: true
 ---
 
 In the light of the silent stars that shine on the struggling sea,  

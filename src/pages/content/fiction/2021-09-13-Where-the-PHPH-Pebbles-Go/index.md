@@ -6,10 +6,11 @@ description: Gral and Hodnuth were playing phph. In case you are not a phph fan,
 shortdescription: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic <i>Ways of Improving Your Phph Game</i>, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:03:00.000Z"
 path: "/where-the-phph-pebbles-go"
 featured: false
+available: true
 ---
 
 Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic *Ways of Improving Your Phph Game*, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went.

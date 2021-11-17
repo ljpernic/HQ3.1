@@ -6,10 +6,11 @@ description: Steena of the spaceways—that sounds just like a corny title for o
 shortdescription: Steena of the spaceways—that sounds just like a corny title for one of the Stellar-Vedo spreads. I ought to know, I’ve tried my hand at writing enough of them. Only this Steena was no glamour babe. She was as colorless as a Lunar plant—even the hair netted down to her skull had a sort of grayish cast and I never saw her but once draped in anything but a shapeless and baggy gray space-all. <a href="https://www.havenquarterly.com/all-cats-are-gray/">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:03:00.000Z"
 path: "/all-cats-are-gray"
 featured: false
+available: true
 ---
 
 Steena of the spaceways—that sounds just like a corny title for one of the Stellar-Vedo spreads. I ought to know, I’ve tried my hand at writing enough of them. Only this Steena was no glamour babe. She was as colorless as a Lunar plant—even the hair netted down to her skull had a sort of grayish cast and I never saw her but once draped in anything but a shapeless and baggy gray space-all.

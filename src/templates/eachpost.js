@@ -34,6 +34,7 @@ const Eachpost = ({ data }) => {
   const { category } = data.markdownRemark.frontmatter;
   const { excerpt } = data.markdownRemark.frontmatter;
   const { path } = data.markdownRemark.frontmatter;
+  const { issuecover } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
   const url = `http://havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
@@ -55,7 +56,7 @@ const Eachpost = ({ data }) => {
                 <div>
                   <a href={currentIssue}>
                     <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}
+                      fixed={issue.issuecover.childImageSharp.fixed}
                     />
                   </a>
                 </div>
@@ -148,23 +149,14 @@ const Eachpost = ({ data }) => {
                       </Link>
                     </h1>
                     <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
-                  <h5 className="hideable">
-                    Fiction by {author.id}
-                  </h5>
-                  <p className="hideable pb-2">
+                  <p>
+                    {author.stories[0].storytitle === null ? null : <h5> Fiction by {author.id} </h5> 
+                    }
                     {author.stories
-                      .map((data, index) => {
-                      return <Link key={`content_storytitle_${index}`} to={data.storylink}><li key={`content_storytitle_${index}`}>{data.storytitle}</li></Link>
-                    })}
-                  </p>
-                  <h5 className="hideable pb-0">
-                    Poetry by {author.id}
-                  </h5>
-                  <p className="hideable">
+                      .map((data, index) => author.stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}
+                    {author.poems[0].poemtitle === null ? null : <h5> Poetry by {author.id} </h5> }
                     {author.poems
-                      .map((data, index) => {
-                      return <Link key={`content_poemtitle_${index}`} to={data.poemlink}><li key={`content_poemtitle_${index}`}>{data.poemtitle}</li></Link>
-                    })}
+                      .map((data, index) => author.poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
                   </p>
                   <hr className="mb-2 mt-5"/>
 
@@ -222,6 +214,7 @@ export const query = graphql`
     }
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        available
         title
         author {
           id
@@ -248,6 +241,13 @@ export const query = graphql`
         issue {
           id
           idpath
+          issuecover {
+            childImageSharp {
+              fixed(width:280) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
         }
         category
       }

@@ -5,12 +5,12 @@ issue: Issue Zero, September 2021
 description: Hampered as she was by the child in her arms, the woman was running less fleetly now. A wave of exultation swept over Guldran, drowning out the uneasy feeling of guilt at disobeying orders. <p>The instructions were mandatory and concise--"No capture must be attempted individually. In the event of sighting any form of human life, the ship MUST be notified immediately. All small craft must be back at the landing space not later than one hour before take-off. Anyone not so reporting will be presumed lost." </p><p>Guldran thought uneasily of the great seas of snow and ice sweeping inexorably toward each other since the Earth had reversed on its axis in the great catastrophe a millennium ago. Now, summer and winter alike brought paralyzing gales and blizzards, heralded by the sleety snow in which the woman's skin-clad feet had left the tracks <a href="https://www.havenquarterly.com/the-last-supper/">[<i>...</i>]</a></p>
 shortdescription: Hampered as she was by the child in her arms, the woman was running less fleetly now. A wave of exultation swept over Guldran, drowning out the uneasy feeling of guilt at disobeying orders. <a href="https://www.havenquarterly.com/the-last-supper/">[<i>...</i>]</a>
 category: FICTION
-currentcover: CurrentCover.jpg
+issuecover: ../covers/HS_00-00_COVER.jpg
 cover: cover.jpg
 date: "2021-09-13T00:05:00.000Z"
 path: "/the-last-supper"
-featured: true
-
+featured: false
+available: true
 ---
 
 Hampered as she was by the child in her arms, the woman was running less fleetly now. A wave of exultation swept over Guldran, drowning out the uneasy feeling of guilt at disobeying orders.

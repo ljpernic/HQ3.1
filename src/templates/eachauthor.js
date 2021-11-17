@@ -31,7 +31,9 @@ const Eachauthor = props => {
   const { pageContext } = props;
   const data = props.data;
   const { idname, bio, twitter, picture, stories, poems } = pageContext;
-  
+
+//  console.log(poems[0].poemlink);
+
   const twitterLink = `http://twitter.com/${twitter}`;
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
   
@@ -124,23 +126,14 @@ const Eachauthor = props => {
                     {idname}
                   </h1>
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
-                  <h5 className="hideable">
-                    Fiction by {idname}
-                  </h5>
-                  <p className="hideable pb-2">
+                  <p>
+                    {stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
+                    }
                     {stories
-                      .map((data, index) => {
-                      return <Link key={`content_storytitle_${index}`} to={data.storylink}><li key={`content_storytitle_${index}`}>{data.storytitle}</li></Link>
-                    })}
-                  </p>
-                  <h5 className="hideable pb-0">
-                    Poetry by {idname}
-                  </h5>
-                  <p className="hideable">
+                      .map((data, index) => stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}
+                    {poems[0].poemtitle === null ? null : <h5> Poetry by {idname} </h5> }
                     {poems
-                      .map((data, index) => {
-                      return <Link key={`content_poemtitle_${index}`} to={data.poemlink}><li key={`content_poemtitle_${index}`}>{data.poemtitle}</li></Link>
-                    })}
+                      .map((data, index) => poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
                   </p>
                   <hr className="mb-2 mt-5"/>
                 
@@ -205,6 +198,7 @@ export const query = graphql`
     }
     markdownRemark(frontmatter: {author: {id: {eq: $idname}}}) {
       frontmatter {
+        available
         title
         path
         author {

@@ -1,42 +1,43 @@
 ####################################################################___ISSUE ONE___####################################################################
-#- id: Issue One, Summer 2020
-#  idpath: "/issue-one"
-#  currentcover: "../images/covers/issue-one-cover.jpg"
-#  teaserText: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-#      as each week a new story becomes available!
-#
-#
-#      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-#      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-#  text: This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-#      as each week a new story becomes available!
-#
-#
-#      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-#      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-#
-#
-#      This is the very first issue of Haven Spec, featuring stories by Bob and Susan and Gladys! You can buy the full issue now, or wait 
-#      as each week a new story becomes available!
-#
-#
-#      I like stuff. And things! And one time I even like a whatchamacallit. There are stories in this issue from Bartleby the Scrivener, Shamoo,
-#      Francis the Mule, and Your Mom. Click on the link to purchase this issue, or subscribe!
-#  artist: Raptor Alan
-#  artistTwitter: raptoralantwitter
-#  artistimage: "../images/profile/Albert_Robida.jpg"
-#  artistbio: Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-#            stacked on top of each other. See more of her artwork at , or follow her on .
-#
-#
-#            Demmy Demerson is an artist in Spokane, Washington, specializing in color spectra only visible to bees. She is secretly several kids
-#            stacked on top of each other. See more of her artwork at , or follow her on .
-#
-#
+- id: Issue One, November 2021
+  idpath: "/issue-one"
+  issuecover: "../images/covers/001_COVER.jpg"
+  teaserText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non velit facilisis, aliquet ligula ac, dictum quam. Praesent in porta nulla. Aliquam erat 
+      volutpat. Nulla rhoncus iaculis maximus. Pellentesque tincidunt, orci eu lacinia rhoncus, urna augue dapibus augue, id dictum augue lectus non dolor. Duis at tincidunt 
+      ligula, ac rhoncus nulla. 
+      
+
+      Integer a semper eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi gravida sem eget lorem fringilla, in pretium orci scelerisque. Morbi rhoncus 
+      eros odio. Phasellus nibh sapien, luctus vitae justo ut, euismod gravida massa. 
+  text:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non velit facilisis, aliquet ligula ac, dictum quam. Praesent in porta nulla. Aliquam erat 
+      volutpat. Nulla rhoncus iaculis maximus. Pellentesque tincidunt, orci eu lacinia rhoncus, urna augue dapibus augue, id dictum augue lectus non dolor. Duis at tincidunt 
+      ligula, ac rhoncus nulla. 
+      
+
+      Integer a semper eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi gravida sem eget lorem fringilla, in pretium orci scelerisque. Morbi rhoncus 
+      eros odio. Phasellus nibh sapien, luctus vitae justo ut, euismod gravida massa. 
+
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non velit facilisis, aliquet ligula ac, dictum quam. Praesent in porta nulla. Aliquam erat 
+      volutpat. Nulla rhoncus iaculis maximus. Pellentesque tincidunt, orci eu lacinia rhoncus, urna augue dapibus augue, id dictum augue lectus non dolor. Duis at tincidunt 
+      ligula, ac rhoncus nulla. 
+      
+
+      Integer a semper eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi gravida sem eget lorem fringilla, in pretium orci scelerisque. Morbi rhoncus 
+      eros odio. Phasellus nibh sapien, luctus vitae justo ut, euismod gravida massa. 
+  artist: Luke Spooner
+  artistTwitter: CarrionHouse
+  artistimage: "../images/profile/generic_one.jpg"
+  artistbio: Luke Spooner is a freelance illustrator from South East England. Since graduating from Portsmouth University with a First-Class degree in illustration, Luke 
+            has worked on illustrations and covers for horror, science fiction and fantasy books, magazines, and graphic novels, and has also illustrated children’s’ books 
+            that aim to promote diversity and mindfulness in younger audiences. Notable projects for his darker, ‘Carrion House’ style have included art for stories by Neil 
+            Gaiman, Clive Barker and Stephen King. Luke also acts as the illustrator for every instalment of Jay Wilburn’s ongoing Dead Song series of books.
+
+
 ####################################################################___ISSUE ZERO___####################################################################
 - id: Issue Zero, September 2021
   idpath: "/issue-zero"
-  currentcover: "../images/covers/HS_00-00_COVER.jpg"
+  issuecover: "../images/covers/HS_00-00_COVER.jpg"
   teaserText: Haven Spec is a brand new online magazine publishing science fiction and fantasy stories and poems for the 21st century. We publish six issues a year, and 
       we welcome diverse voices from around the world. Two of our issues will be focused on the climate crisis (see our guidelines for more!), and otherwise our issues will 
       run the gamut of the SFF and weird spectra.  

@@ -6,11 +6,11 @@ description: There were two important things—one, that she was very old; two, 
 shortdescription: There were two important things—one, that she was very old; two, that Mr. Thirkell was taking her to God. For hadn't he patted her hand and said:&nbsp;"Mrs. Bellowes, we'll take off into space in my rocket, and go to find Him together." <a href="https://www.havenquarterly.com/a-little-journey/">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:04:10.000Z"
 path: "/a-little-journey"
 featured: false
-
+available: true
 ---
 
 There were two important things—one, that she was very old; two, that Mr. Thirkell was taking her to God. For hadn't he patted her hand and said: "Mrs. Bellowes, we'll take off into space in my rocket, and go to find Him together."

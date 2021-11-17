@@ -6,10 +6,11 @@ description: \"Son,\" said my mother, <br />When I was knee-high, <br />\"You've
 shortdescription: "&quot;Son,&quot; said my mother, <br />When I was knee-high, <br />&quot;You've need of clothes to cover you, <br />And not a rag have I. <br /> <br /> <invisible>==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== </invisible> <br />"
 category: POETRY
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:01:00.000Z"
 path: "/the-ballad-of-the-harp-weaver"
 featured: false
+available: true
 ---
 
 "Son," said my mother,  

@@ -26,6 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
                     path
                     title
                     date(formatString: "DD MMMM YYYY")
+                    issuecover
                   }
                   excerpt
                 }
@@ -93,7 +94,7 @@ exports.createPages = ({ graphql, actions }) => {
             context: {
               issueidname: element.id,
               text: element.text,
-              currentcover: element.currentcover,
+              issuecover: element.issuecover,
               artist: element.artist,
               artistbio: element.artistbio,
               artistimage: element.artistimage,

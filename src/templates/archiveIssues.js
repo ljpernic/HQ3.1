@@ -120,7 +120,7 @@ export default class archiveIssues extends React.Component {
                 {issueNodes.map(({ node: issue }, index) => (
                       <div key={issue.id} className="pt-1 pb-2">
                         <Image className="editorImageAbout mb-2"
-                            fixed={issue.currentcover.childImageSharp.fixed}
+                            fixed={issue.issuecover.childImageSharp.fixed}
                           />
                         <h1 className="pt-1 pb-1">
                           <Link to={issue.idpath}>
@@ -222,7 +222,7 @@ export const archiveIssuesQuery  = graphql`
           idpath
           text
           teaserText
-          currentcover {
+          issuecover {
             childImageSharp {
               fixed(width: 150) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 

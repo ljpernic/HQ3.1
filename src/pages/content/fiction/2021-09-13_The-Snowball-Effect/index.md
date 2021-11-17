@@ -6,10 +6,11 @@ description: "&quot;All right,&quot; I said, &quot;what <i>is</i> sociology good
 shortdescription: "&quot;All right,&quot; I said, &quot;what <i>is</i> sociology good for?&quot; <p>Wilton Caswell, Ph.D., was head of my Sociology Department, and right then he was mad enough to chew nails. On the office wall behind him were three or four framed documents in Latin that were supposed to be signs of great learning, but I didn't care at that moment if he papered the walls with his degrees. I had been appointed dean and president to see to it that the university made money. I had a job to do, and I meant to do it.</p>"
 category: FICTION
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:01:00.000Z"
 path: "/the-snowball-effect"
 featured: false
+available: true
 ---
 
 "All right," I said, "what *is* sociology good for?"

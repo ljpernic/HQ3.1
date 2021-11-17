@@ -118,7 +118,7 @@ export default class archiveFiction extends React.Component {
                   </div>
                 </div>
                 {posts
-                  .filter(post => post.node.frontmatter.category === "FICTION")
+                  .filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.available === true)
                   .map(({ node: post }) => {
                     return (
                       <div className="pb-1 container" key={post.id}>
@@ -229,6 +229,7 @@ export const archiveFictionQuery = graphql`
           html
           id
           frontmatter {
+            available
             path
             title
             shortdescription

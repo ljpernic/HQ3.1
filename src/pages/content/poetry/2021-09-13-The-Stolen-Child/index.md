@@ -6,10 +6,11 @@ description: Where dips the rocky highland <br />Of Sleuth Wood in the lake, <br
 shortdescription: Where dips the rocky highland <br />Of Sleuth Wood in the lake, <br />There lies a leafy island <br />Where flapping herons wake <a href="https://www.havenquarterly.com/the-stolen-child/">[<i>...</i>]</a>
 category: POETRY
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:04:01.000Z"
 path: "/the-stolen-child"
 featured: false
+available: true
 ---
 
 Where dips the rocky highland  

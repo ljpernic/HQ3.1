@@ -126,7 +126,7 @@ export const archiveFutureQuery = graphql`
             issue {
               id
               idpath
-              currentcover {
+              issuecover {
                 childImageSharp {
                   fixed(width: 300) {                                           #This changed the post picture sizes on the front page (originally 75)
                     ...GatsbyImageSharpFixed 

@@ -6,10 +6,11 @@ description: It was an old house not far from the coast, and had descended gener
 shortdescription: It was an old house not far from the coast, and had descended generation by generation to the women of the Putnam family. Progress literally went by it—a new four-lane highway had been built two hundred yards from the ancient lilacs at the doorstep. Long before that, in the time of Cecily Putnam's husband, power lines had been run in, and now on cold nights the telephone wires sounded like a concert of cellos, while inside with a sound like the breaking of beetles, the grandmother Cecily moved through the walls in the grooves of tradition. <a href="https://www.havenquarterly.com/the-putnam-tradition/">[<i>...</i>]</a>
 category: FICTION
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:04:00.000Z"
 path: "/the-putnam-tradition"
 featured: false
+available: true
 ---
 
 It was an old house not far from the coast, and had descended generation by generation to the women of the Putnam family. Progress literally went by it: a new four-lane highway had been built two hundred yards from the ancient lilacs at the doorstep. Long before that, in the time of Cecily Putnam's husband, power lines had been run in, and now on cold nights the telephone wires sounded like a concert of cellos, while inside with a sound like the breaking of beetles, the grandmother Cecily moved through the walls in the grooves of tradition.

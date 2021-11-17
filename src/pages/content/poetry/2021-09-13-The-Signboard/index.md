@@ -6,10 +6,11 @@ description: I will paint you a sign, rumseller, <br />And hang it above your do
 shortdescription: I will paint you a sign, rumseller, <br />And hang it above your door; <br /> A truer and better signboard <br />Than ever you had before. <br />I will paint with the skill of a master, <br />And many shall pause to see <br />This wonderful piece of painting, <br />So like the reality. <a href="https://www.havenspec.com/the-signboard/">[<i>...</i>]</a>
 category: POETRY
 cover: cover.jpg
-currentcover: CurrentCover.jpg
+issuecover: CurrentCover.jpg
 date: "2021-09-13T00:03:01.000Z"
 path: "/the-signboard"
 featured: false
+available: true
 ---
 
 I will paint you a sign, rumseller,  

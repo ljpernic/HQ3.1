@@ -134,31 +134,20 @@ const Home = (props) => {                                                     //
                         Fiction:
                       </h4>
                         {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
-                          .map(({ node: post }) => {
-                            return (
-                              <p key={post.frontmatter.title}>
-                                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
-                              </p>
-                            )
-                        })}
+                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue One, November 2021")
+                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
                         <h4>
                           Poetry:
                         </h4>
-                          {posts
-                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
-                            .map(({ node: post }) => {
-                            return (
-                              <p key={post.frontmatter.title}>
-                                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
-                              </p>
-                            )
-                          })}
+                        {posts
+                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue One, November 2021")
+                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+
                         <h4>
                           Non-Fiction:
                         </h4>
                           {posts
-                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Zero, September 2021")
+                          .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue One, November 2021")
                             .map(({ node: post }) => {
                             return (
                               <p key={post.frontmatter.title}>
@@ -170,7 +159,7 @@ const Home = (props) => {                                                     //
                       </div>
                     </div>
                     <div className="col-12 text-center pb-8">
-                      <Link className="button button-primary" to="/issue-zero">
+                      <Link className="button button-primary" to="/issue-one">
                         View Issue
                       </Link>
                 </div>
@@ -243,6 +232,7 @@ export const query = graphql`
           id
           frontmatter {
             featured
+            available
             path
             title
             description

@@ -116,7 +116,7 @@ export default class archivePoetry extends React.Component {
                   </div>
                 </div>
                 {posts
-                  .filter(post => post.node.frontmatter.category === "POETRY")
+                  .filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.available === true)
                   .map(({ node: post }) => {
                     return (
                       <div className="pb-1 container" key={post.id}>
@@ -227,6 +227,7 @@ export const archivePoetryQuery = graphql`
           html
           id
           frontmatter {
+            available
             path
             title
             shortdescription
