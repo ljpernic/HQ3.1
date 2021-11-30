@@ -150,16 +150,15 @@ const Submit = (props) => {
               </div>
             </div>
             <p>
-              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and non-fiction pieces by authors of backgrounds not 
-              typically represented in last century's science fiction and fantasy canon. Our submission cycle is therefore split into two categories, where every other month is explicitly 
-              reserved for submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six months remain open to everyone. 
+              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and non-fiction pieces by authors from 
+              backgrounds that have been historically underrepresented in the science fiction and fantasy canon. Our submission cycle is therefore split into two categories, where 
+              every other month is explicitly reserved for submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The 
+              interposing six months remain open to everyone. 
             </p>
-
             <p>
               Haven Spec Magazine is currently <big>open</big> to all submissions{/*, but we hope to open soon*/}! 
             </p>
             <hr />
-
             <h1 className="pt-1 pb-1">
               Guidelines for Fiction
             </h1>
@@ -213,7 +212,6 @@ const Submit = (props) => {
               You may submit up to five poems at a time, but please separate them into individual submissions. 
             </p>
             <hr />
-
             <h1 className="pt-1 pb-1">
               Guidelines for Non-Fiction
             </h1>
@@ -222,8 +220,9 @@ const Submit = (props) => {
               might not have expected. We pay 1¢ per word for non-fiction, but please nothing over 3,000 words (though we favor shorter over longer).
             </p>
             <hr />
-{/*            <h1 className="pt-1 pb-1">
-            Guidelines for Letters from the Future
+{/*            
+            <h1 className="pt-1 pb-1">
+              Guidelines for Letters from the Future
             </h1>
             <p className="pb-1">
               We're not quite sure how, but once every other month we receive a letter in the mail from the future. It's the damnedest thing. These letters are usually about 
@@ -251,7 +250,6 @@ const Submit = (props) => {
             <h1 className="pt-1 pb-1">
               Themes
             </h1>
-
             <Image className="editorImageAbout mb-2"
               fixed={data.wetCover.childImageSharp.fixed}
             />
@@ -260,13 +258,12 @@ const Submit = (props) => {
             </h5>
             <p>
               Each September, we publish our WET Issue! Here we focus on stories of water—monsoons and the rising tides, hurricanes and the disappearing coast—we'll center 
-              stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, even vaguely! </p>
-            
+              stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, even vaguely! 
+            </p>
             <p className="pb-1">
               To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
               affected by the crisis at hand. Submissions by climate refugees are very welcome. 
             </p>
-
             <Image className="editorImageAbout mb-2"
               fixed={data.dryCover.childImageSharp.fixed}
             />
@@ -278,24 +275,18 @@ const Submit = (props) => {
               rising temperatures and endless droughts—we'll center stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, 
               even vaguely! 
             </p>
-            
             <p className="pb-1">
               To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
               affected by the crisis at hand. Submissions by climate refugees are very welcome.
             </p>
-
             <hr className="mb-2" />
-
             <Link to="/forms">
             <button type="button" className="collapsible">Go to Submission Form</button>
             </Link>
-            
             <hr className="mb-2" />
-
             <p className="mb-4">
               Interested to know how we go about accepting and rejecting stories? <Link to="/rejectomancy">Click here!</Link>
             </p>
-
          </div>
       </div>
     </div>

@@ -111,7 +111,7 @@ const About = (props) => {
                   About the Magazine
                 </h1>
                 <p>
-                  <i>Haven Spec</i> is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a 
+                  <i><b>Haven Spec</b></i> is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a 
                   sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the 
                   WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined).
                 </p>
@@ -145,17 +145,16 @@ const About = (props) => {
                   </div>
 
                   <p>
-                    Leon Perniciaro (he/him) is a writer, editor, translator, and university professor, teaching courses in game design. He also co-hosts Father Bother, 
+                  <b>Leon Perniciaro</b> (he/him) is a writer, editor, translator, and part-time university professor, teaching courses in game design. He also co-hosts Father Bother, 
                     a writers' room comedy podcast about literature and children's books.
                   </p>
-                  <p className="pb-1"> Originally from New Orleans, he now lives in New England, and he's terrified of both 
-                    the climate crisis and the Great Filter.
+                  <p className="pb-1"> Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
                   </p>
                 </div>
 
                 <div>
                   <h1 className="pt-3 pb-1">
-                    About the Associate Editor
+                    About the Associate Editors
                   </h1>
                   <div className="editorImageAbout mb-2">
                     <Image fixed={data.ash.childImageSharp.fixed}/>
@@ -167,17 +166,39 @@ const About = (props) => {
                   </div>
 
                   <p>
-                  Ash Okada (she/they) is a speculative fiction writer and capital-N Nerd who is endlessly fascinated by story, languages, history, the human brain, and 
+                  <b>Ash Okada</b> (she/they) is a speculative fiction writer and capital-N Nerd who is endlessly fascinated by story, languages, history, the human brain, and 
                   dinosaurs. Ash has worked an eclectic set of jobs over the years, from lit agency intern to video captioner and from executive assistant to bridge caddy 
                   (though not necessarily in that order), and lives in Brooklyn, NY.</p> 
                   
                   <p className="pb-1">When the weather's lousy, you can usually find Ash curled up with a massive cup of tea 
                   and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.
                   </p>
+                  <div className="editorImageAbout mb-2">
+                    <Image fixed={data.tj.childImageSharp.fixed}/>
+                    <a href={ashTwitter}>
+                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                        <FaTwitter />
+                      </IconContext.Provider>
+                    </a>
+                  </div>
+
+                  <p>
+                  <b>TJ Price</b>’s corporeal being (he/him) is currently located in Brooklyn, NY, with his
+                    handsome partner of many years, but his ghosts live in northeastern Connecticut and
+                    southern Maine. He either is or has been a wine-seller, a wine-drinker, an avid reader,
+                    an obsessive writer, a pen-and-ink artist, a dishwasher, a neurosurgical technologist, a
+                    proofreader, a storm-watcher, a music-maker, and other sundry avocations.
+                  </p> 
+                  
+                  <p className="pb-1">
+                    Primarily, TJ spends his time reading as much as his eyes can take, but when he&#39;s not
+                    reading, he&#39;s either writing weird stories about unnerving things, drawing lots of little
+                    circles in pen and ink, enjoying esoteric studies, or taking photographs of clouds.
+                  </p>
                 </div>
                 <hr />
                       
-                <div>
+{/*                 <div>
                   <h1 className="pt-1 pb-1">
                     Volunteer
                   </h1>
@@ -194,6 +215,7 @@ const About = (props) => {
                   </p>
                 </div>
                 <hr />
+*/}
                 <div>
                   <h1 className="pt-1 pb-1">
                     Privacy Policy
@@ -327,6 +349,13 @@ export const query = graphql`
       }
     }
     ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    tj: file(relativePath: { eq: "profile/TJ_Price.jpeg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
