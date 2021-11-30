@@ -31,6 +31,7 @@ const About = (props) => {
 
   const leonTwitter = `http://twitter.com/leonperniciaro`;
   const ashTwitter = `http://twitter.com/ashaquestion`;
+  const tjTwitter = `http://twitter.com/eerieyore`;
 
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
   
@@ -175,7 +176,7 @@ const About = (props) => {
                   </p>
                   <div className="editorImageAbout mb-2">
                     <Image fixed={data.tj.childImageSharp.fixed}/>
-                    <a href={ashTwitter}>
+                    <a href={tjTwitter}>
                       <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
                         <FaTwitter />
                       </IconContext.Provider>
