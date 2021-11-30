@@ -142,7 +142,7 @@
     width: 100%;
     font-weight: bold;
     line-height: 1.6;
-    padding: 10px 25px 10px 35px;
+    padding: 0px 25px 00px 35px;
     @include media-breakpoint-up(xs) {
       text-align: center;
       width: 100%;
@@ -225,6 +225,45 @@
     margin-right: 100px;
   }
 }
+
+li .listWindow {
+//  font-weight: lighter;
+//  line-height: 1.6;
+  color: $secondary;
+  padding: 0px 45px 0px 45px;
+  margin: 0px;
+  @include media-breakpoint-up(xs) {
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 1rem!important;
+    text-align: justify;
+    width: 100%;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1rem!important;
+    text-align: justify;
+    width: 100%;
+  }
+  .centerMarkdown {
+    text-align: center!important;
+  }
+}
+.opacity { 
+  opacity: 0.6;
+}
+.indent {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 
 .iframe {
   height: 850px;
@@ -429,6 +468,28 @@
   height: auto;
   text-align: center;
   font-size: 30px;
+  .subWindows {
+    font-size: medium!important;
+    box-sizing: content-box;
+    grid-column: 1 / span 1;
+    padding: 10px;
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+      grid-column: 1 / span 3;
+    }
+    @include media-breakpoint-up(md) {
+      grid-column: 1 / span 3;
+    }
+    @include media-breakpoint-up(lg) {
+      grid-column: 1 / span 1;
+    }
+    > h5 {
+      text-align: center;
+    }
+  }
 }
 
 
@@ -642,3 +703,4 @@ hr {
     width: 90%;
   }
 }
+

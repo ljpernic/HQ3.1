@@ -127,11 +127,42 @@ const Submit = (props) => {
                   </div>                
 
             <h1 className="pt-1 pb-1">
+              Submission Windows
+            </h1>
+            <div className="grid-container">
+            <div className="subWindows">
+              <h5>Open submission window</h5>
+                  <li className="listWindow">February 01-28</li>  
+                  <li className="listWindow">April 01-30</li>  
+                  <li className="listWindow">June 01-30</li>  
+                  <li className="listWindow">August 01-31</li>  
+                  <li className="listWindow">October 01-31</li>  
+                  <li className="listWindow">December 01-31</li>  
+              </div>
+              <div className="subWindows">
+              <h5>Limited demographic window</h5>
+                  <li className="listWindow">January 01-31</li>  
+                  <li className="listWindow">March 01-31</li>  
+                  <li className="listWindow">May 01-31</li>  
+                  <li className="listWindow">July 01-31</li>  
+                  <li className="listWindow">September 01-30</li>  
+                  <li className="listWindow">November 01-30</li>  
+              </div>
+            </div>
+            <p>
+              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and non-fiction pieces by authors of backgrounds not 
+              typically represented in last century's science fiction and fantasy canon. Our submission cycle is therefore split into two categories, where every other month is explicitly 
+              reserved for submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six months remain open to everyone. 
+            </p>
+
+            <p>
+              Haven Spec Magazine is currently <big>open</big> to all submissions{/*, but we hope to open soon*/}! 
+            </p>
+            <hr />
+
+            <h1 className="pt-1 pb-1">
               Guidelines for Fiction
             </h1>
-            <p>
-              Haven Spec is currently <big>open</big> to fiction submissions{/*, but we hope to open soon*/}! 
-            </p>
             <p>
               We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome writers from 
               around the world, and for our two issues focused on the climate crisis, we're particularly interested in publishing stories from people displaced 
@@ -160,13 +191,9 @@ const Submit = (props) => {
                 When in doubt, don't self reject! Submit submit submit! 
             </p>
             <hr />
-
             <h1 className="pt-1 pb-1">
               Guidelines for Poetry
             </h1>
-            <p>
-              We are currently <big>open</big> to poetry submissions, but follow us on social media for updates and new content! 
-            </p>
             <p>
               We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. For our two issues focused on 
               the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For 
@@ -260,7 +287,7 @@ const Submit = (props) => {
             <hr className="mb-2" />
 
             <Link to="/forms">
-            <button type="button" className="collapsible">Go to Submission Forms</button>
+            <button type="button" className="collapsible">Go to Submission Form</button>
             </Link>
             
             <hr className="mb-2" />
