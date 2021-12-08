@@ -127,7 +127,8 @@ const Eachauthor = props => {
                   </h1>
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
                   <p>
-                    {stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
+                    {
+                      stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
                     }
                     {stories
                       .map((data, index) => stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}

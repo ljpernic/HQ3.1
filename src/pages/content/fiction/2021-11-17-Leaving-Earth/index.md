@@ -9,7 +9,7 @@ cover: cover.jpg
 issuecover: CurrentCover.jpg
 date: "2021-11-17T00:02:00.000Z"
 path: "/leaving-earth"
-featured: true
+featured: false
 available: true
 
 ---

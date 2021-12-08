@@ -151,20 +151,13 @@ const Eachissue = props => {
                 {posts
                   .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname)
                   .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-                  <h4>
-                    Non-Fiction:
-                  </h4>
-                    {posts
-                    .filter(post => !post.node.frontmatter.featured && post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname)
-                      .map(({ node: post }) => {
-                      return (
-                        <p key={post.frontmatter.title}>
-                          <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link> by <Link to={post.frontmatter.author.idpath}> {post.frontmatter.author.id}</Link>
-                        </p>
-                      )
-                    })}
-                    <br />
-                  <div className="pb-2">
+
+                {posts                                                      // the Non-fiction conditional title only works if there's only one non-fiction piece!
+                  .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname)
+                  .map((data, index) => data.node.frontmatter.title === null ? null : data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><h4>Non-fiction:</h4><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}><h4>Non-fiction:</h4>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+
+              <br />
+              <div className="pb-2">
                   <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/

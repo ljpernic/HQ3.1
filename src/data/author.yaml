@@ -1,57 +1,3 @@
-- id: Ray Bradbury
-  idpath: "/ray-bradbury"
-  bio: Ray Bradbury (August 22, 1920 – June 5, 2012) was a prolific science fiction and fantasy author best known for writing the seminal <em> Fahrenheit 
-    451</em> and <em>The Martian Chronicles</em>, among many other works. He never went to college or learned to drive, and in 2012, the landing site of the Mars rover 
-    Curiosity was named Bradbury Landing in his honor.
-  twitter: ''
-  picture: ../images/profile/Ray_Bradbury.jpg
-  stories:
-  - storytitle: A Little Journey
-    storylink: "/a-little-journey"
-  poems:
-  - poemtitle:
-    poemlink:
-
-- id: Miriam Allen deFord
-  idpath: "/miriam-allen-deford"
-  bio: Miriam Allen deFord (August 21, 1888 – February 22, 1975) was a novelist and short fiction writer with works published 
-    in <em>Analog</em>, <em>The Magazine of Fantasy and Science Fiction</em>, <em>Galaxy Science Fiction</em>, and many others. A women's suffrage and 
-    birth control activist, she later became a follower of Charles Fort, dedicating herself to the study of paranormal phenomena.
-  twitter: ''
-  picture: ../images/profile/generic_one.jpg
-  stories:
-  - storytitle: Where the PHPH Pebbles Go
-    storylink: "/where-the-phph-pebbles-go"
-  poems:
-  - poemtitle:
-    poemlink:
-
-- id: Sonya Dorman
-  idpath: "/sonya-dorman"
-  bio: Sonya Dorman (April 6, 1924 – February 14, 2005) was a Rhysling award-winning poet and short fiction writer most well known for the poem "Corruption of Metal." 
-    Her work has also appeared in the anthology <em>Dangerous Visions</em>, edited by Harlan Ellison.
-  twitter: ''
-  picture: ../images/profile/generic_one.jpg
-  stories:
-  - storytitle: The Putnam Tradition
-    storylink: "/The-putnam-tradition"
-  poems:
-  - poemtitle:
-    poemlink:
-
-- id: T.D. Hamm
-  idpath: "/t-d-hamm"
-  bio: T. D. Hamm (1905 – 1995) was a science fiction writer with stories published in <em>If</em>, <em> Tomorrow's Universe</em>, <em>The Magazine of Fantasy and 
-    Science Fiction</em>, and several others.
-  twitter: ''
-  picture: ../images/profile/generic_one.jpg
-  stories:
-  - storytitle: The Last Supper
-    storylink: "/the-last-supper"
-  poems:
-  - poemtitle:
-    poemlink:
-
 - id: Brian Hugenbruch
   idpath: "/brian-hugenbruch"
   bio: Brian Hugenbruch is a speculative fiction author and poet living in Upstate NY with his wife and their daughter (and some unruly pets). By day, he writes information 
@@ -100,12 +46,114 @@
 - id: Annika Barranti Klein
   idpath: "/annika-barranti-klein"
   bio: Annika Barranti Klein lives and writes in a tiny apartment in Los Angeles with her family. She is a lifelong lover of zoos and obscure facts. Her fiction has 
-    recently been and is forthcoming in Mermaids Monthly, Kaleidotrope, Weird Horror, and Asimov’s Science Fiction. Find her online at annikaobscura.com. 
+    recently been and is forthcoming in Mermaids Monthly, Kaleidotrope, Weird Horror, and Asimov’s Science Fiction. Find her online at <a href="https://annikaobscura.com">annikaobscura.com</a>. 
   twitter: 'noirbettie'
   picture: ../images/profile/Annika_Barranti_Klein.jpeg
   stories:
   - storytitle: Phosphor's Circle
     storylink: "/phosphors-circle"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: A. T. Sayre
+  idpath: "/a-t-sayre"
+  bio: A.T. Sayre has been writing in some form or other for over three-quarters of his life, ever since he was ten years old. From plays to poems, film scripts to graphic novels, 
+    he has tried them all, but has never strayed too far from his first true love, narrative fiction—specifically, speculative fiction.
+
+
+    His work has appeared in Analog, Utopia Science Fiction, Theaker’s Quarterly, and Andromeda Spaceways. A more detailed list of his publications can be found 
+    at <a href="https://www.atsayre.com/fiction">www.atsayre.com/fiction</a>.
+
+
+    Born in Kansas City, raised in New Hampshire, he lives in Brooklyn and likes to read in coffeehouses.
+  twitter: 'AtSayre'
+  picture: ../images/profile/A_T_Sayre.jpg
+  stories:
+  - storytitle: The Spot
+    storylink: "/the-spot"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: João F. Silva
+  idpath: "/joao-f-silva"
+  bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
+    He’s a member of the BSFA and was also on the jury for the Best Newcomer Award at the 2020 British Fantasy Awards.
+  twitter: 'JoaoSilvaWrites'
+  picture: ../images/profile/Joao_Silva.jpg
+  stories:
+  - storytitle: The Cavalry
+    storylink: "/the-cavalry"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Dawn Vogel
+  idpath: "/dawn-vogel"
+  bio: Dawn Vogel writes across many sub-genres of speculative fiction, depending on what mood strikes her. By day, she edits reports for historians and archaeologists. 
+    In her alleged spare time, she runs a craft business, co-runs a small press, and tries to find time for writing. Her steampunk adventure series, <em>Brass and Glass</em>, 
+    is available from DefCon One Publishing. She is a member of Broad Universe, SFWA, and Codex Writers. She lives in Seattle with her husband, author Jeremy Zimmerman, 
+    and their herd of cats. Visit her at <a href="http://historythatneverwas.com">http://historythatneverwas.com</a>.
+  twitter: 'historyneverwas'
+  picture: ../images/profile/Dawn_Vogel.jpg
+  stories:
+  - storytitle: The Shell Game
+    storylink: "/the-shell-game"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Thomas Zimmerman
+  idpath: "/thomas-zimmerman"
+  bio: Thomas Zimmerman (he/him) teaches English, directs the Writing Center, and edits <em>The Big Windows Review</em> at Washtenaw Community College, in Ann Arbor, Michigan, USA. 
+    His poems have appeared recently in <em>Sledgehammer</em>, <em>The Sparrow’s Trombone</em>, and <em>Spellbinder</em>. Find him 
+    at <a href="https:/thomaszimmerman.wordpress.com>https:/thomaszimmerman.wordpress.com</a> and on twitter <a href="https://www.twitter.com/bwr_tom">@bwr_tom</a>.
+  twitter: 'bwr_tom'
+  picture: ../images/profile/Tom_Zimmerman.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Wolf Rune"
+    poemlink: "/wolf-rune"
+
+- id: Miriam Allen deFord
+  idpath: "/miriam-allen-deford"
+  bio: Miriam Allen deFord (August 21, 1888 – February 22, 1975) was a novelist and short fiction writer with works published 
+    in <em>Analog</em>, <em>The Magazine of Fantasy and Science Fiction</em>, <em>Galaxy Science Fiction</em>, and many others. A women's suffrage and 
+    birth control activist, she later became a follower of Charles Fort, dedicating herself to the study of paranormal phenomena.
+  twitter: ''
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: Where the PHPH Pebbles Go
+    storylink: "/where-the-phph-pebbles-go"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Sonya Dorman
+  idpath: "/sonya-dorman"
+  bio: Sonya Dorman (April 6, 1924 – February 14, 2005) was a Rhysling award-winning poet and short fiction writer most well known for the poem "Corruption of Metal." 
+    Her work has also appeared in the anthology <em>Dangerous Visions</em>, edited by Harlan Ellison.
+  twitter: ''
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: The Putnam Tradition
+    storylink: "/The-putnam-tradition"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: T.D. Hamm
+  idpath: "/t-d-hamm"
+  bio: T. D. Hamm (1905 – 1995) was a science fiction writer with stories published in <em>If</em>, <em> Tomorrow's Universe</em>, <em>The Magazine of Fantasy and 
+    Science Fiction</em>, and several others.
+  twitter: ''
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: The Last Supper
+    storylink: "/the-last-supper"
   poems:
   - poemtitle:
     poemlink:
@@ -178,26 +226,6 @@
   - poemtitle: "The Loom of Years"
     poemlink: "/the-loom-of-years"
 
-- id: A. T. Sayre
-  idpath: "/a-t-sayre"
-  bio: A.T. Sayre has been writing in some form or other for over three-quarters of his life, ever since he was ten years old. From plays to poems, film scripts to graphic novels, 
-    he has tried them all, but has never strayed too far from his first true love, narrative fiction—specifically, speculative fiction.
-
-
-    His work has appeared in Analog, Utopia Science Fiction, Theaker’s Quarterly, and Andromeda Spaceways. A more detailed list of his publications can be found 
-    at <a href="www.atsayre.com/fiction">www.atsayre.com/fiction</a>.
-
-
-    Born in Kansas City, raised in New Hampshire, he lives in Brooklyn and likes to read in coffeehouses.
-  twitter: 'AtSayre'
-  picture: ../images/profile/A_T_Sayre.jpg
-  stories:
-  - storytitle: The Spot
-    storylink: "/the-spot"
-  poems:
-  - poemtitle:
-    poemlink:
-
 - id: Mary Shelley
   idpath: "/mary-shelley"
   bio: Mary Shelley (30 August 1797 – 1 February 1851) was a novelist best known as the author of <em>Frankenstein; or, The Modern Prometheus</em> (1818), a 
@@ -208,34 +236,6 @@
   stories:
   - storytitle: Introduction to the 1831 Edition of Frankenstein
     storylink: "/introduction-to-the-1831-edition-of-frankenstein"
-  poems:
-  - poemtitle:
-    poemlink:
-
-- id: João F. Silva
-  idpath: "/joao-f-silva"
-  bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
-    He’s a member of the BSFA and was also on the jury for the Best Newcomer Award at the 2020 British Fantasy Awards.
-  twitter: 'JoaoSilvaWrites'
-  picture: ../images/profile/Joao_Silva.jpg
-  stories:
-  - storytitle: The Cavalry
-    storylink: "/the-cavalry"
-  poems:
-  - poemtitle:
-    poemlink:
-
-- id: Dawn Vogel
-  idpath: "/dawn-vogel"
-  bio: Dawn Vogel writes across many sub-genres of speculative fiction, depending on what mood strikes her. By day, she edits reports for historians and archaeologists. 
-    In her alleged spare time, she runs a craft business, co-runs a small press, and tries to find time for writing. Her steampunk adventure series, <em>Brass and Glass</em>, 
-    is available from DefCon One Publishing. She is a member of Broad Universe, SFWA, and Codex Writers. She lives in Seattle with her husband, author Jeremy Zimmerman, 
-    and their herd of cats. Visit her at <a href="http://historythatneverwas.com">http://historythatneverwas.com</a>.
-  twitter: 'historyneverwas'
-  picture: ../images/profile/Dawn_Vogel.jpg
-  stories:
-  - storytitle: The Shell Game
-    storylink: "/the-shell-game"
   poems:
   - poemtitle:
     poemlink:
@@ -267,20 +267,6 @@
   poems:
   - poemtitle: "The Stolen Child"
     poemlink: "/the-stolen-child"
-
-- id: Thomas Zimmerman
-  idpath: "/thomas-zimmerman"
-  bio: Thomas Zimmerman (he/him) teaches English, directs the Writing Center, and edits <em>The Big Windows Review</em> at Washtenaw Community College, in Ann Arbor, Michigan, USA. 
-    His poems have appeared recently in <em>Sledgehammer</em>, <em>The Sparrow’s Trombone</em>, and <em>Spellbinder</em>. Find him 
-    at <a href="https:/thomaszimmerman.wordpress.com>https:/thomaszimmerman.wordpress.com</a> and on twitter <a href="https://www.twitter.com/bwr_tom">@bwr_tom</a>.
-  twitter: 'bwr_tom'
-  picture: ../images/profile/Tom_Zimmerman.jpg
-  stories:
-  - storytitle:
-    storylink:
-  poems:
-  - poemtitle: "Wolf Rune"
-    poemlink: "/wolf-rune"
 
 #- id: Generic Name
 #  idpath: "/generic-name"
