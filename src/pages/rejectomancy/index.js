@@ -144,7 +144,7 @@ const Rejectomancy = (props) => {
               Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we will be unable to accept it for publication. 
             </p>
             <p>
-              [Then there's a middle paragraph with specific feedback about elements of your submission that wasn't working for us. This is usually formatted, <i>I liked  X and Y, 
+              [Then there's a middle paragraph with specific feedback about elements of your submission that weren't working for us. This is usually formatted, <i>I liked  X and Y, 
               but overall, Z didn't quite come together for me.</i>]
             </p>
             <p>
@@ -172,7 +172,7 @@ const Rejectomancy = (props) => {
                 Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we will be unable to accept it for publication. 
               </p>
               <p>
-                [Then there's a middle paragraph with specific feedback about elements of your submission that wasn't working for us. This is usually formatted, <i>I liked  X and Y, 
+                [Then there's a middle paragraph with specific feedback about elements of your submission that weren't working for us. This is usually formatted, <i>I liked  X and Y, 
                 but overall, Z didn't quite come together for me.</i>]
               </p>
               <p>
