@@ -1,3 +1,63 @@
+- id: Emmie Christie
+  idpath: "/emmie-christie"
+  bio: Emmie Christie's work tends to hover around the topics of feminism, mental health, cats, and the speculative such as unicorns and affordable healthcare. She has been 
+    published in <em>Flash Fiction Online</em>, <em>Zooscape</em>, and <em>Three-Lobed Burning Eye</em>. She graduated from the University of Nebraska at Omaha with a Bachelor's 
+    in Creative Writing and attended the Odyssey Writing Workshop in 2013. She narrates audiobooks for Audible and loves bringing stories to life out loud as well as on the 
+    page. You can find her work at <a href="https://www.emmiechristie.com">www.emmiechristie.com</a> or follow her on 
+    Twitter <a href="https://www.twitter.com/EmmieChristie33">@EmmieChristie33</a>. 
+  twitter: 'EmmieChristie33'
+  picture: ../images/profile/Emmie_Christie.jpg
+  stories:
+  - storytitle: "Touched"
+    storylink: /touched
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Eric Farrell
+  idpath: "/eric-farrell"
+  bio: Eric Farrell (he/his) lives in Long Beach, California, where he works as a beer vendor by day and speculative fiction author by night. His writing credits stem from 
+    a career in journalism, where he reported for a host of local and metro newspapers in the greater Los Angeles area. He runs the 
+    website <a href="https://www.stygianspace.com">stygianspace.com</a> and posts on Twitter <a href="https://www.twitter.com/stygianspace">@stygianspace</a>. He has recent 
+    fiction in <em>Etherea Magazine</em>, <em>Pulp Modern</em>, and <em>Synthetic Reality</em>. 
+  twitter: 'stygianspace'
+  picture: ../images/profile/Eric_Farrell.jpg
+  stories:
+  - storytitle: "My Sparkle Alone Can't Cull Your Demons"
+    storylink: /my-sparkle-alone-cant-cull-your-demons
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Michael Haynes
+  idpath: "/michael-haynes"
+  bio: "Michael Haynes lives in Central Ohio. An ardent short story reader and writer, Michael has had stories appear in periodicals such as <em>Ellery Queen Mystery Magazine</em>, 
+    <em>Beneath Ceaseless Skies</em>, and <em>Nature</em>, and also in anthologies such as <em>Deep Cuts</em>, <em>Not Our Kind: Tales of Not Belonging</em>, 
+    and <em>Kwik Krimes</em>. He serves on the board of Rainbow Dublin and enjoys photography, cooking, watching ice hockey, and travel. His website 
+    is <a href='http://www.michaelhaynes.info/'>http://michaelhaynes.info/</a>, and he can be found on Twitter as <a href='https://www.twitter.com/mohio73'>@mohio73</a>."
+  twitter: 'mohio73'
+  picture: ../images/profile/Michael_Haynes.jpg
+  stories:
+  - storytitle: "Carolina"
+    storylink: /carolina
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Sylvia Heike
+  idpath: "/sylvia-heike"
+  bio: Sylvia Heike is a fantasy and science fiction writer from Finland. Her stories have appeared in <em>Flash Fiction Online</em>, <em>PodCastle</em>, <em>Nature Futures</em>, 
+    and more. When not writing, she likes to go hiking and looking for birds. To find out more, visit <a href="https://www.sylviaheike.com">https://www.sylviaheike.com</a> or 
+    say hello on Twitter <a href="https://www.twitter.com/sylviaheike">@sylviaheike</a>.
+  twitter: 'sylviaheike'
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: "We Are the Moor"
+    storylink: /we-are-the-moor
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Brian Hugenbruch
   idpath: "/brian-hugenbruch"
   bio: Brian Hugenbruch is a speculative fiction author and poet living in Upstate NY with his wife and their daughter (and some unruly pets). By day, he writes information 
@@ -52,6 +112,37 @@
   stories:
   - storytitle: Phosphor's Circle
     storylink: "/phosphors-circle"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Avra Margariti
+  idpath: "/avra-margariti"
+  bio: Avra Margariti is a queer author, Greek sea monster, and Pushcart-nominated poet with a fondness for the dark and the darling. Avra's work haunts publications such 
+    as <em>Vastarien</em>, <em>Asimov's</em>, <em>Liminality</em>, <em>Arsenika</em>, <em>The Future Fire</em>, <em>Space and Time</em>, <em>Eye to the Telescope</em>, 
+    and <em>Glittership</em>. <em>The Saint of Witches</em>, Avra's debut collection of horror poetry, is forthcoming from Weasel Press. You can find Avra on 
+    twitter (<a href="https:www.twitter.com/avramargariti">@avramargariti</a>).
+  twitter: 'avramargariti'
+  picture: ../images/profile/Avra_Margariti.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Misconceptions Regarding the Moon"
+    poemlink: /misconceptions-regarding-the-moon
+
+- id: Christi Nogle
+  idpath: "/christi-nogle"
+  bio: Christi Nogle's debut novel, <em>Beulah</em>, was published in January 2022 by Cemetery Gates Media. Her short stories have appeared in over fifty publications, 
+    including <em>PseudoPod</em>, <em>Vastarien</em>, and <em>Dark Matter Magazine</em>, along with anthologies such as C.M Muller's <em>Nightscript</em> and Flame 
+    Tree's <em>American Gothic</em>. Christi is a member of the Horror Writers Association, Science Fiction & Fantasy Writers of America, and Codex Writers' Group. She 
+    lives in Boise, Idaho, with her partner Jim and their gorgeous dogs. Follow her at <a href="https://www.christinogle.com">christinogle.com</a> or on 
+    Twitter <a href="https://www.twitter.com/christinogle">@christinogle</a>.
+  twitter: 'christinogle'
+  picture: ../images/profile/Christi_Nogle.jpg
+  stories:
+  - storytitle: "Lovey"
+    storylink: /lovey
   poems:
   - poemtitle:
     poemlink:

@@ -8,7 +8,7 @@ category: FICTION
 cover: cover.jpg
 date: "2021-11-17T00:01:00.000Z"
 path: "/the-spot"
-featured: true
+featured: false
 available: true
 
 ---

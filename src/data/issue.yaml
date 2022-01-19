@@ -1,4 +1,33 @@
 ####################################################################___ISSUE ONE___####################################################################
+- id: Issue Two, January 2022
+  idpath: "/issue-two"
+  issuecover: "../images/covers/002_COVER.jpg"
+  teaserText: Issue Two is now available! In this issue, we have street kids trying their best to survive in Emmie Christie's "Touched" and the voice of the moors and the 
+      restless who are buried there in "We Are the Moor," written by Sylvia Heike and first published in Flash Fiction Online. Both stories are available now to read for free on 
+      our website!
+     
+
+      We also have more terrific fiction in "Carolina" by Michael Haynes, "Lovey" by Christi Nogle, and "My Sparkle Alone Can't Cull Your Demons" by Eric Farrell, together 
+      with poetry by Avra Margariti in "Misconceptions Regarding the Moon," which considers the moon and all the magic there. These will be available to read for free on February 
+      9th, but if you just can't wait, then you should feel free to snag a copy of the January/February issue through patreon or ko-fi today!
+  text: Issue Two is now available! In this issue, we have street kids trying their best to survive in Emmie Christie's "Touched" and the voice of the moors and the 
+      restless who are buried there in "We Are the Moor," written by Sylvia Heike and first published in Flash Fiction Online. Both stories are available now to read for free on 
+      our website!
+     
+
+      We also have more terrific fiction in "Carolina" by Michael Haynes, "Lovey" by Christi Nogle, and "My Sparkle Alone Can't Cull Your Demons" by Eric Farrell, together 
+      with poetry by Avra Margariti in "Misconceptions Regarding the Moon," which considers the moon and all the magic there. These will be available to read for free on February 
+      9th, but if you just can't wait, then you should feel free to snag a copy of the January/February issue through patreon or ko-fi today! 
+  artist: W. Heath Robinson
+  artistTwitter:
+  artistimage: "../images/profile/generic_one.jpg"
+  artistbio: W. Heath Robinson (1872-1944) was an illustrator and artist from England who today is best known for drawing Heath Robinson contraptions, the UK version of 
+      Rube Goldberg machines. In addition to his humorous drawings, he also illustrated many books, especially fantasy novels, books of fairytales, and others. The cover 
+      of this issue is titled “The Rain It Raineth Every Day” and was created for a 1908 publication of William Shakespeare's <em>Twelfth Night</em>, which is now in the 
+      public domain.
+
+
+####################################################################___ISSUE ONE___####################################################################
 - id: Issue One, November 2021
   idpath: "/issue-one"
   issuecover: "../images/covers/001_COVER.jpg"
