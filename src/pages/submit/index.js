@@ -131,7 +131,7 @@ const Submit = (props) => {
             </h1>
             <div className="grid-container">
             <div className="subWindows">
-              <h5>Open submission window</h5>
+              <h5>General submission window</h5>
                   <li className="listWindow">February 01-28</li>  
                   <li className="listWindow">April 01-30</li>  
                   <li className="listWindow">June 01-30</li>  
@@ -163,13 +163,13 @@ const Submit = (props) => {
               Guidelines for Fiction
             </h1>
             <p>
-              We are seeking stories in the English language up to 6,000 words that have not been published before (including on your own website). We welcome writers from 
-              around the world, and for our two issues focused on the climate crisis, we're particularly interested in publishing stories from people displaced 
-              by or threatened by the climate emergency (see our themes below). For our other four issues, we're open to a wide variety of stories across the 
-              SFF and weird spectra.
+              We are seeking stories in the English language up to 6,000 words by writers from around the world. We favor submisions that have not been published before (including 
+              on your own website), though we do accept a limited number of reprints, and for our two issues focused on the climate crisis, we're particularly interested in 
+              publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, we're open to a wide variety 
+              of stories across the SFF and weird spectra.
             </p>
             <p>
-              We pay 1¢ per word for fiction, and we try to respond to all submissions within seven weeks. We will also accept a limited number of previously published 
+              We pay 1¢ per word for fiction, and we try to respond to all submissions within ten weeks. We will also accept a limited number of previously published 
               stories, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
               be either .rtf, .doc, or .docx. 
             </p>
@@ -194,12 +194,13 @@ const Submit = (props) => {
               Guidelines for Poetry
             </h1>
             <p>
-              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. For our two issues focused on 
-              the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For 
-              our other four issues, we're open to a wide variety of poems across the SFF and weird spectra. 
+              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. We favor submisions that have 
+              not been published before (including on your own website), though we do accept a limited number of reprints, and for our two issues focused on the climate crisis, 
+              we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, 
+              we're open to a wide variety of poems across the SFF and weird spectra. 
             </p>
             <p>
-              We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within seven weeks. We will also 
+              We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within ten weeks. We will also 
               accept a limited number of previously published poems, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript 
               format (we prefer Courier New) and 
               be either .rtf, .doc, or .docx.
