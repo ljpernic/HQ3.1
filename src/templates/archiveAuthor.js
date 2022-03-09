@@ -31,7 +31,7 @@ export default class archiveAuthor extends React.Component {
   render() {
     const posts = this.props.data.allAuthorYaml.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/havenspec/shop`;
+    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
     
     const uniqueArray = posts.filter((post, index) => {
       const _thing = JSON.stringify(post);

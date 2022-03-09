@@ -29,7 +29,7 @@ export default class archiveIssues extends React.Component {
   render() {
     const issueNodes = this.props.data.allIssueYaml.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/havenspec/shop`;
+    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
     
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
     const isFirst = FULLcurrentPage === 1

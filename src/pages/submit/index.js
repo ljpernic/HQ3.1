@@ -28,7 +28,7 @@ function shuffle(array) {
 
 const Submit = (props) => {
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
   
 {/*
     const formik = useFormik({

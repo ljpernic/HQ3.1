@@ -29,7 +29,7 @@ export default class archiveFiction extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/havenspec/shop`;
+    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
     
     const { FICcurrentPage, FICnumPages } = this.props.pageContext
     const isFirst = FICcurrentPage === 1

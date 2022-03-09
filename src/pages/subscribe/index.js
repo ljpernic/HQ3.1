@@ -25,7 +25,7 @@ function shuffle(array) {
 
 const Subscribe = (props) => {
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
   
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);

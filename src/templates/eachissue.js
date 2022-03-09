@@ -34,7 +34,7 @@ const Eachissue = props => {
   const data = props.data;
   const { idpath, issueidname, text, artist, artistbio, artistTwitter } = pageContext;
   const twitter = `http://twitter.com/havenspec`;
-  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
   
   const twitterLink = `http://twitter.com/${artistTwitter}`;
 

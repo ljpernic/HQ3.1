@@ -39,7 +39,7 @@ const Eachpost = ({ data }) => {
 
   const url = `https://www.havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
-  const currentIssue = `https://ko-fi.com/havenspec/shop`;
+  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
 
   const testText = "Check out...";
 
