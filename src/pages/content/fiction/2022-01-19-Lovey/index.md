@@ -8,7 +8,7 @@ category: FICTION
 cover: cover.jpg
 date: "2022-01-19T00:03:00.000Z"
 path: "/lovey"
-featured: true
+featured: false
 available: true
 
 ---

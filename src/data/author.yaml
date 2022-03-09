@@ -1,3 +1,16 @@
+- id: Kimberly Christensen
+  idpath: "/kimberly-christensen"
+  bio: Kimberly lives, writes, waves protest signs, and keeps bees in Seattle with her husband, two children and an assortment of animal companions. She cosplays General 
+    Organa and loves any story where smart and ethical defeat evil. 
+  twitter: '1IdealistGirl'
+  picture: ../images/profile/Kimberly_Christensen.jpg
+  stories:
+  - storytitle: "Sworn Guardian"
+    storylink: /sworn-guardian
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Emmie Christie
   idpath: "/emmie-christie"
   bio: Emmie Christie's work tends to hover around the topics of feminism, mental health, cats, and the speculative such as unicorns and affordable healthcare. She has been 
@@ -13,6 +26,21 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Madalena Daleziou
+  idpath: "/madalena-daleziou"
+  bio: Madalena Daleziou is a pushcart-nominated Greek author living in Glasgow, where she studied an MLitt in fantasy literature. Her work has appeared or is 
+    forthcoming in <em>Lucent Dreaming</em>, <em>The Deadlands</em>, and <em>the other side of hope</em>, and she is currently seeking representation for her neo-Victorian 
+    fantasy novel. She can most often be found in a bookshop or behind a keyboard writing stories with too many ghosts. Follow her on Twitter 
+    at <a href="https://www.twitter.com/LBooklott">@LBooklott</a>.
+  twitter: 'LBooklott'
+  picture: ../images/profile/Madalena_Daleziou.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: The Nymphs Are Migrating
+    poemlink: /the-nymphs-are-migrating
 
 - id: Eric Farrell
   idpath: "/eric-farrell"
@@ -103,6 +131,36 @@
   - poemtitle:
     poemlink:
 
+- id: Erin Keating
+  idpath: "/erin-keating"
+  bio: Erin Keating is a grant writer at an arts education nonprofit. She earned her B.A. in creative writing and literature at Roanoke College. While earning her history 
+    M.A. at Drew University, she spent most of her time in the archives reading as many Shakespeare-related texts she could find. She has a library card from the Bodleian 
+    Library, Library of Congress, Folger Shakespeare Library, and, of course, her local public library. When she's not writing, she dabbles in bass guitar, rock climbing, 
+    language learning, and video games. Her fiction can also be found in <em>Metaphorosis</em> and <em>Luna Station Quarterly</em>.
+  twitter: 'KeatingNotKeats'
+  picture: ../images/profile/Erin_Keating.jpg
+  stories:
+  - storytitle: Chrysanthemum
+    storylink: "/chrysanthemum"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Meghan Kemp-Gee
+  idpath: "/meghan-kemp-gee"
+  bio: Meghan Kemp-Gee lives somewhere between Vancouver, BC, and Fredericton, NB. She writes poetry, comics, and scripts of all kinds. She also teaches composition and 
+    plays ultimate frisbee. She co-created the webcomics <em>Contested Strip</em> and <em>Space Heroines of El-Andoo</em>, and her comics and short fiction have been 
+    published in numerous anthologies. Her poetry has recently appeared in <em>PRISM</em>, <em>Copper Nickel</em>, <em>Rising Phoenix Review</em>, <em>The Shore</em>, <em>Stone 
+    of Madness</em>, <em>Altadena Poetry Review</em>, <em>Anomaly</em>, <em>Train</em>, and <em>Rejection Letters</em>. You can find her on Twitter <a href="https://www.twitter.com/MadMollGreen">@MadMollGreen</a>.
+  twitter: 'MadMollGreen'
+  picture: ../images/profile/Meghan_Kemp-Gee.jpg
+  stories:
+  - storytitle: The End of the World
+    storylink: "/the-end-of-the-world"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Annika Barranti Klein
   idpath: "/annika-barranti-klein"
   bio: Annika Barranti Klein lives and writes in a tiny apartment in Los Angeles with her family. She is a lifelong lover of zoos and obscure facts. Her fiction has 
@@ -116,12 +174,26 @@
   - poemtitle:
     poemlink:
 
+- id: Tadayoshi Kohno
+  idpath: "/tadayoshi-kohno"
+  bio: 'Tadayoshi Kohno (he/him) is a professor, science fiction writer, and karate instructor from Seattle, Washington. He is the author of <em>Our Reality: A Novella</em>, 
+    co-editor of <em>Telling Stories: On Culturally Responsive Artificial Intelligence</em>, and co-author of <em>Cryptography Engineering: Design Principles and Practical 
+    Applications</em>. He is on Twitter at <a href="https://www.twitter.com/yoshi_kohno">@yoshi_kohno</a> and online at <a href="https://www.yoshikohno.net/">https://www.yoshikohno.net</a>.'
+  twitter: 'yoshi_kohno'
+  picture: ../images/profile/Tadayoshi_Kohno.jpg
+  stories:
+  - storytitle: 'Hope: A Perspective from the Forest'
+    storylink: "/hope-a-perspective-from-the-forest"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Avra Margariti
   idpath: "/avra-margariti"
   bio: Avra Margariti is a queer author, Greek sea monster, and Pushcart-nominated poet with a fondness for the dark and the darling. Avra's work haunts publications such 
     as <em>Vastarien</em>, <em>Asimov's</em>, <em>Liminality</em>, <em>Arsenika</em>, <em>The Future Fire</em>, <em>Space and Time</em>, <em>Eye to the Telescope</em>, 
     and <em>Glittership</em>. <em>The Saint of Witches</em>, Avra's debut collection of horror poetry, is forthcoming from Weasel Press. You can find Avra on 
-    twitter (<a href="https:www.twitter.com/avramargariti">@avramargariti</a>).
+    twitter (<a href="https://www.twitter.com/avramargariti">@avramargariti</a>).
   twitter: 'avramargariti'
   picture: ../images/profile/Avra_Margariti.jpg
   stories:
@@ -130,6 +202,20 @@
   poems:
   - poemtitle: "Misconceptions Regarding the Moon"
     poemlink: /misconceptions-regarding-the-moon
+
+- id: Claire McNerney
+  idpath: "/claire-mcnerney"
+  bio: Claire McNerney is an actor, student, and writer from California, where she currently attends UCSD. She enjoys, among other things, sitting outside in the 
+    evenings. Follow her on Twitter <a href="https://www.twitter.com/claire_mcnerney">@claire_mcnerney</a> or Instagram <a href="https://www.instagram.com/@o.h.c.l.a.i.r.e">@o.h.c.l.a.i.r.e</a> to
+    say hello and see what she does next!
+  twitter: 'claire_mcnerney'
+  picture: ../images/profile/Claire_McNerney.JPG
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "sestina for the summer solstice"
+    poemlink: /sestina-for-the-summer-solstice
 
 - id: Christi Nogle
   idpath: "/christi-nogle"
@@ -143,6 +229,33 @@
   stories:
   - storytitle: "Lovey"
     storylink: /lovey
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Marisca Pichette
+  idpath: "/marisca-pichette"
+  bio: Marisca Pichette is an author of speculative fiction, nonfiction, and poetry. Further work by her has been published and is forthcoming in <em>Strange Horizons</em>, 
+    <em>PseudoPod</em>, <em>Daily Science Fiction</em>, <em>Fireside</em>, <em>Uncharted</em>, and <em>PodCastle</em>, among others. A lover of moss and monsters, she lives 
+    in Western Massachusetts.
+  twitter: 'MariscaPichette'
+  picture: ../images/profile/Marisca_Pichette.jpeg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "And it dries and dries"
+    poemlink: /and-it-dries-and-dries
+
+- id: Belicia Rhea
+  idpath: "/belicia-rhea"
+  bio: Belicia Rhea was born under a waning crescent moon in the Sonoran Desert. You can find her at <a href="https://www.beliciarhea.com">beliciarhea.com</a> and read
+    more of her work published in <em>Nightmare Magazine</em>, <em>Miracle Monocle</em>, and <em>Bending Genres</em>, among other places.
+  twitter: ''
+  picture: ../images/profile/Belicia_Rhea.jpg
+  stories:
+  - storytitle: "For the Remnants"
+    storylink: /for-the-remnants
   poems:
   - poemtitle:
     poemlink:

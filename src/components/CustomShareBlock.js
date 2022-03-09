@@ -10,7 +10,7 @@ import { FaReddit } from "react-icons/fa";
 import { ShareButtonOutline, ShareBlockStandard } from "react-custom-share";
 
 const CustomReactShare = props => {
-  const { url, title, excerpt } = props;
+  const { url, title, excerpt, author } = props;
 
 
   const shareBlockProps = {
@@ -28,15 +28,19 @@ const CustomReactShare = props => {
 };
 
 CustomReactShare.PropTypes = {
+  filler: PropTypes.string,
   url: PropTypes.string,
   title: PropTypes.string,
-  excerpt: PropTypes.string
+  excerpt: PropTypes.string,
+  author: PropTypes.string,
 };
 
 CustomReactShare.defaultProps = {
+  filler: "Check out ",
   url: "https://havenspec.com/",
   title: "title not found",
-  excerpt: ""
+  excerpt: "",
+  author: ""
 };
 
 export default CustomReactShare;

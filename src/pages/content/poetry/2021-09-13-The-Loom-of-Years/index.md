@@ -3,7 +3,7 @@ title: The Loom of Years
 author: Alfred Noyes
 issue: Issue Zero, September 2021
 description: In the light of the silent stars that shine on the struggling sea, <br />In the weary cry of the wind and the whisper of flower and tree, <br />Under the breath of laughter, deep in the tide of tears, <br />I hear the Loom of the Weaver that weaves the Web of Years. <a href="https://www.havenquarterly.com/the-loom-of-years/">[<i>...</i>]</a>
-shortdescription: In the light of the silent stars that shine on the struggling sea, <br />In the weary cry of the wind and the whisper of flower and tree, <br />Under the breath of laughter, deep in the tide of tears, <br />I hear the Loom of the Weaver that weaves the Web of Years. <a href="https://www.havenquarterly.com/the-loom-of-years/">[<i>...</i>]</a>
+shortdescription: In the light of the silent stars that shine on the struggling sea, <br />In the weary cry of the wind and the whisper of flower and tree, <br />Under the breath of laughter, deep in the tide of tears, <br />I hear the Loom of the Weaver that weaves the Web of Years. <a href="https://www.havenquarterly.com/the-loom-of-years/">[<i>...</i>]</a> 
 category: POETRY
 cover: cover.jpg
 issuecover: CurrentCover.jpg

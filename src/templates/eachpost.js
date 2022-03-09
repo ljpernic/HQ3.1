@@ -36,9 +36,12 @@ const Eachpost = ({ data }) => {
   const { path } = data.markdownRemark.frontmatter;
   const { issuecover } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
-  const url = `http://havenspec.com${path}`;
+
+  const url = `https://www.havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
   const currentIssue = `https://ko-fi.com/havenspec/shop`;
+
+  const testText = "Check out...";
 
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);
@@ -118,7 +121,7 @@ const Eachpost = ({ data }) => {
 
                   <div className="share">
                     <h1>Share</h1>
-                    <CustomReactShare title={title} excerpt={excerpt} url={url} />
+                    <CustomReactShare title={title} author={author.id} url={url} />
                   </div>
 
                   <Link to="/subscribe">
@@ -216,6 +219,7 @@ export const query = graphql`
       frontmatter {
         available
         title
+        path
         author {
           id
           idpath

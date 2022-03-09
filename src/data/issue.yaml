@@ -1,4 +1,46 @@
-####################################################################___ISSUE ONE___####################################################################
+####################################################################___ISSUE THREE___####################################################################
+- id: Issue Three, March 2022
+  idpath: "/issue-three"
+  issuecover: "../images/covers/003_COVER.jpg"
+  teaserText: Issue Three is now available! This is our very first DRY ISSUE, bringing you all the latest and greatest fiction and poetry dealing with the hotter aspects of 
+      the climate crisis. In stories like "Sworn Guardian" by Kimberly Christensen and "Hope':' A Perspective from the Forest" by Tadayoshi Kohno, you'll find the 
+      ravages of fire burning through the forests and all the ways the creatures of this world, human and otherwise, fight back.
+     
+
+      You might also pull up a chair at the Cambridge University archives on the hottest day in July in Meghan Kemp-Gee's "The End of the World," or consider exploring 
+      what happens when the water at last runs out and all we have left is our thirst in stories like "For the Remnants" by Belicia Rhea and "Chrysanthemum" by Erin Keating. 
+      
+      
+      For poetry, you can dive into a world of mosquitos and fever dreams in "sestina for the summer solstice" by Claire McNerney, watch as the nymphs hightail it as the 
+      world around them withers and burns in "The Nymphs Are Migrating" by Madalena Daleziou, or stare into the void the Earth's become, "an embarrassing mess that no // 
+      one // wants to clean // up" in Marisca Pichette's "And it dries and dries."
+  text: Issue Three is now available! This is our very first DRY ISSUE, bringing you all the latest and greatest fiction and poetry dealing with the hotter aspects of 
+      the climate crisis. In stories like "Sworn Guardian" by Kimberly Christensen and "Hope':' A Perspective from the Forest" by Tadayoshi Kohno, you'll find the 
+      ravages of fire burning through the forests and all the ways the creatures of this world, human and otherwise, fight back.
+     
+
+      You might also pull up a chair at the Cambridge University archives on the hottest day in July in Meghan Kemp-Gee's "The End of the World," or consider exploring 
+      what happens when the water at last runs out and all we have left is our thirst in stories like "For the Remnants" by Belicia Rhea and "Chrysanthemum" by Erin Keating. 
+      
+      
+      For poetry, you can dive into a world of mosquitos and fever dreams in "sestina for the summer solstice" by Claire McNerney, watch as the nymphs hightail it as the 
+      world around them withers and burns in "The Nymphs Are Migrating" by Madalena Daleziou, or stare into the void the Earth's become, "an embarrassing mess that no // 
+      one // wants to clean // up" in Marisca Pichette's "And it dries and dries." 
+      
+      
+      Because this is our very first DRY ISSUE, we've decided to release all of the material immediately on our website to read for free, so click on through and, if you 
+      like what you see, consider supporting us through patreon or ko-fi, following us on Twitter at <a href="https://www.twitter.com/havenspec">HavenSpec</a>, and spreading 
+      the word! 
+  artist: Saleha Chowdhury
+  artistTwitter: AroUnleashed
+  artistimage: "../images/profile/Saleha_Chowdhury.jpg"
+  artistbio: Saleha Chowdhury is a New York-based illustrator who enjoys creating science fiction and fantasy illustrations serving as windows into new and 
+    unique worlds. She takes inspiration from nature, video games, and animation, and her work has appeared in <em>Fireside Magazine</em> and <em>Lightspeed Magazine</em>. 
+    In her spare time, she enjoys feeding birds and birdwatching.
+
+
+
+####################################################################___ISSUE TWO___####################################################################
 - id: Issue Two, January 2022
   idpath: "/issue-two"
   issuecover: "../images/covers/002_COVER.jpg"

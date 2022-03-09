@@ -13,6 +13,8 @@ available: true
 
 ---
 
+<p style="text-align: center;"> <em>First published in</em> Flash Fiction Online<em>, February 2020</em></p>
+
 We are one and we are many. We are shrubby willow and cotton-grass; we are moss and heather. All we need is this peaceful state of being. Enjoy the sun, listen to the birds, drink the mist. But there’s a new voice among us, and she won’t let us rest.
 
 Night and day, she whispers about a man in town.
@@ -25,11 +27,7 @@ An image flickers in the dark. Brown eyes, strong arms, warm tanned skin. The gl
 
 We surround her, prod gently at the invisible wall that separates us. It keeps us from merging; it shouldn’t be there. She has no body to cling to. Along with her wedding dress, it has long been decomposing in the moorland churchyard. Yet, somehow, her mind remains singular.
 
-
-
-#
-
-
+<p style="text-align: center;"> #</p>
 
 The moon keeps changing; mists come and go. We’re all here, so close together, yet not close enough. At peace, almost. Our embrace waits for her right outside her wall. *When she is ready*, we tell ourselves, feeling the grit of sand as much as the sun. *Soon*, we say, the shuffling of worms as loud as the goldfinch’s morning song. When the wind blows, we are stalks of grass bending one way while she sways the other.
 
@@ -61,11 +59,7 @@ We raise our voice until it’s wind howling in her wooden ears, but it’s her 
 
 She marches over us, towards town.
 
-
-
-#
-
-
+<p style="text-align: center;"> #</p>
 
 Counting days matters little on the moor, weeks even less. Our time is measured in slow wingbeats and raindrops and drifting marigold petals. Each moment is precious.
 
@@ -81,11 +75,7 @@ We turn our marigold-heads towards the sun and chatter about the shape of clouds
 
 The animals are coming back. Will she?
 
-
-
-#
-
-
+<p style="text-align: center;"> #</p>
 
 We feel the vibrations of the ground long before we see her.
 
