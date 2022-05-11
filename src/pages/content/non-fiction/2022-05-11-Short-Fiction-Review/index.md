@@ -28,7 +28,7 @@ I hope you enjoy and perhaps find something new that inspires you.
 I was so taken aback by this story when I read it for the first time that I immediately went back to the beginning to read it again. Yang packs a ton of weight into these 1,700 words—the plot itself is straightforward, and the premise is eerie...but it's what growls underneath the story that's the most arresting element of this tightly-written piece. That and the ending, which comes as such a flash of light that the reader is momentarily blinded.
 
 
-**["√I"](https://www.nightmare-magazine.com/fiction/square-root-of-i/) by by Martin Cahill (Nightmare, Issue 115)**
+**["√i"](https://www.nightmare-magazine.com/fiction/square-root-of-i/) by by Martin Cahill (Nightmare, Issue 115)**
 
 The author's note included at the top mentions that the inspiration for this story is due in large part to Brian Evenson, which was instantly clear in the prose. Short, sharp shocks of sentences, like lightning illuminating a desperately dark room, provide the structure of this story. The narrative development of the piece comes in intriguing fits and starts too, but it's the intentionally blunt nature of the telling that is the real star here. This is a story which has been told before, but never like this.
 
