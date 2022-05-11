@@ -5,7 +5,6 @@ import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
-import CustomReactShare from "../components/CustomShareBlock";
 
 function shuffle(array) {
   var currentIndex = array.length,  randomIndex;
@@ -29,7 +28,7 @@ export default class archiveIssues extends React.Component {
   render() {
     const issueNodes = this.props.data.allIssueYaml.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
+    const currentIssue = `https://ko-fi.com/s/f371bb536b`;
     
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
     const isFirst = FULLcurrentPage === 1

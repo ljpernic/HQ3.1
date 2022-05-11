@@ -4,7 +4,6 @@ import SEO from '../components/SEO';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
-import CustomReactShare from "../components/CustomShareBlock";
 
 import { IconContext } from "react-icons";
 import { FaTwitter } from 'react-icons/fa';
@@ -39,7 +38,7 @@ const Eachpost = ({ data }) => {
 
   const url = `https://www.havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
-  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
+  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
 
   const testText = "Check out...";
 
@@ -119,10 +118,10 @@ const Eachpost = ({ data }) => {
                   </h2>
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
-                  <div className="share">
+{/*                  <div className="share">
                     <h1>Share</h1>
-                    <CustomReactShare title={title} author={author.id} url={url} />
                   </div>
+*/}
 
                   <Link to="/subscribe">
                       <Image className="advertLong"

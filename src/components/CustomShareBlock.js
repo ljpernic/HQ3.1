@@ -1,3 +1,5 @@
+//DEFUNCT FILE. KEPT SO THAT I REMEMBER TO ADD A SHARE FUNCTION
+
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "gatsby-image";
@@ -7,7 +9,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaReddit } from "react-icons/fa";
 
-import { ShareButtonOutline, ShareBlockStandard } from "react-custom-share";
+//import { ShareButtonOutline, ShareBlockStandard } from "react-custom-share";
 
 const CustomReactShare = props => {
   const { url, title, excerpt, author } = props;
@@ -15,7 +17,7 @@ const CustomReactShare = props => {
 
   const shareBlockProps = {
     url: url,
-    button: ShareButtonOutline,
+//    button: ShareButtonOutline,
     buttons: [
       { network: "Twitter", icon: FaTwitter },
       { network: "Facebook", icon: FaFacebook },
@@ -24,7 +26,7 @@ const CustomReactShare = props => {
     longtext: excerpt,
   };
 
-  return <ShareBlockStandard {...shareBlockProps} />;
+  return;
 };
 
 CustomReactShare.PropTypes = {

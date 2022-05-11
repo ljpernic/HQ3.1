@@ -25,14 +25,14 @@ function shuffle(array) {
 
 const Forms = (props) => {
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
+  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
   
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine's organization and budget breakdown" />
+      <SEO title="Haven Spec Magazine's submission form" />
       <Helmet>
         <meta
           name="description"

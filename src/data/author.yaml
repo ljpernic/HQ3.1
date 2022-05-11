@@ -1,3 +1,48 @@
+- id: Rebecca Angelo
+  idpath: "/rebecca-angelo"
+  bio: Rebecca Angelo is a writer based in Coatesville, Pennsylvania. When she’s not writing speculative and horror fiction, she’s wrangling three wonderful children 
+    and three mischievous felines. She enjoys spending time in her flower garden, bird watching, listening to true crime podcasts, and watching stand-up comedy with 
+    her partner. When she’s not doing any of the above, you’ll find her buried under a pile of blankets reading a good book. Follow her on 
+    twitter <a href="https://www.twitter.com/beckybee30">@beckybee30</a>. 
+  twitter: 'beckybee30'
+  picture: ../images/profile/Rebecca_Angelo.jpg
+  stories:
+  - storytitle: "Resistant"
+    storylink: /resistant
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Stewart C Baker
+  idpath: "/stewart-c-baker"
+  bio: Stewart C Baker is an academic librarian and author of speculative fiction and poetry, along with the occasional piece of interactive fiction. His fiction 
+    has appeared or is forthcoming in <em>Nature</em>, <em>Lightspeed</em>, and <em>Flash Fiction Online</em>, among other places. Stewart was born in England, has 
+    spent time in South Carolina, Japan, and California (in that order), and now lives in Oregon with his family—although if anyone asks, he’ll usually say he’s from 
+    the Internet, where you can find him at <a href="https://infomancy.net">https://infomancy.net</a>.
+  twitter: 'StewartCBaker'
+  picture: ../images/profile/Stewart_C_Baker.jpg
+  stories:
+  - storytitle: "The Calligrapher's Granddaughter"
+    storylink: /the-calligraphers-granddaughter
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: F. J. Bergmann
+  idpath: "/f-j-bergmann"
+  bio: "F. J. Bergmann is the poetry editor of Mobius: The Journal of Social Change (mobiusmagazine.com) and freelances as a copy editor and book designer. She 
+    lives in Wisconsin and fantasizes about tragedies on or near exoplanets. She was a Writers of the Future winner. Her work has appeared 
+    in <em>Abyss & Apex</em>, <em>Analog</em>, <em>Asimov’s SF</em>, and elsewhere in the alphabet. While lacking academic literary qualifications, she is kind 
+    to those so encumbered. She used to work with horses. She thinks imagination can compensate for anything."
+  twitter: 'FJBergmann'
+  picture: ../images/profile/FJ_Bergmann.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Tall Tales
+    poemlink: /tall-tales
+
 - id: Kimberly Christensen
   idpath: "/kimberly-christensen"
   bio: Kimberly lives, writes, waves protest signs, and keeps bees in Seattle with her husband, two children and an assortment of animal companions. She cosplays General 
@@ -42,6 +87,36 @@
   - poemtitle: The Nymphs Are Migrating
     poemlink: /the-nymphs-are-migrating
 
+- id: Jelena Dunato
+  idpath: "/jelena-dunato"
+  bio: Jelena Dunato is an art historian, curator, speculative fiction writer and lover of all things ancient. She grew up in Croatia on a steady diet of adventure stories 
+    and then wandered the world for a decade, building a career in the arts. Jelena’s stories have appeared in <i>Beneath Ceaseless Skies</i>, <i>The Dark</i>, <i>Future 
+    SF</i> and <i>Cossmass Infinities</i>, among others. Jelena lives on an island in the Adriatic with her husband, daughter, and cat. You can find her 
+    at <a href="https://www.jelenadunato.com">jelenadunato.com</a> and on Twitter <a href="https://www.twitter.com/jelenawrites">@jelenawrites</a>.
+  twitter: 'jelenawrites'
+  picture: ../images/profile/Jelena_Dunato.jpg
+  stories:
+  - storytitle: Heart of My Heart, Soul of My Soul
+    storylink: /heart-of-my-heart-soul-of-my-soul
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Melissa Ridley Elmes
+  idpath: "/melissa-ridley-elmes"
+  bio: "Melissa Ridley Elmes is a Virginia native currently living in Missouri in an apartment that delightfully approximates a hobbit hole. Her poetry and fiction 
+    have appeared in <em>Star*Line</em>, <em>Eye to the Telescope</em>, <em>Illumen</em>, <em>Spectral Realms</em>, <em>Reunion: The Dallas Review</em>, <em>In 
+    Parentheses</em>, <em>Gyroscope</em>, and various other print and web venues, and her first collection of poems, <em>Arthurian Things</em>, was published by 
+    Dark Myth Publications in 2020."
+  twitter: 'MRidleyElmes'
+  picture: ../images/profile/Melissa_Ridley_Elmes.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Every Light a Threshold
+    poemlink: /every-light-a-threshold
+
 - id: Eric Farrell
   idpath: "/eric-farrell"
   bio: Eric Farrell (he/his) lives in Long Beach, California, where he works as a beer vendor by day and speculative fiction author by night. His writing credits stem from 
@@ -53,6 +128,21 @@
   stories:
   - storytitle: "My Sparkle Alone Can't Cull Your Demons"
     storylink: /my-sparkle-alone-cant-cull-your-demons
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Atreyee Gupta
+  idpath: "/atreyee-gupta"
+  bio: Atreyee Gupta’s work has appeared in numerous venues including <em>Apparition Lit</em>, <em>Arc Poetry</em>, <em>Bacopa Literary 
+    Review</em>, <em>Fireside</em>, <em>Jaggery</em>, and <em>Shooter Literary Magazine</em>. Atreyee is a Pushcart nominee and has been published in several 
+    anthologies, such as <em>Wayfinding</em> from Finishing Line Press. Atreyee is the creator of Bespoke Traveler 
+    (<a href="https://www.bespoketraveler.com">www.bespoketraveler.com</a>), a digital alcove for curious explorers.
+  twitter: 'BespokeTravels'
+  picture: ../images/profile/Atreyee_Gupta.jpeg
+  stories:
+  - storytitle: "Axolotl"
+    storylink: /axolotl
   poems:
   - poemtitle:
     poemlink:
@@ -130,6 +220,22 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Julie Allyn Johnson
+  idpath: "/julie-allyn-johnson"
+  bio: Julie Allyn Johnson, a sawyer’s daughter from the American Midwest, loves long walks in the woods.  She digs Halloween, photography, gravel-travel, art, poetry 
+    and haiku, reading and hiking in the Rocky Mountains. Her current obsession is tackling the rough and tumble sport of quilting and the accumulation of fabric. 
+    Julie prefers black licorice over red, cigarette-length Tootsie Rolls and Hot Tamales, practically the perfect candy. Her poetry can be found in various journals 
+    including <i>Lyrical Iowa</i>, <i>The Briar Cliff Review</i>, <i>Phantom Kangaroo</i>, <i>The Disappointed Housewife</i>, <i>Anti-Heroin Chic</i>, <i>Coffin 
+    Bell</i>, <i>Typehouse Literary Magazine</i>, <i>Better Than Starbucks</i> and <i>Chestnut Review</i>. 
+  twitter:
+  picture: ../images/profile/Julie_Allyn_Johnson.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Behemoth
+    poemlink: /behemoth
 
 - id: Erin Keating
   idpath: "/erin-keating"
@@ -247,6 +353,37 @@
   - poemtitle: "And it dries and dries"
     poemlink: /and-it-dries-and-dries
 
+- id: TJ Price
+  idpath: "/t-j-price"
+  bio: TJ Price’s corporeal being (he/him) is currently located in Brooklyn, NY, with his handsome partner of many years, but his ghosts live in northeastern Connecticut 
+    and southern Maine. He either is or has been a wine-seller, a wine-drinker, an avid reader, an obsessive writer, a pen-and-ink artist, a dishwasher, a 
+    neurosurgical technologist, a proofreader, a storm-watcher, a music-maker, and other sundry avocations. <p>Primarily, TJ spends his time reading as much as his 
+    eyes can take, but when he's not reading, he's either writing weird stories about unnerving things, drawing lots of little circles in pen and ink, enjoying esoteric 
+    studies, or taking photographs of clouds.</p>
+  twitter: 'eerieyore'
+  picture: ../images/profile/TJ_Price.jpeg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Carly Racklin
+  idpath: "/carly-racklin"
+  bio: Carly Racklin is a fantasy and horror writer, editor, and hobbyist illustrator currently nesting in the mountains of Tennessee with her friends, many plants, 
+    and the several families of birds that she feeds from her porch. She has written for a horror film festival and currently works in social media marketing. Her 
+    work has appeared in <em>Metaphorosis Magazine</em>, <em>Mirror Dance</em>, <em>Luna Station Quarterly</em>, and more. You can find more of her work 
+    at <a href="https://www.carlyracklin.com">carlyracklin.com</a> and follow her on Twitter <a href="https://www.twitter.com/willowylungs">@willowylungs.
+  twitter: 'willowylungs'
+  picture: ../images/profile/Carly_Racklin.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Unearthen"
+    poemlink: /unearthen
+
 - id: Belicia Rhea
   idpath: "/belicia-rhea"
   bio: Belicia Rhea was born under a waning crescent moon in the Sonoran Desert. You can find her at <a href="https://www.beliciarhea.com">beliciarhea.com</a> and read
@@ -259,6 +396,22 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Nnadi Samuel
+  idpath: "/nnadi-samuel"
+  bio: Nnadi Samuel (he/him/his) holds a B.A in English and Literature from the University of Benin. His works have been previously published or is forthcoming 
+    in <em>FIYAH</em>, <em>Fantasy Magazine</em>, <em>Star*Line Fiction & Poetry</em>, <em>Penumbric Speculative Fiction Magazine</em> and elsewhere. He is also the 
+    winner of the Miracle Monocle Award for Ambitious Student Writers 2021 (University of Louisville), Penrose Poetry Prize 2021, Lakefly Poetry Contest 2021 
+    (Wisconsin), International Human Right Arts Festival Award 2021, and Canadian Open Drawer contest 2020, and he received an honorable mention for the 2021 Betty L. 
+    Yu and Jin C. Yu Creative Writing Prize (College Category). He reads for <em>U-Right Magazine</em> and tweets <a href="https://www.twitter.com/Samuelsamba10">@Samuelsamba10</a>.
+  twitter: 'Samuelsamba10'
+  picture: ../images/profile/Nnadi_Samuel.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "A Wreckful Planting of Small Pockets of Thirst"
+    poemlink: "a-wreckful-planting-of-small-pockets-of-thirst"
 
 - id: A. T. Sayre
   idpath: "/a-t-sayre"
@@ -289,6 +442,22 @@
   stories:
   - storytitle: The Cavalry
     storylink: "/the-cavalry"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Elise Stephens
+  idpath: "/elise-stephens"
+  bio: Elise Stephens credits much of her storytelling influence to a lifelong love of theater and childhood globetrotting. Much of her work focuses on themes of 
+    family, memory, and finding hope after a devastating loss. She is a first-place winner of Writers of the Future (2019), and her fiction has appeared 
+    in <em>Analog</em>, <em>Galaxy’s Edge</em>, <em>Escape Pod</em>, <em>Writers of the Future Vol 35</em>, and <em>FIYAH</em>, among others. Elise lives with her 
+    family in Seattle in a house with huge windows to supply the vast quantities of light she requires to stay happy. Elise is currently seeking representation on her 
+    next science fiction novel. Find her at <a href="https://www.EliseStephens.com">www.EliseStephens.com</a>.
+  twitter: 'elisestephens'
+  picture: ../images/profile/Elise_Stephens.jpg
+  stories:
+  - storytitle: Focal Point
+    storylink: "/focal-point"
   poems:
   - poemtitle:
     poemlink:

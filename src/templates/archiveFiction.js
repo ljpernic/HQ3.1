@@ -29,7 +29,7 @@ export default class archiveFiction extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
+    const currentIssue = `https://ko-fi.com/s/f371bb536b`;
     
     const { FICcurrentPage, FICnumPages } = this.props.pageContext
     const isFirst = FICcurrentPage === 1
@@ -53,8 +53,7 @@ export default class archiveFiction extends React.Component {
       <div className="intro">
         <div className="container">
           <div className="row2">
-            <div className="grid-container">
-              
+            <div className="grid-container"> 
               <div className="thinLeft one">
                 <div>
                   <a href={currentIssue}>

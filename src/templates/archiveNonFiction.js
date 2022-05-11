@@ -1,10 +1,11 @@
 import React from 'react';  
 import { graphql, Link, withPrefix } from 'gatsby';
 import SEO from '../components/SEO';
-import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
+
+import paragraphs from "lines-to-paragraphs";
 
 function shuffle(array) {
   var currentIndex = array.length,  randomIndex;
@@ -28,7 +29,7 @@ export default class archiveNonFiction extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
+    const currentIssue = `https://ko-fi.com/s/f371bb536b`;
     
     const { NONFICcurrentPage, NONFICnumPages } = this.props.pageContext
     const isFirst = NONFICcurrentPage === 1
@@ -116,7 +117,7 @@ export default class archiveNonFiction extends React.Component {
                   </div>
                 </div>
                 {posts
-                  .filter(post => post.node.frontmatter.category === "NON-FICTION")          /*This should only pull from md files with category "fiction", excluding posts marked featured*/
+                  .filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.available === true)
                   .map(({ node: post }) => {
                     return (
                       <div className="pb-1 container" key={post.id}>
@@ -224,6 +225,7 @@ export const archiveNonFictionQuery = graphql`
       edges {
         node {
           frontmatter {
+            available
             path
             title
             shortdescription

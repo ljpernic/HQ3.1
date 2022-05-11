@@ -8,7 +8,7 @@ category: FICTION
 cover: cover.jpg
 date: "2022-03-09T00:03:00.000Z"
 path: "/for-the-remnants"
-featured: true
+featured: false
 available: true
 
 ---

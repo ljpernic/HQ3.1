@@ -3,7 +3,6 @@ import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
-import CustomReactShare from "../components/CustomShareBlock";
 import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
 
@@ -34,8 +33,16 @@ const Eachissue = props => {
   const data = props.data;
   const { idpath, issueidname, text, artist, artistbio, artistTwitter } = pageContext;
   const twitter = `http://twitter.com/havenspec`;
-  const currentIssue = `https://ko-fi.com/s/1f5fda7451`;
-  
+  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+
+  const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname);
+  const poetryContent = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname);
+  const nonFictionContent = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname);
+
+  const fictionHeader = fictionContent.length === 0 ? null : <h4>Fiction:</h4>
+  const poetryHeader = poetryContent.length === 0 ? null : <h4>Poetry:</h4>  
+  const nonFictionHeader = nonFictionContent.length === 0 ? null : <h4>Non-Fiction:</h4>
+
   const twitterLink = `http://twitter.com/${artistTwitter}`;
 
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
@@ -139,22 +146,15 @@ const Eachissue = props => {
               <h3>
                 CONTENT
               </h3>
-              <h4>
-                Fiction:
-              </h4>
-              {posts
-                .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname)
+              {fictionHeader}
+              {fictionContent
                 .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-              <h4>
-                Poetry:
-              </h4>
-                {posts
-                  .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname)
+              {poetryHeader}
+                {poetryContent
                   .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-
-                {posts                                                      // the Non-fiction conditional title only works if there's only one non-fiction piece!
-                  .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname)
-                  .map((data, index) => data.node.frontmatter.title === null ? null : data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><h4>Non-fiction:</h4><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}><h4>Non-fiction:</h4>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+              {nonFictionHeader}
+                {nonFictionContent
+                  .map((data, index) => data.node.frontmatter.title === null ? null : data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
 
               <br />
               <div className="pb-2">
@@ -169,11 +169,10 @@ const Eachissue = props => {
 
 
 
-                  <div className="share">
+{/*                  <div className="share">
                     <h1>Share</h1>
-                    <CustomReactShare title={issueidname} excerpt={text} url={idpath} />
                   </div>
-                  <hr className="mb-2"/>
+*/}                  <hr className="mb-2"/>
                   
               </div>
             </div>
