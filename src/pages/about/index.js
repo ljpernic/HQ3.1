@@ -32,6 +32,7 @@ const About = (props) => {
   const leonTwitter = `http://twitter.com/leonperniciaro`;
   const ashTwitter = `http://twitter.com/ashaquestion`;
   const tjTwitter = `http://twitter.com/eerieyore`;
+  const evelynTwitter = `http://twitter.com/evelyn_freeling`;
 
   const currentIssue = `https://ko-fi.com/s/f371bb536b`;
   
@@ -146,8 +147,9 @@ const About = (props) => {
                   </div>
 
                   <p>
-                  <b>Leon Perniciaro</b> (he/him) is a writer, editor, translator, and part-time university professor, teaching courses in game design. He also co-hosts Father Bother, 
-                    a writers' room comedy podcast about literature and children's books.
+                  <b>Leon Perniciaro</b> (he/him) is the editor of Haven Spec Magazine, an assistant editor at <a href="https://www.android-press.com/">Android 
+                  Press</a>, and a submissions editor at <a href="https://uncannymagazine.com/">Uncanny Magazine</a>. He is also a member of SFWA and the Codex 
+                  Writers' Group, and he will begin his studies as an English PhD student at the University of Connecticut this fall.
                   </p>
                   <p className="pb-1"> Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
                   </p>
@@ -196,6 +198,25 @@ const About = (props) => {
                     reading, he&#39;s either writing weird stories about unnerving things, drawing lots of little
                     circles in pen and ink, enjoying esoteric studies, or taking photographs of clouds.
                   </p>
+
+                  <div className="editorImageAbout mb-2">
+                    <Image fixed={data.evelyn.childImageSharp.fixed}/>
+                    <a href={evelynTwitter}>
+                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
+                        <FaTwitter />
+                      </IconContext.Provider>
+                    </a>
+                  </div>
+
+                  <p>
+                    <b>Evelyn Freeling</b> (she/her) is a speculative fiction writer with short fiction published in anthologies with Ghost Orchid Press and Dark 
+                    Dispatch. She's also the editor for an erotic horror anthology titled <em>Les Petites Morts</em>. When she isn't writing, editing, studying craft, 
+                    or reading, she works part-time as a chef, housecleaner, chauffeur, and clown (which really means she's a full-time mom). </p> 
+                  
+                  <p className="pb-1">Evelyn currently resides in Dubai and enjoys her free time at the beach. She alternates between obsessions with true crime 
+                  documentaries, horror films, and watching Youtube videos about quantum mechanics.
+                  </p>
+
                 </div>
                 <hr />
                       
@@ -357,6 +378,13 @@ export const query = graphql`
       }
     }
     tj: file(relativePath: { eq: "profile/TJ_Price.jpeg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    evelyn: file(relativePath: { eq: "profile/Evelyn_Freeling.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
