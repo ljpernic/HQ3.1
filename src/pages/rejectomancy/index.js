@@ -109,8 +109,8 @@ const Rejectomancy = (props) => {
               Rejectomancy
             </h1>
             <p>
-              We think feedback is important, and while we can't give specific notes on every story we get, we try to structure our rejection letters so you have 
-              some idea what we were thinking when we declined a story.
+              We think feedback is important, and while we get too many submissions to offer notes on most of what we see, we try to structure our rejection letters 
+              so you have some idea what we were thinking when we declined a story.
             </p>
             <p>
               <b>The first tier:</b> 
@@ -120,8 +120,8 @@ const Rejectomancy = (props) => {
               Dear [AUTHOR], 
             </p>
             <p>
-              Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we will be unable to accept it for publication, but we wish 
-              you the best of luck on your writing and publishing endeavors.
+              Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we've decided to pass on this one, but we wish you the best 
+              of luck on your writing and publishing endeavors.
             </p>
             <p>
               Sincerely,<br />
@@ -129,9 +129,10 @@ const Rejectomancy = (props) => {
               Haven Spec Magazine
             </p>
           </div>
-            <p>Many submissions that are rejected in the first round get this reply, but that doesn't mean your story or poem is bad! Some aspect, generally towards the beginning, 
-              just wasn't working for us, so we didn't make it past the first couple of pages. Almost always this is an issue with pacing, characterization, or over-used 
-              tropes, and almost always we didn't feel like there was any feedback we could offer. This reply is sent to about 50% of submissions.
+            <p>Many submissions that are rejected in the first round get this reply, but that doesn't mean your story or poem is bad! Some aspect, generally towards 
+              the beginning, just wasn't working for us, so we didn't make it past the first couple of pages. Almost always this is an issue with pacing, 
+              characterization, or over-used tropes, and almost always we didn't feel like there was any feedback we could offer. This reply is sent to about 
+              50-60% of submissions.
             </p>
             <p>
               <b>The second tier:</b> 
@@ -141,14 +142,8 @@ const Rejectomancy = (props) => {
               Dear [AUTHOR], 
             </p>
             <p>
-              Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we will be unable to accept it for publication. 
-            </p>
-            <p>
-              [Then there's a middle paragraph with specific feedback about elements of your submission that weren't working for us. This is usually formatted, <i>I liked  X and Y, 
-              but overall, Z didn't quite come together for me.</i>]
-            </p>
-            <p>
-              We've decided to pass on this one, but we wish you the best of luck on your writing and publishing endeavors.
+              Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we've decided to pass on this one, but we wish you the best 
+              of luck on your writing and publishing endeavors. We would be happy to consider anything else you might write!
             </p>
             <p>
               Sincerely,<br />
@@ -157,9 +152,10 @@ const Rejectomancy = (props) => {
             </p>
           </div>
             <p>
-              Getting this rejection could mean that we read the entire submission or that we decided halfway through that it wasn't quite right for us, but generally, this 
-              reply means that something about the submission wasn't landing for us, and we thought that it needed too much revision. This is, however, no reflection on the story! 
-              It's based entirely on our own sensibilities, interests, and needs for the magazine. This reply is sent to about 25% of submissions.
+              Getting this rejection could mean that we read the entire submission or that we decided halfway through that it wasn't quite right for us, but generally, 
+              this reply means that something about the submission wasn't landing for us, and we thought that it needed too much revision. This is, however, no 
+              reflection on the story! It's based entirely on our own sensibilities, interests, and needs for the magazine. This reply is sent to about 15-25% of 
+              submissions.
             </p>
             <p>
               <b>The third tier:</b>
@@ -169,15 +165,12 @@ const Rejectomancy = (props) => {
                 Dear [AUTHOR], 
               </p>
               <p>
-                Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we will be unable to accept it for publication. 
+                Thank you for the submission of your [TYPE] "[TITLE]" to Haven Spec Magazine. Unfortunately, we've decided to pass on this one, but we wish you the best 
+                of luck on your writing and publishing endeavors. We would be happy to consider anything else you might write!
               </p>
               <p>
-                [Then there's a middle paragraph with specific feedback about elements of your submission that weren't working for us. This is usually formatted, <i>I liked  X and Y, 
-                but overall, Z didn't quite come together for me.</i>]
-              </p>
-              <p>
-                We've decided to pass on this one, but we wish you the best of luck on your writing and publishing endeavors. We would be happy to consider anything else you might 
-                write!
+                [Then there's a final paragraph with specific feedback about elements of your submission that weren't working for us. This is usually formatted, <i>I 
+                liked  X and Y, but overall, Z didn't quite come together for me.</i>]
               </p>
               <p>
                 Sincerely,<br />
@@ -186,9 +179,9 @@ const Rejectomancy = (props) => {
               </p>
             </div>
             <p>
-              This reply generally means that we read the submission in its entirety and that we liked a lot of it, but what wasn't working for us still outweighed what was. 
-              We also often use this reply when we think a story is very good, but not quite suitable for any of our upcoming issues (or the magazine generally). Usually, we 
-              mention that in our feedback though. Specific to this reply is an explicit invitation to submit again, and we send this reply to roughly 15% of submissions.
+              This reply generally means that we read the submission in its entirety and that we liked a lot of it, but what wasn't working for us still outweighed what 
+              was. We also often use this reply when we think a story is very good, but not quite suitable for any of our upcoming issues (or the magazine generally). 
+              We send this reply to roughly 5-10% of submissions.
             </p>
             <p>
               <b>The fourth tier:</b> 
