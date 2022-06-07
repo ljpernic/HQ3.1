@@ -17,6 +17,8 @@ available: true
 
 ---
 
+<p style="text-align: center;"><em>First published in</em> Bird’s Thumb<em>, October 2016</em></p>
+
 I. <br />
 Last summer I buried a body under the apple tree <br />
 and every now and then I see the ghost plucking weeds <br />
