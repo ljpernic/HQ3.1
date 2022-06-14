@@ -274,7 +274,7 @@ For a moment, Estil imagined herself again in the tower of Hilf’s manor, paint
 
 “Tomorrow,” Hallis said at last, “I’ll paint an inversion for each layer of this lumastration, and we shall begin its unraveling.”
 
-“But if can’t see, how will a painting help?”
+“But if I can’t see, how will a painting help?”
 
 “Lumidden paints enhance and animate that which already exists. You’re consumed by secrets, and their hunger for obscurity became the focal point that manifested as a loss of eyesight. Yours, I believe, is reversible. 
 
