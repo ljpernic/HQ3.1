@@ -104,7 +104,7 @@ Hilf was whistling a cheerful tune and Estil’s eyes stung suddenly as a realiz
 
 They made camp later that night, and Estil sat carefully out of the way, trying to arrange firewood by touch while the servant pitched their tent and Hilf watered and fed the horses. Her husband still had the old habit of doing things himself. He hadn’t been born a lord. He’d once been a middle-class merchant, but successful business and court favor had elevated his rank.  
 
-The tingling smell of pine sap and rich earth seemed stronger here, but so did the Hilf’s silence toward her. Ignoring the travel cakes and the meat that their servant heated for them over the glowing embers, Estil crawled into the tent and rolled in a blanket. When Hilf didn’t follow, she wondered if he’d somehow guessed the thing she was hiding.
+The tingling smell of pine sap and rich earth seemed stronger here, but so did Hilf’s silence toward her. Ignoring the travel cakes and the meat that their servant heated for them over the glowing embers, Estil crawled into the tent and rolled in a blanket. When Hilf didn’t follow, she wondered if he’d somehow guessed the thing she was hiding.
 
 She tossed and turned, her bruises and the hard ground preventing any comfort. It wasn’t until she started to doze that hissing words filled her ears. Her limbs stiffened.
 
@@ -112,7 +112,7 @@ She tossed and turned, her bruises and the hard ground preventing any comfort. I
 
 <p style="text-align: center;">#</p>
 
-She awoke, hardly having slept, to the smell of bacon and a chorus of ravens conspiring to steal it. There was warming bread and brewing tea, the wind stirring dry leaves across the open ground, and the place felt empty. It took Estil moment to understand why—Hilf had dismissed the servant. He was clearing his throat nervously. The bacon was burning.
+She awoke, hardly having slept, to the smell of bacon and a chorus of ravens conspiring to steal it. There was warming bread and brewing tea, the wind stirring dry leaves across the open ground, and the place felt empty. It took Estil a moment to understand why—Hilf had dismissed the servant. He was clearing his throat nervously. The bacon was burning.
 
 “If something’s wrong,” Estil said, “you’ll have to lead me straight to it.” She sat on the cold ground and drew up her knees.
 
