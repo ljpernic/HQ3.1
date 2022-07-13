@@ -34,7 +34,7 @@ const About = (props) => {
   const tjTwitter = `http://twitter.com/eerieyore`;
   const evelynTwitter = `http://twitter.com/evelyn_freeling`;
 
-  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
   
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);

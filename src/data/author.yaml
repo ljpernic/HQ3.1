@@ -43,6 +43,23 @@
   - poemtitle: Tall Tales
     poemlink: /tall-tales
 
+- id: Elou Carroll
+  idpath: "/elou-carroll"
+  bio: 'Elou Carroll is a graphic designer and freelance photographer who writes. Her work appears or is forthcoming in <em>Hexagon SF Magazine</em>, <em>Apparition 
+    Lit</em>, <em>Underland Arcana</em>, <em>Luna Station Quarterly</em>, <em>In Somnio: A Collection of Modern Gothic Horror</em> (Tenebrous Press), <em>Spirit 
+    Machine</em> (Air and Nothingness Press), <em>Ghostlore</em> (Alternative Stories Podcast) and others. When she’s not whispering with ghosts, she can be found 
+    editing <em>Crow & Cross Keys</em>, publishing all things dark and lovely, and spending far too much time on twitter 
+    (<a href="https://www.twitter.com/keychild">@keychild</a>). She keeps a catalogue of her weird little wordcreatures on
+    <a href="https://www.eloucarroll.com">www.eloucarroll.com</a>.' 
+  twitter: 'keychild'
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: "You Hope, Through Shivers and Sweat"
+    storylink: /you-hope-through-shivers-and-sweat
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Kimberly Christensen
   idpath: "/kimberly-christensen"
   bio: Kimberly lives, writes, waves protest signs, and keeps bees in Seattle with her husband, two children and an assortment of animal companions. She cosplays General 
@@ -68,6 +85,37 @@
   stories:
   - storytitle: "Touched"
     storylink: /touched
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: P.A. Cornell
+  idpath: "/p-a-cornell"
+  bio: P.A. Cornell is a Chilean-Canadian speculative fiction writer who penned her first science-fiction story as a third-grade assignment (for those curious, it 
+    was about shape-shifting aliens). A member of SFWA and graduate of the Odyssey writing workshop, her short fiction has appeared in several professional anthologies 
+    and genre magazines. Her novella <em>Lost Cargo</em> is forthcoming from Mocha Memoirs Press. A complete bibliography can be found 
+    at <a href="https://www.pacornell.com/">pacornell.com</a>.
+  twitter: 'PACornellWriter'
+  picture: ../images/profile/P.A._Cornell.jpg
+  stories:
+  - storytitle: "Vinyl Wisdom"
+    storylink: /vinyl-wisdom
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Brandon Crilly
+  idpath: "/brandon-crilly"
+  bio: An Ottawa teacher by day, Brandon Crilly has been previously published by <em>Daily Science Fiction</em>, <em>Fusion Fragment</em>, <em>PULP Literature</em>, Flame 
+    Tree Publishing and other markets. In 2021, he co-founded Bag of Giving, a monthly Twitch series where authors play TTRPGs for charity. He’s also an Aurora 
+    Award-nominated podcaster, conference organizer for Can*Con, and regularly has too many D&D campaign ideas than he could ever fit into his schedule. His debut 
+    novel <em>Catalyst</em> will be published by Atthis Arts in Fall 2022. Find him at <a href="https://brandoncrilly.com">http://brandoncrilly.com</a> or on 
+    Twitter <a href="https://www.twitter.com/B_Crilly">@B_Crilly</a>.
+  twitter: 'B_Crilly'
+  picture: ../images/profile/Brandon_Crilly.jpg
+  stories:
+  - storytitle: "Constructed"
+    storylink: /constructed
   poems:
   - poemtitle:
     poemlink:
@@ -117,6 +165,20 @@
   - poemtitle: Every Light a Threshold
     poemlink: /every-light-a-threshold
 
+- id: Alexander Etheridge
+  idpath: "/alexander-etheridge"
+  bio: "Alexander Etheridge has been developing his poems and translations since 1998. His poems have been featured in <em>Wilderness House Literary Review</em>, <em>Ink 
+    Sac</em>, <em>Cerasus Journal</em>, <em>The Cafe Review</em>, <em>The Madrigal</em>, <em>Abridged Magazine</em>, <em>Susurrus Magazine</em>, <em>The Journal</em>, 
+    and many others. He was the winner of the Struck Match Poetry Prize in 1999."
+  twitter: ""
+  picture: ../images/profile/Alexander_Etheridge.JPG
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Introspection
+    poemlink: /introspection
+
 - id: Eric Farrell
   idpath: "/eric-farrell"
   bio: Eric Farrell (he/his) lives in Long Beach, California, where he works as a beer vendor by day and speculative fiction author by night. His writing credits stem from 
@@ -131,6 +193,22 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Vanessa Fogg
+  idpath: "/vanessa-fogg"
+  bio: 'Vanessa Fogg dreams of selkies, dragons, and gritty cyberpunk futures from her home in western Michigan. She spent years as a research scientist in molecular 
+    cell biology and now works as a freelance medical writer. Her short fiction has appeared or is forthcoming 
+    in <em>Lightspeed</em>, <em>Podcastle</em>, <em>GigaNotoSaurus</em>, <em>The Future Fire</em>, and Neil Clarke’s <em>The Best Science Fiction of the 
+    Year: Volume 4.</em> Her short fantasy novelette, The Lilies of Dawn, is available from Annorlunda Books. A complete bibliography and more can be found at 
+    her website <a href="https://www.vanessafogg.com">www.vanessafogg.com</a>. Vanessa is fueled by green tea.'
+  twitter: 'FoggWriter'
+  picture: ../images/profile/Vanessa_Fogg.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Blood, Roses, Song
+    poemlink: /blood-roses-song
 
 - id: Atreyee Gupta
   idpath: "/atreyee-gupta"
@@ -294,6 +372,21 @@
   - poemtitle:
     poemlink:
 
+- id: D.K. Lawhorn
+  idpath: "/d-k-lawhorn"
+  bio: 'D.K. Lawhorn (he/him) has stories that have appeared in <em>Pyre Magazine</em>, <em>Sick Lit Magazine</em>, and Ghost Orchid Press. He is a citizen of the 
+    Monacan Indian Nation and lives on his ancestral land in Virginia with his legion of rescue cats. He is studying Native Speculative Literature at Randolph 
+    College’s MFA in Creative Writing program. Follow him on Twitter <a href="https://www.twitter.com/d_k_lawhorn">@d_k_lawhorn</a> or visit his website 
+    at <a href="https://www.dklawhorn.com">dklawhorn.com</a>.'
+  twitter: 'd_k_lawhorn'
+  picture: ../images/profile/D.K._Lawhorn.jpg
+  stories:
+  - storytitle: 'We, Downtown'
+    storylink: "/we-downtown"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Avra Margariti
   idpath: "/avra-margariti"
   bio: Avra Margariti is a queer author, Greek sea monster, and Pushcart-nominated poet with a fondness for the dark and the darling. Avra's work haunts publications such 
@@ -308,6 +401,8 @@
   poems:
   - poemtitle: "Misconceptions Regarding the Moon"
     poemlink: /misconceptions-regarding-the-moon
+  - poemtitle: "We Greet the Solstice"
+    poemlink: /we-greet-the-solstice
 
 - id: Claire McNerney
   idpath: "/claire-mcnerney"
@@ -338,6 +433,21 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Oyeleye Mahmoodah Temitope
+  idpath: "/oyeleye-mahmoodah-temitope"
+  bio: Mahmoodah Oyeleye (she/her) is the sixteen-year-old Nigerian author of <em>Faded Blues</em> and a member of Hilltop Creative Arts Foundation. She has been 
+    shortlisted for literary prizes including the Writefluenza horror/suspense/thriller contest (2021), Abubakar Gimba prize for short story (February 2021), 
+    Wakaso Poetry prize (May 2021), Chinua Achebe Poetry Anthology Prize (2021) and BKPW poetry contest (February 2022). She is a Muslim, a foodie and 
+    a fan of Mobile games.
+  twitter: 'Oye_Mahmoodah'
+  picture: ../images/profile/Oyeleye_Mahmoodah_Temitope.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Beneath the Flames"
+    poemlink: "/beneath-the-flames"
 
 - id: Marisca Pichette
   idpath: "/marisca-pichette"
@@ -412,6 +522,22 @@
   poems:
   - poemtitle: "A Wreckful Planting of Small Pockets of Thirst"
     poemlink: "a-wreckful-planting-of-small-pockets-of-thirst"
+
+- id: Lynne Sargent
+  idpath: "/lynne-sargent"
+  bio: Lynne Sargent is a writer, aerialist, and Ph.D Candidate in Applied Philosophy. They are the poetry editor at <em>Utopia Science Fiction Magazine</em>. Their 
+    work has been nominated for Rhysling, Elgin, and Aurora Awards and has appeared in venues such as <em>Augur Magazine</em>, <em>Strange Horizons</em>, and <em>Daily 
+    Science Fiction</em>. Their first collection, <em>A Refuge of Tales</em>, is out now from Renaissance Press. To find out more, reach out to them on 
+    Twitter <a href="https://www.twitter.com/SamLynneS">@SamLynneS</a> or for a complete bibliography visit them 
+    at <a href="https://scribbledshadows.wordpress.com/">scribbledshadows.wordpress.com</a>.
+  twitter: 'SamLynneS'
+  picture: ../images/profile/Lynne_Sargent.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Artemis Accords*"
+    poemlink: "the-artemis-accords"
 
 - id: A. T. Sayre
   idpath: "/a-t-sayre"
@@ -490,6 +616,23 @@
   poems:
   - poemtitle: "Wolf Rune"
     poemlink: "/wolf-rune"
+
+
+- id: Elizabeth Zuckerman
+  idpath: "/elizabeth-zuckerman"
+  bio: Elizabeth Zuckerman has loved mythology since before she knew how to pronounce “Aphrodite.” Her fiction has appeared in <em>Beneath Ceaseless 
+    Skies</em>, <em>NonBinary Review</em>, <em>Timeless Tales Magazine</em>, TANSTAAFL’s anthology <em>Witches, Warriors, and Wyverns</em>, and <em>Footnote</em>, 
+    where she was long-listed for the Charter Oak Award. She also read the audiobook for Kassandra Flamouri’s <em>The Chalice and the Crown</em>, in case you 
+    wondered what good her theater degree ever did her. She lives in Philadelphia with a charming trickster, makes doll clothes when she needs something to do with 
+    her hands, and occasionally livetweets movies at <a href="https://www.twitter.com/LizCanTweet">@LizCanTweet</a>.
+  twitter: 'LizCanTweet'
+  picture: ../images/profile/Elizabeth_Zuckerman.jpg
+  stories:
+  - storytitle: "The Book Club at the End of the World"
+    storylink: "/the-book-club-at-the-end-of-the-world"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Miriam Allen deFord
   idpath: "/miriam-allen-deford"
@@ -640,6 +783,7 @@
   poems:
   - poemtitle: "The Stolen Child"
     poemlink: "/the-stolen-child"
+
 
 #- id: Generic Name
 #  idpath: "/generic-name"

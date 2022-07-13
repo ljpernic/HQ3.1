@@ -28,7 +28,7 @@ export default class archivePoetry extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+    const currentIssue = `https://ko-fi.com/s/c986b978d2`;
     
     const { POEcurrentPage, POEnumPages } = this.props.pageContext
     const isFirst = POEcurrentPage === 1

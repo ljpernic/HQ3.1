@@ -35,7 +35,7 @@ const Eachauthor = props => {
 //  console.log(poems[0].poemlink);
 
   const twitterLink = `http://twitter.com/${twitter}`;
-  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
   
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);

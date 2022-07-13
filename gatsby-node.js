@@ -177,7 +177,7 @@ exports.createPages = ({ graphql, actions }) => {
         const FULLnumPages = Math.ceil(FULLposts.length / FULLpostsPerPage)
         Array.from({ length: FULLnumPages }).forEach((_, i) => {
           createPage({
-            path: i === 0 ? `/fullissues` : `/fullissues/${i + 1}`,
+            path: i === 0 ? `/all-issues` : `/all-issues/${i + 1}`,
             component: path.resolve('src/templates/archiveIssues.js'),
             context: {
               limit: FULLpostsPerPage,

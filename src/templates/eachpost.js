@@ -38,7 +38,7 @@ const Eachpost = ({ data }) => {
 
   const url = `https://www.havenspec.com${path}`;
   const twitter = `http://twitter.com/${author.twitter}`;
-  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
 
   const testText = "Check out...";
 

@@ -7,7 +7,7 @@ shortdescription: Her world was gone, like a night sky stripped of moon and star
 category: FICTION
 date: "2022-05-11T00:00:04.000Z"
 path: "/focal-point"
-featured: true
+featured: false
 available: true
 
 ---

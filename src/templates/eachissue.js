@@ -33,7 +33,7 @@ const Eachissue = props => {
   const data = props.data;
   const { idpath, issueidname, text, artist, artistbio, artistTwitter } = pageContext;
   const twitter = `http://twitter.com/havenspec`;
-  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
 
   const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname);
   const poetryContent = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname);

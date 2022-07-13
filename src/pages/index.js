@@ -28,7 +28,7 @@ function shuffle(array) {
 const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
   const posts = props.data.allMarkdownRemark.edges;
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
 
   var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
   var shuffledArray = shuffle(imgArray);
@@ -134,26 +134,26 @@ const Home = (props) => {                                                     //
                         Fiction:
                       </h4>
                         {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Four, May 2022")
+                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
                           .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
                         <h4>
                           Poetry:
                         </h4>
                         {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue Four, May 2022")
+                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
                           .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
 
-                        <h4>
+{/*                        <h4>
                           Non-Fiction:
                         </h4>
                         {posts
-                          .filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Four, May 2022")
+                          .filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
                           .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-                          <br />
+                          <br /> */}
                       </div>
                     </div>
                     <div className="col-12 text-center pb-8">
-                      <Link className="button button-primary" to="/issue-four">
+                      <Link className="button button-primary" to="/issue-five">
                         View Issue
                       </Link>
                 </div>

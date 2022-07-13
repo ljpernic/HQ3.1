@@ -28,20 +28,20 @@ export default class archiveIssues extends React.Component {
   render() {
     const issueNodes = this.props.data.allIssueYaml.edges;
     const data = this.props.data;
-    const currentIssue = `https://ko-fi.com/s/f371bb536b`;
+    const currentIssue = `https://ko-fi.com/s/c986b978d2`;
     
     const { FULLcurrentPage, FULLnumPages } = this.props.pageContext
     const isFirst = FULLcurrentPage === 1
     const isLast = FULLcurrentPage === FULLnumPages
-    const prevPage = FULLcurrentPage - 1 === 1 ? "/fullissues/" : `/fullissues/${FULLcurrentPage - 1}`
-    const nextPage = `/fullissues/${FULLcurrentPage + 1}`
+    const prevPage = FULLcurrentPage - 1 === 1 ? "/all-issues/" : `/all-issues/${FULLcurrentPage - 1}`
+    const nextPage = `/all-issues/${FULLcurrentPage + 1}`
         
     var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
     var shuffledArray = shuffle(imgArray);
     
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Full Issues" />
+      <SEO title="All Issues" />
       <Helmet>
         <meta
           name="description"
@@ -144,7 +144,7 @@ export default class archiveIssues extends React.Component {
                   <div className="col-sm">
                     <p className="text-center">
                       {Array.from({ length: FULLnumPages }, (_, i) => (
-                        <Link key={`pagination-number${i + 1}`} to={`/fullissues/${i === 0 ? "" : i + 1}`}>
+                        <Link key={`pagination-number${i + 1}`} to={`/all-issues/${i === 0 ? "" : i + 1}`}>
                           &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
                         </Link>
                       ))}

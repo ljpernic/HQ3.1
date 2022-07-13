@@ -31,7 +31,7 @@ module.exports = {
 //      },
       {
         name: 'Issues',
-        link: '/fullissues',
+        link: '/all-issues',
       },
       {
         name: 'Contributors',
