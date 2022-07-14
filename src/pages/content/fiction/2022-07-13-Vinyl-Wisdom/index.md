@@ -12,6 +12,8 @@ available: true
 
 ---
 
+<p style="text-align: center;"><em>First published in</em> A Punk Rock Future<em>, October 2019.</em></p>
+
 Whenever I’d ask John how old he was, he’d tell me he was “born in ’75, same year as the Sex Pistols.” Not that this answered my question since I wasn’t sure what year it was and the old-timers didn’t seem interested in stuff like that. All I knew is he was old. Old as fuck, probably. And I guessed I was somewhere in my twenties, though I couldn’t be sure since John was my only family and he didn’t know when I’d been born.
 
 Whatever age he was, it hadn’t slowed him down. He still got up every day to scavenge the old town with me in search of stuff we could use back at the trailer park. Cans of food maybe, medication, and of course, the odd punk album. Not that we’d had much luck today, I thought, staring at the handful of disposable razors and single jar of pickled beets we’d come back with. 

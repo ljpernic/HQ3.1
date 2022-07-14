@@ -1,37 +1,29 @@
 import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
-import Image from "gatsby-image";
-import Helmet from 'react-helmet';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
+import Image from "gatsby-image";
+import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
+import Advertisement from '../components/advertisement';
 
 
-function shuffle(array) {
-  var currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
-const Home = (props) => {                                                     //THIS SETS THE FRONT PAGE, including featured story, latest stories, and latest issues
+const Home = (props) => {                                                     //Sets the front page, including featured story, latest stories, and latest issue.
   const posts = props.data.allMarkdownRemark.edges;
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
 
-  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
-  var shuffledArray = shuffle(imgArray);
+  const currentIssue = posts[0].node.frontmatter.issue.id;                    // Sets currentIssue to the issue of the most recent post in the collection.
+  console.log(currentIssue)  
+
+  //////// THIS FILTERS PROPS BASED ON CATEGORY AND ISSUE ////////
+  const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === currentIssue);
+  const poetryContent = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === currentIssue);
+  const nonFictionContent = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === currentIssue);
+
+  //////// THIS SHOWS THE HEADERS ONLY IF THERE IS RELEVANT CONTENT //////// 
+  const fictionHeader = fictionContent.length === 0 ? null : <h4>Fiction:</h4>
+  const poetryHeader = poetryContent.length === 0 ? null : <h4>Poetry:</h4>  
+  const nonFictionHeader = nonFictionContent.length === 0 ? null : <h4>Non-Fiction:</h4>
 
   return (
     <Layout bodyClass="page-home">
@@ -48,63 +40,17 @@ const Home = (props) => {                                                     //
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft one">
+              <Advertisement />
                 <div>
-                  <a href={currentIssue}>
-                    <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}
-                    />
-                  </a>
-                </div>
-                <div>
-                      <a className="buybutton button-primary" href={currentIssue}>
-                        BUY CURRENT ISSUE
-                      </a>
-                </div>
-
-                <div>
-                  <Link to="/subscribe">
-                    <Image className="advert mb-2 mt-6"
-
-                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-                </div>
-
-                <div className="wideRight">
                   <div className="col-12">
                     <h4>
                       CURRENT ISSUE
                     </h4>
                     <hr />
                   </div>
+{/*     THIS FILTERS THE FEATURED STORY AND RETURNS ALL OF THE RELEVANT INFO     */}
                   {posts
-                    .filter(post => post.node.frontmatter.featured === true)                       /*This looks at only the md file with featured: true*/
+                    .filter(post => post.node.frontmatter.featured === true)
                     .map(({ node: post }) => {
                       return (
                         <div key={post.frontmatter.title}>
@@ -123,36 +69,26 @@ const Home = (props) => {                                                     //
                         </div>
                       )
                   })}
-
-                  <div className="frontissue">
-                    <div className="col-12">
+{/*     PRESENTS THE FRONT PAGE CONTENT     */}
+                  <div className="frontissue">                            {/* CSS to center the content. */}
+                    <div className="col-12">                              {/* CSS to center the content. */}
                     <hr />
                     <h3>
                       CONTENT
                     </h3>
-                      <h4>
-                        Fiction:
-                      </h4>
-                        {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
-                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-                        <h4>
-                          Poetry:
-                        </h4>
-                        {posts
-                          .filter(post => /*!post.node.frontmatter.featured &&*/ post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
-                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+                    {fictionHeader}
+              {fictionContent
+                .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+              {poetryHeader}
+                {poetryContent
+                  .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
+              {nonFictionHeader}
+                {nonFictionContent
+                  .map((data, index) => data.node.frontmatter.title === null ? null : data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
 
-{/*                        <h4>
-                          Non-Fiction:
-                        </h4>
-                        {posts
-                          .filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === "Issue Five, July 2022")
-                          .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-                          <br /> */}
                       </div>
                     </div>
-                    <div className="col-12 text-center pb-8">
+                    <div className="col-12 text-center pb-8 pt-4">
                       <Link className="button button-primary" to="/issue-five">
                         View Issue
                       </Link>
@@ -175,38 +111,6 @@ const Home = (props) => {                                                     //
 
 export const query = graphql`
   query {
-    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {

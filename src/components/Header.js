@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Menu from './Menu';
 import Hamburger from './Hamburger';
-import logo from '../images/logo.svg';                        /*Have to change to an SVG of Haven Quarterly */
+import logo from '../images/logo.svg';
 import logoMobile from '../images/logo-mobile.svg';
 import MenuMobile from './MenuMobile';
 
@@ -31,35 +31,32 @@ class Header extends React.Component {
       <div className="header">
           <div className="row">
             <div className="grid-container-logo">
-
-              <div className="wide">
-                <div className="col-12">
+                <div>
                   <div className="logo">
                     <Link to="/">
                       <img alt="Haven Spec logo" src={logo} />
                     </Link>
                   </div>
                 </div>
-              </div>
 
-              <div className="thin">
+              <div>
                 <div className="social-media-header">
                   <a href="https://twitter.com/HavenSpec">
-                    <IconContext.Provider value={{ className:"social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{ className:"social-media-header", color: "#414156", size: "1.4em", verticalAlign: "left", title:"social media icons"}}>
                     <div>
                       <FaTwitter />
                     </div>
                     </IconContext.Provider>
                   </a>
                   <a href="https://facebook.com/HavenSpec">  
-                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.4em", verticalAlign: "middle", title:"social media icons"}}>
                     <div>
                       <FaFacebook />
                     </div>
                     </IconContext.Provider>
                   </a>
                   <a href="https://HavenSpec.com/newsletter">  
-                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.8em", verticalAlign: "middle", title:"social media icons"}}>
+                    <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.4em", verticalAlign: "right", title:"social media icons"}}>
                     <div>
                       <FaEnvelope />
                     </div>

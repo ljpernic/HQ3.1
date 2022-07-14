@@ -4,50 +4,10 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
-
-import { Formik, Form, Field, useFormik } from 'formik';
-import * as Yup from 'yup';
-
-function shuffle(array) {
-  var currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
+import Advertisement from '../../components/advertisement';
 
 const Submit = (props) => {
   const data = props.data;
-  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
-  
-{/*
-    const formik = useFormik({
-    initialValues: {
-      Name: '',
-      Email: '',
-      Title: '',
-      WordCount: '',
-      Type: '',
-    },
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
-*/}
-
-  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
-  var shuffledArray = shuffle(imgArray);
-
   return (
     <Layout bodyClass="page-home">
       <SEO title="Submit" />
@@ -55,7 +15,7 @@ const Submit = (props) => {
         <script src="https://www.cognitoforms.com/f/iframe.js" />
         <meta
           name="description"
-          content="Submit page of Haven Spec"
+          content="Submission page of Haven Spec"
         />
       </Helmet>
 
@@ -63,55 +23,10 @@ const Submit = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft one">
-                <div>
-                  <a href={currentIssue}>
-                    <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}
-                    />
-                  </a>
-                    <div className="text-center">
-                      <a className="buybutton button-primary" href={currentIssue}>
-                        BUY CURRENT ISSUE
-                      </a>
-                    </div>
-                  </div>
-                  <div className="justify-content-center">
 
-                  <Link to="/subscribe">
-                      <Image className="advert mb-2 mt-6"
-                        fixed={shuffledArray[0]}
-                      />
-                    </Link>
-                </div>
-                <h6>
-                  ADVERT
-                </h6>
-                <div>
-                <Link to="/subscribe">
-                      <Image className="advert mb-2"
-                        fixed={shuffledArray[1]}
-                      />
-                    </Link>
-                </div>
-                <h6>
-                  ADVERT
-                </h6>
-                <div>
-                <Link to="/subscribe">
-                      <Image className="advert mb-2"
-                        fixed={shuffledArray[2]}
-                      />
-                  </Link>
-                </div>
-                <h6>
-                  ADVERT
-                </h6>
-                </div>
+              <Advertisement />
 
-
-
-              <div className="wideRight">
+              <div>
                 <div className="col-12">
                   <h4>
                     SUBMIT
@@ -326,38 +241,6 @@ const Submit = (props) => {
 
 export const query = graphql`
   query SubmitQuery {
-    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {

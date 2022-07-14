@@ -3,7 +3,7 @@ title: The Stolen Child
 author: William Butler Yeats
 issue: Issue Zero, September 2021
 description: Where dips the rocky highland <br />Of Sleuth Wood in the lake, <br />There lies a leafy island <br />Where flapping herons wake <a href="https://www.havenquarterly.com/the-stolen-child/">[<i>...</i>]</a>
-shortdescription: Where dips the rocky highland <br />Of Sleuth Wood in the lake, <br />There lies a leafy island <br />Where flapping herons wake <a href="https://www.havenquarterly.com/the-stolen-child/">[<i>...</i>]</a> <br /><br /> <invisible>==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== </invisible>
+shortdescription: Where dips the rocky highland <br />Of Sleuth Wood in the lake, <br />There lies a leafy island <br />Where flapping herons wake <a href="https://www.havenquarterly.com/the-stolen-child/">[<i>...</i>]</a>
 category: POETRY
 cover: cover.jpg
 issuecover: CurrentCover.jpg

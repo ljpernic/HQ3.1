@@ -165,6 +165,7 @@
     font-family: $font-family-heading;
     line-height: 1.2;
     margin-left: 40px;
+    margin-top: 40px;
     @include media-breakpoint-up(xs) {
       margin: 0px 5px 0px 5px;
     }
@@ -175,7 +176,7 @@
       margin: 0px 30px 0px 30px;
     }
     @include media-breakpoint-up(lg) {
-      margin: 0px 0px 0px 40px;
+      margin: 40px 0px 0px 40px;
     }
   }
   hr { 
@@ -299,6 +300,11 @@ li .listWindow {
   min-height: 620px;
   width: 80%;
   border: none;
+}
+
+.social-icon {
+  display: inline-block; 
+  margin: 0 10px
 }
 
 .editorImageAbout {
@@ -664,21 +670,50 @@ hr {
   }
 }
 
-.thinLeft {
-  box-sizing: content-box;
-  grid-column: 1 / span 1;
+.currentCover {
+  display: inline-block;
+  width: 280px;
+//  float: left;
+  margin: 30px 0px 0px 40px;
+  box-shadow: 0 4px 48px rgba(50,50,93,.9),0 1px 30px rgba(0,0,0,.32);
+  background: $secondary;
+  border: 2px solid #414156;
+  &:hover {
+    color: #fff;
+    background-color: lighten($secondary, 10%);
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+  }
   @include media-breakpoint-up(xs) {
-    width: 100%;
-  }
+        margin: 30px 5px 0px 5px;
+      }
   @include media-breakpoint-up(sm) {
-    width: 100%;
-    grid-column: 1 / span 3;
-  }
+        margin: 30px 30px 0px 30px;
+      }
   @include media-breakpoint-up(md) {
-    grid-column: 1 / span 3;
+    margin: 30px 30px 0px 30px;
   }
   @include media-breakpoint-up(lg) {
-    grid-column: 1 / span 1;
+    margin: 30px 0px 0px 40px;
+  }
+}
+
+.advertisement {
+  display: inline-block;
+  width: 280px;
+  border: 2px solid #414156;
+  @include media-breakpoint-up(xs) {
+        margin: 30px 5px 0px 5px;
+      }
+  @include media-breakpoint-up(sm) {
+        margin: 30px 30px 0px 30px;
+      }
+  @include media-breakpoint-up(md) {
+    margin: 30px 30px 0px 30px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin: 30px 0px 0px 40px;
   }
 }
 
@@ -688,19 +723,21 @@ hr {
   box-sizing: content-box;
 }
 
-.wideRight {
-  grid-column: 2 / span 2;
+.wideTrue {
   @include media-breakpoint-up(xs) {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   @include media-breakpoint-up(sm) {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   @include media-breakpoint-up(md) {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   @include media-breakpoint-up(lg) {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
 }
-

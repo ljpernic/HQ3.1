@@ -2,8 +2,14 @@
 title: The Signboard
 author: Ella Wheeler Wilcox
 issue: Issue Zero, September 2021
-description: I will paint you a sign, rumseller, <br />And hang it above your door; <br /> A truer and better signboard <br />Than ever you had before. <br />I will paint with the skill of a master, <br />And many shall pause to see <br />This wonderful piece of painting, <br />So like the reality. <a href="https://www.havenspec.com/the-signboard/">[<i>...</i>]</a>
-shortdescription: I will paint you a sign, rumseller, <br />And hang it above your door; <br /> A truer and better signboard <br />Than ever you had before. <br />I will paint with the skill of a master, <br />And many shall pause to see <br />This wonderful piece of painting, <br />So like the reality. <a href="https://www.havenspec.com/the-signboard/">[<i>...</i>]</a>
+description: 'I will paint you a sign, rumseller, <br />
+     And hang it above your door; <br /> 
+     A truer and better signboard <br />
+     Than ever you had before. <br />'
+shortdescription: 'I will paint you a sign, rumseller, <br />
+     And hang it above your door; <br /> 
+     A truer and better signboard <br />
+     Than ever you had before. <br />'
 category: POETRY
 cover: cover.jpg
 issuecover: CurrentCover.jpg

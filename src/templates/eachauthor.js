@@ -5,41 +5,29 @@ import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
+import Advertisement from '../components/advertisement';
 
 import { IconContext } from "react-icons";
-import { FaTwitter } from 'react-icons/fa';
-
-function shuffle(array) {
-  var currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
+import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 
 const Eachauthor = props => {
   const { pageContext } = props;
   const data = props.data;
-  const { idname, bio, twitter, picture, stories, poems } = pageContext;
+  const { idname, bio, twitter, url, facebook, stories, poems } = pageContext;
 
-//  console.log(poems[0].poemlink);
+//////// THIS SHOWS LINKS ONLY IF THERE IS RELEVANT CONTENT //////// 
+  const twitterName = {twitter}.twitter;
+  const facebookName = {facebook}.facebook;
+  const urlName = {url}.url;
 
-  const twitterLink = `http://twitter.com/${twitter}`;
-  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
-  
-  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
-  var shuffledArray = shuffle(imgArray);
-  
+  const twitterLink = `https://www.twitter.com/${twitter}`;
+  const facebookLink = `https://www.facebook.com/${facebook}`;
+  const urlLink = `${url}`;
+
+  const displayTwitter = twitterName === null ? null : <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const displayFacebook = facebookName === null ? null : <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const displayUrl = urlName === null ? null : <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="Fiction" />
@@ -49,78 +37,30 @@ const Eachauthor = props => {
           name={idname}
           content="Author published by Haven Spec!"
         />
-        
       </Helmet>
-
       <div className="intro">                                                                {/*FEATURED*/}
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft one">
+              <Advertisement />
                 <div>
-                  <a href={currentIssue}>
-                    <Image className="topImageLeft"
-                      fixed={data.currentCover.childImageSharp.fixed}
-                    />
-                  </a>
-                </div>
-                <div>
-                      <a className="buybutton button-primary" href={currentIssue}>
-                        BUY CURRENT ISSUE
-                      </a>
-                </div>
-
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2 mt-6"
-                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-                </div>
-
-                <div className="wideRight">
-                <div className="col-12">
-                  <h4>
-                    AUTHOR
-                  </h4>
+                  <div className="col-12">
+                    <h4>
+                      AUTHOR
+                    </h4>
                   <hr />
                 </div>
-
+{/*     AUTHOR IMAGE AND SOCIAL MEDIA     */}
                   <div className="editorImageAbout mt-3">
                     <Image
                       fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
                     />
-                          <a href={twitterLink}>
-                            <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                              <FaTwitter />
-                            </IconContext.Provider>
-                          </a>
+                    <div class="side-block">
+                      {displayTwitter}
+                      {displayFacebook}
+                      {displayUrl}
                     </div>
+                  </div>
                     
                   <h1 className="pt-1 pb-1">
                     {idname}
@@ -157,38 +97,6 @@ const Eachauthor = props => {
 
 export const query = graphql`
   query($idname: String!) {
-    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {

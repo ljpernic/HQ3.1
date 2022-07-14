@@ -5,6 +5,8 @@
     her partner. When she’s not doing any of the above, you’ll find her buried under a pile of blankets reading a good book. Follow her on 
     twitter <a href="https://www.twitter.com/beckybee30">@beckybee30</a>. 
   twitter: 'beckybee30'
+  url:
+  facebook:
   picture: ../images/profile/Rebecca_Angelo.jpg
   stories:
   - storytitle: "Resistant"
@@ -20,6 +22,8 @@
     spent time in South Carolina, Japan, and California (in that order), and now lives in Oregon with his family—although if anyone asks, he’ll usually say he’s from 
     the Internet, where you can find him at <a href="https://infomancy.net">https://infomancy.net</a>.
   twitter: 'StewartCBaker'
+  url: https://infomancy.net
+  facebook:
   picture: ../images/profile/Stewart_C_Baker.jpg
   stories:
   - storytitle: "The Calligrapher's Granddaughter"
@@ -35,6 +39,8 @@
     in <em>Abyss & Apex</em>, <em>Analog</em>, <em>Asimov’s SF</em>, and elsewhere in the alphabet. While lacking academic literary qualifications, she is kind 
     to those so encumbered. She used to work with horses. She thinks imagination can compensate for anything."
   twitter: 'FJBergmann'
+  url:
+  facebook:
   picture: ../images/profile/FJ_Bergmann.jpg
   stories:
   - storytitle:
@@ -52,6 +58,8 @@
     (<a href="https://www.twitter.com/keychild">@keychild</a>). She keeps a catalogue of her weird little wordcreatures on
     <a href="https://www.eloucarroll.com">www.eloucarroll.com</a>.' 
   twitter: 'keychild'
+  url: https://www.eloucarroll.com
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: "You Hope, Through Shivers and Sweat"
@@ -65,6 +73,8 @@
   bio: Kimberly lives, writes, waves protest signs, and keeps bees in Seattle with her husband, two children and an assortment of animal companions. She cosplays General 
     Organa and loves any story where smart and ethical defeat evil. 
   twitter: '1IdealistGirl'
+  url:
+  facebook:
   picture: ../images/profile/Kimberly_Christensen.jpg
   stories:
   - storytitle: "Sworn Guardian"
@@ -81,6 +91,8 @@
     page. You can find her work at <a href="https://www.emmiechristie.com">www.emmiechristie.com</a> or follow her on 
     Twitter <a href="https://www.twitter.com/EmmieChristie33">@EmmieChristie33</a>. 
   twitter: 'EmmieChristie33'
+  url: https://www.emmiechristie.com
+  facebook:
   picture: ../images/profile/Emmie_Christie.jpg
   stories:
   - storytitle: "Touched"
@@ -96,6 +108,8 @@
     and genre magazines. Her novella <em>Lost Cargo</em> is forthcoming from Mocha Memoirs Press. A complete bibliography can be found 
     at <a href="https://www.pacornell.com/">pacornell.com</a>.
   twitter: 'PACornellWriter'
+  url: https://www.pacornell.com/
+  facebook:
   picture: ../images/profile/P.A._Cornell.jpg
   stories:
   - storytitle: "Vinyl Wisdom"
@@ -112,6 +126,8 @@
     novel <em>Catalyst</em> will be published by Atthis Arts in Fall 2022. Find him at <a href="https://brandoncrilly.com">http://brandoncrilly.com</a> or on 
     Twitter <a href="https://www.twitter.com/B_Crilly">@B_Crilly</a>.
   twitter: 'B_Crilly'
+  url: https://brandoncrilly.com
+  facebook:
   picture: ../images/profile/Brandon_Crilly.jpg
   stories:
   - storytitle: "Constructed"
@@ -127,6 +143,8 @@
     fantasy novel. She can most often be found in a bookshop or behind a keyboard writing stories with too many ghosts. Follow her on Twitter 
     at <a href="https://www.twitter.com/LBooklott">@LBooklott</a>.
   twitter: 'LBooklott'
+  url:
+  facebook:
   picture: ../images/profile/Madalena_Daleziou.jpg
   stories:
   - storytitle:
@@ -142,6 +160,8 @@
     SF</i> and <i>Cossmass Infinities</i>, among others. Jelena lives on an island in the Adriatic with her husband, daughter, and cat. You can find her 
     at <a href="https://www.jelenadunato.com">jelenadunato.com</a> and on Twitter <a href="https://www.twitter.com/jelenawrites">@jelenawrites</a>.
   twitter: 'jelenawrites'
+  url: https://www.jelenadunato.com
+  facebook:
   picture: ../images/profile/Jelena_Dunato.jpg
   stories:
   - storytitle: Heart of My Heart, Soul of My Soul
@@ -157,6 +177,8 @@
     Parentheses</em>, <em>Gyroscope</em>, and various other print and web venues, and her first collection of poems, <em>Arthurian Things</em>, was published by 
     Dark Myth Publications in 2020."
   twitter: 'MRidleyElmes'
+  url:
+  facebook:
   picture: ../images/profile/Melissa_Ridley_Elmes.jpg
   stories:
   - storytitle:
@@ -170,7 +192,9 @@
   bio: "Alexander Etheridge has been developing his poems and translations since 1998. His poems have been featured in <em>Wilderness House Literary Review</em>, <em>Ink 
     Sac</em>, <em>Cerasus Journal</em>, <em>The Cafe Review</em>, <em>The Madrigal</em>, <em>Abridged Magazine</em>, <em>Susurrus Magazine</em>, <em>The Journal</em>, 
     and many others. He was the winner of the Struck Match Poetry Prize in 1999."
-  twitter: ""
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Alexander_Etheridge.JPG
   stories:
   - storytitle:
@@ -186,6 +210,8 @@
     website <a href="https://www.stygianspace.com">stygianspace.com</a> and posts on Twitter <a href="https://www.twitter.com/stygianspace">@stygianspace</a>. He has recent 
     fiction in <em>Etherea Magazine</em>, <em>Pulp Modern</em>, and <em>Synthetic Reality</em>. 
   twitter: 'stygianspace'
+  url: https://www.stygianspace.com
+  facebook:
   picture: ../images/profile/Eric_Farrell.jpg
   stories:
   - storytitle: "My Sparkle Alone Can't Cull Your Demons"
@@ -202,6 +228,8 @@
     Year: Volume 4.</em> Her short fantasy novelette, The Lilies of Dawn, is available from Annorlunda Books. A complete bibliography and more can be found at 
     her website <a href="https://www.vanessafogg.com">www.vanessafogg.com</a>. Vanessa is fueled by green tea.'
   twitter: 'FoggWriter'
+  url: https://www.vanessafogg.com
+  facebook:
   picture: ../images/profile/Vanessa_Fogg.jpg
   stories:
   - storytitle:
@@ -217,6 +245,8 @@
     anthologies, such as <em>Wayfinding</em> from Finishing Line Press. Atreyee is the creator of Bespoke Traveler 
     (<a href="https://www.bespoketraveler.com">www.bespoketraveler.com</a>), a digital alcove for curious explorers.
   twitter: 'BespokeTravels'
+  url: https://www.bespoketraveler.com
+  facebook:
   picture: ../images/profile/Atreyee_Gupta.jpeg
   stories:
   - storytitle: "Axolotl"
@@ -232,6 +262,8 @@
     and <em>Kwik Krimes</em>. He serves on the board of Rainbow Dublin and enjoys photography, cooking, watching ice hockey, and travel. His website 
     is <a href='http://www.michaelhaynes.info/'>http://michaelhaynes.info/</a>, and he can be found on Twitter as <a href='https://www.twitter.com/mohio73'>@mohio73</a>."
   twitter: 'mohio73'
+  url: http://www.michaelhaynes.info/
+  facebook:
   picture: ../images/profile/Michael_Haynes.jpg
   stories:
   - storytitle: "Carolina"
@@ -246,6 +278,8 @@
     and more. When not writing, she likes to go hiking and looking for birds. To find out more, visit <a href="https://www.sylviaheike.com">https://www.sylviaheike.com</a> or 
     say hello on Twitter <a href="https://www.twitter.com/sylviaheike">@sylviaheike</a>.
   twitter: 'sylviaheike'
+  url: https://www.sylviaheike.com
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: "We Are the Moor"
@@ -262,6 +296,8 @@
     Instagram <a href="https://www.instagram.com/the_lettersea">@the_lettersea</a>, and at <a href="https://www.the-lettersea.com">the-lettersea.com</a>. 
     No, he’s not sure how to say his last name, either.
   twitter: 'Bwhugen'
+  url: https://www.the-lettersea.com
+  facebook:
   picture: ../images/profile/Brian_Hugenbruch.jpg
   stories:
   - storytitle:
@@ -276,6 +312,8 @@
     for inspiration. Her work has appeared or is forthcoming in <em>F&SF</em>, <em>The Dark</em>, <em>Dark Matter</em>, <em>Prairie Fire</em>, <em>Hobart Pulp</em>, among others. 
     Find her on Twitter (<a href="https://www.twitter.com/AiJiang_">@AiJiang_</a>) and online (<a href="http://aijiang.ca">http://aijiang.ca</a>).
   twitter: 'AiJiang_'
+  url: http://aijiang.ca
+  facebook:
   picture: ../images/profile/Ai_Jiang.jpg
   stories:
   - storytitle:
@@ -291,6 +329,8 @@
     in all of the above are her wonderful husband and terrific kid. Sometimes her two cats try to join the games, but their strategies mostly consist of knocking pieces off 
     the board. 
   twitter: 'ellareine17'
+  url:
+  facebook:
   picture: ../images/profile/Gabrielle_Johansen.jpg
   stories:
   - storytitle: Leaving Earth
@@ -307,6 +347,8 @@
     including <i>Lyrical Iowa</i>, <i>The Briar Cliff Review</i>, <i>Phantom Kangaroo</i>, <i>The Disappointed Housewife</i>, <i>Anti-Heroin Chic</i>, <i>Coffin 
     Bell</i>, <i>Typehouse Literary Magazine</i>, <i>Better Than Starbucks</i> and <i>Chestnut Review</i>. 
   twitter:
+  url:
+  facebook:
   picture: ../images/profile/Julie_Allyn_Johnson.jpg
   stories:
   - storytitle:
@@ -322,6 +364,8 @@
     Library, Library of Congress, Folger Shakespeare Library, and, of course, her local public library. When she's not writing, she dabbles in bass guitar, rock climbing, 
     language learning, and video games. Her fiction can also be found in <em>Metaphorosis</em> and <em>Luna Station Quarterly</em>.
   twitter: 'KeatingNotKeats'
+  url:
+  facebook:
   picture: ../images/profile/Erin_Keating.jpg
   stories:
   - storytitle: Chrysanthemum
@@ -334,9 +378,12 @@
   idpath: "/meghan-kemp-gee"
   bio: Meghan Kemp-Gee lives somewhere between Vancouver, BC, and Fredericton, NB. She writes poetry, comics, and scripts of all kinds. She also teaches composition and 
     plays ultimate frisbee. She co-created the webcomics <em>Contested Strip</em> and <em>Space Heroines of El-Andoo</em>, and her comics and short fiction have been 
-    published in numerous anthologies. Her poetry has recently appeared in <em>PRISM</em>, <em>Copper Nickel</em>, <em>Rising Phoenix Review</em>, <em>The Shore</em>, <em>Stone 
-    of Madness</em>, <em>Altadena Poetry Review</em>, <em>Anomaly</em>, <em>Train</em>, and <em>Rejection Letters</em>. You can find her on Twitter <a href="https://www.twitter.com/MadMollGreen">@MadMollGreen</a>.
+    published in numerous anthologies. Her poetry has recently appeared in <em>PRISM</em>, <em>Copper Nickel</em>, <em>Rising Phoenix Review</em>, <em>The 
+    Shore</em>, <em>Stone of Madness</em>, <em>Altadena Poetry Review</em>, <em>Anomaly</em>, <em>Train</em>, and <em>Rejection Letters</em>. You can find her on 
+    Twitter <a href="https://www.twitter.com/MadMollGreen">@MadMollGreen</a>.
   twitter: 'MadMollGreen'
+  url:
+  facebook:
   picture: ../images/profile/Meghan_Kemp-Gee.jpg
   stories:
   - storytitle: The End of the World
@@ -348,8 +395,11 @@
 - id: Annika Barranti Klein
   idpath: "/annika-barranti-klein"
   bio: Annika Barranti Klein lives and writes in a tiny apartment in Los Angeles with her family. She is a lifelong lover of zoos and obscure facts. Her fiction has 
-    recently been and is forthcoming in Mermaids Monthly, Kaleidotrope, Weird Horror, and Asimov’s Science Fiction. Find her online at <a href="https://annikaobscura.com">annikaobscura.com</a>. 
+    recently been and is forthcoming in Mermaids Monthly, Kaleidotrope, Weird Horror, and Asimov’s Science Fiction. Find her online 
+    at <a href="https://annikaobscura.com">annikaobscura.com</a>. 
   twitter: 'noirbettie'
+  url: https://annikaobscura.com
+  facebook:
   picture: ../images/profile/Annika_Barranti_Klein.jpeg
   stories:
   - storytitle: Phosphor's Circle
@@ -364,6 +414,8 @@
     co-editor of <em>Telling Stories: On Culturally Responsive Artificial Intelligence</em>, and co-author of <em>Cryptography Engineering: Design Principles and Practical 
     Applications</em>. He is on Twitter at <a href="https://www.twitter.com/yoshi_kohno">@yoshi_kohno</a> and online at <a href="https://www.yoshikohno.net/">https://www.yoshikohno.net</a>.'
   twitter: 'yoshi_kohno'
+  url: https://www.yoshikohno.net
+  facebook:
   picture: ../images/profile/Tadayoshi_Kohno.jpg
   stories:
   - storytitle: 'Hope: A Perspective from the Forest'
@@ -379,6 +431,8 @@
     College’s MFA in Creative Writing program. Follow him on Twitter <a href="https://www.twitter.com/d_k_lawhorn">@d_k_lawhorn</a> or visit his website 
     at <a href="https://www.dklawhorn.com">dklawhorn.com</a>.'
   twitter: 'd_k_lawhorn'
+  url: https://www.dklawhorn.com
+  facebook:
   picture: ../images/profile/D.K._Lawhorn.jpg
   stories:
   - storytitle: 'We, Downtown'
@@ -394,6 +448,8 @@
     and <em>Glittership</em>. <em>The Saint of Witches</em>, Avra's debut collection of horror poetry, is forthcoming from Weasel Press. You can find Avra on 
     twitter (<a href="https://www.twitter.com/avramargariti">@avramargariti</a>).
   twitter: 'avramargariti'
+  url:
+  facebook:
   picture: ../images/profile/Avra_Margariti.jpg
   stories:
   - storytitle:
@@ -410,6 +466,8 @@
     evenings. Follow her on Twitter <a href="https://www.twitter.com/claire_mcnerney">@claire_mcnerney</a> or Instagram <a href="https://www.instagram.com/@o.h.c.l.a.i.r.e">@o.h.c.l.a.i.r.e</a> to
     say hello and see what she does next!
   twitter: 'claire_mcnerney'
+  url:
+  facebook:
   picture: ../images/profile/Claire_McNerney.JPG
   stories:
   - storytitle:
@@ -426,6 +484,8 @@
     lives in Boise, Idaho, with her partner Jim and their gorgeous dogs. Follow her at <a href="https://www.christinogle.com">christinogle.com</a> or on 
     Twitter <a href="https://www.twitter.com/christinogle">@christinogle</a>.
   twitter: 'christinogle'
+  url: https://www.christinogle.com
+  facebook:
   picture: ../images/profile/Christi_Nogle.jpg
   stories:
   - storytitle: "Lovey"
@@ -441,6 +501,8 @@
     Wakaso Poetry prize (May 2021), Chinua Achebe Poetry Anthology Prize (2021) and BKPW poetry contest (February 2022). She is a Muslim, a foodie and 
     a fan of Mobile games.
   twitter: 'Oye_Mahmoodah'
+  url:
+  facebook:
   picture: ../images/profile/Oyeleye_Mahmoodah_Temitope.jpg
   stories:
   - storytitle:
@@ -455,6 +517,8 @@
     <em>PseudoPod</em>, <em>Daily Science Fiction</em>, <em>Fireside</em>, <em>Uncharted</em>, and <em>PodCastle</em>, among others. A lover of moss and monsters, she lives 
     in Western Massachusetts.
   twitter: 'MariscaPichette'
+  url:
+  facebook:
   picture: ../images/profile/Marisca_Pichette.jpeg
   stories:
   - storytitle:
@@ -471,6 +535,8 @@
     eyes can take, but when he's not reading, he's either writing weird stories about unnerving things, drawing lots of little circles in pen and ink, enjoying esoteric 
     studies, or taking photographs of clouds.</p>
   twitter: 'eerieyore'
+  url:
+  facebook:
   picture: ../images/profile/TJ_Price.jpeg
   stories:
   - storytitle:
@@ -486,6 +552,8 @@
     work has appeared in <em>Metaphorosis Magazine</em>, <em>Mirror Dance</em>, <em>Luna Station Quarterly</em>, and more. You can find more of her work 
     at <a href="https://www.carlyracklin.com">carlyracklin.com</a> and follow her on Twitter <a href="https://www.twitter.com/willowylungs">@willowylungs.
   twitter: 'willowylungs'
+  url: https://www.carlyracklin.com
+  facebook:
   picture: ../images/profile/Carly_Racklin.jpg
   stories:
   - storytitle:
@@ -498,7 +566,9 @@
   idpath: "/belicia-rhea"
   bio: Belicia Rhea was born under a waning crescent moon in the Sonoran Desert. You can find her at <a href="https://www.beliciarhea.com">beliciarhea.com</a> and read
     more of her work published in <em>Nightmare Magazine</em>, <em>Miracle Monocle</em>, and <em>Bending Genres</em>, among other places.
-  twitter: ''
+  twitter:
+  url: https://www.beliciarhea.com
+  facebook:
   picture: ../images/profile/Belicia_Rhea.jpg
   stories:
   - storytitle: "For the Remnants"
@@ -515,6 +585,8 @@
     (Wisconsin), International Human Right Arts Festival Award 2021, and Canadian Open Drawer contest 2020, and he received an honorable mention for the 2021 Betty L. 
     Yu and Jin C. Yu Creative Writing Prize (College Category). He reads for <em>U-Right Magazine</em> and tweets <a href="https://www.twitter.com/Samuelsamba10">@Samuelsamba10</a>.
   twitter: 'Samuelsamba10'
+  url:
+  facebook:
   picture: ../images/profile/Nnadi_Samuel.jpg
   stories:
   - storytitle:
@@ -531,6 +603,8 @@
     Twitter <a href="https://www.twitter.com/SamLynneS">@SamLynneS</a> or for a complete bibliography visit them 
     at <a href="https://scribbledshadows.wordpress.com/">scribbledshadows.wordpress.com</a>.
   twitter: 'SamLynneS'
+  url: https://scribbledshadows.wordpress.com/
+  facebook:
   picture: ../images/profile/Lynne_Sargent.jpg
   stories:
   - storytitle:
@@ -551,6 +625,8 @@
 
     Born in Kansas City, raised in New Hampshire, he lives in Brooklyn and likes to read in coffeehouses.
   twitter: 'AtSayre'
+  url: https://www.atsayre.com/fiction
+  facebook: 
   picture: ../images/profile/A_T_Sayre.jpg
   stories:
   - storytitle: The Spot
@@ -564,6 +640,8 @@
   bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
     He’s a member of the BSFA and was also on the jury for the Best Newcomer Award at the 2020 British Fantasy Awards.
   twitter: 'JoaoSilvaWrites'
+  url:
+  facebook:
   picture: ../images/profile/Joao_Silva.jpg
   stories:
   - storytitle: The Cavalry
@@ -580,6 +658,8 @@
     family in Seattle in a house with huge windows to supply the vast quantities of light she requires to stay happy. Elise is currently seeking representation on her 
     next science fiction novel. Find her at <a href="https://www.EliseStephens.com">www.EliseStephens.com</a>.
   twitter: 'elisestephens'
+  url: https://www.EliseStephens.com
+  facebook:
   picture: ../images/profile/Elise_Stephens.jpg
   stories:
   - storytitle: Focal Point
@@ -595,6 +675,8 @@
     is available from DefCon One Publishing. She is a member of Broad Universe, SFWA, and Codex Writers. She lives in Seattle with her husband, author Jeremy Zimmerman, 
     and their herd of cats. Visit her at <a href="http://historythatneverwas.com">http://historythatneverwas.com</a>.
   twitter: 'historyneverwas'
+  url: http://historythatneverwas.com
+  facebook:
   picture: ../images/profile/Dawn_Vogel.jpg
   stories:
   - storytitle: The Shell Game
@@ -605,10 +687,12 @@
 
 - id: Thomas Zimmerman
   idpath: "/thomas-zimmerman"
-  bio: Thomas Zimmerman (he/him) teaches English, directs the Writing Center, and edits <em>The Big Windows Review</em> at Washtenaw Community College, in Ann Arbor, Michigan, USA. 
+  bio: Thomas Zimmerman (he/him) teaches English, directs the Writing Center, and edits <em>The Big Windows Review</em> at Washtenaw Community College, in Ann Arbor, Michigan, USA. 
     His poems have appeared recently in <em>Sledgehammer</em>, <em>The Sparrow’s Trombone</em>, and <em>Spellbinder</em>. Find him 
-    at <a href="https:/thomaszimmerman.wordpress.com>https:/thomaszimmerman.wordpress.com</a> and on twitter <a href="https://www.twitter.com/bwr_tom">@bwr_tom</a>.
+    at <a href="https:/thomaszimmerman.wordpress.com>https:/thomaszimmerman.wordpress.com</a> and on twitter <a href="https://www.twitter.com/bwr_tom">@bwr_tom</a>.
   twitter: 'bwr_tom'
+  url:
+  facebook:
   picture: ../images/profile/Tom_Zimmerman.jpg
   stories:
   - storytitle:
@@ -626,6 +710,8 @@
     wondered what good her theater degree ever did her. She lives in Philadelphia with a charming trickster, makes doll clothes when she needs something to do with 
     her hands, and occasionally livetweets movies at <a href="https://www.twitter.com/LizCanTweet">@LizCanTweet</a>.
   twitter: 'LizCanTweet'
+  url:
+  facebook:
   picture: ../images/profile/Elizabeth_Zuckerman.jpg
   stories:
   - storytitle: "The Book Club at the End of the World"
@@ -639,7 +725,9 @@
   bio: Miriam Allen deFord (August 21, 1888 – February 22, 1975) was a novelist and short fiction writer with works published 
     in <em>Analog</em>, <em>The Magazine of Fantasy and Science Fiction</em>, <em>Galaxy Science Fiction</em>, and many others. A women's suffrage and 
     birth control activist, she later became a follower of Charles Fort, dedicating herself to the study of paranormal phenomena.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: Where the PHPH Pebbles Go
@@ -652,7 +740,9 @@
   idpath: "/sonya-dorman"
   bio: Sonya Dorman (April 6, 1924 – February 14, 2005) was a Rhysling award-winning poet and short fiction writer most well known for the poem "Corruption of Metal." 
     Her work has also appeared in the anthology <em>Dangerous Visions</em>, edited by Harlan Ellison.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: The Putnam Tradition
@@ -665,7 +755,9 @@
   idpath: "/t-d-hamm"
   bio: T. D. Hamm (1905 – 1995) was a science fiction writer with stories published in <em>If</em>, <em> Tomorrow's Universe</em>, <em>The Magazine of Fantasy and 
     Science Fiction</em>, and several others.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: The Last Supper
@@ -678,7 +770,9 @@
   idpath: "/katherine-macLean"
   bio: Katherine MacLean (January 22, 1925 – September 1, 2019) was a Nebula award-winning science fiction author best known for her novella <em>The Missing 
     Man</em>, first published in <em>Analog</em> in 1971. She is one of only 14 people honored as an Author Emeritus by the Science Fiction and Fantasy Writers of America.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Katherine_MacLean.jpg
   stories:
   - storytitle: The Snowball Effect
@@ -691,7 +785,9 @@
   idpath: "/viola-meynell"
   bio: Viola Meynell (15 October 1885 – 27 October 1956) was a successful novelist and poet of the early 20th century, best known today as an early champion of writers 
     like Herman Melville and D. H. Lawrence. She was also vital to the operation of <em>Nonesuch Press</em>, a private press started in the basement of a Soho bookshop. 
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Viola_Meynell.jpg
   stories:
   - storytitle:
@@ -705,7 +801,9 @@
   bio: Edna St. Vincent Millay (February 22, 1892 – October 19, 1950) was a Pulitzer Prize-winning poet, playwright, and feminist activist whose writing actively 
     worked to subvert the gender norms of her time and whose life has since served as a prime example of social resistance for other writers and acitivists following 
     in her footsteps. Essentially a rockstar, she traveled the country reading to eager audiences and authored some of the most well-known poetry of the 20th century.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Edna_St_Vincent_Millay.jpg
   stories:
   - storytitle:
@@ -719,7 +817,9 @@
   bio: Andre Alice Norton (February 17, 1912 – March 17, 2005) was a prolific writer of science fiction and fantasy, though she also wrote historical, crime, and 
     contemporary fiction, among many other genres. She was named SFWA Grand Master and Gandalf Grand Master of Fantasy and was inducted into the Science Fiction and Fantasy 
     Hall of Fame, the first woman for each to be so honored. 
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/generic_one.jpg
   stories:
   - storytitle: All Cats are Gray
@@ -733,7 +833,9 @@
   bio: Alfred Noyes (16 September 1880 – 25 June 1958) was a poet, short fiction author, and playwright most well known for the romantic ballad poem "The Highwayman." 
     The only fiction that he ever published was called <em>The Last Man</em> (1940), in which weapons of mass destruction wipe out every living person except 
     those few in steel chambers at the bottom of the sea.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Alfred_Noyes.jpg
   stories:
   - storytitle:
@@ -747,7 +849,9 @@
   bio: Mary Shelley (30 August 1797 – 1 February 1851) was a novelist best known as the author of <em>Frankenstein; or, The Modern Prometheus</em> (1818), a 
     foundational text of science fiction, the immeasurable impact of which has been felt through the centuries. Raised as a radical and anarchist, she wrote across an 
     enormous number of genres on a wide variety of topics and is now recognized for her contributions to feminist thought and social reform, in addition to her literary pursuits.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Mary_Shelley.jpg
   stories:
   - storytitle: Introduction to the 1831 Edition of Frankenstein
@@ -761,7 +865,9 @@
   bio: Ella Wheeler Wilcox (November 5, 1850 – October 30, 1919) was a poet best known for the collection <em>Poems of Passion</em> and for "Solitude," which opens with the 
     line, "Laugh, and the world laughs with you; weep, and you weep alone." She's also sometimes cited in lists of authors of bad poetry, but we think she'd agree that that's 
     only by the haters.
-  twitter: ''
+  twitter:
+  url:
+  facebook:
   picture: ../images/profile/Ella_Wheeler_Wilcox.jpg
   stories:
   - storytitle:
@@ -775,7 +881,9 @@
   bio: William Butler Yeats (13 June 1865 – 28 January 1939) was a poet, playwright, fiction writer, and one of the most well regarded authors of the 20th century. 
     A senator in the Irish Free State and winner of the Nobel Prize for Literature, he wrote "The Second Coming," "Easter 1916," and "Sailing to Byzantium," all of which 
     are considered masterpieces in the English language.
-  twitter: ''
+  twitter:
+  url:
+  facebook: test
   picture: ../images/profile/William_Butler_Yeats.jpg
   stories:
   - storytitle:

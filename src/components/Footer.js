@@ -1,19 +1,17 @@
 import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
-import Layout from '../layouts/index';
 
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
-import { FaReddit } from 'react-icons/fa';
 
 import { IconContext } from "react-icons";
 
 const Footer = props => (
   <div className="footer-strip">
     <div className="container">
-      <div className="row">
-        <div className="col-12">
+      <div>
+        <div>
           <div className="footer">
 
             <Link className="footer-title" to="/">

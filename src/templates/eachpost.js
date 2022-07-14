@@ -4,46 +4,31 @@ import SEO from '../components/SEO';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
+import Advertisement from '../components/advertisement';
 
 import { IconContext } from "react-icons";
-import { FaTwitter } from 'react-icons/fa';
-
-function shuffle(array) {
-  var currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
+import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 
 const Eachpost = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { author } = data.markdownRemark.frontmatter;
   const { issue } = data.markdownRemark.frontmatter;
   const { category } = data.markdownRemark.frontmatter;
-  const { excerpt } = data.markdownRemark.frontmatter;
-  const { path } = data.markdownRemark.frontmatter;
-  const { issuecover } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
 
-  const url = `https://www.havenspec.com${path}`;
-  const twitter = `http://twitter.com/${author.twitter}`;
-  const currentIssue = `https://ko-fi.com/s/c986b978d2`;
 
-  const testText = "Check out...";
+//////// THIS SHOWS LINKS ONLY IF THERE IS RELEVANT CONTENT //////// 
+const twitterName = author.twitter;
+const facebookName = author.facebook;
+const urlName = author.url;
 
-  var imgArray = [data.advert01.childImageSharp.fixed, data.advert02.childImageSharp.fixed, data.advert03.childImageSharp.fixed];
-  var shuffledArray = shuffle(imgArray);
+const twitterLink = `https://www.twitter.com/${twitterName}`;
+const facebookLink = `https://www.facebook.com/${facebookName}`;
+const urlLink = urlName;
+
+const displayTwitter = twitterName === null ? null : <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+const displayFacebook = facebookName === null ? null : <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+const displayUrl = urlName === null ? null : <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
@@ -54,55 +39,10 @@ const Eachpost = ({ data }) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <div className="thinLeft one">
-                <div>
-                  <a href={currentIssue}>
-                    <Image className="topImageLeft"
-                      fixed={issue.issuecover.childImageSharp.fixed}
-                    />
-                  </a>
-                </div>
-                <div>
-                      <a className="buybutton button-primary" href={currentIssue}>
-                        BUY CURRENT ISSUE
-                      </a>
-                </div>
 
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2 mt-6"
-                      fixed={shuffledArray[0]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[1]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
+              <Advertisement />
 
-                <div>
-                <Link to="/subscribe">
-                    <Image className="advert mb-2"
-                      fixed={shuffledArray[2]}      /*This pulls the image from the md file with featured: true (current cover)*/
-                    />
-                  </Link>
-                  <h6>
-                    ADVERT
-                  </h6>
-                </div>
-              </div>
-
-
-              <div className="wideRight">
+              <div>
                 <div className="col-12">
 
                   <h4>
@@ -128,21 +68,17 @@ const Eachpost = ({ data }) => {
                         fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
-
-
                   <hr />
-
-
-                  
+{/*     AUTHOR IMAGE AND SOCIAL MEDIA     */}
                   <div className="editorImageAbout mt-3">
                     <Image
                       fixed={author.picture.childImageSharp.fixed}            /*Author Image called here*/
                     />
-                      <a href={twitter}>
-                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                          <FaTwitter />
-                        </IconContext.Provider>
-                      </a>
+                      <div class="side-block">
+                        {displayTwitter}
+                        {displayFacebook}
+                        {displayUrl}
+                      </div>
                   </div>
 
                     <h1 className="pt-1 pb-1">
@@ -174,38 +110,6 @@ const Eachpost = ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
-    currentCover: file(relativePath: {eq: "CurrentCover.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert01: file(relativePath: {eq: "advertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert02: file(relativePath: {eq: "advertisement02.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    advert03: file(relativePath: {eq: "advertisement03.jpg"}) {
-      id
-      childImageSharp {
-        fixed(width:280) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {
@@ -224,6 +128,8 @@ export const query = graphql`
           idpath
           bio
           twitter
+          url
+          facebook
           stories {
             storytitle
           }
@@ -244,13 +150,6 @@ export const query = graphql`
         issue {
           id
           idpath
-          issuecover {
-            childImageSharp {
-              fixed(width:280) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
         }
         category
       }
