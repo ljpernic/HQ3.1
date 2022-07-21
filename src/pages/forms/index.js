@@ -5,6 +5,7 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 const Forms = (props) => {
   const data = props.data;
@@ -23,24 +24,24 @@ const Forms = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-              
-                <div>
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>
+              <div>
                 <div className="col-12">
                   <h4>
                     Submission Form
                   </h4>
                   <hr />
-                </div>
-
-                <div className="pt-2">
+                  <div className="pt-2">
                     <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>
+                </div>
 
                     <p>Below is the submission form for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
                       so, please read our submission guidelines on <Link to="/submit">the submission page.</Link> 

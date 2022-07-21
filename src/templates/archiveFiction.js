@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 export default class archiveFiction extends React.Component {
   render() {
@@ -32,11 +33,12 @@ export default class archiveFiction extends React.Component {
         <div className="container">
           <div className="row2">
             <div className="grid-container"> 
-
-              <Advertisement />
-
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
               <div>
-                <div>
+                <div className="col-12">
                   <h4>
                     FICTION
                   </h4>

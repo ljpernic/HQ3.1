@@ -69,10 +69,13 @@ exports.createPages = ({ graphql, actions }) => {                               
               issueidname: element.id,
               text: element.text,
               issuecover: element.issuecover,
+              issueUrl: element.issueUrl,
               artist: element.artist,
               artistbio: element.artistbio,
               artistimage: element.artistimage,
               artistTwitter: element.artistTwitter,
+              artistFacebook: element.artistFacebook,
+              artistUrl: element.artistUrl,
             },
           });
         });

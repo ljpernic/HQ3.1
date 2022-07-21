@@ -1,10 +1,11 @@
 import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 const Submit = (props) => {
   const data = props.data;
@@ -23,24 +24,24 @@ const Submit = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>
               <div>
                 <div className="col-12">
                   <h4>
                     SUBMIT
                   </h4>
                   <hr />
-                  </div>
                   <div className="pt-2">
-                  <Link to="/subscribe">
+                    <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>                
-
+                </div>
             <h1 className="pt-1 pb-1">
               Submission Windows
             </h1>
@@ -136,17 +137,6 @@ const Submit = (props) => {
               might not have expected. We pay 1¢ per word for non-fiction, but please nothing over 3,000 words (though we favor shorter over longer).
             </p>
             <hr />
-{/*            
-            <h1 className="pt-1 pb-1">
-              Guidelines for Letters from the Future
-            </h1>
-            <p className="pb-1">
-              We're not quite sure how, but once every other month we receive a letter in the mail from the future. It's the damnedest thing. These letters are usually about 
-              something specific to the early 21st century that's been extrapolated into the future (100 years or more). They're sometimes funny, sometimes subtle, sometimes serious, 
-              but they're never over 1000 words. We pay 1¢ per word for them.
-            </p>
-            <hr />
-*/}
             <h1 className="pt-1 pb-1">
               Guidelines for Translations
             </h1>
@@ -208,33 +198,6 @@ const Submit = (props) => {
     </div>
   </div>
 </div>
-   {/*} <div className="intro pt-4">
-      <div className="container pb-5 pt-md-7 pb-md-7">
-        <div className="row2 justify-content-start">
-          <div className="col-12">
-          <Link to="/">
-                <h3>Latest Issues</h3>
-            </Link>
-            <hr />
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-cover">
-                    <Link to="/">               
-                      <img src={withPrefix(edge.node.image)} />
-                    </Link>
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>*/}
     </Layout>
   );
 };

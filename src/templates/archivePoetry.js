@@ -1,11 +1,12 @@
 import React from 'react';  
-import { graphql, Link, withPrefix } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 export default class archivePoetry extends React.Component {
   render() {
@@ -32,9 +33,10 @@ export default class archivePoetry extends React.Component {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
               <div className='row'>
                 <div className='col-12'>
                   <h4>

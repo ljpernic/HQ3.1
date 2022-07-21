@@ -39,9 +39,17 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
+              <div className='one'>
+                <a href={issue.issueUrl}>
+                  <img className='currentCover' alt="Haven Spec current issue" src={issue.issuecover.childImageSharp.fixed.src} />
+                </a>
+                <div>
+                  <a className="buybutton button-primary" href={issue.issueUrl}>
+                    BUY THIS ISSUE
+                  </a>
+                </div>
+                <Advertisement />
+              </div>
               <div>
                 <div className="col-12">
 
@@ -58,18 +66,13 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                   </h2>
                   <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
 
-{/*                  <div className="share">
-                    <h1>Share</h1>
-                  </div>
-*/}
-
                   <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   <hr />
-{/*     AUTHOR IMAGE AND SOCIAL MEDIA     */}
+
                   <div className="editorImageAbout mt-3">
                     <Image
                       fixed={author.picture.childImageSharp.fixed}            /*Author Image called here*/
@@ -150,6 +153,17 @@ export const query = graphql`
         issue {
           id
           idpath
+          issueUrl
+          issuecover {
+            childImageSharp {
+              fixed(width: 280) {
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 150, maxHeight: 150) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         category
       }

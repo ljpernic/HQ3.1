@@ -1,12 +1,12 @@
 import React from 'react';  
-import { graphql, Link, withPrefix } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
-import Advertisement from '../components/advertisement';
-
 import paragraphs from "lines-to-paragraphs";
+import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 export default class archiveNonFiction extends React.Component {
   render() {
@@ -29,13 +29,14 @@ export default class archiveNonFiction extends React.Component {
         />
       </Helmet>
 
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-            
-              <Advertisement />
-
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
               <div>
                 <div className="col-12">
                   <h4>
@@ -43,9 +44,9 @@ export default class archiveNonFiction extends React.Component {
                   </h4>
                   <hr />
                   <div className="pt-2">
-                  <Link to="/subscribe">
+                    <Link to="/subscribe">
                       <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
+                        fixed={data.advertLong.childImageSharp.fixed}
                       />
                     </Link>
                   </div>

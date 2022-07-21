@@ -7,15 +7,27 @@ import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
 
-import { FaTwitter } from 'react-icons/fa';
+import { FaTwitter,FaFacebook, FaLink } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 const Eachissue = props => {
   const posts = props.data.allMarkdownRemark.edges;
   const { pageContext } = props;
   const data = props.data;
-  const { idpath, issueidname, text, artist, artistbio, artistTwitter } = pageContext;
-  const twitterLink = `http://twitter.com/${artistTwitter}`;
+  const { issueidname, issueUrl, text, artist, artistbio, artistTwitter, artistFacebook, artistUrl } = pageContext;
+
+//////// THIS SHOWS LINKS ONLY IF THERE IS RELEVANT CONTENT //////// 
+const twitterName = {artistTwitter};
+const facebookName = {artistFacebook};
+const urlName = {artistUrl};
+
+const twitterLink = `https://www.twitter.com/${twitterName.artistTwitter}`;
+const facebookLink = `https://www.facebook.com/${facebookName.facebookName}`;
+const urlLink = `${urlName.artistUrl}`;
+
+const displayTwitter = {twitterName}.twitterName.artistTwitter === null ? null : <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+const displayFacebook = {facebookName}.facebookName.artistFacebook === null ? null : <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
 //////// THIS FILTERS PROPS BASED ON CATEGORY AND ISSUE ////////
   const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname);
@@ -43,7 +55,17 @@ const Eachissue = props => {
           <div className="row2">
             <div className="grid-container">
 
-              <Advertisement />
+              <div className='one'>
+                <a href={issueUrl}>
+                  <img className='currentCover' alt="Haven Spec current issue" src={data.markdownRemark.frontmatter.issue.issuecover.childImageSharp.fixed.src} />
+                </a>
+                <div>
+                  <a className="buybutton button-primary" href={issueUrl}>
+                    BUY THIS ISSUE
+                  </a>
+                </div>
+                <Advertisement />
+              </div>
 
               <div>
                 <div className="col-12">
@@ -61,12 +83,12 @@ const Eachissue = props => {
                     <Image
                         fixed={data.markdownRemark.frontmatter.issue.artistimage.childImageSharp.fixed}
                     />
-                          <a href={twitterLink}>
-                            <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                              <FaTwitter />
-                            </IconContext.Provider>
-                          </a>
+                    <div class="side-block">
+                      {displayTwitter}
+                      {displayFacebook}
+                      {displayUrl}
                     </div>
+                  </div>
 
                     <h1 className="pb-1 pt-1">
                       Cover Artist: {artist}
@@ -151,6 +173,16 @@ query($issueidname: String!) {
           issue {
             id
             idpath
+            issuecover {
+              childImageSharp {
+                fixed(width: 280) {
+                  ...GatsbyImageSharpFixed 
+                }
+                fluid(maxWidth: 150, maxHeight: 150) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           category
         }
@@ -184,6 +216,16 @@ query($issueidname: String!) {
           artistimage {
             childImageSharp {
               fixed(width: 150) {                                           #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFixed 
+              }
+              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          issuecover {
+            childImageSharp {
+              fixed(width: 280) {                                           #This changed the post picture sizes on the front page (originally 75)
                 ...GatsbyImageSharpFixed 
               }
               fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)

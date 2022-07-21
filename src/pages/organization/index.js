@@ -5,6 +5,7 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 const Organization = (props) => {
   const data = props.data;
@@ -22,23 +23,25 @@ const Organization = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
-                <div>
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>
+              <div>
                 <div className="col-12">
                   <h4>
                     Our Organization
                   </h4>
                   <hr />
-                </div>
                 <div className="pt-2">
-                <Link to="/subscribe">
+                  <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />
                     </Link>
                   </div>                
+                </div>
+
 
                   <p>
                     Haven Spec is run cooperatively! That means we make our major decisions democratically and that we share what profits we earn according to an agreed 

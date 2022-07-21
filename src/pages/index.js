@@ -6,6 +6,7 @@ import Image from "gatsby-image";
 import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 
 const Home = (props) => {                                                     //Sets the front page, including featured story, latest stories, and latest issue.
@@ -13,7 +14,6 @@ const Home = (props) => {                                                     //
   const data = props.data;
 
   const currentIssue = posts[0].node.frontmatter.issue.id;                    // Sets currentIssue to the issue of the most recent post in the collection.
-  console.log(currentIssue)  
 
   //////// THIS FILTERS PROPS BASED ON CATEGORY AND ISSUE ////////
   const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === currentIssue);
@@ -40,14 +40,16 @@ const Home = (props) => {                                                     //
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <Advertisement />
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>
                 <div>
                   <div className="col-12">
                     <h4>
                       CURRENT ISSUE
                     </h4>
                     <hr />
-                  </div>
 {/*     THIS FILTERS THE FEATURED STORY AND RETURNS ALL OF THE RELEVANT INFO     */}
                   {posts
                     .filter(post => post.node.frontmatter.featured === true)
@@ -100,6 +102,7 @@ const Home = (props) => {                                                     //
                             />
                           </Link>
                         </div>
+                      </div>
               </div>
             </div>
           </div>

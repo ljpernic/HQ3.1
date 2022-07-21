@@ -2,6 +2,7 @@
 - id: Issue Five, July 2022
   idpath: "/issue-five"
   issuecover: "../images/covers/005_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/c986b978d2"
   teaserText: Issue Five is here! Join us at the world's spookiest traveling exhibit in "You Hope, Through Shivers and Sweat" by Elou Carroll or sit in 
     on a book club with a <em>very</em> selective membership in "The Book Club at the End of the World" by Elizabeth Zuckerman. You might also consider how music 
     connects us and what we owe to each other in P.A. Cornell's "Vinyl Wisdom," settle in for a tale of the four gentrifiers of the apocalypse in D.K. Lawhorn's 
@@ -26,6 +27,8 @@
     through <a href="https://www.patreon.com/HavenSpecMagazine">our patreon</a>!
   artist: Cindy Fan
   artistTwitter: CindFan
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/Cindy_Fan.jpg"
   artistbio: Cindy Fan (she/her) is an illustrator born in Sichuan and currently based in Texas. Her work has been previously published in <em>Khōréō</em>, <em>THIS 
     Magazine</em>, <em>Strange Horizons</em>, and more. Her website can be found at <a href="https://cind.ca/">https://cind.ca/</a>.
@@ -38,6 +41,7 @@
 - id: Issue Four, May 2022
   idpath: "/issue-four"
   issuecover: "../images/covers/004_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/f371bb536b"
   teaserText: This issue came together around concerns of the personal and the domestic, from the found family and magic of the truth 
     in "The Calligrapher's Granddaughter" by Stewart C Baker to the physical toll of grief and loss in pieces like Elise Stephens's "Focal 
     Point" and Jelena Dunato's "Heart of My Heart, Soul of My Soul." For something more capital-W Weird/body horror-y, we also have "Axolotol" by Atreyee Gupta, 
@@ -65,6 +69,8 @@
     patreon</a> or <a href="https://ko-fi.com/havenspec/tiers">our Ko-fi</a>!
   artist: Savanna Judd
   artistTwitter: heartslobb
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/generic_two.jpg"
   artistbio: Savanna Judd is an illustrator who loves drawing gooey shapes. They blend art with code, paint and paper with digital tools, and illustration with motion. 
     In painting scenes, they seek to bend light, build atmosphere, and capture the liminal quality of a place alive in the absence of people. These places represent a 
@@ -77,6 +83,7 @@
 - id: Issue Three, March 2022
   idpath: "/issue-three"
   issuecover: "../images/covers/003_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/1f5fda7451"
   teaserText: Issue Three is now available! This is our very first DRY ISSUE, bringing you all the latest and greatest fiction and poetry dealing with the hotter aspects of 
       the climate crisis. In stories like "Sworn Guardian" by Kimberly Christensen and "Hope&#58 A Perspective from the Forest" by Tadayoshi Kohno, you'll find the 
       ravages of fire burning through the forests and all the ways the creatures of this world, human and otherwise, fight back.
@@ -108,6 +115,8 @@
       the word! 
   artist: Saleha Chowdhury
   artistTwitter: AroUnleashed
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/Saleha_Chowdhury.jpg"
   artistbio: Saleha Chowdhury is a New York-based illustrator who enjoys creating science fiction and fantasy illustrations serving as windows into new and 
     unique worlds. She takes inspiration from nature, video games, and animation, and her work has appeared in <em>Fireside Magazine</em> and <em>Lightspeed Magazine</em>. 
@@ -119,6 +128,7 @@
 - id: Issue Two, January 2022
   idpath: "/issue-two"
   issuecover: "../images/covers/002_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/5da51fd90a"
   teaserText: Issue Two is now available! In this issue, we have street kids trying their best to survive in Emmie Christie's "Touched" and the voice of the moors and the 
       restless who are buried there in "We Are the Moor," written by Sylvia Heike and first published in Flash Fiction Online. Both stories are available now to read for free on 
       our website!
@@ -137,6 +147,8 @@
       9th, but if you just can't wait, then you should feel free to snag a copy of the January/February issue through patreon or ko-fi today! 
   artist: W. Heath Robinson
   artistTwitter:
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/generic_one.jpg"
   artistbio: W. Heath Robinson (1872-1944) was an illustrator and artist from England who today is best known for drawing Heath Robinson contraptions, the UK version of 
       Rube Goldberg machines. In addition to his humorous drawings, he also illustrated many books, especially fantasy novels, books of fairytales, and others. The cover 
@@ -148,6 +160,7 @@
 - id: Issue One, November 2021
   idpath: "/issue-one"
   issuecover: "../images/covers/001_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/31e01a3665"
   teaserText: Issue One is finally here! Pick up a copy to reading stunning tales of mayhem and merriment, from a jewelry heist gone wrong in Dawn Vogel's "The Shell Game" to 
       the front lines of the howler war with João F. Silva in "The Cavalry." If poetry is more your speed, listen when the trees speak in "Ascenkin's Roots" by Ai Jiang and 
       follow the wolves in Thomas Zimmerman's "Wolf Rune" to hear their song too. 
@@ -166,6 +179,8 @@
       "The Opposite of Time," which takes us into the tempered void and beyond, then feel free to snag a copy through patreon or ko-fi! 
   artist: Luke Spooner
   artistTwitter: CarrionHouse
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/generic_one.jpg"
   artistbio: Luke Spooner is a freelance illustrator from South East England. Since graduating from Portsmouth University with a First-Class degree in illustration, Luke 
             has worked on illustrations and covers for horror, science fiction and fantasy books, magazines, and graphic novels, and has also illustrated children’s’ books 
@@ -177,6 +192,7 @@
 - id: Issue Zero, September 2021
   idpath: "/issue-zero"
   issuecover: "../images/covers/HS_00-00_COVER.jpg"
+  issueUrl: ""
   teaserText: Haven Spec is a brand new online magazine publishing science fiction and fantasy stories and poems for the 21st century. We publish six issues a year, and 
       we welcome diverse voices from around the world. Two of our issues will be focused on the climate crisis (see our guidelines for more!), and otherwise our issues will 
       run the gamut of the SFF and weird spectra.  
@@ -202,7 +218,9 @@
       We're happy you're here–that you open the site, that you read this page, that you're giving us a chance. Check out our Patreon and Ko-Fi for great benefits and to support a 
       magazine with a mission you can get behind, and remember:&nbsp;the future belongs to all of us!
   artist: Albert Robida
-  artistTwitter: havenspec
+  artistTwitter:
+  artistFacebook:
+  artistUrl:
   artistimage: "../images/profile/Albert_Robida.jpg"
   artistbio: Albert Robida (14 May 1848 – 11 October 1926) was a French illustrator, caricaturist, and novelist. His science fiction trilogy explored what life would be like 
             in the distant future of 1955, where we'd be flying around in tubes high above the city and spending all our free time watching TV on our <em>Téléphonoscope</em>. He was 

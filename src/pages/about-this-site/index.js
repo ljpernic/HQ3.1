@@ -5,6 +5,7 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 const aboutThisSite = (props) => {
   const data = props.data;
@@ -23,23 +24,25 @@ const aboutThisSite = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
-                <div>
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>                
+              <div>
                 <div className="col-12">
                   <h4>
                     About This Site
                   </h4>
                   <hr />
-                </div>
                 <div className="pt-2">
-                <Link to="/subscribe">
+                  <Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
                       />
                     </Link>
                   </div>                
+                </div>
+
 
                   <p>
                     This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 

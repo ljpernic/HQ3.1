@@ -1,11 +1,12 @@
 import React from 'react';  
-import { graphql, withPrefix, Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 import { IconContext } from "react-icons";
 import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
@@ -43,17 +44,18 @@ export default class archiveAuthor extends React.Component {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
               <div>
-                <div className="">
+                <div className="col-12">
                   <h4>
                     CONTRIBUTORS
                   </h4>
                   <hr />
                   <div className="pt-2">
-                  <Link to="/subscribe">
+                  	<Link to="/subscribe">
                       <Image className="advertLong"
                         fixed={data.advertLong.childImageSharp.fixed}
                       />
@@ -66,18 +68,14 @@ export default class archiveAuthor extends React.Component {
                 <div className="pt-1 pb-2">
                   <div className="editorImageAbout">
                     <Image
-                      fixed={post.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
+                      fixed={post.picture.childImageSharp.fixed}
                     />
-
-{/*       We only want to show the HTML if the value isn't null.         */}
-{/*       The problem: We can't see the value outside of the map.        */}
-
                     <div class="side-block">
                       {post.twitter === null ? null : <a className='social-icon' href={`https://www.twitter.com/${post.twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>} 
                       {post.facebook === null ? null : <a className='social-icon' href={`https://www.facebook.com/${post.facebook}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>} 
                       {post.url === null ? null : <a className='social-icon' href={post.url}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>} 
                     </div>
-                </div>
+                  </div>
                   <h1 className="pt-1 pb-1">
                     <Link to={post.idpath}>
                       {post.id}

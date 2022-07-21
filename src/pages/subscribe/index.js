@@ -1,10 +1,11 @@
 import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 const Subscribe = (props) => {
   const data = props.data;
@@ -23,16 +24,16 @@ const Subscribe = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-              <Advertisement />
-
-                <div>
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
+              <div>
                 <div className="col-12">
                   <h4>
                     SUBSCRIBE AND SUPPORT
                   </h4>
                   <hr />
-                </div>
                 <div className="pt-2">
                 <Link to="/subscribe">
                       <Image className="advertLong"
@@ -40,6 +41,7 @@ const Subscribe = (props) => {
                       />
                     </Link>
                   </div>                
+                  </div>
 
             <h1 className="pb-1 pt-1">
               Subscribe

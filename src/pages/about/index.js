@@ -5,6 +5,7 @@ import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
+import CurrentIssue from '../../components/CurrentIssue';
 
 import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 import { IconContext } from "react-icons";
@@ -59,16 +60,16 @@ const About = (props) => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
-            <Advertisement />
-
+              <div className="one">
+                <CurrentIssue />
+                <Advertisement />
+              </div>
             <div>
               <div className="col-12">
                 <h4>
                   ABOUT US
                 </h4>
                 <hr />
-              </div>
               <div>
                 <h1 className="pt-1 pb-1">
                   About the Magazine
@@ -93,6 +94,7 @@ const About = (props) => {
                   </Link>
                 </div>
                 <hr />
+                </div>
 
                 <div>
                   <h1 className="pt-1 pb-1">

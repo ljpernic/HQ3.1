@@ -6,6 +6,7 @@ import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import Advertisement from '../components/advertisement';
+import CurrentIssue from '../components/CurrentIssue';
 
 import { IconContext } from "react-icons";
 import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
@@ -42,16 +43,19 @@ const Eachauthor = props => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-              <Advertisement />
-                <div>
-                  <div className="col-12">
-                    <h4>
-                      AUTHOR
-                    </h4>
-                  <hr />
+              <div className='one'>
+                <CurrentIssue />
+                <Advertisement />
+              </div>
+              <div>
+                <div className="col-12">
+                  <h4>
+                    AUTHOR
+                  </h4>
+                <hr />
                 </div>
 {/*     AUTHOR IMAGE AND SOCIAL MEDIA     */}
-                  <div className="editorImageAbout mt-3">
+                <div className="editorImageAbout mt-3">
                     <Image
                       fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
                     />
