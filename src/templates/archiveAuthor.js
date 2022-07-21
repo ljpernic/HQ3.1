@@ -8,8 +8,9 @@ import Image from 'gatsby-image';
 import Advertisement from '../components/advertisement';
 
 import { IconContext } from "react-icons";
-import { FaTwitter } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 
+////////
 export default class archiveAuthor extends React.Component {
   render() {
     const posts = this.props.data.allAuthorYaml.edges;
@@ -68,12 +69,14 @@ export default class archiveAuthor extends React.Component {
                       fixed={post.picture.childImageSharp.fixed}            /*Where the image in the post on the front page is called*/
                     />
 
+{/*       We only want to show the HTML if the value isn't null.         */}
+{/*       The problem: We can't see the value outside of the map.        */}
 
-                  <a href={`https://www.twitter.com/${post.twitter}`}>
-                    <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                      <FaTwitter />
-                    </IconContext.Provider>
-                </a>
+                    <div class="side-block">
+                      {post.twitter === null ? null : <a className='social-icon' href={`https://www.twitter.com/${post.twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>} 
+                      {post.facebook === null ? null : <a className='social-icon' href={`https://www.facebook.com/${post.facebook}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>} 
+                      {post.url === null ? null : <a className='social-icon' href={post.url}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>} 
+                    </div>
                 </div>
                   <h1 className="pt-1 pb-1">
                     <Link to={post.idpath}>
@@ -144,6 +147,8 @@ export const archiveAuthorQuery = graphql`
               idpath
               bio
               twitter
+              facebook
+              url
               picture {
                   childImageSharp {
                     fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)

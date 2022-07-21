@@ -158,7 +158,7 @@ exports.createPages = ({ graphql, actions }) => {                               
               limit: postsPerPage,
               skip: i * postsPerPage,
               fictionPagination,
-              FICcurrentPage: i + 1,
+              fictionCurrentPage: i + 1,
             },
           });
         });
@@ -171,7 +171,7 @@ exports.createPages = ({ graphql, actions }) => {                               
               limit: postsPerPage,
               skip: i * postsPerPage,
               poetryPagination,
-              POEcurrentPage: i + 1,
+              poetryCurrentPage: i + 1,
             },
           });
         });
@@ -184,7 +184,7 @@ exports.createPages = ({ graphql, actions }) => {                               
               limit: postsPerPage,
               skip: i * postsPerPage,
               nonFictionPagination,
-              NONFICcurrentPage: i + 1,
+              nonFictionCurrentPage: i + 1,
             },
           });
         });
@@ -197,7 +197,7 @@ exports.createPages = ({ graphql, actions }) => {                               
               limit: postsPerPage,
               skip: i * postsPerPage,
               issuePagination,
-              FULLcurrentPage: i + 1,
+              issueCurrentPage: i + 1,
             },
           });
         });
@@ -210,7 +210,7 @@ exports.createPages = ({ graphql, actions }) => {                               
               limit:postsPerPage,
               skip: i *postsPerPage,
               authorPagination,
-              AUTcurrentPage: i + 1,
+              authorCurrentPage: i + 1,
             },
           });
         });

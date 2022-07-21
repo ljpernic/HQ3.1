@@ -6,17 +6,44 @@ import Helmet from 'react-helmet';
 import Image from "gatsby-image";
 import Advertisement from '../../components/advertisement';
 
-import { FaTwitter } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 const About = (props) => {
   const data = props.data;
 
-  const leonTwitter = `http://twitter.com/leonperniciaro`;
+  const leonTwitter = `http://twitter.com/leonperniciaro`;  
   const ashTwitter = `http://twitter.com/ashaquestion`;
   const tjTwitter = `http://twitter.com/eerieyore`;
   const evelynTwitter = `http://twitter.com/evelyn_freeling`;
-  
+
+  const leonFacebook = null;  
+  const ashFacebook = null;
+  const tjFacebook = null;
+  const evelynFacebook = null;
+
+  const leonUrl = `https://www.leonperniciaro.com`;
+  const ashUrl = null;
+  const tjUrl = null;
+  const evelynUrl = null;
+
+  const leonDisplayTwitter = leonTwitter === null ? null : <a className='social-icon' href={leonTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const leonDisplayFacebook = leonFacebook === null ? null : <a className='social-icon' href={leonFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const leonDisplayUrl = leonUrl === null ? null : <a className='social-icon' href={leonUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const ashDisplayTwitter = ashTwitter === null ? null : <a className='social-icon' href={ashTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const ashDisplayFacebook = ashFacebook === null ? null : <a className='social-icon' href={ashFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const ashDisplayUrl = ashUrl === null ? null : <a className='social-icon' href={ashUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const tjDisplayTwitter = tjTwitter === null ? null : <a className='social-icon' href={tjTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const tjDisplayFacebook = tjFacebook === null ? null : <a className='social-icon' href={tjFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const tjDisplayUrl = tjUrl === null ? null : <a className='social-icon' href={tjUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const evelynDisplayTwitter = evelynTwitter === null ? null : <a className='social-icon' href={evelynTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const evelynDisplayFacebook = evelynFacebook === null ? null : <a className='social-icon' href={evelynFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const evelynDisplayUrl = evelynUrl === null ? null : <a className='social-icon' href={evelynUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+
   return (
     <Layout bodyClass="page-home">
       <SEO title="About" />
@@ -72,12 +99,14 @@ const About = (props) => {
                     About the Editor
                   </h1>
                   <div className="editorImageAbout mb-2">
-                    <Image fixed={data.leon.childImageSharp.fixed}/>
-                    <a href={leonTwitter}>
-                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </a>
+                    <Image 
+                      fixed={data.leon.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {leonDisplayTwitter}
+                      {leonDisplayFacebook}
+                      {leonDisplayUrl}
+                    </div>
                   </div>
 
                   <p>
@@ -94,12 +123,14 @@ const About = (props) => {
                     About the Associate Editors
                   </h1>
                   <div className="editorImageAbout mb-2">
-                    <Image fixed={data.ash.childImageSharp.fixed}/>
-                    <a href={ashTwitter}>
-                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </a>
+                    <Image 
+                      fixed={data.ash.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {ashDisplayTwitter}
+                      {ashDisplayFacebook}
+                      {ashDisplayUrl}
+                    </div>
                   </div>
 
                   <p>
@@ -111,12 +142,14 @@ const About = (props) => {
                   and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.
                   </p>
                   <div className="editorImageAbout mb-2">
-                    <Image fixed={data.tj.childImageSharp.fixed}/>
-                    <a href={tjTwitter}>
-                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </a>
+                    <Image 
+                      fixed={data.tj.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {tjDisplayTwitter}
+                      {tjDisplayFacebook}
+                      {tjDisplayUrl}
+                    </div>
                   </div>
 
                   <p>
@@ -134,12 +167,14 @@ const About = (props) => {
                   </p>
 
                   <div className="editorImageAbout mb-2">
-                    <Image fixed={data.evelyn.childImageSharp.fixed}/>
-                    <a href={evelynTwitter}>
-                      <IconContext.Provider value={{ className:"", color: "", size: ".7em", verticalAlign: "sub", title:"social media icons"}}>
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </a>
+                    <Image 
+                      fixed={data.evelyn.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {evelynDisplayTwitter}
+                      {evelynDisplayFacebook}
+                      {evelynDisplayUrl}
+                    </div>
                   </div>
 
                   <p>
@@ -265,7 +300,7 @@ export const query = graphql`
         }
       }
     }
-    leon: file(relativePath: { eq: "profile/Leon_Perniciaro.png" }) {
+    leon: file(relativePath: { eq: "profile/Leon_Perniciaro.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
