@@ -80,9 +80,9 @@ const Submit = (props) => {
             </h1>
             <p>
               We are seeking stories in the English language up to 6,000 words by writers from around the world. We favor submisions that have not been published before (including 
-              on your own website), though we do accept a limited number of reprints, and for our two issues focused on the climate crisis, we're particularly interested in 
-              publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, we're open to a wide variety 
-              of stories across the SFF and weird spectra.
+              on your own website), though we do accept a limited number of reprints not currently appearing anywhere online. For our two issues focused on the climate crisis, we're 
+              particularly interested in publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, we're 
+              open to a wide variety of stories across the SFF and weird spectra.
             </p>
             <p>
               We pay 1¢ per word for fiction, and we try to respond to all submissions within ten weeks. We will also accept a limited number of previously published 
