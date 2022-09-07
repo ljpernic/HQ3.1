@@ -71,9 +71,6 @@ const Submit = (props) => {
               every other month is explicitly reserved for submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The 
               interposing six months remain open to everyone. 
             </p>
-            <p>
-              Haven Spec Magazine is currently <big>open</big> to all submissions{/*, but we hope to open soon*/}! 
-            </p>
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Fiction

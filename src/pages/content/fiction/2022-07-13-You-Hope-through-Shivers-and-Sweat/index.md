@@ -7,7 +7,7 @@ shortdescription: '<em>Come, come</em>, say his hands as he leads you through th
 category: FICTION
 date: "2022-07-11T00:00:05.000Z"
 path: "/you-hope-through-shivers-and-sweat"
-featured: true
+featured: false
 available: true
 
 ---

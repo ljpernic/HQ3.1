@@ -170,6 +170,23 @@
   - poemtitle:
     poemlink:
 
+- id: RC deWinter
+  idpath: "/rc-dewinter"
+  bio: "RC deWinter's poetry is widely anthologized, notably in <em>New York City Haiku</em> (NY Times, 2/2017), <em>easing the edges: a collection of everyday miracles </em> (Patrick 
+    Heath Public Library of Boerne, 11/2021) <em>The Connecticut Shakespeare Festival Anthology</em> (River Bend Bookshop Press, 12/2021), <em>2River</em>, <em>Event</em>, <em>Gargoyle 
+    Magazine</em>, <em>the minnesota review</em>, <em>Night Picnic Journal</em>, <em>Plainsongs</em>, <em>Prairie Schooner</em>, <em>Southword</em>, <em>The Ogham Stone</em>, <em>Twelve 
+    Mile Review</em>, and <em>York Literary Review</em>, among many others, and appears in numerous online literary journals."
+  twitter: 'RCdeWinter'
+  url:
+  facebook:
+  picture: ../images/profile/RC_deWinter.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Factory Reset
+    poemlink: /factory-reset
+
 - id: Melissa Ridley Elmes
   idpath: "/melissa-ridley-elmes"
   bio: "Melissa Ridley Elmes is a Virginia native currently living in Missouri in an apartment that delightfully approximates a hobbit hole. Her poetry and fiction 
@@ -216,6 +233,23 @@
   stories:
   - storytitle: "My Sparkle Alone Can't Cull Your Demons"
     storylink: /my-sparkle-alone-cant-cull-your-demons
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Corey Farrenkopf
+  idpath: "/corey-farrenkopf"
+  bio: Corey Farrenkopf lives on Cape Cod with his wife, Gabrielle, and works as a librarian. His short stories have been published in <em>Tiny Nightmares</em>, <em>The Southwest 
+    Review</em>, <em>Smokelong Quarterly</em>, <em>Catapult</em>, <em>Reckoning</em>, <em>Bourbon Penn</em>, <em>Uncharted</em>, and elsewhere. He is the Fiction Editor for <em>The 
+    Cape Cod Poetry Review</em>. To learn more, follow him on twitter <a href="https://www.twitter.com/CoreyFarrenkopf">@CoreyFarrenkopf</a> or on the web 
+    at <a href="https://www.CoreyFarrenkopf.com">CoreyFarrenkopf.com</a>.
+  twitter: 'CoreyFarrenkopf'
+  url: https://www.CoreyFarrenkopf.com
+  facebook:
+  picture: ../images/profile/Corey_Farrenkopf.jpg
+  stories:
+  - storytitle: "Waterlogged"
+    storylink: /waterlogged
   poems:
   - poemtitle:
     poemlink:
@@ -288,6 +322,22 @@
   - poemtitle:
     poemlink:
 
+- id: Liam Hogan
+  idpath: "/liam-hogan"
+  bio: Liam Hogan  is an award-winning short story writer, with stories in Best of British Science Fiction and in Best of British Fantasy (NewCon Press). He's been published 
+    by <em>Analog</em>, <em>Daily Science Fiction</em>, and <em>Flame Tree Press</em>, among others. He helps host Liars' League London, volunteers at the creative writing charity 
+    Ministry of Stories, and lives and avoids work in London. More details at <a href="http://happyendingnotguaranteed.blogspot.com/">http://happyendingnotguaranteed.blogspot.com/</a>.
+  twitter: 'LiamJHogan'
+  url: http://happyendingnotguaranteed.blogspot.com/
+  facebook:
+  picture: ../images/profile/Liam_Hogan.JPG
+  stories:
+  - storytitle: "Swimming Lessons"
+    storylink: /swimming-lessons
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Brian Hugenbruch
   idpath: "/brian-hugenbruch"
   bio: Brian Hugenbruch is a speculative fiction author and poet living in Upstate NY with his wife and their daughter (and some unruly pets). By day, he writes information 
@@ -305,6 +355,21 @@
   poems:
   - poemtitle: "The Opposite of Time"
     poemlink: /the-opposite-of-time
+
+- id: Vanessa Jae
+  idpath: "/vanessa-jae"
+  bio: Vanessa Jae writes horrifically beautiful anarchies, reads stories for <em>Apex Magazine</em> and translates for <em>Progressive International</em>. She also collects black 
+    hoodies and bruises in mosh pits on Tuesday nights. To read tweets by interesting people follow her at <a href="https://www.twitter.com/thevanessajae">@thevanessajae</a>.
+  twitter: 'thevanessajae'
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Let the Water In"
+    poemlink: /let-the-water-in
 
 - id: Ai Jiang
   idpath: "/ai-jiang"
@@ -405,8 +470,8 @@
   - storytitle: Phosphor's Circle
     storylink: "/phosphors-circle"
   poems:
-  - poemtitle:
-    poemlink:
+  - poemtitle: Skyscraper
+    poemlink: "/skyscraper"
 
 - id: Tadayoshi Kohno
   idpath: "/tadayoshi-kohno"
@@ -437,6 +502,37 @@
   stories:
   - storytitle: 'We, Downtown'
     storylink: "/we-downtown"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Roderick Leeuwenhart
+  idpath: "/roderick-leeuwenhart"
+  bio: "Roderick Leeuwenhart writes SF from a Dutch angle and frequently dreams about East Asia. He won the 2016 Harland Awards, the Netherlands' top prize for speculative fiction. His work has been translated all the way to China. <em>The Gentlemen XVII</em> is his most recent novel, asking the question of what would have happened if the Dutch East India Company had never ceased to exist. Find him online at <a href='https://www.roderickleeuwenhart.nl'>www.roderickleeuwenhart.nl</a>"
+  twitter: 'HeerRood'
+  url: https://www.roderickleeuwenhart.nl
+  facebook:
+  picture: ../images/profile/Roderick_Leeuwenhart.jpg
+  stories:
+  - storytitle: 'Underwater Mortgages'
+    storylink: "/underwater-mortgages"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Anna Madden
+  idpath: "/anna-madden"
+  bio: "Anna  Madden lives in North Texas, where the prairie reaches long tallgrass fingers toward the woods. Her fiction has appeared in <em>Hexagon</em>, <em>Zooscape</em>, <em>Orion's 
+    Belt</em>, <em>Medusa Tales</em>, <em>PodCastle</em>, <em>Metaphorosis</em>, and elsewhere. She has an English degree from the University of Missouri—Kansas City. In free time 
+    she gardens, mountain bikes, and makes birch forests out of stained glass. Follow her on Twitter <a href='https://www.twitter.com/anna_madden_'>@anna_madden_</a> or visit her 
+    website at <a href='https://www.annamadden.com'>annamadden.com</a>."
+  twitter: 'anna_madden_'
+  url: https://www.annamadden.com
+  facebook:
+  picture: ../images/profile/Anna_Madden.jpg
+  stories:
+  - storytitle: 'Daughter of the Great Whales'
+    storylink: "/daughter-of-the-great-whales"
   poems:
   - poemtitle:
     poemlink:
@@ -476,6 +572,40 @@
   - poemtitle: "sestina for the summer solstice"
     poemlink: /sestina-for-the-summer-solstice
 
+- id: Devin Miller
+  idpath: "/devin-miller"
+  bio: Devin Miller is a queer, genderqueer cyborg and lifelong denizen of Seattle, with a love of muddy beaches to show for it. Their short fiction has appeared 
+    in <em>Beneath Ceaseless Skies</em> and <em>Metaphorosis</em>; previous poetry can be found in <em>Mermaids Monthly</em> and <em>The Future Fire</em>, and on 
+    select King County Metro bus terminals. You can find Devin and their cat on Twitter <a href="https://www.twitter.com/devzmiller">@devzmiller</a>.
+  twitter: 'devzmiller'
+  url:
+  facebook:
+  picture: ../images/profile/Devin_Miller.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Two Beaches"
+    poemlink: /two-beaches
+
+- id: Anya Ow
+  idpath: "/anya-ow"
+  bio: Anya Ow is the author of <em>Ion Curtain</em>, <em>The Firebird's Tale</em> and <em>Cradle and Grave</em>, and is an Aurealis Awards finalist. Her short stories have appeared 
+    in <em>Asimov's</em>, <em>Uncanny</em>, <em>Fantasy Magazine</em>, <em>The Year's Best Dark Fantasy and Horror, 2019</em> anthology and more. Born in Singapore, Anya has a 
+    Bachelor of Laws from Melbourne University and a Bachelor of Applied Design from Billy Blue College of Design. She lives in Melbourne with her two cats, working as a 
+    graphic designer, illustrator, and chief studio dog briber for a creative agency. She can be found at <a href="https://www.anyasy.com">anyasy.com</a> or on 
+    twitter <a href="https://www.twitter.com/anyasy">@anyasy</a>.
+  twitter: 'anyasy'
+  url: https://www.anyasy.com
+  facebook:
+  picture: ../images/profile/Anya_Ow.jpg
+  stories:
+  - storytitle: "Sharing a Meal at the End of the World"
+    storylink: /sharing-a-meal-at-the-end-of-the-world
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Christi Nogle
   idpath: "/christi-nogle"
   bio: Christi Nogle's debut novel, <em>Beulah</em>, was published in January 2022 by Cemetery Gates Media. Her short stories have appeared in over fifty publications, 
@@ -510,6 +640,25 @@
   poems:
   - poemtitle: "Beneath the Flames"
     poemlink: "/beneath-the-flames"
+
+- id: the_people
+  idpath: "/the_people"
+  bio: Chukwuma-Eke Pacella, NGP Xv, is a Nigerian poet, a short story writer, an editor and a feminist. She is the winner of the Cradle poetry contest and joint winner of the 
+    FOW Poetry Contest. She is also a recipient of the 2022 Nigeria Prize for Teen Authors (Poetry) and a two-time finalist for the BKPW contest. Some of her works have appeared 
+    or are forthcoming on the <em>Eunoia</em> magazine, <em>Brittle Paper</em>, <em>Synchronized Chaos Magazine</em>, <em>Last Leaves</em>, <em>Haven Spec</em>, <em>Cajun 
+    Mutt</em>, <em>Nixes Mate Review</em>, <em>Teen Lit Journal</em> and elsewhere. She also have works on BPPC's anthologies, My rainbow books collection, Love portion anthology, 
+    Roses for cancer warriors, <em>My Woven Poetry</em> and others. She is a member of The HillTop Creative Arts Foundation and 
+    tweets <a href="https://www.twitter.com/dancing_poet">@dancing_poet</a>.
+  twitter: 'dancing_poet'
+  url:
+  facebook:
+  picture: ../images/profile/the_people.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Send down the rain is no song when the belly goes to war
+    poemlink: /send-down-the-rain
 
 - id: Marisca Pichette
   idpath: "/marisca-pichette"

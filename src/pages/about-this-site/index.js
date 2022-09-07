@@ -49,6 +49,11 @@ const aboutThisSite = (props) => {
                     gatsby.js and is used here under the MIT license. The background was taken from pixabay.
                   </p>
 
+                  <p> 
+                    Our very awesome logo was designed by Haley Grunloh, whom you can find on twitter <a href="https://www.twitter.com/HaleyGrunloh">@HaleyGrunloh</a> and 
+                    on the web at <a href="https://www.haleygrunloh.com">www.haleygrunloh.com</a>.
+                  </p>
+
                   <p>
                     A generic copy of this website (which was programmed with Gatsbyjs, a web framework based on ReactJS for building static websites) will soon be 
                     available on GitHub! 
