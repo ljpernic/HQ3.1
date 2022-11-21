@@ -32,6 +32,24 @@
   - poemtitle:
     poemlink:
 
+- id: Warren Benedetto
+  idpath: "/warren-benedetto"
+  bio: Warren Benedetto writes short fiction about horrible people doing horrible things. He is a full member of the SFWA and has published stories in publications such 
+    as <em>Dark Matter Magazine</em>, <em>The Dread Machine</em>, and <em>Haven Spec</em>; on podcasts such as The NoSleep Podcast, Tales to Terrify, and The Creepy Podcast; and 
+    in anthologies from Apex Magazine, Scare Street, Eerie River Publishing, and more. He is also the developer of StayFocusd, the world's most popular anti-procrastination 
+    app for writers. He built it while procrastinating. For more information, visit <a href="https://warrenbenedetto.com">www.warrenbenedetto.com</a> and 
+    follow <a href="https://www.twitter.com/warrenbenedetto">@warrenbenedetto</a> on Twitter.
+  twitter: 'warrenbenedetto'
+  url: https://warrenbenedetto.com
+  facebook:
+  picture: ../images/profile/Warren_Benedetto.jpg
+  stories:
+  - storytitle: "The Man Who Ate the Road"
+    storylink: /the-man-who-ate-the-road
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: F. J. Bergmann
   idpath: "/f-j-bergmann"
   bio: "F. J. Bergmann is the poetry editor of Mobius: The Journal of Social Change (mobiusmagazine.com) and freelances as a copy editor and book designer. She 
@@ -49,6 +67,59 @@
   - poemtitle: Tall Tales
     poemlink: /tall-tales
 
+- id: Gary Bloom
+  idpath: "/gary-bloom"
+  bio: "Gary Bloom grew up in Minneapolis and attended what is now Minnesota State University-Mankato, where he studied sociology. He has been a teaching assistant in a 
+    psychiatric hospital, a driving instructor for spinal cord injury patients, and a computer programmer for the U.S. Navy. His articles, photography, and poetry have been 
+    widely published in newspapers, magazines and websites, including <em>Literary Hatchet</em>, <em>Liquid Imagination</em>, <em>Milwaukee Magazine</em>, <em>The Buffalo 
+    News</em>, <em>The Grand Rapids Press</em>, <em>Art Times Journal</em>, and <em>Black Diaspora</em>. He lived in New Orleans for many years and now lives on the Mississippi 
+    Gulf Coast."
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Gary_Bloom.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "My FEMA trailer"
+    poemlink: /my-fema-trailer
+
+- id: Andi C. Buchanan
+  idpath: "/andi-C-buchanan"
+  bio: 'Andi C. Buchanan lives and writes just outside Wellington, Aotearoa New Zealand. Winner of Sir Julius Vogel Awards for <em>From a Shadow Grave</em> (Paper Road Press, 
+    2019) and their short story “Girls Who Do Not Drown” (Apex, 2018), their fiction is also published in <em>Fireside</em>, <em>Mermaids Monthly</em>, <em>Cossmass Infinities</em>, 
+    and more. Their novel <em>Sanctuary</em> (Robot Dinosaur Press, 2022) tells the story of a queer, neurodivergent found-family who live in a haunted house. You can find 
+    Andi at <a href="https://andicbuchanan.org/">andicbuchanan.org</a> or <a href="https://www.twitter.com/andicbuchanan">@andicbuchanan</a> on Twitter.'
+  twitter: 'andicbuchanan'
+  url: https://andicbuchanan.org
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: "#snailsofinstagram"
+    storylink: /snailsofinstagram
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Sarah Cannavo
+  idpath: "/sarah-cannavo"
+  bio: Sarah Cannavo is a writer haunting southern New Jersey, the home of the Jersey Devil (full disclosure&#58; she hasn't run into him yet). Her work has appeared in anthologies 
+    and magazines such as <em>Star*Line</em>, <em>The Litarary Hatchet</em>, <em>JOURN-E</em>, and <em>Dreams and Nightmares</em>, and is forthcoming 
+    in <em>Pulp Modern</em> and <em>parABnormal</em>. Her poetry has been nominated for the 2020 and 2021 Rhysling Awards and the 2022 Dwarf Stars Awards. Her 
+    story “Unreality” and novella <em>Wolf of the Pines</em> are available now on Amazon. She's been reported to post on 
+    her site <a href="http://moodilymusing.blogspot.com/">www.moodilymusing.blogspot.com</a> and been sighted tweeting <a href="https://www.twitter.com/moodilymusing">@moodilymusing</a>.
+  twitter: 'moodilymusing'
+  url: http://moodilymusing.blogspot.com
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "S— Estate, After"
+    poemlink: /s-estate-after
+
 - id: Elou Carroll
   idpath: "/elou-carroll"
   bio: 'Elou Carroll is a graphic designer and freelance photographer who writes. Her work appears or is forthcoming in <em>Hexagon SF Magazine</em>, <em>Apparition 
@@ -64,6 +135,22 @@
   stories:
   - storytitle: "You Hope, Through Shivers and Sweat"
     storylink: /you-hope-through-shivers-and-sweat
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Beth Cato
+  idpath: "/beth-cato"
+  bio: Nebula Award-nominated Beth Cato is the author of <em>A THOUSAND RECIPES FOR REVENGE</em> from 47North (summer 2023) plus two fantasy series from Harper Voyager. She's a 
+    Hanford, California native transplanted to the Arizona desert, where she lives with her husband, son, and requisite cats. Follow her 
+    at <a href="https://www.bethcato.com/">BethCato.com</a> and on Twitter at <a href="https://www.twitter.com/BethCato">@BethCato</a>. 
+  twitter: 'BethCato'
+  url: https://www.bethcato.com/
+  facebook:
+  picture: ../images/profile/Beth_Cato.jpg
+  stories:
+  - storytitle: "That Monster Beneath the Bed"
+    storylink: /that-monster-beneath-the-bed
   poems:
   - poemtitle:
     poemlink:
@@ -97,6 +184,22 @@
   stories:
   - storytitle: "Touched"
     storylink: /touched
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Danai Christopoulou
+  idpath: "/danai-christopoulou"
+  bio: Danai Christopoulou writes mythpunk SFF and Romance inspired by her heritage (Greek, Egyptian, and Romanian) as well as her experiences living abroad as a queer, neurodivergent femme, and a journalist. 
+    Danai's non-fiction writing has appeared in several women's and lifestyle magazines in Europe and in the US since 2008. She is a submissions editor for Uncanny magazine and a QueeryFest mentor. Her short 
+    fiction is published or forthcoming in <em>Etherea Magazine</em> and <em>Khōréō Magazine</em>, and her novel-length work is represented by Lauren Bieker of FinePrint Literary.
+  twitter: 'Danaiwrites'
+  url:
+  facebook:
+  picture: ../images/profile/Danai_Christopoulou.jpeg
+  stories:
+  - storytitle: "The Moon is All Wrong Here"
+    storylink: /the-moon-is-all-wrong-here
   poems:
   - poemtitle:
     poemlink:
@@ -136,6 +239,22 @@
   - poemtitle:
     poemlink:
 
+- id: Jennifer Crow
+  idpath: "/jennifer-crow"
+  bio: Shy and nocturnal, Jennifer Crow has never been photographed in the wild, but it's rumored that she lives near a waterfall in western New York. Her work has appeared 
+    in a number of print and electronic venues, including <em>Uncanny Magazine</em>, <em>Asimov's Science Fiction</em>, <em>The Wondrous Real</em> and <em>Analog Science 
+    Fiction</em>. Curious readers can catch up with her on Twitter <a href="https://www.twitter.com/writerjencrow">@writerjencrow</a>.
+  twitter: 'writerjencrow'
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Little Arson Grasses"
+    poemlink: /little-arson-grasses
+
 - id: Madalena Daleziou
   idpath: "/madalena-daleziou"
   bio: Madalena Daleziou is a pushcart-nominated Greek author living in Glasgow, where she studied an MLitt in fantasy literature. Her work has appeared or is 
@@ -153,22 +272,22 @@
   - poemtitle: The Nymphs Are Migrating
     poemlink: /the-nymphs-are-migrating
 
-- id: Jelena Dunato
-  idpath: "/jelena-dunato"
-  bio: Jelena Dunato is an art historian, curator, speculative fiction writer and lover of all things ancient. She grew up in Croatia on a steady diet of adventure stories 
-    and then wandered the world for a decade, building a career in the arts. Jelena’s stories have appeared in <i>Beneath Ceaseless Skies</i>, <i>The Dark</i>, <i>Future 
-    SF</i> and <i>Cossmass Infinities</i>, among others. Jelena lives on an island in the Adriatic with her husband, daughter, and cat. You can find her 
-    at <a href="https://www.jelenadunato.com">jelenadunato.com</a> and on Twitter <a href="https://www.twitter.com/jelenawrites">@jelenawrites</a>.
-  twitter: 'jelenawrites'
-  url: https://www.jelenadunato.com
+- id: Lin Darrow
+  idpath: "/lin-darrow"
+  bio: Lin Darrow's fiction, poetry and comics have appeared in anthologies by Air and Nothingness Press, Jessamine Press, Eerie River, Fortuna Media, Valour I and II, In 
+    Somnio and QueerSciFi. Her comic <em>Shaderunners</em>, about bootleggers in a greyscale world who steal bottled colour, has been published by Hiveworks since 2015, and 
+    a novella was published by Less Than Three Press (Pyre at the Eyreholme Press) in 2018 prior to its closure. She is a two-time Prism Award nominee whose work can be 
+    found <a href="https://wwww.twitter.com/linkeepsitreal">@linkeepsitreal</a>.
+  twitter: 'linkeepsitreal'
+  url:
   facebook:
-  picture: ../images/profile/Jelena_Dunato.jpg
+  picture: ../images/profile/Lin_Darrow.jpg
   stories:
-  - storytitle: Heart of My Heart, Soul of My Soul
-    storylink: /heart-of-my-heart-soul-of-my-soul
+  - storytitle:
+    storylink:
   poems:
-  - poemtitle:
-    poemlink:
+  - poemtitle: One-Way, through the Fire
+    poemlink: /one-way-through-the-fire
 
 - id: RC deWinter
   idpath: "/rc-dewinter"
@@ -186,6 +305,38 @@
   poems:
   - poemtitle: Factory Reset
     poemlink: /factory-reset
+
+- id: Moustapha Mbacké Diop
+  idpath: "/Moustapha Mbacké Diop"
+  bio: "Moustapha Mbacké Diop is a speculative fiction writer from Dakar, Senegal. He studies medicine and is obsessed with African mythology, animation and horror films. His work has appeared 
+    in <em>Omenana</em>, <em>If There's Anyone Left: Volume 2</em>, and the <em>Africa Risen</em> anthology."
+  twitter: 'mdmoustaf'
+  url: 'https://beacons.ai/mdmoustaf'
+  facebook:
+  picture: ../images/profile/Moustapha_Mbacké_Diop.jpeg
+  stories:
+  - storytitle: Blackwater Children
+    storylink: /blackwater-children
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Jelena Dunato
+  idpath: "/jelena-dunato"
+  bio: Jelena Dunato is an art historian, curator, speculative fiction writer and lover of all things ancient. She grew up in Croatia on a steady diet of adventure stories 
+    and then wandered the world for a decade, building a career in the arts. Jelena’s stories have appeared in <i>Beneath Ceaseless Skies</i>, <i>The Dark</i>, <i>Future 
+    SF</i> and <i>Cossmass Infinities</i>, among others. Jelena lives on an island in the Adriatic with her husband, daughter, and cat. You can find her 
+    at <a href="https://www.jelenadunato.com">jelenadunato.com</a> and on Twitter <a href="https://www.twitter.com/jelenawrites">@jelenawrites</a>.
+  twitter: 'jelenawrites'
+  url: https://www.jelenadunato.com
+  facebook:
+  picture: ../images/profile/Jelena_Dunato.jpg
+  stories:
+  - storytitle: Heart of My Heart, Soul of My Soul
+    storylink: /heart-of-my-heart-soul-of-my-soul
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Melissa Ridley Elmes
   idpath: "/melissa-ridley-elmes"
@@ -254,6 +405,22 @@
   - poemtitle:
     poemlink:
 
+- id: David Farrow
+  idpath: "/david-farrow"
+  bio: David Farrow is the author of the bestselling <em>Neverglades</em> series. His work has appeared in <em>Mythaxis Magazine</em>, the LGBT+ horror anthology <em>Black Rainbow</em>, and is forthcoming on 
+    the NoSleep Podcast. He holds an MFA in Fiction from Lesley University and teaches with the creative writing non-profit GrubStreet in Boston, MA. You can find him 
+    at <a href="https://www.davidfarrowwrites.com">davidfarrowwrites.com</a> or <a href="https://www.twitter.com/davidfarrow5734">@davidfarrow5734</a> on social media.
+  twitter: 'davidfarrow5734'
+  url: https://www.davidfarrowwrites.com
+  facebook:
+  picture: ../images/profile/David_Farrow.png
+  stories:
+  - storytitle: "Little Death"
+    storylink: /little-death
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Vanessa Fogg
   idpath: "/vanessa-fogg"
   bio: 'Vanessa Fogg dreams of selkies, dragons, and gritty cyberpunk futures from her home in western Michigan. She spent years as a research scientist in molecular 
@@ -272,6 +439,23 @@
   - poemtitle: Blood, Roses, Song
     poemlink: /blood-roses-song
 
+- id: Ashley Gilland
+  idpath: "/ashley-gilland"
+  bio: Ashley Gilland is a writer, musician, and multimedia artist from Missouri. Her work is published or forthcoming in <em>Dishsoap Quarterly</em>, <em>Defunkt 
+    Magazine</em>, <em>Patchwork Lit Mag</em>, and <em>KALEIDOSCOPED MAG</em>, among others. When not writing poetry and philosophical flash fiction, she also loves 
+    composing music and embroidering mixed media art projects. Find her music on Spotify and Bandcamp, her art on Instagram and Etsy (@pocketsnailart), and her 
+    tweets at <a href="https://www.twitter.com/earlgreysnail">@earlgreysnail</a>.
+  twitter: 'earlgreysnail'
+  url:
+  facebook:
+  picture: ../images/profile/Ashley_Gilland.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Time Travel"
+    poemlink: /time-travel
+
 - id: Atreyee Gupta
   idpath: "/atreyee-gupta"
   bio: Atreyee Gupta’s work has appeared in numerous venues including <em>Apparition Lit</em>, <em>Arc Poetry</em>, <em>Bacopa Literary 
@@ -288,6 +472,22 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: J.D. Harlock
+  idpath: "/j-d-harlock"
+  bio: J.D. Harlock is a Syrian Lebanese Palestinian writer and editor based in Beirut. In addition to his posts at <em>Wasifiri</em>, as an editor-at-large, and 
+    at <em>Solarpunk Magazine</em>, as a poetry editor, his writing has been featured in <em>Strange Horizons</em>, <em>Star*Line</em>, and the SFWA Blog. You can always 
+    find him on Twitter and Instagram posting updates on his latest projects.
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/J_D_Harlock.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Blood Tithe"
+    poemlink: /the-blood-tithe
 
 - id: Michael Haynes
   idpath: "/michael-haynes"
@@ -489,6 +689,22 @@
   - poemtitle:
     poemlink:
 
+- id: Frances Koziar
+  idpath: "/frances-koziar"
+  bio: 'Frances Koziar has published work in over 90 different literary magazines and anthologies, including <em>Daily Science Fiction</em> and <em>Best Canadian Essays 2021</em>. She has also 
+    served as an author panelist, a fiction contest judge, and a microfiction editor at a literary magazine, and she is seeking an agent. She is a young (disabled) retiree 
+    and a social justice advocate, and she lives in Kingston, Ontario, Canada.'
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Frances_Koziar.jpg
+  stories:
+  - storytitle: 'Giant Country'
+    storylink: "/giant-country"
+  poems:
+  - poemtitle:
+    poemlink: 
+
 - id: D.K. Lawhorn
   idpath: "/d-k-lawhorn"
   bio: 'D.K. Lawhorn (he/him) has stories that have appeared in <em>Pyre Magazine</em>, <em>Sick Lit Magazine</em>, and Ghost Orchid Press. He is a citizen of the 
@@ -588,6 +804,23 @@
   - poemtitle: "Two Beaches"
     poemlink: /two-beaches
 
+- id: Tiffany Morris
+  idpath: "/tiffany-morris"
+  bio: Tiffany Morris is a Mi'kmaw/settler writer of speculative fiction and poetry from Kjipuktuk (Halifax), Nova Scotia. She is the author of the horror poetry 
+    collection <em>Elegies of Rotting Stars</em> (Nictitating Books, 2022). Her work has appeared in <em>Nightmare Magazine</em>, <em>Uncanny Magazine</em>, and <em>Apex 
+    Magazine</em>, among others, and has been nominated for Aurora, Elgin, and Rhysling Awards. Find her online 
+    at <a href="https://tiffmorris.com/">tiffmorris.com</a> or on twitter <a href="https://www.twitter.com/tiffmorris">@tiffmorris</a>.
+  twitter: 'tiffmorris'
+  url: https://tiffmorris.com/
+  facebook:
+  picture: ../images/profile/Tiffany_Morris.png
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Paradiso: A Found Cyborg Poem"
+    poemlink: /paradiso-a-found-cyborg-poem
+
 - id: Anya Ow
   idpath: "/anya-ow"
   bio: Anya Ow is the author of <em>Ion Curtain</em>, <em>The Firebird's Tale</em> and <em>Cradle and Grave</em>, and is an Aurealis Awards finalist. Her short stories have appeared 
@@ -623,6 +856,22 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Overcomer Ibiteye
+  idpath: "/overcomer-ibiteye"
+  bio: Overcomer Ibiteye is a Nigerian poet and writer. She's an alumnus of the SprinNG Writing Fellowship. Her works have appeared in anthologies and magazines 
+    like <em>Land Luck Review</em>, <em>Iskanchi</em>, <em>Scrawl Place Magazine</em>, <em>Starline Science Fiction and Poetry</em>, <em>African Writers Space</em> and others. 
+    She was shortlisted for the African Writers Awards (2021), the Spectrum Poetry Contest (2022) and the Calanthe Collective Prize for Unpublished Poetry (2022).
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Overcomer_Ibiteye.jpeg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "In and out of water"
+    poemlink: /in-and-out-of-water
 
 - id: Oyeleye Mahmoodah Temitope
   idpath: "/oyeleye-mahmoodah-temitope"
@@ -690,6 +939,21 @@
   stories:
   - storytitle:
     storylink:
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Rhiannon Rasmussen
+  idpath: "/rhiannon-rasmussen"
+  bio: Rhiannon Rasmussen is a queer author and illustrator interested in monstrosity and the persistence of hope. Rhiannon's fiction has appeared in publications 
+    including <em>Lightspeed Magazine</em>, <em>Diabolical Plots</em>, and <em>Evil in Technicolor</em>. Visit <a href="https://www.rhiannonrs.com">www.rhiannonrs.com</a> for more.
+  twitter: 'charibdys'
+  url: https://www.rhiannonrs.com
+  facebook:
+  picture: ../images/profile/Rhiannon_Rasmussen.png
+  stories:
+  - storytitle: "I/O"
+    storylink: /i-o
   poems:
   - poemtitle:
     poemlink:
@@ -784,6 +1048,23 @@
   - poemtitle:
     poemlink:
 
+- id: Austin Shirey
+  idpath: "/austin-shirey"
+  bio: Austin Shirey lives in Northern Virginia with his wife, Sarah, their two daughters, and two cats. His short fiction has appeared 
+    in <em>The Saturday Evening Post</em>, <em>The Dread Machine</em>, <em>Gone Lawn</em>, and <em>Orca</em>, among others. He holds an MFA in Creative Writing from Lindenwood 
+    University. You can find his work online at <a href="https://www.austinshirey.com">www.austinshirey.com</a> and follow him on 
+    Twitter <a href="https://www.twitter.com/tashirey87">@tashirey87</a>.
+  twitter: 'tashirey87'
+  url: https://www.austinshirey.com
+  facebook: 
+  picture: ../images/profile/Austin_Shirey.jpg
+  stories:
+  - storytitle: Long Distance Runaround
+    storylink: "/long-distance-runaround"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: João F. Silva
   idpath: "/joao-f-silva"
   bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
@@ -830,6 +1111,24 @@
   stories:
   - storytitle: The Shell Game
     storylink: "/the-shell-game"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Erin K. Wagner
+  idpath: "/erin-k-wagner"
+  bio: Erin K. Wagner is a professor by trade, a medievalist by discipline, and a writer of speculative fiction by design. <p>She lives in upstate New York, a storied and 
+    story-making place, but her roots are in Appalachia, planted in rural southeast Ohio. Presently, she teaches an array of literature and composition courses in 
+    the SUNY system as an associate professor. </p> <p>Her fiction is interested in examining how humans explain the inexplicable, and her writing has appeared in a 
+    number of magazines, including Apex, Clarkesworld, and Nightmare. Her second novella, An Unnatural Life, was released by Tor.com, and her short story collection 
+    is forthcoming from Aqueduct Press. She is an active member of SFWA. Her website is <a href="https://erinkwagner.com">www.erinkwagner.com</a>.</p>
+  twitter: 'ek_wagner'
+  url: https://erinkwagner.com
+  facebook:
+  picture: ../images/profile/Erin_K_Wagner.jpg
+  stories:
+  - storytitle: To Trade in Secrets
+    storylink: "/to-trade-in-secrets"
   poems:
   - poemtitle:
     poemlink:

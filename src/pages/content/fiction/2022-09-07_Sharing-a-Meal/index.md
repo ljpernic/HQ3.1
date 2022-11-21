@@ -7,7 +7,7 @@ shortdescription: 'Sometime after the end of the world, a man buys a woman a dri
 category: FICTION
 date: "2022-09-07T05:00:00.000Z"
 path: "/sharing-a-meal-at-the-end-of-the-world"
-featured: true
+featured: false
 available: true
 
 ---
