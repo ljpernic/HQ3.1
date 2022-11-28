@@ -7,7 +7,7 @@ shortdescription: 'Ι clutch my Book of Shadows to my chest like a wounded anima
 category: FICTION
 date: "2022-11-21T01:17:00.000Z"
 path: "/the-moon-is-all-wrong-here"
-featured: true
+featured: false
 available: true
 
 ---
