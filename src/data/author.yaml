@@ -796,11 +796,11 @@
   facebook:
   picture: ../images/profile/Monica_Louzon.jpg
   stories:
-  - storytitle: Picture This
-    storylink: /picture-this
+  - storytitle:
+    storylink:
   poems:
-  - poemtitle:
-    poemlink:
+  - poemtitle: Picture This
+    poemlink: /picture-this
 
 - id: Anna Madden
   idpath: "/anna-madden"
