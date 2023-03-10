@@ -1,3 +1,18 @@
+- id: Paul Michael Anderson
+  idpath: "/paul-michael-anderson"
+  bio: "Paul Michael Anderson is the author of STANDALONE and the upcoming THE ONLY WAY OUT IS THROUGH, as well as the collections BONES ARE MADE TO BE BROKEN and EVERYTHING WILL 
+    BE ALL RIGHT IN THE END: APOCALYPSE SONGS."  
+  twitter: 'P_M_Anderson'
+  url: https://thenothingspace.net/
+  facebook:
+  picture: ../images/profile/Paul_Michael_Anderson.jpg
+  stories:
+  - storytitle: Guiding My Sister's Shaking Hand
+    storylink: /guiding-my-sisters-shaking-hand
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Rebecca Angelo
   idpath: "/rebecca-angelo"
   bio: Rebecca Angelo is a writer based in Coatesville, Pennsylvania. When she’s not writing speculative and horror fiction, she’s wrangling three wonderful children 
@@ -456,6 +471,41 @@
   - poemtitle: "Time Travel"
     poemlink: /time-travel
 
+- id: Jenna Glover
+  idpath: "/jenna-glover"
+  bio: Jenna Glover is a science fiction and fantasy author of short fiction. Her work has appeared or is forthcoming in <em>Martian Magazine</em>, <em>Daily Science 
+    Fiction</em>, <em>Luna Station Quarterly</em>, and <em>Flash Point SF</em>. When she's not writing or reading, she enjoys haunting her local library, trying new recipes, 
+    playing video games, and crafting. You can read her work and learn more about her at <a href="https://jennaglover.com/">www.jennaglover.com</a> or follow her on 
+    Twitter and Instagram @JennaCGlover.
+  twitter: 'JennaCGlover'
+  url: https://jennaglover.com/
+  facebook:
+  picture: ../images/profile/Jenna_Glover.jpg
+  stories:
+  - storytitle: "Kimi's Fruit Stand for Dead Pirates and Privateers"
+    storylink: /kimis-fruit-stand-for-dead-pirates-and-privateers
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Taylor Grothe
+  idpath: "/taylor-grothe"
+  bio: Taylor is a queer, non-binary, Autistic writer of horror fiction, on submission with major publishers. Shorts of theirs can be found in <em>Coffin Bell 
+    Journal</em>, <em>Bag of Bones Press</em>, and <em>Shortwave Magazine</em>, and <em>Brevity</em>'s blog. Taylor is the graduate Assistant Managing Editor 
+    of <em>Brevity</em> and an MFA ('24) student at Fairfield University, as well as an Author Mentor Match Round 9 Adult Horror Mentor. They are represented by 
+    Larissa Melo Pienkowski of Jill Grinberg Literary Management. In their free time, Taylor slowly kills their family's many houseplants, and lives to serve 
+    their black cat, Hekla.
+  twitter: 'TaylorLGrothe'
+  url: https://www.taylorgrothe.com/
+  facebook:
+  picture: ../images/profile/Taylor_Grothe.jpg
+  stories:
+  - storytitle: "The Tempest"
+    storylink: /the-tempest
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Atreyee Gupta
   idpath: "/atreyee-gupta"
   bio: Atreyee Gupta’s work has appeared in numerous venues including <em>Apparition Lit</em>, <em>Arc Poetry</em>, <em>Bacopa Literary 
@@ -736,6 +786,22 @@
   - poemtitle:
     poemlink:
 
+- id: Monica Louzon
+  idpath: "/monica-louzon"
+  bio: Monica Louzon (she/her) is a queer, Maryland-based writer, translator, and editor. Her words have appeared in <em>Apex Magazine</em>, <em>After the Storm</em>, <em>Dark 
+    Recesses</em>, <em>Paranoid Tree</em>, <em>Shoreline of Infinity</em>, and others. She is Acquiring Editor for <em>The Dread Machine</em>. Follow her on Twitter or 
+    Instagram @molo_writes.
+  twitter: 'molo_writes'
+  url: 
+  facebook:
+  picture: ../images/profile/Monica_Louzon.jpg
+  stories:
+  - storytitle: Picture This
+    storylink: /picture-this
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Anna Madden
   idpath: "/anna-madden"
   bio: "Anna  Madden lives in North Texas, where the prairie reaches long tallgrass fingers toward the woods. Her fiction has appeared in <em>Hexagon</em>, <em>Zooscape</em>, <em>Orion's 
@@ -803,6 +869,23 @@
   poems:
   - poemtitle: "Two Beaches"
     poemlink: /two-beaches
+
+- id: Anuja Mitra
+  idpath: "/anuja-mitra"
+  bio: Anuja Mitra lives in New Zealand. Her strange, sometimes surreal poems have been published in journals including <em>Poetry New Zealand</em>, <em>takahē</em>, <em>Sweet 
+    Mammalian</em> and <em>Starling</em>, while her stories with a speculative slant have appeared in <em>Lamplight</em> and the anthology <em>Year's Best Aotearoa New Zealand 
+    Science Fiction and Fantasy</em>. In her spare time, she enjoys patting her cats and browsing indie bookstores for beautiful editions of books she already owns. Her 
+    Twitter and linktree can be found @anuja_m9.
+  twitter: 'anuja_m9'
+  url:
+  facebook:
+  picture: ../images/profile/Anuja_Mitra.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Tale of the Beast"
+    poemlink: /tale-of-the-beast
 
 - id: Tiffany Morris
   idpath: "/tiffany-morris"
@@ -908,6 +991,22 @@
   poems:
   - poemtitle: Send down the rain is no song when the belly goes to war
     poemlink: /send-down-the-rain
+
+- id: Jessica Peter
+  idpath: "/jessica-peter"
+  bio: Jessica Peter writes dark, haunted, and sometimes absurd short stories, novels, and poems. She lives in Hamilton, Ontario, Canada. You can find her writing 
+    in <em>LampLight Magazine</em>, <em>The NoSleep Podcast</em>, and <em>Brigid's Gate</em> anthologies, among other places. You can find out more about her and her 
+    work at <a href=“https://www.jessicapeter.net”>www.jessicapeter.net</a> or <a href=“https://www.twitter.com/JessicaPeter1”>@JessicaPeter1</a> on Twitter.
+  twitter: 'JessicaPeter1'
+  url:
+  facebook:
+  picture: ../images/profile/Jessica_Peter.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Seafoam Sestina"
+    poemlink: /seafoam-sestina
 
 - id: Marisca Pichette
   idpath: "/marisca-pichette"
@@ -1048,6 +1147,21 @@
   - poemtitle:
     poemlink:
 
+- id: Carol Scheina
+  idpath: "/carol-scheina"
+  bio: Carol Scheina is a deaf speculative author whose stories have appeared in publications such as <em>Flash Fiction Online</em>, <em>Escape Pod</em>, <em>Cossmass 
+    Infinities</em>, and more. You can find more of her work at <a href=“https://carolscheina.wordpress.com/”>carolscheina.wordpress.com</a>.
+  twitter: 'CarolScheina'
+  url: https://carolscheina.wordpress.com/
+  facebook: 
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle: From Far Away, With Love
+    storylink: "/from-far-away-with-love"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Austin Shirey
   idpath: "/austin-shirey"
   bio: Austin Shirey lives in Northern Virginia with his wife, Sarah, their two daughters, and two cats. His short fiction has appeared 
@@ -1065,10 +1179,27 @@
   - poemtitle:
     poemlink:
 
+- id: Crystal Sidell
+  idpath: "/crystal-sidell"
+  bio: A native Floridian, Crystal Sidell grew up playing with toads in the rain and indulging in speculative fiction. She holds a master of arts in both English and 
+    library & information science, moderates two creative writing groups, and has reviewed books for the Florida Library Youth Program. A Pushcart-nominated writer, 
+    her work has appeared in <em>34 Orchard</em>, <em>Apparition Lit</em>, <em>F&SF</em>, <em>Factor Four Magazine</em>, <em>The Sprawl Mag</em>, <em>Strange 
+    Horizons</em>, <em>Sylvia</em>, and others. You can find her on Twitter <a href= “https://www.twitter.com/sidellwrites”>@sidellwrites</a>.
+  twitter: 'sidellwrites'
+  url: 
+  facebook: 
+  picture: ../images/profile/Crystal_Sidell.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Instructions from a Signalman"
+    poemlink: "/instructions-from-a-signalman"
+
 - id: João F. Silva
   idpath: "/joao-f-silva"
   bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
-    He’s a member of the BSFA and was also on the jury for the Best Newcomer Award at the 2020 British Fantasy Awards.
+    He's a member of the BSFA and was also on the jury for the Best Newcomer Award at the 2020 British Fantasy Awards.
   twitter: 'JoaoSilvaWrites'
   url:
   facebook:
@@ -1129,6 +1260,22 @@
   stories:
   - storytitle: To Trade in Secrets
     storylink: "/to-trade-in-secrets"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Valo Wing
+  idpath: "/valo-wing"
+  bio: Valo Wing (they/them) is a professional funeral singer who writes about unapologetically unhinged lesbians with velvet blazer obsessions. They are a Pitch Wars 2021 
+    alum and Futurescapes Writers’ Workshop 2022 graduate. Their short fiction is published in Dread Stone Press and forthcoming from Brigids Gate Press. You can find them 
+    on Twitter <a href=“https://www.twitter.com/valo_wing”>@valo_wing</a>.
+  twitter: 'valo_wing'
+  url:
+  facebook:
+  picture: ../images/profile/Valo_Wing.jpg
+  stories:
+  - storytitle: To Kneel at the Altar of Your Bones
+    storylink: "/to-kneel-at-the-altar-of-your-bones"
   poems:
   - poemtitle:
     poemlink:

@@ -7,7 +7,7 @@ shortdescription: "<em>outside</em><br />The asteroid belts were never as dense 
 category: FICTION
 date: "2022-11-21T01:05:00.000Z"
 path: "/i-o"
-featured: true
+featured: false
 available: true
 
 ---
