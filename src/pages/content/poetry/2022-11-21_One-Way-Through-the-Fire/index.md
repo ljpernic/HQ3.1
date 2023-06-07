@@ -36,7 +36,7 @@ Time travel is a one-way trip. <br />
 Once all the past you’ve left behind begins to pile up, <br />
 You learn a new metaphor. <br />
 Time is stone— <br />
-You wear it down, pass through cacks, erode. <br />
+You wear it down, pass through cracks, erode. <br />
 You are the rapid; you, the gentle ebb. <br />
 The handbooks got it wrong. <br />
 You *can* go back, <br />

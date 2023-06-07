@@ -45,6 +45,12 @@ const Submit = (props) => {
             <h1 className="pt-1 pb-1">
               Submission Windows
             </h1>
+
+              <p>
+                <strong>Please note:</strong> Haven Spec has <strong>closed to submissions</strong> for the first two weeks of June while we catch up on the backlog. Please keep 
+                an eye out on Twitter <a href='https://www.twitter.com/HavenSpec'>@HavenSpec</a> for when we reopen. Thank you!
+              </p>
+
             <div className="grid-container">
             <div className="subWindows">
               <h5>General submission window</h5>
