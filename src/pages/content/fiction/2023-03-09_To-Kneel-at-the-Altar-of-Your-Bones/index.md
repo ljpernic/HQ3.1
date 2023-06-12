@@ -7,7 +7,7 @@ shortdescription: 'She slices open a vein, and out pours star-matter. Liquid and
 category: FICTION
 date: "2023-03-10T01:09:00.000Z"
 path: "/to-kneel-at-the-altar-of-your-bones"
-featured: true
+featured: false
 available: true
 
 ---

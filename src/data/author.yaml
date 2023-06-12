@@ -1,3 +1,38 @@
+- id: L. Acadia
+  idpath: "/l-acadia"
+  bio: "L. Acadia is a lit professor at National Taiwan University with poetry forthcoming / in <em>New Orleans Review</em>, <em>Pinhole Poetry</em>, <em>Strange 
+    Horizons</em>, <em>The Dread Machine</em>, and elsewhere. Twitter and Instagram: @acadialogue"  
+  twitter: acadialogue
+  url:
+  facebook:
+  picture: ../images/profile/L_Acadia.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "War Dream: Bridged"
+    poemlink: /war-dream-bridged
+
+- id: Colleen Anderson
+  idpath: "/colleen-anderson"
+  bio: "Colleen Anderson is an Aurora, Rhysling, Dwarf Stars and Elgin award nominee, with work published in seven countries, in such venues 
+    as <em>Andromeda Spaceways</em>, <em>Space and Time</em>, and the award-winning <em>Shadow Atlas</em> and <em>Water: Sirens</em>, <em>Selkies & Sea Monsters</em>. Her 
+    poem, Machine (r)Evolution is part of Tenebrous Press’s 2023 <em>Brave New Weird</em>. She lives in Vancouver, BC and is a Ladies of Horror Fiction, Canada Council 
+    and BC Arts Council grant recipient. She is author of  two fiction collections, <em>Embers Amongst the 
+    Fallen</em> and <em><a href=“https://www.amazon.com/Body-Work-Colleen-Anderson/dp/1719934800”>A Body of Work</a></em>, and two poetry 
+    collections, <em><a href=“http://www.lycanvalley.com/2022/03/new-release-i-dreamed-world-by-colleen.html”>I Dreamed a World</a></em> and <em><a href=“https://yurikopublishing.com/”>The Lore of 
+    Inscrutable Dreams</a></em>. <a href=“https://colleenanderson.wordpress.com/”>www.colleenanderson.wordpress.com</a>."  
+  twitter:
+  url: https://colleenanderson.wordpress.com/
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Spell to Raze a Tree
+    poemlink: /spell-to-raze-a-tree
+
 - id: Paul Michael Anderson
   idpath: "/paul-michael-anderson"
   bio: "Paul Michael Anderson is the author of STANDALONE and the upcoming THE ONLY WAY OUT IS THROUGH, as well as the collections BONES ARE MADE TO BE BROKEN and EVERYTHING WILL 
@@ -117,6 +152,22 @@
   - poemtitle:
     poemlink:
 
+- id: Anton Cancre
+  idpath: "/anton-cancre"
+  bio: Anton Cancre's mother wasn't really pregnant with them when she went to see The Exorcist, but they tell people that anyways because it sounds cool. Their poetry 
+    collections, Meaningless Cycles in a Vicious Glass Prison and This Story Doesn't End the Way We Want All The Time are available from Dragon's Roost Press. They're also a 
+    luddite who still has a blogspot website (<a href="https://antoncancre.blogspot.com/">antoncancre.blogspot.com</a>).
+  twitter: 'AntonCancre'
+  url: https://antoncancre.blogspot.com/
+  facebook:
+  picture: ../images/profile/Anton_Cancre.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Lady of Ice Drowned in the Rising Tides"
+    poemlink: /the-lady-of-ice-drowned-in-the-rising-tides
+
 - id: Sarah Cannavo
   idpath: "/sarah-cannavo"
   bio: Sarah Cannavo is a writer haunting southern New Jersey, the home of the Jersey Devil (full disclosure&#58; she hasn't run into him yet). Her work has appeared in anthologies 
@@ -164,8 +215,41 @@
   facebook:
   picture: ../images/profile/Beth_Cato.jpg
   stories:
-  - storytitle: "That Monster Beneath the Bed"
-    storylink: /that-monster-beneath-the-bed
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "That Monster Beneath the Bed"
+    poemlink: /that-monster-beneath-the-bed
+
+- id: Tania Chen
+  idpath: "/tania-chen"
+  bio: Tania Chen is a Chinese-Mexican queer writer. Their work was selected for Brave New Weird Anthology by Tenebrous Press and has also appeared in Unfettered Hexes 
+    by Neon Hemlock, <em>Apparition Lit</em>, <em>Strange Horizons</em>, <em>Pleiades Magazine</em>, <em>Baffling Magazine</em> and <em>Longleaf Review</em>, among others. 
+    They are a graduate of the Clarion West Novella Bootcamp workshop of 2021 and a recipient of the HWA’s Dark Poetry Scholarship. Currently, they are assistant editor 
+    at <em>Uncanny Magazine</em> and can be found on twitter <a href=“https://www.twitter.com/archistratego”>@archistratego</a> or mastodon at @archistratego@wandering.shop.
+  twitter: 'archistratego”'
+  url:
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "King Arthur Wakes in 2023"
+    poemlink: /king-arthur-wakes-in-2023
+
+- id: Jessica Cho
+  idpath: "/jessica-cho"
+  bio: Jessica is a Rhysling Award winning writer of SFF short fiction and poetry. Born in Korea, they currently reside in New England where they balance their aversion to cold 
+    with the inability to live anywhere without snow. Previous work has appeared in <em>Fantasy Magazine</em>, <em>khōréō</em>, <em>Fireside Fiction</em>, <em>Daily Science 
+    Fiction</em> and elsewhere. They can be found online at <a href=“https://semiwellversed.wordpress.com/”>semiwellversed.wordpress.com</a>. 
+  twitter: 'wordsbycho'
+  url: https://semiwellversed.wordpress.com
+  facebook:
+  picture: ../images/profile/Jessica_Cho.jpg
+  stories:
+  - storytitle: "To Call My Own"
+    storylink: /to-call-my-own
   poems:
   - poemtitle:
     poemlink:
@@ -454,6 +538,22 @@
   - poemtitle: Blood, Roses, Song
     poemlink: /blood-roses-song
 
+- id: André Geleynse
+  idpath: "/andré-geleynse"
+  bio: André Geleynse (he/him) is a SFF writer, game master, and architectural technologist from unceded Algonquin Anishinaabeg territory near Ottawa, Ontario. He lives with 
+    his wife, two dogs, two cats, two horses, six chickens, and one snake. He is the Publication Manager for <em>Tales & Feathers Magazine</em>, and can occasionally be found 
+    on Twitter at <a href=“https://www.twitter.com/alisterscriven”>@alisterscriven</a>. His fiction has previously appeared in <em>The Sprawl Mag</em> and Wyldblood Press.
+  twitter: 'alisterscriven”'
+  url:
+  facebook:
+  picture: ../images/profile/André_Geleynse.jpg
+  stories:
+  - storytitle: "Angelfall"
+    storylink: /angelfall
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Ashley Gilland
   idpath: "/ashley-gilland"
   bio: Ashley Gilland is a writer, musician, and multimedia artist from Missouri. Her work is published or forthcoming in <em>Dishsoap Quarterly</em>, <em>Defunkt 
@@ -672,6 +772,23 @@
   - poemtitle: Behemoth
     poemlink: /behemoth
 
+- id: Timothy Johnson
+  idpath: "/timothy-johnson"
+  bio: Timothy Johnson is a writer and editor living outside Washington, D.C., where he recently earned an MFA in creative writing from George Mason University. His published 
+    writing includes the novels <em>The Pillars of Dawn</em> and <em>Carrier</em> as well as short fiction from <em>Gamut</em>, <em>Deracine Magazine</em>, Crystal Lake 
+    Publishing, and Inked in Gray Press. He was editor-in-chief of <em>phoebe journal</em>, and in 2021, he was an Alan Cheuse Center Fellow and a Pushcart Award nominee. 
+    He is an HWA member. Learn more at <a href=“https://timothyjohnsonfiction.com/”>www.timothyjohnsonfiction.com</a>.
+  twitter: TimTellsStories
+  url: https://timothyjohnsonfiction.com/
+  facebook:
+  picture: ../images/profile/Timothy_Johnson.jpg
+  stories:
+  - storytitle: Touch of Ruin
+    storylink: /touch-of-ruin
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Erin Keating
   idpath: "/erin-keating"
   bio: Erin Keating is a grant writer at an arts education nonprofit. She earned her B.A. in creative writing and literature at Roanoke College. While earning her history 
@@ -802,6 +919,23 @@
   - poemtitle: Picture This
     poemlink: /picture-this
 
+- id: Anne Marie Lutz
+  idpath: "/anne-marie-lutz"
+  bio: "Anne Marie Lutz is the author of three fantasy novels. Her Color Mage novels were re-issued in 2019 as <em>Black Tide</em> and <em>Sword of Jashan</em>. Her newest 
+    novel, <em>Taylenor</em>, was released in 2019. She has also written several short stories, appearing most recently in the <em>Blood on the Blade</em> sword & sorcery 
+    anthology, the Dark Recesses Press webzine, and the Sleepless Decompositions podcast. For more about Anne Marie’s work, you can check out her blog 
+    at <a href=“https://annemariesblog.wordpress.com/”>annemariesblog.wordpress.com</a>."
+  twitter: 'color_mage'
+  url: https://annemariesblog.wordpress.com/
+  facebook:
+  picture: ../images/profile/Anne_Marie_Lutz.jpg
+  stories:
+  - storytitle: A Deep and Breathing Forest
+    storylink: /a-deep-and-breathing-forest
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Anna Madden
   idpath: "/anna-madden"
   bio: "Anna  Madden lives in North Texas, where the prairie reaches long tallgrass fingers toward the woods. Her fiction has appeared in <em>Hexagon</em>, <em>Zooscape</em>, <em>Orion's 
@@ -886,6 +1020,24 @@
   poems:
   - poemtitle: "Tale of the Beast"
     poemlink: /tale-of-the-beast
+
+- id: Mike Morgan
+  idpath: "/mike-morgan"
+  bio: Mike Morgan was born in London, but not in any of the
+    interesting parts. He moved to Japan at the age of 30 and
+    lived there for many years. Nowadays, he's based in Iowa, and
+    enjoys family life with his wife and two young children. If
+    you like his writing, be sure to check out <a href="https://perpetualstateofmildpanic.wordpress.com/">his website</a>.
+  twitter: 'CultTVMike'
+  url:
+  facebook:
+  picture: ../images/profile/Mike_Morgan.jpg
+  stories:
+  - storytitle: Rejoice at the Coming of the Mower Man
+    storylink: "/rejoice-at-the-coming-of-the-mower-man"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Tiffany Morris
   idpath: "/tiffany-morris"
@@ -973,6 +1125,22 @@
   - poemtitle: "Beneath the Flames"
     poemlink: "/beneath-the-flames"
 
+- id: Eva Papasoulioti
+  idpath: "/eva-papasoulioti"
+  bio: MahmooEva Papasoulioti is a writer of speculative fiction and poetry. She lives in Athens, Greece, with her spouse and their two cats, and translates words for a 
+    living. Her work has appeared in <em>Uncanny Magazine</em>, <em>Solarpunk Magazine</em>, <em>Syntax & Salt</em>, <em>Polu Texni</em> and elsewhere. You can find her 
+    on twitter <a href="https://www.twitter.com/epapasoulioti">@epapasoulioti</a> and on her blog <a href="https://plothopes.com/">plothopes.com</a>.
+  twitter: 'epapasoulioti'
+  url: https://plothopes.com/
+  facebook:
+  picture: ../images/profile/Eva_Papasoulioti.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Lunar Maria"
+    poemlink: "/lunar-maria"
+
 - id: the_people
   idpath: "/the_people"
   bio: Chukwuma-Eke Pacella, NGP Xv, is a Nigerian poet, a short story writer, an editor and a feminist. She is the winner of the Cradle poetry contest and joint winner of the 
@@ -1023,6 +1191,8 @@
   poems:
   - poemtitle: "And it dries and dries"
     poemlink: /and-it-dries-and-dries
+  - poemtitle: "A Prayer for the Surviving"
+    poemlink: /a-prayer-for-the-surviving
 
 - id: TJ Price
   idpath: "/t-j-price"
@@ -1263,6 +1433,42 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: KT Wagner
+  idpath: "/kt-wagner"
+  bio: "KT Wagner writes short speculative fiction, loves to knit and is a collector of strange plants, weird trivia and obscure tomes. Her work is published and podcast with 
+    Pulp Literature, <em>Cloud Lake Literary</em>, <em>Sylvia Magazine</em>, <em>Neo-opsis</em>, <em>Cosmic Horror Monthly</em>, <em>Toasted Cake</em> and more. KT graduated 
+    from Simon Fraser University's Writers Studio in 2015 (Southbank 2013). She organizes writer events and works to create literary community. KT can be found online 
+    at <a href=“https://northernlightsgothic.com/”>www.northernlightsgothic.com</a> and @KT_Wagner."
+  twitter: 'KT_wagner'
+  url: https://northernlightsgothic.com/
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: A Bloodless Mistletoe Graveyard
+    storylink: "/a-bloodless-mistletoe-graveyard"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Marcus Whalbring
+  idpath: "/marcus-whalbring"
+  bio: "Marcus Whalbring is the author of <em>A Concert of Rivers</em> from Milk & Cake Press, as well as <em>How to Draw Fire</em> from Finishing Line Press and <em>Just 
+    Flowers</em> from Crooked Steeple Press. A graduate of the MFA program at Miami University, his poems and stories have appeared or are forthcoming in, <em>Strange 
+    Horizons</em>, <em>Space & Time</em>, <em>Illumen</em>, <em>The Dread Machine</em>, <em>Abyss & Apex</em>, <em>Spaceports and Spidersilk</em>, <em>Cortland 
+    Review</em>, <em>Pittsburgh Quarterly</em>, <em>Spry</em>, and <em>Underwood Press</em>, among others. He’s a high school teacher, a father, and a husband. 
+    You can connect with him via twitter at <a href=“https://www.twitter.com/marcuswhalbring”>@marcuswhalbring</a> and learn more about his work 
+    at <a href=“https://marcuswhalbring.wpcomstaging.com/poetry/”>https://marcuswhalbring.wpcomstaging.com/poetry/</a>."
+  twitter: 'marcuswhalbring'
+  url: https://marcuswhalbring.wpcomstaging.com/poetry/
+  facebook:
+  picture: ../images/profile/Marcus_Whalbring.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Stairs Appeared in My Backyard One Night
+    poemlink: /stairs-appeared-in-my-backyard-one-night
 
 - id: Valo Wing
   idpath: "/valo-wing"
