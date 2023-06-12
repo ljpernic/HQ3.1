@@ -2,8 +2,8 @@
 title: Touch of Ruin
 author: Timothy Johnson
 issue: Issue Nine, June 2023
-description: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator  . He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>' 
-shortdescription: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator  . He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>'
+description: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator. He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>' 
+shortdescription: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator. He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>'
 category: FICTION
 date: "2023-06-12T01:09:00.000Z"
 path: "/touch-of-ruin"
@@ -12,7 +12,7 @@ available: true
 
 ---
 
-Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator  . He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance.
+Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator. He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance.
 
 And then he tears it up, root and all. 
 
@@ -24,9 +24,9 @@ Antoni raises his hand to block the blinding light. “Could you turn a little b
 
 “Certainly, sir.” Enoch’s titanium feet scrape shards of weathered glass. He turns precisely twelve degrees.
 
-Winding the weed around his finger, Antoni retrieves the life he gave it. The plant withers to dust and falls to the earth. Antoni’s dry, cracked lips moisten and heal. He stands and surveys the land, the rusted steel hulks of automobiles bowing on their atrophied suspensions. Broken light poles lie down, frayed wiring at their bases. A crumbling shopping plaza lines the perimeter of the ancient parking lot.     
+Winding the weed around his finger, Antoni retrieves the life he gave it. The plant withers to dust and falls to the earth. Antoni’s dry, cracked lips moisten and heal. He stands and surveys the land, the rusted steel hulks of automobiles bowing on their atrophied suspensions. Broken light poles lie down, frayed wiring at their bases. A crumbling shopping plaza lines the perimeter of the ancient parking lot. 
 
-The horizon sky is a tortured, hazy red above a mountain range of rock. The wind licks the crest of  a bulbous dune, perhaps the vanguard of a dust storm. If it is, they will have to seek shelter, and Antoni will have to don his respirator. Enoch will provide ample warning.
+The horizon sky is a tortured, hazy red above a mountain range of rock. The wind licks the crest of a bulbous dune, perhaps the vanguard of a dust storm. If it is, they will have to seek shelter, and Antoni will have to don his respirator. Enoch will provide ample warning.
 
 Before them, an ancient storefront beckons. Antoni doesn’t recognize this area specifically, but it is familiar to him. He sees his touch in the desolation and decay, evidence of his ruin. Though he has never been here, Antoni is responsible for all of this.
 
@@ -48,11 +48,11 @@ Antoni grew up in the verdant countryside where silvery brooks and rolling hills
 
 His family owned a winery and farm where they cultivated the land in rhythm with the seasons, where they lived by the limits of nature, until Antoni learned how special he was.
 
-One gloriously sunny day, Antoni dashed through a field of immature wheat crops and spread his arms like wings, soaring under the warm sun. The coarse stalks feathered his palms. His footsteps kicked up the scent of rich, fertile soil. No siblings, no friends—  he was alone, allowed to be a child only because he was too young for work. 
+One gloriously sunny day, Antoni dashed through a field of immature wheat crops and spread his arms like wings, soaring under the warm sun. The coarse stalks feathered his palms. His footsteps kicked up the scent of rich, fertile soil. No siblings, no friends—he was alone, allowed to be a child only because he was too young for work. 
 
-He carved great sweeping arcs   as he made his way toward the barn on the hill where crowds gathered at picnic tables beneath a large white tent. The people there held glass chalices of gold and crimson, some of them swirling and sparkling in the light, others raising in salutation.
+He carved great sweeping arcs as he made his way toward the barn on the hill where crowds gathered at picnic tables beneath a large white tent. The people there held glass chalices of gold and crimson, some of them swirling and sparkling in the light, others raising in salutation.
 
-B  y the time Antoni arrived at the tent, he heard only his own breathing. The crowd’s gathered murmur had silenced, and he halted when his gaze raised from his feet to meet the stares of an audience before him. Dozens of strangers gaped, some of them still absently sloshing their wine, nasal cavities working to draw in aromas of acacia and elderflower, oak and hazelnut, or honey and apricot.
+By the time Antoni arrived at the tent, he heard only his own breathing. The crowd’s gathered murmur had silenced, and he halted when his gaze raised from his feet to meet the stares of an audience before him. Dozens of strangers gaped, some of them still absently sloshing their wine, nasal cavities working to draw in aromas of acacia and elderflower, oak and hazelnut, or honey and apricot.
 
 They weren’t looking at him, though. They were looking at the wheat field below. 
 
@@ -60,7 +60,7 @@ Antoni turned and saw the path he’d carved into the land. The green, immature 
 
 <p style="text-align: center;">#</p>
 
-When Antoni was thirteen, the family’s German shepherd, Remy, died in his sleep. He was twelve in human years. Antoni found him coiled up, tail to snout, in his bed. The boy’s cries brought Magnus running, but he   stopped in the doorway. Once Antoni accepted he’d lost the only dog he’d ever known, he collapsed upon his friend and held his lifeless body to his chest. 
+When Antoni was thirteen, the family’s German shepherd, Remy, died in his sleep. He was twelve in human years. Antoni found him coiled up, tail to snout, in his bed. The boy’s cries brought Magnus running, but he stopped in the doorway. Once Antoni accepted he’d lost the only dog he’d ever known, he collapsed upon his friend and held his lifeless body to his chest. 
 
 The bones of the house rumbled. Picture frames fell off of walls. Dishes rattled in the kitchen sink. A snake plant and its stand toppled over, the pot smashing on the hardwood floor. The soil spread out, and all of its saturation and mineral content sapped away, leaving a pile of dust. The leaves softened, withered, and browned to the brink of rot.
 
@@ -70,15 +70,15 @@ Neither Antoni nor Magnus spoke of it because they knew that if they did, it wou
 
 <p style="text-align: center;">#</p>
 
-By the age of eighteen, Antoni had learned to enrich crop fields. He dug his fingers into the cool soil, and at his command, grape vines burst forth and twisted around trellises. Wheat and corn flowered and unfolded their leaves. Apple trees dropped their ripe fruit like raindrops. The farm’s yield increased exponentially with weekly harvests throughout the year, even during the knuckle-aching, skin-splitting cold months. The winery produced barrel after barrel until the new storage facility, a warehouse that once contained   machine parts, was filled beyond its limit. With the amazing profits, Magnus bought another building and filled that one, too.
+By the age of eighteen, Antoni had learned to enrich crop fields. He dug his fingers into the cool soil, and at his command, grape vines burst forth and twisted around trellises. Wheat and corn flowered and unfolded their leaves. Apple trees dropped their ripe fruit like raindrops. The farm’s yield increased exponentially with weekly harvests throughout the year, even during the knuckle-aching, skin-splitting cold months. The winery produced barrel after barrel until the new storage facility, a warehouse that once contained machine parts, was filled beyond its limit. With the amazing profits, Magnus bought another building and filled that one, too.
 
-It did tire Antoni, though, especially at the beginning. He didn’t understand how his gift worked then, but he knew how he felt when he used it. At first, when he wiggled his fingers into the earth, it was a shock of energy that wired his soul and electrified his mind. He was a champagne bottle, corked and shaken, until   it all flushed out of him as if his fingertips were drain spouts. With the fleeting energy, he tired, but food and rest restored him. The more he used his gift, the more he could do with it. Each planting conditioned him, and soon, by the time of each harvest, he was ready to go again.
+It did tire Antoni, though, especially at the beginning. He didn’t understand how his gift worked then, but he knew how he felt when he used it. At first, when he wiggled his fingers into the earth, it was a shock of energy that wired his soul and electrified his mind. He was a champagne bottle, corked and shaken, until it all flushed out of him as if his fingertips were drain spouts. With the fleeting energy, he tired, but food and rest restored him. The more he used his gift, the more he could do with it. Each planting conditioned him, and soon, by the time of each harvest, he was ready to go again.
 
 Magnus, now the wealthy owner of a wine and agricultural company, came to him one night with tired eyes and a ragged voice from a long day of meetings with businessmen vying to know his secret.
 
 “It is enough, son,” he said. “We have enough now. I want you to be young for a while, enjoy your life. I want you to grow yourself.” His demeanor saddened. “If you are here, I know you will use your gift. I know I will want you to use it. That is why I would like to send you on a trip this summer. How would you like to see the world?”
 
-Antoni agreed with enthusiasm because he knew it would please his father, but the prospect of leaving his home terrified him. Regardless,    when school let out for the months of sunshine and long days, Magnus gave him an itinerary with all of his travel fares paid and put him on a train. He walked the streets of New York City and saw a man wearing a winter coat in June and pulling along two shopping carts stuffed with everything he owned. Antoni saw a man with a pit bull begging for something, anything in London’s Strand. A mother and child in Rome came to him dressed in rags, but he didn’t speak Italian. An entire family pleaded with him in Cairo, but he couldn’t understand Arabic either   . He witnessed a sleeping toddler in New Delhi that was little more than skin, bones, swollen belly, and eyes. Like a field of wheat plowed and left to rot, a billion people were starving.
+Antoni agreed with enthusiasm because he knew it would please his father, but the prospect of leaving his home terrified him. Regardless, when school let out for the months of sunshine and long days, Magnus gave him an itinerary with all of his travel fares paid and put him on a train. He walked the streets of New York City and saw a man wearing a winter coat in June and pulling along two shopping carts stuffed with everything he owned. Antoni saw a man with a pit bull begging for something, anything in London’s Strand. A mother and child in Rome came to him dressed in rags, but he didn’t speak Italian. An entire family pleaded with him in Cairo, but he couldn’t understand Arabic either. He witnessed a sleeping toddler in New Delhi that was little more than skin, bones, swollen belly, and eyes. Like a field of wheat plowed and left to rot, a billion people were starving.
 
 In August, when he came home, the first thing he said to his father was, “You were wrong, Dad. It’s not enough. We have a lot of work to do.”
 
@@ -88,7 +88,7 @@ Magnus shut the winery down and replanted the fields with soybeans and potatoes.
 
 At Antoni’s direction, Magnus began acquiring seeds, as many as he could. They arrived in barrels loaded up on lines of tractor trailers. Antoni shoved his hands into each, imbuing them with his touch, and then he had his father contact the media. Antoni wanted to speak to the world.
 
-Every media    network came, and Antoni gave a speech about how he’d traveled and seen such a simple, solvable problem become a disease. He said his father’s company was going to cure it by giving away their seeds, the special ones they’ve been using for years to grow food. A journalist asked him what made the seeds so special  . Glad for the question, Antoni went into the field, dug a hole with his fingers, and planted a single seed  . He dampened the earth with a dash of water, and then he stepped back and waited. Moments later, as the audience started to mumble its impatience, a green finger emerged and slid upward as if it had only ever been hidden in the dirt and was now revealing itself. In seconds, it was six inches tall and branching. In a day, it would brown and flower, and in two days, it would be ready to harvest.
+Every media network came, and Antoni gave a speech about how he’d traveled and seen such a simple, solvable problem become a disease. He said his father’s company was going to cure it by giving away their seeds, the special ones they’ve been using for years to grow food. A journalist asked him what made the seeds so special. Glad for the question, Antoni went into the field, dug a hole with his fingers, and planted a single seed. He dampened the earth with a dash of water, and then he stepped back and waited. Moments later, as the audience started to mumble its impatience, a green finger emerged and slid upward as if it had only ever been hidden in the dirt and was now revealing itself. In seconds, it was six inches tall and branching. In a day, it would brown and flower, and in two days, it would be ready to harvest.
 
 “The only condition for receiving these seeds is a signed agreement that the food it yields be sold at cost,” Antoni said, and the journalists barely let him finish the statement before they erupted with questions.
 
@@ -204,13 +204,13 @@ Guillermo chased after him. “But you haven’t even heard my offer.”
 
 Antoni turned, beaming with fury. “You don’t understand. Whatever I do, it’s never enough. Haven’t you seen what’s going on out there?”
 
-Guillermo grinned. “I think we can fix all of that together.”   
+Guillermo grinned. “I think we can fix all of that together.” 
 
 The next day, a black car arrived at Antoni’s farmhouse. The driver knocked politely, and Antoni took his time getting up from the bed, descending the stairs, and answering the door. The driver spoke, but Antoni knew why the man was there. Without a word, Antoni got in the car and shut the door himself.
 
 On the way, the driver tried to engage in casual chatter about sports, film, music, steering clear of current events. Antoni responded by raising the partition between the front of the cabin and the rear.
 
-The car took Antoni into the city to a cylindrical glass building that must have risen   a hundred stories into the blue sky, but Antoni’s attention was drawn down to the lack of green. Nothing grew here. Everything was dead.
+The car took Antoni into the city to a cylindrical glass building that must have risen a hundred stories into the blue sky, but Antoni’s attention was drawn down to the lack of green. Nothing grew here. Everything was dead.
 
 With an eager grin, Guillermo greeted him and led him into a great, cold atrium.
 
@@ -238,7 +238,7 @@ Antoni blinked, processing the idea. “A battery that recharges itself?”
 
 Intrigued, Antoni followed Guillermo deeper into the facility and into a chamber where a small glass sphere sat on a pedestal. To Antoni’s unaided eye, it looked stunningly perfect, unnaturally smooth. The light flowed around it instead of through it. Even the rays that hit it directly in its center were cupped and guided around the spherical center. The effect was, at the core, a fine point of darkness not even light could penetrate. It looked like a brilliant jewel.
 
-“Beautiful, isn’t it?” Guillermo said, then pointed to an observation room through a window  . “I’ll be in there. You just take your time, and when it feels right, do what you do.”
+“Beautiful, isn’t it?” Guillermo said, then pointed to an observation room through a window. “I’ll be in there. You just take your time, and when it feels right, do what you do.”
 
 Guillermo left Antoni with the sphere, and if he were truly alone, Antoni would have spent hours contemplating what he was going to do. However, under Guillermo’s watchful, anticipatory gaze, Antoni felt a clock ticking down. More than that, though, the possibility haunted him. What if Guillermo had done it? What would be the harm in trying?
 
@@ -250,7 +250,7 @@ Guillermo’s muffled cheers radiated from the observation room.
 
 Laboring on excited breaths, Guillermo hurried back into the chamber. “I knew it. Antoni, you did it. Let me show you what you’ve really done.”
 
-Guillermo grabbed Antoni’s hand and took him out into the hall and to a lab where dozens of scientists were working at different stations. When Guillermo entered with the glowing sphere in his hand and Antoni in tow, rattling keyboards quieted, idle chatter ceased, and four men and women at the whiteboard froze and capped their markers. They all followed    .
+Guillermo grabbed Antoni’s hand and took him out into the hall and to a lab where dozens of scientists were working at different stations. When Guillermo entered with the glowing sphere in his hand and Antoni in tow, rattling keyboards quieted, idle chatter ceased, and four men and women at the whiteboard froze and capped their markers. They all followed.
 
 In the back, Guillermo gestured toward something about seven feet tall with a white sheet draped over it. Guillermo looked at Antoni in anticipation.
 
@@ -260,11 +260,11 @@ In the back, Guillermo gestured toward something about seven feet tall with a wh
 
 “The moment we create life.”
 
-Guillermo whipped the sheet off, and Antoni was staring at a steel and chrome humanoid shape. Its exterior was all metal and constructed to resemble muscles, but its joints, wrists, elbows, and knees were thin and minimal. Its neck vertebrae were exposed with an array of hydraulic struts    to regulate its head movements. Its mouth was a glass screen, and it had no nose save for a convex point on its face shield to mimic the feature. It had eyes, but they were closed, or rather, covered by mechanical shutters resembling eye lids.
+Guillermo whipped the sheet off, and Antoni was staring at a steel and chrome humanoid shape. Its exterior was all metal and constructed to resemble muscles, but its joints, wrists, elbows, and knees were thin and minimal. Its neck vertebrae were exposed with an array of hydraulic strutsto regulate its head movements. Its mouth was a glass screen, and it had no nose save for a convex point on its face shield to mimic the feature. It had eyes, but they were closed, or rather, covered by mechanical shutters resembling eye lids.
 
 “The problem has become one of labor,” Guillermo said. “You’re only one man, Antoni, and you can’t be everywhere. It’s taking more of your energy to sustain us than you have. Now, we can have all of the helping hands that we need, and they’ll never tire.”
 
-Guillermo stepped behind the humanoid machine   , opened a compartment in its back, and placed the sphere inside. 
+Guillermo stepped behind the humanoid machine, opened a compartment in its back, and placed the sphere inside. 
 
 “Antoni,” Guillermo said. “Say hello to Enoch, the first automaton.”
 
@@ -278,9 +278,9 @@ Enoch’s eye shutters fluttered asynchronously and then snapped into unison. It
 
 <p style="text-align: center;">#</p>
 
-Antoni imbued thousands of automatons with the energy of life, and supplied with his seeds, they tirelessly carried his touch    to every corner of the Earth. They tended, harvested, packaged, and distributed the food, and because all of the work was completed by the automatons, eating became free the world over. For a time, there was no hunger. 
+Antoni imbued thousands of automatons with the energy of life, and supplied with his seeds, they tirelessly carried his touch to every corner of the Earth. They tended, harvested, packaged, and distributed the food, and because all of the work was completed by the automatons, eating became free the world over. For a time, there was no hunger. 
 
-That time, however, was short.  
+That time, however, was short. 
 
 One day, at Antoni’s farm, something was wrong with the harvest. It was light, and the crops were withered and sickly. Antoni buried his fingers, and nothing happened. 
 
@@ -292,9 +292,9 @@ It spread.
 
 <p style="text-align: center;">#</p>
 
-With dust and wind from the oncoming storm whipping at their backs, Antoni and Enoch cross the parking lot and enter the store.     The metal door is missing its pane of glass, and as Antoni swings it open, it pops off its hinges and slams on the debris-strewn tile floor. Antoni accidentally kicks a bell, which jingles as it tumbles into an aisle of shelving that has fallen under the weight of time, like everything else.
+With dust and wind from the oncoming storm whipping at their backs, Antoni and Enoch cross the parking lot and enter the store. The metal door is missing its pane of glass, and as Antoni swings it open, it pops off its hinges and slams on the debris-strewn tile floor. Antoni accidentally kicks a bell, which jingles as it tumbles into an aisle of shelving that has fallen under the weight of time, like everything else.
 
-Servos in Enoch’s neck whir as he scans the interior. Dust has coated everything like a grayish   -brown snow. A breeze whips and whistles over the jagged teeth of the front display window. Daylight touches a long counter, and beyond, the store is bathed in darkness.
+Servos in Enoch’s neck whir as he scans the interior. Dust has coated everything like a grayish-brown snow. A breeze whips and whistles over the jagged teeth of the front display window. Daylight touches a long counter, and beyond, the store is bathed in darkness.
 
 “Hello?” Antoni says, but nothing responds.
 
@@ -304,7 +304,7 @@ Behind the counter, another automaton snaps upright, throwing dust like flour. I
 
 “Greetings! I am the automaton designated Ardent Attendant. Welcome to Furry Friends Inc., where all your pet needs are met. We just received a new litter of Malinois shepherds, and snagless cat sweaters are buy one, get one half off!” Ardent Attendant slide-stops on the built-in rail system that replaces his legs until he is at the corner of the counter nearest the entrance. He leans in and places an elbow on the plane where a glasstop used to be but has long since shattered into the display case below. “How may I be of service today?”
 
-Beside Antoni is a locked cage with canine bones inside. He knows it is childlike, but he worries for a moment that   the spirits of those animals are trapped, still waiting for someone to come for them. He indulges that part of himself and opens the door. It’s in his nature, he supposes, to try to help even when it is hopeless.
+Beside Antoni is a locked cage with canine bones inside. He knows it is childlike, but he worries for a moment that the spirits of those animals are trapped, still waiting for someone to come for them. He indulges that part of himself and opens the door. It’s in his nature, he supposes, to try to help even when it is hopeless.
 
 “Ardent, buddy,” Antoni says, “today, I’m going to do something for you.”
 
@@ -350,7 +350,7 @@ Antoni nods. “I’m not God. He knew to give it a rest. It took me far too lon
 
 Antoni embraces Enoch. “It’s never enough. Thank you for everything. You’ve been my most loyal friend.”
 
-Enoch responds with the flit of his ocular shutters and places a metal hand on Antoni’s back. When Antoni releases him, he obediently turns and grants access to his core. Antoni hesitates for a moment but goes through with it  . His long-time companion freezes in time. Antoni takes the source into his palm and drains its life. There it sits, a clear sphere with a pinhole black core.
+Enoch responds with the flit of his ocular shutters and places a metal hand on Antoni’s back. When Antoni releases him, he obediently turns and grants access to his core. Antoni hesitates for a moment but goes through with it. His long-time companion freezes in time. Antoni takes the source into his palm and drains its life. There it sits, a clear sphere with a pinhole black core.
 
 “Rest well, my friend.” 
 
@@ -368,7 +368,7 @@ A pack of adult Malinois shepherds spill from the storefront and dash away, toge
 
 “Good luck to all of you.”
 
-Antoni’s lips shrivel, crack, and bleed. He feels it then, the final act, its cost, internal withering, the well bucket pulling from within instead of without, the life he gives instead of takes, the way it was always supposed to be, and he knows that this time, because the gift was his to give,   it will be different.
+Antoni’s lips shrivel, crack, and bleed. He feels it then, the final act, its cost, internal withering, the well bucket pulling from within instead of without, the life he gives instead of takes, the way it was always supposed to be, and he knows that this time, because the gift was his to give, it will be different.
 
 
 <p style="text-align: center;">© 2023 Timothy Johnson</p>
