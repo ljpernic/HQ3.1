@@ -91,7 +91,7 @@ const Home = (props) => {                                                     //
                       </div>
                     </div>
                     <div className="col-12 text-center pb-8 pt-4">
-                      <Link className="button button-primary" to="/issue-nine">
+                      <Link className="button button-primary" to="/issue-ten">
                         View Issue
                       </Link>
                 </div>

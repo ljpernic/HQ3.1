@@ -1,4 +1,56 @@
-####################################################################___ISSUE EIGHT___####################################################################
+####################################################################___ISSUE TEN___####################################################################
+- id: Issue Ten, August 2023
+  idpath: "/issue-ten"
+  issuecover: "../images/covers/010_COVER.jpg"
+  issueUrl: "https://ko-fi.com/s/08058789a3"
+  teaserText: Issue Ten is here! 
+  
+  
+    We've got&#58;
+  
+  
+    Fiction by Amanda Haimoto Rudd, Lindsey Duncan, Dana Vickerson, Marissa Lingen, Lynne Sargent, and AD Sui!
+
+
+    Poetry by Sodïq Oyèkànmí, Kevin Martens Wong, Avra Margariti, Mark A. Fisher, and S. T. Eleu!
+
+
+    Read the entire issue now! 
+  text: Issue Ten is here! 
+  
+  
+    We've got&#58;
+  
+  
+    Fiction by Amanda Haimoto Rudd, Lindsey Duncan, Dana Vickerson, Marissa Lingen, Lynne Sargent, and AD Sui!
+
+
+    Poetry by Sodïq Oyèkànmí, Kevin Martens Wong, Avra Margariti, Mark A. Fisher, and S. T. Eleu!
+
+
+    Read the entire issue now!
+    
+    
+    If you'd like to support us, consider grabbing a copy at <a href="https://ko-fi.com/s/08058789a3">our ko-fi shop</a> or subscribing 
+    through <a href="https://www.patreon.com/HavenSpecMagazine">our patreon</a>, and don't forget to keep an eye out for our upcoming Kickstarter too!
+  artist: Tracy Whiteside
+  artistTwitter: TracyWhiteside1 
+  artistFacebook:
+  artistUrl: https://tracywhitesidefantasyphotos.myportfolio.com/work
+  artistimage: "../images/profile/Tracy_Whiteside.jpg"
+  artistbio: "Tracy Whiteside is an award-winning, Chicago-area photographer specializing in fantasy and dark art. Her work has been published internationally in fashion, 
+    literature, and fine art books and magazines. Exhibited in galleries worldwide, Tracy is inspired by the darkness in our souls and the need to escape it. Most of her 
+    creations are based on women's issues and mental wellness."
+
+
+
+
+
+
+
+
+
+####################################################################___ISSUE NINE___####################################################################
 - id: Issue Nine, June 2023
   idpath: "/issue-nine"
   issuecover: "../images/covers/009_COVER.jpg"

@@ -47,8 +47,8 @@ const Subscribe = (props) => {
               Subscribe
             </h1>
             <p>
-              Get each new issue sent directly to your inbox through <Link to="https://ko-fi.com/havenspec/tiers"> Ko-Fi </Link> or 
-              <Link to="https://www.patreon.com/HavenSpecMagazine"> Patreon</Link>! It's basically magic! Remember, a mastodon never forgets—to subscribe!
+              Get each new issue sent directly to your inbox through <Link to="https://www.patreon.com/HavenSpecMagazine"> Patreon</Link>! It's basically magic! 
+              Remember, a mammoth never forgets—to subscribe!
             </p>
             <p>
               You can also sign up for workshop-style feedback from our editors on any work of prose or poetry you choose (once per month and up to 6K words), and there's even an 
