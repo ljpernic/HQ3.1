@@ -16,17 +16,17 @@ const About = (props) => {
   const leonTwitter = `http://twitter.com/leonperniciaro`;  
   const ashTwitter = `http://twitter.com/ashaquestion`;
   const tjTwitter = `http://twitter.com/eerieyore`;
-  const evelynTwitter = `http://twitter.com/evelyn_freeling`;
+  const danaiTwitter = `http://twitter.com/Danaiwrites`;
 
   const leonFacebook = null;  
   const ashFacebook = null;
   const tjFacebook = null;
-  const evelynFacebook = null;
+  const danaiFacebook = null;
 
   const leonUrl = `https://www.leonperniciaro.com`;
   const ashUrl = null;
-  const tjUrl = null;
-  const evelynUrl = null;
+  const tjUrl = `https://tjpricewrites.com/`;
+  const danaiUrl = null;
 
   const leonDisplayTwitter = leonTwitter === null ? null : <a className='social-icon' href={leonTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
   const leonDisplayFacebook = leonFacebook === null ? null : <a className='social-icon' href={leonFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
@@ -40,9 +40,9 @@ const About = (props) => {
   const tjDisplayFacebook = tjFacebook === null ? null : <a className='social-icon' href={tjFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
   const tjDisplayUrl = tjUrl === null ? null : <a className='social-icon' href={tjUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
-  const evelynDisplayTwitter = evelynTwitter === null ? null : <a className='social-icon' href={evelynTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
-  const evelynDisplayFacebook = evelynFacebook === null ? null : <a className='social-icon' href={evelynFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
-  const evelynDisplayUrl = evelynUrl === null ? null : <a className='social-icon' href={evelynUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+  const danaiDisplayTwitter = danaiTwitter === null ? null : <a className='social-icon' href={danaiTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const danaiDisplayFacebook = danaiFacebook === null ? null : <a className='social-icon' href={danaiFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const danaiDisplayUrl = danaiUrl === null ? null : <a className='social-icon' href={danaiUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
 
   return (
@@ -113,11 +113,68 @@ const About = (props) => {
 
                   <p>
                   <b>Leon Perniciaro</b> (he/him) is the editor of Haven Spec Magazine, an assistant editor at <a href="https://www.android-press.com/">Android 
-                  Press</a>, and a submissions editor at <a href="https://uncannymagazine.com/">Uncanny Magazine</a>. He is also a member of SFWA and the Codex 
-                  Writers' Group, and he will begin his studies as an English PhD student at the University of Connecticut this fall.
+                  Press</a>, and a submissions editor at <a href="https://uncannymagazine.com/">Uncanny Magazine</a>. He studies English as a PhD student at the University of 
+                  Connecticut, is a member of SFWA and the Codex Writers' Group, and is a citizen of the Choctaw-Apache Tribe of Ebarb.
                   </p>
                   <p className="pb-1"> Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
                   </p>
+                </div>
+
+                <div>
+                  <h1 className="pt-3 pb-1">
+                    About the Assistant Editors
+                  </h1>
+                  <div className="editorImageAbout mb-2">
+                    <Image 
+                      fixed={data.tj.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {tjDisplayTwitter}
+                      {tjDisplayFacebook}
+                      {tjDisplayUrl}
+                    </div>
+                  </div>
+
+                  <p>
+                  <b>TJ Price</b>&#39;s corporeal being is currently located in Raleigh, NC, with his handsome partner 
+                    of many years, but his ghosts live in northeastern Connecticut, southern Maine, and north Brooklyn. 
+                    He is the author of the novelette The Disappearance of Tom Nero, published by Spooky House Press. 
+                    His work has appeared—or is forthcoming—in <em>Nightmare Magazine</em>, <em>pidgeonholes</em>, <em>The NoSleep 
+                    Podcast</em>, and various anthologies. He's almost always in the middle of some project, either editorially 
+                    or otherwise, and enjoys experimenting with prose & poetry as well as certain esoteric studies.
+                  </p> 
+                  
+                  <p className="pb-1">
+                    He can be invoked at either tjpricewrites.com or via the blue bird @eerieyore. Failing that, one can make a 
+                    circle of chalk on the floor, stand in the center, and burn a photograph of a loved one until all that remains 
+                    is ashes. Then, listen for a murmuring from within the walls. Leave your message after the sound of the screb.
+                  </p>
+
+                  <div className="editorImageAbout mb-2">
+                    <Image 
+                      fixed={data.danai.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {danaiDisplayTwitter}
+                      {danaiDisplayFacebook}
+                      {danaiDisplayUrl}
+                    </div>
+                  </div>
+
+                  <p>
+                    <b>Danai Christopoulou</b> (she/they) is a queer Greek SFF author and editor who read Edgar 
+                    Allan Poe's The Raven when she was 9 years old and never recovered. Danai&#39;s nonfiction appears 
+                    in lifestyle publications such as Glamour and Marie Claire. They are a submissions editor for 
+                    Uncanny magazine, a proofreader for khōréō, and an intern/reader at the Tobias Literary Agency. 
+                    Their short fiction is published in various SFF magazines (including Haven Spec) and their 
+                    novels are represented by Lauren Bieker of FinePrint Literary.
+                  </p> 
+                  
+                  <p className="pb-1">
+                    Originally from Greece, Danai can be found talking to crows, cats and chickens in a Swedish 
+                    forest, while haunting the internets as @danaiwrites on all the apps. 
+                  </p>
+
                 </div>
 
                 <div>
@@ -143,51 +200,6 @@ const About = (props) => {
                   <p className="pb-1">When the weather's lousy, you can usually find Ash curled up with a massive cup of tea 
                   and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.
                   </p>
-                  <div className="editorImageAbout mb-2">
-                    <Image 
-                      fixed={data.tj.childImageSharp.fixed}
-                    />
-                    <div class="side-block">
-                      {tjDisplayTwitter}
-                      {tjDisplayFacebook}
-                      {tjDisplayUrl}
-                    </div>
-                  </div>
-
-                  <p>
-                  <b>TJ Price</b>’s corporeal being (he/him) is currently located in Brooklyn, NY, with his
-                    handsome partner of many years, but his ghosts live in northeastern Connecticut and
-                    southern Maine. He either is or has been a wine-seller, a wine-drinker, an avid reader,
-                    an obsessive writer, a pen-and-ink artist, a dishwasher, a neurosurgical technologist, a
-                    proofreader, a storm-watcher, a music-maker, and other sundry avocations.
-                  </p> 
-                  
-                  <p className="pb-1">
-                    Primarily, TJ spends his time reading as much as his eyes can take, but when he&#39;s not
-                    reading, he&#39;s either writing weird stories about unnerving things, drawing lots of little
-                    circles in pen and ink, enjoying esoteric studies, or taking photographs of clouds.
-                  </p>
-
-                  <div className="editorImageAbout mb-2">
-                    <Image 
-                      fixed={data.evelyn.childImageSharp.fixed}
-                    />
-                    <div class="side-block">
-                      {evelynDisplayTwitter}
-                      {evelynDisplayFacebook}
-                      {evelynDisplayUrl}
-                    </div>
-                  </div>
-
-                  <p>
-                    <b>Evelyn Freeling</b> (she/her) is a speculative fiction writer with short fiction published in anthologies with Ghost Orchid Press and Dark 
-                    Dispatch. She's also the editor for an erotic horror anthology titled <em>Les Petites Morts</em>. When she isn't writing, editing, studying craft, 
-                    or reading, she works part-time as a chef, housecleaner, chauffeur, and clown (which really means she's a full-time mom). </p> 
-                  
-                  <p className="pb-1">Evelyn currently resides in Dubai and enjoys her free time at the beach. She alternates between obsessions with true crime 
-                  documentaries, horror films, and watching Youtube videos about quantum mechanics.
-                  </p>
-
                 </div>
                 <hr />
                       
@@ -278,9 +290,6 @@ const About = (props) => {
               Interested to know how this website was put together? Want to get a (free!) copy of the website and our backend systems of your 
               own? <Link to="/about-this-site">Click here!</Link>
             </p>
-            <p className="mb-4">
-              Haven Spec is run cooperatively! Interested to know what that means? <Link to="/organization">Click here!</Link>
-            </p>
           </div>
           </div>
         </div>
@@ -323,7 +332,7 @@ export const query = graphql`
         }
       }
     }
-    evelyn: file(relativePath: { eq: "profile/Evelyn_Freeling.jpg" }) {
+    danai: file(relativePath: { eq: "profile/Danai_Christopoulou.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
