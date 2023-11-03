@@ -18,7 +18,7 @@ Adrijan hadn’t plugged it up before going to bed despite the guesthouse host�
 
 But Adrijan didn’t care; every day had felt like a nightmare since Sanja died.
 
-He had come here to forget. The tourists with their glowing tans and laughing children had left the island months ago. Now the beaches were empty, visited only by the harsh bura wind, which pounded and pounded against the rocky shores, bringing salt and sickness and fatigue. Adrijan wandered the washed-out streets alone, hugging his threadbare coat tight. The one Sanja had mended for him the winter before. *Sanja*. Her name meant “dream”. That’s all she was now. A dream.
+He had come here to forget. The tourists with their glowing tans and laughing children had left the island months ago. Now the beaches were empty, visited only by the harsh jugo wind, which pounded and pounded against the rocky shores, bringing salt and sickness and fatigue. Adrijan wandered the washed-out streets alone, hugging his threadbare coat tight. The one Sanja had mended for him the winter before. *Sanja*. Her name meant “dream”. That’s all she was now. A dream.
 
 Pour one shot of rakija. Swallow. Move a chess piece. Pour another shot, swallow. Adrijan followed the same ritual every night, playing by himself at the table beneath the window. He eventually drifted to bed in a drunken daze, praying to Marija, to God, to whomever would listen, to let him drown in his grief. When sleep finally took him, he dreamed of waves that chopped like knives in the dark. Salty seafoam that sprayed and stung. His wife’s honey-colored eyes widening in fear before the ink-black water swallowed her whole. His empty hands, frail and worthless since the day they failed to save her. 
 
