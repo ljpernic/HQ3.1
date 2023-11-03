@@ -67,7 +67,7 @@ const Subscribe = (props) => {
             Kickstarter
             </h1>
             <p className="pb-1">
-              Keep an eye on this space for information about any Kickstarters we might do! The future belongs to all of us!
+              And through <a href='https://www.kickstarter.com/projects/haven-spec-magazine/haven-spec-magazine-2024'>our Kickstarter</a>!
             </p>
             <hr />
 

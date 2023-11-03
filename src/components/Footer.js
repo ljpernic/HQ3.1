@@ -33,13 +33,13 @@ const Footer = props => (
                   </div>
                 </IconContext.Provider>
               </a>
-              <a href="https://HavenSpec.com/newsletter">  
+              <Link to="/newsletter">  
                 <IconContext.Provider value={{className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title:"social media icons"}}>
                   <div>
                     <FaEnvelope />
                   </div>
                 </IconContext.Provider>
-              </a>
+              </Link>
               </div>
             <ul className="footer-menu">
               <li className="copyright">

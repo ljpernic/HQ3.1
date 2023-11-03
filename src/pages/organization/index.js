@@ -49,7 +49,7 @@ const Organization = (props) => {
                   </p>
 
                   <p>
-                    Currently, we've agreed that, through 2022, every penny we get, whether through sales, subscriptions, or Kickstarter, will go towards increasing author pay, 
+                    Currently, we've agreed that every penny we get, whether through sales, subscriptions, or Kickstarter, will go towards increasing author pay, 
                     up to SFWA-standard rates. After we reach SFWA rates, we've agreed that any money earned in excess will be put towards recouping expenses related to art and 
                     web hosting. After those expenses, we've agreed that any profits remaining will be split each issue at a share ratio of 1/2/4 for associate editors, 
                     assistant editors, and editors, respectively.

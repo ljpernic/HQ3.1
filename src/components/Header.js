@@ -55,13 +55,13 @@ class Header extends React.Component {
                     </div>
                     </IconContext.Provider>
                   </a>
-                  <a href="https://HavenSpec.com/newsletter">  
+                  <Link to="/newsletter">  
                     <IconContext.Provider value={{className: "social-media-header", color: "#414156", size: "1.4em", verticalAlign: "right", title:"social media icons"}}>
                     <div>
                       <FaEnvelope />
                     </div>
                     </IconContext.Provider>
-                  </a>
+                  </Link>
                 </div>
               </div>
 

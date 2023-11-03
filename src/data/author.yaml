@@ -395,6 +395,24 @@
   - poemtitle: One-Way, through the Fire
     poemlink: /one-way-through-the-fire
 
+- id: Rebecca A. Demarest
+  idpath: "/rebecca-a-demarest"
+  bio: "Rebecca A. Demarest is an award-winning author, playwright, book designer, and writing instructor living in Seattle, WA with her husband and two muppets. Her short 
+    work has appeared alongside authors like Cat Rambo and dramatized for the stage and NPR. When not being held hostage by words, you can find her at her day 
+    job (working the people side of unbelievably awesome tech) tending to her indoor jungle (now with real frogs and lizards!), crafting, sewing, running 
+    Dungeons and Dragons as a professional Dungeon Master, and failing to teach her dogs new tricks. For more information on her work, 
+    please visit <a href='https://rebeccademarest.com/'>rebeccademarest.com</a>."
+  twitter:
+  url: 'https://rebeccademarest.com/'
+  facebook:
+  picture: ../images/profile/Rebecca_A_Demarest.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Sestainability"
+    poemlink: "/sestainability"
+
 - id: RC deWinter
   idpath: "/rc-dewinter"
   bio: "RC deWinter's poetry is widely anthologized, notably in <em>New York City Haiku</em> (NY Times, 2/2017), <em>easing the edges: a collection of everyday miracles </em> (Patrick 
@@ -598,6 +616,23 @@
   poems:
   - poemtitle: Blood, Roses, Song
     poemlink: /blood-roses-song
+
+- id: A. R. Frederiksen
+  idpath: "/a-r-frederiksen"
+  bio: "A. R. Frederiksen is a Danish writer of English speculative fiction, represented by Mollie Glick from CAA. Her short fiction has been published 
+    by <em>Factor Four Magazine</em>, Quill and Crow Publishing House, Night Terror Novels, Brigids Gate, <em>Crow and Cross Keys</em>, and more. She lives in 
+    Denmark where she works full-time as a copyeditor for ContentAvenue and freelances as a creative writing instructor at South Gate Creative Writing School."
+  twitter: 'ARFrederiksen'
+  url: https://arfrederiksen.com/
+  facebook:
+  picture: ../images/profile/A_R_Frederiksen.jpg
+  stories:
+  - storytitle: "The Drowning Bones"
+    storylink: "/the-drowning-bones"
+  poems:
+  - poemtitle:
+    poemlink:
+
 
 ####################################################################___LETTER G___####################################################################
 
@@ -895,6 +930,22 @@
   - poemtitle:
     poemlink:
 
+- id: Natalie Kikić
+  idpath: "/natalie-kikić"
+  bio: "Natalie Kikić is a speculative fiction writer and daughter of immigrants from the former Yugoslavia. She holds a Bachelors in Slavic Languages & Literatures 
+    and writes fiction inspired by her heritage. Originally from California, Natalie has called several places home, but she currently lives in Nova Scotia, Canada 
+    with her husband and two polydactyl cats."
+  twitter: 'NatKikicWrites'
+  url:
+  facebook:
+  picture: ../images/profile/Natalie_Kikić.jpg
+  stories:
+  - storytitle: For the Price of One Nightmare
+    storylink: "/for-the-price-of-one-nightmare"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Annika Barranti Klein
   idpath: "/annika-barranti-klein"
   bio: Annika Barranti Klein lives and writes in a tiny apartment in Los Angeles with her family. She is a lifelong lover of zoos and obscure facts. Her fiction has 
@@ -944,6 +995,21 @@
     poemlink: 
 
 ####################################################################___LETTER L___####################################################################
+
+- id: Connie La-Huynh
+  idpath: "/connie-la-huynh"
+  bio: 'Connie La-Huynh is a writer with a penchant for the dark, strange, and subversive. She lives in a cottage in the foothills of a California mountain with 
+    her husband, many books, and an old cat who guards the house from all things that go bump in the night.'
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Connie_La-Huynh.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Queen of the Underworld"
+    poemlink: "/queen-of-the-underworld"
 
 - id: D.K. Lawhorn
   idpath: "/d-k-lawhorn"
@@ -1254,6 +1320,22 @@
   - poemtitle: "Lunar Maria"
     poemlink: "/lunar-maria"
 
+- id: James Parenti
+  idpath: "/james-parenti"
+  bio: "James Parenti a Pennsylvania-based author and playwright. His short fiction was recently published by <em>Dread Machine Magazine</em>, and his 
+    plays <em>May Violets Spring</em> and <em>How Much of Me is You</em> have been produced by multiple theaters across the US. He lives outside Philadelphia with his 
+    spouse, an embarrassingly large fleet of guitars, and two creepy kitties named after gothic literary characters."
+  twitter: 'JDParenti'
+  url:
+  facebook:
+  picture: ../images/profile/James_Parenti.jpg
+  stories:
+  - storytitle: "The Back of the Hand to Everything"
+    storylink: "/the-back-of-the-hand-to-everything"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: the_people
   idpath: "/the_people"
   bio: Chukwuma-Eke Pacella, NGP Xv, is a Nigerian poet, a short story writer, an editor and a feminist. She is the winner of the Cradle poetry contest and joint winner of the 
@@ -1307,6 +1389,40 @@
   - poemtitle: "A Prayer for the Surviving"
     poemlink: /a-prayer-for-the-surviving
 
+- id: "Sandra Pope"
+  idpath: "/sandra-pope"
+  bio: "Sandra Pope is an artist, author and in a previous chapter, was a high school teacher in California. She graduated from UCLA in fiction writing in 1972. In 
+    2008, she penned GROWING UP WITHOUT THE GODDESS, a memoir about returning to North Carolina to discover her childhood abusers. For ten years, her pen fell silent. 
+    Then, during long walks through rural land debased by hog farms and abused by industrial farming, she listened to the land and honored its voice in poems. 
+    In 2021, Sandra's poem, “The Day After Christmas” was a finalist in the NC Poet Laureate Contest, judged by North Carolina's Poet Laureate."
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Sandra_Pope.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Field"
+    poemlink: "/the-field"
+
+- id: "• R L • powell"
+  idpath: "/r-l-powell"
+  bio: "• R L • powell is a neurodivergent writer who's lived through a lot—and also as queer as they come. When not scribbling mad words in a crooked house, he 
+    occasionally teaches rhetoric and critical theory to undergraduates. They didn't publish for a spell, but current work appears or is forthcoming 
+    in <em>The Rumen</em>, <em>Impossible Archetype</em>, <em>Eunoia Review</em> and elsewhere. He's not much for engaging in social media, but does have a 
+    website that they try to keep on top of: <a href='https://rl-powell.com/'>rl-powell.com</a>."
+  twitter:
+  url: 'https://rl-powell.com/'
+  facebook:
+  picture: ../images/profile/R_L_Powell.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "And the Sea Brags of its Shells"
+    poemlink: "/and-the-sea-brags-of-its-shells"
+
 - id: TJ Price
   idpath: "/t-j-price"
   bio: TJ Price’s corporeal being (he/him) is currently located in Brooklyn, NY, with his handsome partner of many years, but his ghosts live in northeastern Connecticut 
@@ -1321,6 +1437,21 @@
   stories:
   - storytitle:
     storylink:
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Rajeev Prasad
+  idpath: "/rajeev-prasad"
+  bio: "Rajeev Prasad is a physician and writer whose stories appear in <em>The Magazine of Fantasy and Science Fiction</em>, <em>Clarkesworld</em>, and other 
+    fabulous magazines. He hopes you enjoyed reading this story. Follow him on twitter <a href=“https://www.twitter.com/rajeevwriter”>@rajeevwriter</a>."
+  twitter: 'RajeevWriter'
+  url:
+  facebook:
+  picture: ../images/profile/Rajeev_Prasad.jpg
+  stories:
+  - storytitle: "You Came For Goodbye"
+    storylink: "/you-came-for-goodbye"
   poems:
   - poemtitle:
     poemlink:
@@ -1500,6 +1631,22 @@
   - poemtitle: "Instructions from a Signalman"
     poemlink: "/instructions-from-a-signalman"
 
+- id: T. R. Siebert
+  idpath: "/t-r-siebert"
+  bio: "T. R. Siebert is a speculative fiction writer from Germany. Her short fiction has been published in <em>Flash Fiction Online</em>, <em>Escape 
+    Pod</em> and <em>Fusion Fragment</em>. When she's not busy writing, she can be found attempting to grow vegetables on her balcony or looking at pictures 
+    of cute dogs. Tweet at her <a href='https://www.twitter.com/TR_Siebert'>@TR_Siebert</a>."
+  twitter: 'TR_Siebert'
+  url: 
+  facebook: 
+  picture: ../images/profile/T_R_Siebert.jpg
+  stories:
+  - storytitle: "The Last Day of Autumn"
+    storylink: "/the-last-day-of-autumn"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: João F. Silva
   idpath: "/joao-f-silva"
   bio: João F. Silva is a Portuguese writer of Science Fiction and Fantasy now based in the UK. When not writing, he can be found playing video games or cooking Portuguese food. 
@@ -1550,6 +1697,21 @@
     poemlink:
 
 ####################################################################___LETTER T___####################################################################
+
+- id: Gretchen Tessmer
+  idpath: "/gretchen-tessmer"
+  bio: "Gretchen Tessmer lives in the deep woods of the U.S./Canadian borderlands. She's published more than 100 short stories and poems in such venues as <em>Nature</em>, <em>Bourbon 
+    Penn</em>, <em>Strange Horizons</em>, <em>Beneath Ceaseless Skies</em> and <em>F&SF</em>."
+  twitter: 'gretchentessmer'
+  url: 
+  facebook:
+  picture: ../images/profile/Gretchen_Tessmer.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Pillow Talk in the Tempest"
+    poemlink: "/pillow-talk-in-the-tempest"
 
 ####################################################################___LETTER U___####################################################################
 
@@ -1633,8 +1795,8 @@
     Flowers</em> from Crooked Steeple Press. A graduate of the MFA program at Miami University, his poems and stories have appeared or are forthcoming in, <em>Strange 
     Horizons</em>, <em>Space & Time</em>, <em>Illumen</em>, <em>The Dread Machine</em>, <em>Abyss & Apex</em>, <em>Spaceports and Spidersilk</em>, <em>Cortland 
     Review</em>, <em>Pittsburgh Quarterly</em>, <em>Spry</em>, and <em>Underwood Press</em>, among others. He’s a high school teacher, a father, and a husband. 
-    You can connect with him via twitter at <a href=“https://www.twitter.com/marcuswhalbring”>@marcuswhalbring</a> and learn more about his work 
-    at <a href=“https://marcuswhalbring.wpcomstaging.com/poetry/”>https://marcuswhalbring.wpcomstaging.com/poetry/</a>."
+    You can connect with him via twitter at <a href=“https://www.twitter.com/marcuswhalbring”>@marcuswhalbring</a> and learn more 
+    about <a href=“https://marcuswhalbring.wpcomstaging.com/poetry/”>his work</a>."
   twitter: 'marcuswhalbring'
   url: https://marcuswhalbring.wpcomstaging.com/poetry/
   facebook:
