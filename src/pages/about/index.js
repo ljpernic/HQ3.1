@@ -257,7 +257,7 @@ const About = (props) => {
                   </p>
                   <p>
                     This page isn't meant to be an exhaustive list of dos and don'ts. We kindly ask that you use your brain. It's still harassment if you're 
-                    "Just joking." it's still harassment if it's subtext and innuendo. It's still harassment whether scribbled in a notebook or written in the sky. 
+                    "just joking." it's still harassment if it's subtext and innuendo. It's still harassment whether scribbled in a notebook or written in the sky. 
                     If you're not sure what counts, there are many resources online, but err in all cases on the side of caution.
                   </p>
                   <p className="pb-1">

@@ -6,7 +6,7 @@ import allIssueData from "../data/issue.yaml"
 
 const currentIssue = allIssueData[0].issueUrl
 
-//const currentIssue = `https://ko-fi.com/s/e87fa3a5fb`;
+//const currentIssue = `https://ko-fi.com/s/7f3a7131bd`;
 
 //////// CREATES COMPONENT THAT RETURNS THE COLUMN CONTAINING THE CURRENT ISSUE AND SQUARE ADVERTS ////////
 

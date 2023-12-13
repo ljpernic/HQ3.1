@@ -50,24 +50,25 @@ const Subscribe = (props) => {
               Get each new issue sent directly to your inbox through <Link to="https://www.patreon.com/HavenSpecMagazine"> Patreon</Link>! It's basically magic! 
               Remember, a mammoth never forgets—to subscribe!
             </p>
-            <p>
+            {/* <p>
               You can also sign up for workshop-style feedback from our editors on any work of prose or poetry you choose (once per month and up to 6K words), and there's even an 
               option to meet one-on-one with our editor over zoom for an hour-long deep-dive critique session!
-            </p>
+            </p> */}
             <p className="pb-1">
               Every penny that we get through Ko-Fi and Patreon will go towards increasing author pay! If you'd like to know more about our budget breakdown and organizational  
               set up, <Link to="/organization">Click here!</Link> Help us pay our authors and artists the rates they deserve! 
             </p>
 
             <a className='patreonbutton' href="https://www.patreon.com/bePatron?u=61506985">
-              Support Us on Patreon!
+              Subscribe through Patreon!
             </a>
             <hr />
             <h1 className="pt-1 pb-1">
             Kickstarter
             </h1>
             <p className="pb-1">
-              And through <a href='https://www.kickstarter.com/projects/haven-spec-magazine/haven-spec-magazine-2024'>our Kickstarter</a>!
+              <a href='https://www.kickstarter.com/projects/haven-spec-magazine/haven-spec-magazine-2024'>Our Kickstarter for 2024</a> was successful! Thank you 
+              everyone who supported our campaign to pay pro rates!
             </p>
             <hr />
 
@@ -75,7 +76,7 @@ const Subscribe = (props) => {
               Advertise
             </h1>
             <p className="">
-              At this moment, all ads are $30 per month, starting from the first of a given month and going until that month ends.
+              At this moment, all ads are $100 per month, starting from the first of a given month and going until that month ends.
             </p>
             <p>
               Each ad appears on every page of the website, and the square ads change position with each pageview. Do note, however, that all advertisements are subject to approval.

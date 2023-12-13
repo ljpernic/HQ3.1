@@ -77,12 +77,12 @@ const Submit = (props) => {
             </h1>
             <p>
               We are seeking stories in the English language up to 6,000 words by writers from around the world. We favor submisions that have not been published before (including 
-              on your own website), though we do accept a limited number of reprints not currently appearing anywhere online. For our two issues focused on the climate crisis, we're 
-              particularly interested in publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, we're 
-              open to a wide variety of stories across the SFF and weird spectra.
+              on your own website), though we have historically accepted a limited number of reprints not currently appearing anywhere online. For our two issues focused on the 
+              climate crisis, we're particularly interested in publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our 
+              other four issues, we're open to a wide variety of stories across the SFF and weird spectra.
             </p>
             <p>
-              We pay 1¢ per word for fiction, and we try to respond to all submissions within ten weeks. We will also accept a limited number of previously published 
+              We pay <strong>8¢ per word for fiction</strong>, and we try to respond to all submissions within ten weeks. We have also accepted a limited number of previously published 
               stories, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
               be either .rtf, .doc, or .docx. 
             </p>
@@ -113,9 +113,8 @@ const Submit = (props) => {
               we're open to a wide variety of poems across the SFF and weird spectra. 
             </p>
             <p>
-              We pay $5 for poems under one page (standard formatting) and $10 for longer poems, and we try to respond to all submissions within ten weeks. We will also 
-              accept a limited number of previously published poems, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript 
-              format (we prefer Courier New) and 
+              We pay <strong>$20 for poems</strong>, and we try to respond to all submissions within ten weeks. We have also accepted a limited number of previously published 
+              poems, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
               be either .rtf, .doc, or .docx.
             </p>
             <p>
@@ -131,22 +130,14 @@ const Submit = (props) => {
             </h1>
             <p className="pb-1">
               We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and pieces with funny or interesting takes we 
-              might not have expected. We pay 1¢ per word for non-fiction, but please nothing over 3,000 words (though we favor shorter over longer).
-            </p>
-            <hr />
-            <h1 className="pt-1 pb-1">
-              Guidelines for Translations
-            </h1>
-            <p className="pb-1">
-              There's so much great fiction in languages we can't read, and we'd like to change that. So if you have a translation of a story that has never appeared in English, 
-              we welcome it as a submission. We pay 1¢ per word for translations. Please see the other guidelines for the kinds of stories and poems we might be interested in.
+              might not have expected. We pay <strong>8¢ per word for non-fiction</strong>, but please nothing over 1,000 words.
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Art
             </h1>
             <p className="pb-1">
-              For each issue, we pay $35 for our cover art. If you think your work would look great on the cover of a science fiction and fantasy magazine, send us your best work 
+              For each issue, we pay <strong>$125 for cover art</strong>. If you think your work would look great on the cover of a science fiction and fantasy magazine, send us your best work 
               and be sure to include a link to your portfolio in the cover letter!
             </p>
             <hr />

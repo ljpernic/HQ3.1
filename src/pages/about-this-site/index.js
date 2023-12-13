@@ -55,12 +55,12 @@ const aboutThisSite = (props) => {
                   </p>
 
                   <p>
-                    A generic copy of this website (which was programmed with Gatsbyjs, a web framework based on ReactJS for building static websites) will soon be 
-                    available on GitHub! 
+                    A generic copy of this website (which was programmed with Gatsbyjs, a web framework based on ReactJS for building static websites) can be 
+                    made available on GitHub. 
                   </p>
 
                   <p>
-                    A copy of the backend system we use will also soon be available for anyone who wants it! This is a good option for any magazine who can't afford the 
+                    A copy of the backend system we use can also be made available for anyone who wants it. This is a good option for any magazine who can't afford the 
                     expensive systems already in place. If you're an open source programmer and interested in contributing to the project, feel free to get in touch!  
                   </p>
 

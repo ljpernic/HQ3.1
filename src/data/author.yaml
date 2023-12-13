@@ -138,6 +138,24 @@
   - poemtitle: "My FEMA trailer"
     poemlink: /my-fema-trailer
 
+- id: Elizabeth Broadbent
+  idpath: "/elizabeth-broadbent"
+  bio: Elizabeth Broadbent escaped the wilds of the Deep South for the Commonwealth of Virginia, where she lives with her three sons and husband. Her speculative fiction 
+    has appeared with, or is upcoming in, <em>HyphenPunk</em>, <em>Tales to Terrify</em>, <em>Penumbric</em>, <em>If There's Anyone Left</em>, and <em>The Cafe 
+    Irreal</em>. In summer of 2023, ELJ Edition published her novelette, “Naked & Famous,” about teenagers faking appearances of the South Carolina Lizardman. Her 
+    nonfiction has appeared in <em>The Washington Post</em>, <em>Insider</em>, and <em>Time</em>. In 2025, her novella, <em>Blood Cypress</em>, is set for 
+    publication with Raw Dog Screaming.
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Elizabeth_Broadbent.jpg
+  stories:
+  - storytitle: "Folded in Light"
+    storylink: /folded-in-light
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Andi C. Buchanan
   idpath: "/andi-C-buchanan"
   bio: 'Andi C. Buchanan lives and writes just outside Wellington, Aotearoa New Zealand. Winner of Sir Julius Vogel Awards for <em>From a Shadow Grave</em> (Paper Road Press, 
@@ -300,7 +318,7 @@
   twitter: 'Danaiwrites'
   url:
   facebook:
-  picture: ../images/profile/Danai_Christopoulou.jpeg
+  picture: ../images/profile/Danai_Christopoulou.jpg
   stories:
   - storytitle: "The Moon is All Wrong Here"
     storylink: /the-moon-is-all-wrong-here
@@ -378,6 +396,24 @@
   - poemtitle: The Nymphs Are Migrating
     poemlink: /the-nymphs-are-migrating
 
+- id: Karl Dandenell
+  idpath: "/karl-dandenell"
+  bio: Karl Dandenell is a graduate of Viable Paradise and a Full Member of the Science Fiction & Fantasy Writers Association. He and his family, plus their cat 
+    overlords, live on an island near San Francisco famous for its Victorian architecture and low speed limits. His preferred drinks are strong Swedish tea and 
+    single malt whiskey. Karl's work has appeared in such places as <em>Fireside Fiction</em>, <em>Metaphorosis</em>, <em>DreamForge</em>, <em>Little Blue 
+    Marble</em>, <em>Speculative North</em>, and the anthologies <em>Abandoned Places</em> and <em>The Science Fiction Tarot</em>. You can find links to his other 
+    work, including podcasts, on his website, <a href="https://www.firewombats.com/">www.FireWombats.com</a>.
+  twitter:
+  url: https://www.firewombats.com/
+  facebook:
+  picture: ../images/profile/Karl_Dandenell.jpg
+  stories:
+  - storytitle: Last Cold Beer for 50 Miles
+    storylink: /last-cold-beer-for-50-miles
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Lin Darrow
   idpath: "/lin-darrow"
   bio: Lin Darrow's fiction, poetry and comics have appeared in anthologies by Air and Nothingness Press, Jessamine Press, Eerie River, Fortuna Media, Valour I and II, In 
@@ -437,7 +473,7 @@
   twitter: 'mdmoustaf'
   url: 'https://beacons.ai/mdmoustaf'
   facebook:
-  picture: ../images/profile/Moustapha_Mbacké_Diop.jpeg
+  picture: ../images/profile/Moustapha_Mbacké_Diop.jpg
   stories:
   - storytitle: Blackwater Children
     storylink: /blackwater-children
@@ -522,7 +558,7 @@
   twitter:
   url:
   facebook:
-  picture: ../images/profile/Alexander_Etheridge.JPG
+  picture: ../images/profile/Alexander_Etheridge.jpg
   stories:
   - storytitle:
     storylink:
@@ -574,7 +610,7 @@
   twitter: 'davidfarrow5734'
   url: https://www.davidfarrowwrites.com
   facebook:
-  picture: ../images/profile/David_Farrow.png
+  picture: ../images/profile/David_Farrow.jpg
   stories:
   - storytitle: "Little Death"
     storylink: /little-death
@@ -616,6 +652,23 @@
   poems:
   - poemtitle: Blood, Roses, Song
     poemlink: /blood-roses-song
+
+- id: Richard Ford Burley
+  idpath: "/richard-ford-burley"
+  bio: Richard Ford Burley (they/he) is a writer of speculative fiction and poetry as well as Managing Editor of the academic journal Ledger. They've published two 
+    novels, an assortment of stories and poems, some academic essays on narrative creation in pop culture settings, and a doctoral thesis on the intersection of 
+    medieval literature and remix culture. Raised in Markham, Ontario—and with stints in York, England and Boston, Massachusetts—they now reside in Lebanon, New Hampshire 
+    where they write, edit, and serve as a warm but uncomfortable piece of furniture for their cat. 
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Richard_Ford_Burley.jpg
+  stories:
+  - storytitle: "After Angels"
+    storylink: /after-angels
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: A. R. Frederiksen
   idpath: "/a-r-frederiksen"
@@ -713,7 +766,7 @@
   twitter: 'BespokeTravels'
   url: https://www.bespoketraveler.com
   facebook:
-  picture: ../images/profile/Atreyee_Gupta.jpeg
+  picture: ../images/profile/Atreyee_Gupta.jpg
   stories:
   - storytitle: "Axolotl"
     storylink: /axolotl
@@ -805,6 +858,8 @@
   poems:
   - poemtitle: "The Opposite of Time"
     poemlink: /the-opposite-of-time
+  - poemtitle: "For the attention of my future self"
+    poemlink: /for-the-attention-of-my-future-self
 
 ####################################################################___LETTER I___####################################################################
 
@@ -895,6 +950,23 @@
 
 ####################################################################___LETTER K___####################################################################
 
+- id: Elisabeth Kauffman
+  idpath: "/elisabeth-kauffman"
+  bio: Elisabeth Kauffman is an author, an editor, a writing coach, and an artist. She edits novels and memoir for independent clients as well as publishing companies, and 
+    coaches writers to find their voices and connect to the magic in their creative lives. When she’s not making up stories, Elisabeth loves reading immersive fiction, doing 
+    puzzles, and playing co-op video games with her friends. Learn more about her at <a href="https://elisabethkauffman.com/">www.elisabethkauffman.com</a> or email her 
+    at <a href="ekauffman@writingrefinery.com">ekauffman@writingrefinery.com</a>.
+  twitter: 'writingrefinery'
+  url: 'https://elisabethkauffman.com/'
+  facebook:
+  picture: ../images/profile/Elisabeth_Kauffman.jpg
+  stories:
+  - storytitle: A Proper Witch
+    storylink: "/a-proper-witch"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Erin Keating
   idpath: "/erin-keating"
   bio: Erin Keating is a grant writer at an arts education nonprofit. She earned her B.A. in creative writing and literature at Roanoke College. While earning her history 
@@ -954,7 +1026,7 @@
   twitter: 'noirbettie'
   url: https://annikaobscura.com
   facebook:
-  picture: ../images/profile/Annika_Barranti_Klein.jpeg
+  picture: ../images/profile/Annika_Barranti_Klein.jpg
   stories:
   - storytitle: Phosphor's Circle
     storylink: "/phosphors-circle"
@@ -1042,6 +1114,41 @@
   - poemtitle:
     poemlink:
 
+- id: Karen Aria Lin
+  idpath: "/karen-aria-lin"
+  bio: By day, Karen Aria Lin is a technical writer in the software industry. By night, she writes speculative fiction stories that tend to feature Asian Americans or 
+    blue aliens. Her short fiction has been published in <em>Zombie Needs Brains</em>, <em>Pulphouse Fiction Magazine</em>, and <em>The First Line</em>. When not 
+    writing, she is sending routes at the climbing gym or exploring the lush Pacific Northwest with her Taiwanese Mountain Dog. You can find her website 
+    at <a href="https://www.karenlin.me/fiction">www.karenlin.me/fiction.</a>
+  twitter:
+  url: https://www.karenlin.me/fiction
+  facebook:
+  picture: ../images/profile/Karen_Aria_Lin.jpg
+  stories:
+  - storytitle: 'Mochi through Time and Space'
+    storylink: "/mochi-through-time-and-space"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Monte Lin
+  idpath: "/monte-lin"
+  bio: While being rained on adjacent to Portland, Oregon, Monte Lin edits, writes, and plays tabletop roleplaying games and writes short stories. Clarion West got him to write 
+    about dying universes, edible sins, dreaming mountains, and singularities made of anxieties. His stories have been published at <em>Cossmass Infinities</em>, <em>Cast of 
+    Wonders</em>, Flame Tree Press anthologies, and others. His nonfiction has been published at <em>Strange Horizons</em>. He is Managing Editor of <em>Uncanny</em> and 
+    Staff Editor of Angry Hamster Press. He can be found posting Doctor Who news, Asian American diaspora discourse, and his board game losses on 
+    Bluesky <a href="https://bsky.app/profile/montelin.bsky.social">@montelin.bsky.social</a>.
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Monte_Lin.jpg
+  stories:
+  - storytitle: 'we spilt our hydrazine blood for you'
+    storylink: "/we-spilt-our-hydrazine-blood-for-you"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Marissa Lingen
   idpath: "/marissa-lingen"
   bio: "Marissa Lingen writes science fiction, fantasy, poems, and essays. She lives in Minnesota atop some of the oldest bedrock in North America. She promises that she is really 
@@ -1073,6 +1180,21 @@
   - poemtitle: Picture This
     poemlink: /picture-this
 
+- id: Goran Lowie
+  idpath: "/goran-lowie"
+  bio: Goran Lowie is an award-winning aro/ace poet from rural Belgium with poems in <em>Strange Horizons</em>, <em>Heartlines Spec</em>, <em>Radon Journal</em> and 
+    others. He writes poetry in his second language and is a high school teacher in his day job. You can follow him on Twitter <a href="https://twitter.com/goranlowie">@goranlowie</a>.
+  twitter: goranlowie
+  url: 
+  facebook:
+  picture: ../images/profile/Goran_Lowie.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Elegy for the Wood Nymphs
+    poemlink: /elegy-for-the-wood-nymphs
+
 - id: Anne Marie Lutz
   idpath: "/anne-marie-lutz"
   bio: "Anne Marie Lutz is the author of three fantasy novels. Her Color Mage novels were re-issued in 2019 as <em>Black Tide</em> and <em>Sword of Jashan</em>. Her newest 
@@ -1094,10 +1216,9 @@
 
 - id: Anna Madden
   idpath: "/anna-madden"
-  bio: "Anna  Madden lives in North Texas, where the prairie reaches long tallgrass fingers toward the woods. Her fiction has appeared in <em>Hexagon</em>, <em>Zooscape</em>, <em>Orion's 
-    Belt</em>, <em>Medusa Tales</em>, <em>PodCastle</em>, <em>Metaphorosis</em>, and elsewhere. She has an English degree from the University of Missouri—Kansas City. In free time 
-    she gardens, mountain bikes, and makes birch forests out of stained glass. Follow her on Twitter <a href='https://www.twitter.com/anna_madden_'>@anna_madden_</a> or visit her 
-    website at <a href='https://www.annamadden.com'>annamadden.com</a>."
+  bio: 'Anna Madden is a writer and Acquisitions Editor for <em>Dark Matter Magazine</em> and Dark Matter INK. Her fiction has appeared 
+    in <em>Apex Magazine</em>, <em>Orion’s Belt</em>, <em>PseudoPod</em>, and elsewhere. In free time, she makes birch forests out of stained glass. Follow her on 
+    Twitter/X <a href="https://twitter.com/anna_madden_">@anna_madden_</a> or visit her website at <a href="https://www.annamadden.com/">annamadden.com</a>.'
   twitter: 'anna_madden_'
   url: https://www.annamadden.com
   facebook:
@@ -1106,8 +1227,8 @@
   - storytitle: 'Daughter of the Great Whales'
     storylink: "/daughter-of-the-great-whales"
   poems:
-  - poemtitle:
-    poemlink:
+  - poemtitle: 'Made of Glass'
+    poemlink: '/made-of-glass'
 
 - id: Avra Margariti
   idpath: "/avra-margariti"
@@ -1128,6 +1249,24 @@
     poemlink: /we-greet-the-solstice
   - poemtitle: "I, Luminescence"
     poemlink: /i-luminescence
+
+- id: Elizabeth R McClellan
+  idpath: "/elizabeth-r-mcclellan"
+  bio: 'Elizabeth R. McClellan is a white disabled neurospicy gender/queer sapphic demisexual poet writing on unceded Quapaw and Chickasha Yaki land. Kans work has 
+    appeared in many venues including <em>Nightmare Magazine</em>, <em>Dracula: Beyond Stoker</em>, <em>Strange Horizons</em>, <em>Utopia Science Fiction</em> and 
+    many others including the Bram Stoker Award-nominated anthology <em>MOTHER: TALES OF LOVE & TERROR</em>. Ka has work forthcoming 
+    in <em>Worlds of Possibility</em>, <em>Corvid Queen</em> and the <em>SALT, SAND, BLOOD</em> anthology. Ka can be found on most social media 
+    as <a href="https://twitter.com/popelizbet">@popelizbet</a> and on Patreon as <a href="https://www.patreon.com/ermcclellan">ermcclellan</a>.'
+  twitter: popelizbet
+  url:
+  facebook:
+  picture: ../images/profile/Elizabeth_R_McClellan.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "What You Find at the Center"
+    poemlink: /what-you-find-at-the-center
 
 - id: Claire McNerney
   idpath: "/claire-mcnerney"
@@ -1178,6 +1317,39 @@
   - poemtitle: "Tale of the Beast"
     poemlink: /tale-of-the-beast
 
+- id: Archita Mittra
+  idpath: "/archita-mittra"
+  bio: Archita Mittra (she/they) is a writer, editor, and artist. Her poetry has been published in <em>Thought Catalog</em>, <em>Star*Line</em>, <em>Eye to 
+    the Telescope</em>, <em>Mithila Review</em>, and others, while her fiction and non-fiction has appeared or is forthcoming in <em>Tor.com</em>, <em>Locus 
+    Magazine</em>, <em>Lightspeed</em>, <em>Strange Horizons</em>, and <em>The Portalist</em>, among others. Her work has been nominated for the Pushcart and 
+    best of the net prizes and long-listed for the Toto Award. She lives in Kolkata, India with her family and rabbits, and may be found haunting Twitter 
+    and Instagram @architamittra.
+  twitter: architamittra
+  url:
+  facebook:
+  picture: ../images/profile/Archita_Mittra.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Princess and the Frog"
+    poemlink: /the-princess-and-the-frog
+
+- id: Elis Montgomery
+  idpath: "/elis-montgomery"
+  bio: Elis Montgomery is a speculative fiction writer from Vancouver, Canada. She is a member of SFWA and Codex. When she’s not writing, she’s usually hanging upside 
+    down in an aerial arts class or a murky cave. Find her there or at <a href="https://www.elismontgomery.com/">elismontgomery.com</a>.
+  twitter:
+  url: https://www.elismontgomery.com/
+  facebook:
+  picture: ../images/profile/Elis_Montgomery.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Dome"
+    poemlink: /the-dome
+
 - id: Mike Morgan
   idpath: "/mike-morgan"
   bio: Mike Morgan was born in London, but not in any of the
@@ -1205,7 +1377,7 @@
   twitter: 'tiffmorris'
   url: https://tiffmorris.com/
   facebook:
-  picture: ../images/profile/Tiffany_Morris.png
+  picture: ../images/profile/Tiffany_Morris.jpg
   stories:
   - storytitle:
     storylink:
@@ -1261,7 +1433,7 @@
   twitter:
   url:
   facebook:
-  picture: ../images/profile/Overcomer_Ibiteye.jpeg
+  picture: ../images/profile/Overcomer_Ibiteye.jpg
   stories:
   - storytitle:
     storylink:
@@ -1335,6 +1507,23 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: H.V. Patterson
+  idpath: "/h-v-patterson"
+  bio: "H.V. Patterson (she/her) lives in Oklahoma and writes speculative fiction and poetry. She's a cofounder of Horns and Rattles Press and runs Dreadfulesque. 
+    She has stories and poems recently published or upcoming with Sliced Up Press, Creature Publishing, Flame Tree Press, Eerie River, <em>Flash Fiction Online</em>, <em>Diet 
+    Milk Magazine</em>, and Black Spot Books. She loves reading and writing about myth and folklore, spooky science, and weird lifeforms. Find her on 
+    Twitter <a href='https://twitter.com/ScaryShelley'>@ScaryShelley</a> and on Instagram <a href='https://www.instagram.com/hvpattersonwriter'>@hvpattersonwriter</a>."
+  twitter: ScaryShelley
+  url:
+  facebook:
+  picture: ../images/profile/H_V_Patterson.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Ourasphaira giraldae Awakens"
+    poemlink: /ourasphaira-giraldae-awakens
 
 - id: the_people
   idpath: "/the_people"
@@ -1444,7 +1633,7 @@
 - id: Rajeev Prasad
   idpath: "/rajeev-prasad"
   bio: "Rajeev Prasad is a physician and writer whose stories appear in <em>The Magazine of Fantasy and Science Fiction</em>, <em>Clarkesworld</em>, and other 
-    fabulous magazines. He hopes you enjoyed reading this story. Follow him on twitter <a href=“https://www.twitter.com/rajeevwriter”>@rajeevwriter</a>."
+    fabulous magazines. He hopes you enjoyed reading this story. Follow him on twitter <a href='https://www.twitter.com/rajeevwriter'>@rajeevwriter</a>."
   twitter: 'RajeevWriter'
   url:
   facebook:
@@ -1467,7 +1656,7 @@
   twitter: 'charibdys'
   url: https://www.rhiannonrs.com
   facebook:
-  picture: ../images/profile/Rhiannon_Rasmussen.png
+  picture: ../images/profile/Rhiannon_Rasmussen.jpg
   stories:
   - storytitle: "I/O"
     storylink: /i-o
@@ -1506,6 +1695,23 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Shana Ross
+  idpath: "/shana-ross"
+  bio: Shana Ross is a new transplant to Edmonton, Alberta and Treaty Six Territory. Qui transtulit sustinet. A Pushcart and Rhysling nominated author, her 
+    work has recently appeared in <em>Cutbank Literary Journal</em>, <em>Laurel Review</em>, <em>Phantom Kangaroo</em>, <em>Radon Journal</em> and more. She serves as 
+    an editor for <em>Luna Station Quarterly</em> and a critic for <a href="https://pencilhouse.org/">Pencilhouse.org</a>. She is almost a year into a project 
+    of befriending her local magpies; they like unsalted peanuts.
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Shana_Ross.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Interstellar Catalog: Romantic Interlude"
+    poemlink: "/interstellar-catalog-romantic-interlude"
 
 - id: Amanda Haimoto Rudd
   idpath: "/amanda-haimoto-rudd"
@@ -1596,6 +1802,24 @@
   poems:
   - poemtitle:
     poemlink:
+
+- id: Maria Schrater
+  idpath: "/maria-schrater"
+  bio: Maria Schrater is a writer & poet based in Chicago. Her work can be found in <em>Apparition Lit</em>, <em>Sycorax Journal</em>, <em>Abyss & Apex</em>, and 
+    in Air & Nothingness Press’s <em>Wild Hunt</em> and <em>Future Perfect in Past Tense</em> anthologies. She is also Poetry Editor 
+    for <em>Apparition Literary Magazine</em> and an associate SFWA member. She especially loves folklore and mythology and often works with retellings. 
+    When not writing, she can be found imitating bird calls in the woods. You can find her on 
+    Twitter <a href="https://twitter.com/MariaSchrater">@MariaSchrater</a> or on her website <a href="https://www.mariaschrater.com/">mariaschrater.com</a>.
+  twitter: MariaSchrater
+  url: https://www.mariaschrater.com
+  facebook: 
+  picture: ../images/profile/Maria_Schrater.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "A Kelpie Sees Mari Lwyd from Afar"
+    poemlink: "/a-kelpie-sees-mari-lwyd-from-afar"
 
 - id: Austin Shirey
   idpath: "/austin-shirey"
@@ -1843,9 +2067,43 @@
   - poemtitle: Post-traumatic stress sonnet of the Indigenous archeoastronomer
     poemlink: /post-traumatic-stress-sonnet-of-the-indigenous-archeoastronomer   
 
+- id: G.E. Woods
+  idpath: "/g-e-woods"
+  bio: 'G.E. Woods (they/she) first ran into the arms of horror as a 5-year-old working in haunted houses. Queer, nonbinary, and invisibly disabled, they are a poet, 
+    dancer, and writes SFF/H and memoir. She is a 2023 Rhysling Finalist and has work published in STRANGE HORIZONS, YOUR BODY IS NOT YOUR BODY, and MOONFLOWERS & 
+    NIGHTSHADE. She enjoys talking to the trees near their home. Find her at <a href="https://gewoods.com/">gewoods.com</a>.'
+  twitter:
+  url: https://gewoods.com
+  facebook:
+  picture: ../images/profile/G_E_Woods.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Teen in Recovery from Dystopian Books that Were Portals
+    poemlink: "/teen-in-recovery-from-dystopian-books-that-were-portals"   
+
 ####################################################################___LETTER X___####################################################################
 
 ####################################################################___LETTER Y___####################################################################
+
+- id: Wen Yu Yang
+  idpath: "/wen-yu-yang"
+  bio: Wen Yu Yang (she/her) is a writer born and raised in Taiwan. She is based on unceded Eora lands, otherwise known as Sydney, Australia. Her words are published 
+    or forthcoming in <em>Fantasy Magazine</em>, <em>Solarpunk Magazine</em>, <em>Ghost City Review</em>, and more. When she is not training for volleyball, reading, 
+    or falling into another rabbit hole, she daydreams about lost gods, shapeshifting beings, and other worlds. You can connect with her 
+    on Instagram <a href="https://www.instagram.com/_wyyang">@_wyyang</a> or Twitter <a href="https://twitter.com/wyyang_">@wyyang_</a>. 
+    Details at <a href="https://wenyuwrites.wordpress.com/">wenyuwrites.wordpress.com</a>.
+  twitter: wyyang_
+  url: https://wenyuwrites.wordpress.com/
+  facebook:
+  picture: ../images/profile/Wen_Yu_Yang.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "hu li jing 狐狸精"
+    poemlink: "/hu-li-jing-狐狸精"
 
 ####################################################################___LETTER Z___####################################################################
 
