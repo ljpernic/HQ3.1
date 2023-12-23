@@ -6,7 +6,7 @@ description: "As I approached Sue-Ling’s Bakery, I had the curious feeling I w
 shortdescription: "As I approached Sue-Ling’s Bakery, I had the curious feeling I was returning home. <p>The storefront was nothing special, just a brown door crammed between a grocery and bookstore in a sleepy Irvine plaza, the bakery’s name stenciled in peeling English letters and Chinese characters on the window. But when I opened the door, sweet smells pulled me in like gravity. This early in the morning, I was the only customer.</p>"
 category: FICTION
 date: "2023-12-12T01:03:00.000Z"
-path: "/mochi-through-time-and-space"
+path: "/mochi-through-space-and-time"
 featured: false
 available: true
 
