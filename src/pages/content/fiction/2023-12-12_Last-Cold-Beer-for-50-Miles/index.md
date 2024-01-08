@@ -112,7 +112,7 @@ Kayden bit his lower lip, doing the math. “Say an hour to configure and load t
 
 Oliver checked his phone. “Well, I should get home and walk Goofus and Doofus. Can I borrow the loaner and pick up Clara Blue tomorrow?”
 
-“Sure, it’s locked up next to the recycling bins.” Abby went behind the counter and pulled down a large silver ring that held a single key.. 
+“Sure, it’s locked up next to the recycling bins.” Abby went behind the counter and pulled down a large silver ring that held a single key. 
 
  “Thank you, ma’am. I’ll come by first thing.”
 
