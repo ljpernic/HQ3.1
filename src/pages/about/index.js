@@ -14,27 +14,35 @@ const About = (props) => {
   const data = props.data;
 
   const leonTwitter = `http://twitter.com/leonperniciaro`;  
-  const ashTwitter = `http://twitter.com/ashaquestion`;
   const tjTwitter = `http://twitter.com/eerieyore`;
   const danaiTwitter = `http://twitter.com/Danaiwrites`;
 
+  const ashTwitter = `http://twitter.com/ashaquestion`;
+  const rslTwitter = `http://twitter.com/RSLjnr`;
+  const rukmanTwitter = `http://twitter.com/RukmanWrites`;
+  const elizabethTwitter = `http://twitter.com/eabroadbent`;
+  
   const leonFacebook = null;  
-  const ashFacebook = null;
   const tjFacebook = null;
   const danaiFacebook = null;
 
+  const ashFacebook = null;
+  const rslFacebook = null;
+  const rukmanFacebook = null;
+  const elizabethFacebook = null;
+
   const leonUrl = `https://www.leonperniciaro.com`;
-  const ashUrl = null;
   const tjUrl = `https://tjpricewrites.com/`;
   const danaiUrl = null;
 
+  const ashUrl = null;
+  const rslUrl = null;
+  const rukmanUrl = null;
+  const elizabethUrl = `https://www.writerelizabethbroadbent.com/`;
+  
   const leonDisplayTwitter = leonTwitter === null ? null : <a className='social-icon' href={leonTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
   const leonDisplayFacebook = leonFacebook === null ? null : <a className='social-icon' href={leonFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
   const leonDisplayUrl = leonUrl === null ? null : <a className='social-icon' href={leonUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
-
-  const ashDisplayTwitter = ashTwitter === null ? null : <a className='social-icon' href={ashTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
-  const ashDisplayFacebook = ashFacebook === null ? null : <a className='social-icon' href={ashFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
-  const ashDisplayUrl = ashUrl === null ? null : <a className='social-icon' href={ashUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
   const tjDisplayTwitter = tjTwitter === null ? null : <a className='social-icon' href={tjTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
   const tjDisplayFacebook = tjFacebook === null ? null : <a className='social-icon' href={tjFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
@@ -44,6 +52,21 @@ const About = (props) => {
   const danaiDisplayFacebook = danaiFacebook === null ? null : <a className='social-icon' href={danaiFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
   const danaiDisplayUrl = danaiUrl === null ? null : <a className='social-icon' href={danaiUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
+  const ashDisplayTwitter = ashTwitter === null ? null : <a className='social-icon' href={ashTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const ashDisplayFacebook = ashFacebook === null ? null : <a className='social-icon' href={ashFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const ashDisplayUrl = ashUrl === null ? null : <a className='social-icon' href={ashUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const rslDisplayTwitter = rslTwitter === null ? null : <a className='social-icon' href={rslTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const rslDisplayFacebook = rslFacebook === null ? null : <a className='social-icon' href={rslFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const rslDisplayUrl = rslUrl === null ? null : <a className='social-icon' href={rslUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const rukmanDisplayTwitter = rukmanTwitter === null ? null : <a className='social-icon' href={rukmanTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const rukmanDisplayFacebook = rukmanFacebook === null ? null : <a className='social-icon' href={rukmanFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const rukmanDisplayUrl = rukmanUrl === null ? null : <a className='social-icon' href={rukmanUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+
+  const elizabethDisplayTwitter = elizabethTwitter === null ? null : <a className='social-icon' href={elizabethTwitter}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
+  const elizabethDisplayFacebook = elizabethFacebook === null ? null : <a className='social-icon' href={elizabethFacebook}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
+  const elizabethDisplayUrl = elizabethUrl === null ? null : <a className='social-icon' href={elizabethUrl}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
 
   return (
     <Layout bodyClass="page-home">
@@ -112,9 +135,9 @@ const About = (props) => {
                   </div>
 
                   <p>
-                  <b>Leon Perniciaro</b> (he/him) is the editor of Haven Spec Magazine, an assistant editor at <a href="https://www.android-press.com/">Android 
-                  Press</a>, and a submissions editor at <a href="https://uncannymagazine.com/">Uncanny Magazine</a>. He studies English as a PhD student at the University of 
-                  Connecticut, is a member of SFWA and the Codex Writers' Group, and is a citizen of the Choctaw-Apache Tribe of Ebarb.
+                  <b>Leon Perniciaro</b> (he/him) is the editor of Haven Spec Magazine and an assistant editor at <a href="https://www.android-press.com/">Android 
+                  Press</a>. He studies English as a PhD student at the University of Connecticut, with a focus on race, Indigeneity, and environmental justice. 
+                  He is a member of SFWA and the Codex Writers' Group and is a citizen of the Choctaw-Apache Tribe of Ebarb.
                   </p>
                   <p className="pb-1"> Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
                   </p>
@@ -181,6 +204,7 @@ const About = (props) => {
                   <h1 className="pt-3 pb-1">
                     About the Associate Editors
                   </h1>
+{/* ABOUT ASH */}
                   <div className="editorImageAbout mb-2">
                     <Image 
                       fixed={data.ash.childImageSharp.fixed}
@@ -199,6 +223,68 @@ const About = (props) => {
                   
                   <p className="pb-1">When the weather's lousy, you can usually find Ash curled up with a massive cup of tea 
                   and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.
+                  </p>
+{/* ABOUT ELIZABETH */}
+<div className="editorImageAbout mb-2">
+                    <Image 
+                      fixed={data.elizabeth.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {elizabethDisplayTwitter}
+                      {elizabethDisplayFacebook}
+                      {elizabethDisplayUrl}
+                    </div>
+                  </div>
+                  <p>
+                    <b>
+                      Elizabeth Broadbent</b> (she/they) (she/her) is a neurodivergent author, journalist, and poet recently displaced from the South Carolina swamp. 
+                      She's the author of <em>Ink Vine</em>, an erotic horror novella coming in April from Psychotoxin Pink, and her second novella, <em>Blood Cypress</em>, 
+                      is set for 2025 publication with Raw Dog Screaming Press. Her short fiction has appeared in numerous publications, including <em>Tales to 
+                      Terrify</em> and <em>The Cafe Irreal</em>; her essays have appeared everywhere from <em>The Washington Post</em> to <em>ADDitude Magazine</em>; and 
+                      her visage has appeared in places such as BBC World News, MSNBC, and the ethereal plane. When she isn't writing fiction or social justice screeds, 
+                      she can be found talking to crows and convincing blue jays to do crime. Drop her a line at eliza@writerelizabethbroadbent.com, @eabroadbent on Insta, Threads, 
+                      and TikTok, or @elizabeth.broadbent on Bluesky. Alternately, ask the crows.</p> 
+                  
+{/* ABOUT RUKMAN */}
+                  <div className="editorImageAbout mb-2">
+                    <Image 
+                      fixed={data.rukman.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {rukmanDisplayTwitter}
+                      {rukmanDisplayFacebook}
+                      {rukmanDisplayUrl}
+                    </div>
+                  </div>
+                  <p>
+                    <b>Rukman Ragas</b> (they/he) writes from Sri Lanka. Their fiction is forthcoming from <em>Khoreo</em> and <em>Tasavvur</em>. He splits his time 
+                    between the humid coast and the chilly mountains, both triggering different allergies.
+                  </p> 
+                  
+                  <p className="pb-1">
+                    They can be found on twitter <a href="https://www.twitter.com/Rukmanwrites">@Rukmanwrites</a>, advocating for passive protagonists and retelling 
+                    South Asian myths.
+                  </p>
+
+{/* ABOUT RSL */}
+                  <div className="editorImageAbout mb-2">
+                    <Image 
+                      fixed={data.rsl.childImageSharp.fixed}
+                    />
+                    <div class="side-block">
+                      {rslDisplayTwitter}
+                      {rslDisplayFacebook}
+                      {rslDisplayUrl}
+                    </div>
+                  </div>
+                  <p>
+                    <b>RSL</b> (he/they) is a scouse writer and academic whose work tends toward the weird and the absurd. He's a PhD Candidate at University 
+                    of Liverpool, studying the mental health benefits of challenging fiction during challenging times. His fictional work can be 
+                    read in <em>CHM</em>, and <em>Vastarien</em>, as well as a few forthcoming pieces in journals. 
+                  </p> 
+                  <p className="pb-1">
+                    You can find them complaining about money (or gushing about art) on Twitter as <a href="https://www.twitter.com/RSLjnr">@RSLjnr</a> and 
+                    insta as <a href="https://www.instagram.com/awayout92">@awayout92</a>. 
                   </p>
                 </div>
                 <hr />
@@ -318,13 +404,6 @@ export const query = graphql`
         }
       }
     }
-    ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
-      childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     tj: file(relativePath: { eq: "profile/TJ_Price.jpeg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
@@ -339,6 +418,34 @@ export const query = graphql`
         }
       }
     }
+    ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    rukman: file(relativePath: { eq: "profile/Rukman_Ragas.jpg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    elizabeth: file(relativePath: { eq: "profile/Elizabeth_Broadbent_.jpg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    rsl: file(relativePath: { eq: "profile/RSL.jpg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }    
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/" } }             #This tells the /about page to look at md files in the src folder
       sort: { fields: [frontmatter___date], order: DESC }
