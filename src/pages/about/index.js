@@ -184,20 +184,13 @@ const About = (props) => {
                     </div>
                   </div>
 
-                  <p>
-                    <b>Danai Christopoulou</b> (she/they) is a queer Greek SFF author and editor who read Edgar 
-                    Allan Poe's The Raven when she was 9 years old and never recovered. Danai&#39;s nonfiction appears 
-                    in lifestyle publications such as Glamour and Marie Claire. They are a submissions editor for 
-                    Uncanny magazine, a proofreader for khōréō, and an intern/reader at the Tobias Literary Agency. 
-                    Their short fiction is published in various SFF magazines (including Haven Spec) and their 
-                    novels are represented by Lauren Bieker of FinePrint Literary.
-                  </p> 
-                  
-                  <p className="pb-1">
-                    Originally from Greece, Danai can be found talking to crows, cats and chickens in a Swedish 
-                    forest, while haunting the internets as @danaiwrites on all the apps. 
+                <p className="pb-1">
+                      <b>Danai Christopoulou</b> (she/they) is a queer Greek SFF author and editor. Danai’s nonfiction has appeared 
+                      in publications such as Glamour and Marie Claire since 2004. They are an editor for Hugo-nominated <em>khōréō magazine</em>, 
+                      an assistant editor for <em>HavenSpec</em>, and a literary agent in training at Tobias Literary Agency. Their short 
+                      fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, 
+                      and featured in the official Nebula Reading List. Danai’s novels are represented by Lauren Bieker of FinePrint Literary.
                   </p>
-
                 </div>
 
                 <div>
