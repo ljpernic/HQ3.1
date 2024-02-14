@@ -7,7 +7,7 @@ shortdescription: "“Most people couldn’t make out what David was babbling wh
 category: FICTION
 date: "2023-12-12T01:02:00.000Z"
 path: "/folded-in-light"
-featured: true
+featured: false
 available: true
 
 ---

@@ -14,6 +14,22 @@
   - poemtitle: "War Dream: Bridged"
     poemlink: /war-dream-bridged
 
+- id: Sophia Adamowicz
+  idpath: "/sophia-adamowicz"
+  bio: "Sophia Adamowicz is a writer, tutor and medievalist based near Cambridge, UK. Her work, both fiction and nonfiction, has appeared in magazines 
+    including <em>Cunning Folk</em>, <em>Crow & Cross Keys</em> and <em>Salt & Mirrors & Cats</em>. When she's not tied to her desk, Sophia is a great advocate 
+    of karaoke. She collects ghost figurines and enjoys nothing more than spending time with her partner and their cats, Prufrock and Milquetoast."  
+  twitter: SophiaA_writes
+  url:
+  facebook:
+  picture: ../images/profile/Sophia_Adamowicz.jpg
+  stories:
+  - storytitle: "A Real Boy"
+    storylink: "/a-real-boy"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Colleen Anderson
   idpath: "/colleen-anderson"
   bio: "Colleen Anderson is an Aurora, Rhysling, Dwarf Stars and Elgin award nominee, with work published in seven countries, in such venues 
@@ -119,6 +135,23 @@
   poems:
   - poemtitle: Tall Tales
     poemlink: /tall-tales
+
+- id: Dana Berube
+  idpath: "/dana-berube"
+  bio: "Dana Berube is a writer, artist, editor, and erstwhile Mandarin Chinese translator whose short fiction has been published by <em>Zombies Need 
+    Brains</em>, <em>the Chicago Tribune</em>, and <em>Luna Station Quarterly</em>, among others. She lives in Boston with her partner and her very orange 
+    cat. You can find her on Twitter at <a href='https://www.twitter.com/dana_berube'>@dana_berube</a> and 
+    at <a href='https://bsky.app/profile/dana-berube.bsky.social'>@dana-berube.bsky.social</a>."
+  twitter: 'dana_berube'
+  url:
+  facebook:
+  picture: ../images/profile/Dana_Berube.jpg
+  stories:
+  - storytitle: "Saving Worlds With Your Elf Boyfriend"
+    storylink: "/saving-worlds-with-your-elf-boyfriend"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Gary Bloom
   idpath: "/gary-bloom"
@@ -312,9 +345,10 @@
 
 - id: Danai Christopoulou
   idpath: "/danai-christopoulou"
-  bio: Danai Christopoulou writes mythpunk SFF and Romance inspired by her heritage (Greek, Egyptian, and Romanian) as well as her experiences living abroad as a queer, neurodivergent femme, and a journalist. 
-    Danai's non-fiction writing has appeared in several women's and lifestyle magazines in Europe and in the US since 2008. She is a submissions editor for Uncanny magazine and a QueeryFest mentor. Her short 
-    fiction is published or forthcoming in <em>Etherea Magazine</em> and <em>Khōréō Magazine</em>, and her novel-length work is represented by Lauren Bieker of FinePrint Literary.
+  bio: Danai Christopoulou is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as Glamour and Marie Claire since 2004. They are 
+    an editor for Hugo-nominated <em>khōréō magazine</em>, an assistant editor for <em>HavenSpec</em>, and a literary agent in training at Tobias Literary Agency. Their short 
+    fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, and featured in the official Nebula Reading List. 
+    Danai’s novels are represented by Lauren Bieker of FinePrint Literary.
   twitter: 'Danaiwrites'
   url:
   facebook:
@@ -775,6 +809,21 @@
     poemlink:
 
 ####################################################################___LETTER H___####################################################################
+
+- id: Thomas Ha
+  idpath: "/thomas-ha"
+  bio: Thomas Ha is a former attorney turned stay-at-home father who enjoys writing speculative fiction during the rare moments when all of his kids are napping at 
+    the same time. Thomas grew up in Honolulu and, after a decade plus of living in the northeast, now resides in Los Angeles.
+  twitter: ThomasHaWrites
+  url:
+  facebook:
+  picture: ../images/profile/Thomas_Ha.jpg
+  stories:
+  - storytitle: "Behind the Gilded Door"
+    storylink: "/behind-the-gilded-door"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: J.D. Harlock
   idpath: "/j-d-harlock"
@@ -1387,6 +1436,21 @@
 
 ####################################################################___LETTER N___####################################################################
 
+- id: Russell Nichols
+  idpath: "/russell-nichols"
+  bio: Russell Nichols is a speculative fiction writer and endangered journalist. Raised in Richmond, California, he gave up all his stuff in 2011 and now lives 
+    out of a backpack with his wife, vagabonding around the world ever since. Look for him at <a href="https://www.russellnichols.com/">russellnichols.com</a>.
+  twitter:
+  url: https://www.russellnichols.com/
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Frida Train (a golden shovel)"
+    poemlink: "/the-frida-train-a-golden-shovel"
+
 - id: Christi Nogle
   idpath: "/christi-nogle"
   bio: Christi Nogle's debut novel, <em>Beulah</em>, was published in January 2022 by Cemetery Gates Media. Her short stories have appeared in over fifty publications, 
@@ -1544,6 +1608,22 @@
   - poemtitle: Send down the rain is no song when the belly goes to war
     poemlink: /send-down-the-rain
 
+- id: Leon Perniciaro
+  idpath: "/leon-perniciaro"
+  bio: Leon Perniciaro (he/him) is the editor of Haven Spec Magazine and an assistant editor at Android Press. He studies English as a PhD student at the University 
+    of Connecticut, with a focus on race, Indigeneity, and environmental justice. He is a member of SFWA and the Codex Writers' Group and is a citizen of the 
+    Choctaw-Apache Tribe of Ebarb. Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
+  twitter: 'leonperniciaro'
+  url: 'https://www.leonperniciaro.com'
+  facebook:
+  picture: ../images/profile/Leon_Perniciaro.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Jessica Peter
   idpath: "/jessica-peter"
   bio: Jessica Peter writes dark, haunted, and sometimes absurd short stories, novels, and poems. She lives in Hamilton, Ontario, Canada. You can find her writing 
@@ -1647,6 +1727,22 @@
 
 ####################################################################___LETTER Q___####################################################################
 
+- id: Anna Quercia-Thomas
+  idpath: "/anna-quercia-thomas"
+  bio: Anna Quercia-Thomas is a queer Hispanic American writer and academic currently based in Western Australia. She writes poetry and speculative fiction about 
+    found family, queer romance, and connection in dark times. Her work is featured in <em>New Words Press</em>, <em>SWAMP Journal</em>, and in the upcoming issue 
+    of <em>Overland</em>.
+  twitter: 'annaqthomas'
+  url:
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "To market, to market"
+    poemlink: "/to-market-to-market"
+
 ####################################################################___LETTER R___####################################################################
 
 - id: Rhiannon Rasmussen
@@ -1681,6 +1777,23 @@
   - poemtitle: "Unearthen"
     poemlink: /unearthen
 
+- id: T. K. Rex
+  idpath: "/t-k-rex"
+  bio: "T. K. Rex is a science fiction and fantasy author from the western states, whose short stories and poems can be found in roughly thirty publications, 
+    including <em>Asimov's</em>, <em>Escape Pod</em> and <em>Strange Horizons</em>. Raised by Wiccan parents of mostly British and Ashkenazi descent, who joined the 
+    fights for whales, redwoods, gay rights and medical marijuana during her formative years, T. K. now resides in San Francisco, California. 
+    They're a member of the Writers Grotto and the Science Fiction & Fantasy Writers Association; and an alumni of the Futurescapes, Taos Toolbox and Clarion workshops."
+  twitter: 'tharkibo'
+  url:
+  facebook:
+  picture: ../images/profile/T_K_Rex.jpg
+  stories:
+  - storytitle: "The Hen and the Shadow of the Monstrance Street Commune"
+    storylink: "/the-hen-and-the-shadow-of-the-monstrance-street-commune"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Belicia Rhea
   idpath: "/belicia-rhea"
   bio: Belicia Rhea was born under a waning crescent moon in the Sonoran Desert. You can find her at <a href="https://www.beliciarhea.com">beliciarhea.com</a> and read
@@ -1712,6 +1825,25 @@
   poems:
   - poemtitle: "Interstellar Catalog: Romantic Interlude"
     poemlink: "/interstellar-catalog-romantic-interlude"
+
+- id: Matthew Roy
+  idpath: "/matthew-roy"
+  bio: Matthew Roy (he/him) lives in the American Midwest. He recently moved from a small town to a big city, from a rambling farmhouse to a small apartment, and 
+    from a major corporation to an up-and-comer. He's writing more. He's making changes. He got a dog. He's neck-deep in revisions on his first novel and banging 
+    away at his second. His speculative poetry has appeared or is forthcoming in <em>Eternal Haunted Summer</em>, <em>Illumen Magazine</em>, <em>Penumbric Speculative 
+    Fiction Mag</em>, <em>The Quarter(ly) Journal</em>, <em>The Sprawl Mag</em>, and <em>Star*Line</em>. Find him 
+    at <a href="https://matthewstevenroy.wixsite.com/matthewroywriter">https://matthewstevenroy.wixsite.com/matthewroywriter</a> and on X (formerly 
+    Twitter) <a href="https://www.twitter.com/mattroywriter">@mattroywriter</a>.
+  twitter: mattroywriter
+  url: https://matthewstevenroy.wixsite.com/matthewroywriter
+  facebook:
+  picture: ../images/profile/Matthew_Roy.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Tell Me the Story of Something Ending"
+    poemlink: "/tell-me-the-story-of-something-ending"
 
 - id: Amanda Haimoto Rudd
   idpath: "/amanda-haimoto-rudd"
@@ -1941,6 +2073,23 @@
 
 ####################################################################___LETTER V___####################################################################
 
+- id: A.J. Van Belle
+  idpath: "/a-j-van-belle"
+  bio: "A.J. Van Belle is a nonbinary/transmasculine writer and scientist, living on Vancouver Island with their husband and two dogs. Their poetry has been 
+    nominated for Best of the Net, and their short fiction and essays have appeared in journals and anthologies from 2004 to the present. They currently write full-time 
+    and serve as a literary agent intern at the Booker Albert Agency. A biologist, they draw on their science background to inform the world building in their work. 
+    Lauren Bieker of FinePrint Literary represents their novels."
+  twitter: 'ajvanbelle'
+  url:
+  facebook:
+  picture: ../images/profile/A_J_Van_Belle.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Star Stitcher"
+    poemlink: "/star-stitcher"
+
 - id: Dana Vickerson
   idpath: "/dana-vickerson"
   bio: "Dana Vickerson can be found in the concrete confines of Dallas, though she’s most comfortable deep in the woods where she loves to sit and listen to the symphony of 
@@ -2009,6 +2158,23 @@
   stories:
   - storytitle: A Bloodless Mistletoe Graveyard
     storylink: "/a-bloodless-mistletoe-graveyard"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Melissa A Watkins
+  idpath: "/melissa-a-watkins"
+  bio: "Watkins is a writer now, but used to be a teacher, a singer, an actress, and a very bad translator (thankfully, not all at the same time). Her short 
+    stories have previously appeared in <em>midnight & indigo</em>, <em>khoreo</em>, <em>Fantasy Magazine</em> and <em>The Magazine of Fantasy and 
+    Science Fiction</em>. After fifteen years of living in Europe and Asia, she's now based in Boston, where she reads too much and rants about it 
+    at <a href='https://equalopportunityreader.com/'> EqualOpportunityReader.com</a>."
+  twitter: 'EqReader'
+  url: https://equalopportunityreader.com/
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: The Hundred Loves
+    storylink: "/the-hundred-loves"
   poems:
   - poemtitle:
     poemlink:
