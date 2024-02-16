@@ -66,79 +66,119 @@ const Submit = (props) => {
               </div>
             </div>
             <p>
-              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and non-fiction pieces by authors from 
-              backgrounds that have been historically underrepresented in the science fiction and fantasy canon. Our submission cycle is therefore split into two categories, where 
-              every other month is explicitly reserved for submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The 
-              interposing six months remain open to everyone. 
+              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
+              non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
+              canon. Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
+              submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six 
+              months remain open to everyone. 
             </p>
+            <p>  
+              As writers ourselves, we do our best to handle each submission with the care and attention it deserves. Every submission is an 
+              act of bravery, and we know that putting yourself out there as a writer can be tough. Just know that any submission we receive, 
+              unless it contains something illegal, will be kept in confidence.
+            </p>
+            <p className="pb-1">
+                When in doubt, don't self reject! Submit submit submit! 
+            </p>
+
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Fiction
             </h1>
             <p>
-              We are seeking stories in the English language up to 6,000 words by writers from around the world. We favor submisions that have not been published before (including 
-              on your own website), though we have historically accepted a limited number of reprints not currently appearing anywhere online. For our two issues focused on the 
-              climate crisis, we're particularly interested in publishing stories from people displaced by or threatened by the climate emergency (see our themes below). For our 
-              other four issues, we're open to a wide variety of stories across the SFF and weird spectra.
+              We like stories that are subtle in their telling and stick with us long after we've finished, and we're more likely to 
+              buy stories that balance a sense of wonder with a bold plot and emotional depth. For our two issues focused on the climate 
+              crisis, we're particularly interested in publishing stories from people displaced by or threatened by the climate emergency 
+              (see our themes below). For our other four issues, we're open to a wide variety of stories across the SFF and weird spectra.
             </p>
             <p>
-              We pay <strong>8¢ per word for fiction</strong>, and we try to respond to all submissions within ten weeks. We have also accepted a limited number of previously published 
-              stories, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
-              be either .rtf, .doc, or .docx. 
+              <ul>
+                <li><strong>Pay:</strong> 8¢ per word for original fiction</li>
+                <li><strong>Word limit:</strong> 6000 words</li>
+                <li><strong>Language:</strong> English</li>
+                <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the story in the English 
+                  language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
+                  rights.</li>
+              </ul>
             </p>
             <p>
-              We like stories that are subtle in their telling and stick with us long after we've finished. We're more likely to buy stories that balance a sense 
-              of wonder with a bold plot and emotional depth. Meditative stories that all take place in a single room, for example, are less likely to capture our 
-              imagination. Basically, we want it all: character, concept, dialogue, tone, plot, a strong opening and ending, and everything else!
-            </p>
-            <p>
-              Simultaneous submissions are fine, but please no multiple submissions. Also, please wait at least a week before you submit again after hearing from us about 
-              a story. 
-            </p>
-            <p>  
-              As writers ourselves, we do our best to handle each story with the care and attention it deserves. Every submission is an act of bravery, and we 
-              know that putting yourself out there as a writer can be tough. Just know that any story we receive, unless they contain something illegal, will be kept in confidence.
+              We welcome writers from around the world who are writing in the English language, and we're open to translations as 
+              long as the piece hasn't appeared in English before. While we've accepted a few reprints in the past, we are currently 
+              only looking for original, previously unpublished fiction. Simultaneous submissions are fine, but please no multiple 
+              submissions. We also ask that you use the Shunn manuscript format and either .rtf, .doc, or .docx file types. 
             </p>
             <p className="pb-1">
-                When in doubt, don't self reject! Submit submit submit! 
+              We try to respond to all submissions within ten weeks, and we ask that you wait at least a week after we pass on a story 
+              before you submit again. If we hold a piece, please wait until you get our final decision to submit again. And if we publish 
+              your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do publish 
+              both flash fiction and stories close to our word limit, our sweet spot is between 1000 and 4000 words.  
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Poetry
             </h1>
             <p>
-              We are seeking poetry of any length, and we welcome submissions by poets writing in the English language from anywhere in the world. We favor submisions that have 
-              not been published before (including on your own website), though we do accept a limited number of reprints, and for our two issues focused on the climate crisis, 
-              we're particularly interested in publishing poems from people displaced by or threatened by the climate emergency (see our themes below). For our other four issues, 
-              we're open to a wide variety of poems across the SFF and weird spectra. 
+              We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or 
+              free verse. Most important to us is vivid imagery, clever lyricism, and a strong emotional core. For our two issues focused 
+              on the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the 
+              climate emergency (see our themes below). For our other four issues, we're open to a wide variety of poems across the SFF 
+              and weird spectra.
             </p>
             <p>
-              We pay <strong>$20 for poems</strong>, and we try to respond to all submissions within ten weeks. We have also accepted a limited number of previously published 
-              poems, so please indicate on the form if your submission is a reprint. All submissions must use the Shunn manuscript format (we prefer Courier New) and 
-              be either .rtf, .doc, or .docx.
+              <ul>
+                <li><strong>Pay:</strong> $20 per poem</li>
+                <li><strong>Limit:</strong> Five poems, each in a separate submission</li>
+                <li><strong>Language:</strong> English</li>
+                <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the poem in the English 
+                  language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
+                  rights.</li>
+              </ul>
             </p>
             <p>
-              We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or free verse. Most important to us is
-              vivid imagery, clever lyricism, and a strong emotional core.
+              We welcome writers from around the world who are writing in the English language, and we're open to translations as 
+              long as the piece hasn't appeared in English before. While we've accepted a few reprints in the past, we are currently 
+              only looking for original, previously unpublished poetry. Both simultaneous and multiple submissions are fine, but please 
+              no more than five poems at a time, with each poem separated out as its own submission. We also ask that you use the 
+              Shunn manuscript format and either .rtf, .doc, or .docx file types. 
             </p>
             <p className="pb-1">
-              You may submit up to five poems at a time, but please separate them into individual submissions. 
+              We try to respond to all submissions within ten weeks, and we ask that you wait at least a week after we pass on the poems 
+              before you submit again. If we hold a poem, please wait until you get our final decision to submit again. And if we publish 
+              your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do 
+              publish very short poems, our sweet spot is something longer than just three or four lines.  
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Non-Fiction
             </h1>
+            <p>
+              We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and 
+              pieces with funny or interesting takes we might not have expected.
+            </p>
+            <p>
+            <ul>
+                <li><strong>Pay:</strong> 8¢ per word for original non-fiction</li>
+                <li><strong>Word limit:</strong> 1000 words</li>
+                <li><strong>Language:</strong> English</li>
+                <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the piece in the English 
+                  language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
+                  rights.</li>
+              </ul>
+            </p>
             <p className="pb-1">
-              We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and pieces with funny or interesting takes we 
-              might not have expected. We pay <strong>8¢ per word for non-fiction</strong>, but please nothing over 1,000 words.
+              We ask that you use the Shunn manuscript format and either .rtf, .doc, or .docx file types for your submission. We also ask 
+              that you format the text so that any references are linked in-line and not placed in a work-cited section at the end. For 
+              example, if I wanted to make a reference to <a href='https://www.havenspec.com/the-hundred-loves'>one of the many 
+              interesting stories in Haven Spec Magazine</a>, I would reference it like this. Please only one non-fiction submission 
+              at a time.
             </p>
             <hr />
             <h1 className="pt-1 pb-1">
               Guidelines for Art
             </h1>
             <p className="pb-1">
-              For each issue, we pay <strong>$125 for cover art</strong>. If you think your work would look great on the cover of a science fiction and fantasy magazine, send us your best work 
-              and be sure to include a link to your portfolio in the cover letter!
+              For each issue, we pay <strong>$125 for cover art</strong>. If you think your work would look great on the cover of a 
+              science fiction and fantasy magazine, send us a link to your portfolio!
             </p>
             <hr />
             <h1 className="pt-1 pb-1">

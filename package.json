@@ -13,7 +13,7 @@
   "dependencies": {
     "@emotion/eslint-plugin": "^11.2.0",
     "formik": "^2.2.9",
-    "gatsby": "^3.8.1",
+    "gatsby": "^3.15.0",
     "gatsby-image": "^3.8.0",
     "gatsby-plugin-catch-links": "^3.8.0",
     "gatsby-plugin-google-analytics": "^3.8.0",
