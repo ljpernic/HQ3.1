@@ -230,7 +230,7 @@ const About = (props) => {
                   </div>
                   <p>
                     <b>
-                      Elizabeth Broadbent</b> (she/they) (she/her) is a neurodivergent author, journalist, and poet recently displaced from the South Carolina swamp. 
+                      Elizabeth Broadbent</b> (she/her) is a neurodivergent author, journalist, and poet recently displaced from the South Carolina swamp. 
                       She's the author of <em>Ink Vine</em>, an erotic horror novella coming in April from Psychotoxin Pink, and her second novella, <em>Blood Cypress</em>, 
                       is set for 2025 publication with Raw Dog Screaming Press. Her short fiction has appeared in numerous publications, including <em>Tales to 
                       Terrify</em> and <em>The Cafe Irreal</em>; her essays have appeared everywhere from <em>The Washington Post</em> to <em>ADDitude Magazine</em>; and 
