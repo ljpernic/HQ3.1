@@ -94,7 +94,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                     {author.stories[0].storytitle === null ? null : <h5> Fiction by {author.id} </h5> 
                     }
                     {author.stories
-                      .map((data, index) => author.stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}
+                      .map((data, index) => author.stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}<br />
                     {author.poems[0].poemtitle === null ? null : <h5> Poetry by {author.id} </h5> }
                     {author.poems
                       .map((data, index) => author.poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}

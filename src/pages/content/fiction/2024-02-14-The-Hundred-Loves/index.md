@@ -7,7 +7,7 @@ shortdescription: "You cannot tell a person how to love you. You can only decide
 category: FICTION
 date: "2024-02-14T01:07:00.000Z"
 path: "/the-hundred-loves"
-featured: true
+featured: false
 available: true
 
 ---

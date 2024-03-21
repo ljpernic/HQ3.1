@@ -75,7 +75,7 @@ const Eachauthor = props => {
                       stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
                     }
                     {stories
-                      .map((data, index) => stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}
+                      .map((data, index) => stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}<br />
                     {poems[0].poemtitle === null ? null : <h5> Poetry by {idname} </h5> }
                     {poems
                       .map((data, index) => poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}

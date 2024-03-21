@@ -1,4 +1,22 @@
 ####################################################################___LETTER A___####################################################################
+- id: Abdulkareem Abdulkareem
+  idpath: "/abdulkareem-abdulkareem"
+  bio: "Abdulkareem Abdulkareem (he/him) Frontier III, is a Nigerian writer and linguist. He is a recipient of the Hill Top Creative 
+    Writing Award for Excellence, 2023. He has been nominated for the Best of the Net thrice and was nominated for Best Spiritual 
+    Literature. His works appear and are forthcoming on National Museum of Language, POETRY, Transition, MIZNA, Waxwing, Uncanny 
+    Magazine, Poetry Wales, SAND, Nat Brut, West Trade Review, LOLWE, Harbor Review, Southern Humanities Review, Isele, Qwerty Magazine, 
+    Shallow Tales Review, Nigeria News Direct, & elsewhere."  
+  twitter: Panini500bc
+  url:
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Soot"
+    poemlink: /soot
+
 - id: L. Acadia
   idpath: "/l-acadia"
   bio: "L. Acadia is a lit professor at National Taiwan University with poetry forthcoming / in <em>New Orleans Review</em>, <em>Pinhole Poetry</em>, <em>Strange 
@@ -874,6 +892,24 @@
   - poemtitle:
     poemlink:
 
+- id: Crystal Lynn Hilbert
+  idpath: "/crystal-lynn-hilbert"
+  bio: I live in the backwoods of western PA with my partner and a small pack of (in their opinion) wild animals. I accidentally 
+    collect a very specific model of vintage blender and make a hobby of finding new hobbies. One day my slowly amassed hoard of 
+    crochet blankets may consume my home. My short stories have appeared in <em>Apex Magazine</em>, <em>Cossmass Infinities</em> and 
+    in the <em>Women in Practical Armor Anthology</em>. You can find the rest of my writing credits 
+    at <a href="https://clhilbert.wordpress.com/publications/">https://clhilbert.wordpress.com/publications/</a>.
+  twitter: 'CL_Hilbert'
+  url: https://clhilbert.wordpress.com/publications/
+  facebook:
+  picture: ../images/profile/Crystal_Lynn_Hilbert.jpg
+  stories:
+  - storytitle: "Inaccurate Necromancy, A Tapestry"
+    storylink: /inaccurate-necromancy-a-tapestry
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Liam Hogan
   idpath: "/liam-hogan"
   bio: Liam Hogan  is an award-winning short story writer, with stories in Best of British Science Fiction and in Best of British Fantasy (NewCon Press). He's been published 
@@ -931,16 +967,19 @@
 
 - id: Ai Jiang
   idpath: "/ai-jiang"
-  bio: Ai Jiang is a Chinese-Canadian writer, an immigrant from Fujian, and an active member of HWA. She draws on cultures and landscapes of the lands she has walked 
-    for inspiration. Her work has appeared or is forthcoming in <em>F&SF</em>, <em>The Dark</em>, <em>Dark Matter</em>, <em>Prairie Fire</em>, <em>Hobart Pulp</em>, among others. 
-    Find her on Twitter (<a href="https://www.twitter.com/AiJiang_">@AiJiang_</a>) and online (<a href="http://aijiang.ca">http://aijiang.ca</a>).
+  bio: Ai Jiang is a Chinese-Canadian writer, Ignyte Award winner, Nebula-, Locus-, Bram Stoker-, and BFSA Award finalist, and an immigrant 
+    from Fujian currently residing in Toronto, Ontario. She is a member of HWA and SFWA. Her work can be found <em>in F&SF</em>, <em>The 
+    Dark</em>, <em>Uncanny</em>, among others. She is the recipient of Odyssey Workshop's 2022 Fresh Voices Scholarship and the author 
+    of <em>Linghun</em> and <em>I AM AI</em>. Find her on 
+    X (<a href="https://twitter.com/AiJiang_">@AiJiang_</a>), Insta (<a href="https://www.instagram.com/ai.jian.g">@ai.jian.g</a>), and 
+    online (<a href="https://aijiang.ca">http://aijiang.ca</a>). 
   twitter: 'AiJiang_'
-  url: http://aijiang.ca
+  url: https://aijiang.ca
   facebook:
   picture: ../images/profile/Ai_Jiang.jpg
   stories:
-  - storytitle:
-    storylink:
+  - storytitle: "A City Undying"
+    storylink: "/a-city-undying"
   poems:
   - poemtitle: "Ascenkin’s Roots"
     poemlink: /ascenkins-roots
@@ -1198,6 +1237,23 @@
   - poemtitle:
     poemlink:
 
+- id: E.M. Linden
+  idpath: "/e-m-linden"
+  bio: E.M. Linden (she/her) is a speculative fiction writer from Aotearoa New Zealand who likes coffee, books, owls, and the sea. 
+    Her work has appeared in <em>Strange Horizons</em>, <em>The Deadlands</em>, <em>Flash Fiction Online</em>, the Locus Recommended 
+    Reading List (2022), and various other places. She is online 
+    at <a href="https://emlinden.blog">emlinden.blog</a> or <a href="https://bsky.app/profile/emlinden.bsky.social">@emlinden.bsky.social</a>.
+  twitter:
+  url: https://emlinden.blog
+  facebook:
+  picture: ../images/profile/E_M_Linden.jpg
+  stories:
+  - storytitle: 'Radio Petrichor'
+    storylink: "/radio-petrichor"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Marissa Lingen
   idpath: "/marissa-lingen"
   bio: "Marissa Lingen writes science fiction, fantasy, poems, and essays. She lives in Minnesota atop some of the oldest bedrock in North America. She promises that she is really 
@@ -1228,6 +1284,23 @@
   poems:
   - poemtitle: Picture This
     poemlink: /picture-this
+
+- id: P. H. Low
+  idpath: "/p-h-low"
+  bio: P. H. Low is a Rhysling- and Locus-nominated Malaysian American writer and poet whose debut novel, <em>These Deathless Shores</em>, is 
+    forthcoming in July from Orbit Books (US) and Angry Robot (UK). Their shorter work is published in <em>Strange 
+    Horizons</em>, <em>Reactor</em>, <em>Fantasy Magazine</em>, and <em>Diabolical Plots</em>, among others, and they can be found 
+    online at <a href="https://ph-low.com/">ph-low.com</a> and @_lowpH on Twitter/X and Instagram.
+  twitter: _lowpH
+  url: https://ph-low.com/
+  facebook:
+  picture: ../images/profile/P_H_Low.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: After they blasted your home planet to shrapnel
+    poemlink: "/after-they-blasted-your-home-planet-to-shrapnel"
 
 - id: Goran Lowie
   idpath: "/goran-lowie"
@@ -1470,6 +1543,21 @@
     poemlink:
 
 ####################################################################___LETTER O___####################################################################
+
+- id: Temidayo Okun
+  idpath: "/temidayo-okun"
+  bio: Temidayo Okun (he/him) is a Nigerian poet that prefers to be referred to as 19. he writes poems. say hi to him on 
+    instagram <a href="https://www.instagram.com/mr_number_19">@mr_number_19</a>.
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: no one can kiss you wrong if you're dead
+    poemlink: /no-one-can-kiss-you-wrong-if-you-re-dead
 
 - id: Anya Ow
   idpath: "/anya-ow"
@@ -2072,6 +2160,22 @@
 ####################################################################___LETTER U___####################################################################
 
 ####################################################################___LETTER V___####################################################################
+
+- id: Lucero Valdovinos
+  idpath: "/lucero_valdovinos"
+  bio: "A native of Zacatecas, Mexico, Lucero is an emerging writer who dabbles in fantasy, poetry, and magical realism written from a 
+    queer immigrant perspective. When not creating in some manner they can be found in quiet places. Lucero holds a BA in Psychology 
+    and works full-time in California, and is always (always!) <em>haciendo la lucha.</em>"
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: Drought Mermaids
+    storylink: "/drought-mermaids"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: A.J. Van Belle
   idpath: "/a-j-van-belle"
