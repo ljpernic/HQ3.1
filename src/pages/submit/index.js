@@ -46,7 +46,7 @@ const Submit = (props) => {
               Submission Windows
             </h1>
             <div className="grid-container">
-            <div className="subWindows">
+            {/* <div className="subWindows">
               <h5>General submission window</h5>
                   <li className="listWindow">February 01-28</li>  
                   <li className="listWindow">April 01-30</li>  
@@ -63,16 +63,20 @@ const Submit = (props) => {
                   <li className="listWindow">July 01-31</li>  
                   <li className="listWindow">September 01-30</li>  
                   <li className="listWindow">November 01-30</li>  
-              </div>
+              </div> */}
             </div>
+            <p>
+              We will close to all submission at 11:59 PM, Sunday, April 7th, 2024. So, if you have anything you've been dying to 
+              send us, now is your chance!
+            </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
               non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
-              canon. Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
+              canon. {/* Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
               submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six 
-              months remain open to everyone. 
+              months remain open to everyone.    */}
             </p>
-            <p>  
+            <p>
               As writers ourselves, we do our best to handle each submission with the care and attention it deserves. Every submission is an 
               act of bravery, and we know that putting yourself out there as a writer can be tough. Just know that any submission we receive, 
               unless it contains something illegal, will be kept in confidence.
