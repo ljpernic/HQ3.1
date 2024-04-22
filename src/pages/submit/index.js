@@ -66,8 +66,8 @@ const Submit = (props) => {
               </div> */}
             </div>
             <p>
-              We will close to all submission at 11:59 PM, Sunday, April 7th, 2024. So, if you have anything you've been dying to 
-              send us, now is your chance!
+              Haven Spec Magazine is now <strong>closed</strong> to all submissions. Keep an eye out on Twitter and Bluesky for when we will 
+              reopen, and, as always, thank you for supporting our magazine!
             </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
