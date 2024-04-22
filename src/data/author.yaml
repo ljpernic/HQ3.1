@@ -774,23 +774,6 @@
   - poemtitle: "Time Travel"
     poemlink: /time-travel
 
-- id: Jenna Glover
-  idpath: "/jenna-glover"
-  bio: Jenna Glover is a science fiction and fantasy author of short fiction. Her work has appeared or is forthcoming in <em>Martian Magazine</em>, <em>Daily Science 
-    Fiction</em>, <em>Luna Station Quarterly</em>, and <em>Flash Point SF</em>. When she's not writing or reading, she enjoys haunting her local library, trying new recipes, 
-    playing video games, and crafting. You can read her work and learn more about her at <a href="https://jennaglover.com/">www.jennaglover.com</a> or follow her on 
-    Twitter and Instagram @JennaCGlover.
-  twitter: 'JennaCGlover'
-  url: https://jennaglover.com/
-  facebook:
-  picture: ../images/profile/Jenna_Glover.jpg
-  stories:
-  - storytitle: "Kimi's Fruit Stand for Dead Pirates and Privateers"
-    storylink: /kimis-fruit-stand-for-dead-pirates-and-privateers
-  poems:
-  - poemtitle:
-    poemlink:
-
 - id: Taylor Grothe
   idpath: "/taylor-grothe"
   bio: Taylor is a queer, non-binary, Autistic writer of horror fiction, on submission with major publishers. Shorts of theirs can be found in <em>Coffin Bell 
@@ -2141,6 +2124,23 @@
     poemlink:
 
 ####################################################################___LETTER T___####################################################################
+
+- id: Catherine Tavares
+  idpath: "/catherine-tavares"
+  bio: Catherine Tavares is a speculative fiction author of the sci-fi and fantasy variety and a member of both SFWA and Codex. An 
+    avid reader, she spends most of her time haunting the shelves of her local library, but she can on occasion be persuaded to try 
+    a new recipe or work on a new knitting project. You can read her work and learn more about her 
+    at <a href="https://catherinetavares.com/">www.catherinetavares.com</a>.
+  twitter:
+  url: https://catherinetavares.com/
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle: "Kimi's Fruit Stand for Dead Pirates and Privateers"
+    storylink: /kimis-fruit-stand-for-dead-pirates-and-privateers
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Gretchen Tessmer
   idpath: "/gretchen-tessmer"

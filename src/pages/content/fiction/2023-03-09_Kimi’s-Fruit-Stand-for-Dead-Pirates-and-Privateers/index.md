@@ -1,6 +1,6 @@
 ---
 title: Kimi's Fruit Stand for Dead Pirates and Privateers
-author: Jenna Glover
+author: Catherine Tavares
 issue: Issue Eight, March 2023
 description: 'The sun was just beginning to set when Kimi reached the beach, the wagon she hauled behind her exchanging the clatter of cobbles for the soft whisper of sand. Debris dotted the landscape, leftovers from the hurricane that swept through several weeks back. Kimi kicked it all out of her way, grateful there were no bodies today. The memory of purple and bloated once-people hung over her like a cloud, but she didn’t turn back. She needed to be as close to the water as possible. <p>That was where the ghosts were. </p>' 
 shortdescription: 'The sun was just beginning to set when Kimi reached the beach, the wagon she hauled behind her exchanging the clatter of cobbles for the soft whisper of sand. Debris dotted the landscape, leftovers from the hurricane that swept through several weeks back. Kimi kicked it all out of her way, grateful there were no bodies today. The memory of purple and bloated once-people hung over her like a cloud, but she didn’t turn back. She needed to be as close to the water as possible. <p>That was where the ghosts were. </p>'
@@ -65,4 +65,4 @@ As always, it tasted bitter and oddly salty, but here, now, Kimi would’ve eate
 In the ocean, past the breaker waves and out over deeper water, a wisp of silver, maybe a reflection of the moon, maybe something more, rolled in the cadence of the waves, almost home.
 
 
-<p style="text-align: center;">© 2023 Jenna Glover</p>
+<p style="text-align: center;">© 2023 Catherine Tavares</p>
