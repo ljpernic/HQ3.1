@@ -7,7 +7,7 @@ shortdescription: "<b>[Exhibit 1: Scientific betrayal, witnessed in an illegally
 category: FICTION
 date: "2024-03-20T01:06:00.000Z"
 path: "/inaccurate-necromancy-a-tapestry"
-featured: true
+featured: false
 available: true
 
 ---

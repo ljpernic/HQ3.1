@@ -345,12 +345,8 @@
 
 - id: Emmie Christie
   idpath: "/emmie-christie"
-  bio: Emmie Christie's work tends to hover around the topics of feminism, mental health, cats, and the speculative such as unicorns and affordable healthcare. She has been 
-    published in <em>Flash Fiction Online</em>, <em>Zooscape</em>, and <em>Three-Lobed Burning Eye</em>. She graduated from the University of Nebraska at Omaha with a Bachelor's 
-    in Creative Writing and attended the Odyssey Writing Workshop in 2013. She narrates audiobooks for Audible and loves bringing stories to life out loud as well as on the 
-    page. You can find her work at <a href="https://www.emmiechristie.com">www.emmiechristie.com</a> or follow her on 
-    Twitter <a href="https://www.twitter.com/EmmieChristie33">@EmmieChristie33</a>. 
-  twitter: 'EmmieChristie33'
+  bio: "Emmie Christie’s work includes practical subjects, like feminism and mental health, and speculative subjects, like unicorns and affordable healthcare. Her portal fantasy novel <em>A Caged and Restless Magic</em> debuted February 2024. She has been published in <em>Daily Science Fiction</em>, <em>Infinite Worlds Magazine</em>, and <em>Flash Fiction Online</em>, among others. She also narrates audiobooks for Audible and loves bringing stories to life out loud as well as on the page. Find her at <a href='https://www.emmiechristie.com/'>www.emmiechristie.com</a>, her <a href='https://mailchi.mp/47e284abd458/emmie-christie-newsletter'>monthly newsletter</a>, or on TikTok." 
+  twitter: 
   url: https://www.emmiechristie.com
   facebook:
   picture: ../images/profile/Emmie_Christie.jpg
@@ -358,15 +354,15 @@
   - storytitle: "Touched"
     storylink: /touched
   poems:
-  - poemtitle:
-    poemlink:
+  - poemtitle: "They Named Me Diana"
+    poemlink: "/they-named-me-diana"
 
 - id: Danai Christopoulou
   idpath: "/danai-christopoulou"
-  bio: Danai Christopoulou is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as Glamour and Marie Claire since 2004. They are 
+  bio: "Danai Christopoulou is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as Glamour and Marie Claire since 2004. They are 
     an editor for Hugo-nominated <em>khōréō magazine</em>, an assistant editor for <em>HavenSpec</em>, and a literary agent in training at Tobias Literary Agency. Their short 
     fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, and featured in the official Nebula Reading List. 
-    Danai’s novels are represented by Lauren Bieker of FinePrint Literary.
+    Danai’s novels are represented by Lauren Bieker of FinePrint Literary."
   twitter: 'Danaiwrites'
   url:
   facebook:
@@ -618,6 +614,20 @@
   - poemtitle: Introspection
     poemlink: /introspection
 
+- id: Sofia Ezdina
+  idpath: "/sofia-ezdina"
+  bio: "Sofia Ezdina is an emerging writer and immigrant queer woman who befriends stray animals and whispers eerie things. Her works appeared in Bridgit Gates, Enchanted Conversation, and Air and Nothingness Press. Her short stories were nominated for the Utopian Award and Pushcart Prize 2023."
+  twitter:
+  url:
+  facebook:
+  picture: ../images/profile/Sofia_Ezdina.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: the rage of the old river
+    poemlink: /the-rage-of-the-old-river
+
 ####################################################################___LETTER F___####################################################################
 
 - id: Eric Farrell
@@ -774,6 +784,20 @@
   - poemtitle: "Time Travel"
     poemlink: /time-travel
 
+- id: Jess Gofton
+  idpath: "/jess-gofton"
+  bio: "Jess Gofton (she/her) is a British northerner originally from Middlesbrough who writes speculative fiction and poetry. Her work has appeared in <em>Gwyllion Magazine</em>, Flame Tree Press’s <em>Shadows on the Water</em> anthology, and Shacklebound Books’ <em>Wyrms 2: An Anthology of Dragon Drabbles</em>. She graduated from Lancaster University with an MA in Creative Writing in 2014 and has worked in PR and marketing within the publishing industry for the past decade."
+  twitter: 'JessGofton'
+  url:
+  facebook:
+  picture: ../images/profile/Jess_Gofton.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "The Saint of Nothing at All"
+    poemlink: "/the-saint-of-nothing-at-all"
+
 - id: Taylor Grothe
   idpath: "/taylor-grothe"
   bio: Taylor is a queer, non-binary, Autistic writer of horror fiction, on submission with major publishers. Shorts of theirs can be found in <em>Coffin Bell 
@@ -822,6 +846,24 @@
   stories:
   - storytitle: "Behind the Gilded Door"
     storylink: "/behind-the-gilded-door"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Madi Haab
+  idpath: "/madi-haab"
+  bio: Madi Haab is a queer, neurodivergent, and half-Moroccan writer from Montreal who explores identity and relationships through 
+    speculative fiction. In 2023, her story “Blabbermouth” received an honourable mention from the Penguin Random House Student 
+    Award for Fiction, and her short fiction has since appeared in <em>Hexagon Magazine</em> and is forthcoming in <em>Augur Magazine</em>. When 
+    not writing, she dabbles in singing and art, and likes naps and videogames a little too much. Find her 
+    at <a href="https://lamotdite.com/">lamotdite.com</a> or on Instagram, Bluesky, and Twitter @lamotdite.
+  twitter: lamotdite
+  url:
+  facebook:
+  picture: ../images/profile/Madi_Haab.jpg
+  stories:
+  - storytitle: "Ghost Apples"
+    storylink: "/ghost-apples"
   poems:
   - poemtitle:
     poemlink:
@@ -1089,6 +1131,27 @@
   - poemtitle:
     poemlink:
 
+- id: LP Kindred
+  idpath: "/l-p-kindred"
+  bio: "LP Kindred is a Chicagoan-Angeleno writer, editor, teaching artist, and podcaster of speculative fiction from the axes of Black and Queer 
+    Identities. An alum of Hurston-Wright, VONA, and Clarion Workshop, Kindred's words feature on <em>Tor.com</em>, <em>Fiyah Lit 
+    Mag</em>, Carnegie Hall website, <em>Apex</em>, <em>Escape Pod</em>, <em>PodCastle</em>, and <em>Anthema Spec from the Margins</em>. LP 
+    has guest edited issues of <em>Speculative City</em>, <em>The Cosmic Background</em>, and <em>Haven Spec</em> as well as co-editing 
+    and contributing <em>VOODOONAUTS PRESENTS: (RE)LIVING MYTHOLOGY</em> (Android Press). Kindred is a cocoa-founder of Voodoonauts, 
+    a grassroots collective addressing the underrepresentation and isolation of Black Creatives in Speculative Communities. 
+    LP is a co-host of Just Keep Writing, a podcast for writers by writers, to keep you writing. LP's 2022 short story <em>WANDERLUST</em> is 
+    Ignyte Award nominated. <a href='https://linktr.ee/LPKINDRED'>linktr.ee/LPKINDRED</a>."
+  twitter: LPKindred
+  url: https://linktr.ee/LPKINDRED
+  facebook:
+  picture: ../images/profile/L_P_Kindred.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Annika Barranti Klein
   idpath: "/annika-barranti-klein"
   bio: Annika Barranti Klein lives and writes in a tiny apartment in Los Angeles with her family. She is a lifelong lover of zoos and obscure facts. Her fiction has 
@@ -1337,16 +1400,18 @@
 
 - id: Avra Margariti
   idpath: "/avra-margariti"
-  bio: Avra Margariti is a queer author, Greek sea monster, and Rhysling-nominated poet with a fondness for the dark and the darling. Avra’s work haunts publications such 
-    as <em>Vastarien</em>, <em>Asimov's</em>, and <em>F&SF</em>. <em>The Saint of Witches</em>, Avra’s debut collection of horror poetry, is available from Weasel Press. You 
-    can find Avra on twitter (<a href=“https://www.twitter.com/avramargariti”>@avramargariti</a>).
+  bio: Avra Margariti is a queer author, Greek sea monster, and Rhysling-nominated poet with a fondness for the dark and the darling. Avra’s work 
+    haunts publications 
+    such as <em>Strange Horizons</em>, <em>The Deadlands</em>, <em>F&SF</em>, <em>Podcastle</em>, <em>Asimov's</em>, <em>Vastarien</em>,
+    and <em>Reckoning</em>. <em>The Saint of Witches</em>, Avra’s debut collection of horror poetry, is available from Weasel Press. You 
+    can find Avra on twitter (<a href='https://www.twitter.com/avramargariti'>@avramargariti</a>).
   twitter: 'avramargariti'
   url:
   facebook:
   picture: ../images/profile/Avra_Margariti.jpg
   stories:
-  - storytitle:
-    storylink:
+  - storytitle: "Ten Ways of Looking at Snow, Reflected Off an Obsidian Armor"
+    storylink: "/ten-ways-of-looking-at-snow-reflected-off-an-obsidian-armor"
   poems:
   - poemtitle: "Misconceptions Regarding the Moon"
     poemlink: /misconceptions-regarding-the-moon
@@ -1880,6 +1945,23 @@
   - poemtitle:
     poemlink:
 
+- id: N. R. M. Roshak
+  idpath: "/n-r-m-roshak"
+  bio: N. R. M. Roshak is an award-winning Canadian author and translator. Their fiction has been published in four languages, and has 
+    appeared in various anthologies and magazines, including <em>Flash Fiction Online</em>, <em>Galaxies</em>, <em>Daily Science 
+    Fiction</em>, and <em>Future Science Fiction Digest</em>. They live in Ontario, Canada, with a small family and a loud cat. 
+    You can find more of their work at <a href="https://nrmroshak.com">https://nrmroshak.com</a>.
+  twitter: 
+  url: https://nrmroshak.com
+  facebook:
+  picture: ../images/profile/N_R_M_Roshak.jpg
+  stories:
+  - storytitle: "The One Who Listened"
+    storylink: "/the-one-who-listened"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Shana Ross
   idpath: "/shana-ross"
   bio: Shana Ross is a new transplant to Edmonton, Alberta and Treaty Six Territory. Qui transtulit sustinet. A Pushcart and Rhysling nominated author, her 
@@ -2024,6 +2106,20 @@
   - poemtitle: "A Kelpie Sees Mari Lwyd from Afar"
     poemlink: "/a-kelpie-sees-mari-lwyd-from-afar"
 
+- id: Elizabeth Shack
+  idpath: "/elizabeth-shack"
+  bio: "Elizabeth Shack lives in central Illinois with her spouse, cat, and an expanding collection of art supplies and gardening tools. Her poetry and fiction have appeared in <em>Writers Resist</em>, <em>Daily Science Fiction</em>, <em>The MacGuffin</em>, <em>Drifting Sands</em>, and other venues."
+  twitter: 
+  url: 
+  facebook: 
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Brushstrokes"
+    poemlink: "/brushstrokes"
+
 - id: Austin Shirey
   idpath: "/austin-shirey"
   bio: Austin Shirey lives in Northern Virginia with his wife, Sarah, their two daughters, and two cats. His short fiction has appeared 
@@ -2156,6 +2252,34 @@
   poems:
   - poemtitle: "Pillow Talk in the Tempest"
     poemlink: "/pillow-talk-in-the-tempest"
+
+- id: Natalia Theodoridou
+  idpath: "/natalia-theodoridou"
+  bio: "Natalia Theodoridou has published over a hundred short stories, most of them dark and queer, in magazines such as Strange Horizons, Uncanny, Beneath Ceaseless Skies, and F&SF, among others. He won the 2018 World Fantasy Award for Short Fiction and has been a finalist for the Nebula Award in the Novelette and Game Writing categories. Natalia was born in Greece, with roots in Georgia, Russia, and Turkey. His debut novel, Sour Cherry is coming in April 2025. Find out more at <a href='https://www.natalia-theodoridou.com/'>www.natalia-theodoridou.com</a>."
+  twitter: 'natalia_theodor'
+  url: https://www.natalia-theodoridou.com/
+  facebook:
+  picture: ../images/profile/Natalia_Theodoridou.jpg
+  stories:
+  - storytitle: "Every Breath a Kiss"
+    storylink: "/every-breath-a-kiss"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Matt Tighe
+  idpath: "/matt-tighe"
+  bio: "Matt lives on a small farm in Australia with his amazingly patient wife and kids, the dogs Sherlock and Enola, as well as Mycroft the cat. You can find more info at <a href='https://matttighe.weebly.com/'>matttighe.weebly.com</a> as well as a cool picture of his brain drawn by his oldest son. He is an Aurealis and Ditmar finalist and has won the Australian Shadows Award for short fiction. His wife would like him to write some stories with happy endings. He is thinking about it."
+  twitter: 
+  url: https://matttighe.weebly.com/
+  facebook:
+  picture: ../images/profile/Matt_Tighe.jpg
+  stories:
+  - storytitle: "A Future in Ashes"
+    storylink: "/a-future-in-ashes"
+  poems:
+  - poemtitle:
+    poemlink:
 
 ####################################################################___LETTER U___####################################################################
 
@@ -2301,6 +2425,23 @@
   poems:
   - poemtitle: Stairs Appeared in My Backyard One Night
     poemlink: /stairs-appeared-in-my-backyard-one-night
+
+- id: Rin Willis
+  idpath: "/rin-willis"
+  bio: Rin Willis (she/they) is a writer and artist living in sunny Southern California with her husband and goofy cat. She has 
+    been nominated for a Pushcart, and her poetry and short stories have appeared in <em>Strange Horizons</em>, <em>The Molotov 
+    Cocktail</em>, and <em>Corvid Queen</em>. She loves dark chocolate and coffee, and if a genie offered her one wish, she'd 
+    ask for a personal chef. Come say hi to her on twitter <a href="https://www.twitter.com/Indigo_Summers">@Indigo_Summers</a>.
+  twitter: 'Indigo_Summers'
+  url:
+  facebook:
+  picture: ../images/profile/Rin_Willis.jpg
+  stories:
+  - storytitle: Through A Glass, Face To Face
+    storylink: "/through-a-glass-face-to-face"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Valo Wing
   idpath: "/valo-wing"
