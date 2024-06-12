@@ -1,6 +1,7 @@
 import React from 'react';  
 import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../components/SEO';
+import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
@@ -31,7 +32,7 @@ const Eachauthor = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={idname} />
+      <SEO title={idname} image={SEO_image} />
       <Helmet>
         <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta

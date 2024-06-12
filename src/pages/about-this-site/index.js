@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../../components/SEO';
+import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
@@ -12,7 +13,7 @@ const aboutThisSite = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, About This Site" />
+      <SEO title="Haven Spec Magazine, About This Site" image={SEO_image} />
       <Helmet>
         <meta
           name="Haven Spec Magazine, About This Site"

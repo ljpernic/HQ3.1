@@ -225,6 +225,35 @@
     margin-left: 100px;
     margin-right: 100px;
   }
+  .submitGuidelines {
+    font-weight: lighter;
+    line-height: 1.6;
+    color: $secondary;
+    padding: 10px 45px 0px 45px;
+    @include media-breakpoint-up(xs) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1rem;
+      text-align: justify;
+      width: 100%;
+    }
+    .centerMarkdown {
+      text-align: center!important;
+    }
+  }
 }
 
 li .listWindow {

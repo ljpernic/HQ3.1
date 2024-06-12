@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../../components/SEO';
+import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
@@ -11,7 +12,7 @@ const Submit = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Submission Page" />
+      <SEO title="Haven Spec Magazine, Submission Page" image={SEO_image} />
       <Helmet>
         <script src="https://www.cognitoforms.com/f/iframe.js" />
         <meta
@@ -95,7 +96,7 @@ const Submit = (props) => {
               crisis, we're particularly interested in publishing stories from people displaced by or threatened by the climate emergency 
               (see our themes below). For our other four issues, we're open to a wide variety of stories across the SFF and weird spectra.
             </p>
-            <p>
+            <div className='submitGuidelines'>
               <ul>
                 <li><strong>Pay:</strong> 8¢ per word for original fiction</li>
                 <li><strong>Word limit:</strong> 6000 words</li>
@@ -104,7 +105,7 @@ const Submit = (props) => {
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
               </ul>
-            </p>
+            </div>
             <p>
               We welcome writers from around the world who are writing in the English language, and we're open to translations as 
               long as the piece hasn't appeared in English before. While we've accepted a few reprints in the past, we are currently 
@@ -128,7 +129,7 @@ const Submit = (props) => {
               climate emergency (see our themes below). For our other four issues, we're open to a wide variety of poems across the SFF 
               and weird spectra.
             </p>
-            <p>
+            <div className='submitGuidelines'>
               <ul>
                 <li><strong>Pay:</strong> $20 per poem</li>
                 <li><strong>Limit:</strong> Five poems, each in a separate submission</li>
@@ -137,7 +138,7 @@ const Submit = (props) => {
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
               </ul>
-            </p>
+            </div>
             <p>
               We welcome writers from around the world who are writing in the English language, and we're open to translations as 
               long as the piece hasn't appeared in English before. While we've accepted a few reprints in the past, we are currently 
@@ -159,7 +160,7 @@ const Submit = (props) => {
               We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and 
               pieces with funny or interesting takes we might not have expected.
             </p>
-            <p>
+            <div className='submitGuidelines'>
             <ul>
                 <li><strong>Pay:</strong> 8¢ per word for original non-fiction</li>
                 <li><strong>Word limit:</strong> 1000 words</li>
@@ -168,7 +169,7 @@ const Submit = (props) => {
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
               </ul>
-            </p>
+            </div>
             <p className="pb-1">
               We ask that you use the Shunn manuscript format and either .rtf, .doc, or .docx file types for your submission. We also ask 
               that you format the text so that any references are linked in-line and not placed in a work-cited section at the end. For 

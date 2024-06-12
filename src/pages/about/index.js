@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../../components/SEO';
+import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
@@ -80,7 +81,7 @@ const About = ({ data }) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="About" />
+      <SEO title="Haven Spec Magazine, About" image={SEO_image} />
       <Helmet>
         <script src={withPrefix('collapsible_script.js')} type="text/javascript" />
         <meta name="Haven Spec Magazine, About Page" content="Haven Spec Magazine, About Page" />

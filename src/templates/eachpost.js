@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
+import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
@@ -33,7 +34,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
-      <SEO title={title} />
+      <SEO title={title} image={SEO_image} />
       <Helmet>
         <meta
           name={title}

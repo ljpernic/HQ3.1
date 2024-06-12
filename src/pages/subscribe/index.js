@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import SEO from '../../components/SEO';
+import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
 import Image from "gatsby-image";
@@ -11,7 +12,7 @@ const Subscribe = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Support and Subscribe" />
+      <SEO title="Haven Spec Magazine, Support and Subscribe" image={SEO_image} />
       <Helmet>
       <script async src="https://c6.patreon.com/becomePatronButton.bundle.js" />
         <meta
