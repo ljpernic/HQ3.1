@@ -70,7 +70,7 @@ const Eachauthor = props => {
                   <h1 className="pt-1 pb-1">
                     {idname}
                   </h1>
-                  <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
+                  <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} /><br />
                     {
                       stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
                     }

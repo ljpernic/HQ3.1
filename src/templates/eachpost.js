@@ -96,15 +96,15 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                         {author.id}
                       </Link>
                     </h1>
-                    <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
+                    <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
                   <span>
                     {author.stories[0].storytitle === null ? null : <h5> Fiction by {author.id} </h5> 
                     }
                     {author.stories
-                      .map((data, index) => author.stories[0].storytitle === null ? null : <li key={`content_storytitle_${index}`}>{data.storytitle}</li> )}<br />
+                      .map((data, index) => author.stories[0].storytitle === null ? null : <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li> )}<br />
                     {author.poems[0].poemtitle === null ? null : <h5> Poetry by {author.id} </h5> }
                     {author.poems
-                      .map((data, index) => author.poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
+                      .map((data, index) => author.poems[0].poemtitle === null ? null : <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
                   </span>
                   <hr className="mb-2 mt-5"/>
 
