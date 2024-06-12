@@ -21,11 +21,11 @@ export default class archivePoetry extends React.Component {
        
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Poetry" />
+      <SEO title="Haven Spec Magazine, Poetry Archive" />
       <Helmet>
         <meta
-          name="description"
-          content="all poetry of Haven Spec"
+          name="Haven Spec Magazine, Poetry Archive"
+          content="Haven Spec Magazine, Poetry Archive"
         />
       </Helmet>
 

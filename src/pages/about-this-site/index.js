@@ -12,11 +12,11 @@ const aboutThisSite = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="The Technical side of Haven Spec" />
+      <SEO title="Haven Spec Magazine, About This Site" />
       <Helmet>
         <meta
-          name="description"
-          content=""
+          name="Haven Spec Magazine, About This Site"
+          content="Haven Spec Magazine, About This Site"
         />
       </Helmet>
 

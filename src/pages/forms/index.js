@@ -12,11 +12,11 @@ const Forms = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine's submission form" />
+      <SEO title="Haven Spec Magazine, Submission Form" />
       <Helmet>
         <meta
-          name="description"
-          content=""
+          name="Haven Spec Magazine, Submission Form"
+          content="Haven Spec Magazine, Submission Form"
         />
       </Helmet>
 

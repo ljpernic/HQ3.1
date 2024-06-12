@@ -12,11 +12,11 @@ const newsLetter = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="The Technical side of Haven Spec" />
+      <SEO title="Haven Spec Magazine, Newsletter" />
       <Helmet>
         <meta
-          name="description"
-          content=""
+          name="Haven Spec Magazine, Newsletter"
+          content="Haven Spec Magazine, Newsletter"
         />
       </Helmet>
 

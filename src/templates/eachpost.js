@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Image from 'gatsby-image';
+import Helmet from 'react-helmet';
 import Advertisement from '../components/advertisement';
 
 import { IconContext } from "react-icons";
@@ -33,7 +34,12 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
       <SEO title={title} />
-      
+      <Helmet>
+        <meta
+          name={title}
+          content={title}
+        />
+      </Helmet>
 
       <div className="intro">                                                                {/*FEATURED*/}
         <div className="container">

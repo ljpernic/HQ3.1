@@ -32,11 +32,11 @@ export default class archiveAuthor extends React.Component {
 
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Contributors" />
+      <SEO title="Haven Spec Magazine, Contributors" />
       <Helmet>
         <meta
-          name="description"
-          content="Every contributor to Haven Spec"
+          name="Haven Spec Magazine, Contributors"
+          content="Haven Spec Magazine, Contributors"
         />
       </Helmet>
 

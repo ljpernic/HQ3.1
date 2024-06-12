@@ -11,12 +11,12 @@ const Subscribe = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Subscribe" />
+      <SEO title="Haven Spec Magazine, Support and Subscribe" />
       <Helmet>
       <script async src="https://c6.patreon.com/becomePatronButton.bundle.js" />
         <meta
-          name="description"
-          content="Subscribe page of Haven Spec"
+          name="Haven Spec Magazine, Support and Subscribe"
+          content="Haven Spec Magazine, Support and Subscribe"
         />
       </Helmet>
 

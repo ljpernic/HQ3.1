@@ -31,12 +31,12 @@ const Eachauthor = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Fiction" />
+      <SEO title={idname} />
       <Helmet>
         <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta
           name={idname}
-          content="Author published by Haven Spec!"
+          content={idname}
         />
       </Helmet>
       <div className="intro">                                                                {/*FEATURED*/}

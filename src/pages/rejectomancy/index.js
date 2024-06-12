@@ -11,11 +11,11 @@ const Rejectomancy = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Rejectomancy" />
+      <SEO title="Haven Spec Magazine, Rejectomancy" />
       <Helmet>
         <meta
-          name="description"
-          content="Haven Spec Rejectomancy"
+          name="Haven Spec Magazine, Rejectomancy"
+          content="Haven Spec Magazine, Rejectomancy"
         />
       </Helmet>
 

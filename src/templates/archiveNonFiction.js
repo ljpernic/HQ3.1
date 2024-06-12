@@ -21,11 +21,11 @@ export default class archiveNonFiction extends React.Component {
        
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Non-Fiction" />
+      <SEO title="Haven Spec Magazine, Non-Fiction Archive" />
       <Helmet>
         <meta
-          name="description"
-          content="all Non-fiction of Haven Spec"
+          name="Haven Spec Magazine, Non-Fiction Archive"
+          content="Haven Spec Magazine, Non-Fiction Archive"
         />
       </Helmet>
 

@@ -44,7 +44,7 @@ const Home = ({ data }) => {
       <SEO title="Home" />
       <Helmet>
         <meta
-          name="Haven Speculative"
+          name="Haven Spec Magazine"
           content="A Magazine of Science Fiction and Fantasy"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

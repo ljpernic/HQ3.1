@@ -45,8 +45,8 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
       <SEO title={issueidname} />
       <Helmet>
         <meta
-          name="Haven Spec Issue"
-          content="Another awesome issue published by Haven Spec!"
+          name={issueidname}
+          content={issueidname}
         />
       </Helmet>
 
