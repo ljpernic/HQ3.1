@@ -141,10 +141,10 @@ export const query = graphql`
           }
           picture {
             childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 200) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 200, maxHeight: 200) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 200, maxHeight: 200) {
                 ...GatsbyImageSharpFluid
               }
             }

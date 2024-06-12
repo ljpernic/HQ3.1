@@ -8,7 +8,7 @@ category: NON-FICTION
 issuecover: CurrentCover.jpg
 date: "2024-05-29T01:15:00.000Z"
 path: "/may-2024-letter-from-the-editor"
-featured: true
+featured: false
 available: true
 ---
 

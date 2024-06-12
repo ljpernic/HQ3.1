@@ -7,8 +7,8 @@ shortdescription: "The first time, I'm watching cat videos on my laptop when my 
 category: FICTION
 date: "2024-05-29T01:08:00.000Z"
 path: "/through-a-glass-face-to-face"
-featured: false
-available: false
+featured: true
+available: true
 
 ---
 
