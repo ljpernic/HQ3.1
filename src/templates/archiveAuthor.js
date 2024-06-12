@@ -1,6 +1,7 @@
 import React from 'react';  
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
+import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
@@ -32,7 +33,7 @@ export default class archiveAuthor extends React.Component {
 
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Contributors" />
+      <SEO title="Haven Spec Magazine, Contributors" image={SEO_image} />
       <Helmet>
         <meta
           name="Haven Spec Magazine, Contributors"
@@ -65,12 +66,12 @@ export default class archiveAuthor extends React.Component {
 
               {uniqueArray.map(({ node: post }) => (
                 
-                <div className="pt-1 pb-2">
+                <div key={post.id} className="pt-1 pb-2">
                   <div className="editorImageAbout">
                     <Image
                       fixed={post.picture.childImageSharp.fixed}
                     />
-                    <div class="side-block">
+                    <div className="side-block">
                       {post.twitter === null ? null : <a className='social-icon' href={`https://www.twitter.com/${post.twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>} 
                       {post.facebook === null ? null : <a className='social-icon' href={`https://www.facebook.com/${post.facebook}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>} 
                       {post.url === null ? null : <a className='social-icon' href={post.url}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>} 
@@ -149,10 +150,10 @@ export const archiveAuthorQuery = graphql`
               url
               picture {
                   childImageSharp {
-                    fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+                    fixed(width: 200) {
                       ...GatsbyImageSharpFixed 
                     }
-                    fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+                    fluid(maxWidth: 150, maxHeight: 150) {
                    ...GatsbyImageSharpFluid
                }
             }

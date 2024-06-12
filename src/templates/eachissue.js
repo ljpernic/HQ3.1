@@ -83,7 +83,7 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
                     <Image
                         fixed={data.markdownRemark.frontmatter.issue.artistimage.childImageSharp.fixed}
                     />
-                    <div class="side-block">
+                    <div className="side-block">
                       {displayTwitter}
                       {displayFacebook}
                       {displayUrl}

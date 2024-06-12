@@ -83,7 +83,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                     <Image
                       fixed={author.picture.childImageSharp.fixed}            /*Author Image called here*/
                     />
-                      <div class="side-block">
+                      <div className="side-block">
                         {displayTwitter}
                         {displayFacebook}
                         {displayUrl}
@@ -96,7 +96,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                       </Link>
                     </h1>
                     <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
-                  <p>
+                  <span>
                     {author.stories[0].storytitle === null ? null : <h5> Fiction by {author.id} </h5> 
                     }
                     {author.stories
@@ -104,7 +104,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
                     {author.poems[0].poemtitle === null ? null : <h5> Poetry by {author.id} </h5> }
                     {author.poems
                       .map((data, index) => author.poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
-                  </p>
+                  </span>
                   <hr className="mb-2 mt-5"/>
 
                 </div>

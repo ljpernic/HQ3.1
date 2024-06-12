@@ -1,5 +1,5 @@
 import React from 'react';  
-import { graphql, Link, withPrefix } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
@@ -69,7 +69,7 @@ export default class archiveFiction extends React.Component {
                   })}
               <div className="container">
                 <div className="row">
-                  <div className="col-sm">                                                                    {/*Previous page link*/}
+                  <div className="col-sm">
                     <p className="text-left">
                       {!isFirst && (
                         <Link to={prevPage} rel="prev">

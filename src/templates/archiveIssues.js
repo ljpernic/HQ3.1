@@ -1,5 +1,5 @@
 import React from 'react';  
-import { graphql, Link, withPrefix } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';

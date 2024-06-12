@@ -47,7 +47,7 @@ const Subscribe = (props) => {
               Subscribe
             </h1>
             <p>
-              Get each new issue sent directly to your inbox through <Link to="https://www.patreon.com/HavenSpecMagazine"> Patreon</Link>! It's basically magic! 
+              Get each new issue sent directly to your inbox through <a href="https://www.patreon.com/HavenSpecMagazine"> Patreon</a>! It's basically magic! 
               Remember, a mammoth never forgets—to subscribe!
             </p>
             {/* <p>

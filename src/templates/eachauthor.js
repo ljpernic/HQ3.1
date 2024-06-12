@@ -59,7 +59,7 @@ const Eachauthor = props => {
                     <Image
                       fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
                     />
-                    <div class="side-block">
+                    <div className="side-block">
                       {displayTwitter}
                       {displayFacebook}
                       {displayUrl}
@@ -70,7 +70,6 @@ const Eachauthor = props => {
                     {idname}
                   </h1>
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
-                  <p>
                     {
                       stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
                     }
@@ -79,7 +78,6 @@ const Eachauthor = props => {
                     {poems[0].poemtitle === null ? null : <h5> Poetry by {idname} </h5> }
                     {poems
                       .map((data, index) => poems[0].poemtitle === null ? null : <li key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
-                  </p>
                   <hr className="mb-2 mt-5"/>
                 
                   <Link to="/subscribe">

@@ -127,6 +127,9 @@ export const archiveNonFictionQuery = graphql`
       totalCount
       edges {
         node {
+          excerpt(pruneLength: 750)
+          html
+          id  
           frontmatter {
             available
             path
