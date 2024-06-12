@@ -32,7 +32,7 @@ const Eachauthor = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={idname} image={SEO_image} />
+      <SEO title={`${idname}, Haven Spec Magazine`} image={SEO_image} />
       <Helmet>
         <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta

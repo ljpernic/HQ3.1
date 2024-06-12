@@ -22,11 +22,11 @@ export default class archivePoetry extends React.Component {
        
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Poetry Archive" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Poetry" image={SEO_image} />
       <Helmet>
         <meta
-          name="Haven Spec Magazine, Poetry Archive"
-          content="Haven Spec Magazine, Poetry Archive"
+          name="Haven Spec Magazine, Poetry"
+          content="Haven Spec Magazine, Poetry"
         />
       </Helmet>
 

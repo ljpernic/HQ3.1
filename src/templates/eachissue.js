@@ -43,7 +43,7 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
 //////// 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={issueidname} image={SEO_image} />
+      <SEO title={`${issueidname}, Haven Spec Magazine`} image={SEO_image} />
       <Helmet>
         <meta
           name={issueidname}
