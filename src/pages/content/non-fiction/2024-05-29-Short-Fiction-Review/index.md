@@ -19,7 +19,7 @@ available: true
 
 **["Your Sword, Your Trumpet"](https://thedeadlands.com/issue-33/sword-trumpet/) by Anjali Patel (*The Deadlands #33*)** <br />
 
-After an intricate dance for dominance over the realm which has lasted millennia, an unnamed, primordial force of Order finally manages to prevail over the enigmatic, primordial force of Chaos—only to realize the catastrophic consequences, for the world and themself both. With lyrical prose, a storyworld that is just vague enough to be universal yet detailed enough to feel lived-in, and a subtly humorous vein that pulses throughout, Anjali Patel has crafted a captivating love-story between two immortal beings that is surprisingly relatable and sweet. 
+After an intricate dance for dominance over the realm which has lasted millennia, an unnamed, primordial force of Order finally manages to prevail over the enigmatic, primordial force of Chaos—only to realize the catastrophic consequences, for the world and themself both. With lyrical prose, a storyworld that is just vague enough to be universal yet detailed enough to feel lived-in, and a subtly humorous vein that pulses throughout, Anjali Patel has crafted a captivating love story between two immortal beings that is surprisingly relatable and sweet. 
 
 
 **["In the Year 2067 I Will Be 95 Years Old"](https://reckoning.press/in-the-year-2067-i-will-be-95-years-old/) by Sage Tyrtle (*Reckoning 8*)** <br />
