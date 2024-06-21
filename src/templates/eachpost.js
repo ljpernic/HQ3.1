@@ -34,7 +34,7 @@ const displayUrl = urlName === null ? null : <a className='social-icon' href={ur
 
   return (
     <Layout bodyClass="page-home">                                 {/*TEMPLATE FOR BUILDING INDIVIDUAL STORY PAGES*/}
-      <SEO title={`${title} by ${author.id}, Haven Spec Magazine`} image={SEO_image} />
+      <SEO title={`${title} by ${author.id}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Content Page Image" />
       <Helmet>
         <meta
           name={title}

@@ -13,7 +13,7 @@ const newsLetter = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Newsletter" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Newsletter" image={SEO_image} alt="Haven Spec Magazine, Newsletter Page Image" />
       <Helmet>
         <meta
           name="Haven Spec Magazine, Newsletter"

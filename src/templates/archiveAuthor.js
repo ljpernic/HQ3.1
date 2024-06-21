@@ -33,7 +33,7 @@ export default class archiveAuthor extends React.Component {
 
     return (
       <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Contributors" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Contributors" image={SEO_image} alt="Haven Spec Magazine, Contributors Page Image" />
       <Helmet>
         <meta
           name="Haven Spec Magazine, Contributors"
@@ -41,7 +41,7 @@ export default class archiveAuthor extends React.Component {
         />
       </Helmet>
 
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
           <div className="row2">
             <div className="grid-container">

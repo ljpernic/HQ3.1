@@ -42,7 +42,7 @@ const Home = ({ data }) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine" image={SEO_image} />
+      <SEO title="Haven Spec Magazine" image={SEO_image} alt="Haven Spec Magazine, Home Page Image" />
       <Helmet>
         <meta
           name="Haven Spec Magazine"

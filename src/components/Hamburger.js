@@ -1,36 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-class Hamburger extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      hamburgerActive: false,
-    };
-  }
+const Hamburger = ({ toggleMenu }) => {
+  const [hamburgerActive, setHamburgerActive] = useState(false);
 
-  handleToggle = () => {
-    this.setState(prevState => ({
-      hamburgerActive: !prevState.hamburgerActive,
-    }));
-    this.props.toggleMenu(this.state.hamburgerActive);
+  const handleToggle = () => {
+    setHamburgerActive(prevState => {
+      const newActiveState = !prevState;
+      toggleMenu(newActiveState);
+      return newActiveState;
+    });
   };
 
-  render() {
-    return (
-      <button
-        id="toggle-main-menu-mobile"
-        className={`hamburger hamburger--slider ${
-          this.state.hamburgerActive ? 'is-active' : ''
-        }`}
-        type="button"
-        onClick={this.handleToggle}
-      >
-        <span className="hamburger-box">
-          <span className="hamburger-inner" />
-        </span>
-      </button>
-    );
-  }
-}
+  return (
+    <button
+      id="toggle-main-menu-mobile"
+      className={`hamburger hamburger--slider ${hamburgerActive ? 'is-active' : ''}`}
+      type="button"
+      onClick={handleToggle}
+    >
+      <span className="hamburger-box">
+        <span className="hamburger-inner" />
+      </span>
+    </button>
+  );
+};
 
 export default Hamburger;

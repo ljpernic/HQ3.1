@@ -13,7 +13,7 @@ const Forms = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Submission Form" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Submission Form" image={SEO_image} alt="Haven Spec Magazine, Submission Form Image" />
       <Helmet>
         <meta
           name="Haven Spec Magazine, Submission Form"

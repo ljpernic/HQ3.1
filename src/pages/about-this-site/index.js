@@ -13,7 +13,7 @@ const aboutThisSite = (props) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, About This Site" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, About This Site" image={SEO_image} alt="Haven Spec Magazine, About This Site Page Image" />
       <Helmet>
         <meta
           name="Haven Spec Magazine, About This Site"

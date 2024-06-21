@@ -1,35 +1,24 @@
 import React from 'react';
-
 import currentCover from '../images/CurrentCover.jpg';
+import allIssueData from '../data/issue.yaml';
 
-import allIssueData from "../data/issue.yaml" 
+const CurrentIssue = () => {
+  const currentIssue = allIssueData[0].issueUrl;
 
-const currentIssue = allIssueData[0].issueUrl
-
-//const currentIssue = `https://ko-fi.com/s/65381f5b37`;
-
-//////// CREATES COMPONENT THAT RETURNS THE COLUMN CONTAINING THE CURRENT ISSUE AND SQUARE ADVERTS ////////
-
-class CurrentIssue extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
+  return (
+    <div>
       <div>
-        <div>
-          <a href={currentIssue}>
-            <img className='currentCover' alt="Haven Spec current issue" src={currentCover} />
-          </a>
-        </div>      
-        <div>
-          <a className="buybutton button-primary" href={currentIssue}>
-            BUY CURRENT ISSUE
-          </a>
-        </div>
+        <a href={currentIssue} aria-label="Go to current issue">
+          <img className="currentCover" alt="Haven Spec current issue cover" src={currentCover} />
+        </a>
       </div>
-    );
-  }
-}
+      <div>
+        <a className="buybutton button-primary" href={currentIssue} aria-label="Buy current issue">
+          BUY CURRENT ISSUE
+        </a>
+      </div>
+    </div>
+  );
+};
 
 export default CurrentIssue;

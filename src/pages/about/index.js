@@ -81,7 +81,7 @@ const About = ({ data }) => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, About" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, About" image={SEO_image} alt="Haven Spec Magazine, About Page Image" />
       <Helmet>
         <script src={withPrefix('collapsible_script.js')} type="text/javascript" />
         <meta name="Haven Spec Magazine, About Page" content="Haven Spec Magazine, About Page" />

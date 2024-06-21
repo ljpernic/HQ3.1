@@ -1,10 +1,15 @@
 import React from 'react';
 import { graphql, StaticQuery, Link } from 'gatsby';
 
-const Menu = (props) => {
-  const { menuLinks } = props.data.site.siteMetadata;
+const Menu = ({ data }) => {
+  const { menuLinks } = data.site.siteMetadata;
+  
+  if (!menuLinks) {
+    return null;
+  }
+
   return (
-    <div id="main-menu" className="main-menu menuPlacement">
+    <nav id="main-menu" className="main-menu menuPlacement">
       <ul>
         {menuLinks.map(link => (
           <li key={link.name}>
@@ -12,11 +17,11 @@ const Menu = (props) => {
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 
-export default props => (
+const MenuWithQuery = () => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -33,3 +38,5 @@ export default props => (
     render={data => <Menu data={data} />}
   />
 );
+
+export default MenuWithQuery;

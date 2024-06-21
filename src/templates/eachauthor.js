@@ -32,7 +32,7 @@ const Eachauthor = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={`${idname}, Haven Spec Magazine`} image={SEO_image} />
+      <SEO title={`${idname}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Author Page Image" />
       <Helmet>
         <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta
@@ -119,10 +119,10 @@ export const query = graphql`
           twitter
           picture {
             childImageSharp {
-              fixed(height: 200, width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(height: 200, width: 200) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -135,10 +135,10 @@ export const query = graphql`
           artist
           artistimage {
             childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 200) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {
                 ...GatsbyImageSharpFluid
               }
             }

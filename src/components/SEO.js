@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import favicon from '../../static/favicon.png';
 
-const SEO = ({ title, description, image }) => (
+const SEO = ({ title, description, image, alt }) => (
   <StaticQuery
     query={detailsQuery}
     render={(data) => {
@@ -54,6 +54,14 @@ const SEO = ({ title, description, image }) => (
             metaImage && {
               property: 'twitter:image',
               content: metaImage,
+            },
+            alt && {
+              property: 'og:image:alt',
+              content: alt,
+            },
+            alt && {
+              property: 'twitter:image:alt',
+              content: alt,
             },
           ].filter(Boolean)}
           link={[

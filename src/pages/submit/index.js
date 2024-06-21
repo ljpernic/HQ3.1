@@ -12,7 +12,7 @@ const Submit = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Submission Page" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Submission Page" image={SEO_image} alt="Haven Spec Magazine, Submit Page Image" />
       <Helmet>
         <script src="https://www.cognitoforms.com/f/iframe.js" />
         <meta

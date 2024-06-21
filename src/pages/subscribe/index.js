@@ -12,7 +12,7 @@ const Subscribe = (props) => {
   const data = props.data;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Haven Spec Magazine, Support and Subscribe" image={SEO_image} />
+      <SEO title="Haven Spec Magazine, Support and Subscribe" image={SEO_image} alt="Haven Spec Magazine, Support and Subscribe Page Image" />
       <Helmet>
       <script async src="https://c6.patreon.com/becomePatronButton.bundle.js" />
         <meta
