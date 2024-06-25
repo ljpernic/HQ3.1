@@ -108,17 +108,17 @@ const Eachpost = ({ data }) => {
                {/* Render Fiction section if there are stories */}
                {author.stories && author.stories[0].storytitle !== null && (
                   <>
-                    <h5> Fiction by {author.idname} </h5>
+                    <h5> Fiction by {author.id} </h5>
                     {author.stories.map((data, index) => (
                       <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>
                     ))}
                   </>
-                )}
+                )}<br />
 
                 {/* Render Poetry section if there are poems */}
                 {author.poems && author.poems[0].poemtitle !== null && (
                   <>
-                    <h5> Poetry by {author.idname} </h5>
+                    <h5> Poetry by {author.id} </h5>
                     {author.poems.map((data, index) => (
                       <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>
                     ))}

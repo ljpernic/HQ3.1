@@ -19,6 +19,7 @@ const Eachauthor = props => {
 
   // Find the author object based on idname
   const author = frontmatter.authors.find(author => author.id === idname);
+  console.log("author: " + JSON.stringify(author))
 
   if (!author) {
     // Handle case where author with idname is not found
@@ -100,7 +101,7 @@ const Eachauthor = props => {
                       <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>
                     ))}
                   </>
-                )}
+                )}<br />
 
                 {/* Render Poetry section if there are poems */}
                 {author.poems && author.poems[0].poemtitle !== null && (

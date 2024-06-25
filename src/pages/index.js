@@ -23,7 +23,7 @@ const ContentSection = ({ header, content }) => (
               <React.Fragment key={author.id}>
                 <Link to={author.idpath}>{author.id}</Link>
                 {index !== authors.length - 1 && index !== authors.length - 2 && ", "} {/* Add comma if not the last author */}
-                {index === authors.length - 2 && " and "} {/* Add "and" before the last author */}
+                {index === authors.length - 2 && " & "} {/* Add "and" before the last author */}
               </React.Fragment>
           ))}
         </p>

@@ -98,14 +98,6 @@ module.exports = {
         ], 
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: guid ? guid : 'UA-207991478-1',
-        // Puts tracking script in the head instead of the body
-        head: false,
-      },
-    },
   `gatsby-transformer-yaml`,
   ],
   mapping: {
