@@ -1,6 +1,7 @@
 ---
 title: "Post-traumatic stress sonnet of the Indigenous archeoastronomer"
-author: Kevin Martens Wong
+authors:
+    - Kevin Martens Wong
 issue: Issue Ten, August 2023
 description: ''
 shortdescription: 'Star-rise. I wake in arms of amber light, <br />

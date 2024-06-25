@@ -100,6 +100,23 @@
   - poemtitle:
     poemlink:
 
+- id: H.B. Asari
+  idpath: "/h-b-asari"
+  bio: "H.B. Asari is a Niger Deltan poet currently exiting her Fleabag era and entering her Elle Woods era. Her poetry has been nominated for 
+    a Pushcart Prize; shortlisted for the Climate Change Poetry Prize 2022 and won the Stephen A. Dibiase Poetry Prize; and has appeared 
+    in <em>Ake Review</em>, <em>Fantasy Magazine</em>, <em>FIYAH</em> and <em>Consequence Forum</em>. You can find her occupying the double 
+    reality of not wanting to be found but having an Instagram as <a href='https://www.instagram.com/draft_oroguitas'>@draft_oroguitas</a>." 
+  twitter: ''
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Apiary"
+    poemlink: "/apiary"
+
 ####################################################################___LETTER B___####################################################################
 
 - id: Stewart C Baker
@@ -478,6 +495,23 @@
   poems:
   - poemtitle: One-Way, through the Fire
     poemlink: /one-way-through-the-fire
+
+- id: J.R. Dawson
+  idpath: "/j-r-dawson"
+  bio: "Dawson (she*/they) is the author of <em>The First Bright Thing</em> (Tor), with shorter works in places such as <em>F&SF</em>, <em>The 
+    Year’s Best Science Fiction and Fantasy 2018</em>, and <em>Lightspeed</em>. She lives in Minnesota with a loving wife and three dogs. 
+    Her next book is coming soon from Tor, a sapphic ghost story set in Chicago where Lake Michigan is the River Styx. She is not good at 
+    puzzles.<br /><br />insta: <a href='https://www.instagram.com/jrdawsonwriter'>@jrdawsonwriter</a><br />website: <a href='http://www.jrdawsonwriter.com/'>www.jrdawsonwriter.com</a><br />twitter: <a href='https://www.twitter.com/j_r_dawson'>@j_r_dawson</a>"
+  twitter: 'J_R_Dawson'
+  url: https://linktr.ee/jrdawsonwriter
+  facebook:
+  picture: ../images/profile/J_R_Dawson.jpg
+  stories:
+  - storytitle: "This Mentor Lives"
+    storylink: "/this-mentor-lives"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Rebecca A. Demarest
   idpath: "/rebecca-a-demarest"
@@ -1097,6 +1131,23 @@
   - poemtitle:
     poemlink:
 
+- id: Valerie Kemp
+  idpath: "/valerie-kemp"
+  bio: "Valerie Kemp writes speculative and contemporary fiction for all ages. Her work has appeared in <em>Apex Magazine</em>, <em>Cast of 
+    Wonders</em>, <em>Voyage YA</em> and the anthologies <em>Just Above Water</em> and <em>Defy the Dark</em>. She is a 2022 graduate of 
+    Viable Paradise. Valerie is also a recovering academic whose research focused on the importance of media representation, something she 
+    cares deeply about. Find Valerie @valeriekwrites on Bluesky, IG, and Twitter, and at <a href='https://valeriekemp.wordpress.com/'>valeriekemp.com</a>."
+  twitter: 'valeriekwrites'
+  url: https://valeriekemp.wordpress.com/
+  facebook:
+  picture: ../images/profile/Valerie_Kemp.jpg
+  stories:
+  - storytitle: Reciprocity
+    storylink: "/reciprocity"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Meghan Kemp-Gee
   idpath: "/meghan-kemp-gee"
   bio: Meghan Kemp-Gee lives somewhere between Vancouver, BC, and Fredericton, NB. She writes poetry, comics, and scripts of all kinds. She also teaches composition and 
@@ -1302,8 +1353,8 @@
 
 - id: Marissa Lingen
   idpath: "/marissa-lingen"
-  bio: "Marissa Lingen writes science fiction, fantasy, poems, and essays. She lives in Minnesota atop some of the oldest bedrock in North America. She promises that she is really 
-    a very nice person and the consistent return to monsters in her work is probably a coincidence of some sort."
+  bio: " Marissa Lingen is a science fiction and fantasy writer and poet. She lives in Minnesota atop some of the oldest bedrock on the continent. 
+    She has an inordinate fondness for apples, tisanes, and Moomins."
   twitter: 'MarissaLingen'
   url:
   facebook:
@@ -1311,6 +1362,8 @@
   stories:
   - storytitle: 'Monster of the Month Club'
     storylink: "/monster-of-the-month-club"
+  - storytitle: 'Conjured From the Rubble'
+    storylink: "/conjured-from-the-fubble"    
   poems:
   - poemtitle:
     poemlink:
@@ -1557,6 +1610,24 @@
 
 ####################################################################___LETTER N___####################################################################
 
+- id: Mari Ness
+  idpath: "/mari-ness"
+  bio: "Mari Ness is the author of <em>Through Immortal Shadows Singing, Resistance and Transformation: On Fairy Tales</em>, <em>Dancing 
+    in Silver Lands</em>, and, most recently, <em>Let me tell you of that garden</em>, a mini chapbook available from Sword and Kettle 
+    Press. Other work appears in <em>Tor.com</em>, <em>Clarkesworld</em>, <em>Uncanny</em>, <em>Lightspeed</em>, <em>Nightmare</em>, <em>Apex</em>, <em>Baffling</em>, <em>Reckoning</em>, <em>Strange Horizons</em>, and multiple other zines and anthologies. 
+    More information can be found on an infrequently updated webpage, <a href='https://marikness.wordpress.com/'>https://marikness.wordpress.com/</a>, or on Bluesky <a href='https://bsky.app/profile/mariness.bsky.social'>https://bsky.app/profile/mariness.bsky.social</a>. 
+    Mari lives in central Florida."
+  twitter:
+  url: https://marikness.wordpress.com/
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Ever Noir"
+    poemlink: "/ever-noir"
+
 - id: Russell Nichols
   idpath: "/russell-nichols"
   bio: Russell Nichols is a speculative fiction writer and endangered journalist. Raised in Richmond, California, he gave up all his stuff in 2011 and now lives 
@@ -1678,9 +1749,10 @@
 
 - id: Eva Papasoulioti
   idpath: "/eva-papasoulioti"
-  bio: MahmooEva Papasoulioti is a writer of speculative fiction and poetry. She lives in Athens, Greece, with her spouse and their two cats, and translates words for a 
-    living. Her work has appeared in <em>Uncanny Magazine</em>, <em>Solarpunk Magazine</em>, <em>Syntax & Salt</em>, <em>Polu Texni</em> and elsewhere. You can find her 
-    on twitter <a href="https://www.twitter.com/epapasoulioti">@epapasoulioti</a> and on her blog <a href="https://plothopes.com/">plothopes.com</a>.
+  bio: "Eva Papasoulioti is a Greek writer of speculative fiction and poetry. Her work has appeared in <em>Uncanny</em>, <em>Strange 
+    Horizons</em>, <em>Solarpunk Magazine</em>, <em>Heartlines Spec</em>, <em>Radon Journal</em> and elsewhere, and has been nominated for 
+    the Rhysling and Dwarf Stars Awards. She lives in Athens with her spouse and their two cats. You can find her on X/twitter 
+    and bluesky @epapasoulioti and on her blog <a href='https://plothopes.com/'>plothopes.com</a>."
   twitter: 'epapasoulioti'
   url: https://plothopes.com/
   facebook:
@@ -1691,6 +1763,8 @@
   poems:
   - poemtitle: "Lunar Maria"
     poemlink: "/lunar-maria"
+  - poemtitle: "Biophos"
+    poemlink: "/biophos"
 
 - id: James Parenti
   idpath: "/james-parenti"
@@ -1778,9 +1852,11 @@
 
 - id: Marisca Pichette
   idpath: "/marisca-pichette"
-  bio: Marisca Pichette is an author of speculative fiction, nonfiction, and poetry. Further work by her has been published and is forthcoming in <em>Strange Horizons</em>, 
-    <em>PseudoPod</em>, <em>Daily Science Fiction</em>, <em>Fireside</em>, <em>Uncharted</em>, and <em>PodCastle</em>, among others. A lover of moss and monsters, she lives 
-    in Western Massachusetts.
+  bio: Marisca Pichette is a queer author based in Massachusetts, on Pocumtuck and Abenaki land. Find more of her work 
+    in <em>Strange Horizons</em>, <em>Clarkesworld</em>, <em>The Magazine of Fantasy & Science Fiction</em>, <em>Fantasy Magazine</em>, and 
+    others. Her Bram Stoker and Elgin Award-nominated poetry collection, <em>Rivers in Your Skin, Sirens in Your Hair</em>, is out now 
+    from Android Press. Find them on Twitter as <a href='https://www.twitter.com/MariscaPichette'>@MariscaPichette</a>, Instagram as <a href='https://www.instagram.com/marisca_write'>@marisca_write</a>, and 
+    Bluesky as <a href='https://bsky.app/profile/marisca.bsky.social'>@marisca.bsky.social</a>.
   twitter: 'MariscaPichette'
   url:
   facebook:
@@ -1793,6 +1869,8 @@
     poemlink: /and-it-dries-and-dries
   - poemtitle: "A Prayer for the Surviving"
     poemlink: /a-prayer-for-the-surviving
+  - poemtitle: "You must wear your rue with a difference"
+    poemlink: "/you-must-wear-your-rue-with-a-difference"
 
 - id: "Sandra Pope"
   idpath: "/sandra-pope"
@@ -2281,6 +2359,24 @@
   - poemtitle:
     poemlink:
 
+- id: Eugenia Triantafyllou
+  idpath: "/eugenia-triantafyllou"
+  bio: "Eugenia Triantafyllou is a Greek author and artist with a flair for dark things. Her work has been nominated for the Ignyte, Nebula, and 
+    World Fantasy Awards, and she is a graduate of Clarion West Writers Workshop. You can find her stories in <em>Reactor</em> (formerly 
+    Tor.com), <em>Uncanny</em>, <em>Strange Horizons</em>, and other venues. She currently lives in Athens with a boy and a dog. 
+    Find her on Twitter or Bluesky @foxesandroses, her IG <a href='https://www.instagram.com/eugeniatriantafyllou'>@eugeniatriantafyllou</a>, or her 
+    website <a href='https://eugeniatriantafyllou.com/'>http://www.eugeniatriantafyllou.com</a>."
+  twitter: foxesandroses
+  url: http://www.eugeniatriantafyllou.com
+  facebook:
+  picture: ../images/profile/Eugenia_Triantafyllou.jpg
+  stories:
+  - storytitle: "Skinless"
+    storylink: "/skinless"
+  poems:
+  - poemtitle:
+    poemlink:
+
 ####################################################################___LETTER U___####################################################################
 
 ####################################################################___LETTER V___####################################################################
@@ -2407,6 +2503,22 @@
   - poemtitle:
     poemlink:
 
+- id: Bree Wernicke
+  idpath: "/bree-wernicke"
+  bio: "Bree Wernicke is an actor and speculative fiction writer living in Los Angeles. Her short stories and poetry have appeared 
+    in <em>Fusion Fragment</em>, <em>Strange Horizons</em>, <em>Baffling</em>, and <em>MetaStellar</em>, among others. When not writing, 
+    she invents languages for fun."
+  twitter: 'breewernicke'
+  url: https://breewernicke.com/
+  facebook:
+  picture: ../images/profile/Bree_Wernicke.jpg
+  stories:
+  - storytitle: "Human Habits"
+    storylink: "/human-habits"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Marcus Whalbring
   idpath: "/marcus-whalbring"
   bio: "Marcus Whalbring is the author of <em>A Concert of Rivers</em> from Milk & Cake Press, as well as <em>How to Draw Fire</em> from Finishing Line Press and <em>Just 
@@ -2455,6 +2567,22 @@
   stories:
   - storytitle: To Kneel at the Altar of Your Bones
     storylink: "/to-kneel-at-the-altar-of-your-bones"
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: John Wiswell
+  idpath: "/john-wiswell"
+  bio: "John Wiswell is a disabled author who lives where New York keeps all its trees. His fiction has won the Nebula for Best Short Story and 
+    Locus for Best Novelette, and has been translated into ten languages. His debut novel, <em>SOMEONE YOU CAN BUILD A NEST IN</em>, was 
+    published by DAW Books on April 2, 2024. He wishes all wizards to get more rest."
+  twitter: 'Wiswell'
+  url: https://linktr.ee/johnwiswell
+  facebook:
+  picture: ../images/profile/John_Wiswell.jpg
+  stories:
+  - storytitle: "This Mentor Lives"
+    storylink: "/this-mentor-lives"
   poems:
   - poemtitle:
     poemlink:

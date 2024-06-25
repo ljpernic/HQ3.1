@@ -1,6 +1,7 @@
 ---
 title: That Monster Beneath the Bed
-author: Beth Cato
+authors:
+    - Beth Cato
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'bedtime is the worst <br />

@@ -1,6 +1,7 @@
 ---
 title: Wolf Rune
-author: Thomas Zimmerman
+authors:
+    - Thomas Zimmerman
 issue: Issue One, November 2021
 description: 	The forest lands link earth with heaven,<br /> spruce-tree tips like dendrites of elder earthen gods.
 shortdescription: The forest lands link earth with heaven,<br /> spruce-tree tips like dendrites of elder earthen gods.

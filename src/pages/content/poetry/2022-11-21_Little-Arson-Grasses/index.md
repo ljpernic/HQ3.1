@@ -1,6 +1,7 @@
 ---
 title: Little Arson Grasses
-author: Jennifer Crow
+authors:
+    - Jennifer Crow
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'If you love me, you will burn. <br />

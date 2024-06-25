@@ -1,6 +1,7 @@
 ---
 title: The Last Day of Autumn
-author: T. R. Siebert
+authors:
+    - T. R. Siebert
 issue: Issue Eleven, October 2023
 description: 'On the last day of autumn, I wake to the cries of the cranes above and know it’s time to see the beast. I dress in thick wool and the heavy boots from the back of my closet, careful not to wake Hugo, who’s still snoring on his side of the bed. My trusty woven basket is quickly packed with small sour apples from the garden, dark brown bread and some of the smoked ham I promised Hugo for breakfast. He’ll understand once he wakes and finds me gone. He’ll hear the cranes and know not to expect me back for supper.<p>He might not be as understanding about me taking the last piece of the blackberry cake, however.</p>' 
 shortdescription: 'On the last day of autumn, I wake to the cries of the cranes above and know it’s time to see the beast. I dress in thick wool and the heavy boots from the back of my closet, careful not to wake Hugo, who’s still snoring on his side of the bed. My trusty woven basket is quickly packed with small sour apples from the garden, dark brown bread and some of the smoked ham I promised Hugo for breakfast. He’ll understand once he wakes and finds me gone. He’ll hear the cranes and know not to expect me back for supper.<p>He might not be as understanding about me taking the last piece of the blackberry cake, however.</p>'

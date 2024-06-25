@@ -8,6 +8,7 @@ import Helmet from 'react-helmet';
 import Image from 'gatsby-image';
 import Advertisement from '../components/advertisement';
 import CurrentIssue from '../components/CurrentIssue';
+import Pagination from '../components/Pagination';
 
 class ArchiveIssues extends React.Component {
   render() {
@@ -15,11 +16,6 @@ class ArchiveIssues extends React.Component {
     const issueNodes = data.allIssueYaml.edges;
 
     const { issueCurrentPage, issuePagination } = pageContext
-    const isFirst = issueCurrentPage === 1
-    const isLast = issueCurrentPage === issuePagination
-    console.log('issuePagination: ' + issuePagination)
-    const prevPage = issueCurrentPage - 1 === 1 ? "/all-issues/" : `/all-issues/${issueCurrentPage - 1}`
-    const nextPage = `/all-issues/${issueCurrentPage + 1}`
         
     return (
       <Layout bodyClass="page-home">
@@ -55,7 +51,7 @@ class ArchiveIssues extends React.Component {
                   </div>
 
                   {issueNodes.map(({ node: issue }) => (
-                    <div key={issue.id} className="pt-1 pb-2">
+                    <div key={issue.id} className="contributor-div">
                       <Image className="editorImageAbout mb-2"
                         fixed={issue.issuecover.childImageSharp.fixed}
                       />
@@ -63,41 +59,14 @@ class ArchiveIssues extends React.Component {
                         <Link to={issue.idpath}>{issue.id}</Link>
                       </h1>
                       <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.teaserText) }} />
-                      <hr className="mt-5"/>
                     </div>
                   ))}
 
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-sm">
-                        <p className="text-left">
-                          {!isFirst && (
-                            <Link to={prevPage} rel="prev">
-                              ← Previous Page
-                            </Link>
-                          )}
-                        </p>
-                      </div>            
-                      <div className="col-sm">
-                        <p className="text-center">
-                        {Array.from({ length: issuePagination }, (_, i) => (
-                        <Link key={`pagination-number${i + 1}`} to={`/all-issues/${i === 0 ? "" : i + 1}`}>
-                          &nbsp;&nbsp;&nbsp;{i + 1}&nbsp;&nbsp;&nbsp;
-                        </Link>
-                      ))}
-                        </p>
-                      </div>
-                      <div className="col-sm">
-                        <p className="text-right">
-                          {!isLast && (
-                            <Link to={nextPage} rel="next">
-                              Next Page →
-                            </Link>
-                          )}
-                        </p>
-                      </div>
-                    </div>         
-                  </div>
+                  <Pagination
+                    currentPage={issueCurrentPage}
+                    totalPages={issuePagination}
+                    basePath="/all-issues"
+                  />
                 </div>
               </div>
             </div>  

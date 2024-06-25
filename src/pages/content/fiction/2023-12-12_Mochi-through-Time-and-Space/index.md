@@ -1,6 +1,7 @@
 ---
 title: Mochi through Space and Time
-author: Karen Aria Lin
+authors:
+    - Karen Aria Lin
 issue: Issue Twelve, December 2023
 description: "As I approached Sue-Ling’s Bakery, I had the curious feeling I was returning home. <p>The storefront was nothing special, just a brown door crammed between a grocery and bookstore in a sleepy Irvine plaza, the bakery’s name stenciled in peeling English letters and Chinese characters on the window. But when I opened the door, sweet smells pulled me in like gravity. This early in the morning, I was the only customer.</p><p>Behind the cramped counter, a short middle-aged woman kneaded dough quickly and gently. Her black hair was up in a messy bun, and flour dusted her apron like a constellation in the night sky. A beauty mark dotted her left cheek. I knew instinctively that she was Sue-Ling. When our eyes met, a strange familiarity sparked in my brain. Suddenly shy, I looked away.</p>" 
 shortdescription: "As I approached Sue-Ling’s Bakery, I had the curious feeling I was returning home. <p>The storefront was nothing special, just a brown door crammed between a grocery and bookstore in a sleepy Irvine plaza, the bakery’s name stenciled in peeling English letters and Chinese characters on the window. But when I opened the door, sweet smells pulled me in like gravity. This early in the morning, I was the only customer.</p>"

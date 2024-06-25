@@ -1,6 +1,7 @@
 ---
 title: From Far Away, With Love
-author: Carol Scheina
+authors:
+    - Carol Scheina
 issue: Issue Eight, March 2023
 description: 'Marcus laughed when Rella asked him to take a rokri fish with him to Station 12. “Rokri fish? Isn’t that what teens use to send love letters when their parents won’t let them use the comms?” <p>“Yeah, but comms are expensive, and rokri are cheap.” Rella was always the practical one when it came to money. </p><p>Roki fish were unique in having a symbiotic digestive system. When two rokri bonded, whatever one ate, the other digested, and that connection lasted even across the immense span of space. As Rella explained, that meant Marcus could scribble short notes on specially coated paper, feed them to his rokri, and even though their work stations would be lightyears apart Rella’s fish would harmlessly digest the paper out. </p>' 
 shortdescription: 'Marcus laughed when Rella asked him to take a rokri fish with him to Station 12. “Rokri fish? Isn’t that what teens use to send love letters when their parents won’t let them use the comms?” <p>“Yeah, but comms are expensive, and rokri are cheap.” Rella was always the practical one when it came to money. </p><p>Roki fish were unique in having a symbiotic digestive system. When two rokri bonded, whatever one ate, the other digested, and that connection lasted even across the immense span of space. As Rella explained, that meant Marcus could scribble short notes on specially coated paper, feed them to his rokri, and even though their work stations would be lightyears apart Rella’s fish would harmlessly digest the paper out. </p>'

@@ -1,6 +1,7 @@
 ---
 title: Monster of the Month Club
-author: Marissa Lingen
+authors:
+    - Marissa Lingen
 issue: Issue Ten, August 2023
 description: "I always liked those boxes full of tiny jars of jam. Great present. And Advent calendars with chocolate, yes please. But when the shadow monster coalesced in my backyard, I didn't think of any of that. Why would I? I'd taken my dog Sancho out to pee before bed, and a rustling in the leaves resolved itself into a form of darkness. I only had time to disperse it with swipes of the rake, not contemplate gift subscriptions. <p>Sancho and I went inside, ate peanut butter cookies, and snuggled each other in a panic. And I thought nothing more of it, except, jeez, that was weird.</p> <p>Until the next month when I had to whack a lamia with a snow shovel.</p>"
 shortdescription: "I always liked those boxes full of tiny jars of jam. Great present. And Advent calendars with chocolate, yes please. But when the shadow monster coalesced in my backyard, I didn't think of any of that. Why would I? I'd taken my dog Sancho out to pee before bed, and a rustling in the leaves resolved itself into a form of darkness. I only had time to disperse it with swipes of the rake, not contemplate gift subscriptions. <p>Sancho and I went inside, ate peanut butter cookies, and snuggled each other in a panic. And I thought nothing more of it, except, jeez, that was weird.</p> <p>Until the next month when I had to whack a lamia with a snow shovel.</p>"

@@ -1,6 +1,7 @@
 ---
 title: Behemoth
-author: Julie Allyn Johnson
+authors:
+    - Julie Allyn Johnson
 issue: Issue Four, May 2022
 description: X
 shortdescription: Watch as I tend <br />

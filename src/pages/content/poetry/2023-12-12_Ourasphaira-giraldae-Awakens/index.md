@@ -1,6 +1,7 @@
 ---
 title: "Ourasphaira giraldae Awakens"
-author: H.V. Patterson
+authors:
+    - H.V. Patterson
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "Gods writ microscopic, <br />

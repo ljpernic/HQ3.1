@@ -1,6 +1,7 @@
 ---
 title: Short Fiction Review — March 2024
-author: Danai Christopoulou
+authors:
+    - Danai Christopoulou
 issue: Issue Fourteen, March 2024
 description: Four short story reviews by Danai Christopoulou.
 shortdescription: Short fiction reviews by Danai Christopoulou. Stories reviewed include "There Are Only Two Chairs, and the Skin Is Draped Over the Other" by Alexia Antoniou (published in <em>Bourbon Penn</em>), "Give Me English" by Ai Jiang (reprinted in <em>Fusion Fragment</em>), "The Memory Shop" by Melissa Ren (published in <em>Fusion Fragment</em>), and "Godskin" by CL Hellisen (published in <em>Strange Horizons</em>).

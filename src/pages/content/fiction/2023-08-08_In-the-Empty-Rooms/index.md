@@ -1,6 +1,7 @@
 ---
 title: In the Empty Rooms
-author: Amanda Haimoto Rudd
+authors:
+    - Amanda Haimoto Rudd
 issue: Issue Ten, August 2023
 description: "The house breathes around me, curls in to cradle me, but will not let me go. Mother told me it was for my own protection, though from what or whom she never said. She's gone now. And the house cannot tell me. But how can I be safe when the danger is not out there, but here with me, trapped as surely between walls of red brick and thick glass as I? <p>A monster roams these halls.</p>" 
 shortdescription: "The house breathes around me, curls in to cradle me, but will not let me go. Mother told me it was for my own protection, though from what or whom she never said. She's gone now. And the house cannot tell me. But how can I be safe when the danger is not out there, but here with me, trapped as surely between walls of red brick and thick glass as I? <p>A monster roams these halls.</p>"

@@ -1,6 +1,7 @@
 ---
 title: Tall Tales
-author: F. J. Bergmann
+authors:
+    - F. J. Bergmann
 issue: Issue Four, May 2022
 description: X
 shortdescription: "The best place we ever lived <br />

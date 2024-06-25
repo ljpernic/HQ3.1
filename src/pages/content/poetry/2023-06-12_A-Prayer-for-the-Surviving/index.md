@@ -1,6 +1,7 @@
 ---
 title: A Prayer for the Surviving
-author: Marisca Pichette
+authors:
+    - Marisca Pichette
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'The atmosphere is breaking. <br />

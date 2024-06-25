@@ -1,6 +1,7 @@
 ---
 title: Short Fiction Review — June 2022 (online only)
-author: TJ Price
+authors:
+    - TJ Price
 issue: Issue Four, May 2022
 description: Thanks for checking out our column, the Short Fiction Review, here at Haven Spec! Three short story reviews by TJ Price.
 shortdescription: Thanks for checking out our column, the Short Fiction Review, here at Haven Spec! Three short story reviews by TJ Price.

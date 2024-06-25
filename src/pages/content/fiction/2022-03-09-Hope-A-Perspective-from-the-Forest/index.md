@@ -1,6 +1,7 @@
 ---
 title: 'Hope: A Perspective from the Forest'
-author: Tadayoshi Kohno
+authors:
+    - Tadayoshi Kohno
 issue: Issue Three, March 2022
 description: <em>Dad</em>, I thought to my father. <em>The smoke is too thick. I can’t breathe.</em> I looked up at him, and he looked down at me. His soft amber eyes glistened with tears and sorrow. <p><em>I know</em>, Dad thought to me as he laid his snout on mine. My body glowed with the knowledge that he would protect me. </p><p>He lifted his head and scanned the rest of our pack. We had stopped on a hill to survey the forest. My litter mates and I needed the rest. </p>
 shortdescription: <em>Dad</em>, I thought to my father. <em>The smoke is too thick. I can’t breathe.</em> I looked up at him, and he looked down at me. His soft amber eyes glistened with tears and sorrow. <p><em>I know</em>, Dad thought to me as he laid his snout on mine. My body glowed with the knowledge that he would protect me. </p>

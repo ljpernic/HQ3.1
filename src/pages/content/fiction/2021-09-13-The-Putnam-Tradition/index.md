@@ -1,6 +1,7 @@
 ---
 title: The Putnam Tradition
-author: Sonya Dorman
+authors:
+    - Sonya Dorman
 issue: Issue Zero, September 2021
 description: It was an old house not far from the coast, and had descended generation by generation to the women of the Putnam family. Progress literally went by it—a new four-lane highway had been built two hundred yards from the ancient lilacs at the doorstep. Long before that, in the time of Cecily Putnam's husband, power lines had been run in, and now on cold nights the telephone wires sounded like a concert of cellos, while inside with a sound like the breaking of beetles, the grandmother Cecily moved through the walls in the grooves of tradition. <p>Simone Putnam, her granddaughter; Nina Putnam, her great-granddaughter; the unbroken succession of matriarchs continued, but times the old woman thought that in Simone it was weakened, and she looked at the four-year-old Nina askance, waiting, waiting, for some good sign. <a href="https://www.havenquarterly.com/the-putnam-tradition/">[<i>...</i>]</a></p>
 shortdescription: It was an old house not far from the coast, and had descended generation by generation to the women of the Putnam family. Progress literally went by it—a new four-lane highway had been built two hundred yards from the ancient lilacs at the doorstep. Long before that, in the time of Cecily Putnam's husband, power lines had been run in, and now on cold nights the telephone wires sounded like a concert of cellos, while inside with a sound like the breaking of beetles, the grandmother Cecily moved through the walls in the grooves of tradition. <a href="https://www.havenquarterly.com/the-putnam-tradition/">[<i>...</i>]</a>

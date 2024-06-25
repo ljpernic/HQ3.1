@@ -1,6 +1,7 @@
 ---
 title: We Are the Moor
-author: Sylvia Heike
+authors:
+    - Sylvia Heike
 issue: Issue Two, January 2022
 description: We are one and we are many. We are shrubby willow and cotton-grass; we are moss and heather. All we need is this peaceful state of being. Enjoy the sun, listen to the birds, drink the mist. But there’s a new voice among us, and she won’t let us rest. <p> Night and day, she whispers about a man in town.</p>
 shortdescription: We are one and we are many. We are shrubby willow and cotton-grass; we are moss and heather. All we need is this peaceful state of being. Enjoy the sun, listen to the birds, drink the mist. But there’s a new voice among us, and she won’t let us rest. <p> Night and day, she whispers about a man in town. </p>

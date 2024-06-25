@@ -1,6 +1,7 @@
 ---
 title: Things Brought Home
-author: Lynne Sargent
+authors:
+    - Lynne Sargent
 issue: Issue Ten, August 2023
 description: 'When I was younger than I am now, I was a traveler: a woman with short calves and bones too close to the soles of my feet. In my country, we all are, for a time. We are sent out with joy in our adolescence, and our parents hope we return with respect, calluses, and perhaps a child of our own, or someone to make one with. Perhaps one in ten does not return. Much to my parents’ dismay, I am one of these. <p>The rules are thus: you must go until not a single person knows your name, and you may only return once you have obtained one of their songs, one of their meals, and one of their hearts.</p>' 
 shortdescription: 'When I was younger than I am now, I was a traveler: a woman with short calves and bones too close to the soles of my feet. In my country, we all are, for a time. We are sent out with joy in our adolescence, and our parents hope we return with respect, calluses, and perhaps a child of our own, or someone to make one with. Perhaps one in ten does not return. Much to my parents’ dismay, I am one of these. <p>The rules are thus: you must go until not a single person knows your name, and you may only return once you have obtained one of their songs, one of their meals, and one of their hearts.</p>'

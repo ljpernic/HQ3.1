@@ -1,6 +1,7 @@
 ---
 title: Misconceptions Regarding the Moon
-author: Avra Margariti
+authors:
+    - Avra Margariti
 issue: Issue Two, January 2022
 description: X
 shortdescription: The moon is a ghost, a god.<br />

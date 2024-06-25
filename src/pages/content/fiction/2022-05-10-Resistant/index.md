@@ -1,6 +1,7 @@
 ---
 title: Resistant
-author: Rebecca Angelo
+authors:
+    - Rebecca Angelo
 issue: Issue Four, May 2022
 description: “My name is Clark, and I am a recovering criminal,” I say to my support officer, whom I report to every quarter here on the station near Proxima Centauri. My job in communications at the terraforming office is supposed to make me regret ever dealing in the black market back on Gaia-canth. It's not having that effect. <p>My subordinate, Dyann, arrives early to offer their report. I think they actually enjoy their life out here in the middle of nowhere. They’re so passionate about everything—prisoner rights, human rights, rehabilitation—it's close to infuriating. I'm just here to do my stupid job, do my stupid time, and get back to Earth. </p>
 shortdescription: “My name is Clark, and I am a recovering criminal,” I say to my support officer, whom I report to every quarter here on the station near Proxima Centauri. My job in communications at the terraforming office is supposed to make me regret ever dealing in the black market back on Gaia-canth. It's not having that effect. <p>My subordinate, Dyann, arrives early to offer their report. I think they actually enjoy their life out here in the middle of nowhere. They’re so passionate about everything—prisoner rights, human rights, rehabilitation—it's close to infuriating. I'm just here to do my stupid job, do my stupid time, and get back to Earth. </p>

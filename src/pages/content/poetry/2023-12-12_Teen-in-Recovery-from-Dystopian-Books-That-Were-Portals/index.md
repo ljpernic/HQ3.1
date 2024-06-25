@@ -1,6 +1,7 @@
 ---
 title: Teen in Recovery from Dystopian Books that Were Portals
-author: G.E. Woods
+authors:
+    - G.E. Woods
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "<em>Teach yourself joy,</em> <br />

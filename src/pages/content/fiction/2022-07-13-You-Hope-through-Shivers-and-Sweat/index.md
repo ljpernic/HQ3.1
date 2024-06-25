@@ -1,6 +1,7 @@
 ---
 title: You Hope, Through Shivers and Sweat
-author: Elou Carroll
+authors:
+    - Elou Carroll
 issue: Issue Five, July 2022
 description: '<em>Come, come</em>, say his hands as he leads you through the foyer, nothing to light his way but a dusting of blinking ghost lamps. His coat, a long affair with too many pockets, pirouettes about his legs as he twists and turns. <em>Come and see what I have </em>just<em> for you.</em> <p>And here in the dark with shining eyes and his grin reflected in your spectacles, you believe him. You’ve read about him: a connoisseur of oddities, a collector of dreams and nightmares, only one show in each city he visits. The premiere event, they call it. They say he travels with so many glass jars in his pomegranate-red coat that it chimes as he rides from city to city, ever the showman. You saw his horse, a big black stallion with blinkers over its eyes, untethered, waiting. </p>'
 shortdescription: '<em>Come, come</em>, say his hands as he leads you through the foyer, nothing to light his way but a dusting of blinking ghost lamps. His coat, a long affair with too many pockets, pirouettes about his legs as he twists and turns. <em>Come and see what I have </em>just<em> for you.</em> <p>And here in the dark with shining eyes and his grin reflected in your spectacles, you believe him. You’ve read about him: a connoisseur of oddities, a collector of dreams and nightmares... </p>'

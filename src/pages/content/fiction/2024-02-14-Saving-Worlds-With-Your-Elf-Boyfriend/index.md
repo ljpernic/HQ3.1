@@ -1,6 +1,7 @@
 ---
 title: Saving Worlds With Your Elf Boyfriend
-author: Dana Berube
+authors:
+    - Dana Berube
 issue: Issue Thirteen, January 2024
 description: "So you travel to another world, save the kingdom, and get the girl. Except, because you’re queer and this is a dragon-haunted world, your girl’s a guy, and he’s an elf. And when it’s time for you to go home, he insists on following. So back you go, hand-in-hand with your new elf boyfriend, to a drafty apartment in Boston, Massachusetts. <p>The first few days in your world, he’s so excited he barely sleeps. He laughs as he opens and closes the refrigerator. The first time you take him on the MBTA’s “big iron worm” might be the best day of his life. No one has ever found a trip to Dunkin Donuts so edifying.</p>" 
 shortdescription: "So you travel to another world, save the kingdom, and get the girl. Except, because you’re queer and this is a dragon-haunted world, your girl’s a guy, and he’s an elf. And when it’s time for you to go home, he insists on following. So back you go, hand-in-hand with your new elf boyfriend, to a drafty apartment in Boston, Massachusetts. <p>The first few days in your world, he’s so excited he barely sleeps. He laughs as he opens and closes the refrigerator. The first time you take him on the MBTA’s “big iron worm” might be the best day of his life. No one has ever found a trip to Dunkin Donuts so edifying.</p>"

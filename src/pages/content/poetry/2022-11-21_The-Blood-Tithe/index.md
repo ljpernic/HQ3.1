@@ -1,6 +1,7 @@
 ---
 title: The Blood Tithe
-author: J.D. Harlock
+authors:
+    - J.D. Harlock
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'when the smog finally devoured the dying sun, <br />

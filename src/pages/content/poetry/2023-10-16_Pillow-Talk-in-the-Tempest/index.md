@@ -1,6 +1,7 @@
 ---
 title: "Pillow Talk in the Tempest"
-author: Gretchen Tessmer
+authors:
+    - Gretchen Tessmer
 issue: Issue Eleven, October 2023
 description: ''
 shortdescription: "oh yes, I've seen the way you look at me <br />

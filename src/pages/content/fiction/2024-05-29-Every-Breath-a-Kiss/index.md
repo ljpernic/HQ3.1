@@ -1,6 +1,7 @@
 ---
 title: Every Breath a Kiss
-author: Natalia Theodoridou
+authors:
+    - Natalia Theodoridou
 issue: Issue Fifteen, May 2024
 description: "He thought drowning would feel blissful. Scary at first, the panic of breathlessness, but then pleasant and mostly serene. He had already decided that, when the time came, he would be eclipsed from this life with a mangled <em>Manfred</em> quote: &quot;It is not so difficult to die, after all.&quot;<p>It was not peaceful.</p><p>The salt stung the inside of his torso, his ribs turned to knives that sliced him open. His very blood felt like an attack: an enemy of his own making. He swallowed mouthful after mouthful of seawater. His throat burned, his stomach distended to bursting. The sound of the ocean filled his ears: a beast, roaring with aquatic laughter. Manfred? Who's Manfred?</p>" 
 shortdescription: "He thought drowning would feel blissful. Scary at first, the panic of breathlessness, but then pleasant and mostly serene. He had already decided that, when the time came, he would be eclipsed from this life with a mangled <em>Manfred</em> quote: &quot;It is not so difficult to die, after all.&quot;<p>It was not peaceful.</p><p>The salt stung the inside of his torso, his ribs turned to knives that sliced him open. His very blood felt like an attack: an enemy of his own making. He swallowed mouthful after mouthful of seawater. His throat burned, his stomach distended to bursting. The sound of the ocean filled his ears: a beast, roaring with aquatic laughter. Manfred? Who's Manfred?</p>"

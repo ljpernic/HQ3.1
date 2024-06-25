@@ -1,6 +1,7 @@
 ---
 title: Factory Reset
-author: RC deWinter
+authors:
+    - RC deWinter
 issue: Issue Six, September 2022
 description: ''
 shortdescription: 'Those who know tell us it will rain for days <br /> 

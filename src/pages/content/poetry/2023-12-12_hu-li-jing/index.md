@@ -1,6 +1,7 @@
 ---
 title: "hu li jing 狐狸精"
-author: Wen Yu Yang 
+authors:
+    - Wen Yu Yang 
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "they’d tell me <br />

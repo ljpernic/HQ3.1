@@ -1,6 +1,7 @@
 ---
 title: The Opposite of Time
-author: Brian Hugenbruch
+authors:
+    - Brian Hugenbruch
 issue: Issue One, November 2021
 description: The opposite of Time is Might-Have-Been.<br /> We travel through the tempered void and thus<br /> can change the stream of time to flatter us,<br /> but currents pull us toward what we’ve seen<br />
 shortdescription: The opposite of Time is Might-Have-Been.<br /> We travel through the tempered void and thus<br /> can change the stream of time to flatter us,<br /> but currents pull us toward what we’ve seen<br />

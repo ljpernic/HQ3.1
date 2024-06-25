@@ -1,6 +1,7 @@
 ---
 title: Unearthen
-author: Carly Racklin
+authors:
+    - Carly Racklin
 issue: Issue Four, May 2022
 description: X
 shortdescription: I. <br />

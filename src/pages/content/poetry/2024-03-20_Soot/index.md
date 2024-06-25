@@ -1,6 +1,7 @@
 ---
 title: Soot
-author: Abdulkareem Abdulkareem
+authors:
+    - Abdulkareem Abdulkareem
 issue: Issue Fourteen, March 2024
 description: ''
 shortdescription: "do not forget to drag your feet, my darling, <br />

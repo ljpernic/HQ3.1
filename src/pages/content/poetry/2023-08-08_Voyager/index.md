@@ -1,6 +1,7 @@
 ---
 title: "voyager"
-author: Mark A. Fisher
+authors:
+    - Mark A. Fisher
 issue: Issue Ten, August 2023
 description: ''
 shortdescription: 'are we not nomads in this midnight sea <br />

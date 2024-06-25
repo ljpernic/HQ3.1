@@ -1,6 +1,7 @@
 ---
 title: Sworn Guardian
-author: Kimberly Christensen
+authors:
+    - Kimberly Christensen
 issue: Issue Three, March 2022
 description: 'When the crack of thunder ripped us from sleep, our eyes scanned the darkness for one thing—the green light over our doorway. Ten breaths exhaled at
 once, as if we were a single organism. Lightning had not ignited a fire—at least not yet. <p>“Who’s in the watchtower tonight?” Bristlecone whispered from the top bunk,

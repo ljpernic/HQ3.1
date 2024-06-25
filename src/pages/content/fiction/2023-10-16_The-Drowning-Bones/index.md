@@ -1,6 +1,7 @@
 ---
 title: The Drowning Bones
-author: A. R. Frederiksen
+authors:
+    - A. R. Frederiksen
 issue: Issue Eleven, October 2023
 description: 'I began to grow my gills one week after my first menstruation, right on time. <p>My father was horrified, but my mother flexed her own gills nestled behind her curtain of curls so like my own, and he went as silent as the nighttime sea.</p><p>“Par for the course,” she told him, not bothering to hide it from me like she never bothered to hide anything from me. “This is a child of mine. You knew that when you stepped into my fjord. When you bathed in my song long ago. You’ve always known.”</p><p>My father mumbled something unintelligible into his beard and headed into his workshop to bang his tools around loudly enough for my heart to twist inside my chest.</p>' 
 shortdescription: 'I began to grow my gills one week after my first menstruation, right on time. <p>My father was horrified, but my mother flexed her own gills nestled behind her curtain of curls so like my own, and he went as silent as the nighttime sea.</p><p>“Par for the course,” she told him, not bothering to hide it from me like she never bothered to hide anything from me. “This is a child of mine. You knew that when you stepped into my fjord. When you bathed in my song long ago. You’ve always known.”</p>'

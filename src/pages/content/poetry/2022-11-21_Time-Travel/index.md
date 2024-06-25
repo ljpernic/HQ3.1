@@ -1,6 +1,7 @@
 ---
 title: Time Travel
-author: Ashley Gilland
+authors:
+    - Ashley Gilland
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: '*Dedicated to my five-year-old self <br /><br />

@@ -1,6 +1,7 @@
 ---
 title: Every Light a Threshold
-author: Melissa Ridley Elmes
+authors:
+    - Melissa Ridley Elmes
 issue: Issue Four, May 2022
 description: X
 shortdescription: Through the blinds of my ground-level apartment <br />

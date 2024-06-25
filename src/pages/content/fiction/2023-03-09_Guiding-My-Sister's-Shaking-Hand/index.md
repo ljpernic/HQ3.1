@@ -1,6 +1,7 @@
 ---
 title: Guiding My Sister's Shaking Hand
-author: Paul Michael Anderson
+authors:
+    - Paul Michael Anderson
 issue: Issue Eight, March 2023
 description: "I'm putting this note among Christine's artwork. When everyone finally gives up trying to find her, they'll take apart her studio, parse out the beautiful, shallow things she made, and, somewhere among the shelves, they'll find this little book. <p>I could never talk about this before, but being on the sidelines means you get an unobstructed view, even of yourself. Because I'm the one who led her to where she is today. Indirectly or directly, every step of the way. I think about those steps when I can't sleep at night. </p>"
 shortdescription: "I'm putting this note among Christine's artwork. When everyone finally gives up trying to find her, they'll take apart her studio, parse out the beautiful, shallow things she made, and, somewhere among the shelves, they'll find this little book. <p>I could never talk about this before, but being on the sidelines means you get an unobstructed view, even of yourself. Because I'm the one who led her to where she is today. Indirectly or directly, every step of the way. I think about those steps when I can't sleep at night. </p>"

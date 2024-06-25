@@ -1,6 +1,7 @@
 ---
 title: The Nymphs Are Migrating
-author: Madalena Daleziou
+authors:
+    - Madalena Daleziou
 issue: Issue Three, March 2022
 description: X
 shortdescription: In the small hours, under the wolf light. <br />

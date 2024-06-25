@@ -1,6 +1,7 @@
 ---
 title: A Bloodless Mistletoe Graveyard
-author: KT Wagner
+authors:
+    - KT Wagner
 issue: Issue Nine, June 2023
 description: "While Lorelai’s guests wait on dinner, a grim reaper automaton emerges from the clockworks above the fireplace. With staccato movements, it smites the bell three times with a scythe. <p>No one pays attention. Lorelai frowns. She spent all year planning the décor, the food and entertainment, hoping to give herself and the others a memorable reprieve. No one had expected the decline to advance so fast.</p> <p>Shadows from the candle-lit chandelier flicker across the slumped figures gathered around the mahogany banquet table. None look at each other.</p> <p>The tolling foretells an afterlife filled with either comfort or torment. A human concept, and an attempt to cleverly foreshadow the evening’s program. It’s not working.</p>" 
 shortdescription: "While Lorelai’s guests wait on dinner, a grim reaper automaton emerges from the clockworks above the fireplace. With staccato movements, it smites the bell three times with a scythe. <p>No one pays attention. Lorelai frowns. She spent all year planning the décor, the food and entertainment, hoping to give herself and the others a memorable reprieve. No one had expected the decline to advance so fast.</p> <p>Shadows from the candle-lit chandelier flicker across the slumped figures gathered around the mahogany banquet table. None look at each other.</p> <p>The tolling foretells an afterlife filled with either comfort or torment. A human concept, and an attempt to cleverly foreshadow the evening’s program. It’s not working.</p>"

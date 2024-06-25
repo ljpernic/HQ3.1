@@ -1,6 +1,7 @@
 ---
 title: Daughter of the Great Whales
-author: Anna Madden
+authors:
+    - Anna Madden
 issue: Issue Six, September 2022
 description: ''
 shortdescription: 'The night before the dead boat arrived, I couldn’t sleep. Seal was sharing my nest, built inside a great whale’s lower vertebra, decorated with treasures of fine carapace and a collection of shark’s eyes, turrets, angel wings, even tulip shells. I took the smallest and wove them into my blue-black hair. <p>As I braided, Seal nestled close, her fingers running lightly across my tracer bracelet. “Will you leave with them on their boat that doesn’t breathe?”</p> <p>“No,” I said. “This is my place.” Did my voice falter, just then?</p> <p>Seal’s expression wavered, lit in the surrounding fluorescent glow emitting off the great whale’s metallic bones. I knew that she didn’t believe me.</p> <p>I meant to be grateful to her, truly I did. Without Seal, I wouldn’t have survived. Still, the islands weren’t a place for beginnings. I was beached here, and though I wasn’t alone, sometimes I thought I might as well have been. I longed for what I had lost—for the voices of many, the sense of belonging, and the love that my first family offered to me so freely, never a prize to be earned.</p>'

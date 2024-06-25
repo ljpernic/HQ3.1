@@ -1,4 +1,4 @@
-import React from 'react';  
+import React from 'react';
 import { graphql, withPrefix, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import SEO_image from '../images/SEO_image.jpg';
@@ -13,34 +13,36 @@ import { IconContext } from "react-icons";
 import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 
 const Eachauthor = props => {
-  const { pageContext } = props;
-  const data = props.data;
-  const { idname, bio, twitter, url, facebook, stories, poems } = pageContext;
+  const { markdownRemark, advertLong } = props.data;
+  const { idname } = props.pageContext;
+  const { frontmatter, html } = markdownRemark;
 
-//////// THIS SHOWS LINKS ONLY IF THERE IS RELEVANT CONTENT //////// 
-  const twitterName = {twitter}.twitter;
-  const facebookName = {facebook}.facebook;
-  const urlName = {url}.url;
+  // Find the author object based on idname
+  const author = frontmatter.authors.find(author => author.id === idname);
 
-  const twitterLink = `https://www.twitter.com/${twitter}`;
-  const facebookLink = `https://www.facebook.com/${facebook}`;
-  const urlLink = `${url}`;
-
-  const displayTwitter = twitterName === null ? null : <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
-  const displayFacebook = facebookName === null ? null : <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
-  const displayUrl = urlName === null ? null : <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+  if (!author) {
+    // Handle case where author with idname is not found
+    return (
+      <Layout bodyClass="page-home">
+        <div>
+          <h1>Author Not Found</h1>
+          <p>The author you are looking for does not exist.</p>
+        </div>
+      </Layout>
+    );
+  }
 
   return (
-    <Layout bodyClass="page-home">
-      <SEO title={`${idname}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Author Page Image" />
+    <Layout key={author.id} bodyClass="page-home">
+      <SEO title={`${author.id}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Author Page Image" />
       <Helmet>
         <script src={withPrefix('hide_script.js')} type="text/javascript" />
         <meta
-          name={idname}
-          content={idname}
+          name={author.id}
+          content={author.id}
         />
       </Helmet>
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -48,52 +50,82 @@ const Eachauthor = props => {
                 <CurrentIssue />
                 <Advertisement />
               </div>
-              <div>
+              <div className='ml-4 mr-4 mb-4'>
                 <div className="col-12">
                   <h4>
                     AUTHOR
                   </h4>
-                <hr />
+                  <hr />
                 </div>
-{/*     AUTHOR IMAGE AND SOCIAL MEDIA     */}
-                <div className="editorImageAbout mt-3">
-                    <Image
-                      fixed={data.markdownRemark.frontmatter.author.picture.childImageSharp.fixed}
-                    />
-                    <div className="side-block">
-                      {displayTwitter}
-                      {displayFacebook}
-                      {displayUrl}
-                    </div>
+                {/* AUTHOR IMAGE AND SOCIAL MEDIA */}
+                <div className="editorImageAbout">
+                  <Image
+                    fixed={author.picture.childImageSharp.fixed}
+                  />
+                  <div className="side-block">
+                    {author.twitter && (
+                      <a className='social-icon' href={`https://www.twitter.com/${author.twitter}`}>
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}>
+                          <FaTwitter />
+                        </IconContext.Provider>
+                      </a>
+                    )}
+                    {author.facebook && (
+                      <a className='social-icon' href={`https://www.facebook.com/${author.facebook}`}>
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}>
+                          <FaFacebook />
+                        </IconContext.Provider>
+                      </a>
+                    )}
+                    {author.url && (
+                      <a className='social-icon' href={author.url}>
+                        <IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}>
+                          <FaLink />
+                        </IconContext.Provider>
+                      </a>
+                    )}
                   </div>
-                    
-                  <h1 className="pt-1 pb-1">
-                    {idname}
-                  </h1>
-                  <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} /><br />
-                    {
-                      stories[0].storytitle === null ? null : <h5> Fiction by {idname} </h5> 
-                    }
-                    {stories
-                      .map((data, index) => stories[0].storytitle === null ? null : <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li> )}<br />
-                    {poems[0].poemtitle === null ? null : <h5> Poetry by {idname} </h5> }
-                    {poems
-                      .map((data, index) => poems[0].poemtitle === null ? null : <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
-                  <hr className="mb-2 mt-5"/>
-                
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}
-                      />
-                    </Link>
-                    
                 </div>
-                
+
+                <h1 className="pt-1 pb-1">
+                  {author.id}
+                </h1>
+                <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
+
+               {/* Render Fiction section if there are stories */}
+                {author.stories && author.stories[0].storytitle !== null && (
+                  <>
+                    <h5> Fiction by {idname} </h5>
+                    {author.stories.map((data, index) => (
+                      <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>
+                    ))}
+                  </>
+                )}
+
+                {/* Render Poetry section if there are poems */}
+                {author.poems && author.poems[0].poemtitle !== null && (
+                  <>
+                    <h5> Poetry by {idname} </h5>
+                    {author.poems.map((data, index) => (
+                      <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>
+                    ))}
+                  </>
+                )}
+
+                <hr className="mb-2 mt-5"/>
+
+                <Link to="/subscribe">
+                  <Image className="advertLong"
+                    fixed={advertLong.childImageSharp.fixed}
+                  />
+                </Link>
+
               </div>
-              </div>
+
             </div>
           </div>
-
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -108,15 +140,18 @@ export const query = graphql`
         }
       }
     }
-    markdownRemark(frontmatter: {author: {id: {eq: $idname}}}) {
+    markdownRemark(frontmatter: {authors: {elemMatch: {id: {eq: $idname}}}}) {
       frontmatter {
         available
         title
         path
-        author {
+        authors {
           id
+          idpath
           bio
           twitter
+          facebook
+          url
           picture {
             childImageSharp {
               fixed(height: 200, width: 200) {
@@ -126,6 +161,12 @@ export const query = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+          }
+          stories {
+            storytitle
+          }
+          poems {
+            poemtitle
           }
         }
         issue {

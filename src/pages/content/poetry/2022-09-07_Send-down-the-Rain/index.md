@@ -1,6 +1,7 @@
 ---
 title: send down the rain is no song when the belly goes to war
-author: the_people
+authors:
+    - the_people
 issue: Issue Six, September 2022
 description: ''
 shortdescription: "zephyr sings a lullaby into my body <br />

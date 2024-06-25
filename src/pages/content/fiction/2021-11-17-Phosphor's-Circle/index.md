@@ -1,6 +1,7 @@
 ---
 title: Phosphor’s Circle
-author: Annika Barranti Klein
+authors:
+    - Annika Barranti Klein
 issue: Issue One, November 2021
 description: They only gave me the job because I’d been in the school play. I was the narrator in Joseph and the Amazing Technicolor Dreamcoat, which my school put on for the same reason they’d done The Sound of Music the year before and Cheaper By The Dozen the year before that—high schools are full of kids who want to be in the musical, and those plays are about families with a LOT of children. Jacob has twelve kids, which is entirely too many, and the eleventh kid is Joseph, of the amazing technicolor dreamcoat, and I still to this day find myself singing “way, way back many centuries ago…” at inopportune moments. <p>To be perfectly honest, I was pretty sick of children by the time I got the job, but I thought it would be better than babysitting as far as sustained exposure to kids goes. At least most of the children who go on the tours don’t sing, and even if they do, I only have to be around them for 30 minutes, maybe 45 at the outside. </p>
 shortdescription: They only gave me the job because I’d been in the school play. I was the narrator in Joseph and the Amazing Technicolor Dreamcoat, which my school put on for the same reason they’d done The Sound of Music the year before and Cheaper By The Dozen the year before that—high schools are full of kids who want to be in the musical, and those plays are about families with a LOT of children.

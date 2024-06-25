@@ -1,6 +1,7 @@
 ---
 title: "Interstellar Catalog: Romantic Interlude"
-author: Shana Ross
+authors:
+    - Shana Ross
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "On this world all the colors are named anew <br />

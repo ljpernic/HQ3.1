@@ -1,6 +1,7 @@
 ---
 title: We Greet the Solstice
-author: Avra Margariti
+authors:
+    - Avra Margariti
 issue: Issue Five, July 2022
 description: X
 shortdescription: "Inside extant skulls of extinct giants <br />

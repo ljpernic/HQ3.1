@@ -1,6 +1,7 @@
 ---
 title: Leaving Earth
-author: Gabrielle Johansen
+authors:
+    - Gabrielle Johansen
 issue: Issue One, November 2021
 description: She was only two when the now defunct U.S. government launched Skylab. Now she was pushing seventy-four, just below the waitlist cutoff to be on one of the last Mother Board Transports leaving Earth. A global consortium of corporations had decided no one above the age of seventy-five would be allowed to board. That would be it. Sayonara, Terra.<p>A few choices if she was left behind. Slow painful death by radiation poisoning or a quick company-sanctioned suicide, delivered via obscenely cheerful, virulently pink pills. </p><p>Jeannie knew what she wanted, and she was afraid of having her choices taken away. </p>
 shortdescription: She was only two when the now defunct U.S. government launched Skylab. Now she was pushing seventy-four, just below the waitlist cutoff to be on one of the last Mother Board Transports leaving Earth. A global consortium of corporations had decided no one above the age of seventy-five would be allowed to board. That would be it. Sayonara, Terra.

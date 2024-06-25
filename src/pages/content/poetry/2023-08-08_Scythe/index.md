@@ -1,6 +1,7 @@
 ---
 title: "scythe"
-author: Sodïq Oyèkànmí
+authors:
+    - Sodïq Oyèkànmí
 issue: Issue Ten, August 2023
 description: ''
 shortdescription: '<em>for Yemọja</em><br /><br />

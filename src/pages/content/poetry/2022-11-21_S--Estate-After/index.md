@@ -1,6 +1,7 @@
 ---
 title: S— Estate, After
-author: Sarah Cannavo
+authors:
+    - Sarah Cannavo
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'The dark house sits brooding, high on the hill; <br />

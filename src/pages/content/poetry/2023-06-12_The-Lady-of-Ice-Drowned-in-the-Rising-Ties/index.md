@@ -1,6 +1,7 @@
 ---
 title: The Lady of Ice Drowned in the Rising Tides
-author: Anton Cancre
+authors:
+    - Anton Cancre
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'The burning comes earlier <br />

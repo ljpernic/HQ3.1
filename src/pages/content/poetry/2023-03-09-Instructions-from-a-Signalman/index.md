@@ -1,6 +1,7 @@
 ---
 title: Instructions from a Signalman
-author: Crystal Sidell
+authors:
+    - Crystal Sidell
 issue: Issue Eight, March 2023
 description: ''
 shortdescription: 'Now, this is most important: Before the light in their eyes flicks off <br />

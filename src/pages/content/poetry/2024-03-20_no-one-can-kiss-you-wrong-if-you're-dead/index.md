@@ -1,6 +1,7 @@
 ---
 title: no one can kiss you wrong if you're dead
-author: Temidayo Okun
+authors:
+    - Temidayo Okun
 issue: Issue Fourteen, March 2024
 description: ''
 shortdescription: "i drew a smiley face on a blank page & gave it legs / there is no wind strong enough to destroy something that only exists on paper / there is no hurt powerful enough to tear <p>apart this cage I call a body / i have made this shell for you with my hands / & maybe death only comes when our souls outgrow our bodies / like hermit crabs — we drop</p>"

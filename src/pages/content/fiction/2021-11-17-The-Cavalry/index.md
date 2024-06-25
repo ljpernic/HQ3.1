@@ -1,6 +1,7 @@
 ---
 title: The Cavalry
-author: João F. Silva
+authors:
+    - João F. Silva
 issue: Issue One, November 2021
 description: “The admiral wants you in room L17F5,” Lau tells me. “They say it’s urgent.” <p>As if the buzzer wasn’t enough of a reminder, I give her a quick nod and finish putting on my scrubs in shades of medical blue and military green before grabbing the most important item in my arsenal—the trusty brown rope I’ve been using since I started this. </p><p>Lau buries her face in the tablet in front of her. I’m the only one in my team with a leg on both sides of the frontline, but the four of them are still treated like superstars—because of me.</p>
 shortdescription: “The admiral wants you in room L17F5,” Lau tells me. “They say it’s urgent.” <p>As if the buzzer wasn’t enough of a reminder, I give her a quick nod and finish putting on my scrubs in shades of medical blue and military green before grabbing the most important item in my arsenal—the trusty brown rope I’ve been using since I started this. </p>

@@ -1,6 +1,7 @@
 ---
 title: Seafoam Sestina
-author: Jessica Peter
+authors:
+    - Jessica Peter
 issue: Issue Eight, March 2023
 description: ''
 shortdescription: 'As she’s borne softly on the waves, <br /> 

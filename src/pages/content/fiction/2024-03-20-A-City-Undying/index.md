@@ -1,6 +1,7 @@
 ---
 title: A City Undying
-author: Ai Jiang
+authors:
+    - Ai Jiang
 issue: Issue Fourteen, March 2024
 description: '“I know you said you don’t like kids.” Lingwei doesn&#39;t look at me as she brings her half-smoked cigarette up to her lips, leaning against the half-broken fence I sit on top of. “But Aisha needs a sitter. Just for today. And I can&#39;t do it.” <p>Her hand wanders to her back pocket, feeling for her cig packet. She takes it out, shakes it—there can&#39;t be more than a handful remaining—and shoves it back in with a sigh. I can almost hear her lungs deteriorating in real time. </p><p>“Can&#39;t or don&#39;t want to?” I ask. “Where&#39;s Aisha?” </p> <p>Lingwei shrugs and shuffles her feet, indifferent. Guilt and responsibility are things that have long since left most of us. “Dunno. She just said she needed some alone time.” </p>' 
 shortdescription: '“I know you said you don’t like kids.” Lingwei doesn&#39;t look at me as she brings her half-smoked cigarette up to her lips, leaning against the half-broken fence I sit on top of. “But Aisha needs a sitter. Just for today. And I can&#39;t do it.” <p>Her hand wanders to her back pocket, feeling for her cig packet. She takes it out, shakes it—there can&#39;t be more than a handful remaining—and shoves it back in with a sigh. I can almost hear her lungs deteriorating in real time. </p>'

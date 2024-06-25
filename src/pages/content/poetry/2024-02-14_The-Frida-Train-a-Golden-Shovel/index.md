@@ -1,6 +1,7 @@
 ---
 title: The Frida Train (a golden shovel)
-author: Russell Nichols
+authors:
+    - Russell Nichols
 issue: Issue Thirteen, January 2024
 description: ''
 shortdescription: "“Pies, para qué los quiero si tengo alas para volar?”*<br />

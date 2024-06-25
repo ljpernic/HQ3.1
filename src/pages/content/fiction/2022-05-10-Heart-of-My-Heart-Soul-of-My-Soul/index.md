@@ -1,6 +1,7 @@
 ---
 title: Heart of My Heart, Soul of My Soul
-author: Jelena Dunato
+authors:
+    - Jelena Dunato
 issue: Issue Four, May 2022
 description: "When Maryeta and the baby died, I thought I’d never love again. The world was a thick grey haze through which I moved with effort. I performed my duties, but I watched myself as if from outside, a pale stranger with a golden crown receiving foreign emissaries, hunting in the woods, dancing with pretty daughters of ambitious nobles. <p>I wasn’t old, but I felt like it. The whole weight of the world on my shoulders and no one to share it with. My advisors nudged me to marry again: after all, a king needs heirs. But I had Steffon, my golden-haired boy, with his mother’s hazel eyes and shy smile. He was enough. </p>"
 shortdescription: "When Maryeta and the baby died, I thought I’d never love again. The world was a thick grey haze through which I moved with effort. I performed my duties, but I watched myself as if from outside, a pale stranger with a golden crown receiving foreign emissaries, hunting in the woods, dancing with pretty daughters of ambitious nobles. <p>I wasn’t old, but I felt like it. The whole weight of the world on my shoulders and no one to share it with. My advisors nudged me to marry again: after all, a king needs heirs. But I had Steffon, my golden-haired boy, with his mother’s hazel eyes and shy smile. He was enough. </p>"

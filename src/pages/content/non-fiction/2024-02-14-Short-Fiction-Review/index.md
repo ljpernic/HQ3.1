@@ -1,6 +1,7 @@
 ---
 title: Short Fiction Review — January 2024
-author: Danai Christopoulou
+authors:
+    - Danai Christopoulou
 issue: Issue Thirteen, January 2024
 description: Four short story reviews by Danai Christopoulou.
 shortdescription: Short fiction reviews by Danai Christopoulou. Stories reviewed include "For as Long as You Want It" by Kanishk Tantia (published in <em>Apex Magazine</em>), "Kiss of Life" by P.C. Verrone (published in <em>Fiyah Magazine</em>), "Stars Don’t Dream" by Chi Hui and translated by John Chu (published in <em>Clarkesworld</em>), and "Persistent" by AGA Wilmot (published in <em>Gamut Magazine</em>).

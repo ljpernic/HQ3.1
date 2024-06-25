@@ -1,6 +1,7 @@
 ---
 title: Touched
-author: Emmie Christie
+authors:
+    - Emmie Christie
 issue: Issue Two, January 2022
 description: Rayla discovered the jacket in the back of a Salvation Army sale. Its camo green had faded to a dingy brown. Good enough for 50 cents. She tried it on, shoving her gloved hands into the pockets. <p> She touched someone’s fingers.</p> <p>“Oh!” A few yards away, a woman jerked her hand from her coat pocket. Blue eyeshadow smeared her eyelids and a ‘let me speak to your manager’ haircut puffed the back of her head. She swiveled her gaze around and landed on Rayla, suspicion curling around her lips. </p> <p>Rayla twirled, acting the cutesy kid playing dress up. Not the streeter, not the criminal stitched together out of spite and grocery bags for a bra. She forced herself to smile, not meeting the woman’s eyes, unaware, innocent. Sweat beads broke out on her forehead.</p>
 shortdescription: Rayla discovered the jacket in the back of a Salvation Army sale. Its camo green had faded to a dingy brown. Good enough for 50 cents. She tried it on, shoving her gloved hands into the pockets. <p> She touched someone’s fingers. </p>

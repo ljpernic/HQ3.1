@@ -1,6 +1,7 @@
 ---
 title: we spilt our hydrazine blood for you
-author: Monte Lin
+authors:
+    - Monte Lin
 issue: Issue Twelve, December 2023
 description: "The Behemoth has been dead for centuries, resting at the bottom of the Plasific Ocean, coated in non-biodegradable polymer strings inadvertently protecting the corpse from the normal weathering of water, fish, and coral. Still, life has managed to make the corpse a home for itself: creatures crawl and swim within its crevices. And so in death, it gives a space for life, a purpose. It sleeps, content, letting the Spine of the Sky creep past above, the Great Eye staring down on the minute Earth in endless revolutions around the Sun. <p>Until… it senses the usual ritual objects on the deck of a ship above: the core of a silicon brain, an ancient tome of orbital mechanics, the cables that once provided the power of a sun, the artifact that once spoke to the stars. And blood. Always useless human blood. Followed by garbled words of forgotten symbology, misunderstood formulae, the incoherent mumbles mimicking the ancient language to describe the universe.</p>" 
 shortdescription: "The Behemoth has been dead for centuries, resting at the bottom of the Plasific Ocean, coated in non-biodegradable polymer strings inadvertently protecting the corpse from the normal weathering of water, fish, and coral. Still, life has managed to make the corpse a home for itself: creatures crawl and swim within its crevices. And so in death, it gives a space for life, a purpose. It sleeps, content, letting the Spine of the Sky creep past above, the Great Eye staring down on the minute Earth in endless revolutions around the Sun."

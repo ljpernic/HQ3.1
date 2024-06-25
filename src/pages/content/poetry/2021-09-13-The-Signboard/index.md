@@ -1,6 +1,7 @@
 ---
 title: The Signboard
-author: Ella Wheeler Wilcox
+authors:
+    - Ella Wheeler Wilcox
 issue: Issue Zero, September 2021
 description: 'I will paint you a sign, rumseller, <br />
      And hang it above your door; <br /> 

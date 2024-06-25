@@ -1,6 +1,7 @@
 ---
 title: A Wreckful Planting of Small Pockets of Thirst
-author: Nnadi Samuel
+authors:
+    - Nnadi Samuel
 issue: Issue Four, May 2022
 description: X
 shortdescription: I run out of ways to keep you urgent in my mouth, <br />

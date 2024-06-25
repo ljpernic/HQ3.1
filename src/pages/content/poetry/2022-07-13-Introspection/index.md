@@ -1,6 +1,7 @@
 ---
 title: Introspection
-author: Alexander Etheridge
+authors:
+    - Alexander Etheridge
 issue: Issue Five, July 2022
 description: X
 shortdescription: "Hell-storm overtaking the hills, <br />

@@ -1,6 +1,7 @@
 ---
 title: After they blasted your home planet to shrapnel
-author: P. H. Low
+authors:
+    - P. H. Low
 issue: Issue Fourteen, March 2024
 description: ''
 shortdescription: you could still pretend for a while. Perhaps it wasn’t even pretend—your body still remembered home as a pause between your third and fourth ribs; remembered an absence of walking across a bridge, in this city you’ve chosen as refuge, and keening the surface tension of water."

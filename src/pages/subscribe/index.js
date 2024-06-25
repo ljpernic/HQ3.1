@@ -43,7 +43,7 @@ const Subscribe = (props) => {
                     </Link>
                   </div>                
                   </div>
-
+<div className='contributor-div-top'>
             <h1 className="pb-1 pt-1">
               Subscribe
             </h1>
@@ -60,10 +60,11 @@ const Subscribe = (props) => {
               set up, <Link to="/organization">Click here!</Link> Help us pay our authors and artists the rates they deserve! 
             </p>
 
-            <a className='patreonbutton' href="https://www.patreon.com/bePatron?u=61506985">
+            <a className='patreonbutton mb-4' href="https://www.patreon.com/bePatron?u=61506985">
               Subscribe through Patreon!
             </a>
-            <hr />
+          </div>
+<div className='contributor-div'>
             <h1 className="pt-1 pb-1">
             Kickstarter
             </h1>
@@ -71,8 +72,8 @@ const Subscribe = (props) => {
               <a href='https://www.kickstarter.com/projects/haven-spec-magazine/haven-spec-magazine-2024'>Our Kickstarter for 2024</a> was successful! Thank you 
               everyone who supported our campaign to pay pro rates!
             </p>
-            <hr />
-
+          </div>
+        <div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Advertise
             </h1>
@@ -87,7 +88,7 @@ const Subscribe = (props) => {
               (for square ads) or 424 x 60 pixels (for the banner ad), along with a single link to whatever's being advertised. 
             </p>
 
-            <hr className="mb-2" />
+</div>
 
           </div>
       </div>

@@ -1,6 +1,7 @@
 ---
 title: Let the Water in
-author: Vanessa Jae
+authors:
+    - Vanessa Jae
 issue: Issue Six, September 2022
 description: ''
 shortdescription: 'The earth tears at her concrete visage<br />

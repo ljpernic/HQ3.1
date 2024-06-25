@@ -1,6 +1,7 @@
 ---
 title: The Hundred Loves
-author: Melissa A Watkins
+authors:
+    - Melissa A Watkins
 issue: Issue Thirteen, January 2024
 description: "You cannot tell a person how to love you. You can only decide if you will accept their love. <p>First, there was Adeh, broad, dark, and bearded. At the beginning of the world, he taught me what love was, and how to accept it. I imprinted on him like a chick on a hen and followed him into a tomb. No matter. The next love brought me out of it. </p> <p>When the dust fell from my eyelids, I looked my love Komi full in the face.  His own eyes were used to sweeping black skies for stars, and so they found me, a tiny light hidden in the darkness under a burial mound. I was wearing the body of a woman he had seen before. I do not remember where I was before her, but she had fallen in the heat, and I was there to take her spirit’s place. It is the only time I have taken without any invitation.</p>" 
 shortdescription: "You cannot tell a person how to love you. You can only decide if you will accept their love. <p>First, there was Adeh, broad, dark, and bearded. At the beginning of the world, he taught me what love was, and how to accept it. I imprinted on him like a chick on a hen and followed him into a tomb. No matter. The next love brought me out of it. </p>"

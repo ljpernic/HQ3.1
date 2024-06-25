@@ -1,6 +1,7 @@
 ---
 title: "Sestainability"
-author: Rebecca A. Demarest
+authors:
+    - Rebecca A. Demarest
 issue: Issue Eleven, October 2023
 description: ''
 shortdescription: 'The plasticsmith waits for the children to return <br />

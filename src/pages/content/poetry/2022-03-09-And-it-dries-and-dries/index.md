@@ -1,6 +1,7 @@
 ---
 title: And it dries and dries
-author: Marisca Pichette
+authors:
+    - Marisca Pichette
 issue: Issue Three, March 2022
 description: X
 shortdescription: 'In my mind a butterfly catches pneumonia: <br />

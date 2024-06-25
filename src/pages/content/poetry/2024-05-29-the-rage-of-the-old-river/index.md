@@ -1,6 +1,7 @@
 ---
 title: the rage of the old river
-author: Sofia Ezdina
+authors:
+    - Sofia Ezdina
 issue: Issue Fifteen, May 2024
 description: 'She uncovered her voice from her bed, <br />
 loaded the verbs, <br />

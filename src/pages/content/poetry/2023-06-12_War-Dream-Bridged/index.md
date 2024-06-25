@@ -1,6 +1,7 @@
 ---
 title: "War Dream: Bridged"
-author: L. Acadia
+authors:
+    - L. Acadia
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'Last night, I was in a grim, dusty, subdued Poland, <br />

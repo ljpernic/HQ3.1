@@ -1,6 +1,7 @@
 ---
 title: The End of the World
-author: Meghan Kemp-Gee
+authors:
+    - Meghan Kemp-Gee
 issue: Issue Three, March 2022
 description: I met you in London last July, on the hottest day ever recorded, during the last two weeks of my research fellowship at the Cambridge University archives. The vaults and reading rooms were quiet and cool, so like all the other fellows, I stayed until the very last minute they were open. Nowhere else in the city had such dependable air conditioning. <p>I made polite conversation with a couple of grad students in the coat room as we gathered up our hats and sunglasses and purses. They convinced me to go to a pub with them. I wondered if they were only inviting me because they imagined I was lonely after six weeks so far from home. They wore long slacks and collared shirts even in the summer’s strange, sticky heat. </p>
 shortdescription: I met you in London last July, on the hottest day ever recorded, during the last two weeks of my research fellowship at the Cambridge University archives. The vaults and reading rooms were quiet and cool, so like all the other fellows, I stayed until the very last minute they were open. Nowhere else in the city had such dependable air conditioning.

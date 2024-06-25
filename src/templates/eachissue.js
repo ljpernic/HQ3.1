@@ -8,42 +8,39 @@ import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
 
-import { FaTwitter,FaFacebook, FaLink } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 const Eachissue = props => {
-  const posts = props.data.allMarkdownRemark.edges;
+  const { markdownRemark, allMarkdownRemark, advertLong } = props.data;
   const { pageContext } = props;
-  const data = props.data;
   const { issueidname, issueUrl, text, artist, artistbio, artistTwitter, artistFacebook, artistUrl } = pageContext;
 
-//////// THIS SHOWS LINKS ONLY IF THERE IS RELEVANT CONTENT //////// 
-const twitterName = {artistTwitter};
-const facebookName = {artistFacebook};
-const urlName = {artistUrl};
+  const { frontmatter, html } = markdownRemark;
+  const { title, authors, issue, category } = frontmatter;
 
-const twitterLink = `https://www.twitter.com/${twitterName.artistTwitter}`;
-const facebookLink = `https://www.facebook.com/${facebookName.facebookName}`;
-const urlLink = `${urlName.artistUrl}`;
+  const posts = allMarkdownRemark.edges;
 
-const displayTwitter = {twitterName}.twitterName.artistTwitter === null ? null : <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>;
-const displayFacebook = {facebookName}.facebookName.artistFacebook === null ? null : <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>;
-const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>;
+  // Social media links handling
+  const twitterLink = artistTwitter ? `https://www.twitter.com/${artistTwitter}` : null;
+  const facebookLink = artistFacebook ? `https://www.facebook.com/${artistFacebook}` : null;
+  const urlLink = artistUrl ? `${artistUrl}` : null;
 
-//////// THIS FILTERS PROPS BASED ON CATEGORY AND ISSUE ////////
-  const fictionContent = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname);
-  const poetryContent = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname);
-  const nonFictionContent = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname);
+  const displayTwitter = artistTwitter ? <a className='social-icon' href={twitterLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a> : null;
+  const displayFacebook = artistFacebook ? <a className='social-icon' href={facebookLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a> : null;
+  const displayUrl = artistUrl ? <a className='social-icon' href={urlLink}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a> : null;
 
-//////// THIS SHOWS THE HEADERS ONLY IF THERE IS RELEVANT CONTENT //////// 
-  const fictionHeader = fictionContent.length === 0 ? null : <h4>Fiction:</h4>
-  const poetryHeader = poetryContent.length === 0 ? null : <h4>Poetry:</h4>  
-  const nonFictionHeader = nonFictionContent.length === 0 ? null : <h4>Non-Fiction:</h4>
+  // Filter authors based on issueidname to find the correct authors
+  const filteredAuthors = authors.filter(author => author.issue && author.issue.id === issueidname);
 
-//////// 
+  // Headers display conditionally
+  const fictionHeader = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Fiction:</h4>;
+  const poetryHeader = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Poetry:</h4>;
+  const nonFictionHeader = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Non-Fiction:</h4>;
+
   return (
     <Layout bodyClass="page-home">
-      <SEO title={`${issueidname}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Issue Page Image" />
+      <SEO title={`${title}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Issue Page Image" />
       <Helmet>
         <meta
           name={issueidname}
@@ -51,14 +48,14 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
         />
       </Helmet>
 
-      <div className="intro">                                                                {/*FEATURED*/}
+      <div className="intro">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
 
               <div className='one'>
                 <a href={issueUrl}>
-                  <img className='currentCover' alt="Haven Spec current issue" src={data.markdownRemark.frontmatter.issue.issuecover.childImageSharp.fixed.src} />
+                  <img className='currentCover' alt="Haven Spec current issue" src={issue.issuecover.childImageSharp.fixed.src} />
                 </a>
                 <div>
                   <a className="buybutton button-primary" href={issueUrl}>
@@ -75,14 +72,13 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
                   </h4>
                   <hr />
                   
-                  <div className="pt-1 pb-1">
-{                   <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(text) }} />}
-                    <hr />
+                  <div className="contributor-div-top mb-4">
+                    <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(text) }} />
                   </div>
 
                   <div className="editorImageAbout mb-2">
                     <Image
-                        fixed={data.markdownRemark.frontmatter.issue.artistimage.childImageSharp.fixed}
+                      fixed={issue.artistimage.childImageSharp.fixed}
                     />
                     <div className="side-block">
                       {displayTwitter}
@@ -91,49 +87,85 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
                     </div>
                   </div>
 
-                    <h1 className="pb-1 pt-1">
-                      Cover Artist: {artist}
-                    </h1>
-                    <div className="pt-1 pb-1">
-{                  <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(artistbio) }} />}
-                  <hr />
+                  <h1 className="pb-1 pt-1">
+                    Cover Artist: {artist}
+                  </h1>
+                  <div className="contributor-div">
+                    <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(artistbio) }} />
                   </div>
 
-
-                    <div className="frontissue">
-              <div className="col-12">
-              <h3>
-                CONTENT
-              </h3>
-              {fictionHeader}
-              {fictionContent
-                .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-              {poetryHeader}
-                {poetryContent
-                  .map((data, index) => data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-              {nonFictionHeader}
-                {nonFictionContent
-                  .map((data, index) => data.node.frontmatter.title === null ? null : data.node.frontmatter.available === true ? <p key={data.node.frontmatter.title}><Link to={data.node.frontmatter.path}>{data.node.frontmatter.title}</Link> by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> : <p key={data.node.frontmatter.title}>{data.node.frontmatter.title} by <Link to={data.node.frontmatter.author.idpath}> {data.node.frontmatter.author.id}</Link></p> )}
-              <br />
-              <div className="pb-2">
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
+                  <div className="frontissue">
+                    <div className="col-12">
+                      <h3>
+                        CONTENT
+                      </h3>
+                      {fictionHeader}
+                      {posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
+                        <p key={node.frontmatter.title}>
+                          {node.frontmatter.available === true ? (
+                            <Link to={node.frontmatter.path}>
+                              {node.frontmatter.title}
+                            </Link>
+                          ) : (
+                            node.frontmatter.title
+                          )}
+                          {" "}by{" "}
+                          <Link to={node.frontmatter.authors[0].idpath}>
+                            {node.frontmatter.authors[0].id}
+                          </Link>
+                        </p>
+                      ))}
+                      {poetryHeader}
+                      {posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
+                        <p key={node.frontmatter.title}>
+                          {node.frontmatter.available === true ? (
+                            <Link to={node.frontmatter.path}>
+                              {node.frontmatter.title}
+                            </Link>
+                          ) : (
+                            node.frontmatter.title
+                          )}
+                          {" "}by{" "}
+                          <Link to={node.frontmatter.authors[0].idpath}>
+                            {node.frontmatter.authors[0].id}
+                          </Link>
+                        </p>
+                      ))}
+                      {nonFictionHeader}
+                      {posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
+                        <p key={node.frontmatter.title}>
+                          {node.frontmatter.available === true ? (
+                            <Link to={node.frontmatter.path}>
+                              {node.frontmatter.title}
+                            </Link>
+                          ) : (
+                            node.frontmatter.title
+                          )}
+                          {" "}by{" "}
+                          <Link to={node.frontmatter.authors[0].idpath}>
+                            {node.frontmatter.authors[0].id}
+                          </Link>
+                        </p>
+                      ))}
+                      <br />
+                      <div className="pb-2">
+                        <Link to="/subscribe">
+                          <Image className="advertLong"
+                            fixed={advertLong.childImageSharp.fixed}
+                          />
+                        </Link>
+                      </div>
+                    </div>
                   </div>
+
+                  {/* Share Section */}
+                  {/* <div className="share">
+                    <h1>Share</h1>
+                  </div> */}
+                  <hr className="mb-2"/>
                 </div>
               </div>
 
-
-
-{/*                  <div className="share">
-                    <h1>Share</h1>
-                  </div>
-*/}                  <hr className="mb-2"/>
-                  
-              </div>
-            </div>
             </div>
           </div>
         </div>
@@ -143,67 +175,65 @@ const displayUrl = {urlName}.urlName.artistUrl === null ? null : <a className='s
 };
 
 export const query = graphql`
-query($issueidname: String!) {
-  advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
-    id
-    childImageSharp {
-      fixed(height:60) {
-        ...GatsbyImageSharpFixed
-      }
-    }
-  }
-  allMarkdownRemark(
-    filter: { fileAbsolutePath: { regex: "/.*.md$/" }}                  #This tells this file to pull from the md files generated by allposts?
-    sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-    totalCount
-    edges {
-      node {
-        html
-        id
-        frontmatter {
-          featured
-          available
-          path
-          title
-          description
-          author {
-            id
-            idpath
-          }
-          issue {
-            id
-            idpath
-            issuecover {
-              childImageSharp {
-                fixed(width: 280) {
-                  ...GatsbyImageSharpFixed 
-                }
-                fluid(maxWidth: 150, maxHeight: 150) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          category
+  query($issueidname: String!) {
+    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
+      id
+      childImageSharp {
+        fixed(height:60) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-  }
-  markdownRemark(frontmatter: {issue: {id: {eq: $issueidname}}}) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/.*.md$/" }}
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          html
+          frontmatter {
+            featured
+            available
+            path
+            title
+            description
+            authors {
+              id
+              idpath
+            }
+            issue {
+              id
+              idpath
+              issuecover {
+                childImageSharp {
+                  fixed(width: 280) {
+                    ...GatsbyImageSharpFixed 
+                  }
+                  fluid(maxWidth: 150, maxHeight: 150) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+            category
+          }
+        }
+      }
+    }
+    markdownRemark(frontmatter: {issue: {id: {eq: $issueidname}}}) {
       frontmatter {
         title
         path
-        author {
+        authors {
           id
           bio
           twitter
           picture {
             childImageSharp {
-              fixed(width: 200) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 200) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -216,20 +246,20 @@ query($issueidname: String!) {
           artist
           artistimage {
             childImageSharp {
-              fixed(width: 150) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 150) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           issuecover {
             childImageSharp {
-              fixed(width: 280) {                                           #This changed the post picture sizes on the front page (originally 75)
+              fixed(width: 280) {
                 ...GatsbyImageSharpFixed 
               }
-              fluid(maxWidth: 150, maxHeight: 150) {                                        #This changed the post picture sizes on the front page (originally 75)
+              fluid(maxWidth: 150, maxHeight: 150) {
                 ...GatsbyImageSharpFluid
               }
             }

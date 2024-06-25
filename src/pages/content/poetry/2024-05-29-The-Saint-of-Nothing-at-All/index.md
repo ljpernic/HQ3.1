@@ -1,6 +1,7 @@
 ---
 title: The Saint of Nothing at All
-author: Jess Gofton
+authors:
+    - Jess Gofton
 issue: Issue Fifteen, May 2024
 description: 'I am a vertebra crowning <br />
 Sevilla’s ghoulish horde. <br />

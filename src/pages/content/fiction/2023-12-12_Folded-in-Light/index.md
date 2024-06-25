@@ -1,6 +1,7 @@
 ---
 title: Folded in Light
-author: Elizabeth Broadbent
+authors:
+    - Elizabeth Broadbent
 issue: Issue Twelve, December 2023
 description: "“Most people couldn’t make out what David was babbling when he ran outta that swamp. Partly ‘cause he was buck-naked, but mostly ‘cause he’d sawed off that hand. But I heard him.” Buddy planted his elbows on the old counter. “He was going on about black rocks and witch birds. I know it. I seen it.” <p>Blake had only stopped to top off at Lower Congaree’s Gas N Go, but Buddy’s gossip snagged him, and he leaned close. The clerk’s Skoal reeked sickly of mint tobacco. </p><p>“David came in here telling me you can see those hunger stones in Germany,” Buddy continued. “And those standing stones in Spain. He said that sure as shit the water level’s dropping in that swamp. You think there isn’t something back there? And I said, you come get me when you find it.”</p>" 
 shortdescription: "“Most people couldn’t make out what David was babbling when he ran outta that swamp. Partly ‘cause he was buck-naked, but mostly ‘cause he’d sawed off that hand. But I heard him.” Buddy planted his elbows on the old counter. “He was going on about black rocks and witch birds. I know it. I seen it.” <p>Blake had only stopped to top off at Lower Congaree’s Gas N Go, but Buddy’s gossip snagged him, and he leaned close. The clerk’s Skoal reeked sickly of mint tobacco. </p>"

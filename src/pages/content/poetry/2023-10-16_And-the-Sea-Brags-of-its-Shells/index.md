@@ -1,6 +1,7 @@
 ---
 title: "And the Sea Brags of its Shells"
-author: "• R L • powell"
+authors:
+    - "• R L • powell"
 issue: Issue Eleven, October 2023
 description: ''
 shortdescription: "When I wake, it’s to hear the last siren, <br />

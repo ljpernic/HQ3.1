@@ -1,6 +1,7 @@
 ---
 title: To Trade in Secrets
-author: Erin K. Wagner
+authors:
+    - Erin K. Wagner
 issue: Issue Seven, November 2022
 description: There was a revolution. A bloody one. The farmers were angry, and they were dirty and sweating with years of back-breaking work. They turned their farming equipment—their sickles, their rakes, their spades—into weapons. When they breached the high spiked wall of the czar’s court, there was a wonderful and brief silence—a thousand breaths held in anticipation of what would come. The farmers were not kind to the royal family. They ripped the jewels from the czarina’s ears and they cut off her head. They paraded the czar through the streets naked and covered in pitch. He cried as best he could, though the pitch had sealed his eyes half-shut.'
 shortdescription: There was a revolution. A bloody one. The farmers were angry, and they were dirty and sweating with years of back-breaking work. They turned their farming equipment—their sickles, their rakes, their spades—into weapons. When they breached the high spiked wall of the czar’s court, there was a wonderful and brief silence—a thousand breaths held in anticipation of what would come. The farmers were not kind to the royal family. They ripped the jewels from the czarina’s ears and they cut off her head. They paraded the czar through the streets naked and covered in pitch. He cried as best he could, though the pitch had sealed his eyes half-shut.'

@@ -1,6 +1,7 @@
 ---
 title: Star Stitcher
-author: A.J. Van Belle
+authors:
+    - A.J. Van Belle
 issue: Issue Thirteen, January 2024
 description: ''
 shortdescription: "I sew behind time <br />

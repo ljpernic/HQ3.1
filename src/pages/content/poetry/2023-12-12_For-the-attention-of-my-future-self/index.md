@@ -1,6 +1,7 @@
 ---
 title: For the attention of my future self
-author: Brian Hugenbruch
+authors:
+    - Brian Hugenbruch
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "While you are me, and I am almost you, <br />

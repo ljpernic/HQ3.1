@@ -1,6 +1,7 @@
 ---
 title: After Angels
-author: Richard Ford Burley
+authors:
+    - Richard Ford Burley
 issue: Issue Twelve, December 2023
 description: "The first thing that happens is the birds stop singing. <p>It’s more subtle out in oldciv, in places where the sawtooth ruins scrape the sky with spires of concrete and steel. There just aren’t that many birds out here. It’s been fifty years since the city was abandoned, but nature’s still wary about moving back in. That’s the way it is with angelfall. </p><p>Crouching in the lee of a low concrete wall, Callis closes her eyes. She’s not so much listening as feeling—paying attention to something in the oldest parts of her brain, an ancient, adrenaline-fueled pattern-recognition engine that saved humanity’s ancestors when they couldn’t even put into words the nature of the threat. It’s a part that’s become more useful in recent history. It isn’t analytical, or even conscious—it’s more like a tripwire, a part of the brain that can only say ‘watch out,’ ‘something’s not right,’ ‘something’s missing.’ It’s something you train yourself to pay attention to, at least if you want to survive out here. Something twigs, but it’s not close, it’s not in front of them, and it’s not an angel—so it’s not an immediate threat.</p>" 
 shortdescription: "The first thing that happens is the birds stop singing. <p>It’s more subtle out in oldciv, in places where the sawtooth ruins scrape the sky with spires of concrete and steel. There just aren’t that many birds out here. It’s been fifty years since the city was abandoned, but nature’s still wary about moving back in. That’s the way it is with angelfall. </p>"

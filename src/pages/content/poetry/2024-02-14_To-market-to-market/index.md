@@ -1,6 +1,7 @@
 ---
 title: To market, to market
-author: Anna Quercia-Thomas
+authors:
+    - Anna Quercia-Thomas
 issue: Issue Thirteen, January 2024
 description: ''
 shortdescription: "do not forget to drag your feet, my darling, <br />

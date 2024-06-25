@@ -1,6 +1,7 @@
 ---
 title: Lunar Maria
-author: Eva Papasoulioti
+authors:
+    - Eva Papasoulioti
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'the moon doesn’t have shores <br />

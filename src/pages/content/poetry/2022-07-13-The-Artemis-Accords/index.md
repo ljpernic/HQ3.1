@@ -1,6 +1,7 @@
 ---
 title: The Artemis Accords*
-author: Lynne Sargent
+authors:
+    - Lynne Sargent
 issue: Issue Five, July 2022
 description: X
 shortdescription: "Like old kings come together <br />

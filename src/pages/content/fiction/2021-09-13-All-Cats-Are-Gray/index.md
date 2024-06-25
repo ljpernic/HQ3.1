@@ -1,6 +1,7 @@
 ---
 title: All Cats are Gray
-author: Andre Alice Norton
+authors:
+    - Andre Alice Norton
 issue: Issue Zero, September 2021
 description: Steena of the spaceways—that sounds just like a corny title for one of the Stellar-Vedo spreads. I ought to know, I’ve tried my hand at writing enough of them. Only this Steena was no glamour babe. She was as colorless as a Lunar plant—even the hair netted down to her skull had a sort of grayish cast and I never saw her but once draped in anything but a shapeless and baggy gray space-all. <p>Steena was strictly background stuff and that is where she mostly spent her free hours—in the smelly smoky background corners of any stellar-port dive frequented by free spacers. If you really looked for her you could spot her—just sitting there listening to the talk—listening and remembering. She didn’t open her own mouth often. But when she did spacers had learned to listen. And the lucky few who heard her rare spoken words—these will never forget Steena. <a href="https://www.havenquarterly.com/all-cats-are-gray/">[<i>...</i>]</a></p>
 shortdescription: Steena of the spaceways—that sounds just like a corny title for one of the Stellar-Vedo spreads. I ought to know, I’ve tried my hand at writing enough of them. Only this Steena was no glamour babe. She was as colorless as a Lunar plant—even the hair netted down to her skull had a sort of grayish cast and I never saw her but once draped in anything but a shapeless and baggy gray space-all. <a href="https://www.havenquarterly.com/all-cats-are-gray/">[<i>...</i>]</a>

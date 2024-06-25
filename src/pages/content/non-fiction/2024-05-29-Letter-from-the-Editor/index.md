@@ -1,6 +1,7 @@
 ---
 title: Letter from the Editor
-author: LP Kindred
+authors:
+    - LP Kindred
 issue: Issue Fifteen, May 2024
 description: I. It’s 4am on 5/27/2024. <p>II. It’s been an interesting few months. I got fired in November. Ran a gofundme to support me in December. Also, got admitted to Chicago’s Art Institute as a student. Started fighting with Unemployment in January. Drained my measly 401k in February. Finally got my money from Unemployment. Received a read from a cherished friend, because of which I’m moving to Chicago in July. </p><p>III. These poems and fictions, like my life at the moment, are about change. Resisting it. Surrendering to it. Massaging it and its outcomes. </p>
 shortdescription: I. It’s 4am on 5/27/2024. <p>II. It’s been an interesting few months. I got fired in November. Ran a gofundme to support me in December. Also, got admitted to Chicago’s Art Institute as a student. Started fighting with Unemployment in January. Drained my measly 401k in February. Finally got my money from Unemployment. Received a read from a cherished friend, because of which I’m moving to Chicago in July. </p><p>III. These poems and fictions, like my life at the moment, are about change. Resisting it. Surrendering to it. Massaging it and its outcomes. </p>

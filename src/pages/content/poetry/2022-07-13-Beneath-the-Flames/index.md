@@ -1,6 +1,7 @@
 ---
 title: Beneath the Flames
-author: Oyeleye Mahmoodah Temitope
+authors:
+    - Oyeleye Mahmoodah Temitope
 issue: Issue Five, July 2022
 description: X
 shortdescription: "The rain basks in humid slumber, whilst grandma’s roses wilt— <br />

@@ -1,6 +1,7 @@
 ---
 title: A Kelpie Sees Mari Lwyd from Afar
-author: Maria Schrater
+authors:
+    - Maria Schrater
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "‘Twas the night before Christmas and I froze in my pond <br />

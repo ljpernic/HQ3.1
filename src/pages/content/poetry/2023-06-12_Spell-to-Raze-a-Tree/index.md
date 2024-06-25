@@ -1,6 +1,7 @@
 ---
 title: Spell to Raze a Tree
-author: Colleen Anderson
+authors:
+    - Colleen Anderson
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'Speak of fires, infestations<br />

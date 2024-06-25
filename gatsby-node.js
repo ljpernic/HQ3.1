@@ -28,7 +28,7 @@ exports.createPages = ({ graphql, actions }) => {
                     issue {
                       id
                     }
-                    author {
+                    authors {
                       id
                     }
                     issuecover
@@ -76,12 +76,14 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
 
+        // Arrays to store unique issues, authors, and categorized posts
         var allFiction = [];                                                                    
         var allPoetry = [];                                                                     
         var allNonFiction = [];                                                                 
         var allIssuesWithDuplicates = [];                                                       
         var allAuthorsWithDuplicates = [];                                                      
-
+        
+        // Iterate through each markdown node
         result.data.postContent.edges.forEach(({ node }) => {                                   
           const component = path.resolve('src/templates/eachpost.js');                          
           createPage({                                                                          
@@ -95,37 +97,29 @@ exports.createPages = ({ graphql, actions }) => {
           var individualPost = JSON.parse(JSON.stringify(node.frontmatter));                  
           var postCategory = individualPost.category;                                         
           var postIssue = individualPost.issue;                                               
-          var postAuthor = individualPost.author;                                             
+          var postAuthors = individualPost.authors;                                             
 
-          allIssuesWithDuplicates.push(postIssue)                                           
-          allAuthorsWithDuplicates.push(postAuthor)                                        
+          allIssuesWithDuplicates.push(postIssue);
+          allAuthorsWithDuplicates.push(...postAuthors);                                     
 
-          if (postCategory === 'FICTION')                                                   
-            {
-              allFiction.push(individualPost)                                               
-            } 
-              else if (postCategory === 'POETRY')                                           
-                {
-                  allPoetry.push(individualPost)
-                } 
-                  else if (postCategory === 'NON-FICTION')                                  
-                    {
-                      allNonFiction.push(individualPost)
-                    }
-                      else 
-                        {
-                          postCategory === null                                             
-                        }
+          if (postCategory === 'FICTION') {
+            allFiction.push(individualPost);
+          } else if (postCategory === 'POETRY') {
+            allPoetry.push(individualPost);
+          } else if (postCategory === 'NON-FICTION') {
+            allNonFiction.push(individualPost);
+          }
         });
 
-        let seenIssue = new Set();
+        // Deduplicate issues and authors
+        const seenIssue = new Set();
         const allIssues = allIssuesWithDuplicates.filter(oneIssue => {
           const duplicate = seenIssue.has(oneIssue.id);
           seenIssue.add(oneIssue.id);
           return !duplicate;
         });
 
-        let seenAuthor = new Set();
+        const seenAuthor = new Set();
         const allAuthors = allAuthorsWithDuplicates.filter(oneAuthor => {
           const duplicate = seenAuthor.has(oneAuthor.id);
           seenAuthor.add(oneAuthor.id);

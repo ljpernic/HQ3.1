@@ -1,6 +1,7 @@
 ---
 title: "The Field"
-author: "Sandra Pope"
+authors:
+    - "Sandra Pope"
 issue: Issue Eleven, October 2023
 description: ''
 shortdescription: "Beyond the boundaries of my yard, <br />

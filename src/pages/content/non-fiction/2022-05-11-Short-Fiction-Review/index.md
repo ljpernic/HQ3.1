@@ -1,6 +1,7 @@
 ---
 title: Short Fiction Review — May 2022 (online only)
-author: TJ Price
+authors:
+    - TJ Price
 issue: Issue Four, May 2022
 description: Thanks for checking out our column, the Short Fiction Review, here at Haven Spec! For me, there's always a shifting set of criteria when it comes to what constitutes a really great story. It could be that the characters are distinctly well-drawn and that I find the emotional stakes moving. It could be that the world-building is top-notch and integrated seamlessly into the text of the story, providing a rich and vibrant setting for a piece. It could be that the writing itself, on a sentence level, is so stunning that it makes my jaw drop. It could be a combination or something entirely different. I'm always on the lookout for something that does entirely new things with the conventions of prose.
 shortdescription: Thanks for checking out our column, the Short Fiction Review, here at Haven Spec! For me, there's always a shifting set of criteria when it comes to what constitutes a really great story. It could be that the characters are distinctly well-drawn and that I find the emotional stakes moving. It could be that the world-building is top-notch and integrated seamlessly into the text of the story, providing a rich and vibrant setting for a piece. It could be that the writing itself, on a sentence level, is so stunning that it makes my jaw drop. It could be a combination or something entirely different. I'm always on the lookout for something that does entirely new things with the conventions of prose. 

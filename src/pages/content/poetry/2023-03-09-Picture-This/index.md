@@ -1,6 +1,7 @@
 ---
 title: Picture This
-author: Monica Louzon
+authors:
+    - Monica Louzon
 issue: Issue Eight, March 2023
 description: ''
 shortdescription: 'waves crashing over us <br />

@@ -1,6 +1,7 @@
 ---
 title: Skyscraper
-author: Annika Barranti Klein
+authors:
+    - Annika Barranti Klein
 issue: Issue Six, September 2022
 description: ''
 shortdescription: 'I was thinking today of a<br />

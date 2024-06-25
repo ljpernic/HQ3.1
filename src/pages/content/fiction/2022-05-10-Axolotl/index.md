@@ -1,6 +1,7 @@
 ---
 title: Axolotl
-author: Atreyee Gupta
+authors:
+    - Atreyee Gupta
 issue: Issue Four, May 2022
 description: "I eat silence. It tastes lonely and bitter alongside ma’s watery yam casserole as it serrates speech from my tongue. In thirty years I haven’t learned how to digest this aching abyss. I turtle into my eight-year-old self, wondering: what aren’t ma and baba saying? Is the silence punishment for my inadequacy? No matter how I iterate myself, the recipe fails. Untethering from home, I’ve discarded my native language, abandoned the gods, adopted cutlery. Yet the minute I cross their threshold, artifice, concealment, and placation cloak my intentions."
 shortdescription: "I eat silence. It tastes lonely and bitter alongside ma’s watery yam casserole as it serrates speech from my tongue. In thirty years I haven’t learned how to digest this aching abyss. I turtle into my eight-year-old self, wondering: what aren’t ma and baba saying? Is the silence punishment for my inadequacy? No matter how I iterate myself, the recipe fails. Untethering from home, I’ve discarded my native language, abandoned the gods, adopted cutlery. Yet the minute I cross their threshold, artifice, concealment, and placation cloak my intentions."

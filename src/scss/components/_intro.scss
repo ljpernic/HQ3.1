@@ -39,7 +39,7 @@
     width: 90%;
     @include media-breakpoint-up(xs) {
       font-size: 1.5rem;
-      width: 90%;
+      width: auto;
     }
     @include media-breakpoint-up(sm) {
       font-size: 1.5rem;
@@ -193,11 +193,12 @@
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
-    padding: 10px 45px 0px 45px;
+    padding: 10px 25px 0px 25px;
     @include media-breakpoint-up(xs) {
       font-size: 1rem;
       text-align: justify;
-      width: 100%;
+      width: 90%;
+      padding: 10px;
     }
     @include media-breakpoint-up(sm) {
       font-size: 1rem;
@@ -229,7 +230,7 @@
     font-weight: lighter;
     line-height: 1.6;
     color: $secondary;
-    padding: 10px 45px 0px 45px;
+    padding: 10px 25px 0px 25px;
     @include media-breakpoint-up(xs) {
       font-size: 1rem;
       text-align: justify;
@@ -253,6 +254,58 @@
     .centerMarkdown {
       text-align: center!important;
     }
+  }
+}
+
+.ninety-percent {
+  max-width: 90%;
+}
+
+.title-margin {
+  margin: 0px 0px 0px 0px;
+}
+
+.contributor-div {
+  min-height: 300px;
+  border-bottom: 1px dashed blue;
+  margin: 40px 40px 0px 20px; /* Default margin for larger screens */
+  
+  @media (max-width: 575.98px) { /* xs */
+    margin: 0px; /* Adjusted margin for xs size */
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) { /* sm */
+    margin: 20px 40px 20px 20px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { /* md */
+    margin: 20px 40px 20px 20px;
+  }
+
+  @media (min-width: 992px) { /* lg */
+    margin: 40px 40px 0px 20px;
+  }
+}
+
+.contributor-div-top {
+  min-height: 300px;
+  border-bottom: 1px dashed blue;
+  margin: 0px 40px 0px 20px; /* Default margin for larger screens */
+  
+  @media (max-width: 575.98px) { /* xs */
+    margin: 0px; /* Adjusted margin for xs size */
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) { /* sm */
+    margin: 0px 40px 20px 20px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { /* md */
+    margin: 0px 40px 20px 20px;
+  }
+
+  @media (min-width: 992px) { /* lg */
+    margin: 0px 40px 0px 20px;
   }
 }
 
@@ -339,7 +392,7 @@ li .listWindow {
 .editorImageAbout {
   display: grid;
   float: right;
-  margin: 10px 60px 5px 35px;
+  margin: 10px 30px 5px 35px;
   text-align: center;
   border: 2px solid black;
 //  width: 175px;
@@ -349,14 +402,14 @@ li .listWindow {
     flex-flow: column;
     float: none;
     align-items: center;
-    margin: 10px 50px 5px 50px;
+    margin: 10px 10px 5px 10px;
     border: none;
   }
   @include media-breakpoint-up(sm)
   {
     display: grid;
     float: right;
-    margin: 10px 60px 5px 35px;
+    margin: 10px 30px 5px 35px;
     text-align: center;
     border: 2px solid black;
   }
@@ -364,7 +417,7 @@ li .listWindow {
   {
     display: grid;
     float: right;
-    margin: 10px 60px 5px 35px;
+    margin: 10px 30px 5px 35px;
     text-align: center;
     border: 2px solid black;
   }
@@ -372,7 +425,7 @@ li .listWindow {
   {
     display: grid;
     float: right;
-    margin: 10px 60px 5px 35px;
+    margin: 10px 30px 5px 35px;
     text-align: center;
     border: 2px solid black;
   }

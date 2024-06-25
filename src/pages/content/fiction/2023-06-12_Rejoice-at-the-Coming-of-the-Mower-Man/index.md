@@ -1,6 +1,7 @@
 ---
 title: Rejoice at the Coming of the Mower Man
-author: Mike Morgan
+authors:
+    - Mike Morgan
 issue: Issue Nine, June 2023
 description: 'Layla Scholtz heard the truck on her way home from school, squinting at it through grime-caked goggles as it emerged from a cloud of dust in the center of town. She was sure she recognized its colors but wanted to see the logo on its side to be certain. Visitors to Verdigre, Nebraska, were so rare, what else could it be? <p>The dust wasn’t just dirt kicked up from 4th Avenue by the vehicle’s tires. It was a persistent miasma of particles held aloft by the winds blowing in from the dead fields. Her school talked a lot lately about the Dust Bowl from the 1930s. More than a century and a quarter later, and here they were again. Not that the dust towered into thundercloud massifs like it had then; these days, it was limited only to the areas that wouldn’t do business with Grow Salvation.</p>' 
 shortdescription: 'Layla Scholtz heard the truck on her way home from school, squinting at it through grime-caked goggles as it emerged from a cloud of dust in the center of town. She was sure she recognized its colors but wanted to see the logo on its side to be certain. Visitors to Verdigre, Nebraska, were so rare, what else could it be? <p>The dust wasn’t just dirt kicked up from 4th Avenue by the vehicle’s tires. It was a persistent miasma of particles held aloft by the winds blowing in from the dead fields. Her school talked a lot lately about the Dust Bowl from the 1930s. More than a century and a quarter later, and here they were again. Not that the dust towered into thundercloud massifs like it had then; these days, it was limited only to the areas that wouldn’t do business with Grow Salvation.</p>'

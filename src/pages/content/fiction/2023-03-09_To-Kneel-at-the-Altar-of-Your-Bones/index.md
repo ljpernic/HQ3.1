@@ -1,6 +1,7 @@
 ---
 title: To Kneel at the Altar of Your Bones
-author: Valo Wing
+authors:
+    - Valo Wing
 issue: Issue Eight, March 2023
 description: 'She slices open a vein, and out pours star-matter. Liquid and glittering, the iridescent mess drips from her arm into my cupped palms. And, for a moment, there is only this: breathing in duet (<em>forte</em>, <em>agitato</em>), her brow a slash of determination worthy of sainthood (she’s my religion, yes), and, too, the dumbass acolyte who made a promise they’re no longer sure they can keep (me). <p>Quicksilver catches in the open window’s breeze, splattering over my double-breasted suit. </p><p>“Oh, for fuck’s—” </p><p>“Focus, Caro,” Lyr chides. “I haven’t wasted years of my life traveling strange strands for you to get uptight over an outfit.” </p><p>I roll my eyes—affectionate—and retort: “Your brain’s been trapped in a fungal network.” </p>' 
 shortdescription: 'She slices open a vein, and out pours star-matter. Liquid and glittering, the iridescent mess drips from her arm into my cupped palms. And, for a moment, there is only this: breathing in duet (<em>forte</em>, <em>agitato</em>), her brow a slash of determination worthy of sainthood (she’s my religion, yes), and, too, the dumbass acolyte who made a promise they’re no longer sure they can keep (me). <p>Quicksilver catches in the open window’s breeze, splattering over my double-breasted suit. </p>'

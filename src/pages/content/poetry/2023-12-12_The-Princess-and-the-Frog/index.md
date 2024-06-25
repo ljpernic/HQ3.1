@@ -1,6 +1,7 @@
 ---
 title: The Princess and the Frog
-author: Archita Mittra
+authors:
+    - Archita Mittra
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "is this how all things end? <br />

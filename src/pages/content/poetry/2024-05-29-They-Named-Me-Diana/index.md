@@ -1,6 +1,7 @@
 ---
 title: They Named Me Diana
-author: Emmie Christie
+authors:
+    - Emmie Christie
 issue: Issue Fifteen, May 2024
 description: 'They named me Diana, <br />
 they vilify me on their news reports, <br /> 

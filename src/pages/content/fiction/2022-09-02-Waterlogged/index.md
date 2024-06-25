@@ -1,6 +1,7 @@
 ---
 title: Waterlogged
-author: Corey Farrenkopf
+authors:
+    - Corey Farrenkopf
 issue: Issue Six, September 2022
 description: '.'
 shortdescription: 'The three story, twelve-unit luxury condominium slid into the sea on the shoulders of a moon tide, kneeling into the waves with the resonance of a ship running aground. It lay on its side, foundation sheared away, windows turned to the cloudless sky. <p>Glen watched its descent.</p> <p>It had been his night to search the behemoth of wood and glass for squatters, to trawl the condemned units, kicking out those who lingered in the darkened rooms drinking their lives away or just trying to stay dry.</p> <p>But Glen’s mind wasn’t on the bodies that may have been hidden within. He was worried about the creature that swam in the basement, its bone-knit tails and the innumerable mouths that refused to eat the food he left for it. He’d never seen it leave the space, only swimming endless laps as the building grew more and more waterlogged. He doubted it could have escaped in time. </p>'

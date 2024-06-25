@@ -1,6 +1,7 @@
 ---
 title: Two Beaches
-author: Devin Miller
+authors:
+    - Devin Miller
 issue: Issue Six, September 2022
 description: ''
 shortdescription: 'I want to show you the beach <br />

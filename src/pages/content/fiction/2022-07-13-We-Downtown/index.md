@@ -1,6 +1,7 @@
 ---
 title: We, Downtown
-author: D.K. Lawhorn
+authors:
+    - D.K. Lawhorn
 issue: Issue Five, July 2022
 description: 'Conquest rides into our neighborhood on the supple leather seat of a block-long limousine that his driver parks next to a mostly dead jalopy. The seams of his finely tailored suit are close to bursting, his massive frame fighting hard to break free of its cloth restraints. The cigar resting in the corner of his mouth never grows any shorter or longer, but remains an eternal, slobber-covered nub. In his hand he clutches the deed to the factory that has been boarded up for longer than any of us downtowners have been alive. He promises us jobs through pearly white teeth and a millionaire’s sneer. And when the factory is billowing black smoke and filling the river with sludge once more, we flood through the doors and take what little he offers us.'
 shortdescription: 'Conquest rides into our neighborhood on the supple leather seat of a block-long limousine that his driver parks next to a mostly dead jalopy. The seams of his finely tailored suit are close to bursting, his massive frame fighting hard to break free of its cloth restraints. The cigar resting in the corner of his mouth never grows any shorter or longer, but remains an eternal, slobber-covered nub. In his hand he clutches the deed to the factory that has been boarded up for longer than any of us downtowners have been alive. He promises us jobs through pearly white teeth and a millionaire’s sneer. And when the factory is billowing black smoke and filling the river with sludge once more, we flood through the doors and take what little he offers us.'

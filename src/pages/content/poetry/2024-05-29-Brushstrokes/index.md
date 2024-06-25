@@ -1,6 +1,7 @@
 ---
 title: Brushstrokes
-author: Elizabeth Shack
+authors:
+    - Elizabeth Shack
 issue: Issue Fifteen, May 2024
 description: 'The swirling colors of space and time <br />
 float by the windows of the generation ship, <br />

@@ -1,6 +1,7 @@
 ---
 title: A Proper Witch
-author: Elisabeth Kauffman
+authors:
+    - Elisabeth Kauffman
 issue: Issue Twelve, December 2023
 description: "Gen took a break from digging and wiped sweat-pasted black hair from her brow, smearing graveyard dirt onto her clammy, pale skin. She could just hear those bitchy witches from the Instagram coven she’d tried to join. <p><em>“Maybe if you were a proper witch you would have been able to get that spell to work.”</em></p><p><em>“Actually, if she was a proper witch she shouldn’t have had to look up a spell on the internet.”</em></p><p><em>“A proper witch would know how to…”</em></p>"
 shortdescription: "Gen took a break from digging and wiped sweat-pasted black hair from her brow, smearing graveyard dirt onto her clammy, pale skin. She could just hear those bitchy witches from the Instagram coven she’d tried to join.<p><em>“Maybe if you were a proper witch you would have been able to get that spell to work.”</em></p>"

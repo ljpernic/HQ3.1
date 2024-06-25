@@ -1,6 +1,7 @@
 ---
 title: The Hen and the Shadow of the Monstrance Street Commune
-author: T. K. Rex
+authors:
+    - T. K. Rex
 issue: Issue Thirteen, January 2024
 description: "I wasn’t there the day that Glenda’s daughter Misty found a stray hen wandering along the gravel edge of Monstrance Street, because I only come out at night. I heard about it through the shadows of the ivy that grew in through the cracks in Glenda’s walls and all along her ceiling, hanging in gravity curves against the plastic tarp that kept the insulation dust from falling on her bed at night. I heard about it from the hen herself, in the pen that Glenda and her boyfriend Henning made from scrap they found around the commune grounds. She clucked softly in the twilight hours and wondered where her freedom went." 
 shortdescription: "I wasn’t there the day that Glenda’s daughter Misty found a stray hen wandering along the gravel edge of Monstrance Street, because I only come out at night. I heard about it through the shadows of the ivy that grew in through the cracks in Glenda’s walls and all along her ceiling, hanging in gravity curves against the plastic tarp that kept the insulation dust from falling on her bed at night. I heard about it from the hen herself, in the pen that Glenda and her boyfriend Henning made from scrap they found around the commune grounds. She clucked softly in the twilight hours and wondered where her freedom went."

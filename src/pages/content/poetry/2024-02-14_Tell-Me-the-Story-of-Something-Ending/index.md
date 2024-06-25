@@ -1,6 +1,7 @@
 ---
 title: Tell Me the Story of Something Ending
-author: Matthew Roy
+authors:
+    - Matthew Roy
 issue: Issue Thirteen, January 2024
 description: ''
 shortdescription: "Tell me the story of something ending, she said at the campfire,<br />

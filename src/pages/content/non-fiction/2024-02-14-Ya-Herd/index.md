@@ -1,13 +1,14 @@
 ---
 title: Letter from the Editor, Ya Herd?
-author: Leon Perniciaro
+authors:
+    - Leon Perniciaro
 issue: Issue Thirteen, January 2024
 description: Letter from the editor.
 shortdescription: Haven Spec Magazine is now a pro-paying market! We're grateful to everyone who supported our Kickstarter, and we are so glad to be able to give our wonderful authors the rates that they deserve. We have big plans for 2024, including interviews with some amazing editors, stories from across the width and breadth of the human experience, and short fiction reviews from your very own Haven Spec staff (okay, mostly Danai). I very much want Haven Spec to be a part of the wider SFF community, and that means paying people what they deserve, shouting out the stories and magazines we love, and publishing as much awesome fiction and poetry as we possibly can.
 category: NON-FICTION
 issuecover: CurrentCover.jpg
 date: "2024-02-14T01:11:00.000Z"
-path: "/january-2024-letter-from-the-editor-ya-herd"
+path: "/letter-from-the-editor-ya-herd-january-2024"
 featured: false
 available: true
 ---

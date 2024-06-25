@@ -1,6 +1,7 @@
 ---
 title: The Tempest
-author: Taylor Grothe
+authors:
+    - Taylor Grothe
 issue: Issue Eight, March 2023
 description: 'The creak of the ship on open water, the dark sea below my feet. The infinite, so close, one false step away through the rotting side of the hold. One hatch opened in a storm, and I would be as good as foam. <p>The intrusive thoughts followed me everywhere, but especially on the ocean. </p><p>I had come here to meet those thoughts—I chose this fate every time a new boarding house turned me out to the streets. I’d learned the sting of salt could not scrape away the thoughts boiling through my skull. But I could change things. Be something more. The things I sought were larger than a life spent toying with unsuspecting, powerless people. Larger than thoughts breaking like a bloodied tide.</p>' 
 shortdescription: 'The creak of the ship on open water, the dark sea below my feet. The infinite, so close, one false step away through the rotting side of the hold. One hatch opened in a storm, and I would be as good as foam. <p>The intrusive thoughts followed me everywhere, but especially on the ocean. </p><p>I had come here to meet those thoughts—I chose this fate every time a new boarding house turned me out to the streets. I’d learned the sting of salt could not scrape away the thoughts boiling through my skull. But I could change things. Be something more. The things I sought were larger than a life spent toying with unsuspecting, powerless people. Larger than thoughts breaking like a bloodied tide.</p>'

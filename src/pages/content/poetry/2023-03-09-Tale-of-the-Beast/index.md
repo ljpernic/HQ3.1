@@ -1,6 +1,7 @@
 ---
 title: Tale of the Beast
-author: Anuja Mitra
+authors:
+    - Anuja Mitra
 issue: Issue Eight, March 2023
 description: ''
 shortdescription: 'first they called me <em>woman</em>, <br />

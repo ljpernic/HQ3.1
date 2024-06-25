@@ -1,6 +1,7 @@
 ---
 title: "I, Luminescence"
-author: Avra Margariti
+authors:
+    - Avra Margariti
 issue: Issue Ten, August 2023
 description: ''
 shortdescription: 'α) Radiation (This Place is a Message) <br /><br />

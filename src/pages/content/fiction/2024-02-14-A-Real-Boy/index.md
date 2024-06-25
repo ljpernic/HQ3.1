@@ -1,6 +1,7 @@
 ---
 title: A Real Boy
-author: Sophia Adamowicz
+authors:
+    - Sophia Adamowicz
 issue: Issue Thirteen, January 2024
 description: "The hands that drag him are huge and gnarled and knotted—hands not of flesh, but of wood. He rakes through the soil, breathless as a swimmer striving against the tide, and clings onto a root that breaches the surface._Dirt jams under his nails; splinters split his nicotine-stained skin as he holds on for dear life. But the backwards pull is too strong. It stretches him until his arms almost pop from their sockets and, with a ragged scream, he’s forced to let go." 
 shortdescription: "The hands that drag him are huge and gnarled and knotted—hands not of flesh, but of wood. He rakes through the soil, breathless as a swimmer striving against the tide, and clings onto a root that breaches the surface._Dirt jams under his nails; splinters split his nicotine-stained skin as he holds on for dear life. But the backwards pull is too strong. It stretches him until his arms almost pop from their sockets and, with a ragged scream, he’s forced to let go."

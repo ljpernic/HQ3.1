@@ -1,6 +1,7 @@
 ---
 title: Herbal Semifreddo for the New Queen
-author: Lindsey Duncan
+authors:
+    - Lindsey Duncan
 issue: Issue Ten, August 2023
 description: 'Begin in the morning. Prepare and line pan with baking cloth. It must be wholly smooth: any bubble or crease will imprint upon the semifreddo. Everything must be perfect for the new queen. <p>Using a firm hand, whisk the cream into high peaks.  Reserve in ice storage until needed.</p> <p>Whisk together remaining ingredients in a shallow bowl, adding fenimyre last. Take care the kitchen servants do not see this addition. The new queen has many servants on her payroll; they are her spies.</p>' 
 shortdescription: 'Begin in the morning. Prepare and line pan with baking cloth. It must be wholly smooth: any bubble or crease will imprint upon the semifreddo. Everything must be perfect for the new queen. <p>Using a firm hand, whisk the cream into high peaks.  Reserve in ice storage until needed.</p> <p>Whisk together remaining ingredients in a shallow bowl, adding fenimyre last. Take care the kitchen servants do not see this addition. The new queen has many servants on her payroll; they are her spies.</p>'

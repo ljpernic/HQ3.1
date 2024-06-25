@@ -1,6 +1,7 @@
 ---
 title: Ascenkin's Roots
-author: Ai Jiang
+authors:
+    - Ai Jiang
 issue: Issue One, November 2021
 description: We are crowded sisters<br /> with roots that tangle and quiver<br /> in the wind. Our roots cling <br /> onto brittle pieces of shattered ... <br /> 
 shortdescription: We are crowded sisters<br /> with roots that tangle and quiver<br /> in the wind. Our roots cling <br /> onto brittle pieces of shattered ... <br />

@@ -1,6 +1,7 @@
 ---
 title: Underwater Mortgages
-author: Roderick Leeuwenhart
+authors:
+    - Roderick Leeuwenhart
 issue: Issue Six, September 2022
 description: '.'
 shortdescription: 'Yente Visscher froze on the crowded Zürich street, arrested by the sight of the distant Alps. Five years on and they still did that to her, some undefinable Dutch strand of her DNA making her powerless in their presence.<p>“<em>Vorsicht</em>,” a passerby shot at her, bumping into Yente with enough force to spill iced coffee from her 

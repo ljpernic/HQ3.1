@@ -1,6 +1,7 @@
 ---
 title: Introduction to the 1831 Edition of Frankenstein
-author: Mary Shelley
+authors:
+    - Mary Shelley
 issue: Issue Zero, September 2021
 description: The Publishers of the Standard Novels, in selecting "Frankenstein" for one of their series, expressed a wish that I should furnish them with some account of the origin of the story. I am the more willing to comply, because I shall thus give a general answer to the question, so very frequently asked me—"How I, when a young girl, came to think of, and to dilate upon, so very hideous an idea?" It is true that I am very averse to bringing myself forward in print; but as my account will only appear as an appendage to a former production, and as it will be confined to such topics as have connection with my authorship alone, I can scarcely accuse myself of a personal intrusion.
 shortdescription: The Publishers of the Standard Novels, in selecting "Frankenstein" for one of their series, expressed a wish that I should furnish them with some account of the origin of the story. I am the more willing to comply, because I shall thus give a general answer to the question, so very frequently asked me—"How I, when a young girl, came to think of, and to dilate upon, so very hideous an idea?" 

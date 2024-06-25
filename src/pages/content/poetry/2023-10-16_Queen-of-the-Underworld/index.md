@@ -1,6 +1,7 @@
 ---
 title: "Queen of the Underworld"
-author: Connie La-Huynh
+authors:
+    - Connie La-Huynh
 issue: Issue Eleven, October 2023
 description: ''
 shortdescription: 'When I float along the deep abyss, every rotting worm writhes <br />

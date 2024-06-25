@@ -92,7 +92,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
-              quality: 95, 
+              quality: 80, 
             },
           },
         ], 
@@ -110,7 +110,7 @@ module.exports = {
   ],
   mapping: {
     // 3. map author to author.yaml
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
+    "MarkdownRemark.frontmatter.authors": `AuthorYaml`,
     "MarkdownRemark.frontmatter.issue": `IssueYaml`,
   },
 };

@@ -1,6 +1,7 @@
 ---
 title: "Paradox Lost"
-author: S.T. Eleu
+authors:
+    - S.T. Eleu
 issue: Issue Ten, August 2023
 description: ''
 shortdescription: '<p style="text-align: right;"><em>A dismal universal hiss, the sound</em> <br />

@@ -1,6 +1,7 @@
 ---
 title: Drought Mermaids
-author: Lucero Valdovinos
+authors:
+    - Lucero Valdovinos
 issue: Issue Fourteen, March 2024
 description: "The soil is parched beneath her feet. The word ‘drought’ hangs in the bare trees and weaves silently through the dead grass. It follows her, close and curious about the life and magic in her. <em>Water</em>, the landscape seems to murmur. <em>Water. Water.</em> <p>But there is none. Hasn’t been for years.</p>" 
 shortdescription: "The soil is parched beneath her feet. The word ‘drought’ hangs in the bare trees and weaves silently through the dead grass. It follows her, close and curious about the life and magic in her. <em>Water</em>, the landscape seems to murmur. <em>Water. Water.</em> <p>But there is none. Hasn’t been for years.</p>"

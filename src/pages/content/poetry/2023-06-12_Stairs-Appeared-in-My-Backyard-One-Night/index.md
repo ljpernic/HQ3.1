@@ -1,6 +1,7 @@
 ---
 title: Stairs Appeared in My Backyard One Night
-author: Marcus Whalbring
+authors:
+    - Marcus Whalbring
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: 'It took all night to get to the bottom floor <br />

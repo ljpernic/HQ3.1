@@ -1,6 +1,7 @@
 ---
 title: Blood, Roses, Song
-author: Vanessa Fogg
+authors:
+    - Vanessa Fogg
 issue: Issue Five, July 2022
 description: X
 shortdescription: "Roses without thorns, blooming and wet with dew. <br />

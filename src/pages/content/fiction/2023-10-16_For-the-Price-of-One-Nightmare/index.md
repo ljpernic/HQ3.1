@@ -1,6 +1,7 @@
 ---
 title: For the Price of One Nightmare
-author: Natalie Kikić
+authors:
+    - Natalie Kikić
 issue: Issue Eleven, October 2023
 description: "It came in through the keyhole. <p>Adrijan hadn’t plugged it up before going to bed despite the guesthouse host’s warning. <em>Leave the key inside or stuff it with paper </em>, the host had told him in the same voice he’d used to say no overnight guests and no smoking inside. <em>There’s a mora who’s been stalking these shores at night. Feeding on men’s dreams, turning them into nightmares. They can turn into flies, you know, fly right in.</em> The host demonstrated, weaving his arm through the air in sharp, jagged motions.</p>" 
 shortdescription: "It came in through the keyhole. <p>Adrijan hadn’t plugged it up before going to bed despite the guesthouse host’s warning. <em>Leave the key inside or stuff it with paper</em>, the host had told him in the same voice he’d used to say no overnight guests and no smoking inside. <em>There’s a mora who’s been stalking these shores at night. Feeding on men’s dreams, turning them into nightmares. They can turn into flies, you know, fly right in.</em> The host demonstrated, weaving his arm through the air in sharp, jagged motions.</p>"

@@ -1,6 +1,7 @@
 ---
 title: Short Fiction Review — May 2024
-author: Danai Christopoulou
+authors:
+    - Danai Christopoulou
 issue: Issue Fifteen, May 2024
 description: Four short story reviews by Danai Christopoulou.
 shortdescription: Short fiction reviews by Danai Christopoulou. Stories reviewed include "An Incomplete Body Has No Answers" by Angela Liu (published in <em>Lightspeed</em>), "Your Sword, Your Trumpet" by Anjali Patel (published in <em>The Deadlands</em>), "In the Year 2067 I Will Be 95 Years Old" by Sage Tyrtle (published in <em>Reckoning</em>), and "If You Wake" by Avra Margariti (published in <em>Hexagon</em>).

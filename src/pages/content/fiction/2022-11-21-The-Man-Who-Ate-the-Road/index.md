@@ -1,6 +1,7 @@
 ---
 title: The Man Who Ate the Road
-author: Warren Benedetto
+authors:
+    - Warren Benedetto
 issue: Issue Seven, November 2022
 description: 'The man in the orange vest held up his stop sign and motioned my car over to the side of the two-lane forest road. It was after midnight on a Sunday. There were no other workers, no construction vehicles, no orange traffic cones. There was just the man, standing in the middle of Route 322 with his sign held high. He wore mud-streaked jeans and a filthy white t-shirt stretched taut over his protruding belly, with one of those reflective vests that seemed to shimmer in the glow of my headlights. The stubbled goatee around his mouth was pure black, an unnatural color that looked like he had dyed his facial hair with shoe polish.'
 shortdescription: 'The man in the orange vest held up his stop sign and motioned my car over to the side of the two-lane forest road. It was after midnight on a Sunday. There were no other workers, no construction vehicles, no orange traffic cones. There was just the man, standing in the middle of Route 322 with his sign held high. He wore mud-streaked jeans and a filthy white t-shirt stretched taut over his protruding belly, with one of those reflective vests that seemed to shimmer in the glow of my headlights. The stubbled goatee around his mouth was pure black, an unnatural color that looked like he had dyed his facial hair with shoe polish.'

@@ -1,6 +1,7 @@
 ---
 title: In and out of water
-author: Overcomer Ibiteye
+authors:
+    - Overcomer Ibiteye
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'There’s a fierce audacity about water: <br />

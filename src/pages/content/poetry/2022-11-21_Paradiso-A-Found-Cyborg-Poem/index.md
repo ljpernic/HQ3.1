@@ -1,6 +1,7 @@
 ---
 title: "Paradiso: A Found Cyborg Poem"
-author: Tiffany Morris
+authors:
+    - Tiffany Morris
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: '(taken from 2020s advertisements) <br /><br />

@@ -1,6 +1,7 @@
 ---
 title: Where the Phph Pebbles Go
-author: Miriam Allen deFord
+authors:
+    - Miriam Allen deFord
 issue: Issue Zero, September 2021
 description: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic <i>Ways of Improving Your Phph Game</i>, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <p>It sounds like a simple game, but it has complicated restrictions and rules, and a good phph player can command any amount of heavy service from the spectators. Since a lot of the Ground Dwellers are also phph addicts (they could never become players, of course, being far too small and light to handle the phph pebbles), this means that a real champion never has to do any kind of work again, being fed, clothed, housed and entertained by his admirers, and can devote all his time to the game. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go/">[<i>...</i>]</a></p>
 shortdescription: Gral and Hodnuth were playing phph. In case you are not a phph fan, and haven't ever seen Bliten's classic <i>Ways of Improving Your Phph Game</i>, its essence consists in lobbing pebbles at a target as near the horizon as your skill permits. After each throw, you fly over to see how far you went. <a href="https://www.havenquarterly.com/where-the-phph-pebbles-go">[<i>...</i>]</a>

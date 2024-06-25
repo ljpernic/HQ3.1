@@ -1,6 +1,7 @@
 ---
 title: What You Find at the Center
-author: Elizabeth R McClellan
+authors:
+    - Elizabeth R McClellan
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "six feet down and you sat <br />

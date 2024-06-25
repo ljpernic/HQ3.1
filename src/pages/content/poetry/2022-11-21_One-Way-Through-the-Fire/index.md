@@ -1,6 +1,7 @@
 ---
 title: One-Way, Through the Fire
-author: Lin Darrow
+authors:
+    - Lin Darrow
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'It’s the first thing they tell you in Temporal Navigation 101: <br /><br />

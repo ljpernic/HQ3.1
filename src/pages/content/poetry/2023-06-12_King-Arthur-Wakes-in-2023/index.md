@@ -1,6 +1,7 @@
 ---
 title: King Arthur Wakes in 2023
-author: Tania Chen
+authors:
+    - Tania Chen
 issue: Issue Nine, June 2023
 description: ''
 shortdescription: "It's in pieces: the mind, the Kleenex box with torn openings, <br />

@@ -1,6 +1,7 @@
 ---
 title: Angelfall
-author: André Geleynse
+authors:
+    - André Geleynse
 issue: Issue Nine, June 2023
 description: 'The angel falls in flames. I watch its descent through the smoked glass slits in my sun shield. Even then the brightness is too much, and I have to turn away or go blind. I take cover with the rest and hope this time the casualties will be minimal. <p>When it hits, it is like the end of the world all over again. Clouds of choking ash and smoke. Boulders raining like hail through the roiling miasma. Trees flung like spears. I take shallow breaths through my mask, crouched behind the flimsy protection of a bomb shelter, until the tempest passes.</p> <p>After, we take a headcount of the survivors. We treat the injured as best we can. We lay the dead aside and mutter a hasty prayer over each body to bring them peace while they wait. It is all we have time for. Proper burial rites will be observed later.</p>' 
 shortdescription: 'The angel falls in flames. I watch its descent through the smoked glass slits in my sun shield. Even then the brightness is too much, and I have to turn away or go blind. I take cover with the rest and hope this time the casualties will be minimal. <p>When it hits, it is like the end of the world all over again. Clouds of choking ash and smoke. Boulders raining like hail through the roiling miasma. Trees flung like spears. I take shallow breaths through my mask, crouched behind the flimsy protection of a bomb shelter, until the tempest passes.</p> <p>After, we take a headcount of the survivors. We treat the injured as best we can. We lay the dead aside and mutter a hasty prayer over each body to bring them peace while they wait. It is all we have time for. Proper burial rites will be observed later.</p>'

@@ -1,6 +1,7 @@
 ---
 title: A Spoonful of Sugar Helps the Apocalypse Go Down
-author: A.D. Sui
+authors:
+    - A.D. Sui
 issue: Issue Ten, August 2023
 description: 'January yearned for a beautiful end. <p>Passing a small convenience shop, he slowed his hurried steps. What was once the storefront now glittered with faint light. Sunset pinks, oranges, and blues danced along a cascading waterfall that flowed no place known. The light erased and cleansed the cityscape. It brought on the glitches that destroyed everything they touched—buildings, cars, people. Now, the light had engulfed Ms. Kim’s shop. It was a shame, really. Less so if Ms. Kim wasn’t inside when it happened. Alas, it wasn’t the first shop to be glitched out of existence by the light and it wouldn’t be the last. January took off again, bag swinging from his shoulder. He had somewhere to be.</p>' 
 shortdescription: 'January yearned for a beautiful end. <p>Passing a small convenience shop, he slowed his hurried steps. What was once the storefront now glittered with faint light. Sunset pinks, oranges, and blues danced along a cascading waterfall that flowed no place known. The light erased and cleansed the cityscape. It brought on the glitches that destroyed everything they touched—buildings, cars, people. Now, the light had engulfed Ms. Kim’s shop. It was a shame, really. Less so if Ms. Kim wasn’t inside when it happened. Alas, it wasn’t the first shop to be glitched out of existence by the light and it wouldn’t be the last. January took off again, bag swinging from his shoulder. He had somewhere to be.</p>'

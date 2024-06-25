@@ -1,6 +1,7 @@
 ---
 title: sestina for the summer solstice
-author: Claire McNerney
+authors:
+    - Claire McNerney
 issue: Issue Three, March 2022
 description: X
 shortdescription: dot the j and cross the seven. <br />

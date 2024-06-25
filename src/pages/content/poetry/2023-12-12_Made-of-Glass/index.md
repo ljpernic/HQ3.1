@@ -1,6 +1,7 @@
 ---
 title: Made of Glass
-author: Anna Madden
+authors:
+    - Anna Madden
 issue: Issue Twelve, December 2023
 description: 'the air smells of brine and night spirits <br />
     of bare feet sinking into the orchard’s dark earth<br />

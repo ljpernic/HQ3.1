@@ -1,6 +1,7 @@
 ---
 title: For the Remnants
-author: Belicia Rhea
+authors:
+    - Belicia Rhea
 issue: Issue Three, March 2022
 description: Every night we wait for the drones overhead to spill our allotted water rations. I’ve never gotten used to the whirring sound—and that smell, nearly sour, the way it coats the air. Turns it artificial. For most of who’s left, it’s all they’ve known. <p>The kids are already racing outside with their mouths open, waiting for the pour. I remember as a boy, before the machines, playing in puddles that lasted all night, floods rushing the ground till morning. It rained for days, dragging cars away, the water reflecting our nervous faces back at us when we looked over the porch. </p><p>We’d imagine portals in there at the edge, like if you jumped in, you’d sink and get spit out somewhere in old days’ China. We filled our toy boats with green army men, and we sailed them, sent soldiers on a sidewalk sea. Dolls floated facedown along the runoff. We held funerals. </p>
 shortdescription: Every night we wait for the drones overhead to spill our allotted water rations. I’ve never gotten used to the whirring sound—and that smell, nearly sour, the way it coats the air. Turns it artificial. For most of who’s left, it’s all they’ve known. <p>The kids are already racing outside with their mouths open, waiting for the pour. I remember as a boy, before the machines, playing in puddles that lasted all night, floods rushing the ground till morning. It rained for days, dragging cars away, the water reflecting our nervous faces back at us when we looked over the porch. </p>

@@ -1,6 +1,7 @@
 ---
 title: The Spot
-author: A. T. Sayre
+authors:
+    - A. T. Sayre
 issue: Issue One, November 2021
 description: You were never sure if the first time you noticed the spot was in a dream or not. It could have been a dream. <p> It was early one morning, an hour or two before dawn. You had long since kicked the sheets down to the bottom of the bed in the muggy night, only to feel chilled now in the cooler morning. You rolled onto your back and absently rubbed your palm against the soft hairs on your stomach, staring lazily down at your hand by your waist. On your wrist just below the first knuckle of your thumb was a faint white glow, no more than a centimeter around with soft edges.</p><p>You sucked in your gut a little. Just below your belly button was a tiny spot of skin that was shining a brilliant white. Barely more than a pinprick.</p>
 shortdescription: You were never sure if the first time you noticed the spot was in a dream or not. It could have been a dream. <p> It was early one morning, an hour or two before dawn. You had long since kicked the sheets down to the bottom of the bed in the muggy night, only to feel chilled now in the cooler morning ...</p>

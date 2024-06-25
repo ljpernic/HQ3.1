@@ -1,6 +1,7 @@
 ---
 title: Carolina
-author: Michael Haynes
+authors:
+    - Michael Haynes
 issue: Issue Two, January 2022
 description:  Randy Joe Eastman popped a few aspirin in his mouth and swallowed them with a mouthful of last night's coffee. Two in the afternoon and he still wasn't dressed for the day. But, hell, that'd been most of the last twenty-nine years, driving from city to city, playing a night or two at whatever club or bar or honkytonk would pay him enough to keep him going.<p></p>
 shortdescription: Randy Joe Eastman popped a few aspirin in his mouth and swallowed them with a mouthful of last night's coffee. Two in the afternoon and he still wasn't dressed for the day. But, hell, that'd been most of the last twenty-nine years, driving from city to city, playing a night or two at whatever club or bar or honkytonk would pay him enough to keep him going.

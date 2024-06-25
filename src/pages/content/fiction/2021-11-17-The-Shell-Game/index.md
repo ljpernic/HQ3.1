@@ -1,6 +1,7 @@
 ---
 title: The Shell Game
-author: Dawn Vogel
+authors:
+    - Dawn Vogel
 issue: Issue One, November 2021
 description: Severina planned to wear her replica Top Diva tiara for her performance at the Galactic Gala, but my augmented vision indicated we'd already diverged from that. The diva, whom her team often referred to as the Princess, was wearing the real deal as we prepped her wardrobe in a locker room that was generally devoted to an entire team of athletes. The large open space had been transformed with bright lighting, a makeup chair, and a rolling wardrobe with Severina's dresses, plus the collection of custom portable cases for her jewelry, makeup, and other sundries. The facility staff for the arena had brought in a couple of mismatched couches, but no one had time to sit as we readied Severina for her five minutes in the spotlight.
 shortdescription: Severina planned to wear her replica Top Diva tiara for her performance at the Galactic Gala, but my augmented vision indicated we'd already diverged from that. The diva, whom her team often referred to as the Princess, was wearing the real deal as we prepped her wardrobe in a locker room that was generally devoted to an entire team of athletes. 

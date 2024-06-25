@@ -1,6 +1,7 @@
 ---
 title: Chrysanthemum
-author: Erin Keating
+authors:
+    - Erin Keating
 issue: Issue Three, March 2022
 description: Mama didn’t weep when the world Dried Up. When the smoke choked the sun. When the sky turned orange. When the birds died mid-flight. Mama didn’t weep when the world Dried Up. <p>But she’s weeping now. </p><p> Her parched eyes can’t spare the tears as she howls curses to the sky, her bloody fingers clawing at the roots around my legs.</p>
 shortdescription: Mama didn’t weep when the world Dried Up. When the smoke choked the sun. When the sky turned orange. When the birds died mid-flight. Mama didn’t weep when the world Dried Up. <p>But she’s weeping now. </p><p> Her parched eyes can’t spare the tears as she howls curses to the sky, her bloody fingers clawing at the roots around my legs.</p>

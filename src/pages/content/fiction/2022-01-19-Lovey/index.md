@@ -1,6 +1,7 @@
 ---
 title: Lovey
-author: Christi Nogle
+authors:
+    - Christi Nogle
 issue: Issue Two, January 2022
 description:  Harmony wouldn't have trusted herself to maneuver her Lectra-Van up to the camp toilet without autopilot, but it was as though the van saw the toilet and, realizing that the driver was stopping for the night, wiggled in on its own. The hatch dropped and unsealed the sphincter gasket, and just like that, they were connected to the camp’s plumbing. <p>The patio cover went out on its own if it sensed rain or heat or snow, not that she’d been anywhere with snow. The van’s solar panels were said to work in colder climates, but she didn't trust they would.</p> <p>Harmony stayed where it was mild and bright if she could, but it was becoming difficult. More and more young people were touring, like this crew of eight who spilled out into the adjoining campsite with tents and cases of booze. Their aqua-and-white van was newer but otherwise identical to Harmony’s cherry-and-cream one. She called her van Lovey and loved her dearly despite all the troubles now with the company.</p>
 shortdescription: Harmony wouldn't have trusted herself to maneuver her Lectra-Van up to the camp toilet without autopilot, but it was as though the van saw the toilet and, realizing that the driver was stopping for the night, wiggled in on its own. The hatch dropped and unsealed the sphincter gasket, and just like that, they were connected to the camp’s plumbing.

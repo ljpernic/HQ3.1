@@ -1,6 +1,7 @@
 ---
 title: My FEMA trailer
-author: Gary Bloom
+authors:
+    - Gary Bloom
 issue: Issue Seven, November 2022
 description: ''
 shortdescription: 'Early in the morning <br />

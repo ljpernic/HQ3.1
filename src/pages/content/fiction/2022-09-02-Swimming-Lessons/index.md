@@ -1,6 +1,7 @@
 ---
 title: Swimming Lessons
-author: Liam Hogan
+authors:
+    - Liam Hogan
 issue: Issue Six, September 2022
 description: '.'
 shortdescription: 'She came to me on the high tide of a spring storm. I was embarrassed that my uncle&#39;s cottage, quivering in the bared teeth of the gale, was not as tidy as perhaps it could have been, nor as homely. And I had nothing to share except half of yesterday&#39;s loaf and the better part of a bottle of cheap wine, drunk from a pair of mismatched tankards. <p>She seemed content enough, sitting before the roaring fire that every so often twirled and fluttered in time to a low moan from the stout chimney, out of the rain that drummed in waves on the slate roof. I&#39;d asked her if she wanted to take off the grey, fur coat that cloaked her from neck to foot, but she demurred. “Not yet, Patrick,” she said. “Perhaps when I am warmer?”</p>'

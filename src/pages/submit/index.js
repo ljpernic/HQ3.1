@@ -43,6 +43,7 @@ const Submit = (props) => {
                     </Link>
                   </div>                
                 </div>
+          <div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Submission Windows
             </h1>
@@ -86,7 +87,8 @@ const Submit = (props) => {
                 When in doubt, don't self reject! Submit submit submit! 
             </p>
 
-            <hr />
+</div>
+<div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Guidelines for Fiction
             </h1>
@@ -118,7 +120,8 @@ const Submit = (props) => {
               your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do publish 
               both flash fiction and stories close to our word limit, our sweet spot is between 1000 and 4000 words.  
             </p>
-            <hr />
+</div>
+<div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Guidelines for Poetry
             </h1>
@@ -152,7 +155,8 @@ const Submit = (props) => {
               your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do 
               publish very short poems, our sweet spot is something longer than just three or four lines.  
             </p>
-            <hr />
+      </div>
+      <div className='contributor-div'>      
             <h1 className="pt-1 pb-1">
               Guidelines for Non-Fiction
             </h1>
@@ -177,7 +181,8 @@ const Submit = (props) => {
               interesting stories in Haven Spec Magazine</a>, I would reference it like this. Please only one non-fiction submission 
               at a time.
             </p>
-            <hr />
+            </div>
+            <div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Guidelines for Art
             </h1>
@@ -185,7 +190,8 @@ const Submit = (props) => {
               For each issue, we pay <strong>$125 for cover art</strong>. If you think your work would look great on the cover of a 
               science fiction and fantasy magazine, send us a link to your portfolio!
             </p>
-            <hr />
+        </div>
+        <div className='contributor-div'>
             <h1 className="pt-1 pb-1">
               Themes
             </h1>
@@ -218,11 +224,12 @@ const Submit = (props) => {
               To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
               affected by the crisis at hand. Submissions by climate refugees are very welcome.
             </p>
-            <hr className="mb-2" />
+            </div>
+            <div className='contributor-div'>
             <Link to="/forms">
             <button type="button" className="collapsible">Go to Submission Form</button>
             </Link>
-            <hr className="mb-2" />
+            </div>
             <p className="mb-4">
               Interested to know how we go about accepting and rejecting stories? <Link to="/rejectomancy">Click here!</Link>
             </p>

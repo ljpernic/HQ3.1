@@ -1,13 +1,14 @@
 ---
 title: Through A Glass, Face To Face
-author: Rin Willis
+authors:
+    - Rin Willis
 issue: Issue Fifteen, May 2024
 description: "The first time, I'm watching cat videos on my laptop when my chest starts to ache, and a long line of pain from my forehead down past my navel splits me into two. <p>And then, the sensation of fingernails, scratching under my skin. </p><p>When it's over, she stands naked in the moonlight, her body a mirror of my own. Same slightly upturned nose, same mouse-brown hair, same curves. But her eyes are filled with different histories, and her mouth is twisted in a smile that I have never been able to accomplish. In her right hand is a knife the color of old bone. </p><p>She stretches, popping her spine, then walks over to my closet, pulls on a loose-fitting black sweatshirt and a pair of leopard print bike shorts.</p>" 
 shortdescription: "The first time, I'm watching cat videos on my laptop when my chest starts to ache, and a long line of pain from my forehead down past my navel splits me into two. <p>And then, the sensation of fingernails, scratching under my skin. </p><p>When it's over, she stands naked in the moonlight, her body a mirror of my own. Same slightly upturned nose, same mouse-brown hair, same curves. But her eyes are filled with different histories, and her mouth is twisted in a smile that I have never been able to accomplish. In her right hand is a knife the color of old bone.</p>"
 category: FICTION
 date: "2024-05-29T01:08:00.000Z"
 path: "/through-a-glass-face-to-face"
-featured: true
+featured: false
 available: true
 
 ---

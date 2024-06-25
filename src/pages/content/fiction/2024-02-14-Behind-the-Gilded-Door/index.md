@@ -1,6 +1,7 @@
 ---
 title: Behind the Gilded Door
-author: Thomas Ha
+authors:
+    - Thomas Ha
 issue: Issue Thirteen, January 2024
 description: "There’s something wonderful about drinking during the peak of the summer heat back home—the way my skin beads with sweat and raucous laughter hangs in the air like a cloud. When we gather to talk about the old days, huddled at the benches outside the Wandering Leaf, I almost start to forget that I ever left Calathede, and I wonder what it would’ve been like to spend all of my young adulthood within the walls of the castletown. A different world where I hadn’t touched parchment or ink and instead, like everyone else, married the first person I kissed and squeezed into a home filled with the squalling of little ones and peals of tiny laughter too. A whole lifetime that flickers and dies in the span of moments, somewhere in the depths of my idle imagination."
 shortdescription: "There’s something wonderful about drinking during the peak of the summer heat back home—the way my skin beads with sweat and raucous laughter hangs in the air like a cloud. When we gather to talk about the old days, huddled at the benches outside the Wandering Leaf, I almost start to forget that I ever left Calathede, and I wonder what it would’ve been like to spend all of my young adulthood within the walls of the castletown. A different world where I hadn’t touched parchment or ink and instead, like everyone else, married the first person I kissed and squeezed into a home filled with the squalling of little ones and peals of tiny laughter too. A whole lifetime that flickers and dies in the span of moments, somewhere in the depths of my idle imagination."

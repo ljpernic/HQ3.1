@@ -1,6 +1,7 @@
 ---
 title: You Came for Goodbye
-author: Rajeev Prasad
+authors:
+    - Rajeev Prasad
 issue: Issue Eleven, October 2023
 description: "Lightning flashes in the grainy dusk and your silhouette freezes, oddly contorted, on Nora's motel door. You glance back at the serpentine formation of tiny drones creating a ladder of low-pressure pockets, drawing moisture from faraway mountain ranges. Pretty soon the tempest will release the rain, every last drop. <p>You rattle Nora's door more violently, like you own the wind itself. No answer. All too familiar to find yourself chasing her again, but you won't let one toxic year corrupt twenty-three good ones.</p>" 
 shortdescription: "Lightning flashes in the grainy dusk and your silhouette freezes, oddly contorted, on Nora's motel door. You glance back at the serpentine formation of tiny drones creating a ladder of low-pressure pockets, drawing moisture from faraway mountain ranges. Pretty soon the tempest will release the rain, every last drop. <p>You rattle Nora's door more violently, like you own the wind itself. No answer. All too familiar to find yourself chasing her again, but you won't let one toxic year corrupt twenty-three good ones.</p>"

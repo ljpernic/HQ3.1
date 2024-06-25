@@ -1,6 +1,7 @@
 ---
 title: Inaccurate Necromancy, A Tapestry
-author: Crystal Lynn Hilbert
+authors:
+    - Crystal Lynn Hilbert
 issue: Issue Fourteen, March 2024
 description: "<b>[Exhibit 1: Scientific betrayal, witnessed in an illegally inhabited shipping container.]</b> <p>My stolen satellite reception sputters, but not enough to hide the truth. I would know her face behind the fluttering colors of an ineptly stolen signal; I would know it dirt streaked in the dark over any hundred pilfered graves. </p><p><em>“I started with a firm foundation,”</em> she explains, her voice bright and jarring. Approachable. <em>“It took several years sifting through Oxford Museum&#39;s deep storage, but I was eventually able to rediscover the foot of the last stuffed Dodo.”</em></p> <p>The camera, as they say, loves her. But I have made a study of our long acquaintance. A lie brackets her false-friendly mouth. Tension pulls at the corner of her masquerade eyes. The newly resurrected dodo—if one can call a bastardization of proper necromancy such a thing—bobbles around the coastal woodland simulation. It bumps twice into Elizabeth’s pant leg. Her nostrils betray her, flaring with each bumbling brush.</p>" 
 shortdescription: "<b>[Exhibit 1: Scientific betrayal, witnessed in an illegally inhabited shipping container.]</b> <p>My stolen satellite reception sputters, but not enough to hide the truth. I would know her face behind the fluttering colors of an ineptly stolen signal; I would know it dirt streaked in the dark over any hundred pilfered graves.</p>"

@@ -1,6 +1,7 @@
 ---
 title: A Deep and Breathing Forest
-author: Anne Marie Lutz
+authors:
+    - Anne Marie Lutz
 issue: Issue Nine, June 2023
 description: 'After I retired I wrapped up my affairs as best I could and headed back to the section of woodland in the mountains that had caused me so much trouble years before. <p>I’m not going to say it “haunted” me — I wasn’t the kind of person to let a snafu like that ruin my life. But I thought about it often, how it had confounded all our efforts, how the old woman had guarded access to that forested patch with cunning and ferocity. Her opponents were young, smart, money-hungry. Developers, investors, politicians, people with expensive degrees and technology at their disposal. The modern world, in fact.</p>' 
 shortdescription: 'After I retired I wrapped up my affairs as best I could and headed back to the section of woodland in the mountains that had caused me so much trouble years before. <p>I’m not going to say it “haunted” me — I wasn’t the kind of person to let a snafu like that ruin my life. But I thought about it often, how it had confounded all our efforts, how the old woman had guarded access to that forested patch with cunning and ferocity. Her opponents were young, smart, money-hungry. Developers, investors, politicians, people with expensive degrees and technology at their disposal. The modern world, in fact.</p>'

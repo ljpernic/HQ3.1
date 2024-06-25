@@ -1,6 +1,7 @@
 ---
 title: Touch of Ruin
-author: Timothy Johnson
+authors:
+    - Timothy Johnson
 issue: Issue Nine, June 2023
 description: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator. He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>' 
 shortdescription: 'Antoni kneels on the cracked pavement and waves his hand over a seam. A weed sprouts from the desiccated earth beneath, spreading its jagged limbs in praise to him, its creator. He brushes its leaves, allows its bristles to graze and nuzzle between his fingers, the mounds of his knuckles. He hears the high frequency at which it chitters its pleasure to be alive because, even here, it is grateful for the chance. <p>And then he tears it up, root and all. </p>'

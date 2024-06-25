@@ -1,6 +1,7 @@
 ---
 title: Radio Petrichor
-author: E.M. Linden
+authors:
+    - E.M. Linden
 issue: Issue Fourteen, March 2024
 description: "It starts as superstition, like touching wood when she hears the word <em>accident</em> or never slicing into an orange. Then she tests it. Eight Saturdays in a row she drives to Hoban Point, crying her eyes out while the radio pours forth blue. <p>Years of drought. And then rain, every time. </p><p>It isn’t a coincidence. Noemi’s car radio controls the weather.</p>" 
 shortdescription: "It starts as superstition, like touching wood when she hears the word <em>accident</em> or never slicing into an orange. Then she tests it. Eight Saturdays in a row she drives to Hoban Point, crying her eyes out while the radio pours forth blue. <p>Years of drought. And then rain, every time. </p><p>It isn’t a coincidence. Noemi’s car radio controls the weather.</p>"

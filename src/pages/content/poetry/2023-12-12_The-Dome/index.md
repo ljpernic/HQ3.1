@@ -1,6 +1,7 @@
 ---
 title: The Dome
-author: Elis Montgomery
+authors:
+    - Elis Montgomery
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "Molten air stifles, sea-thick <br />

@@ -1,6 +1,7 @@
 ---
 title: Elegy for the Wood Nymphs
-author: Goran Lowie
+authors:
+    - Goran Lowie
 issue: Issue Twelve, December 2023
 description: ''
 shortdescription: "it starts with screams in summer. <br />
