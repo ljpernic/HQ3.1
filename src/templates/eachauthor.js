@@ -43,7 +43,7 @@ const Eachauthor = props => {
           content={author.id}
         />
       </Helmet>
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -51,18 +51,19 @@ const Eachauthor = props => {
                 <CurrentIssue />
                 <Advertisement />
               </div>
-              <div className='ml-4 mr-4 mb-4'>
-                <div className="col-12">
-                  <h4>
-                    AUTHOR
-                  </h4>
-                  <hr />
+              <div>
+                <div className='title-static-border'>
+                  <h4>AUTHOR</h4>
                 </div>
+
                 {/* AUTHOR IMAGE AND SOCIAL MEDIA */}
-                <div className="editorImageAbout">
-                  <Image
-                    fixed={author.picture.childImageSharp.fixed}
-                  />
+
+                <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+                  <div className="content-div-dynamic" style={{borderBottom:'none'}}>
+                    <div className="editorImageAbout">
+                      <Image
+                        fixed={author.picture.childImageSharp.fixed}
+                      />
                   <div className="side-block">
                     {author.twitter && (
                       <a className='social-icon' href={`https://www.twitter.com/${author.twitter}`}>
@@ -86,40 +87,43 @@ const Eachauthor = props => {
                       </a>
                     )}
                   </div>
-                </div>
-
-                <h1 className="pt-1 pb-1">
-                  {author.id}
-                </h1>
-                <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
+                    </div>
+                  <h3 className='title-static-no-border-inline'>
+                    {author.id}
+                  </h3>
+                  <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
 
                {/* Render Fiction section if there are stories */}
                 {author.stories && author.stories[0].storytitle !== null && (
                   <>
-                    <h5> Fiction by {idname} </h5>
+                    <h5 className="title-static-no-border" style={{width:'100%', textAlign:'left'}}> Fiction by {idname} </h5>
                     {author.stories.map((data, index) => (
                       <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>
                     ))}
                   </>
-                )}<br />
+                )}
 
                 {/* Render Poetry section if there are poems */}
                 {author.poems && author.poems[0].poemtitle !== null && (
                   <>
-                    <h5> Poetry by {idname} </h5>
+                    <h5 className="title-static-no-border" style={{width:'100%', textAlign:'left', marginTop:'40px'}}> Poetry by {idname} </h5>
                     {author.poems.map((data, index) => (
                       <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>
                     ))}
                   </>
                 )}
+                  </div>
+                </div>
 
-                <hr className="mb-2 mt-5"/>
 
-                <Link to="/subscribe">
+
+
+
+                {/* <Link to="/subscribe">
                   <Image className="advertLong"
                     fixed={advertLong.childImageSharp.fixed}
                   />
-                </Link>
+                </Link> */}
 
               </div>
 

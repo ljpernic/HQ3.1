@@ -19,7 +19,7 @@ const Pagination = ({ currentPage, totalPages, basePath }) => {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row-pagination">
         <div className="col-sm">
           <p className="text-left">
             {!isFirst && (

@@ -27,7 +27,7 @@ class ArchiveIssues extends React.Component {
           />
         </Helmet>
 
-        <div className="intro">
+        <div className="main-body">
           <div className="container">
             <div className="row2">
               <div className="grid-container">
@@ -36,32 +36,30 @@ class ArchiveIssues extends React.Component {
                   <Advertisement />
                 </div>
                 <div>
-                  <div className="col-12">
-                    <h4>
-                      ISSUE ARCHIVE
-                    </h4>
-                    <hr />
-                    <div className="pt-2">
-                      <Link to="/subscribe">
-                        <Image className="advertLong"
-                          fixed={data.advertLong.childImageSharp.fixed}
-                        />
-                      </Link>
-                    </div>                
+                <div>
+                  <div className='title-static-border'>
+                    <h4>ISSUES</h4>
                   </div>
+                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
+                    <Link to="/subscribe">
+                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
+                    </Link>
+                  </div> */}
+                </div>
 
+                <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
                   {issueNodes.map(({ node: issue }) => (
-                    <div key={issue.id} className="contributor-div">
-                      <Image className="editorImageAbout mb-2"
+                    <div key={issue.id} className="content-div-dynamic">
+                      <Image className="editorImageAbout"
                         fixed={issue.issuecover.childImageSharp.fixed}
                       />
-                      <h1 className="pt-1 pb-1">
+                      <h1>
                         <Link to={issue.idpath}>{issue.id}</Link>
                       </h1>
                       <span dangerouslySetInnerHTML={{ __html: paragraphs(issue.teaserText) }} />
                     </div>
                   ))}
-
+</div>
                   <Pagination
                     currentPage={issueCurrentPage}
                     totalPages={issuePagination}

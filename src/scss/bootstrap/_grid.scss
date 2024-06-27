@@ -47,6 +47,14 @@
     background-color: rgba(215, 241, 254, 0.8);
     }
   
+  .row-pagination {
+    @include make-row();
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+  }
+
   .no-gutters {
     margin-right: 0;
     margin-left: 0;

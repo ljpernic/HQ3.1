@@ -34,9 +34,9 @@ const Eachissue = props => {
   const filteredAuthors = authors.filter(author => author.issue && author.issue.id === issueidname);
 
   // Headers display conditionally
-  const fictionHeader = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Fiction:</h4>;
-  const poetryHeader = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Poetry:</h4>;
-  const nonFictionHeader = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h4>Non-Fiction:</h4>;
+  const fictionHeader = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Fiction:</h3>;
+  const poetryHeader = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Poetry:</h3>;
+  const nonFictionHeader = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Non-Fiction:</h3>;
 
   return (
     <Layout bodyClass="page-home">
@@ -48,7 +48,7 @@ const Eachissue = props => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -66,17 +66,22 @@ const Eachissue = props => {
               </div>
 
               <div>
-                <div className="col-12">
-                  <h4>
-                    {issueidname}
-                  </h4>
-                  <hr />
-                  
-                  <div className="contributor-div-top mb-4">
+
+                <div className='title-static-border'>
+                  <h4>{issueidname}</h4>
+                </div>
+
+                <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+                  <div className="content-div-dynamic">
+
                     <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(text) }} />
                   </div>
+                 </div>
 
-                  <div className="editorImageAbout mb-2">
+                 <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+                 <div className="content-div-dynamic" style={{paddingTop:'0px'}}>
+
+                  <div className="editorImageAbout">
                     <Image
                       fixed={issue.artistimage.childImageSharp.fixed}
                     />
@@ -87,85 +92,96 @@ const Eachissue = props => {
                     </div>
                   </div>
 
-                  <h1 className="pb-1 pt-1">
+                  <h3 className='title-static-no-border-inline'>
                     Cover Artist: {artist}
-                  </h1>
-                  <div className="contributor-div">
+                  </h3>
+                  <div>
                     <span style={{ padding: 0 }} dangerouslySetInnerHTML={{ __html: paragraphs(artistbio) }} />
                   </div>
+                  </div>
+                 </div>
 
-                  <div className="frontissue">
-                    <div className="col-12">
-                      <h3>
+
+                    <div className="bio-bottom-margin" style={{borderBottom:'none'}}>
+                      <div className="content-div-front-page-heading" style={{borderBottom:'none', paddingTop:'0px'}}>
+                        <h1 className='title-static-no-border' style={{color:'#1937bd'}}>
                         CONTENT
-                      </h3>
-                      {fictionHeader}
-                      {posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
-                        <p key={node.frontmatter.title}>
-                          {node.frontmatter.available === true ? (
-                            <Link to={node.frontmatter.path}>
-                              {node.frontmatter.title}
-                            </Link>
-                          ) : (
-                            node.frontmatter.title
-                          )}
-                          {" "}by{" "}
-                          <Link to={node.frontmatter.authors[0].idpath}>
-                            {node.frontmatter.authors[0].id}
-                          </Link>
-                        </p>
-                      ))}
+                      </h1>
+
+        {fictionHeader}
+
+        {posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
+          <p key={node.frontmatter.title} style={{textAlign:'center'}}>
+            {node.frontmatter.available === true ? (
+              <Link to={node.frontmatter.path}>
+                {node.frontmatter.title}
+              </Link>
+            ) : (
+              node.frontmatter.title
+            )}
+            {" "}by{" "}
+            {node.frontmatter.authors.map((author, index) => (
+              <React.Fragment key={author.id}>
+                <Link to={author.idpath}>{author.id}</Link>
+                {index !== node.frontmatter.authors.length - 1 && index !== node.frontmatter.authors.length - 2 && ", "}
+                {index === node.frontmatter.authors.length - 2 && " & "}
+              </React.Fragment>
+            ))}
+          </p>
+        ))}
+
                       {poetryHeader}
                       {posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
-                        <p key={node.frontmatter.title}>
-                          {node.frontmatter.available === true ? (
-                            <Link to={node.frontmatter.path}>
-                              {node.frontmatter.title}
-                            </Link>
-                          ) : (
-                            node.frontmatter.title
-                          )}
-                          {" "}by{" "}
-                          <Link to={node.frontmatter.authors[0].idpath}>
-                            {node.frontmatter.authors[0].id}
-                          </Link>
-                        </p>
-                      ))}
+          <p key={node.frontmatter.title} style={{textAlign:'center'}}>
+            {node.frontmatter.available === true ? (
+              <Link to={node.frontmatter.path}>
+                {node.frontmatter.title}
+              </Link>
+            ) : (
+              node.frontmatter.title
+            )}
+            {" "}by{" "}
+            {node.frontmatter.authors.map((author, index) => (
+              <React.Fragment key={author.id}>
+                <Link to={author.idpath}>{author.id}</Link>
+                {index !== node.frontmatter.authors.length - 1 && index !== node.frontmatter.authors.length - 2 && ", "}
+                {index === node.frontmatter.authors.length - 2 && " & "}
+              </React.Fragment>
+            ))}
+          </p>
+        ))}
                       {nonFictionHeader}
                       {posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).map(({ node }) => (
-                        <p key={node.frontmatter.title}>
-                          {node.frontmatter.available === true ? (
-                            <Link to={node.frontmatter.path}>
-                              {node.frontmatter.title}
-                            </Link>
-                          ) : (
-                            node.frontmatter.title
-                          )}
-                          {" "}by{" "}
-                          <Link to={node.frontmatter.authors[0].idpath}>
-                            {node.frontmatter.authors[0].id}
-                          </Link>
-                        </p>
-                      ))}
+          <p key={node.frontmatter.title} style={{textAlign:'center'}}>
+            {node.frontmatter.available === true ? (
+              <Link to={node.frontmatter.path}>
+                {node.frontmatter.title}
+              </Link>
+            ) : (
+              node.frontmatter.title
+            )}
+            {" "}by{" "}
+            {node.frontmatter.authors.map((author, index) => (
+              <React.Fragment key={author.id}>
+                <Link to={author.idpath}>{author.id}</Link>
+                {index !== node.frontmatter.authors.length - 1 && index !== node.frontmatter.authors.length - 2 && ", "}
+                {index === node.frontmatter.authors.length - 2 && " & "}
+              </React.Fragment>
+            ))}
+          </p>
+        ))}
                       <br />
-                      <div className="pb-2">
+                      {/* <div>
                         <Link to="/subscribe">
                           <Image className="advertLong"
                             fixed={advertLong.childImageSharp.fixed}
                           />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 
-                  {/* Share Section */}
-                  {/* <div className="share">
-                    <h1>Share</h1>
-                  </div> */}
-                  <hr className="mb-2"/>
-                </div>
               </div>
-
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ const Advertisement = () => {
           <Link to="/subscribe">
             <img className='advertisement' alt="Haven Spec advertisement" src={ad} loading="lazy" />
           </Link>
-          <h6>ADVERT</h6>
+          <h6 className='title-static-no-border'>ADVERT</h6>
         </div>
       ))}
     </div>

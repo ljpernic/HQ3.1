@@ -1,39 +1,496 @@
-.title-1 {
-  color: $primary;
-  font-size: 2.4rem;
-  line-height: 1.2;
-  font-family: $font-family-heading;
-  @include media-breakpoint-up(md) {
-    font-size: 3rem;
-  }
-  &.black {
-    color: #222222;
-  }
-}
-.title-2 {
-  font-family: $font-family-base;
-  font-weight: light;
-  color: #333333;
-  font-size: 2.4rem;
-  @include media-breakpoint-up(md) {
-    font-size: 4rem;
-  }
-  a {
-    display: block;
-  }
-}
-.title-3 {
-  font-family: $font-family-base;
-  font-weight: light;
-  color: #333333;
-  font-size: 1.6rem;
-  @include media-breakpoint-up(sm) {
+.title-static-border {
+  display: inline-block;
+  width: 90%;
+  border-bottom: 1px dashed blue;
+  justify-content: center;
+  h1 {                                                          //title of each post (really just the title)
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
     font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.5rem;
+      width: auto;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.5rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+      width: 90%;
+    }
   }
-  @include media-breakpoint-up(md) {
-    font-size: 2.4rem;
+  h2 {                                                           //byline of each post (has author and issue)
+    color: $secondary;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
   }
-  a {
-    display: block;
+  h3 {
+    color: $primary;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+      width: 90%;
+    }
+  }
+  h4 {
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
+  h5 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0px 25px 00px 35px;
+    @include media-breakpoint-up(xs) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      text-align: justify;
+      width: 100%;
+    }
+  }
+  h6 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    line-height: 1.2;
+    margin-left: 40px;
+    margin-top: 40px;
+    @include media-breakpoint-up(xs) {
+      margin: 0px 5px 0px 5px;
+    }
+    @include media-breakpoint-up(sm) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(md) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin: 40px 0px 0px 40px;
+    }
+  }
+  hr { 
+    clear:both;
+    display:block;
+    height: 1px;
+    width: 80%;
+    margin: 30px 0px 30px 0px;
+    border: 1px dotted $primary;
+  }
+}
+
+.title-static-no-border {
+  display: inline-block;
+  width: 90%;
+  border: none;
+  justify-content: center;
+  h1 {                                                          //title of each post (really just the title)
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.5rem;
+      width: auto;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.5rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+      width: 90%;
+    }
+  }
+  h2 {                                                           //byline of each post (has author and issue)
+    color: $secondary;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+  }
+  h3 {
+    color: $primary;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+      width: 90%;
+    }
+  }
+  h4 {
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
+  h5 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0px 25px 00px 35px;
+    @include media-breakpoint-up(xs) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      text-align: justify;
+      width: 100%;
+    }
+  }
+  h6 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    line-height: 1.2;
+    margin-left: 40px;
+    margin-top: 40px;
+    @include media-breakpoint-up(xs) {
+      margin: 0px 5px 0px 5px;
+    }
+    @include media-breakpoint-up(sm) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(md) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin: 40px 0px 0px 40px;
+    }
+  }
+  hr { 
+    clear:both;
+    display:block;
+    height: 1px;
+    width: 80%;
+    margin: 30px 0px 30px 0px;
+    border: 1px dotted $primary;
+  }
+}
+
+.title-static-no-border-inline {
+  display: inline;
+  width: 90%;
+  border: none;
+  justify-content: center;
+  h1 {                                                          //title of each post (really just the title)
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.5rem;
+      width: auto;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.5rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+      width: 90%;
+    }
+  }
+  h2 {                                                           //byline of each post (has author and issue)
+    color: $secondary;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+  }
+  h3 {
+    color: $primary;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+      width: 90%;
+    }
+  }
+  h4 {
+    color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: $font-family-heading;
+    width: 90%;
+    @include media-breakpoint-up(xs) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      width: 90%;
+    }
+  }
+  h5 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0px 25px 00px 35px;
+    @include media-breakpoint-up(xs) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      text-align: justify;
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      text-align: justify;
+      width: 100%;
+    }
+  }
+  h6 {
+    color: $secondary;
+    font-family: $font-family-heading;
+    line-height: 1.2;
+    margin-left: 40px;
+    margin-top: 40px;
+    @include media-breakpoint-up(xs) {
+      margin: 0px 5px 0px 5px;
+    }
+    @include media-breakpoint-up(sm) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(md) {
+      margin: 0px 30px 0px 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin: 40px 0px 0px 40px;
+    }
+  }
+  hr { 
+    clear:both;
+    display:block;
+    height: 1px;
+    width: 80%;
+    margin: 30px 0px 30px 0px;
+    border: 1px dotted $primary;
   }
 }

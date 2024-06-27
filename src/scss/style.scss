@@ -44,6 +44,7 @@
 @import 'libraries/hamburgers/hamburgers';
 
 // Components
+@import 'components/advertisement';
 @import 'components/page';
 @import 'components/header';
 @import 'components/footer';
@@ -56,16 +57,18 @@
 @import 'components/buttons';
 @import 'components/title';
 @import 'components/content';
-@import 'components/intro';
+@import 'components/iframe';
+@import 'components/main-body';
 @import 'components/submission-form';
 @import 'components/strip';
 @import 'components/whitebox';
 @import 'components/feature';
 @import 'components/card';
-@import 'components/card-two';
 
 // Pages
 @import 'pages/home';
+@import 'pages/custom';
+@import 'pages/page-static';
 
 // Display breakpoints for DEV
 // body:after {

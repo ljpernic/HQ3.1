@@ -10,9 +10,9 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <Layout bodyClass="page-home">
-        <div className="intro pt-4">
-          <div className="container pt-8 pt-md-4">
-            <div className="row2 justify-content-start pt-2">
+        <div className="main-body">
+          <div className="container">
+            <div className="row2 justify-content-start">
               <div className="col-12">
                 <p className="text-center">The page you're looking for doesn't seem to exist.</p>
                 <p className="text-center">Funny how that happens.</p>

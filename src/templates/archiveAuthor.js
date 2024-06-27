@@ -28,7 +28,7 @@ export default class archiveAuthor extends React.Component {
           />
         </Helmet>
 
-        <div className="intro">
+        <div className="main-body">
           <div className="container">
             <div className="row2">
               <div className="grid-container">
@@ -37,42 +37,37 @@ export default class archiveAuthor extends React.Component {
                   <Advertisement />
                 </div>
                 <div>
-                  <div className='ninety-percent'>
-                    <h4 className='title-margin mb-4'>
-                      CONTRIBUTORS
-                    </h4>
-                    <div>
-                      <Link to="/subscribe">
-                        <Image className="advertLong"
-                          fixed={this.props.data.advertLong.childImageSharp.fixed}
-                        />
-                      </Link>
-                    </div>
+                  <div className='title-static-border'>
+                    <h4>CONTRIBUTORS</h4>
                   </div>
+                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
+                    <Link to="/subscribe">
+                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
+                    </Link>
+                  </div> */}
 
-                  {posts.map(({ node: { id, idpath, bio, twitter, facebook, url, picture } }) => (
-                    <div key={id} className='contributor-div'>
-                      <div className="editorImageAbout">
-                        <Image
-                          fixed={picture.childImageSharp.fixed}
-                        />
-                        <div className="side-block">
-                          {twitter && <a className='social-icon' href={`https://www.twitter.com/${twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>}
+                <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
+                {posts.map(({ node: { id, idpath, bio, twitter, facebook, url, picture } }) => (
+                  <div key={id} className="content-div-dynamic">
+                    <div className="editorImageAbout">
+                      <Image fixed={picture.childImageSharp.fixed} />
+                      <div className="side-block">
+                      {twitter && <a className='social-icon' href={`https://www.twitter.com/${twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>}
                           {facebook && <a className='social-icon' href={`https://www.facebook.com/${facebook}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>}
                           {url && <a className='social-icon' href={url}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaLink /></IconContext.Provider></a>}
-                        </div>
                       </div>
-                      <h1>
+                    </div>
+                    <h3 className='title-static'>
                         <Link to={idpath}>
                           {id}
                         </Link>
-                      </h1>
-                      <div style={{marginBottom: "40px"}}>
+                      </h3>
+                      <div>
                       <span dangerouslySetInnerHTML={{ __html: paragraphs(bio) }} />
                       </div>
-
-                    </div>
-                  ))}
+                </div>
+                ))}
+              </div>
 
                   <Pagination
                     currentPage={authorCurrentPage}

@@ -20,7 +20,7 @@ const Rejectomancy = (props) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -29,22 +29,14 @@ const Rejectomancy = (props) => {
                 <Advertisement />
               </div>
               <div>
-                <div className="col-12">
-                  <h4>
-                    REJECTOMANCY
-                  </h4>
-                  <hr />
-                <div className="pt-2">
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                </div>                
-              </div>
-            <h1 className="pt-1 pb-1">
-              Rejectomancy
-            </h1>
+                <div className='title-static-border'>
+                  <h4>REJECTOMANCY</h4>
+                </div>
+             <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+                <div className='content-div-dynamic' style={{borderBottom:'none'}}>
+                  {/* <Link to="/subscribe">
+                      <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
+                    </Link> */}
             <p>
               We think feedback is important, and while we get too many submissions to offer notes on most of what we see, we try to structure our rejection letters 
               so you have some idea what we were thinking when we declined a story.
@@ -168,12 +160,12 @@ const Rejectomancy = (props) => {
             <p>
               <b>Other tiers:</b> 
             </p>
-            <p>
+            <p className='p-bottom'>
               There are a variety of other tiers for racist diatribes, screeds of various kinds, and envelopes filled with smallpox pustules. 
               Luckily these are rare.
             </p>
-            <hr className="mb-2" />
-
+</div>
+              </div>
           </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ const Organization = (props) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -29,22 +29,22 @@ const Organization = (props) => {
                 <Advertisement />
               </div>
               <div>
-                <div className="col-12">
-                  <h4>
-                    Our Organization
-                  </h4>
-                  <hr />
-                <div className="pt-2">
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                  </div>                
-                </div>
+              <div className='title-static-border'>
+                <h4>ORGANIZATION</h4>
+              </div>
+              <div className='intro-div-static' style={{borderBottom:'none'}}>
+                {/* <Link to="/subscribe">
+                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
+                  </Link> */}
+                  <p>
+                    This page is currently undergoing an overhaul. The plan is to update this with our current organizational structure. Originally, 
+                    I had wanted to make this project a co-operative, but I was pretty much by myself for the first year. By the time people were 
+                    incorporated into the decision-making process, I was too invested in the project to open it up. That being said, the assistant 
+                    editors and I make all major decisions together, and there is a profit-sharing scheme in place that includes all of the editors 
+                    (you know, if we ever actually turn a profit).
+                  </p>
 
-
-            <hr className="mb-2" />
+              </div>
 
           </div>
       </div>

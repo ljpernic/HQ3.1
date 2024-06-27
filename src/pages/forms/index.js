@@ -21,7 +21,7 @@ const Forms = (props) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -29,29 +29,22 @@ const Forms = (props) => {
                 <CurrentIssue />
                 <Advertisement />
               </div>
-              <div>
-                <div className="col-12">
-                  <h4>
-                    Submission Form
-                  </h4>
-                  <hr />
-                  <div className="pt-2">
-                    <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}
-                      />
-                    </Link>
-                  </div>
-                </div>
-
-                    <p>Below is the submission form for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
+            <div>
+              <div className='title-static-border'>
+                <h4>FORMS</h4>
+              </div>
+              <div className='intro-div-static' style={{borderBottom:'none'}}>
+                {/* <Link to="/subscribe">
+                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
+                  </Link> */}
+                  <p>Below is the submission form for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
                       so, please read our submission guidelines on <Link to="/submit">the submission page.</Link> 
                     </p>
 
-                    <div className="pt-2">
+                    <div>
                       <iframe className="iframeFiction" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
                     </div>
-                    <hr className="mb-2" />
+              </div>
           </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const AuthorDetails = ({ authors }) => {
     <div>
       {authors.map(author => (
         <div key={author.id}>
-          <div className="editorImageAbout mt-3">
+          <div className="editorImageAbout">
             <Image fixed={author.picture.childImageSharp.fixed} />
             <div className="side-block">
               {author.twitter && (
@@ -37,17 +37,17 @@ const AuthorDetails = ({ authors }) => {
               )}
             </div>
           </div>
-          <h1 className="pt-1 pb-1">
+          <h1 className='title-static-border'>
             <Link to={author.idpath}>{author.id}</Link>
           </h1>
           <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
           <span>
-            {author.stories[0].storytitle && <h5> Fiction by {author.id} </h5>}
+            {author.stories[0].storytitle && <h5 className='title-static-border'> Fiction by {author.id} </h5>}
             {author.stories.map((data, index) => data.storytitle && <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>)}<br />
-            {author.poems[0].poemtitle && <h5> Poetry by {author.id} </h5>}
+            {author.poems[0].poemtitle && <h5 className='title-static-border'> Poetry by {author.id} </h5>}
             {author.poems.map((data, index) => data.poemtitle && <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>)}
           </span>
-          <hr className="mb-2 mt-5" />
+          <hr />
         </div>
       ))}
     </div>

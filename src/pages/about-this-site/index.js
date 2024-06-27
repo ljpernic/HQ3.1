@@ -21,7 +21,7 @@ const aboutThisSite = (props) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -30,21 +30,15 @@ const aboutThisSite = (props) => {
                 <Advertisement />
               </div>                
               <div>
-                <div className="col-12">
-                  <h4>
-                    About This Site
-                  </h4>
-                  <hr />
-                <div className="pt-2">
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                  </div>                
+                <div className='title-static-border'>
+                  <h4>ABOUT THIS SITE</h4>
                 </div>
 
-
+                <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+                <div className='content-div-dynamic' style={{borderBottom:'none'}}>
+                {/* <Link to="/subscribe">
+                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
+                  </Link> */}
                   <p>
                     This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 
                     gatsby.js and is used here under the MIT license. The background was taken from pixabay.
@@ -65,36 +59,27 @@ const aboutThisSite = (props) => {
                     expensive systems already in place. If you're an open source programmer and interested in contributing to the project, feel free to get in touch!  
                   </p>
 
-                  <hr className="mb-2"/>
+                  <hr />
 
-                  <p>
-                    <center>
+                  <p className='p-centered'>
                       The website design is used here under the MIT license (MIT)
-                    </center>
                   </p>
-                  <p>
-                    <center>
+                  <p className='p-centered'>
                       Copyright (c) 2015 gatsbyjs
-                    </center>
                   </p>
-                  <p>
-                    <center>
+                  <p className='p-centered'>
                       Permission is hereby granted, free of charge, to any person obtaining a copy
                       of this software and associated documentation files (the "Software"), to deal
                       in the software without restriction, including without limitation the rights
                       to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                       copies of the software, and to permit persons to whom the software is
                       furnished to do so, subject to the following conditions:
-                    </center>
                   </p>
-                <p>
-                  <center>
+                <p className='p-centered'>
                     The above copyright notice and this permission notice shall be included in all
                     copies or substantial portions of the software.
-                  </center>
                 </p>
-              <p className="pb-1">
-                <center>
+                <p className='p-centered'>
                   The software is provided "As is", without warranty of any kind, express or
                   implied, including but not limited to the warranties of merchantability,
                   fitness for a particular purpose and noninfringement. In no event shall the
@@ -102,11 +87,9 @@ const aboutThisSite = (props) => {
                   liability, whether in an action of contract, tort or otherwise, arising from,
                   out of or in connection with the software or the use or other dealings in the
                   software.
-                </center>
               </p>
-
-            <hr className="mb-2" />
-
+</div>
+              </div>
           </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const newsLetter = (props) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -30,27 +30,18 @@ const newsLetter = (props) => {
                 <Advertisement />
               </div>                
               <div>
-                <div className="col-12">
-                  <h4>
-                    Newsletter
-                  </h4>
-                  <hr />
-                <div className="pt-2">
-                  <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      /*This pulls the image from the md file with featured: true (current cover)*/
-                      />
-                    </Link>
-                  </div>                
-                </div>
-
-
+              <div className='title-static-border'>
+                <h4>NEWSLETTER</h4>
+              </div>
+              <div className='intro-div-static' style={{borderBottom:'none'}}>
+                {/* <Link to="/subscribe">
+                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
+                  </Link> */}
                   <p>
                     This is where you could sign up for our newsletter. You know, if we had one. Maybe in 2024?
                   </p>
 
-            <hr className="mb-2" />
-
+              </div>
           </div>
       </div>
     </div>

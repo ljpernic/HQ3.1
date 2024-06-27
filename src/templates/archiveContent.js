@@ -25,7 +25,7 @@ export default class ArchiveContent extends React.Component {
           <meta name={`Haven Spec Magazine, ${category}`} content={`Haven Spec Magazine, ${category}`} />
         </Helmet>
 
-        <div className="intro">
+        <div className="main-body">
           <div className="container">
             <div className="row2">
               <div className="grid-container"> 
@@ -34,36 +34,35 @@ export default class ArchiveContent extends React.Component {
                   <Advertisement />
                 </div>
                 <div>
-                  <div className="col-12">
+                <div className='title-static-border'>
                     <h4>{category}</h4>
-                    <hr />
-                    <div className="pt-2">
-                      <Link to="/subscribe">
-                        <Image className="advertLong"
-                          fixed={data.advertLong.childImageSharp.fixed}
-                        />
-                      </Link>
-                    </div>
                   </div>
-                  {console.log('posts: ' + JSON.stringify(posts[0].node.frontmatter.category))}
+                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
+                    <Link to="/subscribe">
+                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
+                    </Link>
+                  </div> */}
+
+                  <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
                   {posts
                     .filter(post => post.node.frontmatter.category === category && post.node.frontmatter.available === true)
                     .map(({ node: { id, frontmatter: { path, title, shortdescription, authors, issue } } }) => (
-                      <div className="contributor-div" key={id}>
-                        <h1 className="pt-1">
-                          <Link to={path}>{title}</Link>
-                        </h1>
+                      <div key={id} className="content-div-dynamic">
                         <h2>
+                          <Link to={path}>{title}</Link>
+                        </h2>
+                        <h5>
                           By {authors.map((auth, index) => (
                             <React.Fragment key={auth.id}>
                               <Link to={auth.idpath}>{auth.id}</Link>
                               {index !== authors.length - 1 && ", "}
                             </React.Fragment>
                           ))} in <Link to={issue.idpath}>{issue.id}</Link>
-                        </h2>
+                        </h5>
                         <span dangerouslySetInnerHTML={{ __html: paragraphs(shortdescription) }} />
                       </div>
                     ))}
+                  </div>
 
                   <Pagination
                     basePath={`/${category.toLowerCase()}`} // Adjust basePath here

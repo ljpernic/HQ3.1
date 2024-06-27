@@ -1,0 +1,33 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+.main-body {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: $font-family-heading;
+  @include media-breakpoint-up(xs) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @include media-breakpoint-up(sm) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 0px;                                          //padding-top for the whole top section from the header with the links
+    padding-bottom: 0px;
+  }
+}

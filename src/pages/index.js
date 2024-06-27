@@ -12,9 +12,11 @@ import CurrentIssue from '../components/CurrentIssue';
 const ContentSection = ({ header, content }) => (
   content.length > 0 && (
     <>
-      <h4>{header}</h4>
+      <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>
+        {header}
+      </h3>
       {content.map(({ node: { frontmatter: { title, path, authors = [], available } } }) => (
-        <p key={title}>
+        <p key={title} style={{textAlign:'center'}}>
           {available ? (
             <Link to={path}>{title}</Link>
           ) : (
@@ -53,7 +55,7 @@ const Home = ({ data }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -62,67 +64,72 @@ const Home = ({ data }) => {
                 <Advertisement />
               </div>
               <div>
-                <div className="col-12">
-                  <h4>CURRENT ISSUE</h4>
-                  <hr />
-                  {/* Rendering featured posts */}
-                  {posts.filter(post => post.node.frontmatter.featured)
-                    .map(({ node: { frontmatter: { title, path, authors = [], issue: { id: issueId, idpath: issueIdPath }, description } } }) => (
-                      <div key={title} className='contributor-div-top'>
-                        <div className="container">
-                          <h1 className="pt-1">
-                            <Link to={path}>{title}</Link>
-                          </h1>
+
+              <div className='title-static-border'>
+                <h4>
+                  CURRENT ISSUE
+                </h4>
+              </div>
+
+              <div className='bio-bottom-margin'>
+                    {/* Rendering featured posts */}
+                    {posts.filter(post => post.node.frontmatter.featured)
+                      .map(({ node: { frontmatter: { title, path, authors = [], issue: { id: issueId, idpath: issueIdPath }, description } } }) => (
+                        <div key={title} className='content-div-front-page'>
                           <h2>
-                            By {authors.map((author, index) => (
-                              <React.Fragment key={author.id}>
-                                <Link to={author.idpath}>{author.id}</Link>
-                                {index !== authors.length - 1 && ", "} {/* Add comma if not the last author */}
-                              </React.Fragment>
-                            ))}
-                            {" "}in <Link to={issueIdPath}>{issueId}</Link>
-                          </h2>
-                          <span dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
+                              <Link to={path}>{title}</Link>
+                            </h2>
+
+                            <h5>
+                              By {authors.map((author, index) => (
+                                <React.Fragment key={author.id}>
+                                  <Link to={author.idpath}>{author.id}</Link>
+                                  {index !== authors.length - 1 && ", "} {/* Add comma if not the last author */}
+                                </React.Fragment>
+                              ))}
+                              {" "}in <Link to={issueIdPath}>{issueId}</Link>
+                            </h5>
+                            <span dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
+                          <div className="text-center">
+                            <Link className="button button-primary" to={path}>
+                              Read
+                            </Link>
+                          </div>
                         </div>
-                        <div className="col-12 text-center pb-4">
-                          <Link className="button button-primary" to={path}>
-                            Read
-                          </Link>
-                        </div>
+                      ))}
+                    
+                    {/* Content sections for Fiction, Poetry, Non-Fiction */}
+                    <div className="bio-bottom-margin" style={{borderBottom:'none'}}>
+                      <div className="content-div-front-page-heading" style={{borderBottom:'none'}}>
+                        <h1 className='title-static-no-border' style={{color:'#1937bd'}}>
+                          CONTENT
+                        </h1>
+                        <ContentSection header="Fiction:" content={categorizedContent["FICTION"] || []} />
+                        <ContentSection header="Poetry:" content={categorizedContent["POETRY"] || []} />
+                        <ContentSection header="Non-Fiction:" content={categorizedContent["NON-FICTION"] || []} />
                       </div>
-                    ))}
-                  
-                  {/* Content sections for Fiction, Poetry, Non-Fiction */}
-                  <div className="frontissue">
-                    <div className="col-12">
-                      <h3>CONTENT</h3>
-                      <ContentSection header="Fiction:" content={categorizedContent["FICTION"] || []} />
-                      <ContentSection header="Poetry:" content={categorizedContent["POETRY"] || []} />
-                      <ContentSection header="Non-Fiction:" content={categorizedContent["NON-FICTION"] || []} />
                     </div>
-                  </div>
-                  
-                  {/* Link to view the issue */}
-                  <div className="col-12 text-center pb-8 pt-4">
-                    <Link className="button button-primary" to={categorizedContent["FICTION"]?.[0]?.node.frontmatter.issue.idpath}>
-                      View Issue
-                    </Link>
-                  </div>
-                  
-                  {/* Advertisement */}
-                  <div className="pb-2">
+                    
+                    {/* Link to view the issue */}
+                    <div className="col-12 text-center">
+                      <Link className="button button-primary" to={categorizedContent["FICTION"]?.[0]?.node.frontmatter.issue.idpath}>
+                        View Issue
+                      </Link>
+                    </div>
+                    
+                    {/* Advertisement */}
+                    {/* <div>
                     <Link to="/subscribe">
-                      <Image className="advertLong"
-                        fixed={data.advertLong.childImageSharp.fixed}      
-                      />
+                      <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                     </Link>
+                    </div> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+
     </Layout>
   );
 };

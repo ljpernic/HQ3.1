@@ -61,7 +61,7 @@ const Eachpost = ({ data }) => {
         />
       </Helmet>
 
-      <div className="intro">
+      <div className="main-body">
         <div className="container">
           <div className="row2">
             <div className="grid-container">
@@ -77,20 +77,32 @@ const Eachpost = ({ data }) => {
                 <Advertisement />
               </div>
               <div>
-                <div className="col-12">
-                  <h4>{category}</h4>
-                  <hr />
-                  <h1 className="pt-1">{title}</h1>
-                  <h2>
-                    By <Link to={author.idpath}>{author.id}</Link> in <Link to={issue.idpath}>{issue.id}</Link>
-                  </h2>
-                  <div className="content m-4" dangerouslySetInnerHTML={{ __html: html }} />
-                  <Link to="/subscribe">
-                    <Image className="advertLong" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link>
-                  <hr />
 
-                  <div className="editorImageAbout mt-3">
+              <div className='title-static-border'>
+                  <h4>{category}</h4>
+                </div>
+
+
+                <div className='bio-bottom-margin' style={{marginTop:'30px', borderBottom:'none'}}>
+
+                  <h2>{title}</h2>
+
+                  <h5>
+                    By <Link to={author.idpath}>{author.id}</Link> in <Link to={issue.idpath}>{issue.id}</Link>
+                  </h5>
+
+
+                  <div className="content-div-front-page" dangerouslySetInnerHTML={{ __html: html }} />
+                  {/* <Link to="/subscribe">
+                    <Image className="advertLong" fixed={data.advertLong.childImageSharp.fixed} />
+                  </Link> */}
+
+</div>
+
+
+<div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+<div className="content-div-dynamic" style={{borderBottom:'none'}}>
+                  <div className="editorImageAbout">
                     <Image fixed={author.picture.childImageSharp.fixed} />
                     <div className="side-block">
                       {displayTwitter}
@@ -98,35 +110,36 @@ const Eachpost = ({ data }) => {
                       {displayUrl}
                     </div>
                   </div>
-                  <div className='ml-4 mr-4 mb-4'>
+                  <div>
 
-                  <h1 className="pt-1 pb-1">
+                  <h3 className='title-static-no-border-inline'>
                     <Link to={author.idpath}>{author.id}</Link>
-                  </h1>
+                  </h3>
                   <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} /><br />
+
 
                {/* Render Fiction section if there are stories */}
                {author.stories && author.stories[0].storytitle !== null && (
                   <>
-                    <h5> Fiction by {author.id} </h5>
+                    <h5 className="title-static-no-border" style={{width:'100%', textAlign:'left'}}> Fiction by {author.id} </h5>
                     {author.stories.map((data, index) => (
                       <li className='submitGuidelines' key={`content_storytitle_${index}`}>{data.storytitle}</li>
                     ))}
                   </>
-                )}<br />
+                )}
 
                 {/* Render Poetry section if there are poems */}
                 {author.poems && author.poems[0].poemtitle !== null && (
                   <>
-                    <h5> Poetry by {author.id} </h5>
+                    <h5 className="title-static-no-border" style={{width:'100%', textAlign:'left', marginTop:'40px'}}> Poetry by {author.id} </h5>
                     {author.poems.map((data, index) => (
                       <li className='submitGuidelines' key={`content_poemtitle_${index}`}>{data.poemtitle}</li>
                     ))}
                   </>
                 )}
+                  </div>
 </div>
-                  <hr className="mb-2 mt-5" />
-                </div>
+</div>
               </div>
             </div>
           </div>

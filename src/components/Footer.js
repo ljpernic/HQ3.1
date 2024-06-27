@@ -13,11 +13,13 @@ const Footer = ({ data }) => {
           <div>
             <div className="footer">
               <Link className="footer-title" to="/">
-                <h3>{title}</h3>
+                <h3 className='title-static-border'>
+                  {title}
+                </h3>
               </Link>
               
-              <IconContext.Provider value={{ className: "social-media", color: "gray", size: "2em", verticalAlign: "middle", title: "social media icons" }}>
-                <div className="social-media">
+              <IconContext.Provider value={{ className: "social-media-footer", color: "gray", size: "2em", verticalAlign: "middle", title: "social media icons" }}>
+                <div className="social-media-footer">
                   <a href="https://twitter.com/HavenSpec" aria-label="Haven Spec on Twitter">
                     <FaTwitter />
                   </a>
