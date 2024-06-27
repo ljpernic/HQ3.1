@@ -123,7 +123,7 @@
     color: $secondary;
     font-family: $font-family-base;
     @include media-breakpoint-up(xs) {
-      font-size: .7rem;
+      font-size: 1rem;
       text-align: justify;
     }
     @include media-breakpoint-up(sm) {
