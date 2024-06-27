@@ -30,7 +30,7 @@ const Subscribe = (props) => {
                 <Advertisement />
               </div>
               <div>
-              <div className='title-static-border'>
+                <div className='title-static-border'>
                   <h4>SUBSCRIBE</h4>
                 </div>
 

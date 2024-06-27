@@ -123,9 +123,8 @@
     color: $secondary;
     font-family: $font-family-base;
     @include media-breakpoint-up(xs) {
-      font-size: 1rem;
+      font-size: .7rem;
       text-align: justify;
-      width: 85%;
     }
     @include media-breakpoint-up(sm) {
       font-size: 1rem;
@@ -187,7 +186,7 @@
     @include media-breakpoint-up(xs) {
       font-size: 1rem;
       text-align: justify;
-      width: 85%;
+      width: 100%;
     }
     @include media-breakpoint-up(sm) {
       font-size: 1rem;
@@ -277,7 +276,7 @@ li .listWindow {
       flex-flow: column;
       float: none;
       align-items: center;
-      margin: 0px 0px 20px 30px;
+      margin: 0px 0px 20px 0px;
       border: none;
     }
     @include media-breakpoint-up(sm)
@@ -286,7 +285,7 @@ li .listWindow {
       flex-flow: column;
       float: none;
       align-items: center;
-      margin: 0px 0px 20px 30px;
+      margin: 0px 0px 20px 0px;
       border: none;
     }
     @include media-breakpoint-up(md)
@@ -516,7 +515,6 @@ li .listWindow {
       @include media-breakpoint-up(xs) {
         font-size: 1rem;
         text-align: justify;
-        width: 85%;
       }
       @include media-breakpoint-up(sm) {
         font-size: 1rem;
@@ -578,7 +576,6 @@ li .listWindow {
       @include media-breakpoint-up(xs) {
         font-size: 1.2rem;
         text-align: justify;
-        width: 85%;
       }
       @include media-breakpoint-up(sm) {
         font-size: 1.2rem;

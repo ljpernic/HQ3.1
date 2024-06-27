@@ -6,7 +6,7 @@
   background-position: 49px -40px;
   @include media-breakpoint-up(xs) {
     background-size:auto;
-    background-position: 100% -10px;
+    background-position: 100% 0px;
   }
   @include media-breakpoint-up(sm) {
     background-size: 100%;

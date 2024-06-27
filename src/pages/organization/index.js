@@ -32,7 +32,8 @@ const Organization = (props) => {
               <div className='title-static-border'>
                 <h4>ORGANIZATION</h4>
               </div>
-              <div className='intro-div-static' style={{borderBottom:'none'}}>
+            <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
+              <div className='content-div-dynamic' style={{borderBottom:'none'}}>
                 {/* <Link to="/subscribe">
                     <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                   </Link> */}
@@ -45,7 +46,7 @@ const Organization = (props) => {
                   </p>
 
               </div>
-
+</div>
           </div>
       </div>
     </div>

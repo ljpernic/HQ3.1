@@ -26,14 +26,14 @@ const About = ({ data }) => {
   const assistantEditors = [
     {
       bio: "<p><strong>TJ Price</strong>'s corporeal being is currently located in Raleigh, NC, with his handsome partner of many years, but his ghosts live in northeastern Connecticut, southern Maine, and north Brooklyn. He is the author of the novelette <em>The Disappearance of Tom Nero</em>, published by Spooky House Press. His work has appeared—or is forthcoming—in <em>Nightmare Magazine</em>, <em>pidgeonholes</em>, <em>The NoSleep Podcast</em>, and various anthologies. He's almost always in the middle of some project, either editorially or otherwise, and enjoys experimenting with prose & poetry as well as certain esoteric studies. </p><p>He can be invoked at either <a href='https://tjpricewrites.com/'>tjpricewrites.com</a> or via the blue bird <a href='https://www.twitter.com/eerieyore'>@eerieyore</a>. Failing that, one can make a circle of chalk on the floor, stand in the center, and burn a photograph of a loved one until all that remains is ashes. Then, listen for a murmuring from within the walls. Leave your message after the sound of the screb.</p>",
-      twitter: "http://twitter.com/eerieyore",
+      twitter: "https://twitter.com/eerieyore",
       facebook: null,
       url: "https://tjpricewrites.com/",
       image: data.tj.childImageSharp.fixed,
     },
     {
       bio: "<p><strong>Danai Christopoulou</strong> (she/they) is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as <em>Glamour</em> and <em>Marie Claire</em> since 2004. They are an editor for Hugo-nominated <em>khōréō</em> magazine, an assistant editor for <em>Haven Spec Magazine</em>, and a literary agent in training at Tobias Literary Agency. Their short fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, and featured in the official Nebula Reading List. Danai’s novels are represented by Lauren Bieker of FinePrint Literary.</p>",
-      twitter: "http://twitter.com/Danaiwrites",
+      twitter: "https://twitter.com/Danaiwrites",
       facebook: null,
       url: null,
       image: data.danai.childImageSharp.fixed,
@@ -50,7 +50,7 @@ const About = ({ data }) => {
     },
     {
       bio: "<p><strong>Elizabeth Broadbent</strong> (she/her) is a neurodivergent author, journalist, and poet recently displaced from the South Carolina swamp. She's the author of <em>Ink Vine</em>, an erotic horror novella coming in April from Psychotoxin Pink, and her second novella, <em>Blood Cypress</em>, is set for 2025 publication with Raw Dog Screaming Press. Her short fiction has appeared in numerous publications, including <em>Tales to Terrify</em> and <em>The Cafe Irreal</em>; her essays have appeared everywhere from <em>The Washington Post</em> to <em>ADDitude Magazine</em>; and her visage has appeared in places such as BBC World News, MSNBC, and the ethereal plane. When she isn't writing fiction or social justice screeds, she can be found talking to crows and convincing blue jays to do crime. Drop her a line at eliza@writerelizabethbroadbent.com, @eabroadbent on Insta, Threads, and TikTok, or <a href='https://bsky.app/profile/elizabethbroadbent.bsky.social'>@elizabethbroadbent</a> on Bluesky. Alternately, ask the crows.</p>",
-      twitter: "http://twitter.com/eabroadbent",
+      twitter: "https://twitter.com/eabroadbent",
       facebook: null,
       url: "https://www.writerelizabethbroadbent.com/",
       image: data.elizabeth.childImageSharp.fixed,
@@ -153,6 +153,7 @@ const About = ({ data }) => {
                 </div>
                 ))}
               </div>
+              
               {/* ABOUT THE ASSISTANT EDITORS SECTION */}
               <div className='title-static-no-border'>
                 <h4>About the Associate Editors</h4>

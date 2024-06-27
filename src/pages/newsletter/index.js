@@ -33,14 +33,15 @@ const newsLetter = (props) => {
               <div className='title-static-border'>
                 <h4>NEWSLETTER</h4>
               </div>
-              <div className='intro-div-static' style={{borderBottom:'none'}}>
+              <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
+              <div className='content-div-dynamic' style={{borderBottom:'none'}}>
                 {/* <Link to="/subscribe">
                     <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                   </Link> */}
                   <p>
                     This is where you could sign up for our newsletter. You know, if we had one. Maybe in 2024?
                   </p>
-
+                </div>
               </div>
           </div>
       </div>

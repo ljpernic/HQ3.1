@@ -33,7 +33,8 @@ const Forms = (props) => {
               <div className='title-static-border'>
                 <h4>FORMS</h4>
               </div>
-              <div className='intro-div-static' style={{borderBottom:'none'}}>
+              <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
+                <div className='content-div-dynamic' style={{borderBottom:'none'}}>
                 {/* <Link to="/subscribe">
                     <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                   </Link> */}
@@ -44,6 +45,7 @@ const Forms = (props) => {
                     <div>
                       <iframe className="iframeFiction" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
                     </div>
+                </div>
               </div>
           </div>
       </div>
