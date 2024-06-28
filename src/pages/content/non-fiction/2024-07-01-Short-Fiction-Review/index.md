@@ -8,7 +8,7 @@ shortdescription: Short fiction reviews by Danai Christopoulou. Stories reviewed
 category: NON-FICTION
 issuecover: CurrentCover.jpg
 date: "2024-07-01T01:01:00.000Z"
-path: "/short-fiction-review-July-2024"
+path: "/short-fiction-review-july-2024"
 featured: false
 available: true
 ---
