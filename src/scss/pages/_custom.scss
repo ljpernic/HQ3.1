@@ -489,24 +489,24 @@ li .listWindow {
   
   .content-div-front-page {
     display: inline-block;
-    width: auto;
+    width: 100%;
     justify-content: center;
     padding: 30px 0px 30px 0px;
     border-bottom: 1px dotted $primary;
     @media (max-width: 575.98px) { /* xs */
-      width: auto;
+      width: 100%;
     }
   
     @media (min-width: 576px) and (max-width: 767.98px) { /* sm */
-      width: auto;
+      width: 100%;
     }
   
     @media (min-width: 768px) and (max-width: 991.98px) { /* md */
-      width: auto;
+      width: 100%;
     }
   
     @media (min-width: 992px) { /* lg */
-      width: auto;
+      width: 100%;
     }
     p {
       line-height: 1.6;

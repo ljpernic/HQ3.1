@@ -81,10 +81,12 @@ const Home = ({ data }) => {
                             </h2>
 
                             <h5>
-                              By {authors.map((author, index) => (
+                            by{" "}
+                              {authors.map((author, index) => (
                                 <React.Fragment key={author.id}>
                                   <Link to={author.idpath}>{author.id}</Link>
-                                  {index !== authors.length - 1 && ", "} {/* Add comma if not the last author */}
+                                    {index !== authors.length - 1 && index !== authors.length - 2 && ", "}
+                                    {index === authors.length - 2 && " & "}
                                 </React.Fragment>
                               ))}
                               {" "}in <Link to={issueIdPath}>{issueId}</Link>
