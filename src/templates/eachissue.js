@@ -40,7 +40,7 @@ const Eachissue = props => {
 
   return (
     <Layout bodyClass="page-home">
-      <SEO title={`${title}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Issue Page Image" />
+      <SEO title={`${issueidname}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Issue Page Image" />
       <Helmet>
         <meta
           name={issueidname}
