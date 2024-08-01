@@ -51,7 +51,7 @@ const Home = ({ data }) => {
     <Layout bodyClass="page-home">
       <SEO title="Haven Spec Magazine" image={SEO_image} alt="Haven Spec Magazine, Home Page Image" />
       <Helmet>
-        <meta name="Haven Spec Magazine" content="A Magazine of Science Fiction and Fantasy" />
+        <meta name="Haven Spec Magazine" content="Fiction for the 21st Century!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Helmet>
 

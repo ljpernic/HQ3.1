@@ -52,9 +52,8 @@ const Submit = (props) => {
                   <li className="listWindow">August 07-13</li>
               </div>
             </div>
-            <p>
-              <strong>Haven Spec Magazine will re-open soon to all submissions.</strong> Keep an eye out on Twitter and Bluesky for when we will 
-              reopen, and, as always, thank you for supporting our magazine!
+            <p><br />
+              <strong>Haven Spec Magazine will re-open soon to all submissions!</strong>
             </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 

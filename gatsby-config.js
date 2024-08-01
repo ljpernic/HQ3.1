@@ -3,7 +3,7 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: 'Haven Spec Magazine',
-    description: 'a magazine of science fiction and fantasy',
+    description: 'Fiction for the 21st Century!',
     siteUrl: 'https://www.havenspec.com',
     submit: {
       phone: 'XXX XXX XXX',
