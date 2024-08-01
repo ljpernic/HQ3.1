@@ -42,28 +42,18 @@ const Submit = (props) => {
                     <h3 className='title-static-no-border'>
                       Submission Windows
                     </h3>
-            {/* <div className="grid-container">
+            <div className="grid-container">
+            <div className="subWindows">
+              <h5 className='title-static'>Limited demographic window</h5>
+                  <li className="listWindow">August 14-31</li>
+              </div>
             <div className="subWindows">
               <h5 className='title-static'>General submission window</h5>
-                  <li className="listWindow">February 01-28</li>  
-                  <li className="listWindow">April 01-30</li>  
-                  <li className="listWindow">June 01-30</li>  
-                  <li className="listWindow">August 01-31</li>  
-                  <li className="listWindow">October 01-31</li>  
-                  <li className="listWindow">December 01-31</li>  
+                  <li className="listWindow">August 07-13</li>
               </div>
-              <div className="subWindows">
-              <h5 className='title-static'>Limited demographic window</h5>
-                  <li className="listWindow">January 01-31</li>  
-                  <li className="listWindow">March 01-31</li>  
-                  <li className="listWindow">May 01-31</li>  
-                  <li className="listWindow">July 01-31</li>  
-                  <li className="listWindow">September 01-30</li>  
-                  <li className="listWindow">November 01-30</li>  
-              </div>
-            </div> */}
+            </div>
             <p>
-              Haven Spec Magazine is now <strong>closed</strong> to all submissions. Keep an eye out on Twitter and Bluesky for when we will 
+              <strong>Haven Spec Magazine will re-open soon to all submissions.</strong> Keep an eye out on Twitter and Bluesky for when we will 
               reopen, and, as always, thank you for supporting our magazine!
             </p>
             <p>
