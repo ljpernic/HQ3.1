@@ -53,8 +53,8 @@ const Submit = (props) => {
               </div>
             </div>
             <p><br />
-              <strong>Haven Spec Magazine will re-open soon to all submissions!</strong>
-            </p>
+              Haven Spec Magazine is currently <strong>open</strong> to all submissions!  
+              </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
               non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
@@ -72,6 +72,27 @@ const Submit = (props) => {
             </p>
               </div>
 
+
+            <div className='content-div-dynamic'>
+              <h3 className="title-static-no-border">
+              Acolyte Submission System
+                    </h3>
+            <p>
+              We are testing out our new submission system (the Acolyte Submission System), and there will undoubtedly still be bugs to 
+              work out. <strong>So, when you submit, please keep the following in mind</strong>:
+            </p>
+            <div className='submitGuidelines'>
+              <ul>
+                <li>Your submission may take several seconds to go through.</li>
+                <li>You can only submit one story at a time, but if we pass on it, feel free to submit again without waiting. </li>
+                <li>You can only submit five poems at a time, and they should all be in a single file. </li>
+                <li>You will get an email confirming your submission. If, after an hour or two, you haven't gotten confirmation, you 
+                  should feel free to submit the same piece again. Just indicate in the cover letter that it is a do-over. This will also 
+                  help troubleshoot any lingering problems in the code.
+                </li>
+              </ul>
+            </div>
+          </div>
             <div className='content-div-dynamic'>
               <h3 className="title-static-no-border">
               Guidelines for Fiction
@@ -99,10 +120,11 @@ const Submit = (props) => {
               submissions. We also ask that you use the Shunn manuscript format and either .rtf, .doc, or .docx file types. 
             </p>
             <p>
-              We try to respond to all submissions within ten weeks, and we ask that you wait at least a week after we pass on a story 
-              before you submit again. If we hold a piece, please wait until you get our final decision to submit again. And if we publish 
-              your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do publish 
-              both flash fiction and stories close to our word limit, our sweet spot is between 1000 and 4000 words.  
+              We try to respond to all submissions within ten weeks, so feel free to query by replying to your confirmation email if it has been 
+              longer than that. We also fully admit that sometimes it takes much longer, so we apologize in advance. If we hold a piece, please 
+              wait until you get our final decision to submit again. And if we publish your piece, we ask that you wait six months from the date 
+              of publication before you submit again. Finally, while we do publish both flash fiction and stories close to our word limit, our 
+              sweet spot is between 1000 and 4000 words.  
             </p>
           </div>
           <div className='content-div-dynamic'>
@@ -119,7 +141,7 @@ const Submit = (props) => {
             <div className='submitGuidelines'>
               <ul>
                 <li><strong>Pay:</strong> $20 per poem</li>
-                <li><strong>Limit:</strong> Five poems, each in a separate submission</li>
+                <li><strong>Limit:</strong> Five poems, submitted in a single submission</li>
                 <li><strong>Language:</strong> English</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the poem in the English 
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
@@ -134,10 +156,11 @@ const Submit = (props) => {
               Shunn manuscript format and either .rtf, .doc, or .docx file types. 
             </p>
             <p>
-              We try to respond to all submissions within ten weeks, and we ask that you wait at least a week after we pass on the poems 
-              before you submit again. If we hold a poem, please wait until you get our final decision to submit again. And if we publish 
-              your piece, we ask that you wait six months from the date of publication before you submit again. Finally, while we do 
-              publish very short poems, our sweet spot is something longer than just three or four lines.  
+              We try to respond to all submissions within ten weeks, so feel free to query by replying to your confirmation email if it has been 
+              longer than that. We also fully admit that sometimes it takes much longer, so we apologize in advance. If we hold a piece, please 
+              wait until you get our final decision to submit again. And if we publish your piece, we ask that you wait six months from the date 
+              of publication before you submit again. Finally, while we do publish very short poems, our sweet spot is something longer than just 
+              three or four lines.  
             </p>
       </div>
 
@@ -214,9 +237,9 @@ const Submit = (props) => {
             </div>
 
             <div style={{padding: '30px 0px 30px 0px'}}>
-            <Link to="/forms">
+            <a href="https://acolyte.media">
             <button type="button" className="collapsible">Go to Submission Form</button>
-            </Link>
+            </a>
             </div>
 
             <div className='content-div-dynamic'>

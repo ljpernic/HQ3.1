@@ -38,13 +38,13 @@ const Forms = (props) => {
                 {/* <Link to="/subscribe">
                     <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                   </Link> */}
-                  <p>Below is the submission form for submitting fiction, poetry, non-fiction, and art to Haven Spec Magazine. If you haven't already done 
-                      so, please read our submission guidelines on <Link to="/submit">the submission page.</Link> 
-                    </p>
-
-                    <div>
-                      <iframe className="iframeFiction" src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/1"></iframe>
-                    </div>
+                  <p>
+                    We are no longer using this page as our submission page! Instead, you should go 
+                    to <a href='https://acolyte.media'>acolyte.media</a> and submit something there.
+                  </p>
+                  <p>
+                    But be sure to read <Link to='/submit'>our updated guidelines</Link> before you do!
+                  </p>
                 </div>
               </div>
           </div>
