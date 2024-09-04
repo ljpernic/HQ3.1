@@ -39,7 +39,7 @@ const Submit = (props) => {
                   {/* <Link to="/subscribe">
                       <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                     </Link> */}
-                    <h3 className='title-static-no-border'>
+                    {/* <h3 className='title-static-no-border'>
                       Submission Windows
                     </h3>
             <div className="grid-container">
@@ -51,9 +51,10 @@ const Submit = (props) => {
               <h5 className='title-static'>General submission window</h5>
                   <li className="listWindow">August 07-13</li>
               </div>
-            </div>
-            <p><br />
-              Haven Spec Magazine is currently <strong>open</strong> to all submissions!  
+            </div> */}
+            <p>
+              {/* <br /> */}
+              Haven Spec Magazine is currently <strong>closed</strong> to all submissions.  
               </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
