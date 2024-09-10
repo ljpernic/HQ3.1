@@ -48,6 +48,21 @@
   - poemtitle:
     poemlink:
 
+- id: West Ambrose
+  idpath: "/west-ambrose"
+  bio: "West Ambrose is a scrivener and performing artist. Check out his ever queer works at <a href='https://westofcanon.com/'>westofcanon.com</a>. 
+    If you want anything published in The HLK quarterly or The Crow’s Nest, just ring for the masthead, and let them know."  
+  twitter: westofcanon
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle: 
+    storylink: 
+  poems:
+  - poemtitle: "Category 4"
+    poemlink: "/category-4"
+
 - id: Colleen Anderson
   idpath: "/colleen-anderson"
   bio: "Colleen Anderson is an Aurora, Rhysling, Dwarf Stars and Elgin award nominee, with work published in seven countries, in such venues 
@@ -298,9 +313,11 @@
 
 - id: Beth Cato
   idpath: "/beth-cato"
-  bio: Nebula Award-nominated Beth Cato is the author of <em>A THOUSAND RECIPES FOR REVENGE</em> from 47North (summer 2023) plus two fantasy series from Harper Voyager. She's a 
-    Hanford, California native transplanted to the Arizona desert, where she lives with her husband, son, and requisite cats. Follow her 
-    at <a href="https://www.bethcato.com/">BethCato.com</a> and on Twitter at <a href="https://www.twitter.com/BethCato">@BethCato</a>. 
+  bio: Nebula Award-nominated Beth Cato is the author of A THOUSAND RECIPES FOR REVENGE and A FEAST FOR STARVING STONE from 
+    47North plus two fantasy series from Harper Voyager. She’s a Hanford, California native now moored in the Driftless Area. She 
+    usually has one or two cats in close orbit. Follow her at <a href="https://www.bethcato.com/">BethCato.com</a>, 
+    X/Twitter at <a href="https://www.twitter.com/BethCato">@BethCato</a>, and Instagram 
+    at <a href="https://www.instagram.com/catocatsandcheese">@catocatsandcheese</a>. 
   twitter: 'BethCato'
   url: https://www.bethcato.com/
   facebook:
@@ -311,6 +328,8 @@
   poems:
   - poemtitle: "That Monster Beneath the Bed"
     poemlink: /that-monster-beneath-the-bed
+  - poemtitle: "Meat, Bone, and Soul"
+    poemlink: /meat-bone-and-soul
 
 - id: Tania Chen
   idpath: "/tania-chen"
@@ -831,6 +850,25 @@
   poems:
   - poemtitle: "The Saint of Nothing at All"
     poemlink: "/the-saint-of-nothing-at-all"
+
+- id: Chinedu Gospel
+  idpath: "/chinedu-gospel"
+  bio: "Gospel Chinedu is a Nigerian poet from the Igbo descent. He currently is an undergraduate at the College Of Health Sciences, 
+    Okofia where he studies Anatomy. He loves music and is a big fan of Isak Danielson. His poems are mostly speculative and cut 
+    across different themes. He is a 2021 Starlit Award Winner, 1st Runner Up for the Blurred Genre Contest (Invisible City Lit), 2023, 
+    Honorable Mention in the Stephen A. Dibiase Poetry Prize, 2023 and also a finalist in the Dan Veach prize for younger poets, 2023. 
+    His works of poetry have appeared or are forthcoming in <em>Augur Magazine</em>, <em>Fantasy</em>, <em>Fiyah</em>, <em>The 
+    Deadlands</em>, <em>Apparition Lit</em> and other places. Gospel tweets <a href='https://twitter.com/gonspoetry'>@gonspoetry</a>."
+  twitter: 'gonspoetry'
+  url:
+  facebook:
+  picture: ../images/profile/generic_two.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Black Bile"
+    poemlink: "/black-bile"
 
 - id: Taylor Grothe
   idpath: "/taylor-grothe"
@@ -1608,6 +1646,24 @@
   - poemtitle: "Paradiso: A Found Cyborg Poem"
     poemlink: /paradiso-a-found-cyborg-poem
 
+- id: Timothy Mudie
+  idpath: "/timothy-mudie"
+  bio: "Timothy Mudie is a speculative fiction writer and an editor of all sorts of genres. His fiction has appeared in various magazines, 
+    anthologies, and podcasts, including <em>Lightspeed</em>, <em>Beneath Ceaseless Skies</em>, <em>Podcastle</em>, and <em>Wastelands: The 
+    New Apocalypse</em>. One of his stories appeared on the podcast <em>LeVar Burton Reads</em>, and another was named a Notable Story 
+    in <em>Best American Science Fiction & Fantasy 2024</em>. He lives outside of Boston with his wife and two sons. Find him online 
+    at <a href='https://timothymudie.com/'>timothymudie.com</a>."
+  twitter: 'timothy_mudie'
+  url: https://timothymudie.com/
+  facebook:
+  picture: ../images/profile/Timothy_Mudie.jpg
+  stories:
+  - storytitle: Giant Killer Shark
+    storylink: /giant-killer-shark
+  poems:
+  - poemtitle:
+    poemlink:
+
 ####################################################################___LETTER N___####################################################################
 
 - id: Mari Ness
@@ -1678,6 +1734,24 @@
   - poemtitle: no one can kiss you wrong if you're dead
     poemlink: /no-one-can-kiss-you-wrong-if-you-re-dead
 
+- id: AbdulBasit Oluwanishola
+  idpath: "/abdulbasit-oluwanishola"
+  bio: Abdulbasit Oluwanishola, SWAN V, is a young Nigerian poet and essayist who writes from Ilorin, Kwara State. He's studying Agriculture 
+    in Usmanu Dafodiyo University Sokoto. He is the winner of the PCU Eid Celebration on-the-spot poetry contest 2023. He is shortlisted 
+    in the Dawn Project Writing Contest 2023. His works are up/forthcoming on <em>A Long House</em>, <em>Poetry Journal</em>, <em>Poetry 
+    Column</em>, <em>Rowayat</em>, <em>Ninshãr Arts</em>, <em>World Voices Magazine</em>, <em>Last Stanza</em>, <em>The Marbled 
+    Sigh</em>, <em>Invisible City</em> and elsewhere. He tweets <a href='https://twitter.com/OO1810107'>@OO1810107</a>.
+  twitter: OO1810107
+  url:
+  facebook:
+  picture: ../images/profile/generic_one.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: Somewhere in Nigeria
+    poemlink: /somewhere-in-nigeria
+
 - id: Anya Ow
   idpath: "/anya-ow"
   bio: Anya Ow is the author of <em>Ion Curtain</em>, <em>The Firebird's Tale</em> and <em>Cradle and Grave</em>, and is an Aurealis Awards finalist. Her short stories have appeared 
@@ -1746,6 +1820,28 @@
     poemlink: "/beneath-the-flames"
 
 ####################################################################___LETTER P___####################################################################
+
+- id: Suzan Palumbo
+  idpath: "/suzan-palumbo"
+  bio: "Suzan Palumbo is a Trinidadian-Canadian, dark speculative fiction writer and editor. Her work has been nominated for the Nebula, 
+    Aurora, World Fantasy and Locus awards. She also co-founded the Ignyte Awards with L.D. Lewis and coedited the special Caribbean 
+    issue of <em>Strange Horizons Magazine</em>. Her award nominated dark fantasy/horror short story collection <em>Skin Thief: Stories</em> is out now 
+    from Neon Hemlock. Her novella <em>Countess</em> will be published by ECW Press on September 10th 2024. Her work has been published 
+    in <em>Lightspeed Magazine</em>, <em>Fantasy</em>, <em>The Deadlands</em>, <em>The Dark Magazine</em>, <em>PseudoPod</em>, <em>Fireside 
+    Fiction Quarterly</em>, <em>PodCastle</em>, <em>Anathema: Spec Fic</em> from the Margins and other venues. She is officially 
+    represented by Michael Curry of the Donald Maass Literary Agency and can be found on 
+    instagram <a href='https://instagram.com/gothicsyntax'>@gothicsyntax</a>. When she isn't writing, she is often sketching, 
+    listening to new wave or wandering her local misty forests."
+  twitter: 'sillysyntax'
+  url:
+  facebook:
+  picture: ../images/profile/Suzan_Palumbo.jpg
+  stories:
+  - storytitle: "Bleeding Hearts"
+    storylink: "/bleeding-hearts"
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Eva Papasoulioti
   idpath: "/eva-papasoulioti"
@@ -1849,6 +1945,8 @@
   poems:
   - poemtitle: "Seafoam Sestina"
     poemlink: /seafoam-sestina
+  - poemtitle: "Epitaph of a World on Fire: An Abecedarian"
+    poemlink: "/epitaph-of-a-world-on-fire-an-abecedarian"
 
 - id: Marisca Pichette
   idpath: "/marisca-pichette"
@@ -1906,6 +2004,21 @@
   - poemtitle: "And the Sea Brags of its Shells"
     poemlink: "/and-the-sea-brags-of-its-shells"
 
+- id: Rajeev Prasad
+  idpath: "/rajeev-prasad"
+  bio: "Rajeev Prasad is a physician and writer whose stories appear in <em>The Magazine of Fantasy and Science Fiction</em>, <em>Clarkesworld</em>, and other 
+    fabulous magazines. He hopes you enjoyed reading this story. Follow him on twitter <a href='https://www.twitter.com/rajeevwriter'>@rajeevwriter</a>."
+  twitter: 'RajeevWriter'
+  url:
+  facebook:
+  picture: ../images/profile/Rajeev_Prasad.jpg
+  stories:
+  - storytitle: "You Came For Goodbye"
+    storylink: "/you-came-for-goodbye"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: TJ Price
   idpath: "/t-j-price"
   bio: TJ Price’s corporeal being (he/him) is currently located in Brooklyn, NY, with his handsome partner of many years, but his ghosts live in northeastern Connecticut 
@@ -1924,20 +2037,25 @@
   - poemtitle:
     poemlink:
 
-- id: Rajeev Prasad
-  idpath: "/rajeev-prasad"
-  bio: "Rajeev Prasad is a physician and writer whose stories appear in <em>The Magazine of Fantasy and Science Fiction</em>, <em>Clarkesworld</em>, and other 
-    fabulous magazines. He hopes you enjoyed reading this story. Follow him on twitter <a href='https://www.twitter.com/rajeevwriter'>@rajeevwriter</a>."
-  twitter: 'RajeevWriter'
+- id: A. W. Prihandita
+  idpath: "/a-w-prihandita"
+  bio: "Anselma Widha Prihandita (she/her) is a college writing instructor and PhD candidate in rhetoric and composition, with scholarly 
+    (and personal) interests in decolonial and transnational writing. Her most favorite job, however, is writing speculative fiction with hints 
+    of heartbreak and the personal political. She splits her time between the US West Coast, where she currently teaches and studies, and 
+    Indonesia, where she grew up and where her home remains. She attended the Odyssey workshop in 2023 on their Fresh Voices 
+    Scholarship, and the Clarion workshop in 2024 on their Octavia Butler Scholarship. Her stories are published or forthcoming 
+    in <em>Cast of Wonders</em>, <em>khōréō magazine</em>, <em>Ghoulish Tales</em>, <em>Mysterion</em>, and <em>Fusion Fragment</em>."
+  twitter: 'awprihandita'
   url:
   facebook:
-  picture: ../images/profile/Rajeev_Prasad.jpg
+  picture: ../images/profile/A_W_Prihandita.jpg
   stories:
-  - storytitle: "You Came For Goodbye"
-    storylink: "/you-came-for-goodbye"
+  - storytitle: "The God Who Never Sleeps Dwells Under an Inky Sea"
+    storylink: "/the-god-who-never-sleeps-dwells-under-an-inky-sea"
   poems:
   - poemtitle:
     poemlink:
+
 
 ####################################################################___LETTER Q___####################################################################
 
@@ -1958,6 +2076,24 @@
     poemlink: "/to-market-to-market"
 
 ####################################################################___LETTER R___####################################################################
+
+- id: Eric Raglin
+  idpath: "/eric-raglin"
+  bio: "Eric Raglin (he/him) is a queer Nebraskan horror/Weird fiction writer. His short story collections include <em>Nightmare 
+    Yearnings</em>, <em>Extinction Hymns</em> (published by Brigids Gate Press), and <em>Lonesome Pyres</em> (published by Off 
+    Limits Pulp). He owns Cursed Morsels Press and has edited <em>No Trouble at All</em> (with Alexis DuBon), <em>Bitter 
+    Apples</em>, <em>Shredded: A Sports and Fitness Body Horror Anthology</em>, and <em>Antifa Splatterpunk</em>. Find him on 
+    Twitter, Bluesky, or Instagram @ericraglin1992."
+  twitter: 'ericraglin1992'
+  url: 
+  facebook:
+  picture: ../images/profile/Eric_Raglin.jpg
+  stories:
+  - storytitle: "The Coral Tombs"
+    storylink: /the-coral-tombs
+  poems:
+  - poemtitle:
+    poemlink:
 
 - id: Rhiannon Rasmussen
   idpath: "/rhiannon-rasmussen"
@@ -2377,6 +2513,21 @@
   - poemtitle:
     poemlink:
 
+- id: Stacie Turner
+  idpath: "/stacie-turner"
+  bio: "Stacie Turner grew up splitting her time between Maine and California. She lives in Connecticut now and can be found feeding stray 
+    cats in her garden when she's not writing. You can also find her short fiction in <em>Abyss & Apex</em>."
+  twitter: StacieTurner
+  url: https://www.stacieturner.com/
+  facebook:
+  picture: ../images/profile/Stacie_Turner.jpg
+  stories:
+  - storytitle: "A Good Catch"
+    storylink: "/a-good-catch"
+  poems:
+  - poemtitle:
+    poemlink:
+
 ####################################################################___LETTER U___####################################################################
 
 ####################################################################___LETTER V___####################################################################
@@ -2625,6 +2776,21 @@
 ####################################################################___LETTER X___####################################################################
 
 ####################################################################___LETTER Y___####################################################################
+
+- id: Krystle Yanagihara
+  idpath: "/krystle-yanagihara"
+  bio: "Krystle Yanagihara is an avid lover of milk tea and drinks far too many of them. She is from Hawai'i, where she has lived 
+    her whole life. Her first story, For All The Hearts We Buried, appears in the 'Ike Pāpālua anthology. " 
+  twitter: need_tea
+  url: 
+  facebook:
+  picture: ../images/profile/Krystle_Yanagihara.jpg
+  stories:
+  - storytitle: "The Poison You Leave"
+    storylink: "/the-poison-you-leave"
+  poems:
+  - poemtitle: 
+    poemlink: 
 
 - id: Wen Yu Yang
   idpath: "/wen-yu-yang"

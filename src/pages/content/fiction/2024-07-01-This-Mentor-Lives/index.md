@@ -13,7 +13,7 @@ held.</p> <p>&quot;Wait! What do I do with this one? Does it re-dead zombies?&qu
 category: FICTION
 date: "2024-07-01T01:06:00.000Z"
 path: "/this-mentor-lives"
-featured: true
+featured: false
 available: true
 
 ---
