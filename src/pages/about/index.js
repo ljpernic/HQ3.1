@@ -49,13 +49,6 @@ const About = ({ data }) => {
       image: data.ash.childImageSharp.fixed,
     },
     {
-      bio: "<p><strong>Elizabeth Broadbent</strong> (she/her) is a neurodivergent author, journalist, and poet recently displaced from the South Carolina swamp. She's the author of <em>Ink Vine</em>, an erotic horror novella coming in April from Psychotoxin Pink, and her second novella, <em>Blood Cypress</em>, is set for 2025 publication with Raw Dog Screaming Press. Her short fiction has appeared in numerous publications, including <em>Tales to Terrify</em> and <em>The Cafe Irreal</em>; her essays have appeared everywhere from <em>The Washington Post</em> to <em>ADDitude Magazine</em>; and her visage has appeared in places such as BBC World News, MSNBC, and the ethereal plane. When she isn't writing fiction or social justice screeds, she can be found talking to crows and convincing blue jays to do crime. Drop her a line at eliza @ writerelizabethbroadbent.com, @eabroadbent on Insta, Threads, and TikTok, or <a href='https://bsky.app/profile/elizabethbroadbent.bsky.social'>@elizabethbroadbent</a> on Bluesky. Alternately, ask the crows.</p>",
-      twitter: "https://twitter.com/eabroadbent",
-      facebook: null,
-      url: "https://www.writerelizabethbroadbent.com/",
-      image: data.elizabeth.childImageSharp.fixed,
-    },
-    {
       bio: "<p><strong>Rukman Ragas</strong> (they/he) writes from Sri Lanka. Their fiction is forthcoming from <em>Khoreo</em> and <em>Tasavvur</em>. He splits his time between the humid coast and the chilly mountains, both triggering different allergies. </p><p>They can be found on twitter <a href='https://www.twitter.com/Rukmanwrites'>@Rukmanwrites</a>, advocating for passive protagonists and retelling South Asian myths.</p>",
       twitter: "http://twitter.com/RukmanWrites",
       facebook: null,
@@ -68,6 +61,13 @@ const About = ({ data }) => {
       facebook: null,
       url: null,
       image: data.rsl.childImageSharp.fixed,
+    },
+    {
+      bio: "<p><strong>L.T. Williams</strong> can’t seem to escape mountains — whether it's the mountain of his TBR list, the Appalachians where he grew up, or the Ozarks where he moved to after college. L.T.'s love for speculative fiction also started in the mountains, where the folk tales, urban legends, and cryptid stories of Appalachia inspired him to pick up the pen and start creating some of his own. His stories have been published—or are forthcoming—in <em>Chthonic Matter Quarterly</em>, <em>Tales to Terrify</em>, and <em>Shotgun Honey</em>, among others. When not writing, L.T. spends his time climbing rocks, hiking, playing board games, and studying ancient tomes from outer space. You can find him at <a href='https://ltwilliamswriter.com/'>ltwilliamswriter.com</a> or in the nearest body of water looking for frogs.",
+      twitter: null,
+      facebook: null,
+      url: "https://ltwilliamswriter.com",
+      image: data.ltwilliams.childImageSharp.fixed,
     },
   ];
 
@@ -261,7 +261,7 @@ export const query = graphql`
         }
       }
     }
-    elizabeth: file(relativePath: { eq: "profile/Elizabeth_Broadbent.jpg" }) {
+    ltwilliams: file(relativePath: { eq: "profile/L_T_Williams.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
