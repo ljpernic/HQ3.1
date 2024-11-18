@@ -8,7 +8,7 @@ shortdescription: "Affan lay sprawled on the giant seawall like he was already d
 category: FICTION
 date: "2024-09-09T01:12:00.000Z"
 path: "/the-god-who-never-sleeps-dwells-under-an-inky-sea"
-featured: true
+featured: false
 available: true
 
 ---
