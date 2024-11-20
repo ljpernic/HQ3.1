@@ -4,7 +4,7 @@ authors:
     - Leon Perniciaro
 issue: Issue Seventeen, September 2024
 description: "Dear Reader,<p>The summer is ended, and we are not saved. </p><p>Okay, that sounds a little dramatic. Let's try that again.</p><p>Dear Reader,</p><p>The summer is ended, and we can now drink tea and wear our autumn jackets.</p><p>It lacks a certain gravitas, sure, but that's why no one has ever asked me to found a new religion. It'd be more <em>pumpkin spice</em> and less <em>eternal damnation</em>, and then where would we be?</p><p>One more time:</p><p>Dear Reader,</p><p>Summer is ended, but science fiction and fantasy go on.</p><p>There, that's better.</p>"
-shortdescription: "Dear Reader,<p>The summer is ended, and we are not saved. </p><p>Okay, that sounds a little dramatic. Let's try that again.</p><p>Dear Reader,</p><p>The summer is ended, and we can now drink tea and wear our autumn jackets.</p><p>It lacks a certain gravitas, sure, but that's why no one has ever asked me to found a new religion. It'd be more <em>pumpkin spice</em> and less <em>eternal damnation</em>, and then where would we be?</p>"
+shortdescription: "The summer is ended, and we are not saved. <p>Okay, that sounds a little dramatic. Let's try that again.</p><p>Dear Reader,</p><p>The summer is ended, and we can now drink tea and wear our autumn jackets.</p><p>It lacks a certain gravitas, sure, but that's why no one has ever asked me to found a new religion. It'd be more <em>pumpkin spice</em> and less <em>eternal damnation</em>, and then where would we be?</p>"
 category: NON-FICTION
 issuecover: CurrentCover.jpg
 date: "2024-09-01T01:15:00.000Z"
