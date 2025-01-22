@@ -180,12 +180,15 @@ const Submit = (props) => {
               Guidelines for Non-fiction
             </h3>
             <p>
+              Note: We are currently closed to non-fiction submissions. All other submissions are open.
+            </p>
+            <p>
               We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and 
               pieces with funny or interesting takes we might not have expected.
             </p>
             <div className='submitGuidelines'>
             <ul>
-                <li><strong>Pay:</strong> 8¢ per word for original non-fiction (currently closed to submissions)</li>
+                <li><strong>Pay:</strong> 8¢ per word for original non-fiction</li>
                 <li><strong>Word limit:</strong> 1000 words</li>
                 <li><strong>Language:</strong> English</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the piece in the English 
