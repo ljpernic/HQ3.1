@@ -39,19 +39,29 @@ const Submit = (props) => {
                   {/* <Link to="/subscribe">
                       <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                     </Link> */}
-                    {/* <h3 className='title-static-no-border'>
+                    <h3 className='title-static-no-border'>
                       Submission Windows
                     </h3>
             <div className="grid-container">
             <div className="subWindows">
-              <h5 className='title-static'>Limited demographic window</h5>
-                  <li className="listWindow">August 14-31</li>
+              <h5>General submission window</h5>
+                  <li className="listWindow">February 01-28</li>  
+                  <li className="listWindow">April 01-30</li>  
+                  <li className="listWindow">June 01-30</li>  
+                  <li className="listWindow">August 01-31</li>  
+                  <li className="listWindow">October 01-31</li>  
+                  <li className="listWindow">December 01-31</li>  
               </div>
-            <div className="subWindows">
-              <h5 className='title-static'>General submission window</h5>
-                  <li className="listWindow">August 07-13</li>
+              <div className="subWindows">
+              <h5>Limited demographic window</h5>
+                  <li className="listWindow">January 01-31</li>  
+                  <li className="listWindow">March 01-31</li>  
+                  <li className="listWindow">May 01-31</li>  
+                  <li className="listWindow">July 01-31</li>  
+                  <li className="listWindow">September 01-30</li>  
+                  <li className="listWindow">November 01-30</li>  
               </div>
-            </div> */}
+            </div>
             <p>
               {/* <br /> */}
               Haven Spec Magazine is currently <strong>closed</strong> to all submissions.  
@@ -87,9 +97,9 @@ const Submit = (props) => {
                 <li>Your submission may take several seconds to go through.</li>
                 <li>You can only submit one story at a time, but if we pass on it, feel free to submit again without waiting. </li>
                 <li>You can only submit five poems at a time, and they should all be in a single file. </li>
-                <li>You will get an email confirming your submission. If, after an hour or two, you haven't gotten confirmation, you 
-                  should feel free to submit the same piece again. Just indicate in the cover letter that it is a do-over. This will also 
-                  help troubleshoot any lingering problems in the code.
+                <li>You will get an email confirming your submission. If, after an hour or two, you haven't gotten confirmation (and 
+                  you've checked your spam folder), you should feel free to submit the same piece again. Just indicate in the cover 
+                  letter that it is a do-over. This will also help troubleshoot any lingering problems in the code.
                 </li>
               </ul>
             </div>
