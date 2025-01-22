@@ -185,12 +185,15 @@ const Submit = (props) => {
             </p>
             <div className='submitGuidelines'>
             <ul>
-                <li><strong>Pay:</strong> 8¢ per word for original non-fiction</li>
+                <li><strong>Pay:</strong> 8¢ per word for original non-fiction (currently closed to submissions)</li>
                 <li><strong>Word limit:</strong> 1000 words</li>
                 <li><strong>Language:</strong> English</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the piece in the English 
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
+                <li><strong>Important note: </strong>Our non-fiction is a little bit of a mess right now because 99% of submissions in this 
+                category are AI generated, so we still have a big backlog waiting to be processed. We won't be opening quite yet to 
+                non-fiction submissions. Hopefully we will in the coming months. </li>
               </ul>
             </div>
             <p>
