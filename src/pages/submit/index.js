@@ -64,14 +64,14 @@ const Submit = (props) => {
             </div>
             <p>
               {/* <br /> */}
-              Haven Spec Magazine is currently <strong>closed</strong> to all submissions.  
+              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction.  
               </p>
             <p>
               It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
               non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
-              canon. {/* Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
+              canon. Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
               submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six 
-              months remain open to everyone.    */}
+              months remain open to everyone.
             </p>
             <p>
               As writers ourselves, we do our best to handle each submission with the care and attention it deserves. Every submission is an 
@@ -177,11 +177,8 @@ const Submit = (props) => {
 
       <div className='content-div-dynamic'>
             <h3 className="title-static-no-border">
-              Guidelines for Non-fiction
+              Guidelines for Non-fiction (currently closed)
             </h3>
-            <p>
-              Note: We are currently closed to non-fiction submissions. All other submissions are open.
-            </p>
             <p>
               We like articles on politics and pop culture, articles steeped in science or otherwise verging on the academic, and 
               pieces with funny or interesting takes we might not have expected.
@@ -210,7 +207,7 @@ const Submit = (props) => {
 
             <div className='content-div-dynamic'>
             <h3 className="title-static-no-border">
-              Guidelines for Art
+              Guidelines for Art (currently closed)
             </h3>
             <p>
               For each issue, we pay <strong>$125 for cover art</strong>. If you think your work would look great on the cover of a 
@@ -245,7 +242,7 @@ const Submit = (props) => {
             <p>
               Each March, we publish our DRY Issue! Here we're looking for content that focuses on the dry aspects of climate change—desertification and falling reservoirs, 
               rising temperatures and endless droughts—we'll center stories by authors directly affected by the climate crisis, though we'll consider anything that fits the theme, 
-              even vaguely! 
+              even vaguely! Full disclosure: Our Dry Issue is probably going to be May this year.
             </p>
             <p>
               To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
