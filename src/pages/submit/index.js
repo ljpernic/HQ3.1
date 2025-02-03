@@ -163,7 +163,7 @@ const Submit = (props) => {
               We welcome writers from around the world who are writing in the English language, and we're open to translations as 
               long as the piece hasn't appeared in English before. While we've accepted a few reprints in the past, we are currently 
               only looking for original, previously unpublished poetry. Both simultaneous and multiple submissions are fine, but please 
-              no more than five poems at a time, with each poem separated out as its own submission. We also ask that you use the 
+              no more than five poems at a time, all included in a single file. We also ask that you use the 
               Shunn manuscript format and either .rtf, .doc, or .docx file types. 
             </p>
             <p>
