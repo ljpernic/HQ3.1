@@ -70,7 +70,7 @@ const About = ({ data }) => {
       image: data.ltwilliams.childImageSharp.fixed,
     },
     {
-      bio: "<p><strong>Pauline Chow</strong> writes speculative fiction to explore alternative histories and possible futures. Not your average data scientist she once sued slumlords and advocated for affordable housing as a legal aid attorney. She lives in the woods and is planning her next trip to a historical (and hopefully haunted) hotel. Her words are in <em>Cosmic Horror Monthly</em>, <em>Apocalypse Confidential</em>, <em>Space and Time Magazine</em>, and more. Find her at <a href='https://paulinechowstories.com/'>www.paulinechowstories.com</a> and <a href='https://bsky.app/profile/paulinechow.bsky.social'>https://bsky.app/profile/paulinechow.bsky.social</a>.",
+      bio: "<p><strong>Pauline Chow</strong> writes speculative fiction to explore alternative histories and possible futures. Not your average data scientist she once sued slumlords and advocated for affordable housing as a legal aid attorney. She lives in the woods and is planning her next trip to a historical (and hopefully haunted) hotel. Her words are in <em>Cosmic Horror Monthly</em>, <em>Apocalypse Confidential</em>, <em>Space and Time Magazine</em>, and more. Find her at <a href='https://paulinechowstories.com/'>www.paulinechowstories.com</a> and <a href='https://bsky.app/profile/paulinechow.bsky.social'>paulinechow.bsky.social</a>.",
       twitter: null,
       facebook: null,
       url: 'https://paulinechowstories.com/',
