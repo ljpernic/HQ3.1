@@ -15,8 +15,8 @@ const About = ({ data }) => {
 
   const headEditors = [
     {
-      bio: "<p><strong>Leon Perniciaro</strong> is the editor of Haven Spec Magazine and an assistant editor at Android Press. He studies English as a PhD student at the University of Connecticut, with a focus on race, Indigeneity, and environmental justice. He is a member of SFWA and the Codex Writers' Group and is a citizen of the Choctaw-Apache Tribe of Ebarb. Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.</p>",
-      twitter: "http://twitter.com/leonperniciaro",
+      bio: "<p><strong>Leon Perniciaro</strong> (he/him) is the editor of Haven Spec Magazine, an English PhD candidate at the University of Connecticut, and a member of the Game Design and Development faculty at Quinnipiac University. A citizen of the Choctaw-Apache Tribe of Ebarb and a New Orleanian, he now resides in New England, where he's terrified of both the climate crisis and the Great Filter. His academic research centers on the intersections of Indigeneity, race, and the environment, with a dissertation project shaping up around ideas of extraction and the various ways that settler society tries to claim Indigeneity for itself. Follow him on Bluesky <a href='https://bsky.app/profile/leonp.bsky.social'>@leonp</a>.</p>",
+      twitter: null,
       facebook: null,
       url: "https://www.leonperniciaro.com",
       image: data.leon.childImageSharp.fixed,
@@ -75,6 +75,13 @@ const About = ({ data }) => {
       facebook: null,
       url: 'https://paulinechowstories.com/',
       image: data.pauline.childImageSharp.fixed,
+    },
+    {
+      bio: "<p><strong>Faith Allington</strong> (she/her) is a genre-blending writer in Seattle, where she admires fungi and drinks too much tea. Her work appears or is forthcoming in <em>Flash Fiction Online</em>, <em>Haven Spec Magazine</em>, <em>Kaleidotrope</em>, and <em>Apex</em>. She can be found at <a href='https://www.faithallington.com/'>www.faithallington.com</a>.",
+      twitter: null,
+      facebook: null,
+      url: 'https://www.faithallington.com/',
+      image: data.faith.childImageSharp.fixed,
     },
   ];
 
@@ -288,7 +295,14 @@ export const query = graphql`
           ...GatsbyImageSharpFixed
         }
       }
-    }      
+    }
+    faith: file(relativePath: { eq: "profile/Faith_Allington.jpg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }            
   }
 `;
 
