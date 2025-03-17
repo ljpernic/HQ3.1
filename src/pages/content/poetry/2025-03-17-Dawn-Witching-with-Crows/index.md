@@ -9,7 +9,7 @@ shortdescription: "Softly lift the tools of your secret witching. <br />
     scrape of knife on stone; keep your setup silent. <br />
     Answer no questions. "
 category: POETRY
-date: "2024-11-18T01:13:00.000Z"
+date: "2025-03-17T01:13:00.000Z"
 path: "/dawn-witching-with-crows"
 featured: false
 available: true

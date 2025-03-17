@@ -2780,9 +2780,9 @@
 
 - id: Marie Vibbert
   idpath: "/marie-vibbert"
-  bio: "Marie Vibbert is a Hugo and Nebula finalist with over 90 stories and 3 novels in print. Her works have been translated into Chinese, Czech, and Vietnamese. She fell in love with science fiction when she snuck out of a battered women's shelter and stumbled on a screening of Day the Earth Stood Still in a library basement. This story is a fictionalization of that event. Learn more about her at marievibbert.com."
+  bio: "Marie Vibbert is a Hugo and Nebula finalist with over 90 stories and 3 novels in print. Her works have been translated into Chinese, Czech, and Vietnamese. She fell in love with science fiction when she snuck out of a battered women's shelter and stumbled on a screening of Day the Earth Stood Still in a library basement. This story is a fictionalization of that event. Learn more about her at <a href='https://www.marievibbert.com/'>marievibbert.com</a>."
   twitter: ''
-  url: marievibbert.com
+  url: https://www.marievibbert.com/
   facebook:
   picture: ../images/profile/Marie_Vibbert.jpg
   stories:

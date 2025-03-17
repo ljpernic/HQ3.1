@@ -175,3 +175,20 @@ from House of Anansi Press. It’s a mix of literary and speculative poetry.
 
 [Then I foolishly didn’t ask enough follow-up questions, but you should order it
 immediately at <a href='https://houseofanansi.com/products/myth!'>https://houseofanansi.com/products/myth!</a>]
+<br />
+<br />
+<br />
+<br />
+<br />
+Terese Mason Pierre (she/her) is a writer and editor whose work has appeared
+in <em>The Walrus</em>, <em>ROOM</em>, <em>Brick</em>, <em>Quill & Quire</em>, <em>Uncanny</em>, and <em>Fantasy Magazine</em>, among
+others. Her work has been nominated for the bpNichol Chapbook Award, Best of
+the Net, the Aurora Award, and the Ignyte Award. She is one of ten winners of the
+Writers’ Trust Journey Prize, and was named a Writers’ Trust Rising Star. Terese
+is an editor at <em>Augur Magazine</em>, a Canadian speculative literature journal, and coDirector of AugurCon, Augur's biennial speculative literature conference. She has co-hosted poetry reading series, spoken at conferences, organized literary events,
+judged writing contests, facilitated creative writing workshops, and mentored
+emerging writers. She is the author of chapbooks, <em>Surface Area</em> (Anstruther Press,
+2019) and <em>Manifest</em> (Gap Riot Press, 2020). Her debut poetry collection, <em>Myth</em>, will
+be published with House of Anansi Press in Spring 2025. Terese lives and works in
+Toronto, Canada, and is an MFA candidate at the University of Guelph. Follow her
+<a href='https://www.instagram.com/teresempierre/'>Instagram</a> and <a href='https://bsky.app/profile/teresempierre.bsky.social'>Bluesky</a>.

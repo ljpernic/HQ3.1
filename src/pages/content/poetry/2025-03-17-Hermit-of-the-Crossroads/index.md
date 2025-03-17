@@ -6,7 +6,7 @@ issue: Issue Nineteen, March 2025
 description: ''
 shortdescription: "The hermit kneels inside his cell and prays. <br />Here two roads meet&#58; and at their crossing stands<br />a sacred guard for all the kingdom’s ways.<br />"
 category: POETRY
-date: "2024-11-18T01:07:00.000Z"
+date: "2025-03-17T01:07:00.000Z"
 path: "/hermit-of-the-crossroads"
 featured: false
 available: true

@@ -4,9 +4,9 @@ authors:
     -  Ewen Ma
 issue: Issue Nineteen, March 2025
 description: ''
-shortdescription: "My cousin invites me over for dinner the evening before my flight. While he and his wife set the table, their daughter lifts a lizard out of its vivarium, cradles it in her small hands, places the creature gently upon my outstretched arm. Claws dig soft craters into the inked planets beneath my skin as the chameleon climbs up to my shoulder and drapes its tail around my neck, swivels its beady eyes towards me. <p>Tonight’s meal: Swiss-sauce chicken and rice. Winter melon soup with lean pork and dried scallops. Mango sago from the dessert place around the corner—a shop which used to be the Adventureland arcade grandfather took us to back in primary school. (The last time I saw my cousin we were both draped in funerary whites, folding golden paper bars to be burnt for the myth of a man.)</p>"
+shortdescription: "My cousin invites me over for dinner the evening before my flight. While he and his wife set the table, their daughter lifts a lizard out of its vivarium, cradles it in her small hands, places the creature gently upon my outstretched arm. Claws dig soft craters into the inked planets beneath my skin as the chameleon climbs up to my shoulder and drapes its tail around my neck, swivels its beady eyes towards me."
 category: POETRY
-date: "2024-11-18T01:09:00.000Z"
+date: "2025-03-17T01:09:00.000Z"
 path: "/what-does-your-revolution-look-like"
 featured: false
 available: true
