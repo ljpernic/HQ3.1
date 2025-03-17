@@ -3,13 +3,12 @@ title: Desperate Ark Wives
 authors:
     - Somto Ihezue
 issue: Issue Eighteen, November 2024
-description: "<br /><strong>The Book of Genesis</strong><br /><strong>Chapter 7: And They Were Witches.</strong><br /><p><sup>1</sup>Two by two... of the clean animals and the unclean, of the birds, and of everything that crawls, male and female, they all came to Noah, into the ark, just as God had commanded. <sup>2</sup>Then the rains poured down. And the fountains of the great deep burst forth, and floodgates of the skies were flung open.</p> <p><sup>3</sup>Noah, a steadfast and faithful servant of God, manned the ark and oversaw the boarding of all creatures great and small. <sup>4</sup>Noah and his sons: Shem, Ham, and Japheth, were the only men aboard the ark... but we know they were not the only people.</p><p><sup>5</sup>Gloria, Noah's wife, and their daughters-in-law, Tanisha and Maeeda, were also aboard the ark. And they were witches. <sup>6</sup>The rains had fallen
-for ten days already, long enough to have wiped out a quarter of the earth's population. The rains would fall for thirty more.</p><p><sup>7</sup>The three witches had one duty. To thwart the flood.</p>" 
+description: "<br /><strong>The Book of Genesis</strong><br /><strong>Chapter 7: And They Were Witches.</strong><br /><p><sup>1</sup>Two by two... of the clean animals and the unclean, of the birds, and of everything that crawls, male and female, they all came to Noah, into the ark, just as God had commanded. <sup>2</sup>Then the rains poured down. And the fountains of the great deep burst forth, and floodgates of the skies were flung open.</p> <p><sup>3</sup>Noah, a steadfast and faithful servant of God, manned the ark and oversaw the boarding of all creatures great and small. <sup>4</sup>Noah and his sons: Shem, Ham, and Japheth, were the only men aboard the ark... but we know they were not the only people.</p><p><sup>5</sup>Gloria, Noah's wife, and their daughters-in-law, Tanisha and Maeeda, were also aboard the ark. And they were witches. <sup>6</sup>The rains had fallen for ten days already, long enough to have wiped out a quarter of the earth's population. The rains would fall for thirty more.</p><p><sup>7</sup>The three witches had one duty. To thwart the flood.</p>" 
 shortdescription: "<strong>The Book of Genesis</strong><br /><strong>Chapter 7: And They Were Witches.</strong><br /><p><sup>1</sup>Two by two... of the clean animals and the unclean, of the birds, and of everything that crawls, male and female, they all came to Noah, into the ark, just as God had commanded. <sup>2</sup>Then the rains poured down. And the fountains of the great deep burst forth, and floodgates of the skies were flung open.</p> <p><sup>3</sup>Noah, a steadfast and faithful servant of God, manned the ark and oversaw the boarding of all creatures great and small. <sup>4</sup>Noah and his sons: Shem, Ham, and Japheth, were the only men aboard the ark... but we know they were not the only people.</p>"
 category: FICTION
 date: "2024-11-18T01:06:00.000Z"
 path: "/desperate-ark-wives"
-featured: true
+featured: false
 available: true
 
 ---

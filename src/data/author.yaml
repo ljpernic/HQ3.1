@@ -222,6 +222,20 @@
   - poemtitle:
     poemlink:
 
+- id: Sharang Biswas
+  idpath: "/sharang-biswas"
+  bio: "Sharang Biswas is a writer, artist, and award-winning game designer based in NYC. His nonfiction writing has appeared in publications such as <em>Eurogamer</em>, <em>Unwinnable</em>, <em>Broken Pencil</em>, <em>First Person Scholar</em>, and more, while his fiction & poetry has been published by <em>Lightspeed</em>, <em>Strange Horizons</em>, <em>Nightmare</em>, <em>Augur</em> and <em>Baffling</em>, and has been selected twice to appear in the annual <em>We're Here: The Best Queer Speculative Fiction</em> anthology. He is the co-editor of <em>Honey & Hot Wax: An Anthology of Erotic Art Games</em> and recently released <em>Tome of Dark Delights</em>, a collection of D&D-inspired erotica. His upcoming novella <em>The Iron Below Remembers</em> is due in 2025."
+  twitter: ''
+  url:
+  facebook:
+  picture: ../images/profile/Sharang_Biswas.jpg
+  stories:
+  - storytitle: 
+    storylink: 
+  poems:
+  - poemtitle: "Bandits of Dream City"
+    poemlink: "bandits-of-dream-city"
+
 - id: Gary Bloom
   idpath: "/gary-bloom"
   bio: "Gary Bloom grew up in Minneapolis and attended what is now Minnesota State University-Mankato, where he studied sociology. He has been a teaching assistant in a 
@@ -239,6 +253,20 @@
   poems:
   - poemtitle: "My FEMA trailer"
     poemlink: /my-fema-trailer
+
+- id: Marie Brennan
+  idpath: "/marie-brennan"
+  bio: "Marie Brennan is a former anthropologist and folklorist who shamelessly leans on her academic fields for inspiration. She recently misapplied her professors' hard work to <em>The Market of 100 Fortunes</em> and <em>The Waking of Angantyr</em>. She is the Hugo, Nebula, and World Fantasy Award-nominated author of the Victorian adventure series <em>The Memoirs of Lady Trent</em> along with several other series, over ninety short stories, several poems, and the New Worlds series of worldbuilding guides; as half of M.A. Carrick, she has written the Rook and Rose epic fantasy trilogy. For more information and social media, visit <a href='https://linktr.ee/swan_tower'>linktr.ee/swan_tower</a>." 
+  twitter:
+  url: https://linktr.ee/swan_tower
+  facebook:
+  picture: ../images/profile/Marie_Brennan.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: "Hermit of the Crossroads"
+    poemlink: /hermit-of-the-crossroads
 
 - id: Elizabeth Broadbent
   idpath: "/elizabeth-broadbent"
@@ -1567,6 +1595,20 @@
 
 ####################################################################___LETTER M___####################################################################
 
+- id: Ewen Ma
+  idpath: "/ewen-ma"
+  bio: "Ewen Ma (they/he) is a SFF writer-poet, editor, theatre deviser, and a recovering former Visual Cultures academic. Their work can be found in venues including <em>Uncanny Magazine</em>, <em>The Deadlands</em>, <em>Fusion Fragment</em>, <em>Apparition Literary</em>, <em>Anathema</em>, and <em>Liminality</em>, as well as in the anthology <em>Amplitudes: Stories of Queer and Trans Futurity</em>. An alumnus of Clarion West and Tin House, Ewen was also shortlisted for Moniack Mhor's Emerging Writer Award and the Future Worlds Prize. Ewen was made in Hong Kong, grew up between Hong Kong and Taiwan, and is currently based in the UK. Catch Ewen online at <a href='http://ewenma.com'>http://ewenma.com</a> and on Bluesky at <a href='https://bsky.app/profile/ewenmaer.bsky.social'>@ewenmaer.bsky.social</a>."
+  twitter: ''
+  url: http://ewenma.com
+  facebook:
+  picture: ../images/profile/Ewen_Ma.jpg
+  stories:
+  - storytitle: 
+    storylink: 
+  poems:
+  - poemtitle: What Does Your Revolution Look Like?
+    poemlink: /what-does-your-revolution-look-like
+
 - id: Jennifer Mace
   idpath: "/jennifer-mace"
   bio: "Jennifer Mace is a queer Brit who roams the Pacific Northwest in search of tea and interesting plant life. A four-time Hugo-finalist 
@@ -1621,6 +1663,20 @@
   - poemtitle: "I, Luminescence"
     poemlink: /i-luminescence
 
+- id: Catherine McCarthy
+  idpath: "/catherine-mccarthy"
+  bio: "Catherine McCarthy weaves dark tales on an ancient loom from her farmhouse in West Wales. Her longer works have been published by Dark Matter Ink and Nosetouch Press, and her forthcoming novella <em>Death of a Clown</em> publishes May '25 through Sobelo Books. Her short fiction can be found in various publications, including <em>Gamut Magazine</em> and <em>Dark Matter Magazine</em>. Time away from the loom is spent hiking the Welsh coast path or huddled in an ancient graveyard reading Dylan Thomas or listening to Cthulhu Tales. Find her at <a href='https://www.catherine-mccarthy-author.com/'>https://www.catherine-mccarthy-author.com/</a> or at <a href='https://x.com/serialsemantic'>https://x.com/serialsemantic</a>."
+  twitter: serialsemantic
+  url: https://www.catherine-mccarthy-author.com/
+  facebook:
+  picture: ../images/profile/Catherine_McCarthy.jpg
+  stories:
+  - storytitle: Host
+    storylink: /host
+  poems:
+  - poemtitle: 
+    poemlink: 
+
 - id: Elizabeth R McClellan
   idpath: "/elizabeth-r-mcclellan"
   bio: 'Elizabeth R. McClellan is a white disabled neurospicy gender/queer sapphic demisexual poet writing on unceded Quapaw and Chickasha Yaki land. Kans work has 
@@ -1657,11 +1713,9 @@
 
 - id: Devin Miller
   idpath: "/devin-miller"
-  bio: Devin Miller is a queer, genderqueer cyborg and lifelong denizen of Seattle, with a love of muddy beaches to show for it. Their short fiction has appeared 
-    in <em>Beneath Ceaseless Skies</em> and <em>Metaphorosis</em>; previous poetry can be found in <em>Mermaids Monthly</em> and <em>The Future Fire</em>, and on 
-    select King County Metro bus terminals. You can find Devin and their cat on Twitter <a href="https://www.twitter.com/devzmiller">@devzmiller</a>.
+  bio: Devin Miller is a queer, genderqueer cyborg and lifelong denizen of Seattle, with a love of muddy beaches to show for it. Their short fiction has appeared in <em>Beneath Ceaseless Skies</em>, <em>PodCastle</em>, and <em>Strange Horizons</em>; their poetry received an honorable mention in the 2022 Rhysling Awards and once appeared on a King County Metro bus terminal. You can find Devin under a tree, probably, or at <a href='https://www.devzmiller.com'>devzmiller.com</a>.
   twitter: 'devzmiller'
-  url:
+  url: https://www.devzmiller.com
   facebook:
   picture: ../images/profile/Devin_Miller.jpg
   stories:
@@ -1670,6 +1724,8 @@
   poems:
   - poemtitle: "Two Beaches"
     poemlink: /two-beaches
+  - poemtitle: "Dawn Witching with Crows"
+    poemlink: /dawn-witching-with-crows
 
 - id: Anuja Mitra
   idpath: "/anuja-mitra"
@@ -2030,10 +2086,8 @@
 
 - id: Leon Perniciaro
   idpath: "/leon-perniciaro"
-  bio: Leon Perniciaro (he/him) is the editor of Haven Spec Magazine and an assistant editor at Android Press. He studies English as a PhD student at the University 
-    of Connecticut, with a focus on race, Indigeneity, and environmental justice. He is a member of SFWA and the Codex Writers' Group and is a citizen of the 
-    Choctaw-Apache Tribe of Ebarb. Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.
-  twitter: 'leonperniciaro'
+  bio: Leon Perniciaro is the editor of Haven Spec Magazine, an English PhD candidate at the University of Connecticut, and a member of the Game Design and Development faculty at Quinnipiac University. A citizen of the Choctaw-Apache Tribe of Ebarb and a New Orleanian, he now resides in New England, where he's terrified of both the climate crisis and the Great Filter. His academic research centers on the intersections of Indigeneity, race, and the environment, with a dissertation project shaping up around ideas of extraction and the various ways that settler society tries to claim Indigeneity for itself. Follow him on Bluesky <a href='https://bsky.app/profile/leonp.bsky.social'>@leonp</a>.
+  twitter: 
   url: 'https://www.leonperniciaro.com'
   facebook:
   picture: ../images/profile/Leon_Perniciaro.jpg
@@ -2153,11 +2207,7 @@
 
 - id: TJ Price
   idpath: "/t-j-price"
-  bio: TJ Price’s corporeal being (he/him) is currently located in Brooklyn, NY, with his handsome partner of many years, but his ghosts live in northeastern Connecticut 
-    and southern Maine. He either is or has been a wine-seller, a wine-drinker, an avid reader, an obsessive writer, a pen-and-ink artist, a dishwasher, a 
-    neurosurgical technologist, a proofreader, a storm-watcher, a music-maker, and other sundry avocations. <p>Primarily, TJ spends his time reading as much as his 
-    eyes can take, but when he's not reading, he's either writing weird stories about unnerving things, drawing lots of little circles in pen and ink, enjoying esoteric 
-    studies, or taking photographs of clouds.</p>
+  bio: "TJ Price’s corporeal being is currently located in Raleigh, NC, where he lives with his handsome partner of many years, but his ghosts can be found in northeastern Connecticut, southern Maine, and north Brooklyn. He is the author of <em>The Disappearance of Tom Nero</em>, a novelette, and has work published in venues such as <em>Nightmare Magazine</em>, <em>PseudoPod</em>, and <em>Cosmic Horror Monthly</em> as well as various anthologies and assorted grimoires. He currently serves as Assistant Editor at <em>Haven Spec Magazine</em> and as editor for the recently-published anthology <em>ODD JOBS: Six Files from the Department of Inhuman Resources</em>. He can be invoked at either <a href='https://tjpricewrites.com/'>tjpricewrites.com</a>, or go to the darkest place you know and whisper his name. Please note: the author is not responsible for what may answer."
   twitter: 'eerieyore'
   url:
   facebook:
@@ -2287,6 +2337,20 @@
   stories:
   - storytitle: "For the Remnants"
     storylink: /for-the-remnants
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: M. R. Robinson
+  idpath: "/m-r-robinson"
+  bio: "M. R. Robinson is a PhD candidate at the University of Virginia, where she studies time and desire in Renaissance literature. When not writing or teaching, she and her wife are very (very) slowly restoring their crumbly old house, which they share with too many pets and too many books. Her fiction has previously appeared in <em>Beneath Ceaseless Skies</em> and is forthcoming in <em>Fusion Fragment</em>. You can find her on Twitter or Bluesky @mruthrobinson."
+  twitter: mruthrobinson
+  url: 
+  facebook:
+  picture: ../images/profile/M_R_Robinson.jpg
+  stories:
+  - storytitle: "Handsomest Gentlest"
+    storylink: /handsomest-gentlest
   poems:
   - poemtitle:
     poemlink:
@@ -2714,6 +2778,20 @@
   - poemtitle: "Star Stitcher"
     poemlink: "/star-stitcher"
 
+- id: Marie Vibbert
+  idpath: "/marie-vibbert"
+  bio: "Marie Vibbert is a Hugo and Nebula finalist with over 90 stories and 3 novels in print. Her works have been translated into Chinese, Czech, and Vietnamese. She fell in love with science fiction when she snuck out of a battered women's shelter and stumbled on a screening of Day the Earth Stood Still in a library basement. This story is a fictionalization of that event. Learn more about her at marievibbert.com."
+  twitter: ''
+  url: marievibbert.com
+  facebook:
+  picture: ../images/profile/Marie_Vibbert.jpg
+  stories:
+  - storytitle: A True Account of a Pre-Teen Blob
+    storylink: "/a-true-account-of-a-pre-teen-blob"
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Dana Vickerson
   idpath: "/dana-vickerson"
   bio: "Dana Vickerson can be found in the concrete confines of Dallas, though she’s most comfortable deep in the woods where she loves to sit and listen to the symphony of 
@@ -2958,6 +3036,20 @@
   poems:
   - poemtitle: "hu li jing 狐狸精"
     poemlink: "/hu-li-jing-狐狸精"
+
+- id: Sagan Yee
+  idpath: "/sagan-yee"
+  bio: "Sagan Yee (he/they) is a media artist and organizer whose creative practice includes animation, games, interactive installations, and speculative fiction. Their writing has appeared in places like <em>Apex Magazine</em>, <em>Tales & Feathers</em>, and <em>Lightspeed</em>. Marine biology and ecosystems provide the inspiration for many of his stories. Find more of his work at <a href='https://www.saganyee.com/'>saganyee.com</a> or catch them (for now) on Twitter <a href='https://www.twitter.com/SaganYee'>@SaganYee</a>." 
+  twitter: SaganYee
+  url: https://www.saganyee.com/
+  facebook:
+  picture: ../images/profile/Sagan_Yee.jpg
+  stories:
+  - storytitle: "Coming Home to Leviathan"
+    storylink: "/coming-home-to-leviathan"
+  poems:
+  - poemtitle: 
+    poemlink: 
 
 ####################################################################___LETTER Z___####################################################################
 
