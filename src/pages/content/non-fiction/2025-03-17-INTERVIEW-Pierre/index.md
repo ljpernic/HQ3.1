@@ -180,7 +180,7 @@ immediately at <a href='https://houseofanansi.com/products/myth!'>https://houseo
 <br />
 <br />
 <br />
-Terese Mason Pierre (she/her) is a writer and editor whose work has appeared
+<strong>Terese Mason Pierre</strong> (she/her) is a writer and editor whose work has appeared
 in <em>The Walrus</em>, <em>ROOM</em>, <em>Brick</em>, <em>Quill & Quire</em>, <em>Uncanny</em>, and <em>Fantasy Magazine</em>, among
 others. Her work has been nominated for the bpNichol Chapbook Award, Best of
 the Net, the Aurora Award, and the Ignyte Award. She is one of ten winners of the
