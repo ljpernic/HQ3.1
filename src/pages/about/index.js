@@ -116,7 +116,7 @@ const About = ({ data }) => {
                 </h4>
               </div>
               <div className='intro-div-static'>
-                <p className='p-top'><i><b>Haven Spec</b></i> is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined).</p>
+                <p className='p-top'><i><b>Haven Spec</b></i> is a speculative fiction magazine featuring stories and poems for a 21st century audience. We love stories with a sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined).</p>
                 <p>The crisis facing our planet is immediate and all-encompassing, and it will affect people of color, people living in poverty, and the working classes most of all. The popular metaphor is going over a cliff, but we prefer the tempest, the torrent, the flood. The waters are rising, but we can save ourselves.</p>
                 <p className='p-bottom'>It's not too late.</p>
                 {/* <Link to="/subscribe">
