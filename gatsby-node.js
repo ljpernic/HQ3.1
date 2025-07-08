@@ -2,6 +2,7 @@ const path = require('path');
 const _ = require('lodash');
 const fs = require("fs")
 const yaml = require("js-yaml")
+require('events').defaultMaxListeners = 50;
 
 exports.createPages = ({ graphql, actions }) => {                                                         
   const { createPage } = actions;

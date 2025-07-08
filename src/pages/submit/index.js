@@ -40,41 +40,50 @@ const Submit = (props) => {
                       <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                     </Link> */}
                     <h3 className='title-static-no-border'>
-                      Submission Windows
+                      Submissions Schedule
                     </h3>
-            <div className="grid-container">
-            <div className="subWindows">
-              <h5>General submission window</h5>
-                  <li className="listWindow">February 01-28</li>  
-                  <li className="listWindow">April 01-30</li>  
-                  <li className="listWindow">June 01-30</li>  
-                  <li className="listWindow">August 01-31</li>  
-                  <li className="listWindow">October 01-31</li>  
-                  <li className="listWindow">December 01-31</li>  
+            <div className="grid-container reverseFlow">
+              <div className="subWindows">
+              <h5>Spring Submissions Period</h5>
+                  <li className="listWindow"><u>April:</u> Limited Demographic Window</li>  
+                  <li className="listWindow"><u>May:</u> General Submissions Window</li>  
+                  <li className="listWindow"><u>June:</u> Closed to Submissions</li>  
               </div>
               <div className="subWindows">
-              <h5>Limited demographic window</h5>
-                  <li className="listWindow">January 01-31</li>  
-                  <li className="listWindow">March 01-31</li>  
-                  <li className="listWindow">May 01-31</li>  
-                  <li className="listWindow">July 01-31</li>  
-                  <li className="listWindow">September 01-30</li>  
-                  <li className="listWindow">November 01-30</li>  
+              <h5>Winter Submissions Period</h5>
+                  <li className="listWindow"><u>January:</u> Limited Demographic Window</li>  
+                  <li className="listWindow"><u>February:</u> General Submissions Window</li>  
+                  <li className="listWindow"><u>March:</u> Closed to Submissions</li>  
+              </div>
+            </div>
+              <div className="grid-container reverseFlow">
+              <div className="subWindows">
+              <h5>Fall Submissions Period</h5>
+                  <li className="listWindow"><u>October:</u> Limited Demographic Window</li>  
+                  <li className="listWindow"><u>November:</u> General Submissions Window</li>  
+                  <li className="listWindow"><u>December:</u> Closed to Submissions</li>  
+              </div>
+              <div className="subWindows">
+              <h5>Summer Submissions Period</h5>
+                  <li className="listWindow"><u>July:</u> Limited Demographic Window</li>  
+                  <li className="listWindow"><u>August:</u> General Submissions Window</li>  
+                  <li className="listWindow"><u>September:</u> Closed to Submissions</li>  
               </div>
             </div>
             <p>
-              {/* <br /> */}
-              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction.  
-              </p>
-            <p>
-              It's our goal to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
-              non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
-              canon. Our submission cycle is therefore split into two categories, where every other month is explicitly reserved for 
-              submissions by authors of color, members of the LGBTQIA+ community, and other underrepresented groups. The interposing six 
-              months remain open to everyone.
+              <br />
+              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction. 
             </p>
             <p>
-              As writers ourselves, we do our best to handle each submission with the care and attention it deserves. Every submission is an 
+              Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
+              authors of color, members of LGBTQIA+ communities, and writers belonging to other underrepresented groups; a month open to general 
+              submissions, during which anyone may submit; and a month in which we're closed to submissions so that we may do the difficult (and 
+              exciting!) work of choosing content for future issues.
+            </p>
+            <p>
+              Our goal remains to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
+              non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
+              canon. As writers ourselves, we do our best to handle what you send us with the care and attention it deserves. Every submission is an 
               act of bravery, and we know that putting yourself out there as a writer can be tough. Just know that any submission we receive, 
               unless it contains something illegal, will be kept in confidence.
             </p>
@@ -82,12 +91,10 @@ const Submit = (props) => {
                 When in doubt, don't self reject! Submit submit submit! 
             </p>
               </div>
-
-
             <div className='content-div-dynamic'>
               <h3 className="title-static-no-border">
-              Acolyte Submission System
-                    </h3>
+                Acolyte Submission System
+              </h3>
             <p>
               We are testing out our new submission system (the Acolyte Submission System), and there will undoubtedly still be bugs to 
               work out. <strong>So, when you submit, please keep the following in mind</strong>:
@@ -106,8 +113,8 @@ const Submit = (props) => {
           </div>
             <div className='content-div-dynamic'>
               <h3 className="title-static-no-border">
-              Guidelines for Fiction
-                    </h3>
+                Guidelines for Fiction
+              </h3>
             <p>
               We like stories that are subtle in their telling and stick with us long after we've finished, and we're more likely to 
               buy stories that balance a sense of wonder with a bold plot and emotional depth. For our two issues focused on the climate 
@@ -119,6 +126,7 @@ const Submit = (props) => {
                 <li><strong>Pay:</strong> 8¢ per word for original fiction</li>
                 <li><strong>Word limit:</strong> 6000 words</li>
                 <li><strong>Language:</strong> English</li>
+                <li><strong>File type:</strong> .doc, .docx, .rtf</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the story in the English 
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
@@ -140,8 +148,8 @@ const Submit = (props) => {
           </div>
           <div className='content-div-dynamic'>
             <h3 className="title-static-no-border">
-                      Guidelines for Poetry
-                    </h3>
+              Guidelines for Poetry
+            </h3>
             <p>
               We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or 
               free verse. Most important to us is vivid imagery, clever lyricism, and a strong emotional core. For our two issues focused 
@@ -154,6 +162,7 @@ const Submit = (props) => {
                 <li><strong>Pay:</strong> $20 per poem</li>
                 <li><strong>Limit:</strong> Five poems, submitted in a single submission</li>
                 <li><strong>Language:</strong> English</li>
+                <li><strong>File type:</strong> .doc, .docx, .rtf</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the poem in the English 
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>
@@ -188,6 +197,7 @@ const Submit = (props) => {
                 <li><strong>Pay:</strong> 8¢ per word for original non-fiction</li>
                 <li><strong>Word limit:</strong> 1000 words</li>
                 <li><strong>Language:</strong> English</li>
+                <li><strong>File type:</strong> .doc, .docx, .rtf</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the piece in the English 
                   language and throughout the world. We also buy non-exclusive archival rights for our website and non-exclusive anthology 
                   rights.</li>

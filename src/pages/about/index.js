@@ -25,8 +25,8 @@ const About = ({ data }) => {
 
   const assistantEditors = [
     {
-      bio: "<p><strong>TJ Price</strong>'s corporeal being is currently located in Raleigh, NC, with his handsome partner of many years, but his ghosts live in northeastern Connecticut, southern Maine, and north Brooklyn. He is the author of the novelette <em>The Disappearance of Tom Nero</em>, published by Spooky House Press. His work has appeared—or is forthcoming—in <em>Nightmare Magazine</em>, <em>pidgeonholes</em>, <em>The NoSleep Podcast</em>, and various anthologies. He's almost always in the middle of some project, either editorially or otherwise, and enjoys experimenting with prose & poetry as well as certain esoteric studies. </p><p>He can be invoked at either <a href='https://tjpricewrites.com/'>tjpricewrites.com</a> or via the blue bird <a href='https://www.twitter.com/eerieyore'>@eerieyore</a>. Failing that, one can make a circle of chalk on the floor, stand in the center, and burn a photograph of a loved one until all that remains is ashes. Then, listen for a murmuring from within the walls. Leave your message after the sound of the screb.</p>",
-      twitter: "https://twitter.com/eerieyore",
+      bio: "<p><strong>TJ Price</strong>’s corporeal being is currently located in Raleigh, NC, with his handsome partner of many years, but his ghosts live in northeastern Connecticut, southern Maine, and north Brooklyn. He has performed in an editorial capacity for various anthologies in the past, such as <em>Collage Macabre: an Exhibition of Art Horror</em>, <em>Odd Jobs: Six Files from the Department of Inhuman Resources</em>, and <em>between doorways: explorations into liminal space</em>. He has also served as editor for Emma E. Murray’s début collection of short fiction, <em>The Drowning Machine and Other Obsessions</em>, as well as Erik McHatton’s début collection, <em>Straw World and Other Echoes from the Void</em>. His own work has been published in such venues as <em>Nightmare Magazine</em>, <em>PseudoPod</em>, <em>Cosmic Horror Monthly</em>, and <em>Archive of the Odd</em>. In addition, he has published a mixed-media novelette, <em>The Disappearance of Tom Nero</em>, and is currently a staff writer for <em>3 Quarks Daily</em>. He may be invoked—though the summoning may often cause mild hallucinatory effects in the unwary—at <a href='https://tjpricewrites.com/'>tjpricewrites.com</a>.</p>",
+      twitter: null,
       facebook: null,
       url: "https://tjpricewrites.com/",
       image: data.tj.childImageSharp.fixed,
@@ -82,6 +82,13 @@ const About = ({ data }) => {
       facebook: null,
       url: 'https://www.faithallington.com/',
       image: data.faith.childImageSharp.fixed,
+    },
+    {
+      bio: "<p><strong>K. A. Roy</strong> (she/her) haunts the suburbs of Chicago alongside her family and three cats. Her stories have been featured at From Beyond Press, Shotgun Honey, Creepy Podcast, Malarkey Books, Spindle House, and more. Her work has been shortlisted for Brave New Weird through Tenebrous Press. She is represented by Eric Smith at Neighborhood Literary. Find her at <a href='https://kayleighroywrites.com/'>kayleighroywrites.com</a>.",
+      twitter: null,
+      facebook: null,
+      url: 'https://kayleighroywrites.com/',
+      image: data.ka.childImageSharp.fixed,
     },
   ];
 
@@ -247,7 +254,7 @@ export const query = graphql`
         }
       }
     }
-    tj: file(relativePath: { eq: "profile/TJ_Price.jpeg" }) {
+    tj: file(relativePath: { eq: "profile/TJ_Price.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed
@@ -297,6 +304,13 @@ export const query = graphql`
       }
     }
     faith: file(relativePath: { eq: "profile/Faith_Allington.jpg" }) {
+      childImageSharp {
+        fixed(width: 180, height: 180) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }            
+    ka: file(relativePath: { eq: "profile/K_A_Roy.jpg" }) {
       childImageSharp {
         fixed(width: 180, height: 180) {
           ...GatsbyImageSharpFixed

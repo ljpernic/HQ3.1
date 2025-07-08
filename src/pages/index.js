@@ -35,7 +35,9 @@ const ContentSection = ({ header, content }) => (
 );
 const Home = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
-  const currentIssue = posts[0].node.frontmatter.issue.id;
+const currentIssue = 'Issue Twenty, July 2025'
+  //  const currentIssue = posts[0].node.frontmatter.issue.id;
+  console.log('currentIssue:' + currentIssue)
 
   // Categorizing posts by their category (FICTION, POETRY, NON-FICTION)
   const categorizedContent = posts.reduce((acc, post) => {
@@ -46,6 +48,8 @@ const Home = ({ data }) => {
     }
     return acc;
   }, {});
+
+  console.log('categorizedContent: ' + JSON.stringify(categorizedContent))
 
   return (
     <Layout bodyClass="page-home">
@@ -113,6 +117,7 @@ const Home = ({ data }) => {
                     </div>
                     
                     {/* Link to view the issue */}
+                    {console.log(categorizedContent["FICTION"]?.[0])}
                     <div className="col-12 text-center">
                       <Link className="button button-primary" to={categorizedContent["FICTION"]?.[0]?.node.frontmatter.issue.idpath}>
                         View Issue

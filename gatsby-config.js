@@ -48,59 +48,63 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-transformer-json',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-react-helmet',
-    `gatsby-transformer-sharp`, 
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-catch-links`,
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+plugins: [
+  'gatsby-plugin-sass',
+  'gatsby-transformer-json',
+  'gatsby-transformer-remark',
+  'gatsby-plugin-react-helmet',
+  
+  {
+    resolve: `gatsby-plugin-sharp`,
+    options: {
+      defaults: {
+        formats: [`auto`, `webp`],
+        placeholder: `dominantColor`,
       },
+      failOnError: false,
     },
-/*    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/posts`,
-        name: 'posts',
-      },
-    },*/
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/data`,
-        name: 'data',
-      },
+  },
+  `gatsby-transformer-sharp`, // this one stays as a bare string
+  `gatsby-plugin-catch-links`,
+
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      path: `${__dirname}/src/pages`,
+      name: 'pages',
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/images`,
-        name: 'images',
-      },
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      path: `${__dirname}/src/data`,
+      name: 'data',
     },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          `gatsby-remark-emoji`,
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-              quality: 80, 
-            },
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      path: `${__dirname}/src/images`,
+      name: 'images',
+    },
+  },
+  {
+    resolve: "gatsby-transformer-remark",
+    options: {
+      plugins: [
+        `gatsby-remark-emoji`,
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 1200,
+            quality: 80,
           },
-        ], 
-      },
+        },
+      ],
     },
+  },
   `gatsby-transformer-yaml`,
-  ],
+],
   mapping: {
     // 3. map author to author.yaml
     "MarkdownRemark.frontmatter.authors": `AuthorYaml`,

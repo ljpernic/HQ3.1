@@ -428,6 +428,22 @@
   - poemtitle:
     poemlink:
 
+- id: Vivian Chou
+  idpath: "/vivian-chou"
+  bio: "Vivian Chou is a second-generation Chinese-American writer. Her work has been published or forthcoming in <em>Uncharted</em>, <em>The 
+    Forge Literary Magazine</em>, and <em>Apex</em>. She prefers to fuel her writing with naps, exercise, and dystopian dread, but usually 
+    manages with black coffee and chocolate. Read more at <a href='https://www.vivianchouwriter.com/'>vivianchouwriter.com</a>."
+  twitter: 
+  url: https://www.vivianchouwriter.com/
+  facebook:
+  picture: ../images/profile/Vivian_Chou.jpg
+  stories:
+  - storytitle: "Restaurant Space for Lease"
+    storylink: /restaurant-space-for-lease
+  poems:
+  - poemtitle:
+    poemlink:
+
 - id: Kimberly Christensen
   idpath: "/kimberly-christensen"
   bio: Kimberly lives, writes, waves protest signs, and keeps bees in Seattle with her husband, two children and an assortment of animal companions. She cosplays General 
@@ -869,9 +885,10 @@
 
 - id: A. R. Frederiksen
   idpath: "/a-r-frederiksen"
-  bio: "A. R. Frederiksen is a Danish writer of English speculative fiction, represented by Mollie Glick from CAA. Her short fiction has been published 
-    by <em>Factor Four Magazine</em>, Quill and Crow Publishing House, Night Terror Novels, Brigids Gate, <em>Crow and Cross Keys</em>, and more. She lives in 
-    Denmark where she works full-time as a copyeditor for ContentAvenue and freelances as a creative writing instructor at South Gate Creative Writing School."
+  bio: "AR Frederiksen is a Danish author whose short fiction has been accepted by <em>Cosmic Horror Monthly</em>, <em>Shortwave 
+    Magazine</em>, <em>Haven Speculative</em>, and others. She is represented by FinePrint Literary Management and volunteers as a slush 
+    reader for Diabolical Plots, <em>Small Wonders Magazine</em> and <em>Khoreo Magazine</em>. She lives at the tip of Denmark with her 
+    Minnesotan husband and angry senior citizen of a chihuahua."
   twitter: 'ARFrederiksen'
   url: https://arfrederiksen.com/
   facebook:
@@ -879,6 +896,8 @@
   stories:
   - storytitle: "The Drowning Bones"
     storylink: "/the-drowning-bones"
+  - storytitle: "Fish Upon A Star"
+    storylink: "/fish-upon-a-star"
   poems:
   - poemtitle:
     poemlink:
@@ -1119,6 +1138,23 @@
   stories:
   - storytitle: "Swimming Lessons"
     storylink: /swimming-lessons
+  poems:
+  - poemtitle:
+    poemlink:
+
+- id: Leanne Howard
+  idpath: "/leanne-howard"
+  bio: 'Leanne (she/her) loves to write about the domestic magic of everyday rituals with some flawed characters thrown in. She earned her 
+    MFA from the University of Nevada, Reno and has stories in <em>Typehouse Literary Magazine</em> as well as <em>Luna Station Quarterly</em> and 
+    others. When she’s not reading, writing, or teaching, she likes theater, long walks, and a hot cup of tea. She lives with her partner 
+    and an imaginary cat in Brooklyn, NY.'
+  twitter:
+  url: 
+  facebook:
+  picture: ../images/profile/Leanne_Howard.jpg
+  stories:
+  - storytitle: "Brother, What Is Your Name?"
+    storylink: /brother-what-is-your-name
   poems:
   - poemtitle:
     poemlink:
@@ -1445,6 +1481,24 @@
   - poemtitle:
     poemlink:
 
+- id: Angel Leal
+  idpath: "/Angel Leal"
+  bio: 'Angel Leal (they/she) is a Latine, trans, neurodivergent writer whose previous work has appeared in <em>Strange Horizons</em>, <em>Heartlines 
+    Spec</em>, <em>The Deadlands</em>, <em>Small Wonders</em>, <em>Apparition Lit</em>, and elsewhere. They’ve been nominated for the Pushcart Prize,
+    the Rhysling, Best of the Net, the Utopia Award, and are a coadmin of CALAMITOUS, a queer SFFH writing group. You can find them 
+    at <a href="https://angel-leal.com/">angel-leal.com</a> or on 
+    Bluesky <a href="https://bsky.app/profile/angelvleal.bsky.social">@angelvleal.bsky.social.</a>'
+  twitter: ''
+  url: https://angel-leal.com/
+  facebook:
+  picture: ../images/profile/Angel_Leal.jpg
+  stories:
+  - storytitle:
+    storylink:
+  poems:
+  - poemtitle: she brings me waves, she brings me wind
+    poemlink: /she-brings-me-waves-she-brings-me-wind
+
 - id: Roderick Leeuwenhart
   idpath: "/roderick-leeuwenhart"
   bio: "Roderick Leeuwenhart writes SF from a Dutch angle and frequently dreams about East Asia. He won the 2016 Harland Awards, the Netherlands' top prize for speculative fiction. His work has been translated all the way to China. <em>The Gentlemen XVII</em> is his most recent novel, asking the question of what would have happened if the Dutch East India Company had never ceased to exist. Find him online at <a href='https://www.roderickleeuwenhart.nl'>www.roderickleeuwenhart.nl</a>"
@@ -1679,11 +1733,14 @@
 
 - id: Elizabeth R McClellan
   idpath: "/elizabeth-r-mcclellan"
-  bio: 'Elizabeth R. McClellan is a white disabled neurospicy gender/queer sapphic demisexual poet writing on unceded Quapaw and Chickasha Yaki land. Kans work has 
-    appeared in many venues including <em>Nightmare Magazine</em>, <em>Dracula: Beyond Stoker</em>, <em>Strange Horizons</em>, <em>Utopia Science Fiction</em> and 
-    many others including the Bram Stoker Award-nominated anthology <em>MOTHER: TALES OF LOVE & TERROR</em>. Ka has work forthcoming 
-    in <em>Worlds of Possibility</em>, <em>Corvid Queen</em> and the <em>SALT, SAND, BLOOD</em> anthology. Ka can be found on most social media 
-    as <a href="https://twitter.com/popelizbet">@popelizbet</a> and on Patreon as <a href="https://www.patreon.com/ermcclellan">ermcclellan</a>.'
+  bio: 'Elizabeth R. McClellan is a white disabled gender/queer neurospicy demisexual lesbian poet writing on unceded Quapaw and Chikshaka 
+    Yaki land. Kan work has appeared in many venues since 2009, including <em>Strange Horizons</em>, <em>Nightmare 
+    Magazine</em>, <em>Kaleidotrope</em>, and most recently the <em>light ’em up</em> anthology available now from fifth wheel press, the November 
+    issue of <em>beestung</em> and the December art issue of <em>Utopia Science Fiction</em>. Kan work is forthcoming in <em>libre lit</em>. Kan 
+    debut collection of found poetry, <em>IS MY CHAINSAW A HEART: 13 CENTOS</em>, is available now from kith books. In kan other life, ka 
+    is an attorney and the creator of the Lou Swain Memorial Fund for Mid-South Immigration Advocates to assist immigrant and refugees 
+    experiencing domestic and sexual violence or family separation. Find ka on social media as @popelizbet and visit 
+    <a href="https://miamemphis.org/">miamemphis.org</a> to assist in the work.'
   twitter: popelizbet
   url:
   facebook:
@@ -1694,6 +1751,8 @@
   poems:
   - poemtitle: "What You Find at the Center"
     poemlink: /what-you-find-at-the-center
+  - poemtitle: "Anchor Spindrift"
+    poemlink: /anchor-spindrift    
 
 - id: Claire McNerney
   idpath: "/claire-mcnerney"
@@ -2050,12 +2109,13 @@
 
 - id: H.V. Patterson
   idpath: "/h-v-patterson"
-  bio: "H.V. Patterson (she/her) lives in Oklahoma and writes speculative fiction and poetry. She's a cofounder of Horns and Rattles Press and runs Dreadfulesque. 
-    She has stories and poems recently published or upcoming with Sliced Up Press, Creature Publishing, Flame Tree Press, Eerie River, <em>Flash Fiction Online</em>, <em>Diet 
-    Milk Magazine</em>, and Black Spot Books. She loves reading and writing about myth and folklore, spooky science, and weird lifeforms. Find her on 
-    Twitter <a href='https://twitter.com/ScaryShelley'>@ScaryShelley</a> and on Instagram <a href='https://www.instagram.com/hvpattersonwriter'>@hvpattersonwriter</a>."
+  bio: 'H.V. Patterson (she/her) is a speculative poet, fiction writer, and playwright living in Oklahoma. Poetry credits 
+    include <em>ETTT</em>, <em>Star*Line</em>, <em>Small Wonders</em> and anthologies from Sliced Up Press, Angry Gable Press, and 
+    Black Spot Books. Her poem "Mother; Microbes" was selected for the inaugural Brave New Weird anthology from Tenebrous Press. 
+    She’s a cofounder of Horns and Rattles Press, and you can find her on X: <a href="https://twitter.com/ScaryShelley">@ScaryShelley</a>, 
+    Instagram: <a href="https://www.instagram.com/hvpattersonwriter">@hvpattersonwriter</a>, or at <a href="https://hvpatterson.com/">hvpatterson.com</a>.'
   twitter: ScaryShelley
-  url:
+  url: https://hvpatterson.com/
   facebook:
   picture: ../images/profile/H_V_Patterson.jpg
   stories:
@@ -2064,6 +2124,8 @@
   poems:
   - poemtitle: "Ourasphaira giraldae Awakens"
     poemlink: /ourasphaira-giraldae-awakens
+  - poemtitle: "Cryptid Sister"
+    poemlink: /cryptid-sister
 
 - id: the_people
   idpath: "/the_people"
@@ -2208,7 +2270,7 @@
 - id: TJ Price
   idpath: "/t-j-price"
   bio: "TJ Price’s corporeal being is currently located in Raleigh, NC, where he lives with his handsome partner of many years, but his ghosts can be found in northeastern Connecticut, southern Maine, and north Brooklyn. He is the author of <em>The Disappearance of Tom Nero</em>, a novelette, and has work published in venues such as <em>Nightmare Magazine</em>, <em>PseudoPod</em>, and <em>Cosmic Horror Monthly</em> as well as various anthologies and assorted grimoires. He currently serves as Assistant Editor at <em>Haven Spec Magazine</em> and as editor for the recently-published anthology <em>ODD JOBS: Six Files from the Department of Inhuman Resources</em>. He can be invoked at either <a href='https://tjpricewrites.com/'>tjpricewrites.com</a>, or go to the darkest place you know and whisper his name. Please note: the author is not responsible for what may answer."
-  twitter: 'eerieyore'
+  twitter: 
   url:
   facebook:
   picture: ../images/profile/TJ_Price.jpeg
@@ -2983,6 +3045,22 @@
   poems:
   - poemtitle: Post-traumatic stress sonnet of the Indigenous archeoastronomer
     poemlink: /post-traumatic-stress-sonnet-of-the-indigenous-archeoastronomer   
+
+- id: Alex Woodroe
+  idpath: "/alex-woodroe"
+  bio: 'Alex Woodroe is a Romanian writer and editor of dark speculative fiction. She’s the author of Whisperwood, and has several short 
+    stories and articles published in venues like <em>Horror Library</em>, <em>Nightmare Magazine</em>, and <em>The NoSleep Podcast</em>. Alex 
+    lives in the heart of the Transylvanian region of Romania and is the Shirley Jackson Award-nominated Editor-in-Chief of Tenebrous Press.'
+  twitter:
+  url: https://alexwoodroe.com/
+  facebook:
+  picture: ../images/profile/Alex_Woodroe.jpg
+  stories:
+  - storytitle: Visions of Althea
+    storylink: /visions-of-althea
+  poems:
+  - poemtitle:
+    poemlink:   
 
 - id: G.E. Woods
   idpath: "/g-e-woods"

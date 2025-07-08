@@ -8,7 +8,7 @@ shortdescription: "Everybody said Black Shuck was a great big fearsome devil, bu
 category: FICTION
 date: "2025-03-17T01:14:00.000Z"
 path: "/handsomest-gentlest"
-featured: true
+featured: false
 available: true
 
 ---

@@ -39,7 +39,7 @@ const newsLetter = (props) => {
                     <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
                   </Link> */}
                   <p>
-                    This is where you could sign up for our newsletter. You know, if we had one. Maybe in 2024?
+                    This is where you could sign up for our newsletter. You know, if we had one. Maybe in 2026?
                   </p>
                 </div>
               </div>
