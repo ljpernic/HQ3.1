@@ -35,9 +35,6 @@ const Forms = (props) => {
               </div>
               <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
                 <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
                   <p>
                     We are no longer using this page as our submission page! Instead, you should go 
                     to <a href='https://acolyte.media'>acolyte.media</a> and submit something there.

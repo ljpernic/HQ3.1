@@ -36,9 +36,6 @@ const Subscribe = (props) => {
 
                 <div className='bio-bottom-margin' style={{borderBottom:'none', paddingBottom:'0px'}}>                
                 <div className='content-div-dynamic'>
-                  {/* <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                    </Link> */}
 
             <h3 className="title-static-no-border">
               Subscribe

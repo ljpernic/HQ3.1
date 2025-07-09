@@ -35,9 +35,6 @@ const newsLetter = (props) => {
               </div>
               <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
               <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
                   <p>
                     This is where you could sign up for our newsletter. You know, if we had one. Maybe in 2026?
                   </p>

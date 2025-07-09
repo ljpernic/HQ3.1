@@ -34,9 +34,6 @@ const Rejectomancy = (props) => {
                 </div>
              <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
                 <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                  {/* <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                    </Link> */}
             <p>
               We think feedback is important, and while we get too many submissions to offer notes on most of what we see, we try to structure our rejection letters 
               so you have some idea what we were thinking when we declined a story.

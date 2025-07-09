@@ -5,7 +5,7 @@ import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
-import Image from 'gatsby-image';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Advertisement from '../components/advertisement';
 import CurrentIssue from '../components/CurrentIssue';
 import Pagination from '../components/Pagination';
@@ -40,17 +40,15 @@ export default class archiveAuthor extends React.Component {
                   <div className='title-static-border'>
                     <h4>CONTRIBUTORS</h4>
                   </div>
-                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
-                    <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
-                    </Link>
-                  </div> */}
 
                 <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
                 {posts.map(({ node: { id, idpath, bio, twitter, facebook, url, picture } }) => (
                   <div key={id} className="content-div-dynamic">
                     <div className="editorImageAbout">
-                      <Image fixed={picture.childImageSharp.fixed} />
+                      <GatsbyImage
+                        image={getImage(picture)}
+                        alt="Author Image"
+                      />
                       <div className="side-block">
                       {twitter && <a className='social-icon' href={`https://www.twitter.com/${twitter}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaTwitter /></IconContext.Provider></a>}
                           {facebook && <a className='social-icon' href={`https://www.facebook.com/${facebook}`}><IconContext.Provider value={{ className:"", color: "", size: ".7em", title:"social media icons"}}><FaFacebook /></IconContext.Provider></a>}
@@ -89,9 +87,7 @@ export const archiveAuthorQuery = graphql`
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {
-        fixed(height: 60) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(height: 80, placeholder: BLURRED, formats: [AUTO, WEBP])
       }
     }
     allAuthorYaml(limit: $limit, skip: $skip) {
@@ -106,12 +102,12 @@ export const archiveAuthorQuery = graphql`
           url
           picture {
             childImageSharp {
-              fixed(width: 200) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                width: 200
+                height: 200
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
         }

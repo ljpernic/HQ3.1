@@ -5,7 +5,7 @@ import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
-import Image from 'gatsby-image';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Advertisement from '../components/advertisement';
 import CurrentIssue from '../components/CurrentIssue';
 
@@ -19,7 +19,7 @@ const Eachauthor = props => {
 
   // Find the author object based on idname
   const author = frontmatter.authors.find(author => author.id === idname);
-  console.log("author: " + JSON.stringify(author))
+//  console.log("author: " + JSON.stringify(author))
 
   if (!author) {
     // Handle case where author with idname is not found
@@ -61,8 +61,9 @@ const Eachauthor = props => {
                 <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
                   <div className="content-div-dynamic" style={{borderBottom:'none'}}>
                     <div className="editorImageAbout">
-                      <Image
-                        fixed={author.picture.childImageSharp.fixed}
+                      <GatsbyImage
+                        image={getImage(author.picture)}
+                        alt="Author picture"
                       />
                   <div className="side-block">
                     {author.twitter && (
@@ -114,19 +115,7 @@ const Eachauthor = props => {
                 )}
                   </div>
                 </div>
-
-
-
-
-
-                {/* <Link to="/subscribe">
-                  <Image className="advertLong"
-                    fixed={advertLong.childImageSharp.fixed}
-                  />
-                </Link> */}
-
               </div>
-
             </div>
           </div>
         </div>
@@ -137,14 +126,6 @@ const Eachauthor = props => {
 
 export const query = graphql`
   query($idname: String!) {
-    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     markdownRemark(frontmatter: {authors: {elemMatch: {id: {eq: $idname}}}}) {
       frontmatter {
         available
@@ -159,12 +140,12 @@ export const query = graphql`
           url
           picture {
             childImageSharp {
-              fixed(height: 200, width: 200) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                height: 200
+                width: 200
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
           stories {
@@ -181,12 +162,12 @@ export const query = graphql`
           artist
           artistimage {
             childImageSharp {
-              fixed(width: 200) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                height: 200
+                width: 200
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
           artistbio 

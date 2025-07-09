@@ -4,12 +4,13 @@ import SEO from '../../components/SEO';
 import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
-import Image from "gatsby-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Advertisement from '../../components/advertisement';
 import CurrentIssue from '../../components/CurrentIssue';
 
 const Submit = (props) => {
   const data = props.data;
+//  console.log(JSON.stringify('data: ' + data))
   return (
     <Layout bodyClass="page-home">
       <SEO title="Haven Spec Magazine, Submission Page" image={SEO_image} alt="Haven Spec Magazine, Submit Page Image" />
@@ -36,9 +37,6 @@ const Submit = (props) => {
 
             <div className='bio-bottom-margin' style={{borderBottom:'none', paddingBottom:'0px'}}>                                
                 <div className='content-div-dynamic'>
-                  {/* <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                    </Link> */}
                     <h3 className='title-static-no-border'>
                       Submissions Schedule
                     </h3>
@@ -229,9 +227,11 @@ const Submit = (props) => {
             <h3 className="title-static-no-border">
               Themes
             </h3>
-            <Image className="editorImageAbout"
-              fixed={data.wetCover.childImageSharp.fixed}
-            />
+              <GatsbyImage
+                className="editorImageAbout"
+                image={getImage(data.wetCover)}
+                alt="Wet Issue Cover"
+              />
             <h5>
               WET ISSUE
             </h5>
@@ -243,9 +243,11 @@ const Submit = (props) => {
               To submit a story for the theme, make sure to mention in your cover letter how your submission relates to the theme and, if you'd like, how you've been personally 
               affected by the crisis at hand. Submissions by climate refugees are very welcome. 
             </p><br />
-            <Image className="editorImageAbout"
-              fixed={data.dryCover.childImageSharp.fixed}
-            />
+              <GatsbyImage
+                className="editorImageAbout"
+                image={getImage(data.dryCover)}
+                alt="Dry Issue Cover"
+              />
             <h5>
               DRY ISSUE
             </h5>
@@ -286,25 +288,19 @@ export const query = graphql`
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(height: 60, layout: FIXED, placeholder: BLURRED)
       }
     }
     wetCover: file(relativePath: {eq: "wet_cover.jpg"}) {
       id
       childImageSharp {
-        fixed(width:150) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 150, layout: FIXED, placeholder: BLURRED)
       }
     }
     dryCover: file(relativePath: {eq: "dry_cover.jpg"}) {
       id
       childImageSharp {
-        fixed(width:150) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 150, layout: FIXED, placeholder: BLURRED)
       }
     }
   }

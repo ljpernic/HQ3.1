@@ -5,7 +5,6 @@ import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from 'lines-to-paragraphs';
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
-import Image from 'gatsby-image';
 import Advertisement from '../components/advertisement';
 import CurrentIssue from '../components/CurrentIssue';
 import Pagination from '../components/Pagination';
@@ -14,7 +13,7 @@ export default class ArchiveContent extends React.Component {
   render() {
     const { data, pageContext } = this.props;
     const posts = data.allMarkdownRemark.edges;
-    console.log(posts[0].node.frontmatter.authors[0].id)
+//    console.log(posts[0].node.frontmatter.authors[0].id)
     const { currentPage, pagination, category } = pageContext;
 
     const basePath = category.toLowerCase();
@@ -37,11 +36,6 @@ export default class ArchiveContent extends React.Component {
                 <div className='title-static-border'>
                     <h4>{category}</h4>
                   </div>
-                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
-                    <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
-                    </Link>
-                  </div> */}
 
                   <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
                   {posts

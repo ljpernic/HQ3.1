@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Image from 'gatsby-image';
 import Helmet from 'react-helmet';
 import Advertisement from '../components/advertisement';
@@ -14,11 +15,15 @@ const Eachpost = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark;
   const { title, authors, issue, category } = frontmatter;
 
+//  console.log(JSON.stringify('authors: ' + JSON.stringify(authors)))  
+  const coverImage = getImage(issue.issuecover);
+
   const renderAuthor = (author) => {
     const twitterLink = author.twitter ? `https://www.twitter.com/${author.twitter}` : null;
     const facebookLink = author.facebook ? `https://www.facebook.com/${author.facebook}` : null;
     const urlLink = author.url ? author.url : null;
-
+    const authorImage = getImage(author.picture);
+   
     const displayTwitter = twitterLink ? (
       <a className='social-icon' href={twitterLink}>
         <IconContext.Provider value={{ className: "", color: "", size: ".7em", title: "social media icons" }}>
@@ -43,23 +48,28 @@ const Eachpost = ({ data }) => {
       </a>
     ) : null;
 
-    return (
-
-<div className='bio-bottom-margin' style={{borderBottom:'none'}}>
-<div className="content-div-dynamic">
-      <div key={author.id} className="editorImageAbout">
-        <Image fixed={author.picture.childImageSharp.fixed} className="author-picture" />
-        <div className="social-icons">
+return (
+    <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
+      <div className="content-div-dynamic">
+        <div key={author.id} className="editorImageAbout">
+          {authorImage && (
+            <GatsbyImage
+              image={authorImage}
+              className="author-picture"
+              alt={`Photo of ${author.id}`}
+            />
+          )}
+          <div className="social-icons">
             {displayTwitter}
             {displayFacebook}
             {displayUrl}
-         </div>
+          </div>
         </div>
-          <h3 className='title-static-no-border-inline'>
-            <Link to={author.idpath}>{author.id}</Link>
-          </h3>
-          <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
-        {author.stories && author.stories[0].storytitle && (
+        <h3 className='title-static-no-border-inline'>
+          <Link to={author.idpath}>{author.id}</Link>
+        </h3>
+        <span dangerouslySetInnerHTML={{ __html: paragraphs(author.bio) }} />
+        {author.stories && author.stories[0]?.storytitle && (
           <div className="author-stories">
             <h5 className="title-static-no-border" style={{width:'100%', textAlign:'left'}}>Fiction by {author.id}</h5>
             <ul>
@@ -69,7 +79,7 @@ const Eachpost = ({ data }) => {
             </ul>
           </div>
         )}
-        {author.poems && author.poems[0].poemtitle && (
+        {author.poems && author.poems[0]?.poemtitle && (
           <div className="author-poems">
             <h5 className="title-static-no-border" style={{ marginTop: '40px', width:'100%', textAlign:'left' }}>Poetry by {author.id}</h5>
             <ul>
@@ -80,9 +90,9 @@ const Eachpost = ({ data }) => {
           </div>
         )}
       </div>
-      </div>
-    );
-  };
+    </div>
+  );
+};
 
   return (
     <Layout bodyClass="page-home">
@@ -97,7 +107,13 @@ const Eachpost = ({ data }) => {
             <div className="grid-container">
               <div className='one'>
                 <a href={issue.issueUrl}>
-                  <img className='currentCover' alt="Haven Spec current issue" src={issue.issuecover.childImageSharp.fixed.src} />
+                  {coverImage && (
+                    <GatsbyImage
+                      image={coverImage}
+                      className="currentCover"
+                      alt="Haven Spec current issue"
+                    />
+                  )}
                 </a>
                 <div>
                   <a className="buybutton button-primary" href={issue.issueUrl}>
@@ -146,14 +162,17 @@ const Eachpost = ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
-    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
-      id
+    advertLong: file(relativePath: { eq: "longadvertisement01.jpg" }) {
       childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(
+          height: 60
+          layout: CONSTRAINED
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]
+        )
       }
     }
+
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         available
@@ -174,12 +193,12 @@ export const query = graphql`
           }
           picture {
             childImageSharp {
-              fixed(width: 200) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 200, maxHeight: 200) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                width: 200
+                layout: CONSTRAINED
+                placeholder: BLURRED
+                formats: [AUTO, WEBP]
+              )
             }
           }
         }
@@ -189,12 +208,12 @@ export const query = graphql`
           issueUrl
           issuecover {
             childImageSharp {
-              fixed(width: 280) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                width: 280
+                layout: CONSTRAINED
+                placeholder: BLURRED
+                formats: [AUTO, WEBP]
+              )
             }
           }
         }

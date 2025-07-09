@@ -19,9 +19,6 @@ class NotFoundPage extends React.Component {
               <div>
                 <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
                 <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
                   <p>
                     The page you're looking for doesn't seem to exist.
                   </p>

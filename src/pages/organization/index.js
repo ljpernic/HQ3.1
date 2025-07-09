@@ -34,9 +34,6 @@ const Organization = (props) => {
               </div>
             <div className='bio-bottom-margin' style={{borderBottom:'none'}}>                
               <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
                   <p>
                     This page is currently undergoing an overhaul. The plan is to update this with our current organizational structure. Originally, 
                     I had wanted to make this project a co-operative, but I was pretty much by myself for the first year. By the time people were 

@@ -50,21 +50,19 @@ module.exports = {
   },
 plugins: [
   'gatsby-plugin-sass',
-  'gatsby-transformer-json',
-  'gatsby-transformer-remark',
   'gatsby-plugin-react-helmet',
-  
+  'gatsby-plugin-image',
   {
     resolve: `gatsby-plugin-sharp`,
     options: {
       defaults: {
-        formats: [`auto`, `webp`],
-        placeholder: `dominantColor`,
+        formats: [`auto`, `webp`, `avif`],
+        placeholder: `blurred`,
       },
       failOnError: false,
     },
   },
-  `gatsby-transformer-sharp`, // this one stays as a bare string
+  `gatsby-transformer-sharp`,
   `gatsby-plugin-catch-links`,
 
   {
@@ -88,8 +86,9 @@ plugins: [
       name: 'images',
     },
   },
+
   {
-    resolve: "gatsby-transformer-remark",
+    resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
         `gatsby-remark-emoji`,
@@ -98,11 +97,15 @@ plugins: [
           options: {
             maxWidth: 1200,
             quality: 80,
+            linkImagesToOriginal: true,
+            withWebp: true, // optional, still works in v3
           },
         },
       ],
     },
   },
+
+  `gatsby-transformer-json`,
   `gatsby-transformer-yaml`,
 ],
   mapping: {

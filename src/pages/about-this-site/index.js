@@ -36,9 +36,6 @@ const aboutThisSite = (props) => {
 
                 <div className='bio-bottom-margin' style={{borderBottom:'none'}}>
                 <div className='content-div-dynamic' style={{borderBottom:'none'}}>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-top" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
                   <p>
                     This site was developed from the <a href="https://www.gatsbyjs.com/starters/jugglerx/gatsby-serif-theme">gatsby serif starter</a>. It was built using 
                     gatsby.js and is used here under the MIT license. The background was taken from pixabay.

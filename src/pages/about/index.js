@@ -4,7 +4,7 @@ import SEO from '../../components/SEO';
 import SEO_image from '../../images/SEO_image.jpg';
 import Layout from '../../layouts/index';
 import Helmet from 'react-helmet';
-import Image from "gatsby-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Advertisement from '../../components/advertisement';
 import CurrentIssue from '../../components/CurrentIssue';
 
@@ -19,7 +19,7 @@ const About = ({ data }) => {
       twitter: null,
       facebook: null,
       url: "https://www.leonperniciaro.com",
-      image: data.leon.childImageSharp.fixed,
+      image: data.leon.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -29,14 +29,14 @@ const About = ({ data }) => {
       twitter: null,
       facebook: null,
       url: "https://tjpricewrites.com/",
-      image: data.tj.childImageSharp.fixed,
+    image: data.tj.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>Danai Christopoulou</strong> (she/they) is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as <em>Glamour</em> and <em>Marie Claire</em> since 2004. They are an editor for Hugo-nominated <em>khōréō</em> magazine, an assistant editor for <em>Haven Spec Magazine</em>, and an Assistant Literary Agent at Tobias Literary Agency. Their short fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, and featured in the official Nebula Reading List. Danai’s novels are represented by Lauren Bieker of FinePrint Literary.</p>",
       twitter: "https://twitter.com/Danaiwrites",
       facebook: null,
       url: null,
-      image: data.danai.childImageSharp.fixed,
+      image: data.danai.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -46,49 +46,49 @@ const About = ({ data }) => {
       twitter: "http://twitter.com/ashaquestion",
       facebook: null,
       url: null,
-      image: data.ash.childImageSharp.fixed,
+      image: data.ash.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>Rukman Ragas</strong> (they/he) writes from Sri Lanka. Their fiction is forthcoming from <em>Khoreo</em> and <em>Tasavvur</em>. He splits his time between the humid coast and the chilly mountains, both triggering different allergies. </p><p>They can be found on twitter <a href='https://www.twitter.com/Rukmanwrites'>@Rukmanwrites</a>, advocating for passive protagonists and retelling South Asian myths.</p>",
       twitter: "http://twitter.com/RukmanWrites",
       facebook: null,
       url: null,
-      image: data.rukman.childImageSharp.fixed,
+      image: data.rukman.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>RSL</strong> (he/they) is a scouse writer and academic whose work tends toward the weird and the absurd. He's a PhD Candidate at University of Liverpool, studying the mental health benefits of challenging fiction during challenging times. His fictional work can be read in <em>CHM</em> and <em>Vastarien</em>, as well as a few forthcoming pieces in journals. </p><p>You can find them complaining about money (or gushing about art) on Twitter as <a href='https://www.twitter.com/RSLjnr'>@RSLjnr</a> and insta as <a href='https://www.instagram.com/awayout92'>@awayout92</a>.</p>",
       twitter: "http://twitter.com/RSLjnr",
       facebook: null,
       url: null,
-      image: data.rsl.childImageSharp.fixed,
+      image: data.rsl.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>L.T. Williams</strong> can’t seem to escape mountains — whether it's the mountain of his TBR list, the Appalachians where he grew up, or the Ozarks where he moved to after college. L.T.'s love for speculative fiction also started in the mountains, where the folk tales, urban legends, and cryptid stories of Appalachia inspired him to pick up the pen and start creating some of his own. His stories have been published—or are forthcoming—in <em>Chthonic Matter Quarterly</em>, <em>Tales to Terrify</em>, and <em>Shotgun Honey</em>, among others. When not writing, L.T. spends his time climbing rocks, hiking, playing board games, and studying ancient tomes from outer space. You can find him at <a href='https://ltwilliamswriter.com/'>ltwilliamswriter.com</a> or in the nearest body of water looking for frogs.",
       twitter: null,
       facebook: null,
       url: "https://ltwilliamswriter.com",
-      image: data.ltwilliams.childImageSharp.fixed,
+      image: data.lt.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>Pauline Chow</strong> writes speculative fiction to explore alternative histories and possible futures. Not your average data scientist she once sued slumlords and advocated for affordable housing as a legal aid attorney. She lives in the woods and is planning her next trip to a historical (and hopefully haunted) hotel. Her words are in <em>Cosmic Horror Monthly</em>, <em>Apocalypse Confidential</em>, <em>Space and Time Magazine</em>, and more. Find her at <a href='https://paulinechowstories.com/'>www.paulinechowstories.com</a> and <a href='https://bsky.app/profile/paulinechow.bsky.social'>paulinechow.bsky.social</a>.",
       twitter: null,
       facebook: null,
       url: 'https://paulinechowstories.com/',
-      image: data.pauline.childImageSharp.fixed,
+      image: data.pauline.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>Faith Allington</strong> (she/her) is a genre-blending writer in Seattle, where she admires fungi and drinks too much tea. Her work appears or is forthcoming in <em>Flash Fiction Online</em>, <em>Haven Spec Magazine</em>, <em>Kaleidotrope</em>, and <em>Apex</em>. She can be found at <a href='https://www.faithallington.com/'>www.faithallington.com</a>.",
       twitter: null,
       facebook: null,
       url: 'https://www.faithallington.com/',
-      image: data.faith.childImageSharp.fixed,
+      image: data.faith.childImageSharp.gatsbyImageData,
     },
     {
       bio: "<p><strong>K. A. Roy</strong> (she/her) haunts the suburbs of Chicago alongside her family and three cats. Her stories have been featured at From Beyond Press, Shotgun Honey, Creepy Podcast, Malarkey Books, Spindle House, and more. Her work has been shortlisted for Brave New Weird through Tenebrous Press. She is represented by Eric Smith at Neighborhood Literary. Find her at <a href='https://kayleighroywrites.com/'>kayleighroywrites.com</a>.",
       twitter: null,
       facebook: null,
       url: 'https://kayleighroywrites.com/',
-      image: data.ka.childImageSharp.fixed,
+      image: data.ka.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -126,9 +126,6 @@ const About = ({ data }) => {
                 <p className='p-top'><i><b>Haven Spec</b></i> is a speculative fiction magazine featuring stories and poems for a 21st century audience. We love stories with a sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined).</p>
                 <p>The crisis facing our planet is immediate and all-encompassing, and it will affect people of color, people living in poverty, and the working classes most of all. The popular metaphor is going over a cliff, but we prefer the tempest, the torrent, the flood. The waters are rising, but we can save ourselves.</p>
                 <p className='p-bottom'>It's not too late.</p>
-                {/* <Link to="/subscribe">
-                    <Image className="advertLong-bottom" fixed={data.advertLong.childImageSharp.fixed} />
-                  </Link> */}
               </div>
 
             {/* ABOUT THE EDITORS SECTION */}
@@ -137,64 +134,69 @@ const About = ({ data }) => {
             </div>
 
             <div className='bio-bottom-margin'>
-                {headEditors.map((headEditor, index) => (
+              {headEditors.map((headEditor, index) => {
+                const image = getImage(headEditor.image);
+                return (
                   <div key={index} className="content-div-static">
                     <div className="editorImageAbout">
-                      <Image fixed={headEditor.image} />
+                      {image && <GatsbyImage image={image} alt={`Photo of ${headEditor.id || 'editor'}`} />}
                       <div className="side-block">
                         {renderSocialIcon(headEditor.twitter, FaTwitter)}
                         {renderSocialIcon(headEditor.facebook, FaFacebook)}
                         {renderSocialIcon(headEditor.url, FaLink)}
                       </div>
                     </div>
-                      <span dangerouslySetInnerHTML={{ __html: headEditor.bio }} />
+                    <span dangerouslySetInnerHTML={{ __html: headEditor.bio }} />
                   </div>
-                ))}
-                </div>
+                );
+              })}
+            </div>
 
 
               {/* ABOUT THE ASSISTANT EDITORS SECTION */}
               <div className='title-static-no-border'>
               <h4>About the Assistant Editors</h4>
               </div>
-              <div className='bio-bottom-margin' style={{paddingBottom:'0px'}}>
-                {assistantEditors.map((assistantEditor, index) => (
-                  <div key={index} className="content-div-static" style={{paddingBottom:'40px'}}>
-                    <div className="editorImageAbout">
-                      <Image fixed={assistantEditor.image} />
-                      <div className="side-block">
-                        {renderSocialIcon(assistantEditor.twitter, FaTwitter)}
-                        {renderSocialIcon(assistantEditor.facebook, FaFacebook)}
-                        {renderSocialIcon(assistantEditor.url, FaLink)}
+              <div className='bio-bottom-margin'>
+                {assistantEditors.map((assistantEditor, index) => {
+                  const image = getImage(assistantEditor.image);
+                  return (
+                    <div key={index} className="content-div-static">
+                      <div className="editorImageAbout">
+                        {image && <GatsbyImage image={image} alt={`Photo of ${assistantEditor.id || 'assistant editor'}`} />}
+                        <div className="side-block">
+                          {renderSocialIcon(assistantEditor.twitter, FaTwitter)}
+                          {renderSocialIcon(assistantEditor.facebook, FaFacebook)}
+                          {renderSocialIcon(assistantEditor.url, FaLink)}
+                        </div>
                       </div>
+                      <span dangerouslySetInnerHTML={{ __html: assistantEditor.bio }} />
                     </div>
-                  <div>
-                    <span dangerouslySetInnerHTML={{ __html: assistantEditor.bio }} />
-                  </div>
-                </div>
-                ))}
+                  );
+                })}
               </div>
               
               {/* ABOUT THE ASSISTANT EDITORS SECTION */}
               <div className='title-static-no-border'>
                 <h4>About the Associate Editors</h4>
               </div>
-              <div className='bio-bottom-margin' style={{paddingBottom:'0px'}}>
-                {associateEditors.map((associateEditor, index) => (
-                  <div key={index} className="content-div-static" style={{paddingBottom:'40px'}}>
-                    <div className="editorImageAbout">
-                      <Image fixed={associateEditor.image} />
-                      <div className="side-block">
-                        {renderSocialIcon(associateEditor.twitter, FaTwitter)}
-                        {renderSocialIcon(associateEditor.facebook, FaFacebook)}
-                        {renderSocialIcon(associateEditor.url, FaLink)}
+              <div className='bio-bottom-margin'>
+                {associateEditors.map((associateEditor, index) => {
+                  const image = getImage(associateEditor.image);
+                  return (
+                    <div key={index} className="content-div-static">
+                      <div className="editorImageAbout">
+                        {image && <GatsbyImage image={image} alt={`Photo of ${associateEditor.id || 'assistant editor'}`} />}
+                        <div className="side-block">
+                          {renderSocialIcon(associateEditor.twitter, FaTwitter)}
+                          {renderSocialIcon(associateEditor.facebook, FaFacebook)}
+                          {renderSocialIcon(associateEditor.url, FaLink)}
+                        </div>
                       </div>
+                      <span dangerouslySetInnerHTML={{ __html: associateEditor.bio }} />
                     </div>
-                  <div>
-                    <span dangerouslySetInnerHTML={{ __html: associateEditor.bio }} />
-                  </div>
-                </div>
-                ))}
+                  );
+                })}
               </div>
 
               <div className='title-static-no-border'>
@@ -242,79 +244,57 @@ export const query = graphql`
     advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
       id
       childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(height: 60, layout: FIXED, placeholder: BLURRED)
       }
     }
     leon: file(relativePath: { eq: "profile/Leon_Perniciaro.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     tj: file(relativePath: { eq: "profile/TJ_Price.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     danai: file(relativePath: { eq: "profile/Danai_Christopoulou.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     rukman: file(relativePath: { eq: "profile/Rukman_Ragas.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
-    ltwilliams: file(relativePath: { eq: "profile/L_T_Williams.jpg" }) {
+    lt: file(relativePath: { eq: "profile/L_T_Williams.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     rsl: file(relativePath: { eq: "profile/RSL.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     pauline: file(relativePath: { eq: "profile/Pauline_Chow.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
     faith: file(relativePath: { eq: "profile/Faith_Allington.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }            
     ka: file(relativePath: { eq: "profile/K_A_Roy.jpg" }) {
       childImageSharp {
-        fixed(width: 180, height: 180) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }            
   }

@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby';
 import SEO from '../components/SEO';
 import SEO_image from '../images/SEO_image.jpg';
 import Layout from '../layouts/index';
-import Image from 'gatsby-image';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Helmet from 'react-helmet';
 import paragraphs from "lines-to-paragraphs";
 import Advertisement from '../components/advertisement';
@@ -12,14 +12,15 @@ import { FaTwitter, FaFacebook, FaLink } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 const Eachissue = props => {
-  const { markdownRemark, allMarkdownRemark, advertLong } = props.data;
+  const { markdownRemark, allMarkdownRemark } = props.data;
   const { pageContext } = props;
   const { issueidname, issueUrl, text, artist, artistbio, artistTwitter, artistFacebook, artistUrl } = pageContext;
 
-  const { frontmatter, html } = markdownRemark;
-  const { title, authors, issue, category } = frontmatter;
+  const { frontmatter } = markdownRemark;
+  const { authors, issue } = frontmatter;
 
   const posts = allMarkdownRemark.edges;
+//  console.log('frontmatter: ' + JSON.stringify(frontmatter.issue.issuecover))
 
   // Social media links handling
   const twitterLink = artistTwitter ? `https://www.twitter.com/${artistTwitter}` : null;
@@ -37,7 +38,7 @@ const Eachissue = props => {
   const fictionHeader = posts.filter(post => post.node.frontmatter.category === "FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Fiction:</h3>;
   const poetryHeader = posts.filter(post => post.node.frontmatter.category === "POETRY" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Poetry:</h3>;
   const nonFictionHeader = posts.filter(post => post.node.frontmatter.category === "NON-FICTION" && post.node.frontmatter.issue.id === issueidname).length === 0 ? null : <h3 className='title-static-no-border' style={{fontWeight:'bold'}}>Non-Fiction:</h3>;
-
+  
   return (
     <Layout bodyClass="page-home">
       <SEO title={`${issueidname}, Haven Spec Magazine`} image={SEO_image} alt="Haven Spec Magazine, Issue Page Image" />
@@ -52,10 +53,13 @@ const Eachissue = props => {
         <div className="container">
           <div className="row2">
             <div className="grid-container">
-
               <div className='one'>
                 <a href={issueUrl}>
-                  <img className='currentCover' alt="Haven Spec current issue" src={issue.issuecover.childImageSharp.fixed.src} />
+                <GatsbyImage
+                  className="currentCover"
+                  image={getImage(issue.issuecover)}
+                  alt="Haven Spec, This Issue"
+                />
                 </a>
                 <div>
                   <a className="buybutton button-primary" href={issueUrl}>
@@ -82,9 +86,10 @@ const Eachissue = props => {
                  <div className="content-div-dynamic" style={{paddingTop:'0px'}}>
 
                   <div className="editorImageAbout">
-                    <Image
-                      fixed={issue.artistimage.childImageSharp.fixed}
-                    />
+                      <GatsbyImage
+                        image={getImage(issue.artistimage)}
+                        alt="Author picture"
+                      />
                     <div className="side-block">
                       {displayTwitter}
                       {displayFacebook}
@@ -171,13 +176,6 @@ const Eachissue = props => {
           </p>
         ))}
                       <br />
-                      {/* <div>
-                        <Link to="/subscribe">
-                          <Image className="advertLong"
-                            fixed={advertLong.childImageSharp.fixed}
-                          />
-                        </Link>
-                      </div> */}
                     </div>
                   </div>
 
@@ -192,14 +190,6 @@ const Eachissue = props => {
 
 export const query = graphql`
   query($issueidname: String!) {
-    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/.*.md$/" }}
       sort: { fields: [frontmatter___date], order: DESC }
@@ -222,12 +212,11 @@ export const query = graphql`
               idpath
               issuecover {
                 childImageSharp {
-                  fixed(width: 280) {
-                    ...GatsbyImageSharpFixed 
-                  }
-                  fluid(maxWidth: 150, maxHeight: 150) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(
+                    height: 390
+                    placeholder: BLURRED
+                    layout: FIXED
+                  )
                 }
               }
             }
@@ -246,12 +235,12 @@ export const query = graphql`
           twitter
           picture {
             childImageSharp {
-              fixed(width: 200) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                height: 200
+                width: 200
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
         }
@@ -262,22 +251,16 @@ export const query = graphql`
           artist
           artistimage {
             childImageSharp {
-              fixed(width: 150) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 150, placeholder: BLURRED, layout: FIXED)
             }
           }
           issuecover {
             childImageSharp {
-              fixed(width: 280) {
-                ...GatsbyImageSharpFixed 
-              }
-              fluid(maxWidth: 150, maxHeight: 150) {
-                ...GatsbyImageSharpFluid
-              }
+               gatsbyImageData(
+                height: 390
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
           artistbio 

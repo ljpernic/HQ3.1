@@ -5,7 +5,7 @@ import SEO_image from '../images/SEO_image.jpg';
 import paragraphs from "lines-to-paragraphs";
 import Layout from '../layouts/index';
 import Helmet from 'react-helmet';
-import Image from 'gatsby-image';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Advertisement from '../components/advertisement';
 import CurrentIssue from '../components/CurrentIssue';
 import Pagination from '../components/Pagination';
@@ -40,18 +40,15 @@ class ArchiveIssues extends React.Component {
                   <div className='title-static-border'>
                     <h4>ISSUES</h4>
                   </div>
-                  {/* <div className='intro-div-static' style={{borderBottom:'none'}}>
-                    <Link to="/subscribe">
-                      <Image className="advertLong-top" fixed={this.props.data.advertLong.childImageSharp.fixed} />
-                    </Link>
-                  </div> */}
                 </div>
 
                 <div className='bio-bottom-margin' style={{paddingBottom:'0px', borderBottom:'none'}}>
                   {issueNodes.map(({ node: issue }) => (
                     <div key={issue.id} className="content-div-dynamic">
-                      <Image className="editorImageAbout"
-                        fixed={issue.issuecover.childImageSharp.fixed}
+                      <GatsbyImage
+                        className="editorImageAbout"
+                        image={getImage(issue.issuecover)}
+                        alt="Issue Cover"
                       />
                       <h1>
                         <Link to={issue.idpath}>{issue.id}</Link>
@@ -77,14 +74,6 @@ class ArchiveIssues extends React.Component {
 
 export const archiveIssuesQuery = graphql`
   query archiveIssuesQuery($skip: Int!, $limit: Int!) {
-    advertLong: file(relativePath: {eq: "longadvertisement01.jpg"}) {
-      id
-      childImageSharp {
-        fixed(height:60) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     allIssueYaml(limit: $limit, skip: $skip) {
       edges {
         node {
@@ -93,9 +82,11 @@ export const archiveIssuesQuery = graphql`
           teaserText
           issuecover {
             childImageSharp {
-              fixed(width: 150) {
-                ...GatsbyImageSharpFixed 
-              }
+              gatsbyImageData(
+                width: 150
+                placeholder: BLURRED
+                layout: FIXED
+              )
             }
           }
         }
