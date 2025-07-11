@@ -122,7 +122,7 @@ const Submit = (props) => {
             <div className='submitGuidelines'>
               <ul>
                 <li><strong>Pay:</strong> 8¢ per word for original fiction</li>
-                <li><strong>Word limit:</strong> 5000 words</li>
+                <li><strong>Word limit:</strong> 6000 words</li>
                 <li><strong>Language:</strong> English</li>
                 <li><strong>File type:</strong> .doc, .docx, .rtf</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the story in the English 
