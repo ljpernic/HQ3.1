@@ -98,6 +98,67 @@
   border-bottom: 1px dashed blue;
 }
 
+.former-editors-wrapper {
+  display: inline-block;
+  width: 90%;
+  justify-content: center;
+  max-width: 1200px; /* or whatever your site uses */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem; /* optional for some breathing room on small screens */
+}
+
+.former-editors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 15px 25px 0px 25px;
+  justify-items: center; 
+}
+  @media (max-width: 768px) {
+  .former-editors-grid {
+    grid-template-columns: 1fr;
+    justify-items: center; /* center each item horizontally */
+  }
+}
+
+.editor-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: auto;
+  max-width: 100%;
+}
+
+.editor-image {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.editor-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.editor-info {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.editor-name {
+  font-weight: bold;
+}
+
+.editor-url a {
+  color: #007acc;
+  text-decoration: none;
+}
 
 .content-div-static {
   display: inline-block;
@@ -276,7 +337,7 @@ li .listWindow {
       flex-flow: column;
       float: none;
       align-items: center;
-      margin: 0px 0px 20px 0px;
+      margin: 20px 0px 20px 0px;
       border: none;
     }
     @include media-breakpoint-up(sm)
@@ -285,14 +346,14 @@ li .listWindow {
       flex-flow: column;
       float: none;
       align-items: center;
-      margin: 0px 0px 20px 0px;
+      margin: 20px 0px 20px 0px;
       border: none;
     }
     @include media-breakpoint-up(md)
     {
       display: grid;
       float: right;
-      margin: 0px 0px 20px 30px;
+      margin: 20px 0px 20px 30px;
       text-align: center;
       border: 2px solid black;
     }

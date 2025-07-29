@@ -42,20 +42,6 @@ const About = ({ data }) => {
 
   const associateEditors = [
     {
-      bio: "<p><strong>Ash Okada</strong> (she/they) is a speculative fiction writer and capital-N Nerd who is endlessly fascinated by story, languages, history, the human brain, and dinosaurs. Ash has worked an eclectic set of jobs over the years, from lit agency intern to video captioner and from executive assistant to bridge caddy (though not necessarily in that order), and lives in Brooklyn, NY. </p><p>When the weather's lousy, you can usually find Ash curled up with a massive cup of tea and a good book (or audiobook). When the weather's great...well, pretty much the same thing, if we're being honest.</p>",
-      twitter: "http://twitter.com/ashaquestion",
-      facebook: null,
-      url: null,
-      image: data.ash.childImageSharp.gatsbyImageData,
-    },
-    {
-      bio: "<p><strong>Rukman Ragas</strong> (they/he) writes from Sri Lanka. Their fiction is forthcoming from <em>Khoreo</em> and <em>Tasavvur</em>. He splits his time between the humid coast and the chilly mountains, both triggering different allergies. </p><p>They can be found on twitter <a href='https://www.twitter.com/Rukmanwrites'>@Rukmanwrites</a>, advocating for passive protagonists and retelling South Asian myths.</p>",
-      twitter: "http://twitter.com/RukmanWrites",
-      facebook: null,
-      url: null,
-      image: data.rukman.childImageSharp.gatsbyImageData,
-    },
-    {
       bio: "<p><strong>RSL</strong> (he/they) is a scouse writer and academic whose work tends toward the weird and the absurd. He's a PhD Candidate at University of Liverpool, studying the mental health benefits of challenging fiction during challenging times. His fictional work can be read in <em>CHM</em> and <em>Vastarien</em>, as well as a few forthcoming pieces in journals. </p><p>You can find them complaining about money (or gushing about art) on Twitter as <a href='https://www.twitter.com/RSLjnr'>@RSLjnr</a> and insta as <a href='https://www.instagram.com/awayout92'>@awayout92</a>.</p>",
       twitter: "http://twitter.com/RSLjnr",
       facebook: null,
@@ -89,6 +75,19 @@ const About = ({ data }) => {
       facebook: null,
       url: 'https://kayleighroywrites.com/',
       image: data.ka.childImageSharp.gatsbyImageData,
+    },
+  ];
+
+  const formerEditors = [
+    {
+      bio: "Ash Okada, Former Associate Editor",
+      url: "<a href='https://ashokada.wordpress.com'>ashokada.wordpress.com</a>",
+    image: data.ash.childImageSharp.gatsbyImageData,
+    },
+    {
+      bio: "Rukman Ragas, Former Associate Editor",
+      url: "<a href='https://rukmanragas.com'>rukmanragas.com</a>",
+      image: data.rukman.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -199,12 +198,45 @@ const About = ({ data }) => {
                 })}
               </div>
 
+              {/* ABOUT THE FORMER EDITORS SECTION */}
+                <div className='title-static-no-border'>
+                  <h2>Former Editors</h2>
+                </div>
+                <div className="former-editors-wrapper">
+                  <div className='former-editors-grid'>
+                    {formerEditors.map((formerEditor, index) => {
+                      const image = getImage(formerEditor.image);
+                      return (
+                        <div key={index} className="editor-card">
+                          <div className="editor-image">
+                            {image && (
+                              <GatsbyImage
+                                image={image}
+                                alt={`Photo of ${formerEditor.id || 'former editor'}`}
+                              />
+                            )}
+                          </div>
+                          <div className="editor-info">
+                            <div
+                              className="editor-name"
+                              dangerouslySetInnerHTML={{ __html: formerEditor.bio }}
+                            />
+                            <div
+                              className="editor-url"
+                              dangerouslySetInnerHTML={{ __html: formerEditor.url }}
+                            />
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
               <div className='title-static-no-border'>
                 <h4>Privacy Policy</h4>
               </div>
               <div className='intro-div-static'>
                 <p>We don't collect any information beyond simple analytics, and that's only to get a sense of how many people visit our site and access our content. Subscriptions and purchases are handled off-site, and that simplifies things nicely. We promise however to never sell any data that we collect, and this applies if you're visiting our site from anywhere on, above, or below the surface of the Earth, plus all the planets in all the solar systems in all the galaxies in this and any other universe from now until the last star fades. We hope that clears things up.</p>
-                <p>We hope that clears things up.</p>
               </div>
 
               <div className='title-static-no-border'>
@@ -262,16 +294,6 @@ export const query = graphql`
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
-    ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
-      childImageSharp {
-        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
-      }
-    }
-    rukman: file(relativePath: { eq: "profile/Rukman_Ragas.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
-      }
-    }
     lt: file(relativePath: { eq: "profile/L_T_Williams.jpg" }) {
       childImageSharp {
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
@@ -296,7 +318,17 @@ export const query = graphql`
       childImageSharp {
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
-    }            
+    }
+    ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
+      childImageSharp {
+        gatsbyImageData(width: 60, height: 60, layout: FIXED, placeholder: BLURRED)
+      }
+    }
+    rukman: file(relativePath: { eq: "profile/Rukman_Ragas.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 60, height: 60, layout: FIXED, placeholder: BLURRED)
+      }
+    }
   }
 `;
 
