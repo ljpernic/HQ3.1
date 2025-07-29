@@ -100,12 +100,13 @@
 
 .former-editors-wrapper {
   display: inline-block;
-  width: 90%;
+  width: 85%;
   justify-content: center;
   max-width: 1200px; /* or whatever your site uses */
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem; /* optional for some breathing room on small screens */
+  padding-bottom: 40px;  
+  border-bottom: 1px dashed blue;
 }
 
 .former-editors-grid {
@@ -132,8 +133,8 @@
 
 .editor-image {
   flex-shrink: 0;
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
   overflow: hidden;
   border-radius: 50%;
 }

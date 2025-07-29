@@ -200,7 +200,7 @@ const About = ({ data }) => {
 
               {/* ABOUT THE FORMER EDITORS SECTION */}
                 <div className='title-static-no-border'>
-                  <h2>Former Editors</h2>
+                  <h4>Former Editors</h4>
                 </div>
                 <div className="former-editors-wrapper">
                   <div className='former-editors-grid'>
@@ -321,12 +321,12 @@ export const query = graphql`
     }
     ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
       childImageSharp {
-        gatsbyImageData(width: 60, height: 60, layout: FIXED, placeholder: BLURRED)
+        gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
       }
     }
     rukman: file(relativePath: { eq: "profile/Rukman_Ragas.jpg" }) {
       childImageSharp {
-        gatsbyImageData(width: 60, height: 60, layout: FIXED, placeholder: BLURRED)
+        gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
       }
     }
   }
