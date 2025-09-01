@@ -18,18 +18,46 @@ const Advertisement = () => {
   const [shuffledArray, setShuffledArray] = useState([]);
 
   useEffect(() => {
-    const imgArray = [advert01, advert02, advert03];
+    const imgArray = [
+      { src: advert01, href: "https://www.amazon.com/Mermaids-Wrath-Laughter-Sun-Book-ebook/dp/B0DMSRMCSW/" },
+      { src: advert02, href: "https://www.saltheartpress.com/between-doorways" },
+      { src: advert03, href: "/subscribe" } // internal page
+    ];
     setShuffledArray(shuffle(imgArray));
   }, []);
+
+  const renderAdLink = (ad) => {
+    const isInternal = ad.href.startsWith('/');
+    if (isInternal) {
+      return (
+        <Link to={ad.href}>
+          <img
+            className="advertisement"
+            alt="Haven Spec advertisement"
+            src={ad.src}
+            loading="lazy"
+          />
+        </Link>
+      );
+    }
+    return (
+      <a href={ad.href} target="_blank" rel="noopener noreferrer">
+        <img
+          className="advertisement"
+          alt="Haven Spec advertisement"
+          src={ad.src}
+          loading="lazy"
+        />
+      </a>
+    );
+  };
 
   return (
     <div>
       {shuffledArray.map((ad, index) => (
         <div key={index}>
-          <Link to="/subscribe">
-            <img className='advertisement' alt="Haven Spec advertisement" src={ad} loading="lazy" />
-          </Link>
-          <h6 className='title-static-no-border'>ADVERT</h6>
+          {renderAdLink(ad)}
+          <h6 className="title-static-no-border">ADVERT</h6>
         </div>
       ))}
     </div>
