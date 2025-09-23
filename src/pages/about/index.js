@@ -76,6 +76,13 @@ const About = ({ data }) => {
       url: 'https://kayleighroywrites.com/',
       image: data.ka.childImageSharp.gatsbyImageData,
     },
+    {
+      bio: "<p><strong>ghazal</strong> is an Iranian writer and translator. They are a puppetry postgrad and an avid fan of books, fashion, horror, and cats (big animal enthusiast overall). They've worked with several magazines based in Iran and are now trying to get their grubby little hands on THE WORLD. You can find them never checking instagram on <a href='https://www.instagram.com/sighbugs/'>@sighbugs</a>.",
+      twitter: null,
+      facebook: null,
+      url: null,
+      image: data.ghazal.childImageSharp.gatsbyImageData,
+    },
   ];
 
   const formerEditors = [
@@ -319,6 +326,11 @@ export const query = graphql`
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
+    ghazal: file(relativePath: { eq: "profile/ghazal.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
+      }
+    }                  
     ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
       childImageSharp {
         gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)

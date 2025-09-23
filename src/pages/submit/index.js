@@ -126,7 +126,7 @@ const Submit = (props) => {
             <div className='submitGuidelines'>
               <ul>
                 <li><strong>Pay:</strong> 8¢ per word for original fiction</li>
-                <li><strong>Word limit:</strong> 6000 words</li>
+                <li><strong>Word limit:</strong> 5000 words</li>
                 <li><strong>Language:</strong> English</li>
                 <li><strong>File type:</strong> .doc, .docx, .rtf</li>
                 <li><strong>Rights:</strong> We buy first serial print and electronic rights for publication of the story in the English 
@@ -153,8 +153,8 @@ const Submit = (props) => {
               Guidelines for Poetry
             </h3>
             <p>
-              We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc), but we're not against blank or 
-              free verse. Most important to us is vivid imagery, clever lyricism, and a strong emotional core. For our two issues focused 
+              We like poems that use complex fixed verse forms (think sestina, awdl gywydd, masnavi, etc) as well as free verse. 
+              Most important to us is vivid imagery, clever lyricism, and a strong emotional core. For our two issues focused 
               on the climate crisis, we're particularly interested in publishing poems from people displaced by or threatened by the 
               climate emergency (see our themes below). For our other four issues, we're open to a wide variety of poems across the SFF 
               and weird spectra.
