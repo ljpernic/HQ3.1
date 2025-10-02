@@ -15,7 +15,7 @@ const About = ({ data }) => {
 
   const headEditors = [
     {
-      bio: "<p><strong>Leon Perniciaro</strong> (he/him) is the editor of Haven Spec Magazine, an English PhD candidate at the University of Connecticut, and a member of the Game Design and Development faculty at Quinnipiac University. His academic research centers on intersections of Indigeneity, race, and the environment, especially through rhetorics of apocalypse, forms of material and social extraction, and the various ways that settler society attempts to claim Indigeneity for itself. Outside of academia, he's published several short stories and is heavily involved in the Indigenous community organization Ho Minti Society and the Yamá language revival project. A citizen of the Choctaw-Apache Tribe of Ebarb and a New Orleanian, he now resides in New England, where he's terrified of both the climate crisis and the Great Filter. Follow him on Bluesky <a href='https://bsky.app/profile/leonp.bsky.social'>@leonp</a>.</p>",
+      bio: "<p><strong>Leon Perniciaro</strong> (he/him) is the editor of Haven Spec Magazine, an English PhD candidate at the University of Connecticut, and a part-time faculty member of the Game Design and Development program at Quinnipiac University. His academic research centers on intersections of Indigeneity, race, and the environment, and he's currently working on a dissertation about apocalypse and extraction. Outside of academia, he's published several short stories and is heavily involved in the Indigenous community organization Ho Minti Society and the Yamá language revival project. A citizen of the Choctaw-Apache Tribe of Ebarb and a New Orleanian, he now resides in New England, where he's terrified of both the climate crisis and the Great Filter. Follow him on Bluesky <a href='https://bsky.app/profile/leonp.bsky.social'>@leonp</a>.</p>",
       twitter: null,
       facebook: null,
       url: "https://www.leonperniciaro.com",
@@ -32,11 +32,11 @@ const About = ({ data }) => {
     image: data.tj.childImageSharp.gatsbyImageData,
     },
     {
-      bio: "<p><strong>Danai Christopoulou</strong> (she/they) is a queer Greek SFF author and editor. Danai’s nonfiction has appeared in publications such as <em>Glamour</em> and <em>Marie Claire</em> since 2004. They are an editor for Hugo-nominated <em>khōréō</em> magazine, an assistant editor for <em>Haven Spec Magazine</em>, and an Assistant Literary Agent at Tobias Literary Agency. Their short fiction has been published in <em>khōréō</em>, <em>Fusion Fragment</em> and others, nominated for a Pushcart Prize, and featured in the official Nebula Reading List. Danai’s novels are represented by Lauren Bieker of FinePrint Literary.</p>",
-      twitter: "https://twitter.com/Danaiwrites",
+      bio: "<p><strong>Jessica Peter</strong> writes dark, haunted, and sometimes absurd short stories, novels, and poems. A social worker and health researcher, she lives in Hamilton, Ontario, Canada. Her writing can be found in <em>Apparition Literary</em>, <em>The NoSleep Podcast</em>, Flame Tree, and <em>Cosmic Horror Monthly</em>, among other places. She also co-edited <em>Howls from the Scene of the Crime: An Anthology of Crime Horror</em> (Howl Society Press, May 2024). You can find her on Bluesky at <a href='https://bsky.app/profile/jessicapeter.bsky.social'>@jessicapeter.bsky.social</a>, or at <a href='www.jessicapeter.net'>www.jessicapeter.net</a>.</p>",
+      twitter: null,
       facebook: null,
-      url: null,
-      image: data.danai.childImageSharp.gatsbyImageData,
+      url: "www.jessicapeter.net",
+    image: data.jessica.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -95,6 +95,11 @@ const About = ({ data }) => {
       bio: "Rukman Ragas, Former Associate Editor",
       url: "<a href='https://rukmanragas.com'>rukmanragas.com</a>",
       image: data.rukman.childImageSharp.gatsbyImageData,
+    },
+    {
+      bio: "Danai Christopoulou, Former Poetry Editor",
+      url: "<a href='https://lnk.bio/danaiwrites'>lnk.bio/danaiwrites</a>",
+      image: data.danai.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -296,7 +301,7 @@ export const query = graphql`
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }
-    danai: file(relativePath: { eq: "profile/Danai_Christopoulou.jpg" }) {
+    jessica: file(relativePath: { eq: "profile/Jessica_Peter.jpg" }) {
       childImageSharp {
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
@@ -341,6 +346,12 @@ export const query = graphql`
         gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
       }
     }
+    danai: file(relativePath: { eq: "profile/Danai_Christopoulou.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
+      }
+    }
+    
   }
 `;
 

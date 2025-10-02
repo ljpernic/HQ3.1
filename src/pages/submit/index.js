@@ -68,14 +68,14 @@ const Submit = (props) => {
                   <li className="listWindow"><u>September:</u> Closed to Submissions</li>  
               </div>
             </div>
-            <p>
-              <br />
-              Haven Spec Magazine is currently <strong>closed</strong> to all submissions. 
-            </p>
             {/* <p>
               <br />
-              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction. 
+              Haven Spec Magazine is currently <strong>closed</strong> to all submissions. 
             </p> */}
+            <p>
+              <br />
+              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction. 
+            </p>
             <p>
               Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
               authors of color, members of LGBTQIA+ communities, and writers belonging to other underrepresented groups; a month open to general 
