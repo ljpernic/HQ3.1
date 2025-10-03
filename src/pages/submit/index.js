@@ -77,7 +77,7 @@ const Submit = (props) => {
               Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction. 
             </p>
             <p>
-              Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
+              <strong>Reading periods:</strong> Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
               authors of color, members of LGBTQIA+ communities, and writers belonging to other underrepresented groups; a month open to general 
               submissions, during which anyone may submit; and a month in which we're closed to submissions so that we may do the difficult (and 
               exciting!) work of choosing content for future issues.
@@ -90,7 +90,9 @@ const Submit = (props) => {
               unless it contains something illegal, will be kept in confidence.
             </p>
             <p>
-                When in doubt, don't self reject! Submit submit submit! 
+              <strong>A brief note on AI/LLMs:</strong> Haven Spec Magazine is only interested in stories, poems, and art created by humans (and maybe very smart 
+              whales). Please do not use AI or LLMs to generate your fiction, poetry, or art, in part or in whole. Any submissions which are 
+              determined by our editorial team to have used AI or LLMs will be rejected.
             </p>
               </div>
             <div className='content-div-dynamic'>
