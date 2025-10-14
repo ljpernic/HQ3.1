@@ -92,6 +92,11 @@ const About = ({ data }) => {
     image: data.ash.childImageSharp.gatsbyImageData,
     },
     {
+      bio: "Evelyn Freeling, Former Associate Editor",
+      url: "",
+    image: data.evelyn.childImageSharp.gatsbyImageData,
+    },
+    {
       bio: "Rukman Ragas, Former Associate Editor",
       url: "<a href='https://rukmanragas.com'>rukmanragas.com</a>",
       image: data.rukman.childImageSharp.gatsbyImageData,
@@ -336,6 +341,11 @@ export const query = graphql`
         gatsbyImageData(width: 180, height: 180, layout: FIXED, placeholder: BLURRED)
       }
     }                  
+    evelyn: file(relativePath: { eq: "profile/Evelyn_Freeling.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
+      }
+    }
     ash: file(relativePath: { eq: "profile/Ash_Okada.png" }) {
       childImageSharp {
         gatsbyImageData(width: 75, height: 75, layout: FIXED, placeholder: BLURRED)
