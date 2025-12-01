@@ -74,7 +74,7 @@ const Submit = (props) => {
             </p> */}
             <p>
               <br />
-              Haven Spec Magazine is currently <strong>open</strong> to fiction and poetry submissions. We remain closed to art and non-fiction. 
+              Haven Spec Magazine is <strong>closed</strong> to all submissions this month but will open again in January.
             </p>
             <p>
               <strong>Reading periods:</strong> Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
