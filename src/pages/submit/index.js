@@ -269,7 +269,7 @@ const Submit = (props) => {
             </div>
 
             <div style={{padding: '30px 0px 30px 0px'}}>
-            <a href="https://acolyte.media">
+            <a href="https://havenspec.acolyte.media">
             <button type="button" className="collapsible">Go to Submission Form</button>
             </a>
             </div>
