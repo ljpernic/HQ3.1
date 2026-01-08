@@ -42,13 +42,13 @@ const Submit = (props) => {
                     </h3>
             <div className="grid-container reverseFlow">
               <div className="subWindows">
-              <h5>Spring Submissions Period</h5>
+              <h5>Spring Reading Period</h5>
                   <li className="listWindow"><u>April:</u> Limited Demographic Window</li>  
                   <li className="listWindow"><u>May:</u> General Submissions Window</li>  
                   <li className="listWindow"><u>June:</u> Closed to Submissions</li>  
               </div>
               <div className="subWindows">
-              <h5>Winter Submissions Period</h5>
+              <h5>Winter Reading Period</h5>
                   <li className="listWindow"><u>January:</u> Limited Demographic Window</li>  
                   <li className="listWindow"><u>February:</u> General Submissions Window</li>  
                   <li className="listWindow"><u>March:</u> Closed to Submissions</li>  
@@ -56,34 +56,27 @@ const Submit = (props) => {
             </div>
               <div className="grid-container reverseFlow">
               <div className="subWindows">
-              <h5>Fall Submissions Period</h5>
+              <h5>Fall Reading Period</h5>
                   <li className="listWindow"><u>October:</u> Limited Demographic Window</li>  
                   <li className="listWindow"><u>November:</u> General Submissions Window</li>  
                   <li className="listWindow"><u>December:</u> Closed to Submissions</li>  
               </div>
               <div className="subWindows">
-              <h5>Summer Submissions Period</h5>
+              <h5>Summer Reading Period</h5>
                   <li className="listWindow"><u>July:</u> Limited Demographic Window</li>  
                   <li className="listWindow"><u>August:</u> General Submissions Window</li>  
                   <li className="listWindow"><u>September:</u> Closed to Submissions</li>  
               </div>
             </div>
-            {/* <p>
-              <br />
-              Haven Spec Magazine is currently <strong>closed</strong> to all submissions. 
-            </p> */}
-            <p>
-              <br />
-              Haven Spec Magazine is <strong>closed</strong> to all submissions this month but will open again in January.
-            </p>
             <p>
               <strong>Reading periods:</strong> Our submission cycle is split into four reading periods, each containing three parts: a month explicity reserved for submissions by 
               authors of color, members of LGBTQIA+ communities, and writers belonging to other underrepresented groups; a month open to general 
               submissions, during which anyone may submit; and a month in which we're closed to submissions so that we may do the difficult (and 
-              exciting!) work of choosing content for future issues.
+              exciting!) work of choosing content for future issues. We usually open around 12:00 PM Eastern on the first of each month that we're 
+              open to submissions, but if we forget, feel free to give us a little nudge.
             </p>
             <p>
-              Our goal remains to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
+              <strong>Diverse voices:</strong> Our goal remains to publish diverse voices from around the world, and to do that, we are actively seeking stories, poems, and 
               non-fiction pieces by authors from backgrounds that have been historically underrepresented in the science fiction and fantasy 
               canon. As writers ourselves, we do our best to handle what you send us with the care and attention it deserves. Every submission is an 
               act of bravery, and we know that putting yourself out there as a writer can be tough. Just know that any submission we receive, 
